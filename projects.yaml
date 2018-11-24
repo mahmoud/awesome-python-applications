@@ -1,0 +1,243 @@
+---
+projects:
+  - name: Sentry
+    desc: Exception aggregation and reporting service
+    gh_url: https://github.com/getsentry/sentry
+    wp_url: ""
+    docs_url: ""
+    tags: web-service, internet, flask, corporate, bsd
+
+## Audio
+  - name: MusicBrainz Picard
+    repo_url: https://github.com/metabrainz/picard
+  - name: Exaile
+    repo_url: https://github.com/exaile/exaile
+  - name: Quod Libet
+    repo_url: https://github.com/quodlibet/quodlibet
+  - name: Frescobaldi
+    repo_url: https://github.com/wbsoft/frescobaldi
+    wp_url: https://en.wikipedia.org/wiki/Frescobaldi_(software)
+  - name: SoundConverter
+    repo_url: https://github.com/kassoulet/soundconverter
+  - name: PuddleTag
+    repo_url: https://github.com/keithgg/puddletag/
+  - name: GNU Radio
+    repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
+  - name: GNU Solfege
+    repo_url: http://git.savannah.gnu.org/cgit/solfege.git
+    wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
+
+## Video
+  - name: Pitivi
+    repo_url: https://gitlab.gnome.org/GNOME/pitivi
+  - name: Plumi
+    repo_url: https://github.com/plumi/plumi.app
+  - name: Flowblade
+    repo_url: https://github.com/jliljebl/flowblade
+    wp_url: https://en.wikipedia.org/wiki/Flowblade
+
+## Graphics
+
+  - name: FreeCAD
+    repo_url: https://github.com/FreeCAD/FreeCAD
+    wp_url: https://en.wikipedia.org/wiki/FreeCAD
+  - name: OpenShot
+    repo_url: https://github.com/OpenShot/openshot-qt
+    wp_url: https://en.wikipedia.org/wiki/OpenShot
+  - name: MyPaint
+    repo_url: https://github.com/mypaint/mypaint
+  - name: SK1
+    repo_url: https://github.com/sk1project/sk1-wx
+    home_url: https://sk1project.net/  #  (forked from skencil)
+  - name: OCRFeeder
+    repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
+    wp_url: https://en.wikipedia.org/wiki/OCRFeeder
+  - name: OCRopus
+    repo_url: https://github.com/tmbdev/ocropy
+    wp_url: https://en.wikipedia.org/wiki/OCRopus
+
+## Games
+
+  - name: Frets on Fire X
+    repo_url: https://github.com/fofix/fofix
+    see_also: https://github.com/fretsonfire/fof-python
+  - name: Unknown Horizons
+    repo_url: https://github.com/unknown-horizons/unknown-horizons
+  - name: PyChess
+    repo_url: https://github.com/pychess/pychess
+    home_url: http://pychess.org/
+  - name: PySolFC  # solitaire games
+    repo_url: https://github.com/shlomif/PySolFC
+
+## Productivity
+  - name: Autokey
+    repo_url: https://github.com/autokey/autokey
+  - name: Bleachbit
+    repo_url: https://github.com/bleachbit/bleachbit
+    home_url: https://www.bleachbit.org/
+  - name: Canto
+    repo_url: https://github.com/themoken/canto-next
+    wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
+  - name: ClamAV
+    repo_url: https://github.com/clamwin/clamav-win32
+    home_url: http://www.clamwin.com/
+  - name: Metamorphose
+    repo_url: https://github.com/metamorphose/metamorphose2
+  - name: Bup
+    repo_url: https://github.com/Bup/Bup
+  - name: Attic
+    repo_url: https://github.com/jborg/attic  # backup
+  - name: gmvault
+    repo_url: https://github.com/gaubert/gmvault
+  - name: nvda
+    repo_url: https://github.com/nvaccess/nvda  # screenreader software
+  - name: Ranger
+    repo_url: https://github.com/ranger/ranger
+
+## Organization
+
+  - name: Calibre
+    repo_url: https://github.com/kovidgoyal/calibre/
+  - name: PyMedusa
+    repo_url: https://github.com/pymedusa/Medusa
+  - name: Gramps
+    repo_url: https://github.com/gramps-project/gramps
+  - name: Invenio
+    repo_url: https://github.com/inveniosoftware/invenio
+  - name: Zim Wiki
+    repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
+  - name: Wikid Pad
+    repo_url: https://github.com/WikidPad/WikidPad
+    home_url: http://wikidpad.sourceforge.net/
+  - name: OpenLibrary
+    repo_url: https://github.com/internetarchive/openlibrary
+    wp_url: https://en.wikipedia.org/wiki/Open_Library
+
+## Messaging and Collaboration
+
+  - name: Bitmessage
+    repo_url: https://github.com/Bitmessage/PyBitmessage
+  - name: Gajim
+    repo_url: https://dev.gajim.org/gajim/gajim
+    wp_url: https://en.wikipedia.org/wiki/Gajim
+  - name: RapidSMS
+    repo_url: https://github.com/rapidsms/rapidsms
+  - name: Synapse
+    repo_url: https://github.com/matrix-org/synapse
+  - name: Mailman
+    repo_url: https://gitlab.com/mailman/mailman
+  - name: Mailpile
+    repo_url: https://github.com/mailpile/Mailpile
+  - name: GlobaLeaks
+    repo_url: https://github.com/globaleaks/GlobaLeaks
+
+## Education
+
+  - name: Anki
+    repo_url: https://github.com/dae/anki
+  - name: Mnemosyne
+    repo_url: https://github.com/mnemosyne-proj/mnemosyne
+  - name: EdX Platform
+    repo_url: https://github.com/edx/edx-platform
+
+## Science
+
+  - name: ASCEND
+    repo_url: http://code.ascend4.org/ascend/trunk/
+    wp_url: https://en.wikipedia.org/wiki/ASCEND
+    home_url: http://ascend4.org/Main_Page
+  - name: AnuGA
+    repo_url: https://github.com/GeoscienceAustralia/anuga_core
+  - name: Orange
+    repo_url: https://github.com/biolab/orange3
+    wp_url: https://en.wikipedia.org/wiki/Orange_(software)
+  - name: CellProfiler
+    repo_url: https://github.com/CellProfiler/CellProfiler
+  - name: Veusz
+    repo_url: https://github.com/veusz/veusz
+  - name: Mayavi
+    repo_url: https://github.com/enthought/mayavi
+  - name: Pybliographer
+    repo_url: https://github.com/GNOME/pybliographer
+    home_url: https://pybliographer.org/
+
+## Static Site Generators
+
+  - name: Pelican
+    home_url: https://blog.getpelican.com
+  - name: Nikola
+    home_url: https://www.getnikola.com
+  - name: Cactus
+    repo_url: https://github.com/eudicots/Cactus
+  - name: Hyde
+    home_url: http://hyde.github.io/
+
+## Security
+  - name: MITMproxy
+    repo_url: https://github.com/mitmproxy/mitmproxy
+  - name: XSStrike
+    repo_url: https://github.com/s0md3v/XSStrike
+  - name: PyEW
+    repo_url: https://github.com/joxeankoret/pyew
+  - name: Cowrie
+    repo_url: https://github.com/cowrie/cowrie
+
+
+
+## CMS
+
+  - name: Ella
+    repo_url: https://github.com/ella/ella
+  - name: Django-CMS
+    repo_url: https://github.com/divio/django-cms
+  - name: Wagtail
+    repo_url: https://github.com/wagtail/wagtail
+  - name: Plone
+    repo_url: https://en.wikipedia.org/wiki/Plone_(software)
+  - name: Mezzanine
+    repo_url: https://github.com/stephenmcd/mezzanine
+  - name: Lektor
+    repo_url: https://github.com/lektor/lektor
+    home_url: https://www.getlektor.com/
+  - name: Saleor
+    repo_url: https://github.com/mirumee/saleor/  # storefront
+
+## ERP
+
+  - name: ERPNext
+    repo_url: https://github.com/frappe/erpnext
+  - name: Odoo
+    repo_url: https://github.com/odoo/odoo
+
+
+---
+Categories:
+  - Audio (Players, Editors (includes tag editors))
+  - Video (Players, Editors)
+  - Graphics
+  - Science
+  - Games (includes educational games/flashcards)
+  - Chat (communication?)
+  - Organization (and writing?)
+  - Translation
+  - Source code authoring
+  - Source code management (and review?)
+  - Package management
+  - Services
+
+Need a category for torrents, feedreaders, etc.
+
+Other tags:
+  - gtk
+  - qt
+  - wx
+  - desktop
+  - mobile
+  - django
+  - twisted
+  - windows
+  - mac
+  - linux
+  - docker
+  - rpm
+  - deb

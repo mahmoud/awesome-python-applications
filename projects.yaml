@@ -1,11 +1,14 @@
 ---
 projects:
-  - name: Sentry
-    desc: Exception aggregation and reporting service
-    gh_url: https://github.com/getsentry/sentry
-    wp_url: ""
-    docs_url: ""
-    tags: web-service, internet, flask, corporate, bsd
+## COMPLETE FORMAT:
+  # - name: Project Name
+  # - repo_url: github or bitbucket or other web link to code
+  # - wp_url: Wikipedia URL if there is one
+  # - docs_url: URL to docs
+  # - home_url: Home page if not one of the above
+  # - tags: ["", ""]  # see full taxonomy elsewhere in this file
+  # - desc: A handy app for stuff
+
 
 ## Audio
   - name: MusicBrainz Picard
@@ -41,6 +44,9 @@ projects:
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
+  - name: MakeHuman
+    wp_url: https://en.wikipedia.org/wiki/MakeHuman
+    repo_url: https://bitbucket.org/MakeHuman/makehuman
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     wp_url: https://en.wikipedia.org/wiki/OpenShot
@@ -113,8 +119,12 @@ projects:
     repo_url: https://github.com/internetarchive/openlibrary
     wp_url: https://en.wikipedia.org/wiki/Open_Library
 
-## Messaging and Collaboration
+## Communication
 
+  - name: Synapse
+    repo_url: https://github.com/matrix-org/synapse
+  - name: Zulip
+    repo_url: https://github.com/zulip/zulip
   - name: Bitmessage
     repo_url: https://github.com/Bitmessage/PyBitmessage
   - name: Gajim
@@ -122,14 +132,64 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Gajim
   - name: RapidSMS
     repo_url: https://github.com/rapidsms/rapidsms
-  - name: Synapse
-    repo_url: https://github.com/matrix-org/synapse
   - name: Mailman
     repo_url: https://gitlab.com/mailman/mailman
   - name: Mailpile
     repo_url: https://github.com/mailpile/Mailpile
   - name: GlobaLeaks
     repo_url: https://github.com/globaleaks/GlobaLeaks
+  - name: MoinMoin
+    repo_url: https://github.com/mirror/moin-2.0
+    wp_url: https://en.wikipedia.org/wiki/MoinMoin
+  - name: Askbot
+    repo_url: https://github.com/ASKBOT/askbot-devel
+  - name: OfflineIMAP
+    repo_url: https://github.com/OfflineIMAP/offlineimap
+    wp_url: https://en.wikipedia.org/wiki/OfflineIMAP
+  - name: Pootle
+    wp_url: https://en.wikipedia.org/wiki/Pootle
+    home_url: http://pootle.translatehouse.org/
+    repo_url: https://github.com/translate/pootle
+  - name: Virtaal
+    repo_url: https://github.com/translate/virtaal
+  - name: Weblate
+    repo_url: https://github.com/WeblateOrg/weblate
+  - name: pycsw
+    repo_url: https://github.com/geopython/pycsw
+    wp_url: https://en.wikipedia.org/wiki/Pycsw
+  - name: Seafile
+    repo_url: https://github.com/haiwen/seahub
+    wp_url: https://en.wikipedia.org/wiki/Seafile
+  - name: Helios Voting
+    repo_url: https://github.com/benadida/helios-server
+  - name: TahoeLAFS
+    wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
+    home_url: https://tahoe-lafs.org/trac/tahoe-lafs
+    repo_url: https://github.com/tahoe-lafs/tahoe-lafs
+  - name: Ubiquity  # ubuntu installer
+    wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
+    repo_url: https://code.launchpad.net/ubiquity
+
+## Internet
+  - name: Reddit
+    repo_url: https://github.com/reddit-archive/reddit
+  - name: Planet
+    wp_url: https://en.wikipedia.org/wiki/Planet_(software)
+    repo_url: https://github.com/python/planet/tree/master/code/planet
+    see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
+  - name: Deluge
+    repo_url: https://github.com/deluge-torrent/deluge
+  - name: Tribler
+    repo_url: https://github.com/Tribler/tribler
+    wp_url: https://en.wikipedia.org/wiki/Tribler
+  - name: Qute Browser
+    repo_url: https://github.com/qutebrowser/qutebrowser
+  - name: youtube-dl
+    repo_url: https://github.com/rg3/youtube-dl
+    home_url: http://rg3.github.io/youtube-dl/
+  - name: You-Get
+    repo_url: https://github.com/soimort/you-get
+    home_url: https://you-get.org/
 
 ## Education
 
@@ -164,25 +224,18 @@ projects:
 ## Static Site Generators
 
   - name: Pelican
+    repo_url: https://github.com/getpelican/pelican
     home_url: https://blog.getpelican.com
   - name: Nikola
+    repo_url: https://github.
     home_url: https://www.getnikola.com
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
   - name: Hyde
+    repo_url: https://github.com/hyde/hyde
     home_url: http://hyde.github.io/
-
-## Security
-  - name: MITMproxy
-    repo_url: https://github.com/mitmproxy/mitmproxy
-  - name: XSStrike
-    repo_url: https://github.com/s0md3v/XSStrike
-  - name: PyEW
-    repo_url: https://github.com/joxeankoret/pyew
-  - name: Cowrie
-    repo_url: https://github.com/cowrie/cowrie
-
-
+  - name: Chert  # blatant self-plug
+    repo_url: https://github.com/mahmoud/chert
 
 ## CMS
 
@@ -208,6 +261,222 @@ projects:
     repo_url: https://github.com/frappe/erpnext
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
+
+## Software development
+
+  - name: Sentry
+    desc: Exception aggregation and reporting service
+    gh_url: https://github.com/getsentry/sentry
+    wp_url: ""
+    docs_url: ""
+    tags: web-service, internet, flask, corporate, bsd
+  - name: Pagure
+    home_url: https://pagure.io/pagure/
+  - name: Allura
+    repo_url: https://github.com/apache/allura
+    wp_url: https://en.wikipedia.org/wiki/Apache_Allura
+  - name: Coala
+    repo_url: https://github.com/coala/coala
+  - name: Meld
+    repo_url: https://github.com/GNOME/meld
+  - name: CoCalc
+    repo_url: https://github.com/sagemathinc/cocalc
+    wp_url: https://en.wikipedia.org/wiki/CoCalc
+  - name: Sage Math
+    wp_url: https://en.wikipedia.org/wiki/SageMath
+    repo_url: https://git.sagemath.org/sage.git/
+  - name: asciidoc
+    repo_url: https://github.com/asciidoc/asciidoc
+  - name: Sphinx
+    repo_url: https://github.com/sphinx-doc/sphinx
+  - name: Meson
+    repo_url: https://github.com/mesonbuild/meson
+  - name: Robot Framework
+    repo_url: https://github.com/robotframework/robotframework
+  - name: Review Board
+    repo_url: https://github.com/reviewboard/reviewboard
+  - name: TortoiseHg
+    repo_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
+    home_url: https://tortoisehg.bitbucket.io/
+  - name: IPython
+    repo_url: https://github.com/ipython/ipython
+  - name: Jupyter Notebook
+    repo_url: https://github.com/jupyter/notebook
+  - name: Locust
+    repo_url: https://github.com/locustio/locust
+
+## Editors
+  - name: Spyder IDE
+    repo_url: https://github.com/spyder-ide/spyder
+  - name: Komodo Edit
+    repo_url: https://github.com/Komodo/KomodoEdit
+  - name: Thonny
+    repo_url: https://bitbucket.org/plas/thonny/src
+    wp_url: https://en.wikipedia.org/wiki/Thonny
+  - name: Ninja IDE
+    repo_url: https://github.com/ninja-ide/ninja-ide
+    wp_url: https://en.wikipedia.org/wiki/Thonny
+  - name: Eric IDE
+    home_url: https://eric-ide.python-projects.org/
+    repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
+  - name: Gedit
+    repo_url: https://gitlab.gnome.org/GNOME/gedit/
+  - name: Pluma
+    repo_url: https://github.com/mate-desktop/pluma
+  - name: Leo Editor
+    repo_url: https://github.com/leo-editor/leo-editor
+
+
+## Security
+  - name: MITMproxy
+    repo_url: https://github.com/mitmproxy/mitmproxy
+  - name: XSStrike
+    repo_url: https://github.com/s0md3v/XSStrike
+  - name: PyEW
+    repo_url: https://github.com/joxeankoret/pyew
+  - name: Cowrie
+    repo_url: https://github.com/cowrie/cowrie
+
+## Code management
+  - name: Mercurial
+    home_url: https://www.mercurial-scm.org/repo/hg/
+    repo_url: https://www.mercurial-scm.org/repo/hg-stable
+    wp_url: https://en.wikipedia.org/wiki/Mercurial
+  - name: Roundup
+    wp_url: https://en.wikipedia.org/wiki/Roundup_(issue_tracker)
+    repo_url: http://hg.code.sf.net/p/roundup/code
+  - name: GNU Bazaar
+    repo_url: https://code.launchpad.net/bzr
+    wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
+  - name: Trac
+    repo_url: https://github.com/edgewall/trac
+    wp_url: https://en.wikipedia.org/wiki/Trac
+  - name: ViewVC
+    repo_url: https://github.com/viewvc/viewvc/
+  - name: Kallithea
+    repo_url: https://kallithea-scm.org/repos/kallithea
+  - name: RhodeCode
+    home_url: https://code.rhodecode.com/rhodecode-enterprise-ce
+    wp_url: https://en.wikipedia.org/wiki/RhodeCode
+  - name: Rietveld
+    repo_url: https://github.com/rietveld-codereview/rietveld
+  - name: Patchwork
+    repo_url: https://github.com/getpatchwork/patchwork
+    home_url: http://jk.ozlabs.org/projects/patchwork/
+
+## Package management
+  - name: pip
+    repo_url: https://github.com/pypa/pip
+    home_url: https://pip.pypa.io/en/stable/
+  - name: Portage
+    repo_url: https://anongit.gentoo.org/git/proj/portage.git
+    wp_url: https://en.wikipedia.org/wiki/Portage_(software)
+  - name: Conda
+    home_url: https://conda.io/
+    repo_url: https://github.com/conda/conda
+  - name: Solaris IPS
+    repo_url: https://github.com/oracle/solaris-ips
+  - name: yum
+    repo_url: https://github.com/rpm-software-management/yum
+  - name: dnf
+    repo_url: https://github.com/rpm-software-management/dnf
+
+## Package repositories
+  - name: Warehouse
+    repo_url: https://github.com/pypa/warehouse
+  - name: Bandersnatch
+    repo_url: https://github.com/pypa/bandersnatch
+  - name: devpi
+    repo_url: https://github.com/devpi/devpi
+
+## Build tools
+  - name: SCons
+    repo_url: https://github.com/SCons/scons
+    home_url: http://scons.org/
+  - name: bitbake
+    repo_url: https://github.com/openembedded/bitbake
+  - name: Buildout
+    repo_url: https://github.com/buildout/buildout
+    docs_url: http://docs.buildout.org/
+  - name: buildbot
+    repo_url: https://github.com/buildbot/buildbot
+    docs_url: https://www.buildbot.net/
+  - name: GYP
+    repo_url: https://chromium.googlesource.com/external/gyp
+  - name: Waf
+    home_url: https://waf.io/
+    repo_url: https://gitlab.com/ita1024/waf
+
+## Shells
+  - name: Oil
+    repo_url: https://github.com/oilshell/oil
+    home_url: http://www.oilshell.org/
+  - name: Xonsh
+    repo_url: https://github.com/xonsh/xonsh
+  - name: Ergonomica
+    repo_url: https://github.com/ergonomica/ergonomica
+    docs_url: http://ergonomica.readthedocs.io/
+
+## Ops
+  - name: OpenStack
+    repo_url: https://git.openstack.org/cgit/openstack/openstack/tree/
+    home_url: https://www.openstack.org/
+    docs_url: https://docs.openstack.org/rocky/
+  - name: Salt Stack
+    repo_url: https://github.com/saltstack/salt
+    home_url: https://repo.saltstack.com/
+  - name: Ansible
+    repo_url: https://github.com/ansible/ansible
+    docs_url: https://docs.ansible.com/ansible/
+    home_url: https://www.ansible.com/
+  - name: Shinken
+    repo_url: https://github.com/naparuba/shinken
+  - name: StackStorm ST2
+    repo_url: https://github.com/StackStorm/st2
+  - name: Cobbler
+    repo_url: https://github.com/Cobbler/Cobbler
+    wp_url: https://en.wikipedia.org/wiki/Cobbler_(software)
+  - name: Ganeti
+    repo_url: https://github.com/ganeti/ganeti
+    home_url: http://www.ganeti.org/
+  - name: fail2ban
+    home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
+    repo_url: https://github.com/fail2ban/fail2ban
+    wp_url: https://en.wikipedia.org/wiki/Fail2ban
+
+## Misc / To File
+  - name: Gunicorn
+    repo_url: https://github.com/benoitc/gunicorn
+  - name: JARVIS on Messenger
+    repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
+  - name: OpenLP
+    home_url: https://openlp.org/
+    repo_url: https://launchpad.net/openlp
+  - name: Nicotine+
+    repo_url: https://github.com/Nicotine-Plus/nicotine-plus
+  - name: Graph Tool
+    repo_url: https://bitbucket.org/MakeHuman/makehuman
+    wp_url: https://en.wikipedia.org/wiki/MakeHuman
+  - name: Guake
+    repo_url: https://github.com/Guake/guake
+    home_url: http://guake-project.org/
+  - name: Neubot
+    repo_url: https://github.com/neubot/neubot
+  - name: Nimbus
+    repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
+  - name: Xpra
+    home_url: http://xpra.org/
+    repo_url: https://xpra.org/svn/Xpra/trunk/
+  - name: Wicd
+    wp_url: https://en.wikipedia.org/wiki/Wicd
+    home_url: http://wicd.sourceforge.net/download.php
+    repo_url: https://code.launchpad.net/wicd/
+  - name: qtile
+    repo_url: https://github.com/qtile/qtile
+    home_url: http://qtile.org/
+  - name:
+  # - name: getmail  # tarballs only, no repo?
+  #   home_url: http://pyropus.ca/software/getmail/
 
 
 ---
@@ -241,3 +510,52 @@ Other tags:
   - docker
   - rpm
   - deb
+
+---
+# tagsonomy
+
+- architecture: # (?)
+    - desktop:
+        - gtk
+        - qt
+        - wx
+        - pygame
+        - other
+    - network:
+        - flask
+        - django
+        - twisted
+        - gevent
+        - other
+    - mobile:
+        - beeware
+        - kivy
+- platform:
+    - desktop:
+      - windows
+      - mac
+      - linux
+    - console
+    - mobile
+    - browser
+    - server (separate docker?)
+- topic:
+    - internet
+    - audio
+    - video
+    - graphics
+    - games
+    - productivity
+    - organization
+    - communication  # messaging & collab
+    - education
+    - science
+    - cms
+    - erp
+    - static_site
+    - dev:
+        - scm
+        - code_review
+        - ops
+        - security
+    - misc

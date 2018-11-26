@@ -14,7 +14,6 @@ that other application developers can copy and learn from.
 * MusicBrainz Picard
 * https://github.com/exaile/exaile - Music Player
 * https://github.com/quodlibet/quodlibet/ - Music Player
-* https://gitlab.gnome.org/GNOME/pitivi
 * https://github.com/wbsoft/frescobaldi / https://en.wikipedia.org/wiki/Frescobaldi_(software)
 * soundconverter: https://github.com/kassoulet/soundconverter
 * GNU Radio: https://www.gnuradio.org/
@@ -23,6 +22,7 @@ that other application developers can copy and learn from.
 
 # Video
 
+* https://gitlab.gnome.org/GNOME/pitivi
 * https://github.com/plumi/plumi.app
 * https://github.com/jliljebl/flowblade / https://en.wikipedia.org/wiki/Flowblade
 
@@ -93,6 +93,7 @@ that other application developers can copy and learn from.
 * https://github.com/inveniosoftware/invenio
 * https://github.com/jaap-karssenberg/zim-desktop-wiki
 * https://github.com/internetarchive/openlibrary / https://en.wikipedia.org/wiki/Open_Library
+* http://wikidpad.sourceforge.net/
 
 # Science
 
@@ -108,7 +109,6 @@ that other application developers can copy and learn from.
 
 * https://github.com/autokey/autokey
 * https://github.com/bleachbit/bleachbit / https://www.bleachbit.org/
-* http://wikidpad.sourceforge.net/
 * https://github.com/themoken/canto-next / https://en.wikipedia.org/wiki/Canto_(news_aggregator)
 * https://github.com/clamwin/clamav-win32 / http://www.clamwin.com/
 * https://github.com/metamorphose/metamorphose2 (organization?)
@@ -152,8 +152,7 @@ that other application developers can copy and learn from.
 
 # TO FILE
 
-* plotly/dash
-* https://dev.gajim.org/gajim/gajim
+* * https://dev.gajim.org/gajim/gajim
 * OpenLP
 * Nicotine+: https://github.com/Nicotine-Plus/nicotine-plus
 * https://bitbucket.org/MakeHuman/makehuman/src / https://en.wikipedia.org/wiki/MakeHuman

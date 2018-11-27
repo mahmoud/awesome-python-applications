@@ -13,31 +13,42 @@ projects:
 ## Audio
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
+    tags: ["audio"]
   - name: Exaile
     repo_url: https://github.com/exaile/exaile
+    tags: ["audio"]
   - name: Quod Libet
     repo_url: https://github.com/quodlibet/quodlibet
+    tags: ["audio"]
   - name: Frescobaldi
     repo_url: https://github.com/wbsoft/frescobaldi
     wp_url: https://en.wikipedia.org/wiki/Frescobaldi_(software)
+    tags: ["audio"]
   - name: SoundConverter
     repo_url: https://github.com/kassoulet/soundconverter
+    tags: ["audio"]
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag/
+    tags: ["audio"]
   - name: GNU Radio
     repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
+    tags: ["audio"]
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
+    tags: ["audio"]
 
 ## Video
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
+    tags: ["video"]
   - name: Plumi
     repo_url: https://github.com/plumi/plumi.app
+    tags: ["video"]
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
+    tags: ["video"]
 
 ## Graphics
 
@@ -478,84 +489,53 @@ projects:
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
 
-
----
-Categories:
-  - Audio (Players, Editors (includes tag editors))
-  - Video (Players, Editors)
-  - Graphics
-  - Science
-  - Games (includes educational games/flashcards)
-  - Chat (communication?)
-  - Organization (and writing?)
-  - Translation
-  - Source code authoring
-  - Source code management (and review?)
-  - Package management
-  - Services
-
-Need a category for torrents, feedreaders, etc.
-
-Other tags:
-  - gtk
-  - qt
-  - wx
-  - desktop
-  - mobile
-  - django
-  - twisted
-  - windows
-  - mac
-  - linux
-  - docker
-  - rpm
-  - deb
-
----
-# tagsonomy
-
-- architecture: # (?)
-    - desktop:
-        - gtk
-        - qt
-        - wx
-        - pygame
-        - other
-    - network:
-        - flask
-        - django
-        - twisted
-        - gevent
-        - other
-    - mobile:
-        - beeware
-        - kivy
-- platform:
-    - desktop:
-      - windows
-      - mac
-      - linux
-    - console
-    - mobile
-    - browser
-    - server (separate docker?)
-- topic:
-    - internet
-    - audio
-    - video
-    - graphics
-    - games
-    - productivity
-    - organization
-    - communication  # messaging & collab
-    - education
-    - science
-    - cms
-    - erp
-    - static_site
-    - dev:
-        - scm
-        - code_review
-        - ops
-        - security
-    - misc
+tagsonomy:
+  architecture: # (?)
+      - desktop:
+          - gtk
+          - qt
+          - wx
+          - pygame
+          - other
+      - network:
+          - flask
+          - django
+          - twisted
+          - gevent
+          - other
+      # - mobile:  # not actually used atm
+      #    - beeware
+      #    - kivy
+  platform:
+      - desktop:
+        - windows
+        - mac
+        - linux
+      - console
+      - mobile
+      - browser
+      - server (separate docker?)
+  topic:
+      - internet
+      - audio
+      - video
+      - graphics
+      - games
+      - productivity
+      - organization
+      - communication  # messaging & collab
+      - education
+      - science
+      - cms:
+          title: CMS
+      - erp:
+          title: ERP
+      - static_site
+      - dev:
+          subtags:
+            - scm:
+                title: SCM
+            - code_review
+            - ops
+            - security
+      - misc

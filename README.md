@@ -9,6 +9,12 @@ works for applications. This list features Python applications that
 target an audience beyond developers, and share their code in a way
 that other application developers can copy and learn from.
 
+**NOTE**: This repo is under heavy development, and should be
+considered **PRERELEASE**. Specifically, this list is being
+transitioned to being data-driven (see `projects.yaml`, which already
+contains much more than what's listed below). Feel free to open
+issues, and contributions will be welcomed very soon. Thanks for your patience!
+
 # Audio
 
 * MusicBrainz Picard

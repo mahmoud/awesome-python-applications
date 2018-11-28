@@ -55,23 +55,30 @@ projects:
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
+    tags: ["graphics"]
   - name: MakeHuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
+    tags: ["graphics"]
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     wp_url: https://en.wikipedia.org/wiki/OpenShot
+    tags: ["graphics"]
   - name: MyPaint
     repo_url: https://github.com/mypaint/mypaint
+    tags: ["graphics"]
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
     home_url: https://sk1project.net/  #  (forked from skencil)
+    tags: ["graphics"]
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder
+    tags: ["graphics"]
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
+    tags: ["graphics"]
 
 ## Games
 
@@ -353,6 +360,7 @@ projects:
     home_url: https://www.mercurial-scm.org/repo/hg/
     repo_url: https://www.mercurial-scm.org/repo/hg-stable
     wp_url: https://en.wikipedia.org/wiki/Mercurial
+    tags: ["scm"]
   - name: Roundup
     wp_url: https://en.wikipedia.org/wiki/Roundup_(issue_tracker)
     repo_url: http://hg.code.sf.net/p/roundup/code
@@ -490,6 +498,7 @@ projects:
   #   home_url: http://pyropus.ca/software/getmail/
 
 tagsonomy:
+  # NOTE: order here controls order of the rendered text
   architecture: # (?)
       - desktop:
           - gtk

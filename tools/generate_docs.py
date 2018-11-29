@@ -9,16 +9,36 @@ TOOLS_PATH = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/templates/'
 
 house = u"\u2302"
-
+BULLET = '*'
 
 @attr.s(frozen=True)
 class TagEntry(object):
     tag = attr.ib()
     tag_type = attr.ib()
     title = attr.ib()
+    desc = attr.ib(default='')
     subtags = attr.ib(default=None, repr=False)
     supertag = attr.ib(default=None, repr=False)
     fq_tag = attr.ib(default=None)
+
+
+@attr.s(frozen=True)
+class Project(object):
+    name = attr.ib()
+    desc = attr.ib(default='')
+    tags = attr.ib(default=())
+    urls = attr.ib(default=())
+
+    @classmethod
+    def from_dict(cls, d):
+        kwargs = dict(d)
+        for k in list(kwargs):
+            cur_urls = ()
+            if not k.endswith('_url'):
+                continue
+            cur_urls += ((k[:-4], kwargs.pop(k)),)
+            kwargs['urls'] = cur_urls
+        return cls(**kwargs)
 
 
 def _unwrap_dict(d):
@@ -29,13 +49,16 @@ def _unwrap_dict(d):
 
 class ProjectList(object):
     def __init__(self, project_list, tagsonomy):
-        self.project_list = project_list
+        self.project_list = []
         self.tagsonomy = tagsonomy
 
         self.tag_registry = OMD()
         self.tag_alias_map = OMD()
         for tag in self.tagsonomy['topic']:
             self.register_tag('topic', tag)
+
+        for project in project_list:
+            self.project_list.append(Project.from_dict(project))
 
     @classmethod
     def from_path(cls, path):
@@ -79,19 +102,75 @@ class ProjectList(object):
                 continue
             ret[tag_entry] = []
             for project in self.project_list:
-                if tag in project.get('tags', []):
+                if tag in project.tags:
                     ret[tag_entry].append(project)
         return ret
 
+
+_URL_LABEL_MAP = {'wp': 'Wikipedia'}
+
+
+def _format_url_name(name):
+    return _URL_LABEL_MAP.get(name, name.title())
+
+
+
+def format_tag_text(project_map, tag_entry):
+    lines = []
+    append = lines.append
+
+    def _format_tag(project_map, tag_entry, level=2):
+        append('%s <a id="tag-%s" href="#tag-%s">%s</a>' %
+               ('#' * level, tag_entry.tag, tag_entry.tag, tag_entry.title))
+        append('')
+        if tag_entry.desc:
+            append(tag_entry.desc)
+            append('')
+        if tag_entry.subtags:
+            append('')
+            for subtag_entry in tag_entry.subtags:
+                _format_tag(project_map, subtag_entry, level=level + 1)
+                # * **Meld** - ([Home](#)|[Repo](#)|[Docs](#)) Description of Meld `(gtk, linux)`
+            append('%s <a id="tag-%s-other" href="#tag-%s-other">Other %s projects</a>' %
+                   ('#' * (level + 1), tag_entry.tag, tag_entry.tag, tag_entry.title))
+
+        for project in project_map[tag_entry]:
+            tmpl = '  {bullet} **{name}** - ({links}) {desc}'
+            links = '|'.join(['[%s](%s)' % (_format_url_name(name), url) for name, url in project.urls])
+
+            line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
+            if len(project.tags) > 1:
+                line += ' `(%s)`' % ', '.join(sorted([t for t in project.tags if t != tag_entry.tag]))
+            lines.append(line)
+
+        append('')
+        return '\n'.join(lines)
+
+    return _format_tag(project_map, tag_entry)
 
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
     readme_tmpl = open(TEMPLATES_PATH + '/README.tmpl.md').read()
-    print(readme_tmpl)
-    from pprint import pprint
-    pprint(plist.tag_registry.todict())
-    pprint(plist.get_projects_by_topic(), compact=True, width=120)
+
+    topic_map = plist.get_projects_by_topic()
+
+    parts = []
+    for tag_entry in topic_map:
+        if tag_entry.supertag:
+            continue
+        if not topic_map[tag_entry]:
+            continue
+        text = format_tag_text(topic_map, tag_entry)
+        parts.append(text)
+    projects_by_topic = '\n'.join(parts)
+
+    readme = readme_tmpl.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
+
+    # from pprint import pprint
+    #pprint(plist.tag_registry.todict())
+    #pprint(plist.get_projects_by_topic(), compact=True, width=120)
+    print(readme)
     import pdb;pdb.set_trace()
 
 

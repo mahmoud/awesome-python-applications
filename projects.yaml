@@ -84,7 +84,7 @@ projects:
 
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
-    see_also: https://github.com/fretsonfire/fof-python
+    # see_also: https://github.com/fretsonfire/fof-python
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
   - name: PyChess
@@ -194,7 +194,7 @@ projects:
   - name: Planet
     wp_url: https://en.wikipedia.org/wiki/Planet_(software)
     repo_url: https://github.com/python/planet/tree/master/code/planet
-    see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
+    # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
   - name: Tribler
@@ -287,9 +287,10 @@ projects:
     gh_url: https://github.com/getsentry/sentry
     wp_url: ""
     docs_url: ""
-    tags: web-service, internet, flask, corporate, bsd
+    tags: ["web-service", "internet", "flask", "corporate", "bsd", "dev"]
   - name: Pagure
     home_url: https://pagure.io/pagure/
+    tags: ["scm"]
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
@@ -541,6 +542,7 @@ tagsonomy:
           title: ERP
       - static_site
       - dev:
+          desc: Projects related to software development and adjacent technical areas.
           subtags:
             - scm:
                 title: SCM

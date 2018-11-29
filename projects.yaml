@@ -85,138 +85,188 @@ projects:
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
+    tags: ["games"]
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
+    tags: ["games"]
   - name: PyChess
     repo_url: https://github.com/pychess/pychess
     home_url: http://pychess.org/
+    tags: ["games"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
+    tags: ["games"]
 
 ## Productivity
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
+    tags: ["productivity"]
   - name: Bleachbit
     repo_url: https://github.com/bleachbit/bleachbit
     home_url: https://www.bleachbit.org/
+    tags: ["productivity"]
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
+    tags: ["productivity"]
   - name: ClamAV
     repo_url: https://github.com/clamwin/clamav-win32
     home_url: http://www.clamwin.com/
+    tags: ["productivity"]
   - name: Metamorphose
     repo_url: https://github.com/metamorphose/metamorphose2
+    tags: ["productivity"]
   - name: Bup
     repo_url: https://github.com/Bup/Bup
+    tags: ["productivity"]
   - name: Attic
     repo_url: https://github.com/jborg/attic  # backup
+    tags: ["productivity"]
   - name: gmvault
     repo_url: https://github.com/gaubert/gmvault
+    tags: ["productivity"]
   - name: nvda
     repo_url: https://github.com/nvaccess/nvda  # screenreader software
+    tags: ["productivity"]
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
+    tags: ["productivity"]
 
 ## Organization
 
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre/
+    tags: ["organization"]
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
+    tags: ["organization"]
   - name: Gramps
     repo_url: https://github.com/gramps-project/gramps
+    tags: ["organization"]
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
+    tags: ["organization"]
   - name: Zim Wiki
     repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
+    tags: ["organization"]
   - name: Wikid Pad
     repo_url: https://github.com/WikidPad/WikidPad
     home_url: http://wikidpad.sourceforge.net/
+    tags: ["organization"]
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     wp_url: https://en.wikipedia.org/wiki/Open_Library
+    tags: ["organization"]
 
 ## Communication
 
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
+    tags: ["communication"]
   - name: Zulip
     repo_url: https://github.com/zulip/zulip
+    tags: ["communication"]
   - name: Bitmessage
     repo_url: https://github.com/Bitmessage/PyBitmessage
+    tags: ["communication"]
   - name: Gajim
     repo_url: https://dev.gajim.org/gajim/gajim
     wp_url: https://en.wikipedia.org/wiki/Gajim
+    tags: ["communication"]
   - name: RapidSMS
     repo_url: https://github.com/rapidsms/rapidsms
+    tags: ["communication"]
   - name: Mailman
     repo_url: https://gitlab.com/mailman/mailman
+    tags: ["communication"]
   - name: Mailpile
     repo_url: https://github.com/mailpile/Mailpile
+    tags: ["communication"]
   - name: GlobaLeaks
     repo_url: https://github.com/globaleaks/GlobaLeaks
+    tags: ["communication"]
   - name: MoinMoin
     repo_url: https://github.com/mirror/moin-2.0
     wp_url: https://en.wikipedia.org/wiki/MoinMoin
+    tags: ["communication"]
   - name: Askbot
     repo_url: https://github.com/ASKBOT/askbot-devel
+    tags: ["communication"]
   - name: OfflineIMAP
     repo_url: https://github.com/OfflineIMAP/offlineimap
     wp_url: https://en.wikipedia.org/wiki/OfflineIMAP
+    tags: ["communication"]
   - name: Pootle
     wp_url: https://en.wikipedia.org/wiki/Pootle
     home_url: http://pootle.translatehouse.org/
     repo_url: https://github.com/translate/pootle
+    tags: ["communication"]
   - name: Virtaal
     repo_url: https://github.com/translate/virtaal
+    tags: ["communication"]
   - name: Weblate
     repo_url: https://github.com/WeblateOrg/weblate
+    tags: ["communication"]
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw
+    tags: ["communication"]
   - name: Seafile
     repo_url: https://github.com/haiwen/seahub
     wp_url: https://en.wikipedia.org/wiki/Seafile
+    tags: ["communication"]
   - name: Helios Voting
     repo_url: https://github.com/benadida/helios-server
+    tags: ["communication"]
   - name: TahoeLAFS
     wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
     home_url: https://tahoe-lafs.org/trac/tahoe-lafs
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
+    tags: ["communication"]
   - name: Ubiquity  # ubuntu installer
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
     repo_url: https://code.launchpad.net/ubiquity
+    tags: ["communication"]
 
 ## Internet
   - name: Reddit
     repo_url: https://github.com/reddit-archive/reddit
+    tags: ["internet"]
   - name: Planet
     wp_url: https://en.wikipedia.org/wiki/Planet_(software)
     repo_url: https://github.com/python/planet/tree/master/code/planet
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
+    tags: ["internet"]
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
+    tags: ["internet"]
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     wp_url: https://en.wikipedia.org/wiki/Tribler
+    tags: ["internet"]
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
+    tags: ["internet"]
   - name: youtube-dl
     repo_url: https://github.com/rg3/youtube-dl
     home_url: http://rg3.github.io/youtube-dl/
+    tags: ["internet"]
   - name: You-Get
     repo_url: https://github.com/soimort/you-get
     home_url: https://you-get.org/
+    tags: ["internet"]
 
 ## Education
 
   - name: Anki
     repo_url: https://github.com/dae/anki
+    tags: ["education"]
   - name: Mnemosyne
     repo_url: https://github.com/mnemosyne-proj/mnemosyne
+    tags: ["education"]
   - name: EdX Platform
     repo_url: https://github.com/edx/edx-platform
+    tags: ["education"]
 
 ## Science
 
@@ -224,54 +274,73 @@ projects:
     repo_url: http://code.ascend4.org/ascend/trunk/
     wp_url: https://en.wikipedia.org/wiki/ASCEND
     home_url: http://ascend4.org/Main_Page
+    tags: ["science"]
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
+    tags: ["science"]
   - name: Orange
     repo_url: https://github.com/biolab/orange3
     wp_url: https://en.wikipedia.org/wiki/Orange_(software)
+    tags: ["science"]
   - name: CellProfiler
     repo_url: https://github.com/CellProfiler/CellProfiler
+    tags: ["science"]
   - name: Veusz
     repo_url: https://github.com/veusz/veusz
+    tags: ["science"]
   - name: Mayavi
     repo_url: https://github.com/enthought/mayavi
+    tags: ["science"]
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
+    tags: ["science"]
 
 ## Static Site Generators
 
   - name: Pelican
     repo_url: https://github.com/getpelican/pelican
     home_url: https://blog.getpelican.com
+    tags: ["static_site"]
   - name: Nikola
     repo_url: https://github.
     home_url: https://www.getnikola.com
+    tags: ["static_site"]
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
+    tags: ["static_site"]
   - name: Hyde
     repo_url: https://github.com/hyde/hyde
     home_url: http://hyde.github.io/
+    tags: ["static_site"]
   - name: Chert  # blatant self-plug
     repo_url: https://github.com/mahmoud/chert
+    tags: ["static_site"]
 
 ## CMS
 
   - name: Ella
     repo_url: https://github.com/ella/ella
+    tags: ["cms"]
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
+    tags: ["cms"]
   - name: Wagtail
     repo_url: https://github.com/wagtail/wagtail
+    tags: ["cms"]
   - name: Plone
     repo_url: https://en.wikipedia.org/wiki/Plone_(software)
+    tags: ["cms"]
   - name: Mezzanine
     repo_url: https://github.com/stephenmcd/mezzanine
+    tags: ["cms"]
   - name: Lektor
     repo_url: https://github.com/lektor/lektor
     home_url: https://www.getlektor.com/
+    tags: ["cms"]
   - name: Saleor
     repo_url: https://github.com/mirumee/saleor/  # storefront
+    tags: ["cms"]
 
 ## ERP
 

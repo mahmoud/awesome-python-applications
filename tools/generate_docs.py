@@ -137,13 +137,12 @@ def format_tag_text(project_map, tag_entry):
             append('')
             for subtag_entry in tag_entry.subtags:
                 _format_tag(project_map, subtag_entry, level=level + 1)
-                # * **Meld** - ([Home](#)|[Repo](#)|[Docs](#)) Description of Meld `(gtk, linux)`
             append('%s <a id="tag-%s-other" href="#tag-%s-other">Other %s projects</a>' %
                    ('#' * (level + 1), tag_entry.tag, tag_entry.tag, tag_entry.title))
 
         for project in project_map[tag_entry]:
             tmpl = '  {bullet} **{name}** - ({links}) {desc}'
-            links = '|'.join(['[%s](%s)' % (_format_url_name(name), url) for name, url in sorted(project.urls)])
+            links = ', '.join(['[%s](%s)' % (_format_url_name(name), url) for name, url in sorted(project.urls)])
 
             line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
             if len(project.tags) > 1:

@@ -358,7 +358,7 @@ projects:
     gh_url: https://github.com/getsentry/sentry
     wp_url: ""
     docs_url: ""
-    tags: ["web-service", "internet", "flask", "corp", "bsd", "dev"]
+    tags: ["dev", "flask", "corp"]
   - name: Pagure
     home_url: https://pagure.io/pagure/
     tags: ["scm"]
@@ -682,8 +682,10 @@ tagsonomy:
             - security
             - docs
             - editor
-            - pkg_mgmt
-            - pkg_repo
+            - pkg_mgmt:
+                title: Package Management
+            - pkg_repo:
+                title: Package Repositories
             - build
             - shell
       - misc

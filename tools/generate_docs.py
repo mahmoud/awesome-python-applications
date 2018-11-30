@@ -10,6 +10,7 @@ TEMPLATES_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '
 
 house = u"\u2302"
 BULLET = '*'
+INDENT = ' ' * 4
 
 @attr.s(frozen=True)
 class TagEntry(object):
@@ -121,7 +122,7 @@ def format_tag_text(project_map, tag_entry):
 
     def _format_tag(project_map, tag_entry, level=2):
         append('%s <a id="tag-%s" href="#tag-%s">%s</a>' %
-               ('#' * level, tag_entry.tag, tag_entry.fq_tag, tag_entry.title))
+               ('#' * level, tag_entry.tag, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
         append('')
         if tag_entry.desc:
             append(tag_entry.desc)
@@ -156,9 +157,12 @@ def format_tag_toc(tag_registry):
         for te in tag_entries:
             if te.tag_path != path:
                 continue
-            print(len(te.tag_path), te.title)
+            link_text = '<a href="#tag-%s">%s</a>' % (te.tag, te.title)
+            lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
             if te.subtags:
-                _format_tag_toc(te.subtags, path=(te.tag,))
+                _format_tag_toc(te.subtags, path=path + (te.tag,))
+                link_text = '<a href="#tag-%s-other">Other %s projects</a>' % (te.tag, te.title)
+                lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return
 
     _format_tag_toc(tag_registry.values())
@@ -168,7 +172,7 @@ def format_tag_toc(tag_registry):
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
-    readme_tmpl = open(TEMPLATES_PATH + '/README.tmpl.md').read()
+    readme = open(TEMPLATES_PATH + '/README.tmpl.md').read()
 
     topic_map = plist.get_projects_by_topic()
 
@@ -184,14 +188,10 @@ def main():
 
     toc_text = format_tag_toc(plist.tag_registry)
 
-    readme = readme_tmpl.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
+    readme = readme.replace('[TOC]', toc_text)
+    readme = readme.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
 
-    # from pprint import pprint
-    #pprint(plist.tag_registry.todict())
-    #pprint(plist.get_projects_by_topic(), compact=True, width=120)
-    # print(readme)
-    print(toc_text)
-    import pdb;pdb.set_trace()
+    print(readme)
 
 
 if __name__ == '__main__':

@@ -14,6 +14,8 @@ support (and associated discussion), see Platforms, and to see the
 list arranged by implementation approach used (and discussion
 thereof), see Architectures. -->
 
+**Contents**
+
 [TOC]
 
 [PROJECTS_BY_TOPIC]

@@ -17,8 +17,8 @@ class TagEntry(object):
     tag_type = attr.ib()
     title = attr.ib()
     desc = attr.ib(default='')
-    subtags = attr.ib(default=None, repr=False)
-    supertag = attr.ib(default=None, repr=False)
+    subtags = attr.ib(default=(), repr=False)
+    tag_path = attr.ib(default=(), repr=False)
     fq_tag = attr.ib(default=None)
 
 
@@ -65,7 +65,7 @@ class ProjectList(object):
         data = yaml.safe_load(open(path))
         return cls(data['projects'], data['tagsonomy'])
 
-    def register_tag(self, tag_type, tag_entry, tag_path=None):
+    def register_tag(self, tag_type, tag_entry, tag_path=()):
         if isinstance(tag_entry, str):
             tag, tag_entry = tag_entry, {}
         else:
@@ -88,7 +88,7 @@ class ProjectList(object):
             ret = TagEntry(**tag_entry)
         else:
             fq_tag = '.'.join(tag_path + (tag,))
-            ret = TagEntry(supertag=tag_path, fq_tag=fq_tag, **tag_entry)
+            ret = TagEntry(tag_path=tag_path, fq_tag=fq_tag, **tag_entry)
             # also register the fq version
             self.tag_registry[fq_tag] = attr.evolve(ret, tag=fq_tag, fq_tag=None)
 
@@ -121,7 +121,7 @@ def format_tag_text(project_map, tag_entry):
 
     def _format_tag(project_map, tag_entry, level=2):
         append('%s <a id="tag-%s" href="#tag-%s">%s</a>' %
-               ('#' * level, tag_entry.tag, tag_entry.tag, tag_entry.title))
+               ('#' * level, tag_entry.tag, tag_entry.fq_tag, tag_entry.title))
         append('')
         if tag_entry.desc:
             append(tag_entry.desc)
@@ -149,6 +149,23 @@ def format_tag_text(project_map, tag_entry):
     return _format_tag(project_map, tag_entry)
 
 
+def format_tag_toc(tag_registry):
+    lines = []
+
+    def _format_tag_toc(tag_entries, path=()):
+        for te in tag_entries:
+            if te.tag_path != path:
+                continue
+            print(len(te.tag_path), te.title)
+            if te.subtags:
+                _format_tag_toc(te.subtags, path=(te.tag,))
+        return
+
+    _format_tag_toc(tag_registry.values())
+
+    return '\n'.join(lines)
+
+
 def main():
     plist = ProjectList.from_path('projects.yaml')
     readme_tmpl = open(TEMPLATES_PATH + '/README.tmpl.md').read()
@@ -157,7 +174,7 @@ def main():
 
     parts = []
     for tag_entry in topic_map:
-        if tag_entry.supertag:
+        if tag_entry.tag_path:
             continue
         if not topic_map[tag_entry]:
             continue
@@ -165,12 +182,15 @@ def main():
         parts.append(text)
     projects_by_topic = '\n'.join(parts)
 
+    toc_text = format_tag_toc(plist.tag_registry)
+
     readme = readme_tmpl.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
 
     # from pprint import pprint
     #pprint(plist.tag_registry.todict())
     #pprint(plist.get_projects_by_topic(), compact=True, width=120)
-    print(readme)
+    # print(readme)
+    print(toc_text)
     import pdb;pdb.set_trace()
 
 

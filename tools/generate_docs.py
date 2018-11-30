@@ -121,8 +121,8 @@ def format_tag_text(project_map, tag_entry):
     append = lines.append
 
     def _format_tag(project_map, tag_entry, level=2):
-        append('%s <a id="tag-%s" href="#tag-%s">%s</a>' %
-               ('#' * level, tag_entry.tag, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
+        append('%s <a id="tag-%s">%s</a>' %
+               ('#' * level, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
         append('')
         if tag_entry.desc:
             append(tag_entry.desc)
@@ -157,11 +157,11 @@ def format_tag_toc(tag_registry):
         for te in tag_entries:
             if te.tag_path != path:
                 continue
-            link_text = '<a href="#tag-%s">%s</a>' % (te.tag, te.title)
+            link_text = '<a href="#tag-%s">%s</a>' % (te.fq_tag or te.tag, te.title)
             lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
             if te.subtags:
                 _format_tag_toc(te.subtags, path=path + (te.tag,))
-                link_text = '<a href="#tag-%s-other">Other %s projects</a>' % (te.tag, te.title)
+                link_text = '<a href="#tag-%s-other">Other %s projects</a>' % (te.fq_tag or te.tag, te.title)
                 lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return
 

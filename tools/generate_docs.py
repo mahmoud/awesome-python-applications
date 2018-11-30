@@ -22,6 +22,10 @@ class TagEntry(object):
     tag_path = attr.ib(default=(), repr=False)
     fq_tag = attr.ib(default=None)
 
+    @property
+    def is_fq(self):
+        return self.tag == self.fq_tag
+
 
 @attr.s(frozen=True)
 class Project(object):
@@ -33,8 +37,8 @@ class Project(object):
     @classmethod
     def from_dict(cls, d):
         kwargs = dict(d)
+        cur_urls = ()
         for k in list(kwargs):
-            cur_urls = ()
             if not k.endswith('_url'):
                 continue
             cur_urls += ((k[:-4], kwargs.pop(k)),)
@@ -84,14 +88,11 @@ class ProjectList(object):
                                    tag_path=(tag,) if not tag_path else tag_path + (tag,))
             subtags.append(st)
         tag_entry['subtags'] = tuple(subtags)
-
+        tag_entry['fq_tag'] = '.'.join(tag_path + (tag,))
         if not tag_path:
             ret = TagEntry(**tag_entry)
         else:
-            fq_tag = '.'.join(tag_path + (tag,))
-            ret = TagEntry(tag_path=tag_path, fq_tag=fq_tag, **tag_entry)
-            # also register the fq version
-            self.tag_registry[fq_tag] = attr.evolve(ret, tag=fq_tag, fq_tag=None)
+            ret = TagEntry(tag_path=tag_path, **tag_entry)
 
         self.tag_registry[tag] = ret
         return ret
@@ -121,8 +122,8 @@ def format_tag_text(project_map, tag_entry):
     append = lines.append
 
     def _format_tag(project_map, tag_entry, level=2):
-        append('%s <a id="tag-%s">%s</a>' %
-               ('#' * level, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
+        append('%s <a id="tag-%s" href="#%s">%s</a>' %
+               ('#' * level, tag_entry.fq_tag or tag_entry.tag, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
         append('')
         if tag_entry.desc:
             append(tag_entry.desc)

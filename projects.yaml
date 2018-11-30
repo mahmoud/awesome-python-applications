@@ -491,24 +491,24 @@ projects:
   - name: pip
     repo_url: https://github.com/pypa/pip
     home_url: https://pip.pypa.io/en/stable/
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git
     wp_url: https://en.wikipedia.org/wiki/Portage_(software)
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
   - name: Solaris IPS
     repo_url: https://github.com/oracle/solaris-ips
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
   - name: yum
     repo_url: https://github.com/rpm-software-management/yum
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
   - name: dnf
     repo_url: https://github.com/rpm-software-management/dnf
-    tags: ["pkg_mgmt"]
+    tags: ["pkg_mgr"]
 
 ## Package repositories
   - name: Warehouse
@@ -690,8 +690,8 @@ tagsonomy:
             - security
             - docs
             - editor
-            - pkg_mgmt:
-                title: Package Management
+            - pkg_mgr:
+                title: Package Managers
             - pkg_repo:
                 title: Package Repositories
             - build

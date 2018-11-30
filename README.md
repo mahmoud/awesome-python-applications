@@ -36,7 +36,7 @@ thereof), see Architectures. -->
     * <a href="#tag-dev.security">Security</a>
     * <a href="#tag-dev.docs">Docs</a>
     * <a href="#tag-dev.editor">Editor</a>
-    * <a href="#tag-dev.pkg_mgmt">Package Management</a>
+    * <a href="#tag-dev.pkg_mgr">Package Managers</a>
     * <a href="#tag-dev.pkg_repo">Package Repositories</a>
     * <a href="#tag-dev.build">Build</a>
     * <a href="#tag-dev.shell">Shell</a>
@@ -231,7 +231,7 @@ Projects related to software development and adjacent technical areas.
   * **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) 
   * **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor)) 
 
-### <a id="tag-dev.pkg_mgmt" href="#dev.pkg_mgmt">Package Management</a>
+### <a id="tag-dev.pkg_mgr" href="#dev.pkg_mgr">Package Managers</a>
 
   * **pip** - ([Home](https://pip.pypa.io/en/stable/), [Repo](https://github.com/pypa/pip)) 
   * **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [Wikipedia](https://en.wikipedia.org/wiki/Portage_(software))) 

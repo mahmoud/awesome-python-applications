@@ -295,6 +295,11 @@ projects:
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
     tags: ["science"]
+  - name: Dissem.in
+    repo_url: https://github.com/dissemin/dissemin
+    home_url: https://dissem.in/
+    docs_url: https://dev.dissem.in/
+    tags: ["science", "django"]
 
 ## Static Site Generators
 

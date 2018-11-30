@@ -355,9 +355,7 @@ projects:
 
   - name: Sentry
     desc: Exception aggregation and reporting service
-    gh_url: https://github.com/getsentry/sentry
-    wp_url: ""
-    docs_url: ""
+    repo_url: https://github.com/getsentry/sentry
     tags: ["dev", "flask", "corp"]
   - name: Pagure
     home_url: https://pagure.io/pagure/

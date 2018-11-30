@@ -346,8 +346,10 @@ projects:
 
   - name: ERPNext
     repo_url: https://github.com/frappe/erpnext
+    tags: ["erp"]
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
+    tags: ["erp"]
 
 ## Software development
 
@@ -356,74 +358,96 @@ projects:
     gh_url: https://github.com/getsentry/sentry
     wp_url: ""
     docs_url: ""
-    tags: ["web-service", "internet", "flask", "corporate", "bsd", "dev"]
+    tags: ["web-service", "internet", "flask", "corp", "bsd", "dev"]
   - name: Pagure
     home_url: https://pagure.io/pagure/
     tags: ["scm"]
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
+    tags: ["scm"]
   - name: Coala
     repo_url: https://github.com/coala/coala
+    tags: ["dev"]
   - name: Meld
     repo_url: https://github.com/GNOME/meld
+    tags: ["code_review"]
   - name: CoCalc
     repo_url: https://github.com/sagemathinc/cocalc
     wp_url: https://en.wikipedia.org/wiki/CoCalc
+    tags: ["dev"]
   - name: Sage Math
     wp_url: https://en.wikipedia.org/wiki/SageMath
     repo_url: https://git.sagemath.org/sage.git/
+    tags: ["dev"]
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
+    tags: ["docs"]
   - name: Sphinx
     repo_url: https://github.com/sphinx-doc/sphinx
+    tags: ["docs"]
   - name: Meson
     repo_url: https://github.com/mesonbuild/meson
+    tags: ["dev"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
+    tags: ["dev"]
   - name: Review Board
     repo_url: https://github.com/reviewboard/reviewboard
-  - name: TortoiseHg
-    repo_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
-    home_url: https://tortoisehg.bitbucket.io/
+    tags: ["code_review"]
   - name: IPython
     repo_url: https://github.com/ipython/ipython
+    tags: ["dev"]
   - name: Jupyter Notebook
     repo_url: https://github.com/jupyter/notebook
+    tags: ["dev"]
   - name: Locust
     repo_url: https://github.com/locustio/locust
+    tags: ["dev"]
 
 ## Editors
   - name: Spyder IDE
     repo_url: https://github.com/spyder-ide/spyder
+    tags: ["editor"]
   - name: Komodo Edit
     repo_url: https://github.com/Komodo/KomodoEdit
+    tags: ["editor"]
   - name: Thonny
     repo_url: https://bitbucket.org/plas/thonny/src
     wp_url: https://en.wikipedia.org/wiki/Thonny
+    tags: ["editor"]
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
     wp_url: https://en.wikipedia.org/wiki/Thonny
+    tags: ["editor"]
   - name: Eric IDE
     home_url: https://eric-ide.python-projects.org/
     repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
+    tags: ["editor"]
   - name: Gedit
     repo_url: https://gitlab.gnome.org/GNOME/gedit/
+    tags: ["editor"]
   - name: Pluma
     repo_url: https://github.com/mate-desktop/pluma
+    tags: ["editor"]
   - name: Leo Editor
     repo_url: https://github.com/leo-editor/leo-editor
+    tags: ["editor"]
 
 
 ## Security
   - name: MITMproxy
     repo_url: https://github.com/mitmproxy/mitmproxy
+    tags: ["security"]
   - name: XSStrike
     repo_url: https://github.com/s0md3v/XSStrike
+    tags: ["security"]
   - name: PyEW
     repo_url: https://github.com/joxeankoret/pyew
+    tags: ["security"]
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
+    tags: ["security"]
 
 ## Code management
   - name: Mercurial
@@ -434,108 +458,147 @@ projects:
   - name: Roundup
     wp_url: https://en.wikipedia.org/wiki/Roundup_(issue_tracker)
     repo_url: http://hg.code.sf.net/p/roundup/code
+    tags: ["scm"]
   - name: GNU Bazaar
     repo_url: https://code.launchpad.net/bzr
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
+    tags: ["scm"]
   - name: Trac
     repo_url: https://github.com/edgewall/trac
     wp_url: https://en.wikipedia.org/wiki/Trac
+    tags: ["scm"]
   - name: ViewVC
     repo_url: https://github.com/viewvc/viewvc/
+    tags: ["scm"]
   - name: Kallithea
     repo_url: https://kallithea-scm.org/repos/kallithea
+    tags: ["scm"]
   - name: RhodeCode
     home_url: https://code.rhodecode.com/rhodecode-enterprise-ce
     wp_url: https://en.wikipedia.org/wiki/RhodeCode
+    tags: ["scm"]
   - name: Rietveld
     repo_url: https://github.com/rietveld-codereview/rietveld
+    tags: ["scm"]
   - name: Patchwork
     repo_url: https://github.com/getpatchwork/patchwork
     home_url: http://jk.ozlabs.org/projects/patchwork/
+    tags: ["scm"]
+  - name: TortoiseHg
+    repo_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
+    home_url: https://tortoisehg.bitbucket.io/
+    tags: ["scm"]
 
 ## Package management
   - name: pip
     repo_url: https://github.com/pypa/pip
     home_url: https://pip.pypa.io/en/stable/
+    tags: ["pkg_mgmt"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git
     wp_url: https://en.wikipedia.org/wiki/Portage_(software)
+    tags: ["pkg_mgmt"]
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
+    tags: ["pkg_mgmt"]
   - name: Solaris IPS
     repo_url: https://github.com/oracle/solaris-ips
+    tags: ["pkg_mgmt"]
   - name: yum
     repo_url: https://github.com/rpm-software-management/yum
+    tags: ["pkg_mgmt"]
   - name: dnf
     repo_url: https://github.com/rpm-software-management/dnf
+    tags: ["pkg_mgmt"]
 
 ## Package repositories
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
+    tags: ["pkg_repo"]
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
+    tags: ["pkg_repo"]
   - name: devpi
     repo_url: https://github.com/devpi/devpi
+    tags: ["pkg_repo"]
 
 ## Build tools
   - name: SCons
     repo_url: https://github.com/SCons/scons
     home_url: http://scons.org/
+    tags: ["build"]
   - name: bitbake
     repo_url: https://github.com/openembedded/bitbake
+    tags: ["build"]
   - name: Buildout
     repo_url: https://github.com/buildout/buildout
     docs_url: http://docs.buildout.org/
+    tags: ["build"]
   - name: buildbot
     repo_url: https://github.com/buildbot/buildbot
     docs_url: https://www.buildbot.net/
+    tags: ["build"]
   - name: GYP
     repo_url: https://chromium.googlesource.com/external/gyp
+    tags: ["build"]
   - name: Waf
     home_url: https://waf.io/
     repo_url: https://gitlab.com/ita1024/waf
+    tags: ["build"]
 
 ## Shells
   - name: Oil
     repo_url: https://github.com/oilshell/oil
     home_url: http://www.oilshell.org/
+    tags: ["shell"]
   - name: Xonsh
     repo_url: https://github.com/xonsh/xonsh
+    tags: ["shell"]
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
+    tags: ["shell"]
 
 ## Ops
   - name: OpenStack
     repo_url: https://git.openstack.org/cgit/openstack/openstack/tree/
     home_url: https://www.openstack.org/
     docs_url: https://docs.openstack.org/rocky/
+    tags: ["ops"]
   - name: Salt Stack
     repo_url: https://github.com/saltstack/salt
     home_url: https://repo.saltstack.com/
+    tags: ["ops"]
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible/
     home_url: https://www.ansible.com/
+    tags: ["ops"]
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken
+    tags: ["ops"]
   - name: StackStorm ST2
     repo_url: https://github.com/StackStorm/st2
+    tags: ["ops"]
   - name: Cobbler
     repo_url: https://github.com/Cobbler/Cobbler
     wp_url: https://en.wikipedia.org/wiki/Cobbler_(software)
+    tags: ["ops"]
   - name: Ganeti
     repo_url: https://github.com/ganeti/ganeti
     home_url: http://www.ganeti.org/
+    tags: ["ops"]
   - name: fail2ban
     home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
     repo_url: https://github.com/fail2ban/fail2ban
     wp_url: https://en.wikipedia.org/wiki/Fail2ban
-
-## Misc / To File
+    tags: ["ops"]
   - name: Gunicorn
     repo_url: https://github.com/benoitc/gunicorn
+    tags: ["ops"]
+
+## Misc / To File
   - name: JARVIS on Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
   - name: OpenLP
@@ -563,7 +626,6 @@ projects:
   - name: qtile
     repo_url: https://github.com/qtile/qtile
     home_url: http://qtile.org/
-  - name:
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
 
@@ -618,4 +680,10 @@ tagsonomy:
             - code_review
             - ops
             - security
+            - docs
+            - editor
+            - pkg_mgmt
+            - pkg_repo
+            - build
+            - shell
       - misc

@@ -601,31 +601,41 @@ projects:
 ## Misc / To File
   - name: JARVIS on Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
+    tags: ["misc"]
   - name: OpenLP
     home_url: https://openlp.org/
     repo_url: https://launchpad.net/openlp
+    tags: ["misc"]
   - name: Nicotine+
     repo_url: https://github.com/Nicotine-Plus/nicotine-plus
+    tags: ["misc"]
   - name: Graph Tool
     repo_url: https://bitbucket.org/MakeHuman/makehuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman
+    tags: ["misc"]
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
+    tags: ["misc"]
   - name: Neubot
     repo_url: https://github.com/neubot/neubot
+    tags: ["misc"]
   - name: Nimbus
     repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
+    tags: ["misc"]
   - name: Xpra
     home_url: http://xpra.org/
     repo_url: https://xpra.org/svn/Xpra/trunk/
+    tags: ["misc"]
   - name: Wicd
     wp_url: https://en.wikipedia.org/wiki/Wicd
     home_url: http://wicd.sourceforge.net/download.php
     repo_url: https://code.launchpad.net/wicd/
+    tags: ["misc"]
   - name: qtile
     repo_url: https://github.com/qtile/qtile
     home_url: http://qtile.org/
+    tags: ["misc"]
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
 

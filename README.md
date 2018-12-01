@@ -59,20 +59,20 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#audio">Audio</a>
 
-  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard)) 
-  1. **Exaile** - ([Repo](https://github.com/exaile/exaile)) 
-  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet)) 
-  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software))) 
-  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter)) 
-  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/)) 
-  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio)) 
-  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege)) 
+  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) MusicBrainz Picard is a free and open-source software application for identifying, tagging, and organising digital audio recordings.
+  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [Wikipedia](https://en.wikipedia.org/wiki/Exaile)) Exaile is a cross-platform free and open-source audio player, tag editor and library organizer.
+  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Quod Libet is a cross-platform free and open-source audio player, tag editor and library organizer.
+  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software))) Frescobaldi is an editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
+  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [Wikipedia](SoundConverter is a unofficial GNOME-based free and open-source transcoder for digital audio files.)) 
+  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [Wikipedia](https://en.wikipedia.org/wiki/Puddletag)) Puddletag is an audio tag (metadata) editor for audio file formats.
+  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio)) GNU Radio is a free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
+  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege)) GNU Solfege is an ear training program written in Python intended to help musicians improve their skills and knowledge.
 
 ## <a id="tag-video" href="#video">Video</a>
 
-  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi)) 
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app)) 
-  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [Wikipedia](https://en.wikipedia.org/wiki/Flowblade)) 
+  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [Wikipedia](https://en.wikipedia.org/wiki/Pitivi)) Pitivi is an open source, non-linear video editor for Linux.
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [Wikipedia](https://en.wikipedia.org/wiki/Plumi)) Plumi is a free software video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
+  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [Wikipedia](https://en.wikipedia.org/wiki/Flowblade)) Flowblade Movie Editor is a free and open-source video editing software for Linux.
 
 ## <a id="tag-graphics" href="#graphics">Graphics</a>
 

@@ -13,6 +13,7 @@ house = u"\u2302"
 BULLET = '1.'
 INDENT = ' ' * 4
 
+
 @attr.s(frozen=True)
 class TagEntry(object):
     tag = attr.ib()
@@ -109,9 +110,6 @@ class ProjectList(object):
                     ret[tag_entry].append(project)
         return ret
 
-    def get_tags_by_type(self, type_name):
-        return [te for te in self.tag_registry.values() if te.tag_type == type_name]
-
 
 # sort of document the expected ones, even when they match the
 # .title() pattern
@@ -159,14 +157,14 @@ def format_category(project_map, tag_entry):
     return _format_tag(project_map, tag_entry)
 
 
-def format_tag_toc(tag_registry):
+def format_tag_toc(project_map):
     lines = []
 
     def _format_tag_toc(tag_entries, path=()):
         for te in tag_entries:
             if te.tag_path != path:
                 continue
-            link_text = '<a href="#tag-%s">%s</a>' % (te.fq_tag or te.tag, te.title)
+            link_text = '<a href="#tag-%s">%s (%s)</a>' % (te.fq_tag or te.tag, te.title, len(project_map[te]))
             lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
             if te.subtags:
                 _format_tag_toc(te.subtags, path=path + (te.tag,))
@@ -174,7 +172,7 @@ def format_tag_toc(tag_registry):
                 lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return
 
-    _format_tag_toc(tag_registry)
+    _format_tag_toc(project_map.keys())
 
     return '\n'.join(lines)
 
@@ -194,17 +192,13 @@ def format_all_categories(project_map):
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
-    readme = open(TEMPLATES_PATH + '/README.tmpl.md').read()
 
     topic_map = plist.get_projects_by_type('topic')
-    topic_toc_text = format_tag_toc(plist.get_tags_by_type('topic'))
+    topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)
 
     context = {'TOPIC_TOC': topic_toc_text,
                'TOPIC_TEXT': projects_by_topic,}
-
-    # readme = readme.replace('[TOP]', topic_toc_text)
-    # readme = readme.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
 
     for filename in iter_find_files(TEMPLATES_PATH, '*.tmpl.md'):
         tmpl_text = open(filename).read()

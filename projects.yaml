@@ -54,14 +54,19 @@ projects:
 ## Video
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
+    wp_url: https://en.wikipedia.org/wiki/Pitivi
     tags: ["video"]
+    desc: Pitivi is an open source, non-linear video editor for Linux.
   - name: Plumi
     repo_url: https://github.com/plumi/plumi.app
+    wp_url: https://en.wikipedia.org/wiki/Plumi
     tags: ["video"]
+    desc: Plumi is a free software video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
     tags: ["video"]
+    desc: Flowblade Movie Editor is a free and open-source video editing software for Linux.
 
 ## Graphics
 

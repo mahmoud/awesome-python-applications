@@ -600,6 +600,15 @@ projects:
   - name: Gunicorn
     repo_url: https://github.com/benoitc/gunicorn
     tags: ["ops"]
+  - name: WAL-E
+    repo_url: https://github.com/wal-e/wal-e
+    tags: ["ops"]
+  - name: Barman
+    repo_url: https://github.com/2ndquadrant-it/barman
+    tags: ["ops"]
+  - name: pgcli
+    repo_url: https://github.com/dbcli/pgcli
+    tags: ["ops"]  # dev?
 
 ## Misc / To File
   - name: JARVIS on Messenger

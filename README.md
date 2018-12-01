@@ -147,6 +147,7 @@ thereof), see Architectures. -->
   * **Veusz** - ([Repo](https://github.com/veusz/veusz)) 
   * **Mayavi** - ([Repo](https://github.com/enthought/mayavi)) 
   * **Pybliographer** - ([Home](https://pybliographer.org/), [Repo](https://github.com/GNOME/pybliographer)) 
+  * **Dissem.in** - ([Docs](https://dev.dissem.in/), [Home](https://dissem.in/), [Repo](https://github.com/dissemin/dissemin))  `(django)`
 
 ## <a id="tag-cms" href="#cms">CMS</a>
 
@@ -207,6 +208,9 @@ Projects related to software development and adjacent technical areas.
   * **Ganeti** - ([Home](http://www.ganeti.org/), [Repo](https://github.com/ganeti/ganeti)) 
   * **fail2ban** - ([Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [Repo](https://github.com/fail2ban/fail2ban), [Wikipedia](https://en.wikipedia.org/wiki/Fail2ban)) 
   * **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn)) 
+  * **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) 
+  * **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) 
+  * **pgcli** - ([Repo](https://github.com/dbcli/pgcli)) 
 
 ### <a id="tag-dev.security" href="#dev.security">Security</a>
 

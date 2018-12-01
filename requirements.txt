@@ -1,0 +1,3 @@
+attrs==18.2.0
+boltons==18.0.1
+ruamel.yaml==0.15.80

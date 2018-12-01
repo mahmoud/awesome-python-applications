@@ -14,8 +14,8 @@ projects:
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
+    desc: Automatically identify, tag, and organize music albums and other digital audio recordings.
     tags: ["audio"]
-    desc: MusicBrainz Picard is a free and open-source software application for identifying, tagging, and organising digital audio recordings.
   - name: Exaile
     repo_url: https://github.com/exaile/exaile
     wp_url: https://en.wikipedia.org/wiki/Exaile
@@ -32,8 +32,9 @@ projects:
     tags: ["audio"]
     desc: Frescobaldi is an editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
   - name: SoundConverter
+    desc:  SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
     repo_url: https://github.com/kassoulet/soundconverter
-    wp_url:  SoundConverter is a unofficial GNOME-based free and open-source transcoder for digital audio files.
+    wp_url: https://en.wikipedia.org/wiki/GNOME_SoundConverter
     tags: ["audio"]
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag/

@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of open-source Python applications arranged by
+This document is a list of {TOTAL_COUNT} open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 

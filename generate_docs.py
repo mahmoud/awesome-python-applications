@@ -198,7 +198,8 @@ def main():
     projects_by_topic = format_all_categories(topic_map)
 
     context = {'TOPIC_TOC': topic_toc_text,
-               'TOPIC_TEXT': projects_by_topic,}
+               'TOPIC_TEXT': projects_by_topic,
+               'TOTAL_COUNT': len(plist.project_list)}
 
     for filename in iter_find_files(TEMPLATES_PATH, '*.tmpl.md'):
         tmpl_text = open(filename).read()

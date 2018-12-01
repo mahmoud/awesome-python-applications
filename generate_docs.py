@@ -10,7 +10,7 @@ TOOLS_PATH = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
 
 house = u"\u2302"
-BULLET = '*'
+BULLET = '1.'
 INDENT = ' ' * 4
 
 @attr.s(frozen=True)

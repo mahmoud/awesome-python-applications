@@ -1,4 +1,74 @@
 ---
+
+# Format of this file:
+#
+# - First we have the "tagsonomy", a tree of tags used to categorize the projects.
+# - After that is "projects", a list of awesome Python applications.
+#
+# Each section has its own notes on its format. Make sure to read them
+# before editing that section.
+
+tagsonomy:
+  # NOTE: order here controls order of the rendered text
+  architecture: # (?)
+      - desktop:
+          - gtk
+          - qt
+          - wx
+          - pygame
+          - other
+      - network:
+          - flask
+          - django
+          - twisted
+          - gevent
+          - other
+      - mobile:
+          - beeware   # not actually used atm
+          - kivy
+  platform:
+      - desktop:
+        - windows
+        - mac
+        - linux
+      - console
+      - mobile
+      - browser
+      - server (separate docker?)
+  topic:
+      - internet
+      - audio
+      - video
+      - graphics
+      - games
+      - productivity
+      - organization
+      - communication  # messaging & collab
+      - education
+      - science
+      - cms:
+          title: CMS
+      - erp:
+          title: ERP
+      - static_site
+      - dev:
+          desc: Projects related to software development and adjacent technical areas.
+          subtags:
+            - scm:
+                title: SCM
+            - code_review
+            - ops
+            - security
+            - docs
+            - editor
+            - pkg_mgr:
+                title: Package Managers
+            - pkg_repo:
+                title: Package Repositories
+            - build
+            - shell
+      - misc
+
 projects:
 ## COMPLETE FORMAT:
   # - name: Project Name
@@ -7,15 +77,15 @@ projects:
   # - docs_url: URL to docs
   # - home_url: Home page if not one of the above
   # - tags: ["", ""]  # see full taxonomy elsewhere in this file
-  # - desc: A handy app for stuff
+  # - desc: A handy app for stuff  # (avoid references to Python, free/open-source, and the app name, since those are implied.
 
 
 ## Audio
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
+    desc: Automatically identify, tag, and organize music albums and other digital audio recordings.
     tags: ["audio"]
-    desc: A free and open-source software application for identifying, tagging, and organising digital audio recordings.
   - name: Exaile
     repo_url: https://github.com/exaile/exaile
     wp_url: https://en.wikipedia.org/wiki/Exaile
@@ -32,8 +102,9 @@ projects:
     tags: ["audio"]
     desc: An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
   - name: SoundConverter
+    desc:  SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
     repo_url: https://github.com/kassoulet/soundconverter
-    wp_url:  SoundConverter is a unofficial GNOME-based free and open-source transcoder for digital audio files.
+    wp_url: https://en.wikipedia.org/wiki/GNOME_SoundConverter
     tags: ["audio"]
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag/
@@ -122,7 +193,9 @@ projects:
     tags: ["games"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
-    tags: ["games"]
+    home_url: https://pysolfc.sourceforge.io/
+    android_url: https://f-droid.org/en/packages/org.lufebe16.pysolfc/
+    tags: ["games", "kivy"]
 
 ## Productivity
   - name: Autokey
@@ -678,63 +751,4 @@ projects:
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
 
-tagsonomy:
-  # NOTE: order here controls order of the rendered text
-  architecture: # (?)
-      - desktop:
-          - gtk
-          - qt
-          - wx
-          - pygame
-          - other
-      - network:
-          - flask
-          - django
-          - twisted
-          - gevent
-          - other
-      # - mobile:  # not actually used atm
-      #    - beeware
-      #    - kivy
-  platform:
-      - desktop:
-        - windows
-        - mac
-        - linux
-      - console
-      - mobile
-      - browser
-      - server (separate docker?)
-  topic:
-      - internet
-      - audio
-      - video
-      - graphics
-      - games
-      - productivity
-      - organization
-      - communication  # messaging & collab
-      - education
-      - science
-      - cms:
-          title: CMS
-      - erp:
-          title: ERP
-      - static_site
-      - dev:
-          desc: Projects related to software development and adjacent technical areas.
-          subtags:
-            - scm:
-                title: SCM
-            - code_review
-            - ops
-            - security
-            - docs
-            - editor
-            - pkg_mgr:
-                title: Package Managers
-            - pkg_repo:
-                title: Package Repositories
-            - build
-            - shell
-      - misc
+...

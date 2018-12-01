@@ -50,53 +50,53 @@ thereof), see Architectures. -->
 ## <a id="tag-internet" href="#internet">Internet</a>
 
   1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit)) 
-  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Wikipedia](https://en.wikipedia.org/wiki/Planet_(software))) 
+  1. **Planet** - ([Wikipedia](https://en.wikipedia.org/wiki/Planet_(software)), [Repo](https://github.com/python/planet/tree/master/code/planet)) 
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge)) 
-  1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Wikipedia](https://en.wikipedia.org/wiki/Tribler)) 
+  1. **Tribler** - ([Wikipedia](https://en.wikipedia.org/wiki/Tribler), [Repo](https://github.com/Tribler/tribler)) 
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser)) 
-  1. **youtube-dl** - ([Home](http://rg3.github.io/youtube-dl/), [Repo](https://github.com/rg3/youtube-dl)) 
-  1. **You-Get** - ([Home](https://you-get.org/), [Repo](https://github.com/soimort/you-get)) 
+  1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/)) 
+  1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) 
 
 ## <a id="tag-audio" href="#audio">Audio</a>
 
-  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard)) 
-  1. **Exaile** - ([Repo](https://github.com/exaile/exaile)) 
-  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet)) 
-  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software))) 
-  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter)) 
-  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/)) 
-  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio)) 
-  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege)) 
+  1. **MusicBrainz Picard** - ([Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard), [Repo](https://github.com/metabrainz/picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
+  1. **Exaile** - ([Wikipedia](https://en.wikipedia.org/wiki/Exaile), [Repo](https://github.com/exaile/exaile)) Exaile is a cross-platform free and open-source audio player, tag editor and library organizer.
+  1. **Quod Libet** - ([Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software)), [Repo](https://github.com/quodlibet/quodlibet)) Quod Libet is a cross-platform free and open-source audio player, tag editor and library organizer.
+  1. **Frescobaldi** - ([Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software)), [Repo](https://github.com/wbsoft/frescobaldi)) Frescobaldi is an editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
+  1. **SoundConverter** - ([Wikipedia](https://en.wikipedia.org/wiki/GNOME_SoundConverter), [Repo](https://github.com/kassoulet/soundconverter)) SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
+  1. **PuddleTag** - ([Wikipedia](https://en.wikipedia.org/wiki/Puddletag), [Repo](https://github.com/keithgg/puddletag/)) Puddletag is an audio tag (metadata) editor for audio file formats.
+  1. **GNU Radio** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio), [Repo](https://github.com/gnuradio/gnuradio)) GNU Radio is a free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
+  1. **GNU Solfege** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege), [Repo](http://git.savannah.gnu.org/cgit/solfege.git)) GNU Solfege is an ear training program written in Python intended to help musicians improve their skills and knowledge.
 
 ## <a id="tag-video" href="#video">Video</a>
 
-  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi)) 
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app)) 
-  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [Wikipedia](https://en.wikipedia.org/wiki/Flowblade)) 
+  1. **Pitivi** - ([Wikipedia](https://en.wikipedia.org/wiki/Pitivi), [Repo](https://gitlab.gnome.org/GNOME/pitivi)) Pitivi is an open source, non-linear video editor for Linux.
+  1. **Plumi** - ([Wikipedia](https://en.wikipedia.org/wiki/Plumi), [Repo](https://github.com/plumi/plumi.app)) Plumi is a free software video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
+  1. **Flowblade** - ([Wikipedia](https://en.wikipedia.org/wiki/Flowblade), [Repo](https://github.com/jliljebl/flowblade)) Flowblade Movie Editor is a free and open-source video editing software for Linux.
 
 ## <a id="tag-graphics" href="#graphics">Graphics</a>
 
-  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [Wikipedia](https://en.wikipedia.org/wiki/FreeCAD)) 
-  1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [Wikipedia](https://en.wikipedia.org/wiki/MakeHuman)) 
-  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Wikipedia](https://en.wikipedia.org/wiki/OpenShot)) 
+  1. **FreeCAD** - ([Wikipedia](https://en.wikipedia.org/wiki/FreeCAD), [Repo](https://github.com/FreeCAD/FreeCAD)) 
+  1. **MakeHuman** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) 
+  1. **OpenShot** - ([Wikipedia](https://en.wikipedia.org/wiki/OpenShot), [Repo](https://github.com/OpenShot/openshot-qt)) 
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint)) 
-  1. **SK1** - ([Home](https://sk1project.net/), [Repo](https://github.com/sk1project/sk1-wx)) 
-  1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [Wikipedia](https://en.wikipedia.org/wiki/OCRFeeder)) 
-  1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [Wikipedia](https://en.wikipedia.org/wiki/OCRopus)) 
+  1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/)) 
+  1. **OCRFeeder** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRFeeder), [Repo](https://gitlab.gnome.org/GNOME/ocrfeeder)) 
+  1. **OCRopus** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRopus), [Repo](https://github.com/tmbdev/ocropy)) 
 
 ## <a id="tag-games" href="#games">Games</a>
 
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) 
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons)) 
-  1. **PyChess** - ([Home](http://pychess.org/), [Repo](https://github.com/pychess/pychess)) 
-  1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC)) 
+  1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) 
+  1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/))  `(kivy)`
 
 ## <a id="tag-productivity" href="#productivity">Productivity</a>
 
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey)) 
-  1. **Bleachbit** - ([Home](https://www.bleachbit.org/), [Repo](https://github.com/bleachbit/bleachbit)) 
-  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [Wikipedia](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) 
-  1. **ClamAV** - ([Home](http://www.clamwin.com/), [Repo](https://github.com/clamwin/clamav-win32)) 
+  1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) 
+  1. **Canto** - ([Wikipedia](https://en.wikipedia.org/wiki/Canto_(news_aggregator)), [Repo](https://github.com/themoken/canto-next)) 
+  1. **ClamAV** - ([Repo](https://github.com/clamwin/clamav-win32), [Home](http://www.clamwin.com/)) 
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2)) 
   1. **Bup** - ([Repo](https://github.com/Bup/Bup)) 
   1. **Attic** - ([Repo](https://github.com/jborg/attic)) 
@@ -111,30 +111,30 @@ thereof), see Architectures. -->
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps)) 
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio)) 
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki)) 
-  1. **Wikid Pad** - ([Home](http://wikidpad.sourceforge.net/), [Repo](https://github.com/WikidPad/WikidPad)) 
-  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Wikipedia](https://en.wikipedia.org/wiki/Open_Library)) 
+  1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) 
+  1. **OpenLibrary** - ([Wikipedia](https://en.wikipedia.org/wiki/Open_Library), [Repo](https://github.com/internetarchive/openlibrary)) 
 
 ## <a id="tag-communication" href="#communication">Communication</a>
 
   1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse)) 
   1. **Zulip** - ([Repo](https://github.com/zulip/zulip)) 
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage)) 
-  1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [Wikipedia](https://en.wikipedia.org/wiki/Gajim)) 
+  1. **Gajim** - ([Wikipedia](https://en.wikipedia.org/wiki/Gajim), [Repo](https://dev.gajim.org/gajim/gajim)) 
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms)) 
   1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman)) 
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile)) 
   1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks)) 
-  1. **MoinMoin** - ([Repo](https://github.com/mirror/moin-2.0), [Wikipedia](https://en.wikipedia.org/wiki/MoinMoin)) 
+  1. **MoinMoin** - ([Wikipedia](https://en.wikipedia.org/wiki/MoinMoin), [Repo](https://github.com/mirror/moin-2.0)) 
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel)) 
-  1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Wikipedia](https://en.wikipedia.org/wiki/OfflineIMAP)) 
-  1. **Pootle** - ([Home](http://pootle.translatehouse.org/), [Repo](https://github.com/translate/pootle), [Wikipedia](https://en.wikipedia.org/wiki/Pootle)) 
+  1. **OfflineIMAP** - ([Wikipedia](https://en.wikipedia.org/wiki/OfflineIMAP), [Repo](https://github.com/OfflineIMAP/offlineimap)) 
+  1. **Pootle** - ([Wikipedia](https://en.wikipedia.org/wiki/Pootle), [Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/)) 
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal)) 
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate)) 
-  1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [Wikipedia](https://en.wikipedia.org/wiki/Pycsw)) 
-  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [Wikipedia](https://en.wikipedia.org/wiki/Seafile)) 
+  1. **pycsw** - ([Wikipedia](https://en.wikipedia.org/wiki/Pycsw), [Repo](https://github.com/geopython/pycsw)) 
+  1. **Seafile** - ([Wikipedia](https://en.wikipedia.org/wiki/Seafile), [Repo](https://github.com/haiwen/seahub)) 
   1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server)) 
-  1. **TahoeLAFS** - ([Home](https://tahoe-lafs.org/trac/tahoe-lafs), [Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Wikipedia](https://en.wikipedia.org/wiki/Tahoe-LAFS)) 
-  1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [Wikipedia](https://en.wikipedia.org/wiki/Ubiquity_(software))) 
+  1. **TahoeLAFS** - ([Wikipedia](https://en.wikipedia.org/wiki/Tahoe-LAFS), [Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs)) 
+  1. **Ubiquity** - ([Wikipedia](https://en.wikipedia.org/wiki/Ubiquity_(software)), [Repo](https://code.launchpad.net/ubiquity)) 
 
 ## <a id="tag-education" href="#education">Education</a>
 
@@ -144,14 +144,14 @@ thereof), see Architectures. -->
 
 ## <a id="tag-science" href="#science">Science</a>
 
-  1. **ASCEND** - ([Home](http://ascend4.org/Main_Page), [Repo](http://code.ascend4.org/ascend/trunk/), [Wikipedia](https://en.wikipedia.org/wiki/ASCEND)) 
+  1. **ASCEND** - ([Wikipedia](https://en.wikipedia.org/wiki/ASCEND), [Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page)) 
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core)) 
-  1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Wikipedia](https://en.wikipedia.org/wiki/Orange_(software))) 
+  1. **Orange** - ([Wikipedia](https://en.wikipedia.org/wiki/Orange_(software)), [Repo](https://github.com/biolab/orange3)) 
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler)) 
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz)) 
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi)) 
-  1. **Pybliographer** - ([Home](https://pybliographer.org/), [Repo](https://github.com/GNOME/pybliographer)) 
-  1. **Dissem.in** - ([Docs](https://dev.dissem.in/), [Home](https://dissem.in/), [Repo](https://github.com/dissemin/dissemin))  `(django)`
+  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) 
+  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/))  `(django)`
 
 ## <a id="tag-cms" href="#cms">CMS</a>
 
@@ -160,7 +160,7 @@ thereof), see Architectures. -->
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail)) 
   1. **Plone** - ([Repo](https://en.wikipedia.org/wiki/Plone_(software))) 
   1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine)) 
-  1. **Lektor** - ([Home](https://www.getlektor.com/), [Repo](https://github.com/lektor/lektor)) 
+  1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) 
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/)) 
 
 ## <a id="tag-erp" href="#erp">ERP</a>
@@ -170,10 +170,10 @@ thereof), see Architectures. -->
 
 ## <a id="tag-static_site" href="#static_site">Static Site</a>
 
-  1. **Pelican** - ([Home](https://blog.getpelican.com), [Repo](https://github.com/getpelican/pelican)) 
-  1. **Nikola** - ([Home](https://www.getnikola.com), [Repo](https://github.)) 
+  1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com)) 
+  1. **Nikola** - ([Repo](https://github.), [Home](https://www.getnikola.com)) 
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus)) 
-  1. **Hyde** - ([Home](http://hyde.github.io/), [Repo](https://github.com/hyde/hyde)) 
+  1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/)) 
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert)) 
 
 ## <a id="tag-dev" href="#dev">Dev</a>
@@ -184,17 +184,17 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.scm" href="#dev.scm">SCM</a>
 
   1. **Pagure** - ([Home](https://pagure.io/pagure/)) 
-  1. **Allura** - ([Repo](https://github.com/apache/allura), [Wikipedia](https://en.wikipedia.org/wiki/Apache_Allura)) 
-  1. **Mercurial** - ([Home](https://www.mercurial-scm.org/repo/hg/), [Repo](https://www.mercurial-scm.org/repo/hg-stable), [Wikipedia](https://en.wikipedia.org/wiki/Mercurial)) 
-  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [Wikipedia](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) 
-  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Bazaar)) 
-  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [Wikipedia](https://en.wikipedia.org/wiki/Trac)) 
+  1. **Allura** - ([Wikipedia](https://en.wikipedia.org/wiki/Apache_Allura), [Repo](https://github.com/apache/allura)) 
+  1. **Mercurial** - ([Wikipedia](https://en.wikipedia.org/wiki/Mercurial), [Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/)) 
+  1. **Roundup** - ([Wikipedia](https://en.wikipedia.org/wiki/Roundup_(issue_tracker)), [Repo](http://hg.code.sf.net/p/roundup/code)) 
+  1. **GNU Bazaar** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Bazaar), [Repo](https://code.launchpad.net/bzr)) 
+  1. **Trac** - ([Wikipedia](https://en.wikipedia.org/wiki/Trac), [Repo](https://github.com/edgewall/trac)) 
   1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) 
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea)) 
-  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [Wikipedia](https://en.wikipedia.org/wiki/RhodeCode)) 
+  1. **RhodeCode** - ([Wikipedia](https://en.wikipedia.org/wiki/RhodeCode), [Home](https://code.rhodecode.com/rhodecode-enterprise-ce)) 
   1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld)) 
-  1. **Patchwork** - ([Home](http://jk.ozlabs.org/projects/patchwork/), [Repo](https://github.com/getpatchwork/patchwork)) 
-  1. **TortoiseHg** - ([Home](https://tortoisehg.bitbucket.io/), [Repo](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) 
+  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/)) 
+  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home), [Home](https://tortoisehg.bitbucket.io/)) 
 
 ### <a id="tag-dev.code_review" href="#dev.code_review">Code Review</a>
 
@@ -203,14 +203,14 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.ops" href="#dev.ops">Ops</a>
 
-  1. **OpenStack** - ([Docs](https://docs.openstack.org/rocky/), [Home](https://www.openstack.org/), [Repo](https://git.openstack.org/cgit/openstack/openstack/tree/)) 
-  1. **Salt Stack** - ([Home](https://repo.saltstack.com/), [Repo](https://github.com/saltstack/salt)) 
-  1. **Ansible** - ([Docs](https://docs.ansible.com/ansible/), [Home](https://www.ansible.com/), [Repo](https://github.com/ansible/ansible)) 
+  1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/rocky/)) 
+  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) 
+  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) 
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken)) 
   1. **StackStorm ST2** - ([Repo](https://github.com/StackStorm/st2)) 
-  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Wikipedia](https://en.wikipedia.org/wiki/Cobbler_(software))) 
-  1. **Ganeti** - ([Home](http://www.ganeti.org/), [Repo](https://github.com/ganeti/ganeti)) 
-  1. **fail2ban** - ([Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [Repo](https://github.com/fail2ban/fail2ban), [Wikipedia](https://en.wikipedia.org/wiki/Fail2ban)) 
+  1. **Cobbler** - ([Wikipedia](https://en.wikipedia.org/wiki/Cobbler_(software)), [Repo](https://github.com/Cobbler/Cobbler)) 
+  1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) 
+  1. **fail2ban** - ([Wikipedia](https://en.wikipedia.org/wiki/Fail2ban), [Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page)) 
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn)) 
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) 
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) 
@@ -232,18 +232,18 @@ Projects related to software development and adjacent technical areas.
 
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder)) 
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit)) 
-  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Wikipedia](https://en.wikipedia.org/wiki/Thonny)) 
-  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Wikipedia](https://en.wikipedia.org/wiki/Thonny)) 
-  1. **Eric IDE** - ([Home](https://eric-ide.python-projects.org/), [Repo](http://die-offenbachs.homelinux.org:48888/hg/eric)) 
+  1. **Thonny** - ([Wikipedia](https://en.wikipedia.org/wiki/Thonny), [Repo](https://bitbucket.org/plas/thonny/src)) 
+  1. **Ninja IDE** - ([Wikipedia](https://en.wikipedia.org/wiki/Thonny), [Repo](https://github.com/ninja-ide/ninja-ide)) 
+  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) 
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) 
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) 
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor)) 
 
 ### <a id="tag-dev.pkg_mgr" href="#dev.pkg_mgr">Package Managers</a>
 
-  1. **pip** - ([Home](https://pip.pypa.io/en/stable/), [Repo](https://github.com/pypa/pip)) 
-  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [Wikipedia](https://en.wikipedia.org/wiki/Portage_(software))) 
-  1. **Conda** - ([Home](https://conda.io/), [Repo](https://github.com/conda/conda)) 
+  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/)) 
+  1. **Portage** - ([Wikipedia](https://en.wikipedia.org/wiki/Portage_(software)), [Repo](https://anongit.gentoo.org/git/proj/portage.git)) 
+  1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/)) 
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) 
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum)) 
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf)) 
@@ -256,24 +256,24 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.build" href="#dev.build">Build</a>
 
-  1. **SCons** - ([Home](http://scons.org/), [Repo](https://github.com/SCons/scons)) 
+  1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/)) 
   1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake)) 
-  1. **Buildout** - ([Docs](http://docs.buildout.org/), [Repo](https://github.com/buildout/buildout)) 
-  1. **buildbot** - ([Docs](https://www.buildbot.net/), [Repo](https://github.com/buildbot/buildbot)) 
+  1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [Docs](http://docs.buildout.org/)) 
+  1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [Docs](https://www.buildbot.net/)) 
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp)) 
-  1. **Waf** - ([Home](https://waf.io/), [Repo](https://gitlab.com/ita1024/waf)) 
+  1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/)) 
 
 ### <a id="tag-dev.shell" href="#dev.shell">Shell</a>
 
-  1. **Oil** - ([Home](http://www.oilshell.org/), [Repo](https://github.com/oilshell/oil)) 
+  1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) 
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh)) 
-  1. **Ergonomica** - ([Docs](http://ergonomica.readthedocs.io/), [Repo](https://github.com/ergonomica/ergonomica)) 
+  1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) 
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry)) Exception aggregation and reporting service `(corp, flask)`
   1. **Coala** - ([Repo](https://github.com/coala/coala)) 
-  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Wikipedia](https://en.wikipedia.org/wiki/CoCalc)) 
-  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Wikipedia](https://en.wikipedia.org/wiki/SageMath)) 
+  1. **CoCalc** - ([Wikipedia](https://en.wikipedia.org/wiki/CoCalc), [Repo](https://github.com/sagemathinc/cocalc)) 
+  1. **Sage Math** - ([Wikipedia](https://en.wikipedia.org/wiki/SageMath), [Repo](https://git.sagemath.org/sage.git/)) 
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson)) 
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) 
   1. **IPython** - ([Repo](https://github.com/ipython/ipython)) 
@@ -283,15 +283,15 @@ Projects related to software development and adjacent technical areas.
 ## <a id="tag-misc" href="#misc">Misc</a>
 
   1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger)) 
-  1. **OpenLP** - ([Home](https://openlp.org/), [Repo](https://launchpad.net/openlp)) 
+  1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) 
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) 
-  1. **Graph Tool** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [Wikipedia](https://en.wikipedia.org/wiki/MakeHuman)) 
-  1. **Guake** - ([Home](http://guake-project.org/), [Repo](https://github.com/Guake/guake)) 
+  1. **Graph Tool** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) 
+  1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) 
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot)) 
   1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus)) 
-  1. **Xpra** - ([Home](http://xpra.org/), [Repo](https://xpra.org/svn/Xpra/trunk/)) 
-  1. **Wicd** - ([Home](http://wicd.sourceforge.net/download.php), [Repo](https://code.launchpad.net/wicd/), [Wikipedia](https://en.wikipedia.org/wiki/Wicd)) 
-  1. **qtile** - ([Home](http://qtile.org/), [Repo](https://github.com/qtile/qtile)) 
+  1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk/), [Home](http://xpra.org/)) 
+  1. **Wicd** - ([Wikipedia](https://en.wikipedia.org/wiki/Wicd), [Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php)) 
+  1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) 
 
 
 <!-- YET ANOTHER NOTE: This file is automatically generated, see projects.yaml -->

@@ -74,29 +74,38 @@ projects:
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
     tags: ["graphics"]
+    desc: A free and open-source general-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: MakeHuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
     tags: ["graphics"]
+    desc: A free and open source 3D computer graphics software middleware designed for the prototyping of photo realistic humanoids.
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     wp_url: https://en.wikipedia.org/wiki/OpenShot
     tags: ["graphics"]
+    desc: A free and open-source video editor for FreeBSD, Linux, macOS, and Windows.
   - name: MyPaint
     repo_url: https://github.com/mypaint/mypaint
+    wp_url: https://en.wikipedia.org/wiki/MyPaint
     tags: ["graphics"]
+    desc: A free and open-source raster graphics editor for digital painters with a focus on painting rather than image manipulation or post processing.
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
+    wp_url: https://en.wikipedia.org/wiki/SK1_(program)
     home_url: https://sk1project.net/  #  (forked from skencil)
     tags: ["graphics"]
+    desc: An open-source, cross-platform illustration program.
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder
     tags: ["graphics"]
+    desc: An optical character recognition suite for GNOME, which also supports virtually any command-line OCR engine, such as CuneiForm, GOCR, Ocrad and Tesseract.
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
     tags: ["graphics"]
+    desc: A free document analysis and optical character recognition (OCR) system.
 
 ## Games
 

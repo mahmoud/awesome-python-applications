@@ -59,11 +59,11 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#audio">Audio</a>
 
-  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) MusicBrainz Picard is a free and open-source software application for identifying, tagging, and organising digital audio recordings.
+  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [Wikipedia](https://en.wikipedia.org/wiki/Exaile)) Exaile is a cross-platform free and open-source audio player, tag editor and library organizer.
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Quod Libet is a cross-platform free and open-source audio player, tag editor and library organizer.
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software))) Frescobaldi is an editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
-  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [Wikipedia](SoundConverter is a unofficial GNOME-based free and open-source transcoder for digital audio files.)) 
+  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [Wikipedia](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [Wikipedia](https://en.wikipedia.org/wiki/Puddletag)) Puddletag is an audio tag (metadata) editor for audio file formats.
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio)) GNU Radio is a free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege)) GNU Solfege is an ear training program written in Python intended to help musicians improve their skills and knowledge.

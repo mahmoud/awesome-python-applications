@@ -13,30 +13,43 @@ projects:
 ## Audio
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
+    wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
     tags: ["audio"]
+    desc: MusicBrainz Picard is a free and open-source software application for identifying, tagging, and organising digital audio recordings.
   - name: Exaile
     repo_url: https://github.com/exaile/exaile
+    wp_url: https://en.wikipedia.org/wiki/Exaile
     tags: ["audio"]
+    desc: Exaile is a cross-platform free and open-source audio player, tag editor and library organizer.
   - name: Quod Libet
     repo_url: https://github.com/quodlibet/quodlibet
+    wp_url: https://en.wikipedia.org/wiki/Quod_Libet_(software)
     tags: ["audio"]
+    desc: Quod Libet is a cross-platform free and open-source audio player, tag editor and library organizer.
   - name: Frescobaldi
     repo_url: https://github.com/wbsoft/frescobaldi
     wp_url: https://en.wikipedia.org/wiki/Frescobaldi_(software)
     tags: ["audio"]
+    desc: Frescobaldi is an editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
   - name: SoundConverter
     repo_url: https://github.com/kassoulet/soundconverter
+    wp_url:  SoundConverter is a unofficial GNOME-based free and open-source transcoder for digital audio files.
     tags: ["audio"]
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag/
+    wp_url: https://en.wikipedia.org/wiki/Puddletag
     tags: ["audio"]
+    desc: Puddletag is an audio tag (metadata) editor for audio file formats.
   - name: GNU Radio
     repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
+    wp_url: https://en.wikipedia.org/wiki/GNU_Radio
     tags: ["audio"]
+    desc: GNU Radio is a free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
     tags: ["audio"]
+    desc: GNU Solfege is an ear training program written in Python intended to help musicians improve their skills and knowledge.
 
 ## Video
   - name: Pitivi

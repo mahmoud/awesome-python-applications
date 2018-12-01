@@ -4,9 +4,10 @@ import os
 import attr
 from ruamel import yaml
 from boltons.dictutils import OMD
+from boltons.fileutils import iter_find_files, atomic_save
 
 TOOLS_PATH = os.path.dirname(os.path.abspath(__file__))
-TEMPLATES_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/templates/'
+TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
 
 house = u"\u2302"
 BULLET = '*'
@@ -97,16 +98,19 @@ class ProjectList(object):
         self.tag_registry[tag] = ret
         return ret
 
-    def get_projects_by_topic(self):
+    def get_projects_by_type(self, type_name):
         ret = OMD()
         for tag, tag_entry in self.tag_registry.items():
-            if tag_entry.tag_type != 'topic':
+            if tag_entry.tag_type != type_name:
                 continue
             ret[tag_entry] = []
             for project in self.project_list:
                 if tag in project.tags:
                     ret[tag_entry].append(project)
         return ret
+
+    def get_tags_by_type(self, type_name):
+        return [te for te in self.tag_registry.values() if te.tag_type == type_name]
 
 
 # sort of document the expected ones, even when they match the
@@ -122,7 +126,7 @@ def _format_url_name(name):
 
 
 
-def format_tag_text(project_map, tag_entry):
+def format_category(project_map, tag_entry):
     lines = []
     append = lines.append
 
@@ -170,33 +174,46 @@ def format_tag_toc(tag_registry):
                 lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return
 
-    _format_tag_toc(tag_registry.values())
+    _format_tag_toc(tag_registry)
 
     return '\n'.join(lines)
+
+
+def format_all_categories(project_map):
+    parts = []
+    for tag_entry in project_map:
+        if tag_entry.tag_path:
+            continue
+        if not project_map[tag_entry]:
+            continue  # TODO: some message, inviting additions
+        text = format_category(project_map, tag_entry)
+        parts.append(text)
+
+    return '\n'.join(parts)
 
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
     readme = open(TEMPLATES_PATH + '/README.tmpl.md').read()
 
-    topic_map = plist.get_projects_by_topic()
+    topic_map = plist.get_projects_by_type('topic')
+    topic_toc_text = format_tag_toc(plist.get_tags_by_type('topic'))
+    projects_by_topic = format_all_categories(topic_map)
 
-    parts = []
-    for tag_entry in topic_map:
-        if tag_entry.tag_path:
-            continue
-        if not topic_map[tag_entry]:
-            continue
-        text = format_tag_text(topic_map, tag_entry)
-        parts.append(text)
-    projects_by_topic = '\n'.join(parts)
+    context = {'TOPIC_TOC': topic_toc_text,
+               'TOPIC_TEXT': projects_by_topic,}
 
-    toc_text = format_tag_toc(plist.tag_registry)
+    # readme = readme.replace('[TOP]', topic_toc_text)
+    # readme = readme.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
 
-    readme = readme.replace('[TOC]', toc_text)
-    readme = readme.replace('[PROJECTS_BY_TOPIC]', projects_by_topic)
+    for filename in iter_find_files(TEMPLATES_PATH, '*.tmpl.md'):
+        tmpl_text = open(filename).read()
+        target_filename = os.path.split(filename)[1].replace('.tmpl', '')
+        output_text = tmpl_text.format(**context)
+        with atomic_save(target_filename) as f:
+            f.write(output_text.encode('utf8'))
 
-    print(readme)
+    return
 
 
 if __name__ == '__main__':

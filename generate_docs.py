@@ -144,7 +144,7 @@ def format_category(project_map, tag_entry):
 
         for project in project_map[tag_entry]:
             tmpl = '  {bullet} **{name}** - ({links}) {desc}'
-            links = ', '.join(['[%s](%s)' % (_format_url_name(name), url) for name, url in sorted(project.urls)])
+            links = ', '.join(['[%s](%s)' % (_format_url_name(name), url) for name, url in sorted(project.urls, reverse=True)])
 
             line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
             if len(project.tags) > 1:

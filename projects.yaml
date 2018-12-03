@@ -355,6 +355,10 @@ projects:
     repo_url: https://github.com/soimort/you-get
     home_url: https://you-get.org/
     tags: ["internet"]
+  - name: SABnzbd
+    repo_url: https://github.com/sabnzbd/sabnzbd
+    home_url: https://sabnzbd.org
+    tags: ["internet"]
 
 ## Education
 

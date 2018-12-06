@@ -10,7 +10,7 @@
 
 tagsonomy:
   # NOTE: order here controls order of the rendered text
-  architecture: # (?)
+  framework: # (?)
       - desktop:
           - gtk
           - qt
@@ -23,7 +23,7 @@ tagsonomy:
           - twisted
           - gevent
           - other
-      - mobile:
+      - nui:  # ?
           - beeware   # not actually used atm
           - kivy
   platform:

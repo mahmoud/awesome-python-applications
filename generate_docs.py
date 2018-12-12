@@ -9,7 +9,7 @@ from boltons.fileutils import iter_find_files, atomic_save
 TOOLS_PATH = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
 
-house = u"\u2302"
+# house = u"\u2302"
 BULLET = '1.'
 INDENT = ' ' * 4
 
@@ -197,8 +197,14 @@ def main():
     topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)
 
+    plat_map = plist.get_projects_by_type('platform')
+    plat_toc_text = format_tag_toc(plat_map)
+    projects_by_plat = format_all_categories(plat_map)
+
     context = {'TOPIC_TOC': topic_toc_text,
                'TOPIC_TEXT': projects_by_topic,
+               'PLATFORM_TOC': plat_toc_text,
+               'PLATFORM_TEXT': plat_toc_text,
                'TOTAL_COUNT': len(plist.project_list)}
 
     for filename in iter_find_files(TEMPLATES_PATH, '*.tmpl.md'):

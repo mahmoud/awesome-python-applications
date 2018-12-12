@@ -24,7 +24,7 @@ tagsonomy:
           - gevent
           - other
       - nui:  # ?
-          - beeware   # not actually used atm
+          - beeware   # not actually used here atm
           - kivy
   platform:
       - desktop:
@@ -34,7 +34,8 @@ tagsonomy:
       - console
       - mobile
       - browser
-      - server (separate docker?)
+      - server
+        - docker
   topic:
       - internet
       - audio

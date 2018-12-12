@@ -20,8 +20,8 @@ thereof), see Architectures. -->
 
 1. <a href="#tag-internet">Internet</a> *(8)*
 1. <a href="#tag-audio">Audio</a> *(8)*
-1. <a href="#tag-video">Video</a> *(3)*
-1. <a href="#tag-graphics">Graphics</a> *(7)*
+1. <a href="#tag-video">Video</a> *(4)*
+1. <a href="#tag-graphics">Graphics</a> *(6)*
 1. <a href="#tag-games">Games</a> *(4)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
 1. <a href="#tag-organization">Organization</a> *(7)*
@@ -61,29 +61,29 @@ thereof), see Architectures. -->
 ## <a id="tag-audio" href="#audio">Audio</a>
 
   1. **MusicBrainz Picard** - ([Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard), [Repo](https://github.com/metabrainz/picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
-  1. **Exaile** - ([Wikipedia](https://en.wikipedia.org/wiki/Exaile), [Repo](https://github.com/exaile/exaile)) A cross-platform free and open-source audio player, tag editor and library organizer.
-  1. **Quod Libet** - ([Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software)), [Repo](https://github.com/quodlibet/quodlibet)) A cross-platform free and open-source audio player, tag editor and library organizer.
+  1. **Exaile** - ([Wikipedia](https://en.wikipedia.org/wiki/Exaile), [Repo](https://github.com/exaile/exaile)) Cross-platform audio player, tag editor, and library organizer.
+  1. **Quod Libet** - ([Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software)), [Repo](https://github.com/quodlibet/quodlibet)) Cross-platform audio player, tag editor, and library organizer.
   1. **Frescobaldi** - ([Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software)), [Repo](https://github.com/wbsoft/frescobaldi)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
-  1. **SoundConverter** - ([Wikipedia](https://en.wikipedia.org/wiki/GNOME_SoundConverter), [Repo](https://github.com/kassoulet/soundconverter)) SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
+  1. **SoundConverter** - ([Wikipedia](https://en.wikipedia.org/wiki/GNOME_SoundConverter), [Repo](https://github.com/kassoulet/soundconverter)) A GNOME-based audio file transcoder.
   1. **PuddleTag** - ([Wikipedia](https://en.wikipedia.org/wiki/Puddletag), [Repo](https://github.com/keithgg/puddletag/)) An audio tag (metadata) editor for audio file formats.
-  1. **GNU Radio** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio), [Repo](https://github.com/gnuradio/gnuradio)) A free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
-  1. **GNU Solfege** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege), [Repo](http://git.savannah.gnu.org/cgit/solfege.git)) An ear training program written in Python intended to help musicians improve their skills and knowledge.
+  1. **GNU Radio** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio), [Repo](https://github.com/gnuradio/gnuradio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
+  1. **GNU Solfege** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege), [Repo](http://git.savannah.gnu.org/cgit/solfege.git)) An ear-training program intended to help musicians improve their skills.
 
 ## <a id="tag-video" href="#video">Video</a>
 
-  1. **Pitivi** - ([Wikipedia](https://en.wikipedia.org/wiki/Pitivi), [Repo](https://gitlab.gnome.org/GNOME/pitivi)) An open source, non-linear video editor for Linux.
-  1. **Plumi** - ([Wikipedia](https://en.wikipedia.org/wiki/Plumi), [Repo](https://github.com/plumi/plumi.app)) A free software video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
-  1. **Flowblade** - ([Wikipedia](https://en.wikipedia.org/wiki/Flowblade), [Repo](https://github.com/jliljebl/flowblade)) A free and open-source video editing software for Linux.
+  1. **Pitivi** - ([Wikipedia](https://en.wikipedia.org/wiki/Pitivi), [Repo](https://gitlab.gnome.org/GNOME/pitivi)) Non-linear video editor for Linux, based on GStreamer.
+  1. **Plumi** - ([Wikipedia](https://en.wikipedia.org/wiki/Plumi), [Repo](https://github.com/plumi/plumi.app)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
+  1. **Flowblade** - ([Wikipedia](https://en.wikipedia.org/wiki/Flowblade), [Repo](https://github.com/jliljebl/flowblade)) Multitrack, non-linear video editing software for Linux.
+  1. **OpenShot** - ([Wikipedia](https://en.wikipedia.org/wiki/OpenShot), [Repo](https://github.com/OpenShot/openshot-qt)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
 
 ## <a id="tag-graphics" href="#graphics">Graphics</a>
 
-  1. **FreeCAD** - ([Wikipedia](https://en.wikipedia.org/wiki/FreeCAD), [Repo](https://github.com/FreeCAD/FreeCAD)) A free and open-source general-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
-  1. **MakeHuman** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) A free and open source 3D computer graphics software middleware designed for the prototyping of photo realistic humanoids.
-  1. **OpenShot** - ([Wikipedia](https://en.wikipedia.org/wiki/OpenShot), [Repo](https://github.com/OpenShot/openshot-qt)) A free and open-source video editor for FreeBSD, Linux, macOS, and Windows.
-  1. **MyPaint** - ([Wikipedia](https://en.wikipedia.org/wiki/MyPaint), [Repo](https://github.com/mypaint/mypaint)) A free and open-source raster graphics editor for digital painters with a focus on painting rather than image manipulation or post processing.
-  1. **SK1** - ([Wikipedia](https://en.wikipedia.org/wiki/SK1_(program)), [Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/)) An open-source, cross-platform illustration program.
-  1. **OCRFeeder** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRFeeder), [Repo](https://gitlab.gnome.org/GNOME/ocrfeeder)) An optical character recognition suite for GNOME, which also supports virtually any command-line OCR engine, such as CuneiForm, GOCR, Ocrad and Tesseract.
-  1. **OCRopus** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRopus), [Repo](https://github.com/tmbdev/ocropy)) A free document analysis and optical character recognition (OCR) system.
+  1. **FreeCAD** - ([Wikipedia](https://en.wikipedia.org/wiki/FreeCAD), [Repo](https://github.com/FreeCAD/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
+  1. **MakeHuman** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
+  1. **MyPaint** - ([Wikipedia](https://en.wikipedia.org/wiki/MyPaint), [Repo](https://github.com/mypaint/mypaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
+  1. **SK1** - ([Wikipedia](https://en.wikipedia.org/wiki/SK1_(program)), [Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/)) Feature-rich, cross-platform illustration program.
+  1. **OCRFeeder** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRFeeder), [Repo](https://gitlab.gnome.org/GNOME/ocrfeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
+  1. **OCRopus** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRopus), [Repo](https://github.com/tmbdev/ocropy)) Document analysis and optical character recognition (OCR) system.
 
 ## <a id="tag-games" href="#games">Games</a>
 

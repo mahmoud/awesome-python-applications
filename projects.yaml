@@ -91,19 +91,19 @@ projects:
     repo_url: https://github.com/exaile/exaile
     wp_url: https://en.wikipedia.org/wiki/Exaile
     tags: ["audio"]
-    desc: A cross-platform free and open-source audio player, tag editor and library organizer.
+    desc: Cross-platform audio player, tag editor, and library organizer.
   - name: Quod Libet
     repo_url: https://github.com/quodlibet/quodlibet
     wp_url: https://en.wikipedia.org/wiki/Quod_Libet_(software)
     tags: ["audio"]
-    desc: A cross-platform free and open-source audio player, tag editor and library organizer.
+    desc: Cross-platform audio player, tag editor, and library organizer.
   - name: Frescobaldi
     repo_url: https://github.com/wbsoft/frescobaldi
     wp_url: https://en.wikipedia.org/wiki/Frescobaldi_(software)
     tags: ["audio"]
     desc: An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
   - name: SoundConverter
-    desc:  SoundConverter is an unofficial GNOME-based free and open-source transcoder for digital audio files.
+    desc: A GNOME-based audio file transcoder.
     repo_url: https://github.com/kassoulet/soundconverter
     wp_url: https://en.wikipedia.org/wiki/GNOME_SoundConverter
     tags: ["audio"]
@@ -116,29 +116,34 @@ projects:
     repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
     wp_url: https://en.wikipedia.org/wiki/GNU_Radio
     tags: ["audio"]
-    desc: A free software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
+    desc: Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
     tags: ["audio"]
-    desc: An ear training program written in Python intended to help musicians improve their skills and knowledge.
+    desc: An ear-training program intended to help musicians improve their skills.
 
 ## Video
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
     wp_url: https://en.wikipedia.org/wiki/Pitivi
     tags: ["video"]
-    desc: An open source, non-linear video editor for Linux.
+    desc: Non-linear video editor for Linux, based on GStreamer.
   - name: Plumi
     repo_url: https://github.com/plumi/plumi.app
     wp_url: https://en.wikipedia.org/wiki/Plumi
     tags: ["video"]
-    desc: A free software video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
+    desc: Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
     tags: ["video"]
-    desc: A free and open-source video editing software for Linux.
+    desc: Multitrack, non-linear video editing software for Linux.
+  - name: OpenShot
+    repo_url: https://github.com/OpenShot/openshot-qt
+    wp_url: https://en.wikipedia.org/wiki/OpenShot
+    tags: ["video"]
+    desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
 
 ## Graphics
 
@@ -146,38 +151,33 @@ projects:
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
     tags: ["graphics"]
-    desc: A free and open-source general-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
+    desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: MakeHuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
     tags: ["graphics"]
-    desc: A free and open source 3D computer graphics software middleware designed for the prototyping of photo realistic humanoids.
-  - name: OpenShot
-    repo_url: https://github.com/OpenShot/openshot-qt
-    wp_url: https://en.wikipedia.org/wiki/OpenShot
-    tags: ["graphics"]
-    desc: A free and open-source video editor for FreeBSD, Linux, macOS, and Windows.
+    desc: 3D computer graphics software designed for the prototyping of photo realistic humanoids.
   - name: MyPaint
     repo_url: https://github.com/mypaint/mypaint
     wp_url: https://en.wikipedia.org/wiki/MyPaint
     tags: ["graphics"]
-    desc: A free and open-source raster graphics editor for digital painters with a focus on painting rather than image manipulation or post processing.
+    desc: Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
     wp_url: https://en.wikipedia.org/wiki/SK1_(program)
     home_url: https://sk1project.net/  #  (forked from skencil)
     tags: ["graphics"]
-    desc: An open-source, cross-platform illustration program.
+    desc: Feature-rich, cross-platform illustration program.
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder
     tags: ["graphics"]
-    desc: An optical character recognition suite for GNOME, which also supports virtually any command-line OCR engine, such as CuneiForm, GOCR, Ocrad and Tesseract.
+    desc: An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
     tags: ["graphics"]
-    desc: A free document analysis and optical character recognition (OCR) system.
+    desc: Document analysis and optical character recognition (OCR) system.
 
 ## Games
 

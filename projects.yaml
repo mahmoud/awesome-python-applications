@@ -184,18 +184,23 @@ projects:
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
+    desc: Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players.
     tags: ["games"]
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
+    home_url: http://unknown-horizons.org/
+    desc: 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires)
     tags: ["games"]
   - name: PyChess
     repo_url: https://github.com/pychess/pychess
     home_url: http://pychess.org/
+    desc: Advanced chess client, suitable for new, casual, and competitive play.
     tags: ["games"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
     home_url: https://pysolfc.sourceforge.io/
     android_url: https://f-droid.org/en/packages/org.lufebe16.pysolfc/
+    desc: Highly-portable collection of solitaire card games.
     tags: ["games", "kivy"]
 
 ## Productivity

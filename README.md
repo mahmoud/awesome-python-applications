@@ -87,10 +87,10 @@ thereof), see Architectures. -->
 
 ## <a id="tag-games" href="#games">Games</a>
 
-  1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) 
-  1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons)) 
-  1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) 
-  1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/))  `(kivy)`
+  1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players.
+  1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires)
+  1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play.
+  1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(kivy)`
 
 ## <a id="tag-productivity" href="#productivity">Productivity</a>
 

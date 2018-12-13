@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **168** open-source Python applications arranged by
+This document is a list of **169** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -117,24 +117,24 @@ thereof), see Architectures. -->
 
 ## <a id="tag-communication" href="#communication">Communication</a>
 
-  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse)) 
-  1. **Zulip** - ([Repo](https://github.com/zulip/zulip)) 
-  1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage)) 
-  1. **Gajim** - ([Wikipedia](https://en.wikipedia.org/wiki/Gajim), [Repo](https://dev.gajim.org/gajim/gajim)) 
-  1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms)) 
-  1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman)) 
-  1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile)) 
-  1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks)) 
-  1. **MoinMoin** - ([Wikipedia](https://en.wikipedia.org/wiki/MoinMoin), [Repo](https://github.com/mirror/moin-2.0)) 
-  1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel)) 
-  1. **OfflineIMAP** - ([Wikipedia](https://en.wikipedia.org/wiki/OfflineIMAP), [Repo](https://github.com/OfflineIMAP/offlineimap)) 
-  1. **Pootle** - ([Wikipedia](https://en.wikipedia.org/wiki/Pootle), [Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/)) 
-  1. **Virtaal** - ([Repo](https://github.com/translate/virtaal)) 
-  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate)) 
-  1. **pycsw** - ([Wikipedia](https://en.wikipedia.org/wiki/Pycsw), [Repo](https://github.com/geopython/pycsw)) 
-  1. **Seafile** - ([Wikipedia](https://en.wikipedia.org/wiki/Seafile), [Repo](https://github.com/haiwen/seahub)) 
-  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server)) 
-  1. **TahoeLAFS** - ([Wikipedia](https://en.wikipedia.org/wiki/Tahoe-LAFS), [Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs)) 
+  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/).
+  1. **Zulip** - ([Wikipedia](https://en.wikipedia.org/wiki/Zulip), [Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations.
+  1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
+  1. **Gajim** - ([Wikipedia](https://en.wikipedia.org/wiki/Gajim), [Repo](https://dev.gajim.org/gajim/gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol.
+  1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform.
+  1. **Mailman** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Mailman), [Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/)) The original listserv, a web application and email server for managing subscriptions and discussion archives.
+  1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features
+  1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks), [Home](https://www.globaleaks.org/)) Web application to enable secure and anonymous whistleblowing initiatives
+  1. **MoinMoin** - ([Wikipedia](https://en.wikipedia.org/wiki/MoinMoin), [Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others
+  1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(corp)`
+  1. **OfflineIMAP** - ([Wikipedia](https://en.wikipedia.org/wiki/OfflineIMAP), [Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/)) IMAP reader and synchronizer
+  1. **Pootle** - ([Wikipedia](https://en.wikipedia.org/wiki/Pootle), [Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/)) Web application for collaborative translation
+  1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats
+  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Pypi](https://pypi.org/project/Weblate/), [Home](https://weblate.org/)) Web based localization tool with tight version control integration
+  1. **pycsw** - ([Wikipedia](https://en.wikipedia.org/wiki/Pycsw), [Repo](https://github.com/geopython/pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification
+  1. **Seafile** - ([Wikipedia](https://en.wikipedia.org/wiki/Seafile), [Repo](https://github.com/haiwen/seahub)) Cross-platform file hosting and synchronization system
+  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system
+  1. **TahoeLAFS** - ([Wikipedia](https://en.wikipedia.org/wiki/Tahoe-LAFS), [Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs)) Decentralized cloud storage system for robust distributed data storage
   1. **Ubiquity** - ([Wikipedia](https://en.wikipedia.org/wiki/Ubiquity_(software)), [Repo](https://code.launchpad.net/ubiquity)) 
 
 ## <a id="tag-education" href="#education">Education</a>

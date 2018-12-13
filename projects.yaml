@@ -268,66 +268,103 @@ projects:
 
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
+    home_url: https://riot.im/app/#/home
+    desc: Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/).
     tags: ["communication"]
   - name: Zulip
     repo_url: https://github.com/zulip/zulip
+    home_url: https://zulip.org/  #     chat_url: https://chat.zulip.org/
+    docs_url: https://zulip.readthedocs.io/en/latest/
+    wp_url: https://en.wikipedia.org/wiki/Zulip
+    desc: Powerful chat server and web client with support for threaded conversations.
     tags: ["communication"]
   - name: Bitmessage
+    desc: Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
+    docs_url: https://bitmessage.org/wiki/Main_Page
     repo_url: https://github.com/Bitmessage/PyBitmessage
     tags: ["communication"]
   - name: Gajim
+    desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim
     wp_url: https://en.wikipedia.org/wiki/Gajim
     tags: ["communication"]
-  - name: RapidSMS
+  - name: RapidSMS  # too much of a library?
     repo_url: https://github.com/rapidsms/rapidsms
+    home_url: http://rapidsms.org/
+    docs_url: http://readthedocs.org/docs/rapidsms/
+    desc: Interactive SMS text messaging platform.
     tags: ["communication"]
   - name: Mailman
     repo_url: https://gitlab.com/mailman/mailman
+    home_url: http://www.list.org/
+    wp_url: https://en.wikipedia.org/wiki/GNU_Mailman
+    desc: The original listserv, a web application and email server for managing subscriptions and discussion archives.
     tags: ["communication"]
   - name: Mailpile
+    desc: Fast email client with user-friendly encryption and privacy features
     repo_url: https://github.com/mailpile/Mailpile
+    home_url: https://mailpile.is/
     tags: ["communication"]
   - name: GlobaLeaks
     repo_url: https://github.com/globaleaks/GlobaLeaks
+    home_url: https://www.globaleaks.org/
+    desc: Web application to enable secure and anonymous whistleblowing initiatives
     tags: ["communication"]
   - name: MoinMoin
-    repo_url: https://github.com/mirror/moin-2.0
+    home_url: http://moinmo.in
+    docs_url: https://moin-20.readthedocs.io/en/latest/
+    repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
     wp_url: https://en.wikipedia.org/wiki/MoinMoin
+    desc: "Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others"
     tags: ["communication"]
   - name: Askbot
     repo_url: https://github.com/ASKBOT/askbot-devel
-    tags: ["communication"]
+    home_url: https://askbot.com/
+    desc: "Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more."
+    tags: ["communication", "corp"]
   - name: OfflineIMAP
     repo_url: https://github.com/OfflineIMAP/offlineimap
+    home_url: http://www.offlineimap.org/
     wp_url: https://en.wikipedia.org/wiki/OfflineIMAP
+    desc: IMAP reader and synchronizer
     tags: ["communication"]
   - name: Pootle
     wp_url: https://en.wikipedia.org/wiki/Pootle
     home_url: http://pootle.translatehouse.org/
     repo_url: https://github.com/translate/pootle
+    desc: Web application for collaborative translation
     tags: ["communication"]
   - name: Virtaal
+    home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
+    desc: Cross-platform GUI for performing translation, with support for a variety of formats
     tags: ["communication"]
   - name: Weblate
     repo_url: https://github.com/WeblateOrg/weblate
+    home_url: https://weblate.org/
+    pypi_url: https://pypi.org/project/Weblate/
+    desc: Web based localization tool with tight version control integration
     tags: ["communication"]
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw
+    desc: Full implementation of the OpenGIS Catalogue Service Implementation Specification
     tags: ["communication"]
   - name: Seafile
     repo_url: https://github.com/haiwen/seahub
     wp_url: https://en.wikipedia.org/wiki/Seafile
+    desc: Cross-platform file hosting and synchronization system
     tags: ["communication"]
   - name: Helios Voting
+    home_url: http://heliosvoting.org/
     repo_url: https://github.com/benadida/helios-server
+    desc: End-to-end verifiable voting system
     tags: ["communication"]
   - name: TahoeLAFS
     wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
     home_url: https://tahoe-lafs.org/trac/tahoe-lafs
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
+    desc: Decentralized cloud storage system for robust distributed data storage
     tags: ["communication"]
   - name: Ubiquity  # ubuntu installer
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
@@ -688,6 +725,10 @@ projects:
     docs_url: https://docs.ansible.com/ansible/
     home_url: https://www.ansible.com/
     tags: ["ops"]
+  - name: Vespene
+    repo_url: https://github.com/vespene-io/vespene
+    home_url: https://vespene.io/
+    docs_url: https://docs.vespene.io/
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken
     tags: ["ops"]

@@ -50,9 +50,9 @@ thereof), see Architectures. -->
 ## <a id="tag-internet" href="#internet">Internet</a>
 
   1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit)) 
-  1. **Planet** - ([Wikipedia](https://en.wikipedia.org/wiki/Planet_(software)), [Repo](https://github.com/python/planet/tree/master/code/planet)) 
+  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [WP](https://en.wikipedia.org/wiki/Planet_(software))) 
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge)) 
-  1. **Tribler** - ([Wikipedia](https://en.wikipedia.org/wiki/Tribler), [Repo](https://github.com/Tribler/tribler)) 
+  1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [WP](https://en.wikipedia.org/wiki/Tribler)) 
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser)) 
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/)) 
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) 
@@ -60,30 +60,30 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#audio">Audio</a>
 
-  1. **MusicBrainz Picard** - ([Wikipedia](https://en.wikipedia.org/wiki/MusicBrainz_Picard), [Repo](https://github.com/metabrainz/picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
-  1. **Exaile** - ([Wikipedia](https://en.wikipedia.org/wiki/Exaile), [Repo](https://github.com/exaile/exaile)) Cross-platform audio player, tag editor, and library organizer.
-  1. **Quod Libet** - ([Wikipedia](https://en.wikipedia.org/wiki/Quod_Libet_(software)), [Repo](https://github.com/quodlibet/quodlibet)) Cross-platform audio player, tag editor, and library organizer.
-  1. **Frescobaldi** - ([Wikipedia](https://en.wikipedia.org/wiki/Frescobaldi_(software)), [Repo](https://github.com/wbsoft/frescobaldi)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
-  1. **SoundConverter** - ([Wikipedia](https://en.wikipedia.org/wiki/GNOME_SoundConverter), [Repo](https://github.com/kassoulet/soundconverter)) A GNOME-based audio file transcoder.
-  1. **PuddleTag** - ([Wikipedia](https://en.wikipedia.org/wiki/Puddletag), [Repo](https://github.com/keithgg/puddletag/)) An audio tag (metadata) editor for audio file formats.
-  1. **GNU Radio** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Radio), [Repo](https://github.com/gnuradio/gnuradio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
-  1. **GNU Solfege** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Solfege), [Repo](http://git.savannah.gnu.org/cgit/solfege.git)) An ear-training program intended to help musicians improve their skills.
+  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
+  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer.
+  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer.
+  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
+  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder.
+  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats.
+  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
+  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills.
 
 ## <a id="tag-video" href="#video">Video</a>
 
-  1. **Pitivi** - ([Wikipedia](https://en.wikipedia.org/wiki/Pitivi), [Repo](https://gitlab.gnome.org/GNOME/pitivi)) Non-linear video editor for Linux, based on GStreamer.
-  1. **Plumi** - ([Wikipedia](https://en.wikipedia.org/wiki/Plumi), [Repo](https://github.com/plumi/plumi.app)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
-  1. **Flowblade** - ([Wikipedia](https://en.wikipedia.org/wiki/Flowblade), [Repo](https://github.com/jliljebl/flowblade)) Multitrack, non-linear video editing software for Linux.
-  1. **OpenShot** - ([Wikipedia](https://en.wikipedia.org/wiki/OpenShot), [Repo](https://github.com/OpenShot/openshot-qt)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
+  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer.
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
+  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux.
+  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
 
 ## <a id="tag-graphics" href="#graphics">Graphics</a>
 
-  1. **FreeCAD** - ([Wikipedia](https://en.wikipedia.org/wiki/FreeCAD), [Repo](https://github.com/FreeCAD/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
-  1. **MakeHuman** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
-  1. **MyPaint** - ([Wikipedia](https://en.wikipedia.org/wiki/MyPaint), [Repo](https://github.com/mypaint/mypaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
-  1. **SK1** - ([Wikipedia](https://en.wikipedia.org/wiki/SK1_(program)), [Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/)) Feature-rich, cross-platform illustration program.
-  1. **OCRFeeder** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRFeeder), [Repo](https://gitlab.gnome.org/GNOME/ocrfeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
-  1. **OCRopus** - ([Wikipedia](https://en.wikipedia.org/wiki/OCRopus), [Repo](https://github.com/tmbdev/ocropy)) Document analysis and optical character recognition (OCR) system.
+  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
+  1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
+  1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
+  1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program.
+  1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
+  1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system.
 
 ## <a id="tag-games" href="#games">Games</a>
 
@@ -96,7 +96,7 @@ thereof), see Architectures. -->
 
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey)) 
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) 
-  1. **Canto** - ([Wikipedia](https://en.wikipedia.org/wiki/Canto_(news_aggregator)), [Repo](https://github.com/themoken/canto-next)) 
+  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) 
   1. **ClamAV** - ([Repo](https://github.com/clamwin/clamav-win32), [Home](http://www.clamwin.com/)) 
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2)) 
   1. **Bup** - ([Repo](https://github.com/Bup/Bup)) 
@@ -113,29 +113,29 @@ thereof), see Architectures. -->
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio)) 
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki)) 
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) 
-  1. **OpenLibrary** - ([Wikipedia](https://en.wikipedia.org/wiki/Open_Library), [Repo](https://github.com/internetarchive/openlibrary)) 
+  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [WP](https://en.wikipedia.org/wiki/Open_Library)) 
 
 ## <a id="tag-communication" href="#communication">Communication</a>
 
   1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/).
-  1. **Zulip** - ([Wikipedia](https://en.wikipedia.org/wiki/Zulip), [Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations.
+  1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations.
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
-  1. **Gajim** - ([Wikipedia](https://en.wikipedia.org/wiki/Gajim), [Repo](https://dev.gajim.org/gajim/gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol.
+  1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol.
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform.
-  1. **Mailman** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Mailman), [Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/)) The original listserv, a web application and email server for managing subscriptions and discussion archives.
+  1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives.
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features
   1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks), [Home](https://www.globaleaks.org/)) Web application to enable secure and anonymous whistleblowing initiatives
-  1. **MoinMoin** - ([Wikipedia](https://en.wikipedia.org/wiki/MoinMoin), [Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others
+  1. **MoinMoin** - ([Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [WP](https://en.wikipedia.org/wiki/MoinMoin), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(corp)`
-  1. **OfflineIMAP** - ([Wikipedia](https://en.wikipedia.org/wiki/OfflineIMAP), [Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/)) IMAP reader and synchronizer
-  1. **Pootle** - ([Wikipedia](https://en.wikipedia.org/wiki/Pootle), [Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/)) Web application for collaborative translation
+  1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer
+  1. **Pootle** - ([Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/), [WP](https://en.wikipedia.org/wiki/Pootle)) Web application for collaborative translation
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats
-  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Pypi](https://pypi.org/project/Weblate/), [Home](https://weblate.org/)) Web based localization tool with tight version control integration
-  1. **pycsw** - ([Wikipedia](https://en.wikipedia.org/wiki/Pycsw), [Repo](https://github.com/geopython/pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification
-  1. **Seafile** - ([Wikipedia](https://en.wikipedia.org/wiki/Seafile), [Repo](https://github.com/haiwen/seahub)) Cross-platform file hosting and synchronization system
+  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [Pypi](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration
+  1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification
+  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system
   1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system
-  1. **TahoeLAFS** - ([Wikipedia](https://en.wikipedia.org/wiki/Tahoe-LAFS), [Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs)) Decentralized cloud storage system for robust distributed data storage
-  1. **Ubiquity** - ([Wikipedia](https://en.wikipedia.org/wiki/Ubiquity_(software)), [Repo](https://code.launchpad.net/ubiquity)) 
+  1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage
+  1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) 
 
 ## <a id="tag-education" href="#education">Education</a>
 
@@ -145,9 +145,9 @@ thereof), see Architectures. -->
 
 ## <a id="tag-science" href="#science">Science</a>
 
-  1. **ASCEND** - ([Wikipedia](https://en.wikipedia.org/wiki/ASCEND), [Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page)) 
+  1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) 
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core)) 
-  1. **Orange** - ([Wikipedia](https://en.wikipedia.org/wiki/Orange_(software)), [Repo](https://github.com/biolab/orange3)) 
+  1. **Orange** - ([Repo](https://github.com/biolab/orange3), [WP](https://en.wikipedia.org/wiki/Orange_(software))) 
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler)) 
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz)) 
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi)) 
@@ -185,14 +185,14 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.scm" href="#dev.scm">SCM</a>
 
   1. **Pagure** - ([Home](https://pagure.io/pagure/)) 
-  1. **Allura** - ([Wikipedia](https://en.wikipedia.org/wiki/Apache_Allura), [Repo](https://github.com/apache/allura)) 
-  1. **Mercurial** - ([Wikipedia](https://en.wikipedia.org/wiki/Mercurial), [Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/)) 
-  1. **Roundup** - ([Wikipedia](https://en.wikipedia.org/wiki/Roundup_(issue_tracker)), [Repo](http://hg.code.sf.net/p/roundup/code)) 
-  1. **GNU Bazaar** - ([Wikipedia](https://en.wikipedia.org/wiki/GNU_Bazaar), [Repo](https://code.launchpad.net/bzr)) 
-  1. **Trac** - ([Wikipedia](https://en.wikipedia.org/wiki/Trac), [Repo](https://github.com/edgewall/trac)) 
+  1. **Allura** - ([Repo](https://github.com/apache/allura), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) 
+  1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) 
+  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) 
+  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) 
+  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) 
   1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) 
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea)) 
-  1. **RhodeCode** - ([Wikipedia](https://en.wikipedia.org/wiki/RhodeCode), [Home](https://code.rhodecode.com/rhodecode-enterprise-ce)) 
+  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [WP](https://en.wikipedia.org/wiki/RhodeCode)) 
   1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld)) 
   1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/)) 
   1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home), [Home](https://tortoisehg.bitbucket.io/)) 
@@ -209,9 +209,9 @@ Projects related to software development and adjacent technical areas.
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) 
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken)) 
   1. **StackStorm ST2** - ([Repo](https://github.com/StackStorm/st2)) 
-  1. **Cobbler** - ([Wikipedia](https://en.wikipedia.org/wiki/Cobbler_(software)), [Repo](https://github.com/Cobbler/Cobbler)) 
+  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) 
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) 
-  1. **fail2ban** - ([Wikipedia](https://en.wikipedia.org/wiki/Fail2ban), [Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page)) 
+  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) 
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn)) 
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) 
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) 
@@ -233,8 +233,8 @@ Projects related to software development and adjacent technical areas.
 
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder)) 
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit)) 
-  1. **Thonny** - ([Wikipedia](https://en.wikipedia.org/wiki/Thonny), [Repo](https://bitbucket.org/plas/thonny/src)) 
-  1. **Ninja IDE** - ([Wikipedia](https://en.wikipedia.org/wiki/Thonny), [Repo](https://github.com/ninja-ide/ninja-ide)) 
+  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [WP](https://en.wikipedia.org/wiki/Thonny)) 
+  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [WP](https://en.wikipedia.org/wiki/Thonny)) 
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) 
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) 
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) 
@@ -243,7 +243,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.pkg_mgr" href="#dev.pkg_mgr">Package Managers</a>
 
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/)) 
-  1. **Portage** - ([Wikipedia](https://en.wikipedia.org/wiki/Portage_(software)), [Repo](https://anongit.gentoo.org/git/proj/portage.git)) 
+  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) 
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/)) 
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) 
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum)) 
@@ -273,8 +273,8 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry)) Exception aggregation and reporting service `(corp, flask)`
   1. **Coala** - ([Repo](https://github.com/coala/coala)) 
-  1. **CoCalc** - ([Wikipedia](https://en.wikipedia.org/wiki/CoCalc), [Repo](https://github.com/sagemathinc/cocalc)) 
-  1. **Sage Math** - ([Wikipedia](https://en.wikipedia.org/wiki/SageMath), [Repo](https://git.sagemath.org/sage.git/)) 
+  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [WP](https://en.wikipedia.org/wiki/CoCalc)) 
+  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) 
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson)) 
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) 
   1. **IPython** - ([Repo](https://github.com/ipython/ipython)) 
@@ -286,12 +286,12 @@ Projects related to software development and adjacent technical areas.
   1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger)) 
   1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) 
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) 
-  1. **Graph Tool** - ([Wikipedia](https://en.wikipedia.org/wiki/MakeHuman), [Repo](https://bitbucket.org/MakeHuman/makehuman)) 
+  1. **Graph Tool** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) 
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot)) 
   1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus)) 
   1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk/), [Home](http://xpra.org/)) 
-  1. **Wicd** - ([Wikipedia](https://en.wikipedia.org/wiki/Wicd), [Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php)) 
+  1. **Wicd** - ([Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) 
   1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) 
 
 

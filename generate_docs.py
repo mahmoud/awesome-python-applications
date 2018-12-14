@@ -117,7 +117,8 @@ class ProjectList(object):
 _URL_LABEL_MAP = {'wp': 'WP',
                   'home': 'Home',
                   'repo': 'Repo',
-                  'docs': 'Docs'}
+                  'docs': 'Docs',
+                  'pypi': 'PyPI'}
 
 _URL_ORDER = ['repo', 'home', 'wp', 'docs']
 

@@ -106,13 +106,13 @@ thereof), see Architectures. -->
 
 ## <a id="tag-organization" href="#organization">Organization</a>
 
-  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/)) 
-  1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa)) 
-  1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps)) 
-  1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio)) 
-  1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki)) 
-  1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) 
-  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [WP](https://en.wikipedia.org/wiki/Open_Library)) 
+  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
+  1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support.
+  1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
+  1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository.
+  1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting.
+  1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas.
+  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published.
 
 ## <a id="tag-communication" href="#communication">Communication</a>
 

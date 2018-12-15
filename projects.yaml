@@ -252,26 +252,39 @@ projects:
 
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre/
+    home_url: https://calibre-ebook.com/
+    desc: E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
     tags: ["organization"]
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
+    home_url: https://pymedusa.com/
+    desc: Video library manager for TV shows, with automatic download support.
     tags: ["organization"]
   - name: Gramps
     repo_url: https://github.com/gramps-project/gramps
+    home_url: https://gramps-project.org/
+    desc: Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
     tags: ["organization"]
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
+    docs_url: https://invenio.readthedocs.io/
+    desc: Customizable platform for running a trusted digital repository.
     tags: ["organization"]
   - name: Zim Wiki
     repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
+    home_url: http://zim-wiki.org/
+    desc: Desktop wiki designed for note-taking, list-making, and drafting.
     tags: ["organization"]
   - name: Wikid Pad
     repo_url: https://github.com/WikidPad/WikidPad
     home_url: http://wikidpad.sourceforge.net/
+    desc: Desktop wiki notebook for storing your thoughts and ideas.
     tags: ["organization"]
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
+    home_url: https://openlibrary.org/
     wp_url: https://en.wikipedia.org/wiki/Open_Library
+    desc: "Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published."
     tags: ["organization"]
 
 ## Communication
@@ -279,7 +292,7 @@ projects:
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
     home_url: https://riot.im/app/#/home
-    desc: Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/).
+    desc: "Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/)."
     tags: ["communication"]
   - name: Zulip
     repo_url: https://github.com/zulip/zulip

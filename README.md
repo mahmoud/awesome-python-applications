@@ -49,14 +49,14 @@ thereof), see Architectures. -->
 
 ## <a id="tag-internet" href="#internet">Internet</a>
 
-  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit)) 
-  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [WP](https://en.wikipedia.org/wiki/Planet_(software))) 
-  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge)) 
-  1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [WP](https://en.wikipedia.org/wiki/Tribler)) 
-  1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser)) 
-  1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/)) 
-  1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) 
-  1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org)) 
+  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
+  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
+  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client.
+  1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery.
+  1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5
+  1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/), [PyPI](https://pypi.org/project/youtube_dl/)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
+  1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites.
+  1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages.
 
 ## <a id="tag-audio" href="#audio">Audio</a>
 
@@ -139,20 +139,20 @@ thereof), see Architectures. -->
 
 ## <a id="tag-education" href="#education">Education</a>
 
-  1. **Anki** - ([Repo](https://github.com/dae/anki)) 
-  1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne)) 
-  1. **EdX Platform** - ([Repo](https://github.com/edx/edx-platform)) 
+  1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization.
+  1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization.
+  1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
 
 ## <a id="tag-science" href="#science">Science</a>
 
-  1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) 
-  1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core)) 
-  1. **Orange** - ([Repo](https://github.com/biolab/orange3), [WP](https://en.wikipedia.org/wiki/Orange_(software))) 
-  1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler)) 
-  1. **Veusz** - ([Repo](https://github.com/veusz/veusz)) 
-  1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi)) 
-  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) 
-  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/))  `(django)`
+  1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
+  1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
+  1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization.
+  1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa/), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets.
+  1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
+  1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
+  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Biolographic database manager with a user-friendly desktop UI.
+  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(django)`
 
 ## <a id="tag-cms" href="#cms">CMS</a>
 

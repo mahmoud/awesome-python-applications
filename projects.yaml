@@ -533,6 +533,11 @@ projects:
     pypi_url: https://pypi.org/project/hyde
     desc: Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
     tags: ["static_site"]
+  - name: Lektor
+    repo_url: https://github.com/lektor/lektor
+    home_url: https://www.getlektor.com/
+    desc: Static site generator with built-in admin console and minimal desktop application.
+    tags: ["static_site"]
   - name: Chert  # blatant self-plug
     repo_url: https://github.com/mahmoud/chert
     pypi_url: https://pypi.org/project/chert
@@ -543,25 +548,34 @@ projects:
 
   - name: Ella
     repo_url: https://github.com/ella/ella
+    docs_url: https://ella.readthedocs.io/en/latest/index.html
+    desc: Django-based content management system with a focus on high-traffic news sites and Internet magazines.
     tags: ["cms"]
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
+    home_url: https://www.django-cms.org/en/
+    desc: Enterprise content management system based on the Django framework with version control, multi-site support, and more.
     tags: ["cms"]
   - name: Wagtail
     repo_url: https://github.com/wagtail/wagtail
+    home_url: https://wagtail.io/
+    desc: A Django content management system focused on flexibility and user experience.
     tags: ["cms"]
   - name: Plone
-    repo_url: https://en.wikipedia.org/wiki/Plone_(software)
+    repo_url: https://github.com/plone/Plone
+    wp_url: https://en.wikipedia.org/wiki/Plone_(software)
+    home_url: https://plone.com/
+    desc: Extensible enterprise content management system built on Zope.
     tags: ["cms"]
   - name: Mezzanine
     repo_url: https://github.com/stephenmcd/mezzanine
-    tags: ["cms"]
-  - name: Lektor
-    repo_url: https://github.com/lektor/lektor
-    home_url: https://www.getlektor.com/
+    home_url: http://mezzanine.jupo.org/
+    desc: Consistent and flexible content management platform built on the Django framework.
     tags: ["cms"]
   - name: Saleor
     repo_url: https://github.com/mirumee/saleor/  # storefront
+    home_url: https://getsaleor.com/
+    desc:  Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
     tags: ["cms"]
 
 ## ERP

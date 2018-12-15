@@ -28,9 +28,9 @@ thereof), see Architectures. -->
 1. <a href="#tag-communication">Communication</a> *(19)*
 1. <a href="#tag-education">Education</a> *(3)*
 1. <a href="#tag-science">Science</a> *(8)*
-1. <a href="#tag-cms">CMS</a> *(7)*
+1. <a href="#tag-cms">CMS</a> *(6)*
 1. <a href="#tag-erp">ERP</a> *(2)*
-1. <a href="#tag-static_site">Static Site</a> *(5)*
+1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(9)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
@@ -155,13 +155,12 @@ thereof), see Architectures. -->
 
 ## <a id="tag-cms" href="#cms">CMS</a>
 
-  1. **Ella** - ([Repo](https://github.com/ella/ella)) 
-  1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms)) 
-  1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail)) 
-  1. **Plone** - ([Repo](https://en.wikipedia.org/wiki/Plone_(software))) 
-  1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine)) 
-  1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) 
-  1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/)) 
+  1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
+  1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en/)) Enterprise content management system based on the Django framework with version control, multi-site support, and more.
+  1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience.
+  1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope.
+  1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework.
+  1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
 
 ## <a id="tag-erp" href="#erp">ERP</a>
 
@@ -174,6 +173,7 @@ thereof), see Architectures. -->
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates.
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
+  1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application.
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
 
 ## <a id="tag-dev" href="#dev">Dev</a>

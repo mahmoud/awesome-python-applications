@@ -490,20 +490,30 @@ projects:
   - name: Pelican
     repo_url: https://github.com/getpelican/pelican
     home_url: https://blog.getpelican.com
+    pypi_url: https://pypi.org/project/pelican
     tags: ["static_site"]
+    desc:  Command-line static site generator that supports Markdown and reST syntax.
   - name: Nikola
-    repo_url: https://github.
+    repo_url: https://github.com/getnikola/nikola
     home_url: https://www.getnikola.com
+    pypi_url: https://pypi.org/project/nikola
+    desc: Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
     tags: ["static_site"]
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
+    pypi_url: https://pypi.org/project/cactus
+    desc: Static website generator using Django templates.
     tags: ["static_site"]
   - name: Hyde
     repo_url: https://github.com/hyde/hyde
     home_url: http://hyde.github.io/
+    pypi_url: https://pypi.org/project/hyde
+    desc: Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
     tags: ["static_site"]
   - name: Chert  # blatant self-plug
     repo_url: https://github.com/mahmoud/chert
+    pypi_url: https://pypi.org/project/chert
+    desc: "Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)"
     tags: ["static_site"]
 
 ## CMS

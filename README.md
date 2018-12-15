@@ -171,11 +171,11 @@ thereof), see Architectures. -->
 
 ## <a id="tag-static_site" href="#static_site">Static Site</a>
 
-  1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com)) 
-  1. **Nikola** - ([Repo](https://github.), [Home](https://www.getnikola.com)) 
-  1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus)) 
-  1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/)) 
-  1. **Chert** - ([Repo](https://github.com/mahmoud/chert)) 
+  1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax.
+  1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
+  1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates.
+  1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
+  1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
 
 ## <a id="tag-dev" href="#dev">Dev</a>
 

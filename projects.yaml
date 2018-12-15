@@ -206,36 +206,46 @@ projects:
 ## Productivity
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
+    pypi_url: https://pypi.org/project/autokey/
+    desc: Desktop automation utility for Linux and X11.
     tags: ["productivity"]
   - name: Bleachbit
     repo_url: https://github.com/bleachbit/bleachbit
     home_url: https://www.bleachbit.org/
+    desc: System cleaner for Windows and Linux, designed to free disk space and maintain privacy.
     tags: ["productivity"]
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
-    tags: ["productivity"]
-  - name: ClamAV
-    repo_url: https://github.com/clamwin/clamav-win32
-    home_url: http://www.clamwin.com/
+    desc: RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
     tags: ["productivity"]
   - name: Metamorphose
     repo_url: https://github.com/metamorphose/metamorphose2
+    home_url: http://file-folder-ren.sourceforge.net/
+    desc: Graphical mass renaming program for files and folders.
     tags: ["productivity"]
   - name: Bup
     repo_url: https://github.com/Bup/Bup
+    home_url: https://bup.github.io/
+    desc: Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication.
     tags: ["productivity"]
   - name: Attic
-    repo_url: https://github.com/jborg/attic  # backup
+    repo_url: https://github.com/jborg/attic
+    desc: Deduplicating backup system with optional encryption and other features.
     tags: ["productivity"]
   - name: gmvault
     repo_url: https://github.com/gaubert/gmvault
+    desc: Tool for backing up gmail accounts.
     tags: ["productivity"]
   - name: nvda
-    repo_url: https://github.com/nvaccess/nvda  # screenreader software
+    repo_url: https://github.com/nvaccess/nvda
+    home_url: https://www.nvaccess.org/
+    desc: Non-Visual Desktop Access, a powerful screen reader for Windows.
     tags: ["productivity"]
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
+    home_url: https://ranger.github.io/
+    desc: Console-based file manager, inspired by vim.
     tags: ["productivity"]
 
 ## Organization

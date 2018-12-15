@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **169** open-source Python applications arranged by
+This document is a list of **168** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -23,7 +23,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(6)*
 1. <a href="#tag-games">Games</a> *(4)*
-1. <a href="#tag-productivity">Productivity</a> *(10)*
+1. <a href="#tag-productivity">Productivity</a> *(9)*
 1. <a href="#tag-organization">Organization</a> *(7)*
 1. <a href="#tag-communication">Communication</a> *(19)*
 1. <a href="#tag-education">Education</a> *(3)*
@@ -94,16 +94,15 @@ thereof), see Architectures. -->
 
 ## <a id="tag-productivity" href="#productivity">Productivity</a>
 
-  1. **Autokey** - ([Repo](https://github.com/autokey/autokey)) 
-  1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) 
-  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) 
-  1. **ClamAV** - ([Repo](https://github.com/clamwin/clamav-win32), [Home](http://www.clamwin.com/)) 
-  1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2)) 
-  1. **Bup** - ([Repo](https://github.com/Bup/Bup)) 
-  1. **Attic** - ([Repo](https://github.com/jborg/attic)) 
-  1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault)) 
-  1. **nvda** - ([Repo](https://github.com/nvaccess/nvda)) 
-  1. **Ranger** - ([Repo](https://github.com/ranger/ranger)) 
+  1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey/)) Desktop automation utility for Linux and X11.
+  1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner for Windows and Linux, designed to free disk space and maintain privacy.
+  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
+  1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders.
+  1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication.
+  1. **Attic** - ([Repo](https://github.com/jborg/attic)) Deduplicating backup system with optional encryption and other features.
+  1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault)) Tool for backing up gmail accounts.
+  1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows.
+  1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim.
 
 ## <a id="tag-organization" href="#organization">Organization</a>
 

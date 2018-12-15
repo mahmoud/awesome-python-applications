@@ -374,45 +374,67 @@ projects:
 ## Internet
   - name: Reddit
     repo_url: https://github.com/reddit-archive/reddit
+    home_url: http://reddit.com/
+    desc: Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
     tags: ["internet"]
   - name: Planet
     wp_url: https://en.wikipedia.org/wiki/Planet_(software)
     repo_url: https://github.com/python/planet/tree/master/code/planet
+    desc: RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
+    home_url: https://web.archive.org/web/20051029095046/http://www.planetplanet.org/
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
     tags: ["internet"]
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
+    home_url: https://deluge-torrent.org/
+    desc: Popular, lightweight, cross-platform BitTorrent client.
     tags: ["internet"]
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
+    home_url: http://www.tribler.org/
     wp_url: https://en.wikipedia.org/wiki/Tribler
+    desc: Privacy enhanced BitTorrent client with P2P content discovery.
     tags: ["internet"]
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
+    home_url: https://www.qutebrowser.org/
+    desc: Keyboard-driven, minimal, `vim`-like browser based on PyQt5
     tags: ["internet"]
   - name: youtube-dl
     repo_url: https://github.com/rg3/youtube-dl
     home_url: http://rg3.github.io/youtube-dl/
+    pypi_url: https://pypi.org/project/youtube_dl/
+    desc: Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
     tags: ["internet"]
   - name: You-Get
     repo_url: https://github.com/soimort/you-get
     home_url: https://you-get.org/
+    desc: Command-line program to browserlessly scrape and stream video, audio, and images from web sites.
     tags: ["internet"]
   - name: SABnzbd
     repo_url: https://github.com/sabnzbd/sabnzbd
     home_url: https://sabnzbd.org
+    docs_url: https://sabnzbd.org/wiki/
+    desc: Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages.
     tags: ["internet"]
 
 ## Education
 
   - name: Anki
     repo_url: https://github.com/dae/anki
+    home_url: https://apps.ankiweb.net/
+    docs_url: https://apps.ankiweb.net/docs/manual.html
+    desc: Powerful desktop application for flash cards and memorization.
     tags: ["education"]
   - name: Mnemosyne
     repo_url: https://github.com/mnemosyne-proj/mnemosyne
+    home_url: https://mnemosyne-proj.org/
+    desc: Spaced-repetition flashcard program for efficient memorization.
     tags: ["education"]
-  - name: EdX Platform
+  - name: Open edX Platform
     repo_url: https://github.com/edx/edx-platform
+    home_url: http://open.edx.org/
+    desc: Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
     tags: ["education"]
 
 ## Science
@@ -421,31 +443,46 @@ projects:
     repo_url: http://code.ascend4.org/ascend/trunk/
     wp_url: https://en.wikipedia.org/wiki/ASCEND
     home_url: http://ascend4.org/Main_Page
+    desc: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
     tags: ["science"]
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
+    home_url: https://anuga.anu.edu.au/
+    desc: Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
     tags: ["science"]
   - name: Orange
+    home_url: https://orange.biolab.si/
     repo_url: https://github.com/biolab/orange3
     wp_url: https://en.wikipedia.org/wiki/Orange_(software)
+    desc: Component-based data mining software for graphical interactive data analysis and visualization.
     tags: ["science"]
   - name: CellProfiler
+    home_url: http://cellprofiler.org/
     repo_url: https://github.com/CellProfiler/CellProfiler
+    docs_url: https://github.com/CellProfiler/CellProfiler/wiki
+    manual_url: https://cellprofiler.org/cpa/
+    desc: Interactive data exploration, analysis, and classification of biological image sets.
     tags: ["science"]
   - name: Veusz
     repo_url: https://github.com/veusz/veusz
+    home_url: https://veusz.github.io/
+    desc: 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
     tags: ["science"]
   - name: Mayavi
     repo_url: https://github.com/enthought/mayavi
+    home_url: http://docs.enthought.com/mayavi/mayavi/
+    desc: General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
     tags: ["science"]
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
+    desc: Biolographic database manager with a user-friendly desktop UI.
     tags: ["science"]
   - name: Dissem.in
     repo_url: https://github.com/dissemin/dissemin
     home_url: https://dissem.in/
     docs_url: https://dev.dissem.in/
+    desc: Web platform to help researchers upload their papers to open-access repositories.
     tags: ["science", "django"]
 
 ## Static Site Generators

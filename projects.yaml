@@ -70,6 +70,7 @@ tagsonomy:
             - shell
       - misc
 
+
 projects:
 ## COMPLETE FORMAT:
   # - name: Project Name
@@ -458,6 +459,11 @@ projects:
     repo_url: https://github.com/edx/edx-platform
     home_url: http://open.edx.org/
     desc: Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
+    tags: ["education"]
+  - name: NBGrader
+    repo_url: https://github.com/jupyter/nbgrader
+    docs_url: https://nbgrader.readthedocs.io/en/stable/
+    desc: Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form.
     tags: ["education"]
 
 ## Science

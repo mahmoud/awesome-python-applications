@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **168** open-source Python applications arranged by
+This document is a list of **169** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -26,7 +26,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-productivity">Productivity</a> *(9)*
 1. <a href="#tag-organization">Organization</a> *(7)*
 1. <a href="#tag-communication">Communication</a> *(19)*
-1. <a href="#tag-education">Education</a> *(3)*
+1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(8)*
 1. <a href="#tag-cms">CMS</a> *(6)*
 1. <a href="#tag-erp">ERP</a> *(2)*
@@ -141,6 +141,7 @@ thereof), see Architectures. -->
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization.
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization.
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
+  1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable/)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form.
 
 ## <a id="tag-science" href="#science">Science</a>
 

@@ -835,13 +835,17 @@ projects:
   - name: Oil
     repo_url: https://github.com/oilshell/oil
     home_url: http://www.oilshell.org/
+    desc: A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own.
     tags: ["shell"]
   - name: Xonsh
     repo_url: https://github.com/xonsh/xonsh
+    home_url: https://xon.sh/
+    desc: Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives.
     tags: ["shell"]
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
+    desc: Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
     tags: ["shell"]
 
 ## Ops

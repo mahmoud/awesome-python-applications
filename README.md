@@ -183,8 +183,8 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.scm" href="#dev.scm">SCM</a>
 
-  1. **Pagure** - ([Home](https://pagure.io/pagure/)) 
-  1. **Allura** - ([Repo](https://github.com/apache/allura), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) 
+  1. **Pagure** - ([Repo](https://pagure.io/pagure/), [Home](https://pagure.io/)) Git-centric software "forge" (code-hosting system).
+  1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software forge, with support for git, hg, and svn.
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) 
   1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) 
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) 
@@ -198,8 +198,8 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.code_review" href="#dev.code_review">Code Review</a>
 
-  1. **Meld** - ([Repo](https://github.com/GNOME/meld)) 
-  1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard)) 
+  1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
+  1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes.
 
 ### <a id="tag-dev.ops" href="#dev.ops">Ops</a>
 
@@ -225,8 +225,8 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.docs" href="#dev.docs">Docs</a>
 
-  1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) 
-  1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx)) 
+  1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
+  1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
 
 ### <a id="tag-dev.editor" href="#dev.editor">Editor</a>
 
@@ -270,15 +270,15 @@ Projects related to software development and adjacent technical areas.
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) 
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
-  1. **Sentry** - ([Repo](https://github.com/getsentry/sentry)) Exception aggregation and reporting service `(corp, flask)`
-  1. **Coala** - ([Repo](https://github.com/coala/coala)) 
-  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [WP](https://en.wikipedia.org/wiki/CoCalc)) 
-  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) 
-  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson)) 
-  1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) 
-  1. **IPython** - ([Repo](https://github.com/ipython/ipython)) 
-  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook)) 
-  1. **Locust** - ([Repo](https://github.com/locustio/locust)) 
+  1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(corp, flask)`
+  1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
+  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
+  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
+  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
+  1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
+  1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
+  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
+  1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
 
 ## <a id="tag-misc" href="#misc">Misc</a>
 

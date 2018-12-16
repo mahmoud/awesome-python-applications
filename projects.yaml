@@ -594,53 +594,80 @@ projects:
 ## Software development
 
   - name: Sentry
-    desc: Exception aggregation and reporting service
     repo_url: https://github.com/getsentry/sentry
+    home_url: https://sentry.io/
+    desc: Web service and frontend for cross-platform application monitoring, with a focus on error reporting.
     tags: ["dev", "flask", "corp"]
   - name: Pagure
-    home_url: https://pagure.io/pagure/
+    repo_url: https://pagure.io/pagure/
+    home_url: https://pagure.io/
+    desc: 'Git-centric software "forge" (code-hosting system).'
     tags: ["scm"]
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
+    home_url: https://allura.apache.org/
+    desc: Software forge, with support for git, hg, and svn.
     tags: ["scm"]
   - name: Coala
     repo_url: https://github.com/coala/coala
+    home_url: https://coala.io/
+    desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags: ["dev"]
   - name: Meld
     repo_url: https://github.com/GNOME/meld
+    home_url: http://meldmerge.org/
+    desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
     tags: ["code_review"]
   - name: CoCalc
     repo_url: https://github.com/sagemathinc/cocalc
     wp_url: https://en.wikipedia.org/wiki/CoCalc
+    home_url: https://cocalc.com/
+    desc: Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
     tags: ["dev"]
   - name: Sage Math
     wp_url: https://en.wikipedia.org/wiki/SageMath
     repo_url: https://git.sagemath.org/sage.git/
+    desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
     tags: ["dev"]
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
+    desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
     tags: ["docs"]
   - name: Sphinx
     repo_url: https://github.com/sphinx-doc/sphinx
+    home_url: http://sphinx-doc.org/
+    desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
     tags: ["docs"]
   - name: Meson
+    home_url: http://mesonbuild.com/
     repo_url: https://github.com/mesonbuild/meson
+    desc: Build system designed for speed and user-friendliness.
     tags: ["dev"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
+    desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
     tags: ["dev"]
   - name: Review Board
     repo_url: https://github.com/reviewboard/reviewboard
+    home_url: https://www.reviewboard.org/
+    desc: Extensible code review tool for projects and companies of all sizes.
     tags: ["code_review"]
   - name: IPython
+    docs_url: https://ipython.readthedocs.org/
     repo_url: https://github.com/ipython/ipython
+    desc: Set of enhancements to Python, wrapping it for richer interactivity.
     tags: ["dev"]
   - name: Jupyter Notebook
     repo_url: https://github.com/jupyter/notebook
+    home_url: https://jupyter.org/
+    desc: Web-based, extensible notebook environment for interactive computing.
     tags: ["dev"]
   - name: Locust
     repo_url: https://github.com/locustio/locust
+    home_url: https://locust.io/
+    docs_url: https://docs.locust.io/
+    desc: Scalable user load testing tool for web sites, featuring an interactive web interface.
     tags: ["dev"]
 
 ## Editors

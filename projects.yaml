@@ -851,45 +851,54 @@ projects:
 
 ## Misc / To File
   - name: JARVIS on Messenger
+    home_url: https://m.me/J.A.R.V.I.S.on.Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
+    desc: Facebook Messenger bot with a wide assortment of features.
     tags: ["misc"]
   - name: Home Assistant
     repo_url: https://github.com/home-assistant/home-assistant
     home_url: https://www.home-assistant.io/
+    desc: Home automation platform that puts local control and privacy first.
     tags: ["misc"]
   - name: OpenLP
     home_url: https://openlp.org/
     repo_url: https://launchpad.net/openlp
+    desc: Presentation software geared toward church usage.
     tags: ["misc"]
   - name: Nicotine+
     repo_url: https://github.com/Nicotine-Plus/nicotine-plus
-    tags: ["misc"]
-  - name: Graph Tool
-    repo_url: https://bitbucket.org/MakeHuman/makehuman
-    wp_url: https://en.wikipedia.org/wiki/MakeHuman
+    desc: Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system.
     tags: ["misc"]
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
+    desc: Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
     tags: ["misc"]
   - name: Neubot
     repo_url: https://github.com/neubot/neubot
+    home_url: http://www.neubot.org/
+    desc: Lightweight agent which collects data for net-neutrality research.
     tags: ["misc"]
   - name: Nimbus
     repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
+    home_url: http://www.nimbusproject.org/
+    desc: Infrastructure-as-a-Service platform geared toward scientific cloud computing.
     tags: ["misc"]
   - name: Xpra
     home_url: http://xpra.org/
     repo_url: https://xpra.org/svn/Xpra/trunk/
+    desc: Cross-platform remote display server and client for forwarding applications and desktop screens.
     tags: ["misc"]
   - name: Wicd
     wp_url: https://en.wikipedia.org/wiki/Wicd
     home_url: http://wicd.sourceforge.net/download.php
     repo_url: https://code.launchpad.net/wicd/
+    desc: Graphical utility for managing wired and wireless connections on Linux.
     tags: ["misc"]
   - name: qtile
     repo_url: https://github.com/qtile/qtile
     home_url: http://qtile.org/
+    desc: A small, flexible, scriptable tiling window manager.
     tags: ["misc"]
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/

@@ -69,7 +69,20 @@ tagsonomy:
             - build
             - shell
       - misc
-
+  license:
+      - bsd:
+          subtags:
+            - bsd3
+            - bsd2
+      - gpl:
+          subtags:
+            - gplv2
+            - gplv3
+            - lgpl
+            - agpl
+      - apache
+      - mit
+      - proprietary
 
 projects:
 ## COMPLETE FORMAT:

@@ -582,9 +582,13 @@ projects:
 
   - name: ERPNext
     repo_url: https://github.com/frappe/erpnext
+    home_url: https://erpnext.com/
+    desc: Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
     tags: ["erp"]
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
+    home_url: https://www.odoo.com/
+    desc: Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
     tags: ["erp"]
 
 ## Software development
@@ -848,6 +852,10 @@ projects:
 ## Misc / To File
   - name: JARVIS on Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
+    tags: ["misc"]
+  - name: Home Assistant
+    repo_url: https://github.com/home-assistant/home-assistant
+    home_url: https://www.home-assistant.io/
     tags: ["misc"]
   - name: OpenLP
     home_url: https://openlp.org/

@@ -658,11 +658,6 @@ projects:
     home_url: http://sphinx-doc.org/
     desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
     tags: ["docs"]
-  - name: Meson
-    home_url: http://mesonbuild.com/
-    repo_url: https://github.com/mesonbuild/meson
-    desc: Build system designed for speed and user-friendliness.
-    tags: ["dev"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
@@ -830,6 +825,11 @@ projects:
     home_url: https://waf.io/
     repo_url: https://gitlab.com/ita1024/waf
     tags: ["build"]
+  - name: Meson
+    home_url: http://mesonbuild.com/
+    repo_url: https://github.com/mesonbuild/meson
+    desc: Build system designed for speed and user-friendliness.
+    tags: ["build"]
 
 ## Shells
   - name: Oil
@@ -848,51 +848,71 @@ projects:
   - name: OpenStack
     repo_url: https://git.openstack.org/cgit/openstack/openstack/tree/
     home_url: https://www.openstack.org/
-    docs_url: https://docs.openstack.org/rocky/
-    tags: ["ops"]
+    docs_url: https://docs.openstack.org/
+    desc: Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard.
+    tags: ["ops", "corp"]
   - name: Salt Stack
     repo_url: https://github.com/saltstack/salt
     home_url: https://repo.saltstack.com/
-    tags: ["ops"]
+    desc: Automation for the management and configuration of any infrastructure or application at scale.
+    tags: ["ops", "corp"]
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible/
     home_url: https://www.ansible.com/
-    tags: ["ops"]
+    desc: Agentless, playbook-based automation.
+    tags: ["ops", "corp"]
   - name: Vespene
     repo_url: https://github.com/vespene-io/vespene
     home_url: https://vespene.io/
     docs_url: https://docs.vespene.io/
+    desc: Build and self-service automation platform, built on Django and PostgreSQL.
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken
+    home_url: http://www.shinken-monitoring.org/
+    desc: Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
     tags: ["ops"]
   - name: StackStorm ST2
     repo_url: https://github.com/StackStorm/st2
-    tags: ["ops"]
+    home_url: http://www.stackstorm.com/
+    desc: Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more.
+    tags: ["ops", "corp"]
   - name: Cobbler
     repo_url: https://github.com/Cobbler/Cobbler
+    home_url: https://cobbler.github.io/
     wp_url: https://en.wikipedia.org/wiki/Cobbler_(software)
+    desc: Linux installation server that allows for rapid setup of network installation environments.
     tags: ["ops"]
   - name: Ganeti
     repo_url: https://github.com/ganeti/ganeti
     home_url: http://www.ganeti.org/
+    desc: Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
     tags: ["ops"]
   - name: fail2ban
     home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
     repo_url: https://github.com/fail2ban/fail2ban
     wp_url: https://en.wikipedia.org/wiki/Fail2ban
+    desc: Daemon to ban hosts that cause multiple authentication errors on Linux servers.
     tags: ["ops"]
   - name: Gunicorn
     repo_url: https://github.com/benoitc/gunicorn
+    home_url: https://gunicorn.org/
+    pypi_url: https://pypi.python.org/pypi/gunicorn
+    desc: Pluggable, pre-fork WSGI server for Python.
     tags: ["ops"]
   - name: WAL-E
     repo_url: https://github.com/wal-e/wal-e
+    desc: Continuous archiving of PostgreSQL WAL files and base backups.
     tags: ["ops"]
   - name: Barman
     repo_url: https://github.com/2ndquadrant-it/barman
+    desc: Remote backup and disaster recovery for PostgreSQL.
     tags: ["ops"]
   - name: pgcli
     repo_url: https://github.com/dbcli/pgcli
+    pypi_url: https://pypi.python.org/pypi/pgcli/
+    home_url: https://www.pgcli.com/
+    desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
     tags: ["ops"]  # dev?
 
 ## Misc / To File

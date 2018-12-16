@@ -31,7 +31,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(6)*
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
-1. <a href="#tag-dev">Dev</a> *(9)*
+1. <a href="#tag-dev">Dev</a> *(8)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
     1. <a href="#tag-dev.ops">Ops</a> *(12)*
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.editor">Editor</a> *(8)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(6)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
-    1. <a href="#tag-dev.build">Build</a> *(6)*
+    1. <a href="#tag-dev.build">Build</a> *(7)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a>
 1. <a href="#tag-misc">Misc</a> *(10)*
@@ -204,18 +204,18 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.ops" href="#dev.ops">Ops</a>
 
-  1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/rocky/)) 
-  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) 
-  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) 
-  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken)) 
-  1. **StackStorm ST2** - ([Repo](https://github.com/StackStorm/st2)) 
-  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) 
-  1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) 
-  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) 
-  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn)) 
-  1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) 
-  1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) 
-  1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli)) 
+  1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(corp)`
+  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(corp)`
+  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(corp)`
+  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
+  1. **StackStorm ST2** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(corp)`
+  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments.
+  1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
+  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
+  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server for Python.
+  1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
+  1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL.
+  1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
 
 ### <a id="tag-dev.security" href="#dev.security">Security</a>
 
@@ -263,6 +263,7 @@ Projects related to software development and adjacent technical areas.
   1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [Docs](https://www.buildbot.net/)) 
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp)) 
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/)) 
+  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
 
 ### <a id="tag-dev.shell" href="#dev.shell">Shell</a>
 
@@ -275,7 +276,6 @@ Projects related to software development and adjacent technical areas.
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
-  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.

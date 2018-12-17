@@ -136,6 +136,10 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
     tags: ["audio"]
     desc: An ear-training program intended to help musicians improve their skills.
+  - name: Friture
+    home_url: http://friture.org/
+    repo_url: https://github.com/tlecomte/friture
+    desc: Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more.
 
 ## Video
   - name: Pitivi
@@ -261,6 +265,11 @@ projects:
     home_url: https://ranger.github.io/
     desc: Console-based file manager, inspired by vim.
     tags: ["productivity"]
+  - name: Excalibur
+    home_url: https://www.tryexcalibur.com/
+    repo_url: https://github.com/camelot-dev/excalibur
+    desc: Web interface to extract tabular data from PDFs.
+    tags: ["productivity"]
 
 ## Organization
 
@@ -300,6 +309,12 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Open_Library
     desc: "Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published."
     tags: ["organization"]
+  - name: Radicale
+    home_url: https://radicale.org/
+    repo_url: https://github.com/Kozea/Radicale
+    docs_url: https://radicale.org/documentation
+    desc: Simple CalDAV (calendar) and CardDAV (contact) server.
+    tags: ["organization"]
 
 ## Communication
 
@@ -336,6 +351,11 @@ projects:
     home_url: http://www.list.org/
     wp_url: https://en.wikipedia.org/wiki/GNU_Mailman
     desc: The original listserv, a web application and email server for managing subscriptions and discussion archives.
+    tags: ["communication"]
+  - name: Modoboa
+    repo_url: https://github.com/modoboa/modoboa
+    home_url: https://modoboa.org/en/
+    desc: Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot.
     tags: ["communication"]
   - name: Mailpile
     desc: Fast email client with user-friendly encryption and privacy features
@@ -417,6 +437,10 @@ projects:
     home_url: https://web.archive.org/web/20051029095046/http://www.planetplanet.org/
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
     tags: ["internet"]
+  - name: gPodder
+    home_url: https://gpodder.org/
+    repo_url: https://github.com/gpodder/gpodder
+    desc: Simple, open source podcast client written in Python using GTK+.
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
@@ -449,6 +473,12 @@ projects:
     home_url: https://sabnzbd.org
     docs_url: https://sabnzbd.org/wiki/
     desc: Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages.
+    tags: ["internet"]
+  - name: Pi-Hole
+    repo_url: https://github.com/pi-hole/pi-hole
+    home_url: https://pi-hole.net/
+    wp_url: https://en.wikipedia.org/wiki/Pi-hole
+    desc: Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network.
     tags: ["internet"]
 
 ## Education
@@ -717,6 +747,10 @@ projects:
     home_url: http://leoeditor.com/
     desc: Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
     tags: ["editor"]
+  - name: mu
+    home_url: https://codewith.mu/en/
+    repo_url: https://github.com/mu-editor/mu
+    desc: A small, simple editor designed for beginner Python programmers, based on Qt5.
 
 
 ## Security

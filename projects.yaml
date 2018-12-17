@@ -720,15 +720,23 @@ projects:
 ## Security
   - name: MITMproxy
     repo_url: https://github.com/mitmproxy/mitmproxy
+    home_url: https://mitmproxy.org/
+    desc: Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
     tags: ["security"]
   - name: XSStrike
+    home_url: https://somdev.me/XSStrike/
     repo_url: https://github.com/s0md3v/XSStrike
+    desc:  "[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler."
     tags: ["security"]
   - name: PyEW
     repo_url: https://github.com/joxeankoret/pyew
+    docs_url: https://github.com/joxeankoret/pyew/wiki
+    desc: Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more.
     tags: ["security"]
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
+    home_url: http://www.cowrie.org/
+    desc: Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
     tags: ["security"]
 
 ## Code management

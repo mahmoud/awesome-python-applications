@@ -184,18 +184,18 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.scm" href="#dev.scm">SCM</a>
 
-  1. **Pagure** - ([Repo](https://pagure.io/pagure/), [Home](https://pagure.io/)) Git-centric software "forge" (code-hosting system).
+  1. **Pagure** - ([Repo](https://pagure.io/pagure/), [Home](https://pagure.io/)) Software "forge" (code-hosting system), focused on git.
   1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software forge, with support for git, hg, and svn.
-  1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) 
-  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) 
-  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) 
-  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) 
-  1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) 
-  1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea)) 
-  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [WP](https://en.wikipedia.org/wiki/RhodeCode)) 
-  1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld)) 
-  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/)) 
-  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home), [Home](https://tortoisehg.bitbucket.io/)) 
+  1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.
+  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
+  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client–server revision control system.
+  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) Enhanced web-based wiki and issue tracking system for software development projects.
+  1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) Browser interface for CVS and Subversion version control repositories.
+  1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_(software))) Software forge for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
+  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion. `(corp)`
+  1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld), [Home](https://codereview.appspot.com/), [WP](https://en.wikipedia.org/wiki/Rietveld_(software))) Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)).
+  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
+  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home), [Home](https://tortoisehg.bitbucket.io/)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
 
 ### <a id="tag-dev.code_review" href="#dev.code_review">Code Review</a>
 

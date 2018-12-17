@@ -257,12 +257,12 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.build" href="#dev.build">Build</a>
 
-  1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/)) 
-  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake)) 
-  1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [Docs](http://docs.buildout.org/)) 
-  1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [Docs](https://www.buildbot.net/)) 
-  1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp)) 
-  1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/)) 
+  1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
+  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
+  1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds.
+  1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [WP](https://en.wikipedia.org/wiki/Buildbot), [Docs](https://www.buildbot.net/)) Job scheduling system tailored to the needs of continuous integration and software packaging.
+  1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems.
+  1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book/)) Cross-platform build system designed to improve on SCons.
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
 
 ### <a id="tag-dev.shell" href="#dev.shell">Shell</a>

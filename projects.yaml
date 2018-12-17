@@ -806,24 +806,39 @@ projects:
   - name: SCons
     repo_url: https://github.com/SCons/scons
     home_url: http://scons.org/
+    wp_url: https://en.wikipedia.org/wiki/SCons
+    desc: Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
     tags: ["build"]
   - name: bitbake
+    wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
+    docs_url: https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html
+    desc: Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
     tags: ["build"]
   - name: Buildout
     repo_url: https://github.com/buildout/buildout
     docs_url: http://docs.buildout.org/
+    wp_url: https://en.wikipedia.org/wiki/Buildout
+    desc: Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds.
     tags: ["build"]
   - name: buildbot
     repo_url: https://github.com/buildbot/buildbot
     docs_url: https://www.buildbot.net/
+    wp_url: https://en.wikipedia.org/wiki/Buildbot
+    desc: Job scheduling system tailored to the needs of continuous integration and software packaging.
     tags: ["build"]
   - name: GYP
+    home_url: https://gyp.gsrc.io/
     repo_url: https://chromium.googlesource.com/external/gyp
+    wp_url: https://en.wikipedia.org/wiki/GYP_(software)
+    desc: "AKA 'Generate Your Projects', a build system that generates other build systems."
     tags: ["build"]
   - name: Waf
     home_url: https://waf.io/
     repo_url: https://gitlab.com/ita1024/waf
+    docs_url: https://waf.io/book/
+    wp_url: https://en.wikipedia.org/wiki/Waf
+    desc: Cross-platform build system designed to improve on SCons.
     tags: ["build"]
   - name: Meson
     home_url: http://mesonbuild.com/

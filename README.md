@@ -231,14 +231,14 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.editor" href="#dev.editor">Editor</a>
 
-  1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder)) 
-  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit)) 
-  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [WP](https://en.wikipedia.org/wiki/Thonny)) 
-  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [WP](https://en.wikipedia.org/wiki/Thonny)) 
-  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) 
-  1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) 
-  1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) 
-  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor)) 
+  1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.
+  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
+  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code.
+  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more.
+  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control.
+  1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C.
+  1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit.
+  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
 
 ### <a id="tag-dev.pkg_mgr" href="#dev.pkg_mgr">Package Managers</a>
 
@@ -276,7 +276,7 @@ Projects related to software development and adjacent technical areas.
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
-  1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
+  1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.

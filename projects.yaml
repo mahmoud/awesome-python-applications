@@ -649,6 +649,7 @@ projects:
     tags: ["docs"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
+    home_url: http://robotframework.org/
     desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
     tags: ["dev"]
   - name: Review Board
@@ -676,30 +677,43 @@ projects:
 ## Editors
   - name: Spyder IDE
     repo_url: https://github.com/spyder-ide/spyder
+    home_url: https://www.spyder-ide.org/
+    desc: Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.
     tags: ["editor"]
   - name: Komodo Edit
     repo_url: https://github.com/Komodo/KomodoEdit
+    home_url: https://www.activestate.com/products/komodo-edit/
+    desc: Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
     tags: ["editor"]
   - name: Thonny
     repo_url: https://bitbucket.org/plas/thonny/src
+    home_url: https://thonny.org/
     wp_url: https://en.wikipedia.org/wiki/Thonny
+    desc: Cross-platform Python IDE for beginners, designed for learning to code.
     tags: ["editor"]
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
-    wp_url: https://en.wikipedia.org/wiki/Thonny
+    wp_url: https://en.wikipedia.org/wiki/Ninja-IDE
+    home_url: http://ninja-ide.org/
+    desc: Cross-platform Python IDE with project management, linting, extensions, and more.
     tags: ["editor"]
   - name: Eric IDE
     home_url: https://eric-ide.python-projects.org/
     repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
+    desc: Python editor and IDE, based on Qt, integrating Scintilla editor control.
     tags: ["editor"]
   - name: Gedit
     repo_url: https://gitlab.gnome.org/GNOME/gedit/
+    desc: The default GNOME text editor makes extensive use of Python, in addition to C.
     tags: ["editor"]
   - name: Pluma
     repo_url: https://github.com/mate-desktop/pluma
+    desc: Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit.
     tags: ["editor"]
   - name: Leo Editor
     repo_url: https://github.com/leo-editor/leo-editor
+    home_url: http://leoeditor.com/
+    desc: Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
     tags: ["editor"]
 
 

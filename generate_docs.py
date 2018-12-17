@@ -240,7 +240,7 @@ def format_all_categories(project_map):
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
-    print(len([p for p in plist.project_list if not p.desc]))
+    print([p for p in plist.project_list if not p.desc])
     topic_map = plist.get_projects_by_type('topic')
     topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)

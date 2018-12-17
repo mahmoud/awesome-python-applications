@@ -403,10 +403,6 @@ projects:
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
     desc: Decentralized cloud storage system for robust distributed data storage
     tags: ["communication"]
-  - name: Ubiquity  # ubuntu installer
-    wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
-    repo_url: https://code.launchpad.net/ubiquity
-    tags: ["communication"]
 
 ## Internet
   - name: Reddit
@@ -673,6 +669,12 @@ projects:
     docs_url: https://docs.locust.io/
     desc: Scalable user load testing tool for web sites, featuring an interactive web interface.
     tags: ["dev"]
+  - name: Ubiquity  # ubuntu installer
+    wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
+    repo_url: https://code.launchpad.net/ubiquity
+    desc: The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
+    tags: ["dev"]
+
 
 ## Editors
   - name: Spyder IDE

@@ -176,7 +176,7 @@ def format_category(project_map, tag_entry):
     append = lines.append
 
     def _format_tag(project_map, tag_entry, level=2):
-        append('%s <a id="tag-%s" href="#%s">%s</a>' %
+        append('%s <a id="tag-%s" href="#tag-%s">%s</a>' %
                ('#' * level, tag_entry.fq_tag or tag_entry.tag, tag_entry.fq_tag or tag_entry.tag, tag_entry.title))
         append('')
         if tag_entry.desc:

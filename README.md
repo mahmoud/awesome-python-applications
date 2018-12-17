@@ -242,18 +242,18 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
-  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/)) 
-  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) 
-  1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/)) 
-  1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) 
-  1. **yum** - ([Repo](https://github.com/rpm-software-management/yum)) 
-  1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf)) 
+  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support.
+  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports.
+  1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(corp)`
+  1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(corp)`
+  1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_(software))) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
+  1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_(software)), [Docs](https://dnf.readthedocs.io/en/latest/)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
 
 ### <a id="tag-dev.pkg_repo" href="#tag-dev.pkg_repo">Package Repositories</a>
 
-  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) 
-  1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) 
-  1. **devpi** - ([Repo](https://github.com/devpi/devpi)) 
+  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
+  1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
+  1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>
 

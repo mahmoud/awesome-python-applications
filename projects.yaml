@@ -807,34 +807,50 @@ projects:
   - name: pip
     repo_url: https://github.com/pypa/pip
     home_url: https://pip.pypa.io/en/stable/
+    wp_url: https://en.wikipedia.org/wiki/Pip_(package_manager)
+    desc: "Python's go-to package manager, with a wide range of features and platform support."
     tags: ["pkg_mgr"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git
     wp_url: https://en.wikipedia.org/wiki/Portage_(software)
+    desc: "Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports."
     tags: ["pkg_mgr"]
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
-    tags: ["pkg_mgr"]
+    wp_url: https://en.wikipedia.org/wiki/Conda_(package_manager)
+    desc: OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing.
+    tags: ["pkg_mgr", "corp"]
   - name: Solaris IPS
     repo_url: https://github.com/oracle/solaris-ips
-    tags: ["pkg_mgr"]
+    desc: Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth.
+    tags: ["pkg_mgr", "corp"]
   - name: yum
     repo_url: https://github.com/rpm-software-management/yum
+    home_url: http://yum.baseurl.org/
+    wp_url: https://en.wikipedia.org/wiki/Yum_(software)
+    desc: Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
     tags: ["pkg_mgr"]
   - name: dnf
     repo_url: https://github.com/rpm-software-management/dnf
+    docs_url: https://dnf.readthedocs.io/en/latest/
+    wp_url: https://en.wikipedia.org/wiki/DNF_(software)
+    desc: Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
     tags: ["pkg_mgr"]
 
 ## Package repositories
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
+    desc: Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
     tags: ["pkg_repo"]
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
+    desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
     tags: ["pkg_repo"]
   - name: devpi
     repo_url: https://github.com/devpi/devpi
+    docs_url: http://doc.devpi.net/
+    desc:  PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
     tags: ["pkg_repo"]
 
 ## Build tools

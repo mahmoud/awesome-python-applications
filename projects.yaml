@@ -857,6 +857,12 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Conda_(package_manager)
     desc: OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing.
     tags: ["pkg_mgr", "corp"]
+  - name: Poetry
+    home_url: https://poetry.eustace.io/
+    repo_url: https://github.com/sdispater/poetry
+    docs_url: https://poetry.eustace.io/docs/
+    desc: An independent approach to Python dependency management and packaging.
+    tags: ["pkg_mgr"]
   - name: Solaris IPS
     repo_url: https://github.com/oracle/solaris-ips
     desc: Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth.

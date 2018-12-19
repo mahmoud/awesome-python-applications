@@ -932,6 +932,11 @@ projects:
     repo_url: https://github.com/mesonbuild/meson
     desc: Build system designed for speed and user-friendliness.
     tags: ["build"]
+  - name: Pants
+    home_url: https://www.pantsbuild.org/index.html
+    https://github.com/pantsbuild/pants
+    desc: Build system designed for monorepi
+    tags: ["build", "monorepo"]
 
 ## Shells
   - name: Oil

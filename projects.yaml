@@ -1020,6 +1020,16 @@ projects:
     home_url: https://www.pgcli.com/
     desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
     tags: ["ops"]  # dev?
+  - name: Supervisor
+    home_url: http://supervisord.org/
+    repo_url: https://github.com/Supervisor/supervisor
+    desc: Process manager and monitor
+    tags: ["ops"]
+  - name: NColony
+    home_url: http://ncolony.org/en/latest/
+    repo_url: https://github.com/ncolony/ncolony
+    desc: Process manager and monitor
+    tags: ["ops"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

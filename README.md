@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **176** open-source Python applications arranged by
+This document is a list of **179** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -34,13 +34,13 @@ thereof), see Architectures. -->
 1. <a href="#tag-dev">Dev</a> *(9)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
-    1. <a href="#tag-dev.ops">Ops</a> *(12)*
+    1. <a href="#tag-dev.ops">Ops</a> *(14)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
     1. <a href="#tag-dev.editor">Editor</a> *(8)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(6)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
-    1. <a href="#tag-dev.build">Build</a> *(7)*
+    1. <a href="#tag-dev.build">Build</a> *(8)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a>
 1. <a href="#tag-misc">Misc</a> *(10)*
@@ -219,6 +219,8 @@ Projects related to software development and adjacent technical areas.
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL.
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
+  1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor
+  1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor
 
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
@@ -267,6 +269,7 @@ Projects related to software development and adjacent technical areas.
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems.
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book/)) Cross-platform build system designed to improve on SCons.
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
+  1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/index.html)) Build system designed for monorepi `(monorepo)`
 
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>
 

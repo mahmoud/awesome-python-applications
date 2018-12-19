@@ -934,7 +934,7 @@ projects:
     tags: ["build"]
   - name: Pants
     home_url: https://www.pantsbuild.org/index.html
-    https://github.com/pantsbuild/pants
+    repo_url: https://github.com/pantsbuild/pants
     desc: Build system designed for monorepi
     tags: ["build", "monorepo"]
 

@@ -37,7 +37,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.ops">Ops</a> *(14)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
-    1. <a href="#tag-dev.editor">Editor</a> *(8)*
+    1. <a href="#tag-dev.editor">Editor</a> *(9)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(7)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
     1. <a href="#tag-dev.build">Build</a> *(8)*
@@ -244,6 +244,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C.
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit.
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
+  1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers, based on Qt5.
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 

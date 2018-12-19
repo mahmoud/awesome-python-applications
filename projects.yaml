@@ -751,6 +751,7 @@ projects:
     home_url: https://codewith.mu/en/
     repo_url: https://github.com/mu-editor/mu
     desc: A small, simple editor designed for beginner Python programmers, based on Qt5.
+    tags: ["editor"]
 
 
 ## Security

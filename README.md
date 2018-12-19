@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **180** open-source Python applications arranged by
+This document is a list of **181** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -31,7 +31,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(6)*
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
-1. <a href="#tag-dev">Dev</a> *(9)*
+1. <a href="#tag-dev">Dev</a> *(10)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
     1. <a href="#tag-dev.ops">Ops</a> *(14)*
@@ -289,6 +289,7 @@ Projects related to software development and adjacent technical areas.
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
+  1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
 
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 

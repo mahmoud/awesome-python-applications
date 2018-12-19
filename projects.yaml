@@ -704,6 +704,10 @@ projects:
     repo_url: https://code.launchpad.net/ubiquity
     desc: The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
     tags: ["dev"]
+  - name: Voltron
+    repo_url: https://github.com/snare/voltron
+    desc: Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
+    tags: ["dev"]
 
 
 ## Editors

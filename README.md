@@ -19,7 +19,7 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(9)*
-1. <a href="#tag-audio">Audio</a> *(8)*
+1. <a href="#tag-audio">Audio</a> *(9)*
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(6)*
 1. <a href="#tag-games">Games</a> *(4)*
@@ -28,7 +28,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-communication">Communication</a> *(19)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(8)*
-1. <a href="#tag-cms">CMS</a> *(6)*
+1. <a href="#tag-cms">CMS</a> *(7)*
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(10)*
@@ -61,30 +61,31 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
-  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings.
-  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer.
-  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer.
-  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files.
-  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder.
-  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats.
-  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
-  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills.
+  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(qt)`
+  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(gtk)`
+  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(gtk)`
+  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(qt)`
+  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(gtk)`
+  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(qt4)`
+  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(qt)`
+  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(gtk)`
+  1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(qt5)`
 
 ## <a id="tag-video" href="#tag-video">Video</a>
 
-  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer.
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
-  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux.
-  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
+  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(gtk)`
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, plone)`
+  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(gtk)`
+  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(qt5)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
-  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
-  1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
-  1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
-  1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program.
-  1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
-  1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system.
+  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(cpp, qt)`
+  1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(qt)`
+  1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(gtk)`
+  1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program. `(gtk, wx)`
+  1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract. `(gtk)`
+  1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(console)`
 
 ## <a id="tag-games" href="#tag-games">Games</a>
 
@@ -159,6 +160,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
 
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(plone, video)`
   1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
   1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en/)) Enterprise content management system based on the Django framework with version control, multi-site support, and more.
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience.

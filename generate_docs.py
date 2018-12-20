@@ -1,4 +1,5 @@
-# -*- encoding:utf-8 -*-
+# -*- encoding: utf-8 -*-
+
 import os
 
 import attr
@@ -109,6 +110,7 @@ class ProjectList(object):
             for project in self.project_list:
                 if tag in project.tags:
                     ret[tag_entry].append(project)
+            ret[tag_entry].sort(key=lambda x: x.name)
         return ret
 
 

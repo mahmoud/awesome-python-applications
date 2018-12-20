@@ -493,6 +493,13 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Pi-hole
     desc: Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network.
     tags: ["internet"]
+  - name: ZeroNet
+    home_url: https://zeronet.io/
+    repo_url: https://github.com/HelloZeroNet/ZeroNet
+    docs_url: https://zeronet.readthedocs.io/en/latest/
+    wp_url: https://en.wikipedia.org/wiki/ZeroNet
+    desc: Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
+    tags: ["internet"]
 
 ## Education
 

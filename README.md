@@ -11,9 +11,11 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is a list of **183** open-source Python applications arranged by
-topic. If you have one to add or find some information missing,
-[please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
+This document is an always-growing list of **183**
+open-source Python applications arranged by topic, with links to
+repositories, docs, and more. If you have one to add or find some
+information missing, [please let us
+know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
 Read [**the announcement post**](http://sedimental.org/awesome_python_applications.html) to learn more about this list.
 

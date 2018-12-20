@@ -7,7 +7,7 @@ matter to the wider public. When building our own applications,
 open-source Python applications are a gold mine of practical patterns
 that we know work together. <!-- the x-y problem, at scale? -->
 
-This document is a list of **181** open-source Python applications arranged by
+This document is a list of **182** open-source Python applications arranged by
 topic. If you have one to add or find some information missing,
 [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
@@ -21,7 +21,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(9)*
 1. <a href="#tag-audio">Audio</a> *(9)*
 1. <a href="#tag-video">Video</a> *(4)*
-1. <a href="#tag-graphics">Graphics</a> *(6)*
+1. <a href="#tag-graphics">Graphics</a> *(7)*
 1. <a href="#tag-games">Games</a> *(4)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
 1. <a href="#tag-organization">Organization</a> *(8)*
@@ -85,6 +85,7 @@ thereof), see Architectures. -->
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(gtk)`
   1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract. `(gtk)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(console)`
+  1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(gtk)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program. `(gtk, wx)`
 
 ## <a id="tag-games" href="#tag-games">Games</a>

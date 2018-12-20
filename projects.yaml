@@ -203,8 +203,12 @@ projects:
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
-    tags: ["graphics", "console"]
     desc: Document analysis and optical character recognition (OCR) system.
+    tags: ["graphics", "console"]
+  - name: PhotoCollage
+    repo_url: https://github.com/adrienverge/PhotoCollage
+    desc: Automatically lays out a photo collage to fill out a given poster space.
+    tags: ["graphics", "gtk"]
 
 ## Games
 

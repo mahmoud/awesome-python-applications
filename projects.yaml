@@ -793,13 +793,13 @@ projects:
   - name: Pagure
     repo_url: https://pagure.io/pagure/
     home_url: https://pagure.io/
-    desc: 'Software "forge" (code-hosting system), focused on git.'
+    desc: 'Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team.'
     tags: ["scm"]
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
     home_url: https://allura.apache.org/
-    desc: Software forge, with support for git, hg, and svn.
+    desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
     tags: ["scm"]
   - name: Mercurial
     home_url: https://www.mercurial-scm.org/repo/hg/
@@ -829,7 +829,7 @@ projects:
   - name: Kallithea
     repo_url: https://kallithea-scm.org/repos/kallithea
     wp_url: https://en.wikipedia.org/wiki/Kallithea_(software)
-    desc: Software forge for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
+    desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
     tags: ["scm"]
   - name: RhodeCode
     home_url: https://code.rhodecode.com/rhodecode-enterprise-ce

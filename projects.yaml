@@ -564,7 +564,7 @@ projects:
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
-    desc: Biolographic database manager with a user-friendly desktop UI.
+    desc: Bibliographic database manager with a user-friendly desktop UI.
     tags: ["science"]
   - name: Dissem.in
     repo_url: https://github.com/dissemin/dissemin

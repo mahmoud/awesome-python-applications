@@ -1014,7 +1014,7 @@ projects:
     home_url: http://www.shinken-monitoring.org/
     desc: Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
     tags: ["ops"]
-  - name: StackStorm ST2
+  - name: StackStorm
     repo_url: https://github.com/StackStorm/st2
     home_url: http://www.stackstorm.com/
     desc: Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more.

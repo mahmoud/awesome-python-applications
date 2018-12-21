@@ -328,6 +328,11 @@ projects:
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
     tags: ["organization"]
+  - name: CherryTree
+    repo_url: https://github.com/giuspen/cherrytree
+    home_url: https://www.giuspen.com/cherrytree/
+    desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
+    tags: ["organization"]
 
 ## Communication
 

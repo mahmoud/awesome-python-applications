@@ -13,7 +13,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **186**
+This document is an always-growing list of **187**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(7)*
 1. <a href="#tag-games">Games</a> *(4)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
-1. <a href="#tag-organization">Organization</a> *(8)*
+1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(19)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(9)*
@@ -122,6 +122,7 @@ thereof), see Architectures. -->
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
+  1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree/)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository.
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published.

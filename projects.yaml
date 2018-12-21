@@ -233,6 +233,10 @@ projects:
     android_url: https://f-droid.org/en/packages/org.lufebe16.pysolfc/
     desc: Highly-portable collection of solitaire card games.
     tags: ["games", "kivy"]
+  - name: Adventures of Dude
+    repo_url: https://github.com/diguifi/Dude-TopDown
+    desc: A game made in Python using PyGame. The game explores the differences between basic finite state machines AI versus a more complex AI, based on genetic algorithms.
+    tags: ["games"]
 
 ## Productivity
   - name: Autokey

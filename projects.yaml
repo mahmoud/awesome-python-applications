@@ -572,6 +572,12 @@ projects:
     docs_url: https://dev.dissem.in/
     desc: Web platform to help researchers upload their papers to open-access repositories.
     tags: ["science", "django"]
+  - name: InVesalius
+    repo_url: https://github.com/invesalius/invesalius3
+    home_url: https://invesalius.github.io/
+    wp_url: https://en.wikipedia.org/wiki/InVesalius
+    desc: Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans.
+    tags: ["science", "gtk"]
 
 ## Static Site Generators
 

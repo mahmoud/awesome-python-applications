@@ -167,7 +167,7 @@ thereof), see Architectures. -->
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(django)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization.
-  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Biolographic database manager with a user-friendly desktop UI.
+  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI.
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>

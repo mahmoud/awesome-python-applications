@@ -1066,6 +1066,16 @@ projects:
     repo_url: https://github.com/ncolony/ncolony
     desc: Process manager and monitor
     tags: ["ops"]
+  - name: Iris
+    repo_url: https://github.com/linkedin/iris
+    home_url: https://iris.claims/
+    desc: Flexible automated incident paging system, developed by and used at LinkedIn.
+    tags: ["ops", "corp"]
+  - name: Oncall
+    repo_url: https://github.com/linkedin/oncall
+    home_url: https://oncall.tools/
+    desc: Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn.
+    tags: ["ops", "corp"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

@@ -13,7 +13,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **183**
+This document is an always-growing list of **185**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -44,7 +44,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-dev">Dev</a> *(10)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
-    1. <a href="#tag-dev.ops">Ops</a> *(14)*
+    1. <a href="#tag-dev.ops">Ops</a> *(16)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
     1. <a href="#tag-dev.editor">Editor</a> *(9)*
@@ -227,7 +227,9 @@ Projects related to software development and adjacent technical areas.
   1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server for Python.
+  1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(corp)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor
+  1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(corp)`
   1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(corp)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(corp)`

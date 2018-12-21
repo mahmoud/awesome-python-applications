@@ -216,7 +216,7 @@ projects:
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
     desc: Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players.
-    tags: ["games"]
+    tags: ["games", "pygame"]
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
     home_url: http://unknown-horizons.org/
@@ -226,7 +226,7 @@ projects:
     repo_url: https://github.com/pychess/pychess
     home_url: http://pychess.org/
     desc: Advanced chess client, suitable for new, casual, and competitive play.
-    tags: ["games"]
+    tags: ["games", "gtk"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
     home_url: https://pysolfc.sourceforge.io/
@@ -239,22 +239,22 @@ projects:
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey/
     desc: Desktop automation utility for Linux and X11.
-    tags: ["productivity"]
+    tags: ["productivity", "gtk", "qt"]
   - name: Bleachbit
     repo_url: https://github.com/bleachbit/bleachbit
     home_url: https://www.bleachbit.org/
     desc: System cleaner for Windows and Linux, designed to free disk space and maintain privacy.
-    tags: ["productivity"]
+    tags: ["productivity", "gtk"]
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
     desc: RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
-    tags: ["productivity"]
+    tags: ["productivity", "curses"]
   - name: Metamorphose
     repo_url: https://github.com/metamorphose/metamorphose2
     home_url: http://file-folder-ren.sourceforge.net/
     desc: Graphical mass renaming program for files and folders.
-    tags: ["productivity"]
+    tags: ["productivity", "wx"]
   - name: Bup
     repo_url: https://github.com/Bup/Bup
     home_url: https://bup.github.io/
@@ -267,17 +267,17 @@ projects:
   - name: gmvault
     repo_url: https://github.com/gaubert/gmvault
     desc: Tool for backing up gmail accounts.
-    tags: ["productivity"]
+    tags: ["productivity", "qt5"]
   - name: nvda
     repo_url: https://github.com/nvaccess/nvda
     home_url: https://www.nvaccess.org/
     desc: Non-Visual Desktop Access, a powerful screen reader for Windows.
-    tags: ["productivity"]
+    tags: ["productivity", "wx"]
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
     home_url: https://ranger.github.io/
     desc: Console-based file manager, inspired by vim.
-    tags: ["productivity"]
+    tags: ["productivity", "curses"]
   - name: Excalibur
     home_url: https://www.tryexcalibur.com/
     repo_url: https://github.com/camelot-dev/excalibur

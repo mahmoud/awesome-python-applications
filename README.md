@@ -13,7 +13,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **186**
+This document is an always-growing list of **187**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -34,10 +34,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(7)*
 1. <a href="#tag-games">Games</a> *(5)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
-1. <a href="#tag-organization">Organization</a> *(8)*
+1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(19)*
 1. <a href="#tag-education">Education</a> *(4)*
-1. <a href="#tag-science">Science</a> *(8)*
+1. <a href="#tag-science">Science</a> *(9)*
 1. <a href="#tag-cms">CMS</a> *(7)*
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
@@ -123,6 +123,7 @@ thereof), see Architectures. -->
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
+  1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree/)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository.
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published.
@@ -166,9 +167,10 @@ thereof), see Architectures. -->
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa/), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets.
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(django)`
+  1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(gtk)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization.
-  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Biolographic database manager with a user-friendly desktop UI.
+  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI.
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
@@ -235,7 +237,7 @@ Projects related to software development and adjacent technical areas.
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
-  1. **StackStorm ST2** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(corp)`
+  1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
 

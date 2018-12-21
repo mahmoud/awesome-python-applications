@@ -332,6 +332,11 @@ projects:
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
     tags: ["organization"]
+  - name: CherryTree
+    repo_url: https://github.com/giuspen/cherrytree
+    home_url: https://www.giuspen.com/cherrytree/
+    desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
+    tags: ["organization"]
 
 ## Communication
 
@@ -568,7 +573,7 @@ projects:
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
-    desc: Biolographic database manager with a user-friendly desktop UI.
+    desc: Bibliographic database manager with a user-friendly desktop UI.
     tags: ["science"]
   - name: Dissem.in
     repo_url: https://github.com/dissemin/dissemin
@@ -576,6 +581,12 @@ projects:
     docs_url: https://dev.dissem.in/
     desc: Web platform to help researchers upload their papers to open-access repositories.
     tags: ["science", "django"]
+  - name: InVesalius
+    repo_url: https://github.com/invesalius/invesalius3
+    home_url: https://invesalius.github.io/
+    wp_url: https://en.wikipedia.org/wiki/InVesalius
+    desc: Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans.
+    tags: ["science", "gtk"]
 
 ## Static Site Generators
 
@@ -1018,7 +1029,7 @@ projects:
     home_url: http://www.shinken-monitoring.org/
     desc: Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
     tags: ["ops"]
-  - name: StackStorm ST2
+  - name: StackStorm
     repo_url: https://github.com/StackStorm/st2
     home_url: http://www.stackstorm.com/
     desc: Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more.

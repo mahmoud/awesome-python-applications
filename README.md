@@ -74,22 +74,22 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
-  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(gtk)`
-  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(qt)`
-  1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(qt5)`
-  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(qt)`
-  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(gtk)`
-  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(qt)`
-  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(qt4)`
-  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(gtk)`
-  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(gtk)`
+  1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(gtk, linux, mac, windows)`
+  1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(linux, mac, qt, windows)`
+  1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(linux, mac, qt5, windows)`
+  1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(cpp, linux, mac, qt, windows)`
+  1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(gtk, linux, mac, windows)`
+  1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(linux, mac, qt, windows)`
+  1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(linux, qt4)`
+  1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(gtk, linux, mac, windows)`
+  1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(gtk, linux)`
 
 ## <a id="tag-video" href="#tag-video">Video</a>
 
-  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(gtk)`
-  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(qt5)`
-  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(gtk)`
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, plone)`
+  1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(gtk, linux)`
+  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, mac, qt5, windows)`
+  1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(gtk, linux)`
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, linux, mac, plone)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
@@ -180,7 +180,7 @@ thereof), see Architectures. -->
   1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
   1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework.
   1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope.
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(plone, video)`
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(linux, mac, plone, video)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience.
 

@@ -871,10 +871,11 @@ projects:
     desc: Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
     tags: ["scm"]
   - name: TortoiseHg
-    repo_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
+    repo_url: https://bitbucket.org/tortoisehg/thg/src
+    docs_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
     home_url: https://tortoisehg.bitbucket.io/
     desc: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
-    tags: ["scm"]
+    tags: ["scm", "qt4", "qt5"]
 
 ## Package management
   - name: pip
@@ -1104,21 +1105,21 @@ projects:
     home_url: https://openlp.org/
     repo_url: https://launchpad.net/openlp
     desc: Presentation software geared toward church usage.
-    tags: ["misc"]
+    tags: ["misc", "qt5"]
   - name: Nicotine+
     repo_url: https://github.com/Nicotine-Plus/nicotine-plus
     desc: Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system.
-    tags: ["misc"]
+    tags: ["misc", "gtk"]
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
     desc: Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
-    tags: ["misc"]
+    tags: ["misc", "gtk"]
   - name: Neubot
     repo_url: https://github.com/neubot/neubot
     home_url: http://www.neubot.org/
     desc: Lightweight agent which collects data for net-neutrality research.
-    tags: ["misc"]
+    tags: ["internet"]
   - name: Nimbus
     repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
     home_url: http://www.nimbusproject.org/
@@ -1134,7 +1135,7 @@ projects:
     home_url: http://wicd.sourceforge.net/download.php
     repo_url: https://code.launchpad.net/wicd/
     desc: Graphical utility for managing wired and wireless connections on Linux.
-    tags: ["misc"]
+    tags: ["misc", "gtk"]
   - name: qtile
     repo_url: https://github.com/qtile/qtile
     home_url: http://qtile.org/

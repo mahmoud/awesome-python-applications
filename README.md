@@ -188,6 +188,7 @@ thereof), see Architectures. -->
 
   1. **ERPNext** - ([Repo](https://github.com/frappe/erpnext), [Home](https://erpnext.com/)) Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
   1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
+  1. **Tryton** - ([Repo](http://github.com/tryton), [Home](https://www.tryton.org/), [PyPI](https://pypi.org/project/trytond)) Tryton is business software, ideal for companies of any size, easy to use, complete and 100% Open Source.
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 

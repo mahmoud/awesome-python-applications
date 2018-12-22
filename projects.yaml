@@ -290,7 +290,7 @@ projects:
     repo_url: https://github.com/kovidgoyal/calibre/
     home_url: https://calibre-ebook.com/
     desc: E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
-    tags: ["organization"]
+    tags: ["organization", "qt5"]
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
     home_url: https://pymedusa.com/
@@ -300,7 +300,7 @@ projects:
     repo_url: https://github.com/gramps-project/gramps
     home_url: https://gramps-project.org/
     desc: Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
-    tags: ["organization"]
+    tags: ["organization", "gtk"]
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
     docs_url: https://invenio.readthedocs.io/
@@ -310,12 +310,12 @@ projects:
     repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
     home_url: http://zim-wiki.org/
     desc: Desktop wiki designed for note-taking, list-making, and drafting.
-    tags: ["organization"]
+    tags: ["organization", "gtk"]
   - name: Wikid Pad
     repo_url: https://github.com/WikidPad/WikidPad
     home_url: http://wikidpad.sourceforge.net/
     desc: Desktop wiki notebook for storing your thoughts and ideas.
-    tags: ["organization"]
+    tags: ["organization", "wx"]
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/
@@ -332,7 +332,7 @@ projects:
     repo_url: https://github.com/giuspen/cherrytree
     home_url: https://www.giuspen.com/cherrytree/
     desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
-    tags: ["organization"]
+    tags: ["organization", "gtk"]
 
 ## Communication
 
@@ -357,7 +357,7 @@ projects:
     desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim
     wp_url: https://en.wikipedia.org/wiki/Gajim
-    tags: ["communication"]
+    tags: ["communication", "gtk"]
   - name: RapidSMS  # too much of a library?
     repo_url: https://github.com/rapidsms/rapidsms
     home_url: http://rapidsms.org/
@@ -413,7 +413,7 @@ projects:
     home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
     desc: Cross-platform GUI for performing translation, with support for a variety of formats
-    tags: ["communication"]
+    tags: ["communication", "gtk"]
   - name: Weblate
     repo_url: https://github.com/WeblateOrg/weblate
     home_url: https://weblate.org/
@@ -459,22 +459,23 @@ projects:
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder
     desc: Simple, open source podcast client written in Python using GTK+.
+    tags: ["internet", "gtk"]
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
     desc: Popular, lightweight, cross-platform BitTorrent client.
-    tags: ["internet"]
+    tags: ["internet", "gtk"]
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     home_url: http://www.tribler.org/
     wp_url: https://en.wikipedia.org/wiki/Tribler
     desc: Privacy enhanced BitTorrent client with P2P content discovery.
-    tags: ["internet"]
+    tags: ["internet", "qt5"]
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
     home_url: https://www.qutebrowser.org/
     desc: Keyboard-driven, minimal, `vim`-like browser based on PyQt5
-    tags: ["internet"]
+    tags: ["internet", "qt5"]
   - name: youtube-dl
     repo_url: https://github.com/rg3/youtube-dl
     home_url: http://rg3.github.io/youtube-dl/
@@ -513,12 +514,12 @@ projects:
     home_url: https://apps.ankiweb.net/
     docs_url: https://apps.ankiweb.net/docs/manual.html
     desc: Powerful desktop application for flash cards and memorization.
-    tags: ["education"]
+    tags: ["education", "qt5"]
   - name: Mnemosyne
     repo_url: https://github.com/mnemosyne-proj/mnemosyne
     home_url: https://mnemosyne-proj.org/
     desc: Spaced-repetition flashcard program for efficient memorization.
-    tags: ["education"]
+    tags: ["education", "qt5"]
   - name: Open edX Platform
     repo_url: https://github.com/edx/edx-platform
     home_url: http://open.edx.org/
@@ -537,7 +538,7 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/ASCEND
     home_url: http://ascend4.org/Main_Page
     desc: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
-    tags: ["science"]
+    tags: ["science", "gtk"]
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
@@ -548,7 +549,7 @@ projects:
     repo_url: https://github.com/biolab/orange3
     wp_url: https://en.wikipedia.org/wiki/Orange_(software)
     desc: Component-based data mining software for graphical interactive data analysis and visualization.
-    tags: ["science"]
+    tags: ["science", "qt4", "qt5"]
   - name: CellProfiler
     home_url: http://cellprofiler.org/
     repo_url: https://github.com/CellProfiler/CellProfiler
@@ -560,17 +561,17 @@ projects:
     repo_url: https://github.com/veusz/veusz
     home_url: https://veusz.github.io/
     desc: 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
-    tags: ["science"]
+    tags: ["science", "qt"]
   - name: Mayavi
     repo_url: https://github.com/enthought/mayavi
     home_url: http://docs.enthought.com/mayavi/mayavi/
     desc: General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
-    tags: ["science"]
+    tags: ["science", "qt4"]
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
     desc: Bibliographic database manager with a user-friendly desktop UI.
-    tags: ["science"]
+    tags: ["science", "gtk"]
   - name: Dissem.in
     repo_url: https://github.com/dissemin/dissemin
     home_url: https://dissem.in/
@@ -683,7 +684,7 @@ projects:
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/
     desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
-    tags: ["code_review"]
+    tags: ["code_review", "gtk"]
   - name: CoCalc
     repo_url: https://github.com/sagemathinc/cocalc
     wp_url: https://en.wikipedia.org/wiki/CoCalc
@@ -734,7 +735,7 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
     repo_url: https://code.launchpad.net/ubiquity
     desc: The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
-    tags: ["dev"]
+    tags: ["dev", "gtk", "qt"]
   - name: Voltron
     repo_url: https://github.com/snare/voltron
     desc: Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
@@ -746,47 +747,47 @@ projects:
     repo_url: https://github.com/spyder-ide/spyder
     home_url: https://www.spyder-ide.org/
     desc: Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.
-    tags: ["editor"]
+    tags: ["editor", "qt5"]
   - name: Komodo Edit
     repo_url: https://github.com/Komodo/KomodoEdit
     home_url: https://www.activestate.com/products/komodo-edit/
     desc: Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
-    tags: ["editor"]
+    tags: ["editor", "js", "cpp"]
   - name: Thonny
     repo_url: https://bitbucket.org/plas/thonny/src
     home_url: https://thonny.org/
     wp_url: https://en.wikipedia.org/wiki/Thonny
     desc: Cross-platform Python IDE for beginners, designed for learning to code.
-    tags: ["editor"]
+    tags: ["editor", "tk"]
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
     wp_url: https://en.wikipedia.org/wiki/Ninja-IDE
     home_url: http://ninja-ide.org/
     desc: Cross-platform Python IDE with project management, linting, extensions, and more.
-    tags: ["editor"]
+    tags: ["editor", "qt5"]
   - name: Eric IDE
     home_url: https://eric-ide.python-projects.org/
     repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
     desc: Python editor and IDE, based on Qt, integrating Scintilla editor control.
-    tags: ["editor"]
+    tags: ["editor", "qt5"]
   - name: Gedit
     repo_url: https://gitlab.gnome.org/GNOME/gedit/
     desc: The default GNOME text editor makes extensive use of Python, in addition to C.
-    tags: ["editor"]
+    tags: ["editor", "gtk"]
   - name: Pluma
     repo_url: https://github.com/mate-desktop/pluma
     desc: Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit.
-    tags: ["editor"]
+    tags: ["editor", "gtk"]
   - name: Leo Editor
     repo_url: https://github.com/leo-editor/leo-editor
     home_url: http://leoeditor.com/
     desc: Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
-    tags: ["editor"]
+    tags: ["editor", "qt5"]
   - name: mu
     home_url: https://codewith.mu/en/
     repo_url: https://github.com/mu-editor/mu
     desc: A small, simple editor designed for beginner Python programmers, based on Qt5.
-    tags: ["editor"]
+    tags: ["editor", "qt5"]
 
 
 ## Security

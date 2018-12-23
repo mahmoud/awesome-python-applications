@@ -198,7 +198,9 @@ def format_category(project_map, tag_entry):
 
             line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
             if len(project.tags) > 1:
-                line += ' `(%s)`' % ', '.join(sorted([t for t in project.tags if t != tag_entry.tag]))
+                other_tags = [t for t in project.tags if t != tag_entry.tag]
+                # TODO: soft sort this according to tagsonomy order
+                line += ' `(%s)`' % ', '.join(sorted(other_tags))
             lines.append(line)
 
         append('')

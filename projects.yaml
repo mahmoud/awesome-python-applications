@@ -178,39 +178,39 @@ projects:
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
-    tags: ["graphics", "qt", "cpp"]
+    tags: ["graphics", "qt", "cpp", "linux", "windows", "mac"]
     desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: MakeHuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
-    tags: ["graphics", "qt"]
+    tags: ["graphics", "qt", "linux", "windows", "mac"]
     desc: 3D computer graphics software designed for the prototyping of photo realistic humanoids.
   - name: MyPaint
     repo_url: https://github.com/mypaint/mypaint
     home_url: http://mypaint.org/
     wp_url: https://en.wikipedia.org/wiki/MyPaint
-    tags: ["graphics", "gtk"]
+    tags: ["graphics", "gtk", "linux", "windows", "mac"]
     desc: Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
     wp_url: https://en.wikipedia.org/wiki/SK1_(program)
     home_url: https://sk1project.net/  #  (forked from skencil)
-    tags: ["graphics", "gtk", "wx"]
+    tags: ["graphics", "gtk", "wx", "linux", "windows", "mac"]
     desc: Feature-rich, cross-platform illustration program.
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder
-    tags: ["graphics", "gtk"]
+    tags: ["graphics", "gtk", "linux"]
     desc: An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
     desc: Document analysis and optical character recognition (OCR) system.
-    tags: ["graphics", "console"]
+    tags: ["graphics", "console", "linux", "mac"]
   - name: PhotoCollage
     repo_url: https://github.com/adrienverge/PhotoCollage
     desc: Automatically lays out a photo collage to fill out a given poster space.
-    tags: ["graphics", "gtk"]
+    tags: ["graphics", "gtk", "linux"]
 
 ## Games
 
@@ -218,23 +218,23 @@ projects:
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
     desc: Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players.
-    tags: ["games", "pygame"]
+    tags: ["games", "pygame", "linux", "windows"]
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
     home_url: http://unknown-horizons.org/
     desc: 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires)
-    tags: ["games"]
+    tags: ["games", "linux", "windows", "mac"]
   - name: PyChess
     repo_url: https://github.com/pychess/pychess
     home_url: http://pychess.org/
     desc: Advanced chess client, suitable for new, casual, and competitive play.
-    tags: ["games", "gtk"]
+    tags: ["games", "gtk", "linux", "windows"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
     home_url: https://pysolfc.sourceforge.io/
     android_url: https://f-droid.org/en/packages/org.lufebe16.pysolfc/
     desc: Highly-portable collection of solitaire card games.
-    tags: ["games", "kivy"]
+    tags: ["games", "kivy", "tk", "linux", "windows", "android"]
 
 ## Productivity
   - name: Autokey

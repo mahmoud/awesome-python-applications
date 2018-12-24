@@ -661,7 +661,7 @@ projects:
 
   - name: ERP5
     repo_url: https://lab.nexedi.com/nexedi/erp5
-    home_url: https://erpnext.com/
+    home_url: https://erp5.nexedi.com/
     desc: Web-based converged ERP, CRM, DMS and Big Data system with hundreds built-in modules and proven scalability in large corporations
     tags: ["erp"]
   - name: ERPNext

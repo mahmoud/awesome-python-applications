@@ -4,7 +4,7 @@
 
 *Case studies in successfully shipping Python software*
 
-<img src="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/templates/snake_cd.png" width="40%" align="right" />
+<img src="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/templates/snake_cd.png" width="30%" align="right" />
 
 As developers, we spend our days with code. The site you're reading
 this on is mostly modules, packages, libraries, frameworks, and the

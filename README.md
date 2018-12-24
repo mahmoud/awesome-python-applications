@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **189**
+This document is an always-growing list of **190**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -37,10 +37,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(4)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
 1. <a href="#tag-organization">Organization</a> *(9)*
-1. <a href="#tag-communication">Communication</a> *(19)*
+1. <a href="#tag-communication">Communication</a> *(20)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(9)*
-1. <a href="#tag-cms">CMS</a> *(7)*
+1. <a href="#tag-cms">CMS</a> *(8)*
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(11)*
@@ -137,6 +137,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-communication" href="#tag-communication">Communication</a>
 
+  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://github.com/abilian/abilian-sbe)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(cms)`
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(corp)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(gtk)`
@@ -178,6 +179,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
 
+  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://github.com/abilian/abilian-sbe)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(communication)`
   1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en/)) Enterprise content management system based on the Django framework with version control, multi-site support, and more.
   1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
   1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework.

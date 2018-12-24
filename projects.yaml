@@ -443,6 +443,12 @@ projects:
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
     desc: Decentralized cloud storage system for robust distributed data storage
     tags: ["communication"]
+  - name: Abilian SBE
+    repo_url: https://github.com/abilian/abilian-sbe
+    home_url: https://github.com/abilian/abilian-sbe
+    desc: 'A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more.'
+    tags: ["communication", "cms"]
+    # Currently used as an intranet by non-profit organisations such as AFPC, CNLL (French Council for Free / Open Source Software), Systematic Paris-Region, Aquinetic, etc.
 
 ## Internet
   - name: Reddit
@@ -652,7 +658,7 @@ projects:
     desc: Consistent and flexible content management platform built on the Django framework.
     tags: ["cms"]
   - name: Saleor
-    repo_url: https://github.com/mirumee/saleor/  # storefront
+    repo_url: https://github.com/mirumee/saleor/
     home_url: https://getsaleor.com/
     desc:  Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
     tags: ["cms"]

@@ -460,7 +460,7 @@ projects:
   - name: gPodder
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder
-    desc: Simple, open source podcast client written in Python using GTK+.
+    desc: Simple, mature media aggregator and podcast client.
     tags: ["internet", "gtk"]
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
@@ -793,7 +793,7 @@ projects:
   - name: mu
     home_url: https://codewith.mu/en/
     repo_url: https://github.com/mu-editor/mu
-    desc: A small, simple editor designed for beginner Python programmers, based on Qt5.
+    desc: A small, simple editor designed for beginner Python programmers.
     tags: ["editor", "qt5"]
 
 
@@ -1060,7 +1060,7 @@ projects:
     repo_url: https://github.com/benoitc/gunicorn
     home_url: https://gunicorn.org/
     pypi_url: https://pypi.python.org/pypi/gunicorn
-    desc: Pluggable, pre-fork WSGI server for Python.
+    desc: Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)).
     tags: ["ops"]
   - name: WAL-E
     repo_url: https://github.com/wal-e/wal-e

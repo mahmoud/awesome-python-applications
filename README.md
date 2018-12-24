@@ -62,7 +62,7 @@ thereof), see Architectures. -->
 ## <a id="tag-internet" href="#tag-internet">Internet</a>
 
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(gtk)`
-  1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, open source podcast client written in Python using GTK+. `(gtk)`
+  1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(gtk)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research.
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network.
   1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
@@ -232,7 +232,7 @@ Projects related to software development and adjacent technical areas.
   1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments.
   1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
-  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server for Python.
+  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)).
   1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(corp)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor
   1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(corp)`
@@ -262,7 +262,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(gtk)`
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(cpp, js)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(qt5)`
-  1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers, based on Qt5. `(qt5)`
+  1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers. `(qt5)`
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(qt5)`
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(gtk)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(qt5)`

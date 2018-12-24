@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **188**
+This document is an always-growing list of **189**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -44,7 +44,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-erp">ERP</a> *(2)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(11)*
-    1. <a href="#tag-dev.scm">SCM</a> *(12)*
+    1. <a href="#tag-dev.scm">SCM</a> *(13)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
     1. <a href="#tag-dev.ops">Ops</a> *(16)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
@@ -208,6 +208,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.scm" href="#tag-dev.scm">SCM</a>
 
   1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
+  1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(linux, mac, qt4, qt5, windows)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client–server revision control system.
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_(software))) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.

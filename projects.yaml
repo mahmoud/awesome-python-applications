@@ -883,6 +883,11 @@ projects:
     home_url: https://tortoisehg.bitbucket.io/
     desc: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
     tags: ["scm", "qt4", "qt5"]
+  - name: Git Cola
+    repo_url: https://github.com/git-cola/git-cola
+    home_url: https://git-cola.github.io/
+    desc: Featureful cross-platform GUI wrapper for `git`.
+    tags: ["scm", "qt4", "qt5", "linux", "windows", "mac"]
 
 ## Package management
   - name: pip

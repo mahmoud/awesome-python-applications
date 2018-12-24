@@ -229,6 +229,11 @@ projects:
     home_url: http://pychess.org/
     desc: Advanced chess client, suitable for new, casual, and competitive play.
     tags: ["games", "gtk", "linux", "windows"]
+  - name: Lucas Chess
+    repo_url: https://github.com/lukasmonk/lucaschess
+    home_url: http://lucaschess.pythonanywhere.com/
+    desc: Featureful chess client for Windows, with some Linux support.
+    tags: ["games", "qt4", "windows", "linux"]
   - name: PySolFC  # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
     home_url: https://pysolfc.sourceforge.io/

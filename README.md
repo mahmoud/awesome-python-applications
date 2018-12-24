@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **190**
+This document is an always-growing list of **191**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-audio">Audio</a> *(9)*
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(7)*
-1. <a href="#tag-games">Games</a> *(4)*
+1. <a href="#tag-games">Games</a> *(5)*
 1. <a href="#tag-productivity">Productivity</a> *(10)*
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(20)*
@@ -106,6 +106,7 @@ thereof), see Architectures. -->
 ## <a id="tag-games" href="#tag-games">Games</a>
 
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, pygame, windows)`
+  1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(linux, qt4, windows)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(gtk, linux, windows)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(android, kivy, linux, tk, windows)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, mac, windows)`

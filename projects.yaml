@@ -673,16 +673,19 @@ projects:
   - name: ERP5
     repo_url: https://lab.nexedi.com/nexedi/erp5
     home_url: https://erp5.nexedi.com/
-    desc: Web-based converged ERP, CRM, DMS and Big Data system with hundreds built-in modules and proven scalability in large corporations
+    wp_url: https://en.wikipedia.org/wiki/ERP5
+    desc: Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
     tags: ["erp"]
   - name: ERPNext
     repo_url: https://github.com/frappe/erpnext
     home_url: https://erpnext.com/
+    wp_url: https://en.wikipedia.org/wiki/ERPNext
     desc: Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
     tags: ["erp"]
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
     home_url: https://www.odoo.com/
+    wp_url: https://en.wikipedia.org/wiki/Odoo
     desc: Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
     tags: ["erp"]
 

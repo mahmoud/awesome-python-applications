@@ -694,6 +694,13 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Odoo
     desc: Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
     tags: ["erp"]
+  - name: Tryton
+    repo_url: https://hg.tryton.org/trytond
+    wp_url: https://en.wikipedia.org/wiki/Tryton
+    home_url: https://www.tryton.org/
+    docs_url: https://docs.tryton.org/en/latest/
+    desc: Modular web-based ERP, designed for companies of all sizes.
+    tags: ["erp", "fdn"]
 
 ## Software development
 

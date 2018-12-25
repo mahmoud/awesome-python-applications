@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **193**
+This document is an always-growing list of **194**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -41,7 +41,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(9)*
 1. <a href="#tag-cms">CMS</a> *(8)*
-1. <a href="#tag-erp">ERP</a> *(3)*
+1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(11)*
     1. <a href="#tag-dev.scm">SCM</a> *(13)*
@@ -195,6 +195,7 @@ thereof), see Architectures. -->
   1. **ERP5** - ([Repo](https://lab.nexedi.com/nexedi/erp5), [Home](https://erp5.nexedi.com/), [WP](https://en.wikipedia.org/wiki/ERP5)) Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
   1. **ERPNext** - ([Repo](https://github.com/frappe/erpnext), [Home](https://erpnext.com/), [WP](https://en.wikipedia.org/wiki/ERPNext)) Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
   1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/), [WP](https://en.wikipedia.org/wiki/Odoo)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
+  1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest/)) Modular web-based ERP, designed for companies of all sizes. `(fdn)`
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 

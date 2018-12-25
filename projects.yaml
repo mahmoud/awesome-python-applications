@@ -106,7 +106,7 @@ projects:
   - name: Beets
     repo_url: https://github.com/beetbox/beets
     wp_url: http://beets.io/
-    desc: Catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.
+    desc: Toolset to catalog (improving its metadata using MusicBrainz database), manipulate and access your music.
     tags: ["audio", "linux", "windows", "mac"]
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard

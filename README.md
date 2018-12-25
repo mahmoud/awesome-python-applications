@@ -74,6 +74,8 @@ thereof), see Architectures. -->
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/), [PyPI](https://pypi.org/project/youtube_dl/)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
   1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest/)) Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
 
+  [back to top](#readme)
+
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(gtk, linux, mac, windows)`
@@ -86,12 +88,16 @@ thereof), see Architectures. -->
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(gtk, linux, mac, windows)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(gtk, linux)`
 
+  [back to top](#readme)
+
 ## <a id="tag-video" href="#tag-video">Video</a>
 
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(gtk, linux)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, mac, qt5, windows)`
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(gtk, linux)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, linux, mac, plone)`
+
+  [back to top](#readme)
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
@@ -103,6 +109,8 @@ thereof), see Architectures. -->
   1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(gtk, linux)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program. `(gtk, linux, mac, windows, wx)`
 
+  [back to top](#readme)
+
 ## <a id="tag-games" href="#tag-games">Games</a>
 
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, pygame, windows)`
@@ -110,6 +118,8 @@ thereof), see Architectures. -->
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(gtk, linux, windows)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(android, kivy, linux, tk, windows)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, mac, windows)`
+
+  [back to top](#readme)
 
 ## <a id="tag-productivity" href="#tag-productivity">Productivity</a>
 
@@ -124,6 +134,8 @@ thereof), see Architectures. -->
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(wx)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim. `(curses)`
 
+  [back to top](#readme)
+
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(qt5)`
@@ -135,6 +147,8 @@ thereof), see Architectures. -->
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server.
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(wx)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(gtk)`
+
+  [back to top](#readme)
 
 ## <a id="tag-communication" href="#tag-communication">Communication</a>
 
@@ -159,12 +173,16 @@ thereof), see Architectures. -->
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration
   1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations.
 
+  [back to top](#readme)
+
 ## <a id="tag-education" href="#tag-education">Education</a>
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(qt5)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(qt5)`
   1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable/)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form.
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
+
+  [back to top](#readme)
 
 ## <a id="tag-science" href="#tag-science">Science</a>
 
@@ -178,6 +196,8 @@ thereof), see Architectures. -->
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(gtk)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs. `(qt)`
 
+  [back to top](#readme)
+
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
 
   1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://github.com/abilian/abilian-sbe)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(communication)`
@@ -189,11 +209,15 @@ thereof), see Architectures. -->
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience.
 
+  [back to top](#readme)
+
 ## <a id="tag-erp" href="#tag-erp">ERP</a>
 
   1. **ERP5** - ([Repo](https://lab.nexedi.com/nexedi/erp5), [Home](https://erp5.nexedi.com/), [WP](https://en.wikipedia.org/wiki/ERP5)) Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
   1. **ERPNext** - ([Repo](https://github.com/frappe/erpnext), [Home](https://erpnext.com/), [WP](https://en.wikipedia.org/wiki/ERPNext)) Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
   1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/), [WP](https://en.wikipedia.org/wiki/Odoo)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
+
+  [back to top](#readme)
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 
@@ -203,6 +227,8 @@ thereof), see Architectures. -->
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application.
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax.
+
+  [back to top](#readme)
 
 ## <a id="tag-dev" href="#tag-dev">Dev</a>
 
@@ -225,10 +251,14 @@ Projects related to software development and adjacent technical areas.
   1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) Enhanced web-based wiki and issue tracking system for software development projects.
   1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) Browser interface for CVS and Subversion version control repositories.
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(gtk)`
   1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes.
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
@@ -249,6 +279,8 @@ Projects related to software development and adjacent technical areas.
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
@@ -256,10 +288,14 @@ Projects related to software development and adjacent technical areas.
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more.
   1. **XSStrike** - ([Repo](https://github.com/s0md3v/XSStrike), [Home](https://somdev.me/XSStrike/)) [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.docs" href="#tag-dev.docs">Docs</a>
 
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.editor" href="#tag-dev.editor">Editor</a>
 
@@ -273,6 +309,8 @@ Projects related to software development and adjacent technical areas.
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(qt5)`
   1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(tk)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(corp)`
@@ -283,11 +321,15 @@ Projects related to software development and adjacent technical areas.
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(corp)`
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_(software))) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.pkg_repo" href="#tag-dev.pkg_repo">Package Repositories</a>
 
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
   1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>
 
@@ -300,11 +342,15 @@ Projects related to software development and adjacent technical areas.
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book/)) Cross-platform build system designed to improve on SCons.
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>
 
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
   1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own.
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives.
+
+  [back to top](#readme)
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
@@ -319,6 +365,8 @@ Projects related to software development and adjacent technical areas.
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(gtk, qt)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
 
+  [back to top](#readme)
+
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(gtk)`
@@ -331,6 +379,7 @@ Projects related to software development and adjacent technical areas.
   1. **Wicd** - ([Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(gtk)`
   1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk/), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens.
 
+  [back to top](#readme)
 
 <!-- YET ANOTHER NOTE: This file is automatically generated, see projects.yaml -->
 

@@ -105,8 +105,9 @@ projects:
 ## Audio
   - name: Beets
     repo_url: https://github.com/beetbox/beets
-    wp_url: http://beets.io/
-    desc: Toolset to catalog (improving its metadata using MusicBrainz database), manipulate and access your music.
+    pypi_url: https://pypi.org/project/beets/
+    home_url: http://beets.io/
+    desc: Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more.
     tags: ["audio", "linux", "windows", "mac"]
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard

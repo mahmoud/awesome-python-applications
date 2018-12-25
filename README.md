@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **192**
+This document is an always-growing list of **193**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -31,7 +31,7 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(12)*
-1. <a href="#tag-audio">Audio</a> *(9)*
+1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(7)*
 1. <a href="#tag-games">Games</a> *(5)*
@@ -76,6 +76,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
+  1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets/)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(linux, mac, windows)`
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(gtk, linux, mac, windows)`
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(linux, mac, qt, windows)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(linux, mac, qt5, windows)`

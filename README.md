@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **194**
+This document is an always-growing list of **195**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -50,7 +50,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
     1. <a href="#tag-dev.editor">Editor</a> *(10)*
-    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(7)*
+    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
     1. <a href="#tag-dev.build">Build</a> *(8)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
@@ -283,6 +283,7 @@ Projects related to software development and adjacent technical areas.
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(corp)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_(software)), [Docs](https://dnf.readthedocs.io/en/latest/)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support.
+  1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow.
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging.
   1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports.
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(corp)`

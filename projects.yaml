@@ -930,8 +930,8 @@ projects:
     tags: ["pkg_mgr"]
   - name: pipenv
     repo_url: https://github.com/pypa/pipenv
-    home_url: https://pipenv.readthedocs.io/en/latest/
-    desc: "Python Development Workflow for Humans."
+    docs_url: https://pipenv.readthedocs.io/en/latest/
+    desc: Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow.
     tags: ["pkg_mgr"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git

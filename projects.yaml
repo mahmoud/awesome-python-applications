@@ -223,6 +223,7 @@ projects:
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
+    # see_also: https://github.com/mbenkmann/pydance  # similar (rhythm game on pygame, not actively maintained though)
     desc: Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players.
     tags: ["games", "pygame", "linux", "windows"]
   - name: Unknown Horizons

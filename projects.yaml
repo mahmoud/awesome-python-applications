@@ -928,6 +928,11 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Pip_(package_manager)
     desc: "Python's go-to package manager, with a wide range of features and platform support."
     tags: ["pkg_mgr"]
+  - name: pipenv
+    repo_url: https://github.com/pypa/pipenv
+    home_url: https://pipenv.readthedocs.io/en/latest/
+    desc: "Python Development Workflow for Humans."
+    tags: ["pkg_mgr"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git
     wp_url: https://en.wikipedia.org/wiki/Portage_(software)

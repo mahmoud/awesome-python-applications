@@ -371,12 +371,12 @@ projects:
     desc: Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
     docs_url: https://bitmessage.org/wiki/Main_Page
     repo_url: https://github.com/Bitmessage/PyBitmessage
-    tags: ["communication"]
+    tags: ["communication", "qt4", "curses", "kivy", "linux", "windows", "mac"]
   - name: Gajim
     desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim
     wp_url: https://en.wikipedia.org/wiki/Gajim
-    tags: ["communication", "gtk"]
+    tags: ["communication", "gtk", "linux", "windows", "mac"]
   - name: RapidSMS  # too much of a library?
     repo_url: https://github.com/rapidsms/rapidsms
     home_url: http://rapidsms.org/
@@ -398,7 +398,7 @@ projects:
     desc: Fast email client with user-friendly encryption and privacy features
     repo_url: https://github.com/mailpile/Mailpile
     home_url: https://mailpile.is/
-    tags: ["communication"]
+    tags: ["communication", "linux", "windows", "mac"]
   - name: GlobaLeaks
     repo_url: https://github.com/globaleaks/GlobaLeaks
     home_url: https://www.globaleaks.org/
@@ -409,7 +409,7 @@ projects:
     docs_url: https://moin-20.readthedocs.io/en/latest/
     repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
     wp_url: https://en.wikipedia.org/wiki/MoinMoin
-    desc: "Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others"
+    desc: "Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others."
     tags: ["communication"]
   - name: Askbot
     repo_url: https://github.com/ASKBOT/askbot-devel
@@ -420,51 +420,51 @@ projects:
     repo_url: https://github.com/OfflineIMAP/offlineimap
     home_url: http://www.offlineimap.org/
     wp_url: https://en.wikipedia.org/wiki/OfflineIMAP
-    desc: IMAP reader and synchronizer
-    tags: ["communication"]
+    desc: IMAP reader and synchronizer.
+    tags: ["communication", "linux"]
   - name: Pootle
     wp_url: https://en.wikipedia.org/wiki/Pootle
     home_url: http://pootle.translatehouse.org/
     repo_url: https://github.com/translate/pootle
-    desc: Web application for collaborative translation
+    desc: Web application for collaborative translation.
     tags: ["communication"]
   - name: Virtaal
     home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
-    desc: Cross-platform GUI for performing translation, with support for a variety of formats
-    tags: ["communication", "gtk"]
+    desc: Cross-platform GUI for performing translation, with support for a variety of formats.
+    tags: ["communication", "gtk", "linux", "windows", "mac"]
   - name: Weblate
     repo_url: https://github.com/WeblateOrg/weblate
     home_url: https://weblate.org/
     pypi_url: https://pypi.org/project/Weblate/
-    desc: Web based localization tool with tight version control integration
+    desc: Web based localization tool with tight version control integration.
     tags: ["communication"]
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw
-    desc: Full implementation of the OpenGIS Catalogue Service Implementation Specification
+    desc: Full implementation of the OpenGIS Catalogue Service Implementation Specification.
     tags: ["communication"]
   - name: Seafile
     repo_url: https://github.com/haiwen/seahub
     wp_url: https://en.wikipedia.org/wiki/Seafile
-    desc: Cross-platform file hosting and synchronization system
+    desc: Cross-platform file hosting and synchronization system.
     tags: ["communication"]
   - name: Helios Voting
     home_url: http://heliosvoting.org/
     repo_url: https://github.com/benadida/helios-server
-    desc: End-to-end verifiable voting system
-    tags: ["communication"]
+    desc: End-to-end verifiable voting system.
+    tags: ["communication", "linux"]
   - name: TahoeLAFS
     wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
     home_url: https://tahoe-lafs.org/trac/tahoe-lafs
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
-    desc: Decentralized cloud storage system for robust distributed data storage
-    tags: ["communication"]
+    desc: Decentralized cloud storage system for robust distributed data storage.
+    tags: ["communication", "linux", "windows", "mac"]
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
-    home_url: https://github.com/abilian/abilian-sbe
+    home_url: https://www.abilian.com
     desc: 'A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more.'
-    tags: ["communication", "cms"]
+    tags: ["communication", "cms", "linux", "mac"]
     # Currently used as an intranet by non-profit organisations such as AFPC, CNLL (French Council for Free / Open Source Software), Systematic Paris-Region, Aquinetic, etc.
 
 ## Internet

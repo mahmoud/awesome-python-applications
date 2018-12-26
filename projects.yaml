@@ -10,39 +10,6 @@
 
 tagsonomy:
   # NOTE: order here controls order of the rendered text
-  framework: # (?)
-      - desktop:
-          - gtk
-          - qt:
-            - qt4
-            - qt5
-          - wx
-          - pygame
-          - other
-      - network:
-          - flask
-          - django
-          - twisted
-          - gevent
-          - plone
-          - other
-      - nui:  # ?
-          - beeware   # not actually used here atm
-          - kivy
-      - hybrid:
-          - c
-          - cpp
-          - js
-  platform:
-      - desktop:
-        - windows
-        - mac
-        - linux
-      - console
-      - mobile
-      - browser
-      - server
-        - docker
   topic:
       - internet
       - audio
@@ -76,6 +43,47 @@ tagsonomy:
             - build
             - shell
       - misc
+  framework: # (?)
+      - desktop:
+          - gtk
+          - qt:
+              subtags:
+                - qt4
+                - qt5
+                - qt45  # hybrid
+          - wx
+          - pygame
+          - other
+      - network:
+          - flask
+          - django
+          - twisted
+          - gevent
+          - plone
+          - other
+      - nui:  # ?
+          - beeware   # not actually used here atm
+          - kivy
+      - hybrid:
+          - c
+          - cpp
+          - js
+
+  platform:
+      - desktop:
+          subtags:
+            - linux
+            - windows
+            - mac
+      - console
+      - mobile
+      - browser
+      - server:
+          subtags:  # sep tag for container?
+            - docker
+            - flatpak
+            - appimage
+
   license:
       - bsd:
           subtags:

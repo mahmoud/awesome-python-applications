@@ -62,11 +62,14 @@ class ProjectList(object):
         self.tagsonomy = tagsonomy
 
         self.tag_registry = OMD()
-        self.tag_alias_map = OMD()
-        for tag in self.tagsonomy['topic']:
-            self.register_tag('topic', tag)
+
+        for tag_group in ('topic', 'platform'):  # TODO: framework, license
+            for tag in self.tagsonomy[tag_group]:
+                self.register_tag(tag_group, tag)
 
         for project in project_list:
+            new_tags = soft_sorted(project.get('tags', []), first=self.tag_registry.keys())
+            project['tags'] = new_tags
             self.project_list.append(Project.from_dict(project))
 
     @classmethod
@@ -199,8 +202,7 @@ def format_category(project_map, tag_entry):
             line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
             if len(project.tags) > 1:
                 other_tags = [t for t in project.tags if t != tag_entry.tag]
-                # TODO: soft sort this according to tagsonomy order
-                line += ' `(%s)`' % ', '.join(sorted(other_tags))
+                line += ' `(%s)`' % ', '.join(other_tags)
             lines.append(line)
 
         append('')

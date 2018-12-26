@@ -253,50 +253,52 @@ projects:
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey/
     desc: Desktop automation utility for Linux and X11.
-    tags: ["productivity", "gtk", "qt"]
+    tags: ["productivity", "gtk", "qt", "linux"]
   - name: Bleachbit
     repo_url: https://github.com/bleachbit/bleachbit
     home_url: https://www.bleachbit.org/
-    desc: System cleaner for Windows and Linux, designed to free disk space and maintain privacy.
-    tags: ["productivity", "gtk"]
+    desc: System cleaner designed to free disk space and maintain privacy.
+    tags: ["productivity", "gtk", "linux", "windows"]
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
     desc: RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
-    tags: ["productivity", "curses"]
+    tags: ["productivity", "curses", "linux"]
   - name: Metamorphose
     repo_url: https://github.com/metamorphose/metamorphose2
     home_url: http://file-folder-ren.sourceforge.net/
     desc: Graphical mass renaming program for files and folders.
-    tags: ["productivity", "wx"]
+    tags: ["productivity", "wx", "linux", "windows", "mac"]
   - name: Bup
     repo_url: https://github.com/Bup/Bup
     home_url: https://bup.github.io/
     desc: Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication.
-    tags: ["productivity"]
+    tags: ["productivity", "linux", "mac"]
   - name: Attic
+    home_url: https://attic-backup.org/
     repo_url: https://github.com/jborg/attic
     desc: Deduplicating backup system with optional encryption and other features.
-    tags: ["productivity"]
+    tags: ["productivity", "linux"]
   - name: gmvault
+    home_url: http://gmvault.org/
     repo_url: https://github.com/gaubert/gmvault
     desc: Tool for backing up gmail accounts.
-    tags: ["productivity", "qt5"]
+    tags: ["productivity", "qt5", "linux", "windows", "mac"]
   - name: nvda
     repo_url: https://github.com/nvaccess/nvda
     home_url: https://www.nvaccess.org/
     desc: Non-Visual Desktop Access, a powerful screen reader for Windows.
-    tags: ["productivity", "wx"]
+    tags: ["productivity", "wx", "windows"]
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
     home_url: https://ranger.github.io/
     desc: Console-based file manager, inspired by vim.
-    tags: ["productivity", "curses"]
+    tags: ["productivity", "curses", "linux"]
   - name: Excalibur
     home_url: https://www.tryexcalibur.com/
     repo_url: https://github.com/camelot-dev/excalibur
     desc: Web interface to extract tabular data from PDFs.
-    tags: ["productivity"]
+    tags: ["productivity", "linux", "windows"]
 
 ## Organization
 

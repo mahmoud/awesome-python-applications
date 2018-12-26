@@ -267,11 +267,6 @@ projects:
     home_url: https://www.bleachbit.org/
     desc: System cleaner designed to free disk space and maintain privacy.
     tags: ["productivity", "gtk", "linux", "windows"]
-  - name: Canto
-    repo_url: https://github.com/themoken/canto-next
-    wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
-    desc: RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
-    tags: ["productivity", "curses", "linux"]
   - name: Metamorphose
     repo_url: https://github.com/metamorphose/metamorphose2
     home_url: http://file-folder-ren.sourceforge.net/
@@ -485,6 +480,11 @@ projects:
     home_url: https://web.archive.org/web/20051029095046/http://www.planetplanet.org/
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
     tags: ["internet"]
+  - name: Canto
+    repo_url: https://github.com/themoken/canto-next
+    wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
+    desc: RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
+    tags: ["internet", "curses", "linux"]
   - name: gPodder
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder

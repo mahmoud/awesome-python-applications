@@ -30,12 +30,12 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(12)*
+1. <a href="#tag-internet">Internet</a> *(13)*
 1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(7)*
 1. <a href="#tag-games">Games</a> *(5)*
-1. <a href="#tag-productivity">Productivity</a> *(10)*
+1. <a href="#tag-productivity">Productivity</a> *(9)*
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(20)*
 1. <a href="#tag-education">Education</a> *(4)*
@@ -61,6 +61,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-internet" href="#tag-internet">Internet</a>
 
+  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(gtk)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research.
@@ -118,7 +119,6 @@ thereof), see Architectures. -->
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey/)) Desktop automation utility for Linux and X11. `(linux, gtk, qt)`
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy. `(linux, windows, gtk)`
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(linux, mac)`
-  1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur), [Home](https://www.tryexcalibur.com/)) Web interface to extract tabular data from PDFs. `(linux, windows)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(linux, windows, mac, qt5)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`

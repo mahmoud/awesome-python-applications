@@ -39,17 +39,17 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(20)*
 1. <a href="#tag-education">Education</a> *(4)*
-1. <a href="#tag-science">Science</a> *(9)*
+1. <a href="#tag-science">Science</a> *(11)*
 1. <a href="#tag-cms">CMS</a> *(8)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
-1. <a href="#tag-dev">Dev</a> *(11)*
+1. <a href="#tag-dev">Dev</a> *(8)*
     1. <a href="#tag-dev.scm">SCM</a> *(13)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
     1. <a href="#tag-dev.ops">Ops</a> *(16)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
-    1. <a href="#tag-dev.editor">Editor</a> *(9)*
+    1. <a href="#tag-dev.editor">Editor</a> *(10)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(7)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
     1. <a href="#tag-dev.build">Build</a> *(8)*
@@ -172,11 +172,13 @@ thereof), see Architectures. -->
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(gtk)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa/), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets.
+  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(django)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(gtk)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization. `(qt4)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(qt4, qt5)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(gtk)`
+  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs. `(qt)`
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
@@ -267,6 +269,7 @@ Projects related to software development and adjacent technical areas.
 
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(qt5)`
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(gtk)`
+  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(cpp, js)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(qt5)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers. `(qt5)`
@@ -310,13 +313,10 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
-  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
-  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(gtk)`
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
-  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(corp, flask)`
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(gtk, qt)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).

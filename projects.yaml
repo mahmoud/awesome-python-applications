@@ -603,6 +603,17 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/InVesalius
     desc: Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans.
     tags: ["science", "gtk"]
+  - name: CoCalc
+    repo_url: https://github.com/sagemathinc/cocalc
+    wp_url: https://en.wikipedia.org/wiki/CoCalc
+    home_url: https://cocalc.com/
+    desc: Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
+    tags: ["science"]
+  - name: Sage Math
+    wp_url: https://en.wikipedia.org/wiki/SageMath
+    repo_url: https://git.sagemath.org/sage.git/
+    desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
+    tags: ["science"]
 
 ## Static Site Generators
 
@@ -719,17 +730,6 @@ projects:
     home_url: http://meldmerge.org/
     desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
     tags: ["code_review", "gtk"]
-  - name: CoCalc
-    repo_url: https://github.com/sagemathinc/cocalc
-    wp_url: https://en.wikipedia.org/wiki/CoCalc
-    home_url: https://cocalc.com/
-    desc: Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
-    tags: ["dev"]
-  - name: Sage Math
-    wp_url: https://en.wikipedia.org/wiki/SageMath
-    repo_url: https://git.sagemath.org/sage.git/
-    desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
-    tags: ["dev"]
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -753,11 +753,6 @@ projects:
     docs_url: https://ipython.readthedocs.org/
     repo_url: https://github.com/ipython/ipython
     desc: Set of enhancements to Python, wrapping it for richer interactivity.
-    tags: ["dev"]
-  - name: Jupyter Notebook
-    repo_url: https://github.com/jupyter/notebook
-    home_url: https://jupyter.org/
-    desc: Web-based, extensible notebook environment for interactive computing.
     tags: ["dev"]
   - name: Locust
     repo_url: https://github.com/locustio/locust
@@ -827,7 +822,11 @@ projects:
     repo_url: https://github.com/mu-editor/mu
     desc: A small, simple editor designed for beginner Python programmers.
     tags: ["editor", "qt5"]
-
+  - name: Jupyter Notebook
+    repo_url: https://github.com/jupyter/notebook
+    home_url: https://jupyter.org/
+    desc: Web-based, extensible notebook environment for interactive computing.
+    tags: ["editor"]
 
 ## Security
   - name: MITMproxy

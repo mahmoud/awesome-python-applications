@@ -489,53 +489,53 @@ projects:
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder
     desc: Simple, mature media aggregator and podcast client.
-    tags: ["internet", "gtk"]
+    tags: ["internet", "gtk", "linux", "windows", "mac"]
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
     desc: Popular, lightweight, cross-platform BitTorrent client.
-    tags: ["internet", "gtk"]
+    tags: ["internet", "gtk", "linux", "windows", "mac"]
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     home_url: http://www.tribler.org/
     wp_url: https://en.wikipedia.org/wiki/Tribler
     desc: Privacy enhanced BitTorrent client with P2P content discovery.
-    tags: ["internet", "qt5"]
+    tags: ["internet", "qt5", "linux", "windows", "mac"]
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
     home_url: https://www.qutebrowser.org/
     desc: Keyboard-driven, minimal, `vim`-like browser based on PyQt5
-    tags: ["internet", "qt5"]
+    tags: ["internet", "qt5", "linux", "windows", "mac"]
   - name: youtube-dl
     repo_url: https://github.com/rg3/youtube-dl
     home_url: http://rg3.github.io/youtube-dl/
     pypi_url: https://pypi.org/project/youtube_dl/
     desc: Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
-    tags: ["internet"]
+    tags: ["internet", "linux", "windows", "mac"]
   - name: You-Get
     repo_url: https://github.com/soimort/you-get
     home_url: https://you-get.org/
     desc: Command-line program to browserlessly scrape and stream video, audio, and images from web sites.
-    tags: ["internet"]
+    tags: ["internet", "linux", "windows", "mac"]
   - name: SABnzbd
     repo_url: https://github.com/sabnzbd/sabnzbd
     home_url: https://sabnzbd.org
     docs_url: https://sabnzbd.org/wiki/
     desc: Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages.
-    tags: ["internet"]
+    tags: ["internet", "linux", "windows", "mac"]
   - name: Pi-Hole
     repo_url: https://github.com/pi-hole/pi-hole
     home_url: https://pi-hole.net/
     wp_url: https://en.wikipedia.org/wiki/Pi-hole
     desc: Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network.
-    tags: ["internet"]
+    tags: ["internet", "linux"]
   - name: ZeroNet
     home_url: https://zeronet.io/
     repo_url: https://github.com/HelloZeroNet/ZeroNet
     docs_url: https://zeronet.readthedocs.io/en/latest/
     wp_url: https://en.wikipedia.org/wiki/ZeroNet
     desc: Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
-    tags: ["internet"]
+    tags: ["internet", "linux", "windows", "mac"]
 
 ## Education
 

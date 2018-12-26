@@ -314,49 +314,49 @@ projects:
     repo_url: https://github.com/kovidgoyal/calibre/
     home_url: https://calibre-ebook.com/
     desc: E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
-    tags: ["organization", "qt5"]
+    tags: ["organization", "qt5", "linux", "windows", "mac"]
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
     home_url: https://pymedusa.com/
     desc: Video library manager for TV shows, with automatic download support.
-    tags: ["organization"]
+    tags: ["organization", "linux", "windows"]  # maybe mac?
   - name: Gramps
     repo_url: https://github.com/gramps-project/gramps
     home_url: https://gramps-project.org/
     desc: Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists.
-    tags: ["organization", "gtk"]
+    tags: ["organization", "gtk", "linux", "windows", "mac"]
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
     docs_url: https://invenio.readthedocs.io/
-    desc: Customizable platform for running a trusted digital repository.
-    tags: ["organization"]
+    desc: Customizable platform for running a trusted digital repository.  # might be more of a framework..
+    tags: ["organization", "linux"]
   - name: Zim Wiki
     repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
     home_url: http://zim-wiki.org/
     desc: Desktop wiki designed for note-taking, list-making, and drafting.
-    tags: ["organization", "gtk"]
+    tags: ["organization", "gtk", "linux", "windows"]
   - name: Wikid Pad
     repo_url: https://github.com/WikidPad/WikidPad
     home_url: http://wikidpad.sourceforge.net/
     desc: Desktop wiki notebook for storing your thoughts and ideas.
-    tags: ["organization", "wx"]
+    tags: ["organization", "wx", "linux", "windows", "mac"]
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/
     wp_url: https://en.wikipedia.org/wiki/Open_Library
     desc: "Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published."
-    tags: ["organization"]
+    tags: ["organization", "linux", "windows", "mac", "docker"]
   - name: Radicale
     home_url: https://radicale.org/
     repo_url: https://github.com/Kozea/Radicale
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
-    tags: ["organization"]
+    tags: ["organization", "linux", "windows", "mac"]
   - name: CherryTree
     repo_url: https://github.com/giuspen/cherrytree
     home_url: https://www.giuspen.com/cherrytree/
     desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
-    tags: ["organization", "gtk"]
+    tags: ["organization", "gtk", "linux", "windows"]
 
 ## Communication
 

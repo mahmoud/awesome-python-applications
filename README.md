@@ -127,15 +127,15 @@ thereof), see Architectures. -->
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
-  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(qt5)`
-  1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree/)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(gtk)`
-  1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(gtk)`
-  1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository.
-  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published.
-  1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support.
-  1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server.
-  1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(wx)`
-  1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(gtk)`
+  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
+  1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree/)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
+  1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
+  1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
+  1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`
+  1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
+  1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(linux, windows, mac)`
+  1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
+  1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(linux, windows, gtk)`
 
 ## <a id="tag-communication" href="#tag-communication">Communication</a>
 

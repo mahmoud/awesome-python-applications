@@ -201,12 +201,12 @@ thereof), see Architectures. -->
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 
-  1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates.
-  1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
-  1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
-  1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application.
-  1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
-  1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax.
+  1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(linux, windows, mac)`
+  1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(linux, windows, mac)`
+  1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(linux, windows, mac)`
+  1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(linux, windows, mac)`
+  1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(linux, windows, mac)`
+  1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(linux, windows, mac)`
 
 ## <a id="tag-dev" href="#tag-dev">Dev</a>
 
@@ -231,7 +231,7 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
-  1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(gtk)`
+  1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(linux, windows, mac, gtk)`
   1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes.
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
@@ -267,16 +267,16 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.editor" href="#tag-dev.editor">Editor</a>
 
-  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(qt5)`
-  1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(gtk)`
-  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing.
-  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(cpp, js)`
-  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(qt5)`
-  1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers. `(qt5)`
-  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(qt5)`
-  1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(gtk)`
-  1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(qt5)`
-  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(tk)`
+  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(linux, windows, mac, qt5)`
+  1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(linux, c, gtk)`
+  1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(linux, windows, mac)`
+  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(linux, windows, mac, cpp, js)`
+  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(linux, windows, mac, qt5)`
+  1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en/)) A small, simple editor designed for beginner Python programmers. `(linux, windows, mac, qt5)`
+  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(linux, windows, mac, qt5)`
+  1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(linux, c, gtk)`
+  1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(linux, windows, mac, qt5)`
+  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(linux, windows, mac, tk)`
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
@@ -316,11 +316,11 @@ Projects related to software development and adjacent technical areas.
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
-  1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(gtk)`
+  1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(linux, gtk)`
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(corp, flask)`
-  1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(gtk, qt)`
-  1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
+  1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(linux, gtk, qt)`
+  1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(linux, windows, mac)`
 
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 

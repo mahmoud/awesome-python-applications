@@ -633,39 +633,39 @@ projects:
     repo_url: https://github.com/getpelican/pelican
     home_url: https://blog.getpelican.com
     pypi_url: https://pypi.org/project/pelican
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
     desc:  Command-line static site generator that supports Markdown and reST syntax.
   - name: Nikola
     repo_url: https://github.com/getnikola/nikola
     home_url: https://www.getnikola.com
     pypi_url: https://pypi.org/project/nikola
     desc: Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML.
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
     desc: Static website generator using Django templates.
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
   - name: Hyde
     repo_url: https://github.com/hyde/hyde
     home_url: http://hyde.github.io/
     pypi_url: https://pypi.org/project/hyde
     desc: Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
   - name: Lektor
     repo_url: https://github.com/lektor/lektor
     home_url: https://www.getlektor.com/
     desc: Static site generator with built-in admin console and minimal desktop application.
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
   - name: Chert  # blatant self-plug
     repo_url: https://github.com/mahmoud/chert
     pypi_url: https://pypi.org/project/chert
     desc: "Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)"
-    tags: ["static_site"]
+    tags: ["static_site", "linux", "windows", "mac"]
 
 ## CMS
 
-  - name: Ella
+  - name: Ella  # pretty framework-y
     repo_url: https://github.com/ella/ella
     docs_url: https://ella.readthedocs.io/en/latest/index.html
     desc: Django-based content management system with a focus on high-traffic news sites and Internet magazines.
@@ -741,7 +741,7 @@ projects:
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/
     desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
-    tags: ["code_review", "gtk"]
+    tags: ["code_review", "gtk", "linux", "windows", "mac"]
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -776,16 +776,16 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
     repo_url: https://code.launchpad.net/ubiquity
     desc: The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
-    tags: ["dev", "gtk", "qt"]
+    tags: ["dev", "gtk", "qt", "linux"]
   - name: RedHat Anaconda
     repo_url: https://github.com/rhinstaller/anaconda
     docs_url: https://anaconda-installer.readthedocs.io/en/latest/
     desc: Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions.
-    tags: ["dev", "gtk"]
+    tags: ["dev", "gtk", "linux"]
   - name: Voltron
     repo_url: https://github.com/snare/voltron
     desc: Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
-    tags: ["dev"]
+    tags: ["dev", "linux", "windows", "mac"]
 
 
 ## Editors
@@ -793,52 +793,52 @@ projects:
     repo_url: https://github.com/spyder-ide/spyder
     home_url: https://www.spyder-ide.org/
     desc: Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.
-    tags: ["editor", "qt5"]
+    tags: ["editor", "qt5", "linux", "windows", "mac"]
   - name: Komodo Edit
     repo_url: https://github.com/Komodo/KomodoEdit
     home_url: https://www.activestate.com/products/komodo-edit/
     desc: Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
-    tags: ["editor", "js", "cpp"]
+    tags: ["editor", "js", "cpp", "linux", "windows", "mac"]
   - name: Thonny
     repo_url: https://bitbucket.org/plas/thonny/src
     home_url: https://thonny.org/
     wp_url: https://en.wikipedia.org/wiki/Thonny
     desc: Cross-platform Python IDE for beginners, designed for learning to code.
-    tags: ["editor", "tk"]
+    tags: ["editor", "tk", "linux", "windows", "mac"]
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
     wp_url: https://en.wikipedia.org/wiki/Ninja-IDE
     home_url: http://ninja-ide.org/
     desc: Cross-platform Python IDE with project management, linting, extensions, and more.
-    tags: ["editor", "qt5"]
+    tags: ["editor", "qt5", "linux", "windows", "mac"]
   - name: Eric IDE
     home_url: https://eric-ide.python-projects.org/
     repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
     desc: Python editor and IDE, based on Qt, integrating Scintilla editor control.
-    tags: ["editor", "qt5"]
+    tags: ["editor", "qt5", "linux", "windows", "mac"]
   - name: Gedit
     repo_url: https://gitlab.gnome.org/GNOME/gedit/
     desc: The default GNOME text editor makes extensive use of Python, in addition to C.
-    tags: ["editor", "gtk"]
+    tags: ["editor", "c", "gtk", "linux"]
   - name: Pluma
     repo_url: https://github.com/mate-desktop/pluma
     desc: Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit.
-    tags: ["editor", "gtk"]
+    tags: ["editor", "c", "gtk", "linux"]
   - name: Leo Editor
     repo_url: https://github.com/leo-editor/leo-editor
     home_url: http://leoeditor.com/
     desc: Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
-    tags: ["editor", "qt5"]
+    tags: ["editor", "qt5", "linux", "windows", "mac"]
   - name: mu
     home_url: https://codewith.mu/en/
     repo_url: https://github.com/mu-editor/mu
     desc: A small, simple editor designed for beginner Python programmers.
-    tags: ["editor", "qt5"]
+    tags: ["editor", "qt5", "linux", "windows", "mac"]
   - name: Jupyter Notebook
     repo_url: https://github.com/jupyter/notebook
     home_url: https://jupyter.org/
     desc: Web-based, extensible notebook environment for interactive computing.
-    tags: ["editor"]
+    tags: ["editor", "linux", "windows", "mac"]
 
 ## Security
   - name: MITMproxy

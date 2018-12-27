@@ -38,6 +38,7 @@
 * https://wiki.python.org/moin/Applications
 * https://wiki.python.org/moin/WellKnownPythonPrograms
 * https://en.wikipedia.org/wiki/List_of_Python_software#Applications
+* https://en.wikipedia.org/wiki/PyGTK#Notable_applications_that_use_PyGTK
 * http://pythonsource.com/
 
 ## Problems with other lists

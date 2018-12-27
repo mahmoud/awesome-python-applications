@@ -544,17 +544,17 @@ projects:
     home_url: https://apps.ankiweb.net/
     docs_url: https://apps.ankiweb.net/docs/manual.html
     desc: Powerful desktop application for flash cards and memorization.
-    tags: ["education", "qt5"]
+    tags: ["education", "qt5", "linux", "windows", "mac"]
   - name: Mnemosyne
     repo_url: https://github.com/mnemosyne-proj/mnemosyne
     home_url: https://mnemosyne-proj.org/
     desc: Spaced-repetition flashcard program for efficient memorization.
-    tags: ["education", "qt5"]
+    tags: ["education", "qt5", "linux", "windows", "mac"]
   - name: Open edX Platform
     repo_url: https://github.com/edx/edx-platform
     home_url: http://open.edx.org/
     desc: Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
-    tags: ["education"]
+    tags: ["education", "linux"]
   - name: NBGrader
     repo_url: https://github.com/jupyter/nbgrader
     docs_url: https://nbgrader.readthedocs.io/en/stable/
@@ -568,52 +568,52 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/ASCEND
     home_url: http://ascend4.org/Main_Page
     desc: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
-    tags: ["science", "gtk"]
+    tags: ["science", "gtk", "linux", "windows", "mac"]
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
     desc: Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
-    tags: ["science"]
+    tags: ["science", "windows", "linux"]
   - name: Orange
     home_url: https://orange.biolab.si/
     repo_url: https://github.com/biolab/orange3
     wp_url: https://en.wikipedia.org/wiki/Orange_(software)
     desc: Component-based data mining software for graphical interactive data analysis and visualization.
-    tags: ["science", "qt4", "qt5"]
+    tags: ["science", "qt4", "qt5", "linux", "windows", "mac"]
   - name: CellProfiler
     home_url: http://cellprofiler.org/
     repo_url: https://github.com/CellProfiler/CellProfiler
     docs_url: https://github.com/CellProfiler/CellProfiler/wiki
     manual_url: https://cellprofiler.org/cpa/
     desc: Interactive data exploration, analysis, and classification of biological image sets.
-    tags: ["science"]
+    tags: ["science", "linux", "windows", "mac"]
   - name: Veusz
     repo_url: https://github.com/veusz/veusz
     home_url: https://veusz.github.io/
     desc: 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
-    tags: ["science", "qt"]
+    tags: ["science", "qt", "linux", "windows", "mac"]
   - name: Mayavi
     repo_url: https://github.com/enthought/mayavi
     home_url: http://docs.enthought.com/mayavi/mayavi/
     desc: General purpose, cross-platform tool for 2-D and 3-D scientific data visualization.
-    tags: ["science", "qt4"]
+    tags: ["science", "qt4", "linux", "windows", "mac"]
   - name: Pybliographer
     repo_url: https://github.com/GNOME/pybliographer
     home_url: https://pybliographer.org/
     desc: Bibliographic database manager with a user-friendly desktop UI.
-    tags: ["science", "gtk"]
+    tags: ["science", "gtk", "linux"]
   - name: Dissem.in
     repo_url: https://github.com/dissemin/dissemin
     home_url: https://dissem.in/
     docs_url: https://dev.dissem.in/
     desc: Web platform to help researchers upload their papers to open-access repositories.
-    tags: ["science", "django"]
+    tags: ["science", "django", "linux"]
   - name: InVesalius
     repo_url: https://github.com/invesalius/invesalius3
     home_url: https://invesalius.github.io/
     wp_url: https://en.wikipedia.org/wiki/InVesalius
     desc: Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans.
-    tags: ["science", "gtk"]
+    tags: ["science", "gtk", "linux", "windows", "mac"]
   - name: CoCalc
     repo_url: https://github.com/sagemathinc/cocalc
     wp_url: https://en.wikipedia.org/wiki/CoCalc
@@ -622,9 +622,10 @@ projects:
     tags: ["science"]
   - name: Sage Math
     wp_url: https://en.wikipedia.org/wiki/SageMath
+    home_url: http://www.sagemath.org/
     repo_url: https://git.sagemath.org/sage.git/
     desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
-    tags: ["science"]
+    tags: ["science", "linux", "windows", "mac"]
 
 ## Static Site Generators
 

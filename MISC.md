@@ -17,6 +17,7 @@
 
 * https://github.com/belangeo/soundgrain
 * https://github.com/albertz/music-player
+* https://github.com/j3ffhubb/musikernel
 * https://github.com/danboid/shufti
 * https://github.com/examachine/pisi
 * https://github.com/jedie/PyLucid  # distribution of django-cms?
@@ -33,6 +34,9 @@
 
 ## Pages scoured
 
+Hardly the only sources, but mostly so others don't spend their time
+mining a spent resource.
+
 * https://wiki.python.org/moin/PyQt/SomeExistingApplications
 * https://wiki.python.org/moin/PythonInMusic
 * https://wiki.python.org/moin/Applications
@@ -40,6 +44,7 @@
 * https://en.wikipedia.org/wiki/List_of_Python_software#Applications
 * https://en.wikipedia.org/wiki/PyGTK#Notable_applications_that_use_PyGTK
 * http://pythonsource.com/
+* http://openhub.net/ (python + pyqt4/5 + pygtk tags, pretty noisy dataset)
 
 ## Problems with other lists
 

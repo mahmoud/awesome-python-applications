@@ -761,7 +761,7 @@ projects:
     home_url: https://locust.io/
     docs_url: https://docs.locust.io/
     desc: Scalable user load testing tool for web sites, featuring an interactive web interface.
-    tags: ["dev"]
+    tags: ["dev", "server"]
   - name: Ubiquity  # ubuntu installer
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_(software)
     repo_url: https://code.launchpad.net/ubiquity
@@ -858,6 +858,12 @@ projects:
     home_url: https://www.reviewboard.org/
     desc: Extensible code review tool for projects and companies of all sizes.
     tags: ["code_review", "server"]
+  - name: Rietveld
+    repo_url: https://github.com/rietveld-codereview/rietveld
+    home_url: https://codereview.appspot.com/
+    wp_url: https://en.wikipedia.org/wiki/Rietveld_(software)
+    desc: Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)).
+    tags: ["code_review", "server"]
   - name: Meld
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/
@@ -869,65 +875,62 @@ projects:
     repo_url: https://pagure.io/pagure/
     home_url: https://pagure.io/
     desc: 'Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team.'
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
     home_url: https://allura.apache.org/
     desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: Mercurial
-    home_url: https://www.mercurial-scm.org/repo/hg/
+    home_url: https://www.mercurial-scm.org/
     repo_url: https://www.mercurial-scm.org/repo/hg-stable
     wp_url: https://en.wikipedia.org/wiki/Mercurial
     desc: Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.
-    tags: ["scm"]
+    tags: ["scm", "linux", "windows", "mac"]
   - name: Roundup
     wp_url: https://en.wikipedia.org/wiki/Roundup_(issue_tracker)
     repo_url: http://hg.code.sf.net/p/roundup/code
     desc: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: GNU Bazaar
+    home_url: http://bazaar.canonical.com/en/
     repo_url: https://code.launchpad.net/bzr
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
     desc: Distributed and client–server revision control system.
-    tags: ["scm"]
+    tags: ["scm", "linux", "windows", "mac"]
   - name: Trac
     repo_url: https://github.com/edgewall/trac
     wp_url: https://en.wikipedia.org/wiki/Trac
     desc: Enhanced web-based wiki and issue tracking system for software development projects.
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: ViewVC
+    home_url: http://viewvc.org
     repo_url: https://github.com/viewvc/viewvc/
     desc: Browser interface for CVS and Subversion version control repositories.
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: Kallithea
     repo_url: https://kallithea-scm.org/repos/kallithea
     wp_url: https://en.wikipedia.org/wiki/Kallithea_(software)
     desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: RhodeCode
     home_url: https://code.rhodecode.com/rhodecode-enterprise-ce
     wp_url: https://en.wikipedia.org/wiki/RhodeCode
     desc: Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion.
-    tags: ["scm", "corp"]
-  - name: Rietveld
-    repo_url: https://github.com/rietveld-codereview/rietveld
-    home_url: https://codereview.appspot.com/
-    wp_url: https://en.wikipedia.org/wiki/Rietveld_(software)
-    desc: Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)).
-    tags: ["scm"]
+    tags: ["scm", "corp", "server"]
   - name: Patchwork
     repo_url: https://github.com/getpatchwork/patchwork
     home_url: http://jk.ozlabs.org/projects/patchwork/
+    docs_url: https://patchwork.readthedocs.io/en/latest/
     desc: Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
-    tags: ["scm"]
+    tags: ["scm", "server"]
   - name: TortoiseHg
     repo_url: https://bitbucket.org/tortoisehg/thg/src
     docs_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
     home_url: https://tortoisehg.bitbucket.io/
     desc: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
-    tags: ["scm", "qt4", "qt5"]
+    tags: ["scm", "qt4", "qt5", "linux", "windows"]
   - name: Git Cola
     repo_url: https://github.com/git-cola/git-cola
     home_url: https://git-cola.github.io/
@@ -940,60 +943,60 @@ projects:
     home_url: https://pip.pypa.io/en/stable/
     wp_url: https://en.wikipedia.org/wiki/Pip_(package_manager)
     desc: "Python's go-to package manager, with a wide range of features and platform support."
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "linux", "windows", "mac"]
   - name: pipenv
     repo_url: https://github.com/pypa/pipenv
     docs_url: https://pipenv.readthedocs.io/en/latest/
     desc: Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow.
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "linux", "windows", "mac"]
   - name: Portage
     repo_url: https://anongit.gentoo.org/git/proj/portage.git
     wp_url: https://en.wikipedia.org/wiki/Portage_(software)
     desc: "Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports."
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "linux"]
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
     wp_url: https://en.wikipedia.org/wiki/Conda_(package_manager)
     desc: OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing.
-    tags: ["pkg_mgr", "corp"]
+    tags: ["pkg_mgr", "corp", "linux", "windows", "mac"]
   - name: Poetry
     home_url: https://poetry.eustace.io/
     repo_url: https://github.com/sdispater/poetry
     docs_url: https://poetry.eustace.io/docs/
     desc: An independent approach to Python dependency management and packaging.
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "linux", "windows", "mac"]
   - name: Solaris IPS
     repo_url: https://github.com/oracle/solaris-ips
     desc: Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth.
-    tags: ["pkg_mgr", "corp"]
+    tags: ["pkg_mgr", "corp", "linux"]
   - name: yum
     repo_url: https://github.com/rpm-software-management/yum
     home_url: http://yum.baseurl.org/
     wp_url: https://en.wikipedia.org/wiki/Yum_(software)
     desc: Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "corp", "linux"]
   - name: dnf
     repo_url: https://github.com/rpm-software-management/dnf
     docs_url: https://dnf.readthedocs.io/en/latest/
     wp_url: https://en.wikipedia.org/wiki/DNF_(software)
     desc: Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
-    tags: ["pkg_mgr"]
+    tags: ["pkg_mgr", "corp", "linux"]
 
 ## Package repositories
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
     desc: Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
-    tags: ["pkg_repo"]
+    tags: ["pkg_repo", "fnd", "server"]
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
-    tags: ["pkg_repo"]
+    tags: ["pkg_repo", "corp", "server"]
   - name: devpi
     repo_url: https://github.com/devpi/devpi
     docs_url: http://doc.devpi.net/
     desc:  PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
-    tags: ["pkg_repo"]
+    tags: ["pkg_repo", "server"]
 
 ## Build tools
   - name: SCons
@@ -1001,48 +1004,48 @@ projects:
     home_url: http://scons.org/
     wp_url: https://en.wikipedia.org/wiki/SCons
     desc: Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
-    tags: ["build"]
+    tags: ["build", "linux", "windows", "mac"]
   - name: bitbake
     wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
     docs_url: https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html
     desc: Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
-    tags: ["build"]
+    tags: ["build", "linux"]
   - name: Buildout
     repo_url: https://github.com/buildout/buildout
     docs_url: http://docs.buildout.org/
     wp_url: https://en.wikipedia.org/wiki/Buildout
     desc: Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds.
-    tags: ["build"]
+    tags: ["build", "linux", "windows", "mac"]
   - name: buildbot
     repo_url: https://github.com/buildbot/buildbot
     docs_url: https://www.buildbot.net/
     wp_url: https://en.wikipedia.org/wiki/Buildbot
     desc: Job scheduling system tailored to the needs of continuous integration and software packaging.
-    tags: ["build"]
+    tags: ["build", "server"]
   - name: GYP
     home_url: https://gyp.gsrc.io/
     repo_url: https://chromium.googlesource.com/external/gyp
     wp_url: https://en.wikipedia.org/wiki/GYP_(software)
     desc: "AKA 'Generate Your Projects', a build system that generates other build systems."
-    tags: ["build"]
+    tags: ["build", "linux", "windows", "mac"]
   - name: Waf
     home_url: https://waf.io/
     repo_url: https://gitlab.com/ita1024/waf
     docs_url: https://waf.io/book/
     wp_url: https://en.wikipedia.org/wiki/Waf
     desc: Cross-platform build system designed to improve on SCons.
-    tags: ["build"]
+    tags: ["build", "linux"]
   - name: Meson
     home_url: http://mesonbuild.com/
     repo_url: https://github.com/mesonbuild/meson
     desc: Build system designed for speed and user-friendliness.
-    tags: ["build"]
+    tags: ["build", "linux", "windows", "mac"]
   - name: Pants
-    home_url: https://www.pantsbuild.org/index.html
+    home_url: https://www.pantsbuild.org/
     repo_url: https://github.com/pantsbuild/pants
-    desc: Build system designed for monorepi
-    tags: ["build", "monorepo"]
+    desc: Build system designed for monolithic repositories.
+    tags: ["build", "corp", "linux", "mac"]
 
 ## Shells
   - name: Oil

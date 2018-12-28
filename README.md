@@ -44,8 +44,8 @@ thereof), see Architectures. -->
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(8)*
-    1. <a href="#tag-dev.scm">SCM</a> *(13)*
-    1. <a href="#tag-dev.code_review">Code Review</a> *(2)*
+    1. <a href="#tag-dev.scm">SCM</a> *(12)*
+    1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(16)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
@@ -215,24 +215,24 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.scm" href="#tag-dev.scm">SCM</a>
 
-  1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
+  1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn. `(server)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(linux, windows, mac, qt4, qt5)`
-  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client–server revision control system.
-  1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_(software))) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
-  1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/repo/hg/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.
-  1. **Pagure** - ([Repo](https://pagure.io/pagure/), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team.
-  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
-  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion. `(corp)`
-  1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld), [Home](https://codereview.appspot.com/), [WP](https://en.wikipedia.org/wiki/Rietveld_(software))) Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)).
-  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
-  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support. `(qt4, qt5)`
-  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) Enhanced web-based wiki and issue tracking system for software development projects.
-  1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/)) Browser interface for CVS and Subversion version control repositories.
+  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en/), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client–server revision control system. `(linux, windows, mac)`
+  1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_(software))) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014. `(server)`
+  1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities. `(linux, windows, mac)`
+  1. **Pagure** - ([Repo](https://pagure.io/pagure/), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team. `(server)`
+  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork/), [Docs](https://patchwork.readthedocs.io/en/latest/)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development. `(server)`
+  1. **RhodeCode** - ([Home](https://code.rhodecode.com/rhodecode-enterprise-ce), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion. `(server, corp)`
+  1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_(issue_tracker))) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org). `(server)`
+  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support. `(linux, windows, qt4, qt5)`
+  1. **Trac** - ([Repo](https://github.com/edgewall/trac), [WP](https://en.wikipedia.org/wiki/Trac)) Enhanced web-based wiki and issue tracking system for software development projects. `(server)`
+  1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/), [Home](http://viewvc.org)) Browser interface for CVS and Subversion version control repositories. `(server)`
 
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(linux, windows, mac, gtk)`
   1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes. `(server)`
+  1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld), [Home](https://codereview.appspot.com/), [WP](https://en.wikipedia.org/wiki/Rietveld_(software))) Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)). `(server)`
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
@@ -280,31 +280,31 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
-  1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(corp)`
-  1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_(software)), [Docs](https://dnf.readthedocs.io/en/latest/)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
-  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support.
-  1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow.
-  1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging.
-  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports.
-  1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(corp)`
-  1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_(software))) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
+  1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(linux, windows, mac, corp)`
+  1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_(software)), [Docs](https://dnf.readthedocs.io/en/latest/)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(linux, corp)`
+  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support. `(linux, windows, mac)`
+  1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(linux, windows, mac)`
+  1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(linux, windows, mac)`
+  1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(linux)`
+  1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(linux, corp)`
+  1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_(software))) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.). `(linux, corp)`
 
 ### <a id="tag-dev.pkg_repo" href="#tag-dev.pkg_repo">Package Repositories</a>
 
-  1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
-  1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
-  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
+  1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/). `(server, corp)`
+  1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI. `(server)`
+  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>
 
-  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
-  1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [WP](https://en.wikipedia.org/wiki/Buildbot), [Docs](https://www.buildbot.net/)) Job scheduling system tailored to the needs of continuous integration and software packaging.
-  1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds.
-  1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems.
-  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
-  1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/index.html)) Build system designed for monorepi `(monorepo)`
-  1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
-  1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book/)) Cross-platform build system designed to improve on SCons.
+  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints. `(linux)`
+  1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [WP](https://en.wikipedia.org/wiki/Buildbot), [Docs](https://www.buildbot.net/)) Job scheduling system tailored to the needs of continuous integration and software packaging. `(server)`
+  1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(linux, windows, mac)`
+  1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems. `(linux, windows, mac)`
+  1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness. `(linux, windows, mac)`
+  1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(linux, mac, corp)`
+  1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(linux, windows, mac)`
+  1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book/)) Cross-platform build system designed to improve on SCons. `(linux)`
 
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>
 
@@ -315,7 +315,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
-  1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
+  1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface. `(server)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(linux, gtk)`
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(server, corp, flask)`

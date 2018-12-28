@@ -79,7 +79,7 @@ tagsonomy:
       - mobile
       - browser
       - server:
-          subtags:  # sep tag for container?
+          subtags:  # sep tag for container, maybe separate top-level group for packaging in general?
             - docker
             - flatpak
             - appimage
@@ -346,7 +346,7 @@ projects:
     repo_url: https://github.com/Kozea/Radicale
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
-    tags: ["organization", "linux", "windows", "mac"]
+    tags: ["organization", "server"]  # communication?
   - name: CherryTree
     repo_url: https://github.com/giuspen/cherrytree
     home_url: https://www.giuspen.com/cherrytree/
@@ -359,14 +359,14 @@ projects:
     repo_url: https://github.com/matrix-org/synapse
     home_url: https://riot.im/app/#/home
     desc: "Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/)."
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Zulip
     repo_url: https://github.com/zulip/zulip
     home_url: https://zulip.org/  #     chat_url: https://chat.zulip.org/
     docs_url: https://zulip.readthedocs.io/en/latest/
     wp_url: https://en.wikipedia.org/wiki/Zulip
     desc: Powerful chat server and web client with support for threaded conversations.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Bitmessage
     desc: Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol
     docs_url: https://bitmessage.org/wiki/Main_Page
@@ -382,18 +382,18 @@ projects:
     home_url: http://rapidsms.org/
     docs_url: http://readthedocs.org/docs/rapidsms/
     desc: Interactive SMS text messaging platform.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Mailman
     repo_url: https://gitlab.com/mailman/mailman
     home_url: http://www.list.org/
     wp_url: https://en.wikipedia.org/wiki/GNU_Mailman
     desc: The original listserv, a web application and email server for managing subscriptions and discussion archives.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Modoboa
     repo_url: https://github.com/modoboa/modoboa
     home_url: https://modoboa.org/en/
     desc: Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Mailpile
     desc: Fast email client with user-friendly encryption and privacy features
     repo_url: https://github.com/mailpile/Mailpile
@@ -403,19 +403,19 @@ projects:
     repo_url: https://github.com/globaleaks/GlobaLeaks
     home_url: https://www.globaleaks.org/
     desc: Web application to enable secure and anonymous whistleblowing initiatives
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: MoinMoin
     home_url: http://moinmo.in
     docs_url: https://moin-20.readthedocs.io/en/latest/
     repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
     wp_url: https://en.wikipedia.org/wiki/MoinMoin
     desc: "Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others."
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Askbot
     repo_url: https://github.com/ASKBOT/askbot-devel
     home_url: https://askbot.com/
     desc: "Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more."
-    tags: ["communication", "corp"]
+    tags: ["communication", "corp", "server"]
   - name: OfflineIMAP
     repo_url: https://github.com/OfflineIMAP/offlineimap
     home_url: http://www.offlineimap.org/
@@ -427,7 +427,7 @@ projects:
     home_url: http://pootle.translatehouse.org/
     repo_url: https://github.com/translate/pootle
     desc: Web application for collaborative translation.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Virtaal
     home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
@@ -438,22 +438,22 @@ projects:
     home_url: https://weblate.org/
     pypi_url: https://pypi.org/project/Weblate/
     desc: Web based localization tool with tight version control integration.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw
     desc: Full implementation of the OpenGIS Catalogue Service Implementation Specification.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Seafile
     repo_url: https://github.com/haiwen/seahub
     wp_url: https://en.wikipedia.org/wiki/Seafile
     desc: Cross-platform file hosting and synchronization system.
-    tags: ["communication"]
+    tags: ["communication", "server"]
   - name: Helios Voting
     home_url: http://heliosvoting.org/
     repo_url: https://github.com/benadida/helios-server
     desc: End-to-end verifiable voting system.
-    tags: ["communication", "linux"]
+    tags: ["communication", "server"]
   - name: TahoeLAFS
     wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
     home_url: https://tahoe-lafs.org/trac/tahoe-lafs
@@ -464,7 +464,7 @@ projects:
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com
     desc: 'A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more.'
-    tags: ["communication", "cms", "linux", "mac"]
+    tags: ["communication", "cms", "server"]  # enterprise?
     # Currently used as an intranet by non-profit organisations such as AFPC, CNLL (French Council for Free / Open Source Software), Systematic Paris-Region, Aquinetic, etc.
 
 ## Internet
@@ -472,14 +472,14 @@ projects:
     repo_url: https://github.com/reddit-archive/reddit
     home_url: http://reddit.com/
     desc: Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
-    tags: ["internet"]
+    tags: ["internet", "server"]
   - name: Planet
     wp_url: https://en.wikipedia.org/wiki/Planet_(software)
     repo_url: https://github.com/python/planet/tree/master/code/planet
     desc: RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
     home_url: https://web.archive.org/web/20051029095046/http://www.planetplanet.org/
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
-    tags: ["internet"]
+    tags: ["internet", "server"]
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_(news_aggregator)
@@ -494,7 +494,7 @@ projects:
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
     desc: Popular, lightweight, cross-platform BitTorrent client.
-    tags: ["internet", "gtk", "linux", "windows", "mac"]
+    tags: ["internet", "gtk", "linux", "windows", "mac", "server"]
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     home_url: http://www.tribler.org/
@@ -522,19 +522,19 @@ projects:
     home_url: https://sabnzbd.org
     docs_url: https://sabnzbd.org/wiki/
     desc: Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages.
-    tags: ["internet", "linux", "windows", "mac"]
+    tags: ["internet", "linux", "windows", "mac", "server"]
   - name: Pi-Hole
     repo_url: https://github.com/pi-hole/pi-hole
     home_url: https://pi-hole.net/
     wp_url: https://en.wikipedia.org/wiki/Pi-hole
     desc: Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network.
-    tags: ["internet", "linux"]
+    tags: ["internet", "linux", "server"]
   - name: ZeroNet
     home_url: https://zeronet.io/
     repo_url: https://github.com/HelloZeroNet/ZeroNet
     docs_url: https://zeronet.readthedocs.io/en/latest/
     wp_url: https://en.wikipedia.org/wiki/ZeroNet
-    desc: Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
+    desc: Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
     tags: ["internet", "linux", "windows", "mac"]
 
 ## Education
@@ -554,12 +554,12 @@ projects:
     repo_url: https://github.com/edx/edx-platform
     home_url: http://open.edx.org/
     desc: Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
-    tags: ["education", "linux"]
+    tags: ["education", "server"]
   - name: NBGrader
     repo_url: https://github.com/jupyter/nbgrader
     docs_url: https://nbgrader.readthedocs.io/en/stable/
     desc: Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form.
-    tags: ["education"]
+    tags: ["education", "server"]
 
 ## Science
 
@@ -590,7 +590,7 @@ projects:
   - name: Veusz
     repo_url: https://github.com/veusz/veusz
     home_url: https://veusz.github.io/
-    desc: 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs.
+    desc: 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs.
     tags: ["science", "qt", "linux", "windows", "mac"]
   - name: Mayavi
     repo_url: https://github.com/enthought/mayavi
@@ -607,7 +607,7 @@ projects:
     home_url: https://dissem.in/
     docs_url: https://dev.dissem.in/
     desc: Web platform to help researchers upload their papers to open-access repositories.
-    tags: ["science", "django", "linux"]
+    tags: ["science", "django", "server"]
   - name: InVesalius
     repo_url: https://github.com/invesalius/invesalius3
     home_url: https://invesalius.github.io/
@@ -619,7 +619,7 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/CoCalc
     home_url: https://cocalc.com/
     desc: Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
-    tags: ["science"]
+    tags: ["science", "server"]
   - name: Sage Math
     wp_url: https://en.wikipedia.org/wiki/SageMath
     home_url: http://www.sagemath.org/
@@ -669,33 +669,33 @@ projects:
     repo_url: https://github.com/ella/ella
     docs_url: https://ella.readthedocs.io/en/latest/index.html
     desc: Django-based content management system with a focus on high-traffic news sites and Internet magazines.
-    tags: ["cms"]
+    tags: ["cms", "django", "server"]
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en/
     desc: Enterprise content management system based on the Django framework with version control, multi-site support, and more.
-    tags: ["cms"]
+    tags: ["cms", "django", "server"]
   - name: Wagtail
     repo_url: https://github.com/wagtail/wagtail
     home_url: https://wagtail.io/
     desc: A Django content management system focused on flexibility and user experience.
-    tags: ["cms"]
+    tags: ["cms", "django", "server"]
   - name: Plone
     repo_url: https://github.com/plone/Plone
     wp_url: https://en.wikipedia.org/wiki/Plone_(software)
     home_url: https://plone.com/
     desc: Extensible enterprise content management system built on Zope.
-    tags: ["cms"]
+    tags: ["cms", "server"]
   - name: Mezzanine
     repo_url: https://github.com/stephenmcd/mezzanine
     home_url: http://mezzanine.jupo.org/
     desc: Consistent and flexible content management platform built on the Django framework.
-    tags: ["cms"]
+    tags: ["cms", "django", "server"]
   - name: Saleor
     repo_url: https://github.com/mirumee/saleor/
     home_url: https://getsaleor.com/
     desc:  Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
-    tags: ["cms"]
+    tags: ["cms", "django", "server"]
 
 ## ERP
 
@@ -704,26 +704,26 @@ projects:
     home_url: https://erp5.nexedi.com/
     wp_url: https://en.wikipedia.org/wiki/ERP5
     desc: Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
-    tags: ["erp"]
+    tags: ["erp", "server"]
   - name: ERPNext
     repo_url: https://github.com/frappe/erpnext
     home_url: https://erpnext.com/
     wp_url: https://en.wikipedia.org/wiki/ERPNext
     desc: Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
-    tags: ["erp"]
+    tags: ["erp", "server"]
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
     home_url: https://www.odoo.com/
     wp_url: https://en.wikipedia.org/wiki/Odoo
     desc: Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
-    tags: ["erp"]
+    tags: ["erp", "server"]
   - name: Tryton
     repo_url: https://hg.tryton.org/trytond
     wp_url: https://en.wikipedia.org/wiki/Tryton
     home_url: https://www.tryton.org/
     docs_url: https://docs.tryton.org/en/latest/
     desc: Modular web-based ERP, designed for companies of all sizes.
-    tags: ["erp", "fdn"]
+    tags: ["erp", "fdn", "server"]
 
 ## Software development
 
@@ -731,17 +731,12 @@ projects:
     repo_url: https://github.com/getsentry/sentry
     home_url: https://sentry.io/
     desc: Web service and frontend for cross-platform application monitoring, with a focus on error reporting.
-    tags: ["dev", "flask", "corp"]
+    tags: ["dev", "flask", "corp", "server"]
   - name: Coala
     repo_url: https://github.com/coala/coala
     home_url: https://coala.io/
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags: ["dev"]
-  - name: Meld
-    repo_url: https://github.com/GNOME/meld
-    home_url: http://meldmerge.org/
-    desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
-    tags: ["code_review", "gtk", "linux", "windows", "mac"]
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -756,11 +751,6 @@ projects:
     home_url: http://robotframework.org/
     desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
     tags: ["dev"]
-  - name: Review Board
-    repo_url: https://github.com/reviewboard/reviewboard
-    home_url: https://www.reviewboard.org/
-    desc: Extensible code review tool for projects and companies of all sizes.
-    tags: ["code_review"]
   - name: IPython
     docs_url: https://ipython.readthedocs.org/
     repo_url: https://github.com/ipython/ipython
@@ -861,6 +851,18 @@ projects:
     home_url: http://www.cowrie.org/
     desc: Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
     tags: ["security"]
+
+## Code Review
+  - name: Review Board
+    repo_url: https://github.com/reviewboard/reviewboard
+    home_url: https://www.reviewboard.org/
+    desc: Extensible code review tool for projects and companies of all sizes.
+    tags: ["code_review", "server"]
+  - name: Meld
+    repo_url: https://github.com/GNOME/meld
+    home_url: http://meldmerge.org/
+    desc: Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
+    tags: ["code_review", "gtk", "linux", "windows", "mac"]
 
 ## Code management
   - name: Pagure

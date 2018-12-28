@@ -62,18 +62,18 @@ thereof), see Architectures. -->
 ## <a id="tag-internet" href="#tag-internet">Internet</a>
 
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
-  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, gtk)`
+  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research.
-  1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux)`
-  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
+  1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`
+  1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more. `(server)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(linux, windows, mac, qt5)`
-  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
-  1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(linux, windows, mac)`
+  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.) `(server)`
+  1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(linux, windows, mac, server)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl/), [PyPI](https://pypi.org/project/youtube_dl/)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
-  1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest/)) Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(linux, windows, mac)`
+  1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest/)) Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(linux, windows, mac)`
 
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
@@ -133,71 +133,71 @@ thereof), see Architectures. -->
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
-  1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(linux, windows, mac)`
+  1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(linux, windows, gtk)`
 
 ## <a id="tag-communication" href="#tag-communication">Communication</a>
 
-  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(cms, linux, mac)`
-  1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(corp)`
+  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(cms, server)`
+  1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(server, corp)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol `(linux, windows, mac, curses, kivy, qt4)`
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(linux, windows, mac, gtk)`
-  1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks), [Home](https://www.globaleaks.org/)) Web application to enable secure and anonymous whistleblowing initiatives
-  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system. `(linux)`
-  1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives.
+  1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks), [Home](https://www.globaleaks.org/)) Web application to enable secure and anonymous whistleblowing initiatives `(server)`
+  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system. `(server)`
+  1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives. `(server)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features `(linux, windows, mac)`
-  1. **Modoboa** - ([Repo](https://github.com/modoboa/modoboa), [Home](https://modoboa.org/en/)) Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot.
-  1. **MoinMoin** - ([Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [WP](https://en.wikipedia.org/wiki/MoinMoin), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others.
+  1. **Modoboa** - ([Repo](https://github.com/modoboa/modoboa), [Home](https://modoboa.org/en/)) Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot. `(server)`
+  1. **MoinMoin** - ([Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [WP](https://en.wikipedia.org/wiki/MoinMoin), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others. `(server)`
   1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer. `(linux)`
-  1. **Pootle** - ([Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/), [WP](https://en.wikipedia.org/wiki/Pootle)) Web application for collaborative translation.
-  1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification.
-  1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform.
-  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system.
-  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/).
+  1. **Pootle** - ([Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/), [WP](https://en.wikipedia.org/wiki/Pootle)) Web application for collaborative translation. `(server)`
+  1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification. `(server)`
+  1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform. `(server)`
+  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
+  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/). `(server)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(linux, windows, mac)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(linux, windows, mac, gtk)`
-  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration.
-  1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations.
+  1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration. `(server)`
+  1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations. `(server)`
 
 ## <a id="tag-education" href="#tag-education">Education</a>
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(linux, windows, mac, qt5)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(linux, windows, mac, qt5)`
-  1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable/)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form.
-  1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(linux)`
+  1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable/)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form. `(server)`
+  1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(server)`
 
 ## <a id="tag-science" href="#tag-science">Science</a>
 
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(linux, windows)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(linux, windows, mac, gtk)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa/), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(linux, windows, mac)`
-  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
-  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(linux, django)`
+  1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality. `(server)`
+  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(server, django)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(linux, windows, mac, gtk)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization. `(linux, windows, mac, qt4)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(linux, windows, mac, qt4, qt5)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
-  1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting application designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
+  1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
 
-  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(communication, linux, mac)`
-  1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en/)) Enterprise content management system based on the Django framework with version control, multi-site support, and more.
-  1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
-  1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework.
-  1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope.
+  1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(communication, server)`
+  1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en/)) Enterprise content management system based on the Django framework with version control, multi-site support, and more. `(server, django)`
+  1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines. `(server, django)`
+  1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework. `(server, django)`
+  1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope. `(server)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, linux, mac, plone)`
-  1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
-  1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience.
+  1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(server, django)`
+  1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
 
 ## <a id="tag-erp" href="#tag-erp">ERP</a>
 
-  1. **ERP5** - ([Repo](https://lab.nexedi.com/nexedi/erp5), [Home](https://erp5.nexedi.com/), [WP](https://en.wikipedia.org/wiki/ERP5)) Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
-  1. **ERPNext** - ([Repo](https://github.com/frappe/erpnext), [Home](https://erpnext.com/), [WP](https://en.wikipedia.org/wiki/ERPNext)) Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB.
-  1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/), [WP](https://en.wikipedia.org/wiki/Odoo)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business.
-  1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest/)) Modular web-based ERP, designed for companies of all sizes. `(fdn)`
+  1. **ERP5** - ([Repo](https://lab.nexedi.com/nexedi/erp5), [Home](https://erp5.nexedi.com/), [WP](https://en.wikipedia.org/wiki/ERP5)) Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability. `(server)`
+  1. **ERPNext** - ([Repo](https://github.com/frappe/erpnext), [Home](https://erpnext.com/), [WP](https://en.wikipedia.org/wiki/ERPNext)) Web-based ERP system with accounting, inventory, CRM, sales, procurement, project management, and HR. Built on [Frappe](https://github.com/frappe/frappe) and MariaDB. `(server)`
+  1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/), [WP](https://en.wikipedia.org/wiki/Odoo)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business. `(server)`
+  1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest/)) Modular web-based ERP, designed for companies of all sizes. `(server, fdn)`
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 
@@ -232,7 +232,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(linux, windows, mac, gtk)`
-  1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes.
+  1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes. `(server)`
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
@@ -318,7 +318,7 @@ Projects related to software development and adjacent technical areas.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(linux, gtk)`
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
-  1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(corp, flask)`
+  1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(server, corp, flask)`
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_(software))) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(linux, gtk, qt)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(linux, windows, mac)`
 

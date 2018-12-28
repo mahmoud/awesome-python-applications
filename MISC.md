@@ -83,3 +83,8 @@ Other superceded approaches:
    * Good, but mingles applications with libraries/frameworks/engines
    * Unclear curatorship
    * No API
+* Softpedia
+   * All of the above (esp mingling libraries and applications)
+* AlternativeTo
+   * Pretty nice site focused on applications, but still suffers from
+     most of the above, esp the lack of an API.

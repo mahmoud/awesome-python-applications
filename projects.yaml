@@ -1052,17 +1052,17 @@ projects:
     repo_url: https://github.com/oilshell/oil
     home_url: http://www.oilshell.org/
     desc: A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own.
-    tags: ["shell"]
+    tags: ["shell", "linux"]
   - name: Xonsh
     repo_url: https://github.com/xonsh/xonsh
     home_url: https://xon.sh/
     desc: Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives.
-    tags: ["shell"]
+    tags: ["shell", "linux", "windows", "mac"]
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
     desc: Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
-    tags: ["shell"]
+    tags: ["shell", "linux", "windows", "mac"]
 
 ## Ops
   - name: OpenStack
@@ -1070,142 +1070,142 @@ projects:
     home_url: https://www.openstack.org/
     docs_url: https://docs.openstack.org/
     desc: Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "server"]
   - name: Salt Stack
     repo_url: https://github.com/saltstack/salt
     home_url: https://repo.saltstack.com/
     desc: Automation for the management and configuration of any infrastructure or application at scale.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "server"]  # or linux? what to do when installation is vagrant-centric?
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible/
     home_url: https://www.ansible.com/
     desc: Agentless, playbook-based automation.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "linux", "mac"]
   - name: Vespene
     repo_url: https://github.com/vespene-io/vespene
     home_url: https://vespene.io/
     docs_url: https://docs.vespene.io/
     desc: Build and self-service automation platform, built on Django and PostgreSQL.
+    tags: ["ops", "linux", "mac"]
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken
     home_url: http://www.shinken-monitoring.org/
     desc: Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
-    tags: ["ops"]
+    tags: ["ops", "server"]
   - name: StackStorm
     repo_url: https://github.com/StackStorm/st2
     home_url: http://www.stackstorm.com/
     desc: Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "server"]
   - name: Cobbler
     repo_url: https://github.com/Cobbler/Cobbler
     home_url: https://cobbler.github.io/
     wp_url: https://en.wikipedia.org/wiki/Cobbler_(software)
     desc: Linux installation server that allows for rapid setup of network installation environments.
-    tags: ["ops"]
+    tags: ["ops", "linux", "server"]
   - name: Ganeti
     repo_url: https://github.com/ganeti/ganeti
-    home_url: http://www.ganeti.org/
     desc: Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
-    tags: ["ops"]
+    tags: ["ops", "linux", "haskell"]
   - name: fail2ban
     home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
     repo_url: https://github.com/fail2ban/fail2ban
     wp_url: https://en.wikipedia.org/wiki/Fail2ban
     desc: Daemon to ban hosts that cause multiple authentication errors on Linux servers.
-    tags: ["ops"]
+    tags: ["ops", "linux"]
   - name: Gunicorn
     repo_url: https://github.com/benoitc/gunicorn
     home_url: https://gunicorn.org/
     pypi_url: https://pypi.python.org/pypi/gunicorn
     desc: Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)).
-    tags: ["ops"]
+    tags: ["ops", "server"]
   - name: WAL-E
     repo_url: https://github.com/wal-e/wal-e
     desc: Continuous archiving of PostgreSQL WAL files and base backups.
-    tags: ["ops"]
+    tags: ["ops", "linux"]
   - name: Barman
     repo_url: https://github.com/2ndquadrant-it/barman
     desc: Remote backup and disaster recovery for PostgreSQL.
-    tags: ["ops"]
+    tags: ["ops", "linux"]
   - name: pgcli
     repo_url: https://github.com/dbcli/pgcli
     pypi_url: https://pypi.python.org/pypi/pgcli/
     home_url: https://www.pgcli.com/
     desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
-    tags: ["ops"]  # dev?
+    tags: ["ops", "linux", "mac"]  # dev?
   - name: Supervisor
     home_url: http://supervisord.org/
     repo_url: https://github.com/Supervisor/supervisor
-    desc: Process manager and monitor
-    tags: ["ops"]
+    desc: Process manager and monitor.
+    tags: ["ops", "linux", "mac"]
   - name: NColony
     home_url: http://ncolony.org/en/latest/
     repo_url: https://github.com/ncolony/ncolony
-    desc: Process manager and monitor
-    tags: ["ops"]
+    desc: Process manager and monitor.
+    tags: ["ops", "linux", "mac"]
   - name: Iris
     repo_url: https://github.com/linkedin/iris
     home_url: https://iris.claims/
     desc: Flexible automated incident paging system, developed by and used at LinkedIn.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "server"]
   - name: Oncall
     repo_url: https://github.com/linkedin/oncall
     home_url: https://oncall.tools/
     desc: Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn.
-    tags: ["ops", "corp"]
+    tags: ["ops", "corp", "server"]
 
 ## Misc / To File
   - name: JARVIS on Messenger
     home_url: https://m.me/J.A.R.V.I.S.on.Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
     desc: Facebook Messenger bot with a wide assortment of features.
-    tags: ["misc"]
+    tags: ["misc", "server"]
   - name: Home Assistant
     repo_url: https://github.com/home-assistant/home-assistant
     home_url: https://www.home-assistant.io/
     desc: Home automation platform that puts local control and privacy first.
-    tags: ["misc"]
+    tags: ["misc", "linux"]
   - name: OpenLP
     home_url: https://openlp.org/
     repo_url: https://launchpad.net/openlp
     desc: Presentation software geared toward church usage.
-    tags: ["misc", "qt5"]
+    tags: ["misc", "qt5", "linux", "windows", "mac"]
   - name: Nicotine+
     repo_url: https://github.com/Nicotine-Plus/nicotine-plus
     desc: Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system.
-    tags: ["misc", "gtk"]
+    tags: ["misc", "gtk", "linux", "windows"]
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
     desc: Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
-    tags: ["misc", "gtk"]
+    tags: ["misc", "gtk", "linux"]
   - name: Neubot
     repo_url: https://github.com/neubot/neubot
     home_url: http://www.neubot.org/
     desc: Lightweight agent which collects data for net-neutrality research.
-    tags: ["internet"]
+    tags: ["internet", "linux", "windows", "mac"]
   - name: Nimbus
     repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
     home_url: http://www.nimbusproject.org/
     desc: Infrastructure-as-a-Service platform geared toward scientific cloud computing.
-    tags: ["misc"]
+    tags: ["misc", "linux"]
   - name: Xpra
     home_url: http://xpra.org/
     repo_url: https://xpra.org/svn/Xpra/trunk/
     desc: Cross-platform remote display server and client for forwarding applications and desktop screens.
-    tags: ["misc"]
+    tags: ["misc", "linux", "windows"]
   - name: Wicd
     wp_url: https://en.wikipedia.org/wiki/Wicd
     home_url: http://wicd.sourceforge.net/download.php
     repo_url: https://code.launchpad.net/wicd/
     desc: Graphical utility for managing wired and wireless connections on Linux.
-    tags: ["misc", "gtk"]
+    tags: ["misc", "gtk", "linux"]
   - name: qtile
     repo_url: https://github.com/qtile/qtile
     home_url: http://qtile.org/
     desc: A small, flexible, scriptable tiling window manager.
-    tags: ["misc"]
+    tags: ["misc", "linux"]
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
 

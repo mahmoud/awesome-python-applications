@@ -31,6 +31,7 @@
 * https://github.com/ozmartian/vidcutter
 * https://github.com/senaite/senaite.lims / https://github.com/bikalims/bika.lims
 * https://github.com/LinOTP/LinOTP
+* https://github.com/sshuttle/sshuttle
 
 ## Pages scoured
 

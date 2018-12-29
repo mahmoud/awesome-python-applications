@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-dev">Dev</a> *(8)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
-    1. <a href="#tag-dev.ops">Ops</a> *(16)*
+    1. <a href="#tag-dev.ops">Ops</a> *(17)*
     1. <a href="#tag-dev.security">Security</a> *(4)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
     1. <a href="#tag-dev.editor">Editor</a> *(10)*
@@ -64,7 +64,7 @@ thereof), see Architectures. -->
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
-  1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research.
+  1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`
   1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more. `(server)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(linux, windows, mac, qt5)`
@@ -236,22 +236,23 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
-  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(corp)`
-  1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL.
-  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments.
-  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
-  1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti), [Home](http://www.ganeti.org/)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
-  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)).
-  1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(corp)`
-  1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor
-  1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(corp)`
-  1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(corp)`
-  1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
-  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(corp)`
-  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
-  1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(corp)`
-  1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor
-  1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
+  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(linux, mac, corp)`
+  1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
+  1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments. `(linux, server)`
+  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers. `(linux)`
+  1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine). `(linux, haskell)`
+  1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)). `(server)`
+  1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(server, corp)`
+  1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor. `(linux, mac)`
+  1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(server, corp)`
+  1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
+  1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
+  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
+  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`
+  1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
+  1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac)`
+  1. **Vespene** - ([Repo](https://github.com/vespene-io/vespene), [Home](https://vespene.io/), [Docs](https://docs.vespene.io/)) Build and self-service automation platform, built on Django and PostgreSQL. `(linux, mac)`
+  1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(linux)`
 
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
@@ -308,9 +309,9 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>
 
-  1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
-  1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own.
-  1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives.
+  1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(linux, windows, mac)`
+  1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own. `(linux)`
+  1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(linux, windows, mac)`
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
@@ -324,15 +325,15 @@ Projects related to software development and adjacent technical areas.
 
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 
-  1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(gtk)`
-  1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/)) Home automation platform that puts local control and privacy first.
-  1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger), [Home](https://m.me/J.A.R.V.I.S.on.Messenger)) Facebook Messenger bot with a wide assortment of features.
-  1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(gtk)`
-  1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus), [Home](http://www.nimbusproject.org/)) Infrastructure-as-a-Service platform geared toward scientific cloud computing.
-  1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(qt5)`
-  1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) A small, flexible, scriptable tiling window manager.
-  1. **Wicd** - ([Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(gtk)`
-  1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk/), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens.
+  1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(linux, gtk)`
+  1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/)) Home automation platform that puts local control and privacy first. `(linux)`
+  1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger), [Home](https://m.me/J.A.R.V.I.S.on.Messenger)) Facebook Messenger bot with a wide assortment of features. `(server)`
+  1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(linux, windows, gtk)`
+  1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus), [Home](http://www.nimbusproject.org/)) Infrastructure-as-a-Service platform geared toward scientific cloud computing. `(linux)`
+  1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(linux, windows, mac, qt5)`
+  1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) A small, flexible, scriptable tiling window manager. `(linux)`
+  1. **Wicd** - ([Repo](https://code.launchpad.net/wicd/), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(linux, gtk)`
+  1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk/), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens. `(linux, windows)`
 
 
 <!-- YET ANOTHER NOTE: This file is automatically generated, see projects.yaml -->

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **195**
+This document is an always-growing list of **196**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-communication">Communication</a> *(20)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(11)*
-1. <a href="#tag-cms">CMS</a> *(8)*
+1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
 1. <a href="#tag-dev">Dev</a> *(8)*
@@ -189,6 +189,7 @@ thereof), see Architectures. -->
   1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework. `(server, django)`
   1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope. `(server)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, linux, mac, plone)`
+  1. **Quokka CMS** - ([Repo](https://github.com/rochacbruno/quokka/), [Home](http://quokkaproject.org/)) A lightweight framework to build CMS (Content Management System) as websites, portals, blogs, applications and anything related to publishing content to the web. `(server, flask)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(server, django)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
 

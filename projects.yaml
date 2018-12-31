@@ -696,6 +696,11 @@ projects:
     home_url: https://getsaleor.com/
     desc:  Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
     tags: ["cms", "django", "server"]
+  - name: Quokka CMS
+    repo_url: https://github.com/rochacbruno/quokka/
+    home_url: http://quokkaproject.org/
+    desc:  A lightweight framework to build CMS (Content Management System) as websites, portals, blogs, applications and anything related to publishing content to the web.
+    tags: ["cms", "flask", "server"]
 
 ## ERP
 

@@ -32,6 +32,7 @@
 * https://github.com/senaite/senaite.lims / https://github.com/bikalims/bika.lims
 * https://github.com/LinOTP/LinOTP
 * https://github.com/sshuttle/sshuttle
+* https://github.com/Maratyszcza/PeachPy (cli assembler, used by go, etc., https://blog.gopheracademy.com/advent-2016/peachpy/ https://github.com/digitalbrain79/NNPACK-darknet/blob/master/configure.py )
 
 ## Pages scoured
 

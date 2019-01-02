@@ -120,6 +120,7 @@ projects:
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
+    home_url: https://picard.musicbrainz.org/
     desc: Automatically identify, tag, and organize music albums and other digital audio recordings.
     tags: ["audio", "qt", "linux", "windows", "mac"]
   - name: Exaile
@@ -851,6 +852,12 @@ projects:
     home_url: http://www.cowrie.org/
     desc: Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
     tags: ["security"]
+  - name: sshuttle
+    repo_url: https://github.com/sshuttle/sshuttle
+    docs_url: https://sshuttle.readthedocs.org/
+    desc: Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access.
+    tags: ["security", "linux", "mac"]
+
 
 ## Code Review
   - name: Review Board

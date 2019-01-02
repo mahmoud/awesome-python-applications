@@ -782,7 +782,10 @@ projects:
     repo_url: https://github.com/snare/voltron
     desc: Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg).
     tags: ["dev", "linux", "windows", "mac"]
-
+  - name: PINCE
+    repo_url: https://github.com/korcankaraokcu/PINCE
+    desc: Debugging frontend for GDB focused on reverse engineering video games.
+    tags: ["dev", "qt5", "linux"]
 
 ## Editors
   - name: Spyder IDE
@@ -862,7 +865,6 @@ projects:
     docs_url: https://sshuttle.readthedocs.org/
     desc: Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access.
     tags: ["security", "linux", "mac"]
-
 
 ## Code Review
   - name: Review Board

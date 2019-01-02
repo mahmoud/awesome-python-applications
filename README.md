@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **197**
+This document is an always-growing list of **198**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,7 +43,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(8)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
-1. <a href="#tag-dev">Dev</a> *(8)*
+1. <a href="#tag-dev">Dev</a> *(9)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(17)*
@@ -319,6 +319,7 @@ Projects related to software development and adjacent technical areas.
   1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface. `(server)`
+  1. **PINCE** - ([Repo](https://github.com/korcankaraokcu/PINCE)) Debugging frontend for GDB focused on reverse engineering video games. `(linux, qt5)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(linux, gtk)`
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **Sentry** - ([Repo](https://github.com/getsentry/sentry), [Home](https://sentry.io/)) Web service and frontend for cross-platform application monitoring, with a focus on error reporting. `(server, corp, flask)`

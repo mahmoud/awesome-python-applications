@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **198**
+This document is an always-growing list of **199**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(13)*
 1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(4)*
-1. <a href="#tag-graphics">Graphics</a> *(7)*
+1. <a href="#tag-graphics">Graphics</a> *(8)*
 1. <a href="#tag-games">Games</a> *(5)*
 1. <a href="#tag-productivity">Productivity</a> *(9)*
 1. <a href="#tag-organization">Organization</a> *(9)*
@@ -99,6 +99,7 @@ thereof), see Architectures. -->
 
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(linux, windows, mac, qt)`
+  1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models `(linux, windows, mac, qt)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(linux, windows, mac, gtk)`
   1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract. `(linux, gtk)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(linux, mac, console)`

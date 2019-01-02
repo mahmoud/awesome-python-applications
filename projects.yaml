@@ -226,6 +226,11 @@ projects:
     repo_url: https://github.com/adrienverge/PhotoCollage
     desc: Automatically lays out a photo collage to fill out a given poster space.
     tags: ["graphics", "gtk", "linux"]
+  - name: Meshroom
+    repo_url: https://github.com/alicevision/meshroom
+    home_url: http://alicevision.github.io/
+    desc: Photogrammetry pipeline, for turning photographs into 3D models
+    tags: ["graphics", "qt", "windows", "linux", "mac"]
 
 ## Games
 

@@ -627,6 +627,11 @@ projects:
     repo_url: https://git.sagemath.org/sage.git/
     desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
     tags: ["science", "linux", "windows", "mac"]
+  - name: SOFA Statistics
+    repo_url: https://code.launchpad.net/sofastatistics
+    home_url: http://www.sofastatistics.com/
+    desc: User-friendly statistics and analysis with a learn-as-you-go approach.
+    tags: ["science", "wx", "linux", "windows", "mac"]
 
 ## Static Site Generators
 

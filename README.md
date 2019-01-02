@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **196**
+This document is an always-growing list of **197**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(20)*
 1. <a href="#tag-education">Education</a> *(4)*
-1. <a href="#tag-science">Science</a> *(11)*
+1. <a href="#tag-science">Science</a> *(12)*
 1. <a href="#tag-cms">CMS</a> *(8)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(6)*
@@ -179,6 +179,7 @@ thereof), see Architectures. -->
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(linux, windows, mac, qt4, qt5)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
+  1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(linux, windows, mac, wx)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>

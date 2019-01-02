@@ -472,6 +472,13 @@ projects:
     desc: 'A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more.'
     tags: ["communication", "cms", "server"]  # enterprise?
     # Currently used as an intranet by non-profit organisations such as AFPC, CNLL (French Council for Free / Open Source Software), Systematic Paris-Region, Aquinetic, etc.
+  - name: Magic Wormhole
+    repo_url: https://github.com/warner/magic-wormhole
+    docs_url: https://magic-wormhole.readthedocs.io/en/latest/
+    pypi_url: https://pypi.org/project/magic-wormhole/
+    desc: Security- and speed-focused file transfer tool with support for files, text, and directories.
+    tags: ["communication", "console", "linux", "mac"]  # windows support iffy
+
 
 ## Internet
   - name: Reddit

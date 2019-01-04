@@ -714,6 +714,12 @@ projects:
     home_url: https://getsaleor.com/
     desc:  Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS.
     tags: ["cms", "django", "server"]
+  - name: PyCon
+    repo_url: https://github.com/PyCon/pycon
+    home_url: https://us.pycon.org/
+    docs_url: https://pycon.readthedocs.io/en/latest/
+    desc: Content management and conference organization web application, based on Django and [Symposion](https://github.com/pinax/symposion).
+    tags: ["cms", "django", "server"]
 
 ## ERP
 

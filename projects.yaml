@@ -283,9 +283,9 @@ projects:
     home_url: https://bup.github.io/
     desc: Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication.
     tags: ["productivity", "linux", "mac"]
-  - name: Attic
-    home_url: https://attic-backup.org/
-    repo_url: https://github.com/jborg/attic
+  - name: BorgBackup
+    home_url: https://www.borgbackup.org/
+    repo_url: https://github.com/borgbackup/borg
     desc: Deduplicating backup system with optional encryption and other features.
     tags: ["productivity", "linux"]
   - name: gmvault

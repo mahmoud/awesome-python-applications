@@ -934,7 +934,7 @@ projects:
     home_url: http://bazaar.canonical.com/en/
     repo_url: https://code.launchpad.net/bzr
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
-    desc: Distributed and client–server revision control system.
+    desc: Distributed and client-server revision control system.
     tags: ["scm", "linux", "windows", "mac"]
   - name: Trac
     repo_url: https://github.com/edgewall/trac

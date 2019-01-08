@@ -227,7 +227,7 @@ def format_tag_toc(project_map):
             lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
             if te.subtags:
                 _format_tag_toc(te.subtags, path=path + (te.tag,))
-                link_text = ('<a href="#tag-%s-other">Other %s projects *(%s)*</a>'
+                link_text = ('<a href="#tag-%s-other">Other %s projects</a> *(%s)*'
                              % (te.fq_tag or te.tag, te.title, len(project_map[te])))
                 lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return

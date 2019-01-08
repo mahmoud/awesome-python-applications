@@ -530,6 +530,12 @@ projects:
     pypi_url: https://pypi.org/project/youtube_dl/
     desc: Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
     tags: ["internet", "linux", "windows", "mac"]
+  - name: streamlink
+    repo_url: https://github.com/streamlink/streamlink
+    home_url: https://streamlink.github.io/
+    pypi_url: https://pypi.org/project/streamlink/
+    desc: Command-line utility that extracts streams from various services and pipes them into a video player of choice.
+    tags: ["internet", "linux", "windows", "mac"]
   - name: You-Get
     repo_url: https://github.com/soimort/you-get
     home_url: https://you-get.org/

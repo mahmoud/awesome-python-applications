@@ -349,3 +349,12 @@ Projects related to software development and adjacent technical areas.
 ## Conclusion
 
 If you have a project to add, [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
+
+### Code Visualization:
+
+Here is a cool visualization of the code evolution
+
+ [![Watch the video](https://img.youtube.com/vi/FztYRaBiXwo/0.jpg)](https://www.youtube.com/watch?v=FztYRaBiXwo)
+
+ [https://www.youtube.com/watch?v=FztYRaBiXwo](https://www.youtube.com/watch?v=FztYRaBiXwo)
+

@@ -817,7 +817,7 @@ projects:
     desc: Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
     tags: ["editor", "js", "cpp", "linux", "windows", "mac"]
   - name: Thonny
-    repo_url: https://bitbucket.org/plas/thonny/src
+    repo_url: https://github.com/thonny/thonny
     home_url: https://thonny.org/
     wp_url: https://en.wikipedia.org/wiki/Thonny
     desc: Cross-platform Python IDE for beginners, designed for learning to code.

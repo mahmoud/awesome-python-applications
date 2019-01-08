@@ -282,7 +282,7 @@ Projects related to software development and adjacent technical areas.
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(linux, windows, mac, qt5)`
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(linux, c, gtk)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(linux, windows, mac, qt5)`
-  1. **Thonny** - ([Repo](https://bitbucket.org/plas/thonny/src), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(linux, windows, mac, tk)`
+  1. **Thonny** - ([Repo](https://github.com/thonny/thonny), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(linux, windows, mac, tk)`
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 

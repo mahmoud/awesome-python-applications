@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **201**
+This document is an always-growing list of **202**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(8)*
-1. <a href="#tag-games">Games</a> *(5)*
+1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(9)*
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(21)*
@@ -110,15 +110,16 @@ thereof), see Architectures. -->
 
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, windows, pygame)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(linux, windows, qt4)`
+  1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(linux, gtk)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(linux, windows, gtk)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(linux, windows, android, kivy, tk)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, windows, mac)`
 
 ## <a id="tag-productivity" href="#tag-productivity">Productivity</a>
 
-  1. **Attic** - ([Repo](https://github.com/jborg/attic), [Home](https://attic-backup.org/)) Deduplicating backup system with optional encryption and other features. `(linux)`
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey/)) Desktop automation utility for Linux and X11. `(linux, gtk, qt)`
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy. `(linux, windows, gtk)`
+  1. **BorgBackup** - ([Repo](https://github.com/borgbackup/borg), [Home](https://www.borgbackup.org/)) Deduplicating backup system with optional encryption and other features. `(linux)`
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(linux, mac)`
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur), [Home](https://www.tryexcalibur.com/)) Web interface to extract tabular data from PDFs. `(linux, windows)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(linux, windows, mac, qt5)`

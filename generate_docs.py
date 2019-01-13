@@ -226,11 +226,12 @@ def format_tag_toc(project_map):
                 entry_count = len(project_map[te]) + len(set.union(*[set(project_map[st]) for st in te.subtags]))
             link_text = '<a href="#tag-%s">%s</a> *(%s)*' % (te.fq_tag or te.tag, te.title, entry_count)
             lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
-            if te.subtags and len(project_map[te]):
+            if te.subtags:
                 _format_tag_toc(te.subtags, path=path + (te.tag,))
-                link_text = ('<a href="#tag-%s-other">Other %s projects</a> *(%s)*'
-                             % (te.fq_tag or te.tag, te.title, len(project_map[te])))
-                lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
+                if len(project_map[te]):
+                    link_text = ('<a href="#tag-%s-other">Other %s projects</a> *(%s)*'
+                                 % (te.fq_tag or te.tag, te.title, len(project_map[te])))
+                    lines.append((INDENT * (len(te.tag_path) + 1)) + BULLET + ' ' + link_text)
         return
 
     _format_tag_toc(project_map.keys())

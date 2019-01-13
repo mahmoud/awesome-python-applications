@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
 
@@ -264,7 +264,7 @@ def main():
     context = {'TOPIC_TOC': topic_toc_text,
                'TOPIC_TEXT': projects_by_topic,
                'PLATFORM_TOC': plat_toc_text,
-               'PLATFORM_TEXT': plat_toc_text,
+               'PLATFORM_TEXT': projects_by_plat,
                'TOTAL_COUNT': len(plist.project_list)}
 
     for filename in iter_find_files(TEMPLATES_PATH, '*.tmpl.md'):

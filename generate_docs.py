@@ -76,7 +76,7 @@ class ProjectList(object):
 
     @classmethod
     def from_path(cls, path):
-        data = yaml.safe_load(open(path))
+        data = yaml.safe_load(open(path, encoding='utf-8'))
         return cls(data['projects'], data['tagsonomy'])
 
     def register_tag(self, tag_type, tag_entry, tag_path=()):

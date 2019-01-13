@@ -43,6 +43,7 @@ class Project(object):
     @classmethod
     def from_dict(cls, d):
         kwargs = dict(d)
+        kwargs['tags'] = tuple(kwargs.get('tags', ()))
         cur_urls = ()
         for k in list(kwargs):
             if not k.endswith('_url'):
@@ -222,10 +223,10 @@ def format_tag_toc(project_map):
                 continue
             entry_count = len(project_map[te])
             if te.subtags:
-                entry_count = len(project_map[te]) + sum([len(project_map[st]) for st in te.subtags])
+                entry_count = len(project_map[te]) + len(set.union(*[set(project_map[st]) for st in te.subtags]))
             link_text = '<a href="#tag-%s">%s</a> *(%s)*' % (te.fq_tag or te.tag, te.title, entry_count)
             lines.append((INDENT * len(te.tag_path)) + BULLET + ' ' + link_text)
-            if te.subtags:
+            if te.subtags and len(project_map[te]):
                 _format_tag_toc(te.subtags, path=path + (te.tag,))
                 link_text = ('<a href="#tag-%s-other">Other %s projects</a> *(%s)*'
                              % (te.fq_tag or te.tag, te.title, len(project_map[te])))
@@ -242,7 +243,7 @@ def format_all_categories(project_map):
     for tag_entry in project_map:
         if tag_entry.tag_path:
             continue
-        if not project_map[tag_entry]:
+        if not project_map[tag_entry] and not tag_entry.subtags:
             continue  # TODO: some message, inviting additions
         text = format_category(project_map, tag_entry)
         parts.append(text)

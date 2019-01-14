@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 import os
 
 import attr
-from ruamel import yaml
+from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedMap
 from boltons.dictutils import OMD
 from boltons.fileutils import iter_find_files, atomic_save
 
@@ -39,6 +40,7 @@ class Project(object):
     desc = attr.ib(default='')
     tags = attr.ib(default=())
     urls = attr.ib(default=())
+    _orig_data = attr.ib(default=None, repr=False)
 
     @classmethod
     def from_dict(cls, d):
@@ -50,6 +52,7 @@ class Project(object):
                 continue
             cur_urls += ((k[:-4], kwargs.pop(k)),)
             kwargs['urls'] = cur_urls
+        kwargs['orig_data'] = d
         return cls(**kwargs)
 
 
@@ -77,8 +80,23 @@ class ProjectList(object):
 
     @classmethod
     def from_path(cls, path):
-        data = yaml.safe_load(open(path, encoding='utf-8'))
+        yaml = YAML()
+        data = yaml.load(open(path, encoding='utf-8'))
         return cls(data['projects'], data['tagsonomy'])
+
+    def to_dict(self):
+        ret = CommentedMap()
+        ret['tagsonomy'] = self.tagsonomy
+        ret['project_list'] = []
+        return ret
+
+    def to_yaml(self):
+        import io
+        sio = io.StringIO()
+        yaml = YAML()
+        yaml.indent(mapping=2, sequence=4, offset=2)
+        yaml.dump(self.to_dict(), sio)
+        return sio.getvalue()
 
     def register_tag(self, tag_type, tag_entry, tag_path=()):
         if isinstance(tag_entry, str):
@@ -252,8 +270,13 @@ def format_all_categories(project_map):
     return '\n'.join(parts)
 
 
+
+
+
 def main():
     plist = ProjectList.from_path('projects.yaml')
+    print(plist.to_yaml())
+    import pdb;pdb.set_trace()
     print([p for p in plist.project_list if not p.desc])
     topic_map = plist.get_projects_by_type('topic')
     topic_toc_text = format_tag_toc(topic_map)

@@ -655,6 +655,11 @@ projects:
     home_url: http://www.sofastatistics.com/
     desc: User-friendly statistics and analysis with a learn-as-you-go approach.
     tags: ["science", "wx", "linux", "windows", "mac"]
+  - name: CKAN
+    repo_url: https://github.com/ckan/ckan
+    home_url: https://ckan.org/
+    desc: Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites.
+    tags: ["science", "server", "flask"]
 
 ## Static Site Generators
 

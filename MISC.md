@@ -13,6 +13,25 @@
 * Automatic link checking (no duplicates, all resolving)
 * Sort keys
 
+## What is an application?
+
+While generally it's pretty easy to tell the difference between a
+library and an application, that doesn't mean there aren't tricky
+cases. Here are some helpful questions to help classify Python software:
+
+* Does the software favor non-code configuration (environment
+  variables, ini/yaml/toml/json files, CLI args, etc.) versus writing
+  more Python code? Software may seem like an application at first,
+  but if it requires writing too much code, it may actually be a
+  framework.
+* Does the software feature a plugin system? Extending the previous
+  point, applications won't require writing code, but well-developed
+  ones may feature a structured way to extend them.
+* Is the software installed using the pip package manager? Being
+  installed with (or requiring) system package managers and installers
+  is generally a pretty good sign you're looking at an application.
+
+
 ## Candidates
 
 * https://github.com/belangeo/soundgrain

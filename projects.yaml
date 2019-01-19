@@ -175,7 +175,7 @@ projects:
     repo_url: https://github.com/plumi/plumi.app
     wp_url: https://en.wikipedia.org/wiki/Plumi
     desc: Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
-    tags: ["video", "cms", "plone", "linux", "mac"]
+    tags: ["video", "cms", "plone", "server"]
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -187,6 +187,11 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/OpenShot
     tags: ["video", "qt5", "linux", "windows", "mac"]
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
+  - name: PyVideo
+    repo_url: https://github.com/pyvideo/pyvideo
+    home_url: https://pyvideo.org/
+    tags: ["video", "static_site", "linux", "server"]
+    desc: Static media index custom-built for the Python community, and all the content our meetings and conferences produce.
 
 ## Graphics
 

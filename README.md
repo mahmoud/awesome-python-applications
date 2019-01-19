@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **204**
+This document is an always-growing list of **205**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 1. <a href="#tag-internet">Internet</a> *(14)*
 1. <a href="#tag-audio">Audio</a> *(10)*
-1. <a href="#tag-video">Video</a> *(4)*
+1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(8)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(9)*
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-science">Science</a> *(13)*
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
-1. <a href="#tag-static_site">Static Site</a> *(6)*
+1. <a href="#tag-static_site">Static Site</a> *(7)*
 1. <a href="#tag-dev">Dev</a> *(80)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
@@ -94,7 +94,8 @@ thereof), see Architectures. -->
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(linux, gtk)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, windows, mac, qt5)`
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, linux, mac, plone)`
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
+  1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
@@ -194,7 +195,7 @@ thereof), see Architectures. -->
   1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines. `(server, django)`
   1. **Mezzanine** - ([Repo](https://github.com/stephenmcd/mezzanine), [Home](http://mezzanine.jupo.org/)) Consistent and flexible content management platform built on the Django framework. `(server, django)`
   1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_(software))) Extensible enterprise content management system built on Zope. `(server)`
-  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, linux, mac, plone)`
+  1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, server, plone)`
   1. **PyCon** - ([Repo](https://github.com/PyCon/pycon), [Home](https://us.pycon.org/), [Docs](https://pycon.readthedocs.io/en/latest/)) Content management and conference organization web application, based on Django and [Symposion](https://github.com/pinax/symposion). `(server, django)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor/), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(server, django)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
@@ -214,6 +215,7 @@ thereof), see Architectures. -->
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(linux, windows, mac)`
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(linux, windows, mac)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(linux, windows, mac)`
+  1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(video, linux, server)`
 
 ## <a id="tag-dev" href="#tag-dev">Dev</a>
 

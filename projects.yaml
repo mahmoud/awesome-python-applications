@@ -825,6 +825,11 @@ projects:
     repo_url: https://github.com/korcankaraokcu/PINCE
     desc: Debugging frontend for GDB focused on reverse engineering video games.
     tags: ["dev", "qt5", "linux"]
+  - name: PathPicker
+    repo_url: https://github.com/facebook/PathPicker
+    home_url: http://facebook.github.io/PathPicker/
+    desc: Shell utility to interactively select paths from the output of other commands
+    tags: ["dev", "linux", "mac"]
 
 ## Editors
   - name: Spyder IDE
@@ -1116,11 +1121,6 @@ projects:
     docs_url: http://ergonomica.readthedocs.io/
     desc: Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
     tags: ["shell", "linux", "windows", "mac"]
-  - name: PathPicker
-    repo_url: https://github.com/facebook/PathPicker
-    home_url: http://facebook.github.io/PathPicker/
-    desc: Shell utility to pick paths from the output of other commands
-    tags: ["shell", "linux", "mac"]
 
 ## Ops
   - name: OpenStack

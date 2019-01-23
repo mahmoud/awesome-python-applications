@@ -830,12 +830,6 @@ projects:
     home_url: http://facebook.github.io/PathPicker/
     desc: Shell utility to interactively select paths from the output of other commands
     tags: ["dev", "linux", "mac"]
-  - name: Beaker
-    repo_url: https://git.beaker-project.org/cgit/beaker/
-    home_url: https://beaker-project.org/
-    docs_url: https://beaker-project.org/docs/
-    desc: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
-    tags: ["dev", "flask", "server"]
 
 ## Editors
   - name: Spyder IDE
@@ -1218,6 +1212,19 @@ projects:
     home_url: https://oncall.tools/
     desc: Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn.
     tags: ["ops", "corp", "server"]
+  - name: Beaker
+    repo_url: https://git.beaker-project.org/cgit/beaker/
+    home_url: https://beaker-project.org/
+    docs_url: https://beaker-project.org/docs/
+    desc: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
+    tags: ["ops", "flask", "server"]
+  - name: Ralph
+    repo_url: https://github.com/allegro/ralph
+    home_url: https://ralph.allegro.tech/
+    docs_url: https://ralph-ng.readthedocs.io/en/latest/
+    desc: Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
+    tags: ["ops", "django", "server"]
+
 
 ## Misc / To File
   - name: JARVIS on Messenger

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(138)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(137)*
+1. <a href="#tag-desktop">Desktop</a> *(139)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(138)*
     1. <a href="#tag-desktop.windows">Windows</a> *(90)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(86)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(87)*
 1. <a href="#tag-console">Console</a> *(2)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -126,6 +126,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, windows, mac, qt5)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(science, windows, mac, qt4, qt5)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, mac, corp)`
+  1. **PathPicker** - ([Repo](https://github.com/facebook/PathPicker), [Home](http://facebook.github.io/PathPicker/)) Shell utility to interactively select paths from the output of other commands `(dev, mac)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(static_site, windows, mac)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(ops, mac)`
   1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(graphics, gtk)`
@@ -333,6 +334,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, linux, windows, qt5)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(science, linux, windows, qt4, qt5)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, linux, corp)`
+  1. **PathPicker** - ([Repo](https://github.com/facebook/PathPicker), [Home](http://facebook.github.io/PathPicker/)) Shell utility to interactively select paths from the output of other commands `(dev, linux)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(static_site, linux, windows)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(ops, linux)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support. `(pkg_mgr, linux, windows)`

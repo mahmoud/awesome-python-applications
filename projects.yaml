@@ -830,6 +830,12 @@ projects:
     home_url: http://facebook.github.io/PathPicker/
     desc: Shell utility to interactively select paths from the output of other commands
     tags: ["dev", "linux", "mac"]
+  - name: Beaker
+    repo_url: https://git.beaker-project.org/cgit/beaker/
+    home_url: https://beaker-project.org/
+    docs_url: https://beaker-project.org/docs/
+    desc: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
+    tags: ["dev", "flask", "server"]
 
 ## Editors
   - name: Spyder IDE

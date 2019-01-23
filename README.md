@@ -255,12 +255,12 @@ Projects related to software development and adjacent technical areas.
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor. `(linux, mac)`
   1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(server, corp)`
   1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
+  1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(linux, mac)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac)`
-  1. **Vespene** - ([Repo](https://github.com/vespene-io/vespene), [Home](https://vespene.io/), [Docs](https://docs.vespene.io/)) Build and self-service automation platform, built on Django and PostgreSQL. `(linux, mac)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(linux)`
 
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>

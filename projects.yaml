@@ -1140,11 +1140,11 @@ projects:
     home_url: https://www.ansible.com/
     desc: Agentless, playbook-based automation.
     tags: ["ops", "corp", "linux", "mac"]
-  - name: Vespene
-    repo_url: https://github.com/vespene-io/vespene
-    home_url: https://vespene.io/
-    docs_url: https://docs.vespene.io/
-    desc: Build and self-service automation platform, built on Django and PostgreSQL.
+  - name: OpsMop
+    repo_url: https://github.com/opsmop/opsmop
+    home_url: https://opsmop.io/
+    docs_url: https://docs.opsmop.io/
+    desc: Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency.
     tags: ["ops", "linux", "mac"]
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken

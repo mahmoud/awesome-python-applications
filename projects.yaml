@@ -565,6 +565,11 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/ZeroNet
     desc: Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
     tags: ["internet", "linux", "windows", "mac"]
+  - name: NewsBlur
+    repo_url: https://github.com/samuelclay/NewsBlur
+    home_url: https://www.newsblur.com/
+    desc: Web-based personal news reader.
+    tags: ["internet", "server", "django"]
 
 ## Education
 

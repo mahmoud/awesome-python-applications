@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **208**
+This document is an always-growing list of **209**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -30,7 +30,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(14)*
+1. <a href="#tag-internet">Internet</a> *(15)*
 1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(8)*
@@ -65,6 +65,7 @@ thereof), see Architectures. -->
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
+  1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`
   1. **Planet** - ([Repo](https://github.com/python/planet/tree/master/code/planet), [Home](https://web.archive.org/web/20051029095046/http://www.planetplanet.org/), [WP](https://en.wikipedia.org/wiki/Planet_(software))) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more. `(server)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(linux, windows, mac, qt5)`

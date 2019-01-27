@@ -335,6 +335,12 @@ projects:
     home_url: https://redash.io/
     desc: Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others.
     tags: ["productivity", "flask", "server"]  # need that business topic
+  - name: Glances
+    repo_url: https://github.com/nicolargo/glances
+    home_url: https://nicolargo.github.io/glances/
+    docs_url: https://glances.readthedocs.io/en/stable/
+    desc: A cross-platform top/htop alternative, providing an overview of system resources.
+    tags: ["productivity", "ops", "server", "linux", "windows", "mac"]
 
 ## Organization
 

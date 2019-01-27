@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(140)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(139)*
+1. <a href="#tag-desktop">Desktop</a> *(141)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(140)*
     1. <a href="#tag-desktop.windows">Windows</a> *(91)*
     1. <a href="#tag-desktop.mac">Mac</a> *(88)*
 1. <a href="#tag-console">Console</a> *(2)*
@@ -124,6 +124,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, windows, mac, docker)`
   1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, windows, mac, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, windows, mac, qt5)`
+  1. **OpenSnitch** - ([Repo](https://github.com/evilsocket/opensnitch), [Home](https://opensnitch.io/)) GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall. `(security, qt5)`
   1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(ops, mac)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_(software))) Component-based data mining software for graphical interactive data analysis and visualization. `(science, windows, mac, qt4, qt5)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, mac, corp)`

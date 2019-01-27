@@ -272,6 +272,7 @@ projects:
     desc: Gaming platform for GNU/Linux, managing game installations with a unified interface.
     tags: ["games", "gtk", "linux"]
 
+
 ## Productivity
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
@@ -918,6 +919,11 @@ projects:
     repo_url: https://github.com/jopohl/urh
     desc: Wireless protocol investigator, with a focus on analyzing proprietary IoT communication.
     tags: ["security", "linux", "windows", "mac"]
+  - name: OpenSnitch
+    repo_url: https://github.com/evilsocket/opensnitch
+    home_url: https://opensnitch.io/
+    desc: GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall.
+    tags: ["security", "qt5", "linux"]
 
 ## Code Review
   - name: Review Board

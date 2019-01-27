@@ -914,6 +914,13 @@ projects:
     home_url: https://jupyter.org/
     desc: Web-based, extensible notebook environment for interactive computing.
     tags: ["editor", "linux", "windows", "mac"]
+  - name: Black
+    repo_url: https://github.com/ambv/black
+    docs_url: https://black.readthedocs.io/
+    pypi_url: https://pypi.org/project/black/
+    desc: Uncompromising automatic formatter for Python code.
+    tags: ["editor", "console"]
+
 
 ## Security
   - name: MITMproxy

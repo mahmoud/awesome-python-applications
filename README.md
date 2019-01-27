@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **217**
+This document is an always-growing list of **218**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,13 +43,13 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(89)*
+1. <a href="#tag-dev">Dev</a> *(90)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(19)*
     1. <a href="#tag-dev.security">Security</a> *(9)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
-    1. <a href="#tag-dev.editor">Editor</a> *(10)*
+    1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
     1. <a href="#tag-dev.build">Build</a> *(8)*
@@ -289,6 +289,7 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.editor" href="#tag-dev.editor">Editor</a>
 
+  1. **Black** - ([Repo](https://github.com/ambv/black), [PyPI](https://pypi.org/project/black/), [Docs](https://black.readthedocs.io/)) Uncompromising automatic formatter for Python code. `(console)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(linux, windows, mac, qt5)`
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(linux, c, gtk)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(linux, windows, mac)`

@@ -924,6 +924,12 @@ projects:
     home_url: https://opensnitch.io/
     desc: GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall.
     tags: ["security", "qt5", "linux"]
+  - name: kinto
+    repo_url: https://github.com/Kinto/kinto
+    docs_url: http://docs.kinto-storage.org/
+    home_url: https://www.kinto-storage.org/
+    desc: Multi-platform remote administration tool and post-exploitation framework.
+    tags: ["security", "server"]
 
 ## Code Review
   - name: Review Board

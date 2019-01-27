@@ -862,6 +862,11 @@ projects:
     home_url: https://asciinema.org/
     desc: Terminal session recorder and replayer.
     tags: ["dev", "linux", "mac"]
+  - name: howdoi
+    repo_url: https://github.com/gleitz/howdoi
+    pypi_url: https://pypi.org/project/howdoi/
+    desc: Instant coding answers from StackOverflow on your command line.
+    tags: ["dev", "console"]
 
 ## Editors
   - name: Spyder IDE

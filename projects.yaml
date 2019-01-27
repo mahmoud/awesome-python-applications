@@ -164,6 +164,11 @@ projects:
     repo_url: https://github.com/tlecomte/friture
     desc: Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more.
     tags: ["audio", "qt5", "linux", "windows", "mac"]
+  - name: Mopidy
+    home_url: https://www.mopidy.com/
+    repo_url: https://github.com/mopidy/mopidy
+    desc: Extensible music player server with plugin support for a wide range of services.
+    tags: ["audio", "server"]
 
 ## Video
   - name: Pitivi

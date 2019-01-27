@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(142)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(141)*
+1. <a href="#tag-desktop">Desktop</a> *(143)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(142)*
     1. <a href="#tag-desktop.windows">Windows</a> *(91)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(88)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(89)*
 1. <a href="#tag-console">Console</a> *(2)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -47,6 +47,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(ops, mac, corp)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, windows)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, windows, mac, gtk)`
+  1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, mac)`
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey/)) Desktop automation utility for Linux and X11. `(productivity, gtk, qt)`
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(ops)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets/)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, windows, mac)`
@@ -284,6 +285,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, windows, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(ops, linux, corp)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, windows, gtk)`
+  1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, linux)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets/)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, linux, windows)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol `(communication, linux, windows, curses, kivy, qt4)`
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(build, linux, windows)`

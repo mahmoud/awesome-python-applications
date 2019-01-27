@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **222**
+This document is an always-growing list of **223**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -35,7 +35,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(9)*
 1. <a href="#tag-games">Games</a> *(6)*
-1. <a href="#tag-productivity">Productivity</a> *(9)*
+1. <a href="#tag-productivity">Productivity</a> *(10)*
 1. <a href="#tag-organization">Organization</a> *(9)*
 1. <a href="#tag-communication">Communication</a> *(21)*
 1. <a href="#tag-education">Education</a> *(4)*
@@ -133,6 +133,7 @@ thereof), see Architectures. -->
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim. `(linux, curses)`
+  1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 

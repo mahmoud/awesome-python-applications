@@ -330,6 +330,11 @@ projects:
     repo_url: https://github.com/camelot-dev/excalibur
     desc: Web interface to extract tabular data from PDFs.
     tags: ["productivity", "linux", "windows"]
+  - name: Redash
+    repo_url: https://github.com/getredash/redash
+    home_url: https://redash.io/
+    desc: Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others.
+    tags: ["productivity", "flask", "server"]  # need that business topic
 
 ## Organization
 

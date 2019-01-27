@@ -1283,6 +1283,12 @@ projects:
     docs_url: https://ralph-ng.readthedocs.io/en/latest/
     desc: Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
     tags: ["ops", "django", "server"]
+  - name: aws-cli
+    repo_url: https://github.com/aws/aws-cli
+    docs_url: https://docs.aws.amazon.com/cli/latest/
+    pypi_url: https://pypi.org/project/awscli/
+    desc: Official command-line interface for Amazon Web Services.
+    tags: ["ops", "console", "py26"]
 
 
 ## Misc / To File

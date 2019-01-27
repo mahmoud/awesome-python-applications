@@ -27,7 +27,7 @@ segmentation by distribution (i.e., Docker, etc.)
     1. <a href="#tag-desktop.linux">Linux</a> *(142)*
     1. <a href="#tag-desktop.windows">Windows</a> *(91)*
     1. <a href="#tag-desktop.mac">Mac</a> *(89)*
-1. <a href="#tag-console">Console</a> *(4)*
+1. <a href="#tag-console">Console</a> *(5)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
 1. <a href="#tag-server">Server</a> *(71)*
@@ -376,6 +376,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ## <a id="tag-console" href="#tag-console">Console</a>
 
+  1. **aws-cli** - ([Repo](https://github.com/aws/aws-cli), [PyPI](https://pypi.org/project/awscli/), [Docs](https://docs.aws.amazon.com/cli/latest/)) Official command-line interface for Amazon Web Services. `(ops, py26)`
   1. **Black** - ([Repo](https://github.com/ambv/black), [PyPI](https://pypi.org/project/black/), [Docs](https://black.readthedocs.io/)) Uncompromising automatic formatter for Python code. `(editor)`
   1. **howdoi** - ([Repo](https://github.com/gleitz/howdoi), [PyPI](https://pypi.org/project/howdoi/)) Instant coding answers from StackOverflow on your command line. `(dev)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, linux, mac)`

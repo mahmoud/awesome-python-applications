@@ -587,6 +587,10 @@ projects:
     docs_url: https://asciimoo.github.io/searx/
     desc: Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling.
     tags: ["internet", "security", "flask", "server"]
+  - name: speedtest-cli
+    repo_url: https://github.com/sivel/speedtest-cli
+    desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
+    tags: ["internet", "console"]
 
 ## Education
 

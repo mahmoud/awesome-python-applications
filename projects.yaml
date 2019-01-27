@@ -241,6 +241,12 @@ projects:
     home_url: http://alicevision.github.io/
     desc: Photogrammetry pipeline, for turning photographs into 3D models
     tags: ["graphics", "qt", "windows", "linux", "mac"]
+  - name: Thumbor
+    repo_url: https://github.com/thumbor/thumbor
+    docs_url: https://thumbor.readthedocs.io/
+    home_url: http://thumbor.org/
+    desc: Photo thumbnail service with resizing, flipping, and smart cropping of images.
+    tags: ["graphics", "dev", "server"]
 
 ## Games
 

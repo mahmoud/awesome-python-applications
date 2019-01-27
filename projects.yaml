@@ -972,6 +972,12 @@ projects:
     home_url: https://www.kinto-storage.org/
     desc: Multi-platform remote administration tool and post-exploitation framework.
     tags: ["security", "server"]
+  - name: sqlmap
+    repo_url: https://github.com/sqlmapproject/sqlmap
+    home_url: http://sqlmap.org/
+    docs_url: https://github.com/sqlmapproject/sqlmap/wiki
+    desc:  Automatic SQL injection and database takeover.
+    tags: ["security", "console"]
 
 ## Code Review
   - name: Review Board

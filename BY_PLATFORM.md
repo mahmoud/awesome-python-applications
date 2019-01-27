@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(141)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(140)*
+1. <a href="#tag-desktop">Desktop</a> *(142)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(141)*
     1. <a href="#tag-desktop.windows">Windows</a> *(91)*
     1. <a href="#tag-desktop.mac">Mac</a> *(88)*
 1. <a href="#tag-console">Console</a> *(2)*
@@ -101,6 +101,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, mac, console)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features `(communication, windows, mac)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(graphics, windows, mac, qt)`
+  1. **Manim** - ([Repo](https://github.com/3b1b/manim), [Docs](https://manim.readthedocs.io)) Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). `(science)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi/)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization. `(science, windows, mac, qt4)`
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(code_review, windows, mac, gtk)`
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities. `(scm, windows, mac)`

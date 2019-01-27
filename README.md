@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **212**
+This document is an always-growing list of **213**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -30,7 +30,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(15)*
+1. <a href="#tag-internet">Internet</a> *(16)*
 1. <a href="#tag-audio">Audio</a> *(10)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(8)*
@@ -43,11 +43,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(86)*
+1. <a href="#tag-dev">Dev</a> *(87)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(19)*
-    1. <a href="#tag-dev.security">Security</a> *(8)*
+    1. <a href="#tag-dev.security">Security</a> *(9)*
     1. <a href="#tag-dev.docs">Docs</a> *(2)*
     1. <a href="#tag-dev.editor">Editor</a> *(10)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
@@ -71,6 +71,7 @@ thereof), see Architectures. -->
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(linux, windows, mac, qt5)`
   1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.) `(server)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(linux, windows, mac, server)`
+  1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx/)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(security, server, flask)`
   1. **streamlink** - ([Repo](https://github.com/streamlink/streamlink), [Home](https://streamlink.github.io/), [PyPI](https://pypi.org/project/streamlink/)) Command-line utility that extracts streams from various services and pipes them into a video player of choice. `(linux, windows, mac)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
@@ -273,6 +274,7 @@ Projects related to software development and adjacent technical areas.
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
   1. **OpenSnitch** - ([Repo](https://github.com/evilsocket/opensnitch), [Home](https://opensnitch.io/)) GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall. `(linux, qt5)`
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more.
+  1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx/)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(internet, server, flask)`
   1. **sshuttle** - ([Repo](https://github.com/sshuttle/sshuttle), [Docs](https://sshuttle.readthedocs.org/)) Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access. `(linux, mac)`
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(linux, windows, mac)`
   1. **XSStrike** - ([Repo](https://github.com/s0md3v/XSStrike), [Home](https://somdev.me/XSStrike/)) [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.

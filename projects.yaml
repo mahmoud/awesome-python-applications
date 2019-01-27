@@ -571,6 +571,11 @@ projects:
     home_url: https://www.newsblur.com/
     desc: Web-based personal news reader.
     tags: ["internet", "server", "django"]
+  - name: Searx
+    repo_url: https://github.com/asciimoo/searx
+    docs_url: https://asciimoo.github.io/searx/
+    desc: Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling.
+    tags: ["internet", "security", "flask", "server"]
 
 ## Education
 

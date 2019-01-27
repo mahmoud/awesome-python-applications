@@ -914,6 +914,10 @@ projects:
     docs_url: https://sshuttle.readthedocs.org/
     desc: Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access.
     tags: ["security", "linux", "mac"]
+  - name: Universal Radio Hacker (URH)
+    repo_url: https://github.com/jopohl/urh
+    desc: Wireless protocol investigator, with a focus on analyzing proprietary IoT communication.
+    tags: ["security", "linux", "windows", "mac"]
 
 ## Code Review
   - name: Review Board
@@ -1284,5 +1288,4 @@ projects:
     tags: ["misc", "linux"]
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
-
 ...

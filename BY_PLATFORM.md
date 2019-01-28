@@ -27,7 +27,7 @@ segmentation by distribution (i.e., Docker, etc.)
     1. <a href="#tag-desktop.linux">Linux</a> *(144)*
     1. <a href="#tag-desktop.windows">Windows</a> *(92)*
     1. <a href="#tag-desktop.mac">Mac</a> *(91)*
-1. <a href="#tag-console">Console</a> *(8)*
+1. <a href="#tag-console">Console</a> *(9)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
 1. <a href="#tag-server">Server</a> *(73)*
@@ -381,6 +381,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ## <a id="tag-console" href="#tag-console">Console</a>
 
+  1. **autojump** - ([Repo](https://github.com/wting/autojump)) A `cd` with many heuristics to speed up console filesystem navigation. `(dev)`
   1. **aws-cli** - ([Repo](https://github.com/aws/aws-cli), [PyPI](https://pypi.org/project/awscli/), [Docs](https://docs.aws.amazon.com/cli/latest/)) Official command-line interface for Amazon Web Services. `(ops, py26)`
   1. **Black** - ([Repo](https://github.com/ambv/black), [PyPI](https://pypi.org/project/black/), [Docs](https://black.readthedocs.io/)) Uncompromising automatic formatter for Python code. `(editor)`
   1. **Cookiecutter** - ([Repo](https://github.com/audreyr/cookiecutter), [PyPI](https://pypi.org/project/cookiecutter/), [Docs](https://cookiecutter.readthedocs.io/en/latest/)) Utility for creating new projects from shareable templates. `(dev)`

@@ -894,6 +894,11 @@ projects:
     docs_url: https://cookiecutter.readthedocs.io/en/latest/
     desc: Utility for creating new projects from shareable templates.
     tags: ["dev", "console"]
+  - name: autojump
+    repo_url: https://github.com/wting/autojump
+    desc: A `cd` with many heuristics to speed up console filesystem navigation.
+    tags: ["dev", "console"]
+
 
 ## Editors
   - name: Spyder IDE
@@ -952,7 +957,6 @@ projects:
     pypi_url: https://pypi.org/project/black/
     desc: Uncompromising automatic formatter for Python code.
     tags: ["editor", "console"]
-
 
 ## Security
   - name: MITMproxy

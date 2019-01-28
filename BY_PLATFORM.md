@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(144)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(143)*
+1. <a href="#tag-desktop">Desktop</a> *(145)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(144)*
     1. <a href="#tag-desktop.windows">Windows</a> *(92)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(90)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(91)*
 1. <a href="#tag-console">Console</a> *(8)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -100,6 +100,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(editor, windows, mac, qt5)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(games, windows, qt4)`
   1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(games, gtk)`
+  1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(productivity, mac)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, mac, console)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features `(communication, windows, mac)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(graphics, windows, mac, qt)`
@@ -320,6 +321,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit/)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(editor, linux, windows, cpp, js)`
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(static_site, linux, windows)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(editor, linux, windows, qt5)`
+  1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(productivity, linux)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, linux, console)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features `(communication, linux, windows)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(graphics, linux, windows, qt)`

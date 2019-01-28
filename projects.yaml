@@ -341,6 +341,12 @@ projects:
     docs_url: https://glances.readthedocs.io/en/stable/
     desc: A cross-platform top/htop alternative, providing an overview of system resources.
     tags: ["productivity", "ops", "server", "linux", "windows", "mac"]
+  - name: Mackup
+    repo_url: https://github.com/lra/mackup
+    pypi_url: https://pypi.org/project/mackup
+    desc: Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
+    tags: ["productivity", "linux", "mac"]
+
 
 ## Organization
 

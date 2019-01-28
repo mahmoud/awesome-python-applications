@@ -882,6 +882,12 @@ projects:
     pypi_url: https://pypi.org/project/howdoi/
     desc: Instant coding answers from StackOverflow on your command line.
     tags: ["dev", "console"]
+  - name: Cookiecutter
+    repo_url: https://github.com/audreyr/cookiecutter
+    pypi_url: https://pypi.org/project/cookiecutter/
+    docs_url: https://cookiecutter.readthedocs.io/en/latest/
+    desc: Utility for creating new projects from shareable templates.
+    tags: ["dev", "console"]
 
 ## Editors
   - name: Spyder IDE

@@ -7,6 +7,7 @@ from face import Command, Flag, face_middleware
 from boltons.fileutils import iter_find_files, atomic_save
 
 from .dal import ProjectList
+from .formatting import format_tag_toc, format_all_categories
 from ._version import __version__
 
 _ANSI_FORE_RED = '\x1b[31m'
@@ -53,6 +54,7 @@ def main(argv=None):
 
     # add subcommands
     cmd.add(render)
+    cmd.add(normalize)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -60,13 +62,8 @@ def main(argv=None):
 
     return
 
-from .formatting import format_tag_toc, format_all_categories
-
 
 def render(plist, pdir):
-    plist = ProjectList.from_path('projects.yaml')
-    plist.normalize()
-
     topic_map = plist.get_projects_by_type('topic')
     topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)
@@ -99,8 +96,12 @@ def check():
     pass
 
 
-def normalize():
-    pass
+def normalize(plist, pfile):
+    plist.normalize()
+    new_yaml = plist.to_yaml()
+    with atomic_save(pfile) as f:
+        f.write(new_yaml.encode('utf8'))
+    return
 
 
 def pull_repos():
@@ -131,7 +132,7 @@ End subcommand handlers
 Begin middlewares
 """
 
-@face_middleware(provides=['plist', 'pdir'], optional=True)
+@face_middleware(provides=['plist', 'pdir', 'pfile'], optional=True)
 def mw_ensure_project_listing(next_, file):
     file_path = file or 'protected.yaml'
     file_abs_path = os.path.abspath(file_path)
@@ -140,7 +141,7 @@ def mw_ensure_project_listing(next_, file):
         raise APACLIError('Project listing not found: %s' % file_abs_path, 2)
     pdir = os.path.dirname(file_abs_path)
     plist = ProjectList.from_path(file_abs_path)
-    return next_(plist=plist, pdir=pdir)
+    return next_(plist=plist, pdir=pdir, pfile=file_abs_path)
 
 
 @face_middleware

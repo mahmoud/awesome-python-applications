@@ -19,6 +19,28 @@ TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
 BULLET = '1.'
 INDENT = ' ' * 4
 
+PLIST_PREFACE_COMMENT = """\
+Format of this file:
+
+ - First we have the "tagsonomy", a tree of tags used to categorize the projects.
+ - After that is "projects", a list of awesome projects
+
+Each project has the following format:
+
+ - name: Project Name
+   repo_url: github or bitbucket or other web link to code
+   wp_url: Wikipedia URL if there is one
+   docs_url: URL to docs
+   home_url: Home page if not one of the above
+   tags: ["", ""]  # see full taxonomy elsewhere in this file
+   desc: Handy project designed for handiness
+
+Only the name, repo_url, tags, and description are required.
+
+In the description, avoid references to Python, free/open-source, and
+the app name itself, since those are already present/implied by being
+on the list.  """
+
 
 def to_yaml(obj):
     sio = io.StringIO()
@@ -87,7 +109,6 @@ class ProjectList(object):
     def __init__(self, project_list, tagsonomy):
         self.project_list = []
         self.tagsonomy = tagsonomy
-
         self.tag_registry = OMD()
 
         for tag_group in ('topic', 'platform'):  # TODO: framework, license
@@ -106,6 +127,7 @@ class ProjectList(object):
 
     def to_dict(self):
         ret = CommentedMap()
+        ret.yaml_set_start_comment('\n' + PLIST_PREFACE_COMMENT + '\n\n')
         ret['tagsonomy'] = self.tagsonomy
         plist = []
         seen_topics = set()
@@ -125,7 +147,7 @@ class ProjectList(object):
             seen_topics.add(first_topic)
             cur_pdict.yaml_set_start_comment('\n' + first_topic.title() + '\n\n')
 
-        ret['project_list'] = plist
+        ret['projects'] = plist
         return ret
 
     def to_yaml(self):

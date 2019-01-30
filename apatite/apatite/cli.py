@@ -4,7 +4,9 @@ import os
 import sys
 
 from face import Command, Flag, face_middleware
+from boltons.fileutils import iter_find_files, atomic_save
 
+from .dal import ProjectList
 from ._version import __version__
 
 _ANSI_FORE_RED = '\x1b[31m'
@@ -47,9 +49,10 @@ def main(argv=None):
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
+    cmd.add(mw_ensure_project_listing)
 
     # add subcommands
-
+    cmd.add(render)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -57,9 +60,39 @@ def main(argv=None):
 
     return
 
+from .formatting import format_tag_toc, format_all_categories
 
-def render():
-    pass
+
+def render(plist, pdir):
+    plist = ProjectList.from_path('projects.yaml')
+    plist.normalize()
+
+    topic_map = plist.get_projects_by_type('topic')
+    topic_toc_text = format_tag_toc(topic_map)
+    projects_by_topic = format_all_categories(topic_map)
+
+    plat_map = plist.get_projects_by_type('platform')
+    plat_toc_text = format_tag_toc(plat_map)
+    projects_by_plat = format_all_categories(plat_map)
+
+    context = {'TOPIC_TOC': topic_toc_text,
+               'TOPIC_TEXT': projects_by_topic,
+               'PLATFORM_TOC': plat_toc_text,
+               'PLATFORM_TEXT': projects_by_plat,
+               'TOTAL_COUNT': len(plist.project_list)}
+
+    templates_path = pdir + '/templates/'
+    if not os.path.isdir(templates_path):
+        raise APACLIError('expected "templates" directory at %r' % templates_path)
+
+    for filename in iter_find_files(templates_path, '*.tmpl.md'):
+        tmpl_text = open(filename).read()
+        target_filename = os.path.split(filename)[1].replace('.tmpl', '')
+        output_text = tmpl_text.format(**context)
+        with atomic_save(pdir + '/' + target_filename) as f:
+            f.write(output_text.encode('utf8'))
+
+    return
 
 
 def check():
@@ -98,15 +131,16 @@ End subcommand handlers
 Begin middlewares
 """
 
-@face_middleware(provides=['plist'], optional=True)
-def _ensure_project_listing(next_, file):
+@face_middleware(provides=['plist', 'pdir'], optional=True)
+def mw_ensure_project_listing(next_, file):
     file_path = file or 'protected.yaml'
     file_abs_path = os.path.abspath(file_path)
 
     if not os.path.exists(file_abs_path):
         raise APACLIError('Project listing not found: %s' % file_abs_path, 2)
+    pdir = os.path.dirname(file_abs_path)
     plist = ProjectList.from_path(file_abs_path)
-    return next_(plist=plist)
+    return next_(plist=plist, pdir=pdir)
 
 
 @face_middleware

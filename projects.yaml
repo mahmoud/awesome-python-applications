@@ -164,6 +164,11 @@ projects:
     repo_url: https://github.com/tlecomte/friture
     desc: Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more.
     tags: ["audio", "qt5", "linux", "windows", "mac"]
+  - name: Mopidy
+    home_url: https://www.mopidy.com/
+    repo_url: https://github.com/mopidy/mopidy
+    desc: Extensible music player server with plugin support for a wide range of services.
+    tags: ["audio", "server"]
 
 ## Video
   - name: Pitivi
@@ -175,7 +180,7 @@ projects:
     repo_url: https://github.com/plumi/plumi.app
     wp_url: https://en.wikipedia.org/wiki/Plumi
     desc: Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
-    tags: ["video", "cms", "plone", "linux", "mac"]
+    tags: ["video", "cms", "plone", "server"]
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -187,6 +192,11 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/OpenShot
     tags: ["video", "qt5", "linux", "windows", "mac"]
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
+  - name: PyVideo
+    repo_url: https://github.com/pyvideo/pyvideo
+    home_url: https://pyvideo.org/
+    tags: ["video", "static_site", "linux", "server"]
+    desc: Static media index custom-built for the Python community, and all the content our meetings and conferences produce.
 
 ## Graphics
 
@@ -231,6 +241,12 @@ projects:
     home_url: http://alicevision.github.io/
     desc: Photogrammetry pipeline, for turning photographs into 3D models
     tags: ["graphics", "qt", "windows", "linux", "mac"]
+  - name: Thumbor
+    repo_url: https://github.com/thumbor/thumbor
+    docs_url: https://thumbor.readthedocs.io/
+    home_url: http://thumbor.org/
+    desc: Photo thumbnail service with resizing, flipping, and smart cropping of images.
+    tags: ["graphics", "dev", "server"]
 
 ## Games
 
@@ -266,6 +282,7 @@ projects:
     home_url: https://lutris.net/
     desc: Gaming platform for GNU/Linux, managing game installations with a unified interface.
     tags: ["games", "gtk", "linux"]
+
 
 ## Productivity
   - name: Autokey
@@ -313,6 +330,23 @@ projects:
     repo_url: https://github.com/camelot-dev/excalibur
     desc: Web interface to extract tabular data from PDFs.
     tags: ["productivity", "linux", "windows"]
+  - name: Redash
+    repo_url: https://github.com/getredash/redash
+    home_url: https://redash.io/
+    desc: Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others.
+    tags: ["productivity", "flask", "server"]  # need that business topic
+  - name: Glances
+    repo_url: https://github.com/nicolargo/glances
+    home_url: https://nicolargo.github.io/glances/
+    docs_url: https://glances.readthedocs.io/en/stable/
+    desc: A cross-platform top/htop alternative, providing an overview of system resources.
+    tags: ["productivity", "ops", "server", "linux", "windows", "mac"]
+  - name: Mackup
+    repo_url: https://github.com/lra/mackup
+    pypi_url: https://pypi.org/project/mackup
+    desc: Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
+    tags: ["productivity", "linux", "mac"]
+
 
 ## Organization
 
@@ -560,6 +594,20 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/ZeroNet
     desc: Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
     tags: ["internet", "linux", "windows", "mac"]
+  - name: NewsBlur
+    repo_url: https://github.com/samuelclay/NewsBlur
+    home_url: https://www.newsblur.com/
+    desc: Web-based personal news reader.
+    tags: ["internet", "server", "django"]
+  - name: Searx
+    repo_url: https://github.com/asciimoo/searx
+    docs_url: https://asciimoo.github.io/searx/
+    desc: Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling.
+    tags: ["internet", "security", "flask", "server"]
+  - name: speedtest-cli
+    repo_url: https://github.com/sivel/speedtest-cli
+    desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
+    tags: ["internet", "console"]
 
 ## Education
 
@@ -655,6 +703,16 @@ projects:
     home_url: http://www.sofastatistics.com/
     desc: User-friendly statistics and analysis with a learn-as-you-go approach.
     tags: ["science", "wx", "linux", "windows", "mac"]
+  - name: CKAN
+    repo_url: https://github.com/ckan/ckan
+    home_url: https://ckan.org/
+    desc: Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites.
+    tags: ["science", "server", "flask"]
+  - name: Manim
+    repo_url: https://github.com/3b1b/manim
+    docs_url: https://manim.readthedocs.io
+    desc: Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
+    tags: ["science", "linux"]
 
 ## Static Site Generators
 
@@ -815,6 +873,32 @@ projects:
     repo_url: https://github.com/korcankaraokcu/PINCE
     desc: Debugging frontend for GDB focused on reverse engineering video games.
     tags: ["dev", "qt5", "linux"]
+  - name: PathPicker
+    repo_url: https://github.com/facebook/PathPicker
+    home_url: http://facebook.github.io/PathPicker/
+    desc: Shell utility to interactively select paths from the output of other commands
+    tags: ["dev", "linux", "mac"]
+  - name: asciinema
+    repo_url: https://github.com/asciinema/asciinema
+    home_url: https://asciinema.org/
+    desc: Terminal session recorder and replayer.
+    tags: ["dev", "linux", "mac"]
+  - name: howdoi
+    repo_url: https://github.com/gleitz/howdoi
+    pypi_url: https://pypi.org/project/howdoi/
+    desc: Instant coding answers from StackOverflow on your command line.
+    tags: ["dev", "console"]
+  - name: Cookiecutter
+    repo_url: https://github.com/audreyr/cookiecutter
+    pypi_url: https://pypi.org/project/cookiecutter/
+    docs_url: https://cookiecutter.readthedocs.io/en/latest/
+    desc: Utility for creating new projects from shareable templates.
+    tags: ["dev", "console"]
+  - name: autojump
+    repo_url: https://github.com/wting/autojump
+    desc: A `cd` with many heuristics to speed up console filesystem navigation.
+    tags: ["dev", "console"]
+
 
 ## Editors
   - name: Spyder IDE
@@ -867,6 +951,12 @@ projects:
     home_url: https://jupyter.org/
     desc: Web-based, extensible notebook environment for interactive computing.
     tags: ["editor", "linux", "windows", "mac"]
+  - name: Black
+    repo_url: https://github.com/ambv/black
+    docs_url: https://black.readthedocs.io/
+    pypi_url: https://pypi.org/project/black/
+    desc: Uncompromising automatic formatter for Python code.
+    tags: ["editor", "console"]
 
 ## Security
   - name: MITMproxy
@@ -894,6 +984,27 @@ projects:
     docs_url: https://sshuttle.readthedocs.org/
     desc: Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access.
     tags: ["security", "linux", "mac"]
+  - name: Universal Radio Hacker (URH)
+    repo_url: https://github.com/jopohl/urh
+    desc: Wireless protocol investigator, with a focus on analyzing proprietary IoT communication.
+    tags: ["security", "linux", "windows", "mac"]
+  - name: OpenSnitch
+    repo_url: https://github.com/evilsocket/opensnitch
+    home_url: https://opensnitch.io/
+    desc: GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall.
+    tags: ["security", "qt5", "linux"]
+  - name: kinto
+    repo_url: https://github.com/Kinto/kinto
+    docs_url: http://docs.kinto-storage.org/
+    home_url: https://www.kinto-storage.org/
+    desc: Multi-platform remote administration tool and post-exploitation framework.
+    tags: ["security", "server"]
+  - name: sqlmap
+    repo_url: https://github.com/sqlmapproject/sqlmap
+    home_url: http://sqlmap.org/
+    docs_url: https://github.com/sqlmapproject/sqlmap/wiki
+    desc:  Automatic SQL injection and database takeover.
+    tags: ["security", "console"]
 
 ## Code Review
   - name: Review Board
@@ -1125,11 +1236,11 @@ projects:
     home_url: https://www.ansible.com/
     desc: Agentless, playbook-based automation.
     tags: ["ops", "corp", "linux", "mac"]
-  - name: Vespene
-    repo_url: https://github.com/vespene-io/vespene
-    home_url: https://vespene.io/
-    docs_url: https://docs.vespene.io/
-    desc: Build and self-service automation platform, built on Django and PostgreSQL.
+  - name: OpsMop
+    repo_url: https://github.com/opsmop/opsmop
+    home_url: https://opsmop.io/
+    docs_url: https://docs.opsmop.io/
+    desc: Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency.
     tags: ["ops", "linux", "mac"]
   - name: Shinken
     repo_url: https://github.com/naparuba/shinken
@@ -1197,6 +1308,25 @@ projects:
     home_url: https://oncall.tools/
     desc: Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn.
     tags: ["ops", "corp", "server"]
+  - name: Beaker
+    repo_url: https://git.beaker-project.org/cgit/beaker/
+    home_url: https://beaker-project.org/
+    docs_url: https://beaker-project.org/docs/
+    desc: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
+    tags: ["ops", "flask", "server"]
+  - name: Ralph
+    repo_url: https://github.com/allegro/ralph
+    home_url: https://ralph.allegro.tech/
+    docs_url: https://ralph-ng.readthedocs.io/en/latest/
+    desc: Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
+    tags: ["ops", "django", "server"]
+  - name: aws-cli
+    repo_url: https://github.com/aws/aws-cli
+    docs_url: https://docs.aws.amazon.com/cli/latest/
+    pypi_url: https://pypi.org/project/awscli/
+    desc: Official command-line interface for Amazon Web Services.
+    tags: ["ops", "console", "py26"]
+
 
 ## Misc / To File
   - name: JARVIS on Messenger
@@ -1251,5 +1381,4 @@ projects:
     tags: ["misc", "linux"]
   # - name: getmail  # tarballs only, no repo?
   #   home_url: http://pyropus.ca/software/getmail/
-
 ...

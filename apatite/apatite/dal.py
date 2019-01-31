@@ -12,7 +12,7 @@ from ruamel.yaml import YAML, round_trip_load
 from ruamel.yaml.comments import CommentedMap
 from boltons.dictutils import OMD
 from boltons.fileutils import iter_find_files, atomic_save
-from boltons.iterutils import soft_sorted
+from boltons.iterutils import soft_sorted, redundant, unique
 from boltons.strutils import slugify
 from hyperlink import parse as url_parse
 
@@ -150,6 +150,13 @@ class Project(object):
     urls = attr.ib(default=())
     _orig_data = attr.ib(default=None, repr=False, cmp=False)
 
+    @property
+    def repo_url(self):
+        for name, url in self.urls:
+            if name == 'repo':
+                return url
+        return None
+
     @classmethod
     def from_dict(cls, d):
         validate_project_dict(d)
@@ -195,7 +202,6 @@ class ProjectList(object):
                 self.register_tag(tag_group, tag)
 
         errors = []
-        slug_map = OMD()
         for project in project_list:
             new_tags = soft_sorted(project.get('tags', []), first=self.tag_registry.keys())
             project['tags'] = new_tags
@@ -205,14 +211,17 @@ class ProjectList(object):
                 errors.append(ae)
                 continue
             self.project_list.append(project_obj)
-            slug_map.add(slugify(project_obj.name), project_obj)
 
-        for slug in slug_map:
-            cur = slug_map.getlist(slug)
-            if len(cur) == 1:
-                continue
-            dpe = DuplicateProjectError('ambiguous or duplicate project names: %r' %
-                                        [p.name for p in cur])
+        dupe_groups = redundant(self.project_list,
+                                key=lambda p: slugify(p.name),
+                                groups=True)
+        dupe_groups += redundant(self.project_list,
+                                 key=lambda p: p.repo_url,
+                                 groups=True)
+        dupe_groups = unique([tuple(dg) for dg in dupe_groups])
+        for group in dupe_groups:
+            dpe = DuplicateProjectError('ambiguous or duplicate projects: %r' %
+                                        [p.name for p in group])
             errors.append(dpe)
 
         if errors:

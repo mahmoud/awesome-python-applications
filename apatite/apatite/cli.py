@@ -53,6 +53,7 @@ def main(argv=None):
     cmd.add(mw_ensure_project_listing)
 
     # add subcommands
+    cmd.add(check)
     cmd.add(render)
     cmd.add(normalize)
     cmd.add(print_version, name='version')
@@ -97,7 +98,7 @@ def check(plist):
     [x] Check for the minimum set of keys.
     [x] Check all URLs valid format
     [x] Check no duplicate names (case normalized)
-    [ ] Check no duplicate repo_urls
+    [x] Check no duplicate repo_urls
     [ ] Check no duplicate tags within the same project tag list
     [ ] Check all tags are in the tagsonomy
 
@@ -105,6 +106,7 @@ def check(plist):
     anyways. Might need a check_urls subcommand though.
 
     """
+    return 0
 
 
 def show_no_cat(cat_name):

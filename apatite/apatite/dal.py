@@ -6,11 +6,15 @@ import os
 import copy
 
 import attr
+import schema
+from glom import glom, T, Coalesce
 from ruamel.yaml import YAML, round_trip_load
 from ruamel.yaml.comments import CommentedMap
 from boltons.dictutils import OMD
 from boltons.fileutils import iter_find_files, atomic_save
 from boltons.iterutils import soft_sorted
+from boltons.strutils import slugify
+from hyperlink import parse as url_parse
 
 TOOLS_PATH = os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
@@ -40,6 +44,78 @@ Only the name, repo_url, tags, and description are required.
 In the description, avoid references to Python, free/open-source, and
 the app name itself, since those are already present/implied by being
 on the list.  """
+
+
+def parse_valid_url(url, schemes=None):
+    url_obj = url_parse(url)
+    url_obj = url_obj.normalize()
+
+    assert url_obj.scheme
+    if schemes is not None:
+        assert url_obj.scheme in schemes
+    assert url_obj.host
+
+    return url_obj
+
+
+def parse_valid_web_url(url):
+    return parse_valid_url(url, schemes=('http', 'https'))
+
+
+_PROJECT_SCHEMA = schema.Schema(
+    {'name': str,
+     schema.Optional(schema.Regex('\w+_url')): parse_valid_url,
+     'repo_url': parse_valid_web_url,
+     'desc': str,
+     'tags': list},
+    ignore_extra_keys=False)
+
+
+class ApatiteError(Exception):
+    pass
+
+
+class DuplicateProjectError(ApatiteError):
+    pass
+
+
+class ProjectValidationError(ApatiteError):
+    @classmethod
+    def from_pdict_error(cls, pdict, error):
+        msg = '%s while validating project' % error
+
+        name = pdict.get('name')
+        if name is not None:
+            msg += ' %r' % name
+
+        line = glom(pdict, T.lc.line, default=None)
+        if line is not None:
+            msg += ' on line %r' % line
+
+        if name is None and line is None:
+            msg += ' %r' % pdict
+
+        ret = cls(msg)
+        ret.pdict = pdict
+        ret.error = error
+        return ret
+
+
+class ProjectListError(ApatiteError):
+    @classmethod
+    def from_errors(cls, errors):
+        msg = 'encountered %s errors in the project list:' % len(errors)
+        msg += '\n'.join([''] + ['  - ' + repr(e) for e in errors])
+        ret = cls(msg)
+        ret.errors = errors
+        return ret
+
+
+def validate_project_dict(pdict):
+    try:
+        return _PROJECT_SCHEMA.validate(pdict)
+    except schema.SchemaError as se:
+        raise ProjectValidationError.from_pdict_error(pdict, se)
 
 
 def to_yaml(obj):
@@ -76,13 +152,16 @@ class Project(object):
 
     @classmethod
     def from_dict(cls, d):
+        validate_project_dict(d)
         kwargs = dict(d)
         kwargs['tags'] = tuple(kwargs.get('tags', ()))
         cur_urls = ()
         for k in list(kwargs):
             if not k.endswith('_url'):
                 continue
-            cur_urls += ((k[:-4], kwargs.pop(k)),)
+            val = kwargs.pop(k)
+            val = parse_valid_url(val)
+            cur_urls += ((k[:-4], val),)
             kwargs['urls'] = cur_urls
         kwargs['orig_data'] = d
         return cls(**kwargs)
@@ -95,7 +174,7 @@ class Project(object):
         ret['desc'] = self.desc
         ret['tags'] = self.tags
         for url_type, url in self.urls:
-            ret[url_type + '_url'] = url
+            ret[url_type + '_url'] = str(url)
         return ret
 
 
@@ -115,10 +194,30 @@ class ProjectList(object):
             for tag in self.tagsonomy[tag_group]:
                 self.register_tag(tag_group, tag)
 
+        errors = []
+        slug_map = OMD()
         for project in project_list:
             new_tags = soft_sorted(project.get('tags', []), first=self.tag_registry.keys())
             project['tags'] = new_tags
-            self.project_list.append(Project.from_dict(project))
+            try:
+                project_obj = Project.from_dict(project)
+            except ApatiteError as ae:
+                errors.append(ae)
+                continue
+            self.project_list.append(project_obj)
+            slug_map.add(slugify(project_obj.name), project_obj)
+
+        for slug in slug_map:
+            cur = slug_map.getlist(slug)
+            if len(cur) == 1:
+                continue
+            dpe = DuplicateProjectError('ambiguous or duplicate project names: %r' %
+                                        [p.name for p in cur])
+            errors.append(dpe)
+
+        if errors:
+            raise ProjectListError.from_errors(errors)
+        return
 
     @classmethod
     def from_path(cls, path):

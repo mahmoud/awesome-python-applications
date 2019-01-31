@@ -30,6 +30,8 @@ setup(
     install_requires=['attrs',
                       'boltons',
                       'ruamel.yaml',
+                      'glom',
+                      'hyperlink',
                       'schema']
 )
 

@@ -92,8 +92,27 @@ def render(plist, pdir):
     return
 
 
-def check():
-    pass
+def check(plist):
+    """
+    [x] Check for the minimum set of keys.
+    [x] Check all URLs valid format
+    [x] Check no duplicate names (case normalized)
+    [ ] Check no duplicate repo_urls
+    [ ] Check no duplicate tags within the same project tag list
+    [ ] Check all tags are in the tagsonomy
+
+    All this stuff should probably be done before rendering
+    anyways. Might need a check_urls subcommand though.
+
+    """
+
+
+def show_no_cat(cat_name):
+    """
+    Show projects which are missing tags for a certain category.
+
+    (this may be best covered by just rendering these into the docs.
+    """
 
 
 def normalize(plist, pfile):

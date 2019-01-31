@@ -1,3 +1,8 @@
 attrs==18.2.0
-boltons==18.0.1
+-e git+git@github.com:mahmoud/boltons.git@f362ea97b2ebb123ff049fa4bac1770b2696a927#egg=boltons
+-e git+git@github.com:mahmoud/face.git@b11585e69829a79e774a3f60fd5e960b9146b520#egg=face
+glom==19.1.0
+hyperlink==18.0.0
+idna==2.8
 ruamel.yaml==0.15.80
+schema==0.6.8

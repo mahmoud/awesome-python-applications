@@ -161,7 +161,13 @@ class Project(object):
     def from_dict(cls, d):
         validate_project_dict(d)
         kwargs = dict(d)
-        kwargs['tags'] = tuple(kwargs.get('tags', ()))
+        tags = tuple(kwargs.get('tags', ()))
+        tags = [slugify(t) for t in tags]
+        dupe_groups = redundant(tags, groups=True)
+        if dupe_groups:
+            raise ProjectValidationError('duplicate tags in project %r: %r'
+                                         % (kwargs['name'], dupe_groups))
+        kwargs['tags'] = tags
         cur_urls = ()
         for k in list(kwargs):
             if not k.endswith('_url'):

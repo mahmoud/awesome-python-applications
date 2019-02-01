@@ -99,7 +99,7 @@ def check(plist):
     [x] Check all URLs valid format
     [x] Check no duplicate names (case normalized)
     [x] Check no duplicate repo_urls
-    [ ] Check no duplicate tags within the same project tag list
+    [x] Check no duplicate tags within the same project tag list
     [ ] Check all tags are in the tagsonomy
 
     All this stuff should probably be done before rendering

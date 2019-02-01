@@ -1331,6 +1331,12 @@ projects:
     pypi_url: https://pypi.org/project/awscli/
     desc: Official command-line interface for Amazon Web Services.
     tags: ["ops", "console", "py26"]
+  - name: Pulp
+    repo_url: https://github.com/pulp/pulp
+    docs_url: https://docs.pulpproject.org/en/3.0/nightly/
+    home_url: https://pulpproject.org/
+    desc: Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat.
+    tags: ["ops", "server"]
 
 
 ## Misc / To File

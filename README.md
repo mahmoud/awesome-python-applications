@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **228**
+This document is an always-growing list of **229**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,10 +43,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(97)*
+1. <a href="#tag-dev">Dev</a> *(98)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
-    1. <a href="#tag-dev.ops">Ops</a> *(21)*
+    1. <a href="#tag-dev.ops">Ops</a> *(22)*
     1. <a href="#tag-dev.security">Security</a> *(10)*
     1. <a href="#tag-dev.docs">Docs</a> *(3)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
@@ -269,6 +269,7 @@ Projects related to software development and adjacent technical areas.
   1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
   1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(linux, mac)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
+  1. **Pulp** - ([Repo](https://github.com/pulp/pulp), [Home](https://pulpproject.org/), [Docs](https://docs.pulpproject.org/en/3.0/nightly/)) Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat. `(server)`
   1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/latest/)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office. `(server, django)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`

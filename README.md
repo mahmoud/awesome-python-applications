@@ -212,7 +212,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-crm" href="#tag-crm">CRM</a>
 
-  1. **CRM** - ([Repo](https://github.com/MicroPyramid/Django-CRM), [Home](https://demo.django-crm.io), [WP](https://github.com/MicroPyramid/Django-CRM/wiki), [Docs](http://django-crm.readthedocs.io)) Opensourse Web-based CRM developed on django framework. `(server, django)`
+  1. **Django-CRM** - ([Repo](https://github.com/MicroPyramid/Django-CRM), [Home](https://demo.django-crm.io), [WP](https://github.com/MicroPyramid/Django-CRM/wiki), [Docs](http://django-crm.readthedocs.io)) Opensourse Web-based CRM developed on django framework. `(server, django)`
 
 ## <a id="tag-erp" href="#tag-erp">ERP</a>
 

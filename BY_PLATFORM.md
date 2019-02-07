@@ -23,11 +23,11 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(145)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(144)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(92)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(91)*
-1. <a href="#tag-console">Console</a> *(9)*
+1. <a href="#tag-desktop">Desktop</a> *(146)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(145)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(93)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(92)*
+1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
 1. <a href="#tag-server">Server</a> *(74)*
@@ -91,6 +91,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(misc, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, windows, mac)`
   1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/)) Home automation platform that puts local control and privacy first. `(misc)`
+  1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie/)) Command-line HTTP client with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. `(internet, dev, windows, mac, console)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, windows, mac)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(organization)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, windows, mac, gtk)`
@@ -222,6 +223,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, mac, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, mac, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, mac)`
+  1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie/)) Command-line HTTP client with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. `(internet, dev, linux, mac, console)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, linux, mac)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, linux, mac, gtk)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(editor, linux, mac)`
@@ -315,6 +317,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, windows, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, windows, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_(software))) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, windows)`
+  1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie/)) Command-line HTTP client with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. `(internet, dev, linux, windows, console)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, linux, windows)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, linux, windows, gtk)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(editor, linux, windows)`
@@ -386,6 +389,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Black** - ([Repo](https://github.com/ambv/black), [PyPI](https://pypi.org/project/black/), [Docs](https://black.readthedocs.io/)) Uncompromising automatic formatter for Python code. `(editor)`
   1. **Cookiecutter** - ([Repo](https://github.com/audreyr/cookiecutter), [PyPI](https://pypi.org/project/cookiecutter/), [Docs](https://cookiecutter.readthedocs.io/en/latest/)) Utility for creating new projects from shareable templates. `(dev)`
   1. **howdoi** - ([Repo](https://github.com/gleitz/howdoi), [PyPI](https://pypi.org/project/howdoi/)) Instant coding answers from StackOverflow on your command line. `(dev)`
+  1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie/)) Command-line HTTP client with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. `(internet, dev, linux, windows, mac)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, linux, mac)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(graphics, linux, mac)`
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(internet)`

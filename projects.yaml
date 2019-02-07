@@ -608,6 +608,12 @@ projects:
     repo_url: https://github.com/sivel/speedtest-cli
     desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
     tags: ["internet", "console"]
+  - name: httpie
+    repo_url: https://github.com/jakubroztocil/httpie
+    pypi_url: https://pypi.org/project/httpie/
+    home_url: https://httpie.org/
+    desc: Command-line HTTP client with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.
+    tags: ["internet", "console", "linux", "windows", "mac", "dev"]
 
 ## Education
 

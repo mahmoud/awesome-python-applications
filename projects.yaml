@@ -1010,7 +1010,10 @@ projects:
     docs_url: https://github.com/sqlmapproject/sqlmap/wiki
     desc:  Automatic SQL injection and database takeover.
     tags: ["security", "console"]
-
+  - name: Maltrail
+    repo_url: https://github.com/stamparm/maltrail
+    desc: Malicious traffic detection system with web-based monitoring.
+    tags: ["security", "server", "linux"]
 ## Code Review
   - name: Review Board
     repo_url: https://github.com/reviewboard/reviewboard

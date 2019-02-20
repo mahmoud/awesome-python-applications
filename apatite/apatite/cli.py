@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+# TODO: check - README should consist of nothing but words in
+# templates and yaml. any other words and it's a sign the README/other
+# docs have been manually edited.
+
 import os
 import sys
 

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(146)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(145)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(92)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(91)*
+1. <a href="#tag-desktop">Desktop</a> *(147)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(146)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(93)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(92)*
 1. <a href="#tag-console">Console</a> *(9)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -126,6 +126,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(graphics, mac, console)`
   1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer. `(communication)`
   1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own. `(shell)`
+  1. **OnionShare** - ([Repo](https://github.com/micahflee/onionshare), [Home](https://onionshare.org/), [Docs](https://github.com/micahflee/onionshare/wiki)) Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services. `(communication, windows, mac, qt5)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, windows, mac, docker)`
   1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, windows, mac, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, windows, mac, qt5)`
@@ -247,6 +248,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(static_site, linux, mac)`
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(editor, linux, mac, qt5)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(productivity, wx)`
+  1. **OnionShare** - ([Repo](https://github.com/micahflee/onionshare), [Home](https://onionshare.org/), [Docs](https://github.com/micahflee/onionshare/wiki)) Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services. `(communication, linux, mac, qt5)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, mac, docker)`
   1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, linux, mac, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, linux, mac, qt5)`
@@ -341,6 +343,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(static_site, linux, windows)`
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(editor, linux, windows, qt5)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(graphics, linux, console)`
+  1. **OnionShare** - ([Repo](https://github.com/micahflee/onionshare), [Home](https://onionshare.org/), [Docs](https://github.com/micahflee/onionshare/wiki)) Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services. `(communication, linux, windows, qt5)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, docker)`
   1. **OpenLP** - ([Repo](https://launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, linux, windows, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, linux, windows, qt5)`

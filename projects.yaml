@@ -517,7 +517,12 @@ projects:
     pypi_url: https://pypi.org/project/magic-wormhole/
     desc: Security- and speed-focused file transfer tool with support for files, text, and directories.
     tags: ["communication", "console", "linux", "mac"]  # windows support iffy
-
+  - name: OnionShare
+    repo_url: https://github.com/micahflee/onionshare
+    docs_url: https://github.com/micahflee/onionshare/wiki
+    home_url: https://onionshare.org/
+    desc: Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services.
+    tags: ["communication", "linux", "windows", "mac", "qt5"]
 
 ## Internet
   - name: Reddit

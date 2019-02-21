@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **230**
+This document is an always-growing list of **231**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -37,7 +37,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(12)*
 1. <a href="#tag-organization">Organization</a> *(9)*
-1. <a href="#tag-communication">Communication</a> *(21)*
+1. <a href="#tag-communication">Communication</a> *(22)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(14)*
 1. <a href="#tag-cms">CMS</a> *(9)*
@@ -163,6 +163,7 @@ thereof), see Architectures. -->
   1. **Modoboa** - ([Repo](https://github.com/modoboa/modoboa), [Home](https://modoboa.org/en/)) Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot. `(server)`
   1. **MoinMoin** - ([Repo](https://bitbucket.org/thomaswaldmann/moin-2.0), [Home](http://moinmo.in), [WP](https://en.wikipedia.org/wiki/MoinMoin), [Docs](https://moin-20.readthedocs.io/en/latest/)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others. `(server)`
   1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer. `(linux)`
+  1. **OnionShare** - ([Repo](https://github.com/micahflee/onionshare), [Home](https://onionshare.org/), [Docs](https://github.com/micahflee/onionshare/wiki)) Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services. `(linux, windows, mac, qt5)`
   1. **Pootle** - ([Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/), [WP](https://en.wikipedia.org/wiki/Pootle)) Web application for collaborative translation. `(server)`
   1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification. `(server)`
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform. `(server)`

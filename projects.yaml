@@ -523,6 +523,12 @@ projects:
     home_url: https://onionshare.org/
     desc: Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services.
     tags: ["communication", "linux", "windows", "mac", "qt5"]
+  - name: SecureDrop
+    repo_url: https://github.com/freedomofpress/securedrop
+    home_url: https://securedrop.org/
+    docs_url: https://docs.securedrop.org
+    desc: Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation).
+    tags: ["communication", "server", "flask"]
 
 ## Internet
   - name: Reddit

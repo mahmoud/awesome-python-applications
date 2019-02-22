@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **233**
+This document is an always-growing list of **234**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,12 +43,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(100)*
+1. <a href="#tag-dev">Dev</a> *(101)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(22)*
     1. <a href="#tag-dev.security">Security</a> *(11)*
-    1. <a href="#tag-dev.docs">Docs</a> *(4)*
+    1. <a href="#tag-dev.docs">Docs</a> *(5)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
@@ -296,6 +296,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.docs" href="#tag-dev.docs">Docs</a>
 
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
+  1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US/), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN) `(server, django)`
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/)) Simple, customizable project documentation, with built-in dev server.
   1. **readthedocs.org** - ([Repo](https://github.com/rtfd/readthedocs.org), [Home](https://readthedocs.org/), [Docs](https://docs.readthedocs.io/en/stable/)) Continuous integration platform for building and hosting documentation. `(server, django)`
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).

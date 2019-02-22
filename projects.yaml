@@ -861,6 +861,12 @@ projects:
     docs_url: https://docs.readthedocs.io/en/stable/
     desc: Continuous integration platform for building and hosting documentation.
     tags: ["docs", "server", "django"]
+  - name: Kuma
+    repo_url: https://github.com/mozilla/kuma
+    home_url: https://developer.mozilla.org/en-US/
+    docs_url: https://kuma.readthedocs.io/en/latest/installation.html
+    desc: The platform powering the Mozilla Developer Network (MDN)
+    tags: ["docs", "server", "django"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     home_url: http://robotframework.org/

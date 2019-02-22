@@ -397,6 +397,12 @@ projects:
     home_url: https://www.giuspen.com/cherrytree/
     desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
     tags: ["organization", "gtk", "linux", "windows"]
+  - name: Paperwork
+    repo_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork
+    home_url: https://openpaper.work
+    docs_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home
+    desc: "Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search."
+    tags: ["organization", "gtk", "linux", "windows"]
 
 ## Communication
 

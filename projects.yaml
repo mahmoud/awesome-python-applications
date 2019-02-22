@@ -1369,7 +1369,13 @@ projects:
     home_url: https://pulpproject.org/
     desc: Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat.
     tags: ["ops", "server"]
-
+  - name: DCOS
+    repo_url: https://github.com/dcos/dcos
+    docs_url: https://dcos.io/docs/
+    home_url: https://dcos.io/
+    wp_url: https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS
+    desc: Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
+    tags: ["ops", "server"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

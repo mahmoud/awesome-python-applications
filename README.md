@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **235**
+This document is an always-growing list of **236**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,10 +43,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(101)*
+1. <a href="#tag-dev">Dev</a> *(102)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
-    1. <a href="#tag-dev.ops">Ops</a> *(22)*
+    1. <a href="#tag-dev.ops">Ops</a> *(23)*
     1. <a href="#tag-dev.security">Security</a> *(11)*
     1. <a href="#tag-dev.docs">Docs</a> *(5)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
@@ -262,6 +262,7 @@ Projects related to software development and adjacent technical areas.
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
   1. **Beaker** - ([Repo](https://git.beaker-project.org/cgit/beaker/), [Home](https://beaker-project.org/), [Docs](https://beaker-project.org/docs/)) Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora. `(server, flask)`
   1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments. `(linux, server)`
+  1. **DCOS** - ([Repo](https://github.com/dcos/dcos), [Home](https://dcos.io/), [WP](https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS), [Docs](https://dcos.io/docs/)) Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos). `(server)`
   1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers. `(linux)`
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine). `(linux, haskell)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances/), [Docs](https://glances.readthedocs.io/en/stable/)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, linux, windows, mac, server)`

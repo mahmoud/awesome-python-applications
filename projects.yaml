@@ -855,6 +855,12 @@ projects:
     home_url: https://www.mkdocs.org/
     desc: Simple, customizable project documentation, with built-in dev server.
     tags: ["docs"]
+  - name: readthedocs.org
+    repo_url: https://github.com/rtfd/readthedocs.org
+    home_url: https://readthedocs.org/
+    docs_url: https://docs.readthedocs.io/en/stable/
+    desc: Continuous integration platform for building and hosting documentation.
+    tags: ["docs", "server", "django"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     home_url: http://robotframework.org/

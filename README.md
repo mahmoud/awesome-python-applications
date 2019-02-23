@@ -102,7 +102,7 @@ thereof), see Architectures. -->
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
-
+  1. **Blender** - ([Repo](https://git.blender.org/gitweb/), [Home](https://www.blender.org/)) Blender is the free and open source 3D creation suite.`(linux, windows, mac)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(linux, windows, mac, qt)`
   1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models `(linux, windows, mac, qt)`

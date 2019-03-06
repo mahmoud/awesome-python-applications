@@ -23,11 +23,11 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(148)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(147)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(94)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(92)*
-1. <a href="#tag-console">Console</a> *(9)*
+1. <a href="#tag-desktop">Desktop</a> *(149)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(148)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(95)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(93)*
+1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
 1. <a href="#tag-server">Server</a> *(79)*
@@ -158,6 +158,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(internet, windows, mac, qt5)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim. `(productivity, curses)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest/)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(dev, gtk)`
+  1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest/)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, windows, mac, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, windows, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, windows, mac)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, windows, mac)`
@@ -264,6 +265,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(games, linux, android, kivy, tk)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, mac, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(internet, linux, mac, qt5)`
+  1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest/)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, mac, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, linux, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, linux, mac)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, linux, mac)`
@@ -360,6 +362,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(internet, linux, windows, qt5)`
+  1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest/)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, windows, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org), [Docs](https://sabnzbd.org/wiki/)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, linux, windows, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git/), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, linux, windows)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, linux, windows)`
@@ -394,6 +397,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **howdoi** - ([Repo](https://github.com/gleitz/howdoi), [PyPI](https://pypi.org/project/howdoi/)) Instant coding answers from StackOverflow on your command line. `(dev)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole/), [Docs](https://magic-wormhole.readthedocs.io/en/latest/)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, linux, mac)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(graphics, linux, mac)`
+  1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest/)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, windows, mac)`
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(internet)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(security)`
 
@@ -420,7 +424,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **CKAN** - ([Repo](https://github.com/ckan/ckan), [Home](https://ckan.org/)) Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites. `(science, flask)`
   1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_(software))) Linux installation server that allows for rapid setup of network installation environments. `(ops, linux)`
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality. `(science)`
-  1. **DCOS** - ([Repo](https://github.com/dcos/dcos), [Home](https://dcos.io/), [WP](https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS), [Docs](https://dcos.io/docs/)) Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos). `(ops)`
+  1. **DCOS** - ([Repo](https://github.com/dcos/dcos), [Home](https://dcos.io/), [WP](https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS), [Docs](https://dcos.io/docs/)) Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos). `(ops, corp)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, windows, mac, gtk)`
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI. `(pkg_repo)`
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(science, django)`

@@ -1237,6 +1237,11 @@ projects:
     repo_url: https://github.com/pantsbuild/pants
     desc: Build system designed for monolithic repositories.
     tags: ["build", "corp", "linux", "mac"]
+  - name: redo
+    repo_url: https://github.com/apenwarr/redo
+    docs_url: https://redo.readthedocs.io/en/latest/
+    desc: A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein).
+    tags: ["build", "console", "linux", "windows", "mac"]
 
 ## Shells
   - name: Oil
@@ -1375,7 +1380,7 @@ projects:
     home_url: https://dcos.io/
     wp_url: https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS
     desc: Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
-    tags: ["ops", "server"]
+    tags: ["ops", "server", "corp"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

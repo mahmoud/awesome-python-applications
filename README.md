@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **237**
+This document is an always-growing list of **238**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -30,7 +30,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(17)*
+1. <a href="#tag-internet">Internet</a> *(18)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(9)*
@@ -64,6 +64,7 @@ thereof), see Architectures. -->
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
+  1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar/), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`

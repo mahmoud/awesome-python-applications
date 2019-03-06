@@ -625,6 +625,11 @@ projects:
     repo_url: https://github.com/sivel/speedtest-cli
     desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
     tags: ["internet", "console"]
+  - name: KindleEar
+    repo_url: https://github.com/cdhigh/KindleEar/
+    docs_url: https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md
+    desc: Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email.
+    tags: ["internet", "server"]
 
 ## Education
 

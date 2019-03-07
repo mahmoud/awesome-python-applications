@@ -1054,6 +1054,11 @@ projects:
     docs_url: https://www.spiderfoot.net/documentation/
     desc: Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more.
     tags: ["security", "linux", "windows", "mac", "server", "docker"]
+  - name: MozDef
+    repo_url: https://github.com/mozilla/MozDef
+    docs_url: https://mozdef.readthedocs.io/en/latest/?badge=latest
+    desc: Security incident automation with metrics and collaboration tools for defenders.
+    tags: ["security", "server"]
 
 ## Code Review
   - name: Review Board

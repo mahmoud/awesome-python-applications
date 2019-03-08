@@ -535,6 +535,12 @@ projects:
     docs_url: https://docs.securedrop.org
     desc: Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation).
     tags: ["communication", "server", "flask"]
+  - name: Hangups
+    repo_url: https://github.com/tdryer/hangups
+    docs_url: https://hangups.readthedocs.io/en/latest/
+    snap_url: https://snapcraft.io/hangups
+    desc: Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features.
+    tags: ["communication", "linux", "mac", "docker", "snap"]
 
 ## Internet
   - name: Reddit

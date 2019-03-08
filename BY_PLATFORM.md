@@ -30,8 +30,8 @@ segmentation by distribution (i.e., Docker, etc.)
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(85)*
-    1. <a href="#tag-server.docker">Docker</a> *(4)*
+1. <a href="#tag-server">Server</a> *(86)*
+    1. <a href="#tag-server.docker">Docker</a> *(5)*
     1. <a href="#tag-server.flatpak">Flatpak</a> *(0)*
     1. <a href="#tag-server.appimage">Appimage</a> *(0)*
     1. <a href="#tag-server-other">Other Server projects</a> *(81)*
@@ -414,6 +414,7 @@ segmentation by distribution (i.e., Docker, etc.)
 ### <a id="tag-server.docker" href="#tag-server.docker">Docker</a>
 
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, windows)`
+  1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(graphics, hardware)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest/)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, mac, snap)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, mac)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation/)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, mac, server)`

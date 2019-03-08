@@ -247,6 +247,11 @@ projects:
     home_url: http://thumbor.org/
     desc: Photo thumbnail service with resizing, flipping, and smart cropping of images.
     tags: ["graphics", "dev", "server"]
+  - name: cartoonify / Draw This.
+    repo_url: https://github.com/danmacnish/cartoonify
+    home_url: https://www.kapwing.com/cartoonify
+    desc: "Turn a photograph into a toddler's drawing. Automatically!"
+    tags: ["graphics", "hardware", "docker"]
 
 ## Games
 

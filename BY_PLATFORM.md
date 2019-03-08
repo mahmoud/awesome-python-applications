@@ -23,15 +23,15 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(151)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(150)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(96)*
+1. <a href="#tag-desktop">Desktop</a> *(152)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(151)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(97)*
     1. <a href="#tag-desktop.mac">Mac</a> *(95)*
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(84)*
-    1. <a href="#tag-server.docker">Docker</a> *(3)*
+1. <a href="#tag-server">Server</a> *(85)*
+    1. <a href="#tag-server.docker">Docker</a> *(4)*
     1. <a href="#tag-server.flatpak">Flatpak</a> *(0)*
     1. <a href="#tag-server.appimage">Appimage</a> *(0)*
     1. <a href="#tag-server-other">Other Server projects</a> *(81)*
@@ -46,6 +46,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, windows, mac, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/)) Agentless, playbook-based automation. `(ops, mac, corp)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, windows)`
+  1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, windows, docker)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, windows, mac, gtk)`
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, mac)`
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey/)) Desktop automation utility for Linux and X11. `(productivity, gtk, qt)`
@@ -198,6 +199,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, mac, qt5)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, linux)`
+  1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, docker)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk/), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, mac, gtk)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets/)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, linux, mac)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol `(communication, linux, mac, curses, kivy, qt4)`
@@ -411,6 +413,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-server.docker" href="#tag-server.docker">Docker</a>
 
+  1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, windows)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest/)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, mac, snap)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, mac)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation/)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, mac, server)`

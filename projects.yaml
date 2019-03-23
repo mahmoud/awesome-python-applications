@@ -351,6 +351,12 @@ projects:
     pypi_url: https://pypi.org/project/mackup
     desc: Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
     tags: ["productivity", "linux", "mac"]
+  - name: ScrapydWeb
+    repo_url: https://github.com/my8100/scrapydweb
+    pypi_url: https://pypi.org/project/scrapydweb/
+    docs_url: https://github.com/my8100/files/blob/master/scrapydweb/README.md
+    desc: A full-featured web UI for Scrapyd cluster management, which supports Scrapy Log Analysis & Visualization, Auto Packaging, Timer Tasks, Email Notice and so on.
+    tags: ["productivity", "flask", "server"]
 
 
 ## Organization

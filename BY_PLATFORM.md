@@ -23,15 +23,15 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(152)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(151)*
+1. <a href="#tag-desktop">Desktop</a> *(153)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(152)*
     1. <a href="#tag-desktop.windows">Windows</a> *(97)*
     1. <a href="#tag-desktop.mac">Mac</a> *(95)*
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(86)*
-    1. <a href="#tag-server.docker">Docker</a> *(5)*
+1. <a href="#tag-server">Server</a> *(87)*
+    1. <a href="#tag-server.docker">Docker</a> *(6)*
     1. <a href="#tag-server.flatpak">Flatpak</a> *(0)*
     1. <a href="#tag-server.appimage">Appimage</a> *(0)*
     1. <a href="#tag-server-other">Other Server projects</a> *(81)*
@@ -150,6 +150,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(pkg_mgr, windows, mac)`
   1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(pkg_mgr)`
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag/), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(audio, qt4)`
+  1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, docker, server)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(science, gtk)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(games, windows, gtk)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, windows)`
@@ -417,6 +418,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(graphics, hardware)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest/)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, mac, snap)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, mac)`
+  1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, linux, server)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation/)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, mac, server)`
 
 ### <a id="tag-server.flatpak" href="#tag-server.flatpak">Flatpak</a>
@@ -451,7 +453,6 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger), [Home](https://m.me/J.A.R.V.I.S.on.Messenger)) Facebook Messenger bot with a wide assortment of features. `(misc)`
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_(software))) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014. `(scm)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar/), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(internet)`
-  1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) Multi-platform remote administration tool and post-exploitation framework. `(security)`
   1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US/), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN) `(docs, django)`
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface. `(dev)`
   1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives. `(communication)`
@@ -475,6 +476,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, cms, plone)`
   1. **Pootle** - ([Repo](https://github.com/translate/pootle), [Home](http://pootle.translatehouse.org/), [WP](https://en.wikipedia.org/wiki/Pootle)) Web application for collaborative translation. `(communication)`
   1. **Pulp** - ([Repo](https://github.com/pulp/pulp), [Home](https://pulpproject.org/), [Docs](https://docs.pulpproject.org/en/3.0/nightly/)) Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat. `(ops)`
+  1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, linux, docker)`
   1. **PyCon** - ([Repo](https://github.com/PyCon/pycon), [Home](https://us.pycon.org/), [Docs](https://pycon.readthedocs.io/en/latest/)) Content management and conference organization web application, based on Django and [Symposion](https://github.com/pinax/symposion). `(cms, django)`
   1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification. `(communication)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(video, static_site, linux)`

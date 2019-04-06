@@ -23,16 +23,16 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(153)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(152)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(97)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(95)*
+1. <a href="#tag-desktop">Desktop</a> *(154)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(153)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(98)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(96)*
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(87)*
+1. <a href="#tag-server">Server</a> *(88)*
     1. <a href="#tag-server.docker">Docker</a> *(6)*
-    1. <a href="#tag-server.flatpak">Flatpak</a> *(0)*
+    1. <a href="#tag-server.flatpak">Flatpak</a> *(1)*
     1. <a href="#tag-server.appimage">Appimage</a> *(0)*
     1. <a href="#tag-server-other">Other Server projects</a> *(81)*
 
@@ -80,6 +80,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(audio, windows, mac, qt5)`
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(communication, windows, mac, gtk)`
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine). `(ops, haskell)`
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, windows, mac, flatpak, gtk)`
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit/)) The default GNOME text editor makes extensive use of Python, in addition to C. `(editor, c, gtk)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, windows, mac, qt4, qt5)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances/), [Docs](https://glances.readthedocs.io/en/stable/)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, windows, mac, server)`
@@ -222,6 +223,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(games, linux, pygame)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(audio, linux, mac, qt5)`
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(communication, linux, mac, gtk)`
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, linux, mac, flatpak, gtk)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, linux, mac, qt4, qt5)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances/), [Docs](https://glances.readthedocs.io/en/stable/)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, mac, qt5)`
@@ -319,6 +321,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_(software))) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(audio, linux, windows, qt)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(audio, linux, windows, qt5)`
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(communication, linux, windows, gtk)`
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, linux, windows, flatpak, gtk)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, linux, windows, qt4, qt5)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances/), [Docs](https://glances.readthedocs.io/en/stable/)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, windows, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, windows, qt5)`
@@ -423,6 +426,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-server.flatpak" href="#tag-server.flatpak">Flatpak</a>
 
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, linux, windows, mac, gtk)`
 
 ### <a id="tag-server.appimage" href="#tag-server.appimage">Appimage</a>
 

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **244**
+This document is an always-growing list of **245**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(19)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
-1. <a href="#tag-graphics">Graphics</a> *(10)*
+1. <a href="#tag-graphics">Graphics</a> *(11)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(12)*
 1. <a href="#tag-organization">Organization</a> *(11)*
@@ -43,12 +43,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(106)*
+1. <a href="#tag-dev">Dev</a> *(107)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.ops">Ops</a> *(23)*
     1. <a href="#tag-dev.security">Security</a> *(13)*
-    1. <a href="#tag-dev.docs">Docs</a> *(5)*
+    1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
@@ -107,6 +107,7 @@ thereof), see Architectures. -->
 
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(docker, hardware)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(docs, linux, windows, mac, flatpak, gtk)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(linux, windows, mac, qt)`
   1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models `(linux, windows, mac, qt)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(linux, windows, mac, gtk)`
@@ -305,6 +306,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.docs" href="#tag-dev.docs">Docs</a>
 
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
+  1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, linux, windows, mac, flatpak, gtk)`
   1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US/), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN) `(server, django)`
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/)) Simple, customizable project documentation, with built-in dev server.
   1. **readthedocs.org** - ([Repo](https://github.com/rtfd/readthedocs.org), [Home](https://readthedocs.org/), [Docs](https://docs.readthedocs.io/en/stable/)) Continuous integration platform for building and hosting documentation. `(server, django)`

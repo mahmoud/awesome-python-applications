@@ -869,32 +869,6 @@ projects:
     home_url: https://coala.io/
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags: ["dev"]
-  - name: asciidoc
-    repo_url: https://github.com/asciidoc/asciidoc
-    desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
-    tags: ["docs"]
-  - name: Sphinx
-    repo_url: https://github.com/sphinx-doc/sphinx
-    home_url: http://sphinx-doc.org/
-    desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
-    tags: ["docs"]
-  - name: mkdocs
-    repo_url: https://github.com/mkdocs/mkdocs
-    home_url: https://www.mkdocs.org/
-    desc: Simple, customizable project documentation, with built-in dev server.
-    tags: ["docs"]
-  - name: readthedocs.org
-    repo_url: https://github.com/rtfd/readthedocs.org
-    home_url: https://readthedocs.org/
-    docs_url: https://docs.readthedocs.io/en/stable/
-    desc: Continuous integration platform for building and hosting documentation.
-    tags: ["docs", "server", "django"]
-  - name: Kuma
-    repo_url: https://github.com/mozilla/kuma
-    home_url: https://developer.mozilla.org/en-US/
-    docs_url: https://kuma.readthedocs.io/en/latest/installation.html
-    desc: The platform powering the Mozilla Developer Network (MDN)
-    tags: ["docs", "server", "django"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     home_url: http://robotframework.org/
@@ -960,6 +934,39 @@ projects:
     home_url: https://www.kinto-storage.org/
     desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
     tags: ["dev", "Server"]
+
+## Docs
+  - name: asciidoc
+    repo_url: https://github.com/asciidoc/asciidoc
+    desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
+    tags: ["docs"]
+  - name: Sphinx
+    repo_url: https://github.com/sphinx-doc/sphinx
+    home_url: http://sphinx-doc.org/
+    desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
+    tags: ["docs"]
+  - name: mkdocs
+    repo_url: https://github.com/mkdocs/mkdocs
+    home_url: https://www.mkdocs.org/
+    desc: Simple, customizable project documentation, with built-in dev server.
+    tags: ["docs"]
+  - name: readthedocs.org
+    repo_url: https://github.com/rtfd/readthedocs.org
+    home_url: https://readthedocs.org/
+    docs_url: https://docs.readthedocs.io/en/stable/
+    desc: Continuous integration platform for building and hosting documentation.
+    tags: ["docs", "server", "django"]
+  - name: Kuma
+    repo_url: https://github.com/mozilla/kuma
+    home_url: https://developer.mozilla.org/en-US/
+    docs_url: https://kuma.readthedocs.io/en/latest/installation.html
+    desc: The platform powering the Mozilla Developer Network (MDN)
+    tags: ["docs", "server", "django"]
+  - name: Gaphor
+    repo_url: https://github.com/gaphor/gaphor
+    docs_url: https://gaphor.readthedocs.io/en/latest/
+    desc: Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners.
+    tags: ["docs", "graphics", "gtk", "linux", "windows", "mac", "flatpak"]
 
 ## Editors
   - name: Spyder IDE

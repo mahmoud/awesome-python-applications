@@ -189,6 +189,7 @@ projects:
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     home_url: https://www.openshot.org/
+    fund_url: https://www.patreon.com/openshot
     wp_url: https://en.wikipedia.org/wiki/OpenShot
     tags: ["video", "qt5", "linux", "windows", "mac"]
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
@@ -203,6 +204,7 @@ projects:
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
+    fund_url: https://salt.bountysource.com/teams/freecad
     tags: ["graphics", "qt", "cpp", "linux", "windows", "mac"]
     desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: MakeHuman
@@ -252,6 +254,12 @@ projects:
     home_url: https://www.kapwing.com/cartoonify
     desc: "Turn a photograph into a toddler's drawing. Automatically!"
     tags: ["graphics", "hardware", "docker"]
+  - name: Octoprint
+    repo_url: https://github.com/foosel/OctoPrint
+    home_url: https://octoprint.org/
+    fund_url: https://www.patreon.com/foosel
+    desc: Web-based controller for consumer 3D printers.
+    tags: ["graphics", "hardware", "flask", "server"]
 
 ## Games
 
@@ -285,6 +293,7 @@ projects:
   - name: Lutris
     repo_url: https://github.com/lutris/lutris
     home_url: https://lutris.net/
+    fund_url: https://www.patreon.com/lutris
     desc: Gaming platform for GNU/Linux, managing game installations with a unified interface.
     tags: ["games", "gtk", "linux"]
 
@@ -358,6 +367,7 @@ projects:
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre/
     home_url: https://calibre-ebook.com/
+    fund_url: https://www.patreon.com/kovidgoyal
     desc: E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
     tags: ["organization", "qt5", "linux", "windows", "mac"]
   - name: PyMedusa
@@ -405,6 +415,7 @@ projects:
   - name: Paperwork
     repo_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork
     home_url: https://openpaper.work
+    fund_url: https://www.patreon.com/openpaper
     docs_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home
     desc: "Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search."
     tags: ["organization", "gtk", "linux", "windows"]
@@ -420,6 +431,7 @@ projects:
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
     home_url: https://riot.im/app/#/home
+    fund_url: https://www.patreon.com/matrixdotorg/overview
     desc: "Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/)."
     tags: ["communication", "server"]
   - name: Zulip
@@ -579,6 +591,7 @@ projects:
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
+    fund_url: https://www.patreon.com/deluge_cas
     desc: Popular, lightweight, cross-platform BitTorrent client.
     tags: ["internet", "gtk", "linux", "windows", "mac", "server"]
   - name: Tribler

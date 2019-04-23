@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **245**
+This document is an always-growing list of **246**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(19)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
-1. <a href="#tag-graphics">Graphics</a> *(11)*
+1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(12)*
 1. <a href="#tag-organization">Organization</a> *(11)*
@@ -63,7 +63,7 @@ thereof), see Architectures. -->
 
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(organization, linux, windows, docker)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_(news_aggregator))) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, curses)`
-  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
+  1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar/), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
@@ -98,7 +98,7 @@ thereof), see Architectures. -->
 ## <a id="tag-video" href="#tag-video">Video</a>
 
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(linux, gtk)`
-  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, windows, mac, qt5)`
+  1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot), [Fund](https://www.patreon.com/openshot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, windows, mac, qt5)`
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
@@ -106,13 +106,14 @@ thereof), see Architectures. -->
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(docker, hardware)`
-  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
+  1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD), [Fund](https://salt.bountysource.com/teams/freecad)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest/)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(docs, linux, windows, mac, flatpak, gtk)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(linux, windows, mac, qt)`
   1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models `(linux, windows, mac, qt)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(linux, windows, mac, gtk)`
   1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract. `(linux, gtk)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(linux, mac, console)`
+  1. **Octoprint** - ([Repo](https://github.com/foosel/OctoPrint), [Home](https://octoprint.org/), [Fund](https://www.patreon.com/foosel)) Web-based controller for consumer 3D printers. `(server, flask, hardware)`
   1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(linux, gtk)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_(program))) Feature-rich, cross-platform illustration program. `(linux, windows, mac, gtk, wx)`
   1. **Thumbor** - ([Repo](https://github.com/thumbor/thumbor), [Home](http://thumbor.org/), [Docs](https://thumbor.readthedocs.io/)) Photo thumbnail service with resizing, flipping, and smart cropping of images. `(dev, server)`
@@ -121,7 +122,7 @@ thereof), see Architectures. -->
 
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, windows, pygame)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(linux, windows, qt4)`
-  1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(linux, gtk)`
+  1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/), [Fund](https://www.patreon.com/lutris)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(linux, gtk)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(linux, windows, gtk)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc/)) Highly-portable collection of solitaire card games. `(linux, windows, android, kivy, tk)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, windows, mac)`
@@ -144,12 +145,12 @@ thereof), see Architectures. -->
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, linux, windows, docker)`
-  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
+  1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre/), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree/)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`
-  1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(linux, windows, gtk)`
+  1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(linux, windows, gtk)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
@@ -176,7 +177,7 @@ thereof), see Architectures. -->
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms/)) Interactive SMS text messaging platform. `(server)`
   1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
   1. **SecureDrop** - ([Repo](https://github.com/freedomofpress/securedrop), [Home](https://securedrop.org/), [Docs](https://docs.securedrop.org)) Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation). `(server, flask)`
-  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/). `(server)`
+  1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app/#/home), [Fund](https://www.patreon.com/matrixdotorg/overview)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/). `(server)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(linux, windows, mac)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(linux, windows, mac, gtk)`
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration. `(server)`

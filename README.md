@@ -342,7 +342,7 @@ Projects related to software development and adjacent technical areas.
 
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/). `(server, corp)`
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI. `(server)`
-  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
+  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse), [Fund](https://psfmember.org/civicrm/contribute/transact?reset=1&id=13), [Docs](https://warehouse.pypa.io/)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>
 

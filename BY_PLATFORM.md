@@ -511,7 +511,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest/)) Modular web-based ERP, designed for companies of all sizes. `(erp, fdn)`
   1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc/), [Home](http://viewvc.org)) Browser interface for CVS and Subversion version control repositories. `(scm)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(cms, django)`
-  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(pkg_repo, fnd)`
+  1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse), [Fund](https://psfmember.org/civicrm/contribute/transact?reset=1&id=13), [Docs](https://warehouse.pypa.io/)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(pkg_repo, fnd)`
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate/)) Web based localization tool with tight version control integration. `(communication)`
   1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest/)) Powerful chat server and web client with support for threaded conversations. `(communication)`
 

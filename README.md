@@ -141,6 +141,7 @@ thereof), see Architectures. -->
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim. `(linux, curses)`
   1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
+  1. **ScrapydWeb** - ([Repo](https://github.com/my8100/scrapydweb), [PyPI](https://pypi.org/project/scrapydweb/), [Docs](https://github.com/my8100/files/blob/master/scrapydweb/README.md)) A full-featured web UI for Scrapyd cluster management, which supports Scrapy Log Analysis & Visualization, Auto Packaging, Timer Tasks, Email Notice and so on. `(server, flask)`
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 

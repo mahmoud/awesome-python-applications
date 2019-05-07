@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(154)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(153)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(98)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(96)*
+1. <a href="#tag-desktop">Desktop</a> *(155)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(154)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(99)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(97)*
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -147,6 +147,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support. `(pkg_mgr, windows, mac)`
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(pkg_mgr, windows, mac)`
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(video, gtk)`
+  1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover/), [Fund](https://www.openstenoproject.org/donate/), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(productivity, windows, mac, hardware, qt5)`
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(editor, c, gtk)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(pkg_mgr, windows, mac)`
   1. **Portage** - ([Repo](https://anongit.gentoo.org/git/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_(software))) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(pkg_mgr)`
@@ -266,6 +267,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(static_site, linux, mac)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support. `(pkg_mgr, linux, mac)`
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(pkg_mgr, linux, mac)`
+  1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover/), [Fund](https://www.openstenoproject.org/donate/), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(productivity, linux, mac, hardware, qt5)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, mac)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(games, linux, gtk)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, linux)`
@@ -369,6 +371,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli/)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(ops, linux)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable/), [WP](https://en.wikipedia.org/wiki/Pip_(package_manager))) Python's go-to package manager, with a wide range of features and platform support. `(pkg_mgr, linux, windows)`
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest/)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(pkg_mgr, linux, windows)`
+  1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover/), [Fund](https://www.openstenoproject.org/donate/), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(productivity, linux, windows, hardware, qt5)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs/)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_(software))) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5 `(internet, linux, windows, qt5)`

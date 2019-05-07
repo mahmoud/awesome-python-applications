@@ -360,7 +360,13 @@ projects:
     pypi_url: https://pypi.org/project/mackup
     desc: Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
     tags: ["productivity", "linux", "mac"]
-
+  - name: Plover
+    repo_url: https://github.com/openstenoproject/plover
+    home_url: https://www.openstenoproject.org/plover/
+    docs_url: https://github.com/openstenoproject/plover/wiki
+    fund_url: https://www.openstenoproject.org/donate/
+    desc: Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application.
+    tags: ["productivity", "hardware", "qt5", "windows", "linux", "mac"]
 
 ## Organization
 

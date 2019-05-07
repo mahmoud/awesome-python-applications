@@ -877,7 +877,7 @@ projects:
     home_url: https://sentry.io/
     desc: Web service and frontend for cross-platform application monitoring, with a focus on error reporting.
     tags: ["dev", "flask", "corp", "server"]
-  - name: Coala
+  - name: coala
     repo_url: https://github.com/coala/coala
     home_url: https://coala.io/
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.

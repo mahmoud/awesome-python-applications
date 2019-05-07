@@ -365,7 +365,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(linux, mac)`
   1. **autojump** - ([Repo](https://github.com/wting/autojump)) A `cd` with many heuristics to speed up console filesystem navigation. `(console)`
-  1. **Coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
+  1. **coala** - ([Repo](https://github.com/coala/coala), [Home](https://coala.io/)) Unified command-line interface for linting and fixing code, regardless of programming language.
   1. **Cookiecutter** - ([Repo](https://github.com/audreyr/cookiecutter), [PyPI](https://pypi.org/project/cookiecutter/), [Docs](https://cookiecutter.readthedocs.io/en/latest/)) Utility for creating new projects from shareable templates. `(console)`
   1. **howdoi** - ([Repo](https://github.com/gleitz/howdoi), [PyPI](https://pypi.org/project/howdoi/)) Instant coding answers from StackOverflow on your command line. `(console)`
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.

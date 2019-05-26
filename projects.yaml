@@ -367,6 +367,11 @@ projects:
     fund_url: https://www.openstenoproject.org/donate/
     desc: Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application.
     tags: ["productivity", "hardware", "qt5", "windows", "linux", "mac"]
+  - name: wttr.in
+    repo_url: https://github.com/chubin/wttr.in
+    home_url: http://wttr.in/
+    desc: Weather forecast service that supports various representations, suitable for the terminal or web browser.
+    tags: ["productivity", "flask", "server"]
 
 ## Organization
 

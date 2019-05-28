@@ -142,6 +142,7 @@ thereof), see Architectures. -->
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover/), [Fund](https://www.openstenoproject.org/donate/), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(linux, windows, mac, hardware, qt5)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) Console-based file manager, inspired by vim. `(linux, curses)`
   1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
+  1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) jrnl is a simple, ecncrypted journal application for your command line. 
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>

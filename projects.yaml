@@ -436,6 +436,11 @@ projects:
     docs_url: https://github.com/pirate/ArchiveBox/wiki
     desc: Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc.
     tags: ["organization", "internet", "linux", "windows", "docker"]
+  - name: jrnl
+    repo_url: https://github.com/maebert/jrnl
+    home_url: http://jrnl.sh/
+    desc: Simple, ecncrypted journal application for your command line.
+    tags: ["organization", "homebrew", "linux", "mac", "windows"]
 
 ## Communication
 

@@ -1498,6 +1498,11 @@ projects:
     repo_url: https://xpra.org/svn/Xpra/trunk/
     desc: Cross-platform remote display server and client for forwarding applications and desktop screens.
     tags: ["misc", "linux", "windows"]
+  - name: Signalum Desktop
+    home_url: https://bisoncorps.github.io/signalum-desktop/
+    repo_url: https://github.com/bisoncorps/signalum-desktop/
+    desc: Desktop application for real time monitoring of in-range Bluetooth and Wi-Fi devices.
+    tags: ["misc", "linux", "qt5"]
   - name: Wicd
     wp_url: https://en.wikipedia.org/wiki/Wicd
     home_url: http://wicd.sourceforge.net/download.php

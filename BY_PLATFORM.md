@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(156)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(155)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(100)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(98)*
+1. <a href="#tag-desktop">Desktop</a> *(157)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(156)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(101)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(99)*
 1. <a href="#tag-console">Console</a> *(10)*
 1. <a href="#tag-mobile">Mobile</a> *(0)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -68,6 +68,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, windows, mac, corp)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, windows, mac, server, gtk)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_(software)), [Docs](https://dnf.readthedocs.io/en/latest/)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(pkg_mgr, corp)`
+  1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, dev, windows, mac)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, windows, mac)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, windows, mac, qt5)`
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(audio, windows, mac, gtk)`
@@ -216,6 +217,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, mac)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, mac, corp)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, mac, server, gtk)`
+  1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, dev, linux, mac)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, linux, mac)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, linux, mac, qt5)`
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, mac, gtk)`
@@ -318,6 +320,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, windows)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_(package_manager))) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, windows, corp)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, windows, server, gtk)`
+  1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, dev, linux, windows)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, linux, windows)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, linux, windows, qt5)`
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`

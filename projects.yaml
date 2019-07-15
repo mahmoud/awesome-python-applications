@@ -962,7 +962,13 @@ projects:
     docs_url: http://docs.kinto-storage.org/
     home_url: https://www.kinto-storage.org/
     desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
-    tags: ["dev", "Server"]
+    tags: ["dev", "server"]
+  - name: Taiga
+    repo_url: https://github.com/taigaio/taiga-back
+    docs_url: http://taigaio.github.io/taiga-doc/dist/
+    home_url: https://taiga.io/
+    desc: Web application built for managing projects with agile development processes.
+    tags: ["dev", "organization", "django", "server"]
 
 ## Docs
   - name: asciidoc

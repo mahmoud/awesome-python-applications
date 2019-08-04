@@ -784,7 +784,7 @@ projects:
   - name: OPEM
     repo_url: https://github.com/ECSIM/opem
     docs_url: https://www.ecsim.ir/opem/doc/
-    desc: The Open-Source PEMFC Simulation Tool (OPEM) is a modeling tool for evaluating the performance of proton exchange membrane fuel cells.
+    desc: A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell).
     tags: ["science", "linux", "windows", "mac"]
   
 

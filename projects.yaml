@@ -781,6 +781,12 @@ projects:
     docs_url: https://manim.readthedocs.io
     desc: Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
     tags: ["science", "linux"]
+  - name: OPEM
+    repo_url: https://github.com/ECSIM/opem
+    docs_url: https://www.ecsim.ir/opem/doc/
+    desc: A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell).
+    tags: ["science", "linux", "windows", "mac"]
+  
 
 ## Static Site Generators
 

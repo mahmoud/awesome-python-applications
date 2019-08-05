@@ -189,6 +189,7 @@ projects:
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     home_url: https://www.openshot.org/
+    fund_url: https://www.patreon.com/openshot
     wp_url: https://en.wikipedia.org/wiki/OpenShot
     tags: ["video", "qt5", "linux", "windows", "mac"]
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
@@ -203,6 +204,7 @@ projects:
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
+    fund_url: https://salt.bountysource.com/teams/freecad
     tags: ["graphics", "qt", "cpp", "linux", "windows", "mac"]
     desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: MakeHuman
@@ -247,6 +249,17 @@ projects:
     home_url: http://thumbor.org/
     desc: Photo thumbnail service with resizing, flipping, and smart cropping of images.
     tags: ["graphics", "dev", "server"]
+  - name: cartoonify / Draw This.
+    repo_url: https://github.com/danmacnish/cartoonify
+    home_url: https://www.kapwing.com/cartoonify
+    desc: "Turn a photograph into a toddler's drawing. Automatically!"
+    tags: ["graphics", "hardware", "docker"]
+  - name: Octoprint
+    repo_url: https://github.com/foosel/OctoPrint
+    home_url: https://octoprint.org/
+    fund_url: https://www.patreon.com/foosel
+    desc: Web-based controller for consumer 3D printers.
+    tags: ["graphics", "hardware", "flask", "server"]
 
 ## Games
 
@@ -280,6 +293,7 @@ projects:
   - name: Lutris
     repo_url: https://github.com/lutris/lutris
     home_url: https://lutris.net/
+    fund_url: https://www.patreon.com/lutris
     desc: Gaming platform for GNU/Linux, managing game installations with a unified interface.
     tags: ["games", "gtk", "linux"]
 
@@ -346,13 +360,25 @@ projects:
     pypi_url: https://pypi.org/project/mackup
     desc: Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
     tags: ["productivity", "linux", "mac"]
-
+  - name: Plover
+    repo_url: https://github.com/openstenoproject/plover
+    home_url: https://www.openstenoproject.org/plover/
+    docs_url: https://github.com/openstenoproject/plover/wiki
+    fund_url: https://www.openstenoproject.org/donate/
+    desc: Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application.
+    tags: ["productivity", "hardware", "qt5", "windows", "linux", "mac"]
+  - name: wttr.in
+    repo_url: https://github.com/chubin/wttr.in
+    home_url: http://wttr.in/
+    desc: Weather forecast service that supports various representations, suitable for the terminal or web browser.
+    tags: ["productivity", "flask", "server"]
 
 ## Organization
 
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre/
     home_url: https://calibre-ebook.com/
+    fund_url: https://www.patreon.com/kovidgoyal
     desc: E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
     tags: ["organization", "qt5", "linux", "windows", "mac"]
   - name: PyMedusa
@@ -397,12 +423,31 @@ projects:
     home_url: https://www.giuspen.com/cherrytree/
     desc: Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
     tags: ["organization", "gtk", "linux", "windows"]
+  - name: Paperwork
+    repo_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork
+    home_url: https://openpaper.work
+    fund_url: https://www.patreon.com/openpaper
+    docs_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home
+    desc: "Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search."
+    tags: ["organization", "gtk", "linux", "windows"]
+  - name: ArchiveBox
+    repo_url: https://github.com/pirate/ArchiveBox
+    home_url: https://archivebox.io/
+    docs_url: https://github.com/pirate/ArchiveBox/wiki
+    desc: Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc.
+    tags: ["organization", "internet", "linux", "windows", "docker"]
+  - name: jrnl
+    repo_url: https://github.com/maebert/jrnl
+    home_url: http://jrnl.sh/
+    desc: Simple, ecncrypted journal application for your command line.
+    tags: ["organization", "homebrew", "linux", "mac", "windows"]
 
 ## Communication
 
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
     home_url: https://riot.im/app/#/home
+    fund_url: https://www.patreon.com/matrixdotorg/overview
     desc: "Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/)."
     tags: ["communication", "server"]
   - name: Zulip
@@ -517,7 +562,24 @@ projects:
     pypi_url: https://pypi.org/project/magic-wormhole/
     desc: Security- and speed-focused file transfer tool with support for files, text, and directories.
     tags: ["communication", "console", "linux", "mac"]  # windows support iffy
-
+  - name: OnionShare
+    repo_url: https://github.com/micahflee/onionshare
+    docs_url: https://github.com/micahflee/onionshare/wiki
+    home_url: https://onionshare.org/
+    desc: Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services.
+    tags: ["communication", "linux", "windows", "mac", "qt5"]
+  - name: SecureDrop
+    repo_url: https://github.com/freedomofpress/securedrop
+    home_url: https://securedrop.org/
+    docs_url: https://docs.securedrop.org
+    desc: Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation).
+    tags: ["communication", "server", "flask"]
+  - name: Hangups
+    repo_url: https://github.com/tdryer/hangups
+    docs_url: https://hangups.readthedocs.io/en/latest/
+    snap_url: https://snapcraft.io/hangups
+    desc: Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features.
+    tags: ["communication", "linux", "mac", "docker", "snap"]
 
 ## Internet
   - name: Reddit
@@ -545,6 +607,7 @@ projects:
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
+    fund_url: https://www.patreon.com/deluge_cas
     desc: Popular, lightweight, cross-platform BitTorrent client.
     tags: ["internet", "gtk", "linux", "windows", "mac", "server"]
   - name: Tribler
@@ -608,6 +671,11 @@ projects:
     repo_url: https://github.com/sivel/speedtest-cli
     desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
     tags: ["internet", "console"]
+  - name: KindleEar
+    repo_url: https://github.com/cdhigh/KindleEar/
+    docs_url: https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md
+    desc: Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email.
+    tags: ["internet", "server"]
 
 ## Education
 
@@ -713,6 +781,12 @@ projects:
     docs_url: https://manim.readthedocs.io
     desc: Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
     tags: ["science", "linux"]
+  - name: OPEM
+    repo_url: https://github.com/ECSIM/opem
+    docs_url: https://www.ecsim.ir/opem/doc/
+    desc: A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell).
+    tags: ["science", "linux", "windows", "mac"]
+
 
 ## Static Site Generators
 
@@ -825,20 +899,11 @@ projects:
     home_url: https://sentry.io/
     desc: Web service and frontend for cross-platform application monitoring, with a focus on error reporting.
     tags: ["dev", "flask", "corp", "server"]
-  - name: Coala
+  - name: coala
     repo_url: https://github.com/coala/coala
     home_url: https://coala.io/
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags: ["dev"]
-  - name: asciidoc
-    repo_url: https://github.com/asciidoc/asciidoc
-    desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
-    tags: ["docs"]
-  - name: Sphinx
-    repo_url: https://github.com/sphinx-doc/sphinx
-    home_url: http://sphinx-doc.org/
-    desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
-    tags: ["docs"]
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     home_url: http://robotframework.org/
@@ -898,7 +963,63 @@ projects:
     repo_url: https://github.com/wting/autojump
     desc: A `cd` with many heuristics to speed up console filesystem navigation.
     tags: ["dev", "console"]
+  - name: kinto
+    repo_url: https://github.com/Kinto/kinto
+    docs_url: http://docs.kinto-storage.org/
+    home_url: https://www.kinto-storage.org/
+    desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
+    tags: ["dev", "server"]
+  - name: Taiga
+    repo_url: https://github.com/taigaio/taiga-back
+    docs_url: http://taigaio.github.io/taiga-doc/dist/
+    home_url: https://taiga.io/
+    desc: Web application built for managing projects with agile development processes.
+    tags: ["dev", "organization", "django", "server"]
+  - name: dvc (Data Version Control)
+    repo_url: https://github.com/iterative/dvc
+    docs_url: https://dvc.org/doc
+    home_url: https://dvc.org
+    desc: Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions.
+    tags: ["dev", "organization", "windows", "mac", "linux"]
+  - name: Polyaxon
+    repo_url: https://github.com/polyaxon/polyaxon
+    docs_url: https://docs.polyaxon.com/
+    home_url: https://polyaxon.com/
+    desc: A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more.
+    tags: ["dev", "server"]
 
+## Docs
+  - name: asciidoc
+    repo_url: https://github.com/asciidoc/asciidoc
+    desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
+    tags: ["docs"]
+  - name: Sphinx
+    repo_url: https://github.com/sphinx-doc/sphinx
+    home_url: http://sphinx-doc.org/
+    desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
+    tags: ["docs"]
+  - name: mkdocs
+    repo_url: https://github.com/mkdocs/mkdocs
+    home_url: https://www.mkdocs.org/
+    desc: Simple, customizable project documentation, with built-in dev server.
+    tags: ["docs"]
+  - name: readthedocs.org
+    repo_url: https://github.com/rtfd/readthedocs.org
+    home_url: https://readthedocs.org/
+    docs_url: https://docs.readthedocs.io/en/stable/
+    desc: Continuous integration platform for building and hosting documentation.
+    tags: ["docs", "server", "django"]
+  - name: Kuma
+    repo_url: https://github.com/mozilla/kuma
+    home_url: https://developer.mozilla.org/en-US/
+    docs_url: https://kuma.readthedocs.io/en/latest/installation.html
+    desc: The platform powering the Mozilla Developer Network (MDN)
+    tags: ["docs", "server", "django"]
+  - name: Gaphor
+    repo_url: https://github.com/gaphor/gaphor
+    docs_url: https://gaphor.readthedocs.io/en/latest/
+    desc: Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners.
+    tags: ["docs", "graphics", "gtk", "linux", "windows", "mac", "flatpak"]
 
 ## Editors
   - name: Spyder IDE
@@ -993,18 +1114,32 @@ projects:
     home_url: https://opensnitch.io/
     desc: GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall.
     tags: ["security", "qt5", "linux"]
-  - name: kinto
-    repo_url: https://github.com/Kinto/kinto
-    docs_url: http://docs.kinto-storage.org/
-    home_url: https://www.kinto-storage.org/
-    desc: Multi-platform remote administration tool and post-exploitation framework.
-    tags: ["security", "server"]
+  - name: Pupy
+    repo_url: https://github.com/n1nj4sec/pupy
+    docs_url: https://github.com/n1nj4sec/pupy/wiki/Installation
+    desc: Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets.
+    tags: ["security", "server", "linux", "docker"]
   - name: sqlmap
     repo_url: https://github.com/sqlmapproject/sqlmap
     home_url: http://sqlmap.org/
     docs_url: https://github.com/sqlmapproject/sqlmap/wiki
     desc:  Automatic SQL injection and database takeover.
     tags: ["security", "console"]
+  - name: Maltrail
+    repo_url: https://github.com/stamparm/maltrail
+    desc: Malicious traffic detection system with web-based monitoring.
+    tags: ["security", "server", "linux"]
+  - name: Spiderfoot
+    repo_url: https://github.com/smicallef/spiderfoot
+    home_url: https://www.spiderfoot.net/
+    docs_url: https://www.spiderfoot.net/documentation/
+    desc: Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more.
+    tags: ["security", "linux", "windows", "mac", "server", "docker"]
+  - name: MozDef
+    repo_url: https://github.com/mozilla/MozDef
+    docs_url: https://mozdef.readthedocs.io/en/latest/?badge=latest
+    desc: Security incident automation with metrics and collaboration tools for defenders.
+    tags: ["security", "server"]
 
 ## Code Review
   - name: Review Board
@@ -1140,6 +1275,8 @@ projects:
 ## Package repositories
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
+    fund_url: 'https://psfmember.org/civicrm/contribute/transact?reset=1&id=13'
+    docs_url: https://warehouse.pypa.io/
     desc: Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
     tags: ["pkg_repo", "fnd", "server"]
   - name: Bandersnatch
@@ -1200,6 +1337,11 @@ projects:
     repo_url: https://github.com/pantsbuild/pants
     desc: Build system designed for monolithic repositories.
     tags: ["build", "corp", "linux", "mac"]
+  - name: redo
+    repo_url: https://github.com/apenwarr/redo
+    docs_url: https://redo.readthedocs.io/en/latest/
+    desc: A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein).
+    tags: ["build", "console", "linux", "windows", "mac"]
 
 ## Shells
   - name: Oil
@@ -1326,7 +1468,19 @@ projects:
     pypi_url: https://pypi.org/project/awscli/
     desc: Official command-line interface for Amazon Web Services.
     tags: ["ops", "console", "py26"]
-
+  - name: Pulp
+    repo_url: https://github.com/pulp/pulp
+    docs_url: https://docs.pulpproject.org/en/3.0/nightly/
+    home_url: https://pulpproject.org/
+    desc: Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat.
+    tags: ["ops", "server"]
+  - name: DCOS
+    repo_url: https://github.com/dcos/dcos
+    docs_url: https://dcos.io/docs/
+    home_url: https://dcos.io/
+    wp_url: https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS
+    desc: Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
+    tags: ["ops", "server", "corp"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

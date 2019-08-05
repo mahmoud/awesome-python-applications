@@ -63,7 +63,13 @@ def main(argv=None):
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
-    cmd.run(argv=argv)  # exit behavior is handled by mw_exit_handler
+
+    try:
+        cmd.run(argv=argv)  # exit behavior is handled by mw_exit_handler
+    except Exception:
+        if os.getenv('APATITE_DEBUG'):
+            import pdb;pdb.post_mortem()
+        raise
 
     return
 

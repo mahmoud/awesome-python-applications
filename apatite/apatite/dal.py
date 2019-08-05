@@ -67,7 +67,7 @@ _PROJECT_SCHEMA = schema.Schema(
      schema.Optional(schema.Regex('\w+_url')): parse_valid_url,
      'repo_url': parse_valid_web_url,
      'desc': str,
-     'tags': list},
+     'tags': tuple},
     ignore_extra_keys=False)
 
 
@@ -146,7 +146,7 @@ class TagEntry(object):
 class Project(object):
     name = attr.ib()
     desc = attr.ib(default='')
-    tags = attr.ib(default=())
+    _tags = attr.ib(default=())
     urls = attr.ib(default=())
     _orig_data = attr.ib(default=None, repr=False, cmp=False)
 
@@ -161,8 +161,7 @@ class Project(object):
     def from_dict(cls, d):
         validate_project_dict(d)
         kwargs = dict(d)
-        tags = tuple(kwargs.get('tags', ()))
-        tags = [slugify(t) for t in tags]
+        tags = tuple([slugify(t) for t in kwargs.get('tags', ())])
         dupe_groups = redundant(tags, groups=True)
         if dupe_groups:
             raise ProjectValidationError('duplicate tags in project %r: %r'
@@ -209,7 +208,7 @@ class ProjectList(object):
 
         errors = []
         for project in project_list:
-            new_tags = soft_sorted(project.get('tags', []), first=self.tag_registry.keys())
+            new_tags = tuple(soft_sorted(project.get('tags', []), first=self.tag_registry.keys()))
             project['tags'] = new_tags
             try:
                 project_obj = Project.from_dict(project)

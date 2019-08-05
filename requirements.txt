@@ -1,6 +1,7 @@
+-e git+git@github.com:mahmoud/awesome-python-applications.git@5178156e186dc1a55c9f6c1dae8e55e1b2b612cf#egg=apatite&subdirectory=apatite
 attrs==18.2.0
--e git+git@github.com:mahmoud/boltons.git@f362ea97b2ebb123ff049fa4bac1770b2696a927#egg=boltons
--e git+git@github.com:mahmoud/face.git@b11585e69829a79e774a3f60fd5e960b9146b520#egg=face
+boltons==19.1.0
+face==19.1.2
 glom==19.1.0
 hyperlink==18.0.0
 idna==2.8

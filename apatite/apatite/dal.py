@@ -157,6 +157,26 @@ class Project(object):
                 return url
         return None
 
+    @property
+    def clone_info(self):
+        for name, url in self.urls:
+            if name == 'clone':
+                vcs, _, scheme = url.scheme.rpartition('+')
+                clone_url = url.replace(scheme=scheme)
+                return (vcs, clone_url)
+
+        repo_url = self.repo_url
+
+        if repo_url.host == 'github.com' or 'gitlab.' in repo_url.host:  # covers gitlab.gnome.org, too
+            return ('git', repo_url.replace(path=(repo_url.path[0], repo_url.path[1] + '.git')))
+        elif repo_url.path[-1].endswith('.git'):
+            return ('git', repo_url)
+        elif repo_url.host == 'bitbucket.org':
+            return ('hg', repo_url.replace(path=(repo_url.path[0], repo_url.path[1])))
+        elif repo_url.host == 'code.launchpad.net':
+            return ('bzr', 'lp:' + repo_url.path[0])
+        return None
+
     @classmethod
     def from_dict(cls, d):
         validate_project_dict(d)

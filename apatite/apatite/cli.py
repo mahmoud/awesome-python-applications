@@ -44,6 +44,8 @@ class APACLIError(APAError):
 def main(argv=None):
     cmd = Command(name='apatite', func=None)  # func=None means output help
 
+    util_cmd = Command(name='util', func=None)
+
     # add flags
     cmd.add('--file', missing='projects.yaml',
             doc='path to the project listing YAML file')
@@ -57,6 +59,7 @@ def main(argv=None):
     cmd.add(mw_ensure_project_listing)
 
     # add subcommands
+    cmd.add(shell)
     cmd.add(check)
     cmd.add(render)
     cmd.add(normalize)
@@ -71,6 +74,11 @@ def main(argv=None):
             import pdb;pdb.post_mortem()
         raise
 
+    return
+
+
+def shell(plist, pdir):
+    import pdb;pdb.set_trace()
     return
 
 
@@ -135,8 +143,10 @@ def normalize(plist, pfile):
     return
 
 
-def pull_repos():
-    pass
+def pull_repos(plist):
+    for proj in plist.project_list:
+        vcs, url = proj.clone_info
+        # etc. # TODO
 
 
 def show_missing_tags():

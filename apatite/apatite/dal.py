@@ -204,7 +204,7 @@ class Project(object):
         # print(to_yaml(ret), end='')
         ret['name'] = self.name
         ret['desc'] = self.desc
-        ret['tags'] = self.tags
+        ret['tags'] = self._tags
         for url_type, url in self.urls:
             ret[url_type + '_url'] = str(url)
         return ret
@@ -269,7 +269,7 @@ class ProjectList(object):
             plist.append(cur_pdict)
 
             # now, determine whether to emit a comment
-            topic_tags = [t for t in p.tags
+            topic_tags = [t for t in p._tags
                           if t in self.tag_registry
                           and self.tag_registry[t].tag_type == 'topic']
             if not topic_tags:
@@ -290,7 +290,7 @@ class ProjectList(object):
         # sort project list by first topic tag and name (lexi).
         tag_list = list(self.tag_registry.keys())
         def plist_sort_key(project):
-            topic_tags = [t for t in project.tags
+            topic_tags = [t for t in project._tags
                           if t in self.tag_registry
                           and self.tag_registry[t].tag_type == 'topic']
             first_topic = topic_tags[0] if topic_tags else 'misc'  # TODO: might change to uncategorized in future
@@ -299,7 +299,7 @@ class ProjectList(object):
 
         project_list = []
         for project in sorted(self.project_list, key=plist_sort_key):
-            if not project.desc[-1:] in ').':
+            if not project.desc[-1:] in ').!':
                 project = attr.evolve(project, desc=project.desc + '.')
             project_list.append(project)
 
@@ -340,7 +340,7 @@ class ProjectList(object):
                 continue
             ret[tag_entry] = []
             for project in self.project_list:
-                if tag in project.tags:
+                if tag in project._tags:
                     ret[tag_entry].append(project)
             ret[tag_entry].sort(key=lambda x: x.name.lower())
         return ret

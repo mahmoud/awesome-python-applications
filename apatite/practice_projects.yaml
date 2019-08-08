@@ -1,0 +1,153 @@
+#
+# Format of this file:
+#
+#  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
+#  - After that is "projects", a list of awesome projects
+#
+# Each project has the following format:
+#
+#  - name: Project Name
+#    repo_url: github or bitbucket or other web link to code
+#    wp_url: Wikipedia URL if there is one
+#    docs_url: URL to docs
+#    home_url: Home page if not one of the above
+#    tags: ["", ""]  # see full taxonomy elsewhere in this file
+#    desc: Handy project designed for handiness
+#
+# Only the name, repo_url, tags, and description are required.
+#
+# In the description, avoid references to Python, free/open-source, and
+# the app name itself, since those are already present/implied by being
+# on the list.
+#
+tagsonomy:
+  # NOTE: order here controls order of the rendered text
+  topic:
+    - internet
+    - audio
+    - video
+    - graphics
+    - games
+    - productivity
+    - organization
+    - communication    # messaging & collab
+    - education
+    - science
+    - cms:
+        title: CMS
+    - erp:
+        title: ERP
+    - static_site
+    - dev:
+        desc: Projects related to software development and adjacent technical areas.
+        subtags:
+          - scm:
+              title: SCM
+          - code_review
+          - ops
+          - security
+          - docs
+          - editor
+          - pkg_mgr:
+              title: Package Managers
+          - pkg_repo:
+              title: Package Repositories
+          - build
+          - shell
+    - misc
+  framework: # (?)
+    - desktop:
+        - gtk
+        - qt:
+            subtags:
+              - qt4
+              - qt5
+              - qt45    # hybrid
+        - wx
+        - pygame
+        - other
+    - network:
+        - flask
+        - django
+        - twisted
+        - gevent
+        - plone
+        - other
+    - nui:    # ?
+        - beeware     # not actually used here atm
+        - kivy
+    - hybrid:
+        - c
+        - cpp
+        - js
+
+  platform:
+    - desktop:
+        subtags:
+          - linux
+          - windows
+          - mac
+    - console
+    - mobile
+    - browser
+    - server:
+        subtags:    # sep tag for container, maybe separate top-level group for packaging in general?
+          - docker
+          - flatpak
+          - appimage
+
+  license:
+    - bsd:
+        subtags:
+          - bsd3
+          - bsd2
+    - gpl:
+        subtags:
+          - gplv2
+          - gplv3
+          - lgpl
+          - agpl
+    - apache
+    - mit
+    - proprietary
+
+projects:
+  - name: ArchiveBox
+    repo_url: https://github.com/pirate/ArchiveBox
+    home_url: https://archivebox.io/
+    docs_url: https://github.com/pirate/ArchiveBox/wiki
+    desc: Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc.
+    tags:
+      - internet
+      - organization
+      - linux
+      - windows
+      - docker
+  - name: SecureDrop
+    repo_url: https://github.com/freedomofpress/securedrop
+    home_url: https://securedrop.org/
+    docs_url: https://docs.securedrop.org/
+    desc: Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation).
+    tags:
+      - communication
+      - server
+      - flask
+  - name: Waf
+    home_url: https://waf.io/
+    repo_url: https://gitlab.com/ita1024/waf
+    docs_url: https://waf.io/book/
+    wp_url: https://en.wikipedia.org/wiki/Waf
+    desc: Cross-platform build system designed to improve on SCons.
+    tags:
+      - build
+      - linux
+  - name: MakeHuman
+    wp_url: https://en.wikipedia.org/wiki/MakeHuman
+    repo_url: https://bitbucket.org/MakeHuman/makehuman
+    tags:
+      - graphics
+      - linux
+      - windows
+      - mac
+      - qt
+    desc: 3D computer graphics software designed for the prototyping of photo realistic humanoids.

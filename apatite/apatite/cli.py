@@ -6,9 +6,15 @@
 
 import os
 import sys
+import time
+import shutil
+import subprocess
+from concurrent.futures import ThreadPoolExecutor
 
+import attr
+from tqdm import tqdm
 from face import Command, Flag, face_middleware
-from boltons.fileutils import iter_find_files, atomic_save
+from boltons.fileutils import iter_find_files, atomic_save, mkdir_p
 
 from .dal import ProjectList
 from .formatting import format_tag_toc, format_all_categories
@@ -59,10 +65,11 @@ def main(argv=None):
     cmd.add(mw_ensure_project_listing)
 
     # add subcommands
-    cmd.add(shell)
+    cmd.add(console)
     cmd.add(check)
     cmd.add(render)
     cmd.add(normalize)
+    cmd.add(pull_repos)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -77,7 +84,7 @@ def main(argv=None):
     return
 
 
-def shell(plist, pdir):
+def console(plist, pdir):
     import pdb;pdb.set_trace()
     return
 
@@ -143,18 +150,131 @@ def normalize(plist, pfile):
     return
 
 
-def pull_repos(plist):
-    for proj in plist.project_list:
-        vcs, url = proj.clone_info
-        # etc. # TODO
+@attr.s
+class ProcessResult(object):
+    returncode = attr.ib()
+    stderr = attr.ib()
+    stdout = attr.ib()
+    start_time = attr.ib()
+    end_time = attr.ib()
 
+    @property
+    def duration(self):
+        return self.end_time - self.start_time
+
+
+"""what's going to grab the pid for cancellation?
+
+problems with concurrent futures:
+
+* Why does the future need to know about the executor? Why can't we
+create a future and submit that to the executor?
+
+* It's seeming like I have to map arguments to futures and processes
+to arguments, and then I can associate futures to processes?
+
+"""
+
+def _inner_future_call():
+    # open a process
+    # register a pid
+    # communicate
+    # register result? (or return result?)
+    pass
+
+FUTS = []
+# atexit killall procs in non-done futs
+
+def _future_call(executor, args, **kw):
+    kw['stdout'] = subprocess.PIPE
+    kw['stderr'] = subprocess.PIPE
+    fut = executor.submit(subprocess.Popen, args, **kw)
+    FUTS.append(fut)
+
+    def _fut_done(fut):
+        # note: new future execution is not started until done
+        # callback is complete. basically, futures aren't really done
+        # until their callbacks are, which is fine by me!
+        if fut.cancelled():
+            return
+        started = time.time()
+        proc = fut.result()
+        stdout, stderr = proc.communicate()
+        proc_res = ProcessResult(returncode=proc.returncode,
+                                 stdout=stdout,
+                                 stderr=stderr,
+                                 start_time=started,
+                                 end_time=time.time())
+        fut.process_result = proc_res
+        if proc_res.returncode == 0:
+            executor.progress.update()
+        else:
+            print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
+            print(proc_res.stderr)
+        return
+
+    fut.add_done_callback(_fut_done)
+
+    return fut
+
+
+def format_list(list_tmpl, *a, **kw):
+    ret = []
+    for text in list_tmpl:
+        ret.append(text.format(*a, **kw))
+    return ret
+
+
+VCS_TMPLS = {'git': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
+                     'pull': ['{cmd}', 'pull']},
+             'hg': {},
+             'bzr': {}}
+
+
+def _pull_single_repo(executor, proj, repo_dir):
+    # TODO: shouldn't this be the callable submitted to the executor?
+    vcs, url = proj.clone_info
+    target_dir = repo_dir + proj.name_slug + '/'
+    if os.path.exists(target_dir):
+        # sanity check we're in the right place
+        if os.path.exists(target_dir + '../.apatite_repo_dir'):
+            shutil.rmtree(target_dir)
+        else:
+            raise Exception('non-apatite path blocking apatite clone: %r' % target_dir)
+    if vcs == 'git':
+        fut = _future_call(executor, ['git', 'clone', str(url), target_dir])
+    elif vcs == 'hg':
+        fut = _future_call(executor, ['hg', 'clone', str(url), target_dir])
+    elif vcs == 'bzr':
+        fut = _future_call(executor, ['bzr', 'branch', str(url), target_dir])
+    else:
+        raise Exception('unknown vcs %r for project %r' % (vcs, proj))
+    fut.target_dir = target_dir
+
+
+def pull_repos(plist, work_dir=None):
+    if work_dir is None:
+        work_dir = os.path.expanduser('~/.apatite/')
+        repo_dir = work_dir + 'repos/'
+        mkdir_p(repo_dir)
+        open(repo_dir + '/.apatite_repo_dir', 'w').close()
+    try:
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            executor.progress = tqdm(total=len(plist.project_list))
+            for proj in plist.project_list:
+                _pull_single_repo(executor, proj, repo_dir)
+    except Exception:
+        for fut in FUTS:
+            if fut.done() and not fut.cancelled() and fut.result().returncode is None:
+                fut.result().kill()
+                # clean up incomplete paths
+                if os.path.exists(fut.target_dir):
+                    shutil.rmtree(fut.target_dir)
+        raise
 
 def show_missing_tags():
     pass
 
-
-def console():
-    pass
 
 
 """
@@ -175,7 +295,7 @@ Begin middlewares
 
 @face_middleware(provides=['plist', 'pdir', 'pfile'], optional=True)
 def mw_ensure_project_listing(next_, file):
-    file_path = file or 'protected.yaml'
+    file_path = file or 'projects.yaml'
     file_abs_path = os.path.abspath(file_path)
 
     if not os.path.exists(file_abs_path):

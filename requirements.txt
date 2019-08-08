@@ -7,3 +7,4 @@ hyperlink==18.0.0
 idna==2.8
 ruamel.yaml==0.15.80
 schema==0.6.8
+tqdm==4.32.2

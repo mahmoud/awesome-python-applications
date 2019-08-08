@@ -151,6 +151,10 @@ class Project(object):
     _orig_data = attr.ib(default=None, repr=False, cmp=False)
 
     @property
+    def name_slug(self):
+        return slugify(self.name)
+
+    @property
     def repo_url(self):
         for name, url in self.urls:
             if name == 'repo':
@@ -175,7 +179,7 @@ class Project(object):
             return ('hg', repo_url.replace(path=(repo_url.path[0], repo_url.path[1])))
         elif repo_url.host == 'code.launchpad.net':
             return ('bzr', 'lp:' + repo_url.path[0])
-        return None
+        return (None, None)
 
     @classmethod
     def from_dict(cls, d):

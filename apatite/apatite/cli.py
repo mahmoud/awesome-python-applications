@@ -188,6 +188,7 @@ FUTS = []
 def _future_call(executor, args, **kw):
     kw['stdout'] = subprocess.PIPE
     kw['stderr'] = subprocess.PIPE
+
     fut = executor.submit(subprocess.Popen, args, **kw)
     FUTS.append(fut)
 
@@ -226,33 +227,43 @@ def format_list(list_tmpl, *a, **kw):
 
 
 VCS_TMPLS = {'git': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
-                     'pull': ['{cmd}', 'pull']},
-             'hg': {},
+                     'update': ['{cmd}', 'pull']},
+             'hg': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
+                    'update': ['{cmd}', 'pull']},
              'bzr': {}}
 
 
-def _pull_single_repo(executor, proj, repo_dir):
+def _pull_single_repo(executor, proj, repo_dir, rm_cached=False):
     # TODO: shouldn't this be the callable submitted to the executor?
     vcs, url = proj.clone_info
     target_dir = repo_dir + proj.name_slug + '/'
+    cwd = repo_dir
+    mode = 'clone'
     if os.path.exists(target_dir):
-        # sanity check we're in the right place
-        if os.path.exists(target_dir + '../.apatite_repo_dir'):
-            shutil.rmtree(target_dir)
+        if not rm_cached:
+            mode = 'update'
+            cwd = target_dir
         else:
-            raise Exception('non-apatite path blocking apatite clone: %r' % target_dir)
-    if vcs == 'git':
-        fut = _future_call(executor, ['git', 'clone', str(url), target_dir])
-    elif vcs == 'hg':
-        fut = _future_call(executor, ['hg', 'clone', str(url), target_dir])
-    elif vcs == 'bzr':
-        fut = _future_call(executor, ['bzr', 'branch', str(url), target_dir])
-    else:
-        raise Exception('unknown vcs %r for project %r' % (vcs, proj))
-    fut.target_dir = target_dir
+            # sanity check we're in the right place
+            if os.path.exists(target_dir + '../.apatite_repo_dir'):
+                shutil.rmtree(target_dir)
+            else:
+                raise Exception('non-apatite path blocking apatite clone: %r' % target_dir)
+
+    try:
+        cmd_tmpl = VCS_TMPLS[vcs][mode]
+    except KeyError:
+        raise Exception('unsupported operation %r with vcs %r' % (mode, vcs))
+    cmd = format_list(cmd_tmpl, cmd=vcs, url=url, target_dir=target_dir)
+    # avoid asking for github username and password, since closing stdin doesn't work
+    fut = _future_call(executor, cmd, cwd=cwd, env={'GIT_TERMINAL_PROMPT': '0'})
+    return
 
 
 def pull_repos(plist, work_dir=None):
+    """
+    clone or pull all projects. requires git, hg, and bzr to be installed for projects in APA
+    """
     if work_dir is None:
         work_dir = os.path.expanduser('~/.apatite/')
         repo_dir = work_dir + 'repos/'

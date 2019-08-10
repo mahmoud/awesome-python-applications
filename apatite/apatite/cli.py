@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import attr
 from tqdm import tqdm
-from face import Command, Flag, face_middleware
+from face import Command, Flag, face_middleware, ListParam
 from boltons.fileutils import iter_find_files, atomic_save, mkdir_p
 
 from .dal import ProjectList
@@ -59,6 +59,7 @@ def main(argv=None):
             doc='show diff and prompt for confirmation before modifying the file')
     cmd.add('--non-interactive', parse_as=True,
             doc='disable falling back to interactive authentication, useful for automation')
+    cmd.add('--targets', parse_as=ListParam(str), missing=[], doc='specific target projects')
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
@@ -175,15 +176,8 @@ to arguments, and then I can associate futures to processes?
 
 """
 
-def _inner_future_call():
-    # open a process
-    # register a pid
-    # communicate
-    # register result? (or return result?)
-    pass
-
 FUTS = []
-# atexit killall procs in non-done futs
+
 
 def _future_call(executor, args, **kw):
     kw['stdout'] = subprocess.PIPE
@@ -196,6 +190,9 @@ def _future_call(executor, args, **kw):
         # note: new future execution is not started until done
         # callback is complete. basically, futures aren't really done
         # until their callbacks are, which is fine by me!
+        # TODO: fix
+        executor.progress.set_description(desc='(%s)' % ', '.join([fut.project.name_slug for fut in FUTS if fut.running() or (fut.done() and not getattr(fut, 'process_result', None))]))
+
         if fut.cancelled():
             return
         started = time.time()
@@ -212,6 +209,7 @@ def _future_call(executor, args, **kw):
         else:
             print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
             print(proc_res.stderr)
+
         return
 
     fut.add_done_callback(_fut_done)
@@ -227,15 +225,19 @@ def format_list(list_tmpl, *a, **kw):
 
 
 VCS_TMPLS = {'git': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
-                     'update': ['{cmd}', 'pull']},
+                     'update': ['{cmd}', 'pull']},  # update is run from within target_dir
              'hg': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
                     'update': ['{cmd}', 'pull']},
-             'bzr': {}}
+             'bzr': {'clone': ['{cmd}', 'branch', '{url}'],
+                     'update': ['{cmd}', 'pull']}}
 
 
 def _pull_single_repo(executor, proj, repo_dir, rm_cached=False):
     # TODO: shouldn't this be the callable submitted to the executor?
     vcs, url = proj.clone_info
+    if url is None:
+        print('project "%s" has unsupported vcs type for repo url: %r' % (proj.name, proj.repo_url))
+        return  # TODO
     target_dir = repo_dir + proj.name_slug + '/'
     cwd = repo_dir
     mode = 'clone'
@@ -257,10 +259,11 @@ def _pull_single_repo(executor, proj, repo_dir, rm_cached=False):
     cmd = format_list(cmd_tmpl, cmd=vcs, url=url, target_dir=target_dir)
     # avoid asking for github username and password, since closing stdin doesn't work
     fut = _future_call(executor, cmd, cwd=cwd, env={'GIT_TERMINAL_PROMPT': '0'})
+    fut.project = proj
     return
 
 
-def pull_repos(plist, work_dir=None):
+def pull_repos(plist, targets, work_dir=None):
     """
     clone or pull all projects. requires git, hg, and bzr to be installed for projects in APA
     """
@@ -271,8 +274,11 @@ def pull_repos(plist, work_dir=None):
         open(repo_dir + '/.apatite_repo_dir', 'w').close()
     try:
         with ThreadPoolExecutor(max_workers=5) as executor:
-            executor.progress = tqdm(total=len(plist.project_list))
-            for proj in plist.project_list:
+            project_list = plist.project_list
+            if targets:
+                project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
+            executor.progress = tqdm(total=len(project_list))
+            for proj in project_list:
                 _pull_single_repo(executor, proj, repo_dir)
     except Exception:
         for fut in FUTS:

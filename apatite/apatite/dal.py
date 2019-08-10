@@ -172,7 +172,7 @@ class Project(object):
         repo_url = self.repo_url
 
         if repo_url.host == 'github.com' or 'gitlab.' in repo_url.host:  # covers gitlab.gnome.org, too
-            return ('git', repo_url.replace(path=(repo_url.path[0], repo_url.path[1] + '.git')))
+            return ('git', repo_url.replace(path=repo_url.path[:-1] + (repo_url.path[-1] + '.git',)))
         elif repo_url.path[-1].endswith('.git'):
             return ('git', repo_url)
         elif repo_url.host == 'bitbucket.org':

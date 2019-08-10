@@ -348,3 +348,8 @@ class ProjectList(object):
                     ret[tag_entry].append(project)
             ret[tag_entry].sort(key=lambda x: x.name.lower())
         return ret
+
+
+@attr.s
+class ResultFile(object):
+    entries = attr.ib()

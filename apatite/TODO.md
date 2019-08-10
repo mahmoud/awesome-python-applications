@@ -19,3 +19,17 @@
 * sloccount
 * age / # of contributions, contributors. # of overlapping contributors.
 * source control (git vs hg vs lp)
+
+# Data collection
+
+* results files
+* command to delete results older than a certain date
+* load all results files
+* apatite collect --targets --metrics, apatite collate --date, apatite analyze collated_file.json
+* apatite-results__2019-08-10T10-10-10__2019-08-10T10-10-10.json (oldest date__newest_date)
+* look at all targets for the collection, take the oldest and newest
+  dates, then generate filename, then start data collection
+* for results collation, accept a date, load all results files with
+  that date within their range, keep newest results up to that date
+* apatite tarchive, apatite merge-tarchive ? (for cross-host results
+  merging if repeating collection takes too long)

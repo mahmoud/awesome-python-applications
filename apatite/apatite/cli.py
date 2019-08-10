@@ -8,6 +8,7 @@ import os
 import sys
 import time
 import shutil
+import datetime
 import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -235,6 +236,9 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
     if proc_res.returncode != 0:
         print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
         print(proc_res.stderr)
+    else:
+        with atomic_save(target_dir + '/.apatite_last_pulled', overwrite_part=True) as f:
+            f.write(datetime.datetime.utcnow().isoformat().encode('utf8'))
 
     return proc_res
 
@@ -291,10 +295,25 @@ def pull_repos(plist, targets, work_dir=None, verbose=False):
     return
 
 
+class ProjectProcessor(object):
+    def __init__(self, func, args):
+        self.futs = []
+        self.func = func
+        self.args = args
+
+    @property
+    def results(self):
+        return [f.result() for f in self.futs]
+
+    def process(self):
+        # TODO: basically the generic parts of pull_repos
+        pass
+
+
 def show_missing_tags():
     pass
 
-
+# TODO: eventually going to need a command to migrate names in result files
 
 """
 Read-only operations follow

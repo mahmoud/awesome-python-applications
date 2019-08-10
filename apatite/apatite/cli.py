@@ -87,7 +87,8 @@ def main(argv=None):
     cmd.add(render)
     cmd.add(normalize)
     cmd.add(pull_repos)
-    cmd.add(collect_data)
+    cmd.add(collect_metrics)
+    cmd.add(show_recent_metrics)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -357,7 +358,7 @@ def _get_all_metric_mods():
     return ret
 
 
-def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
+def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
     project_list = plist.project_list
     if targets:
         project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
@@ -399,8 +400,18 @@ def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
     return
 
 
+def show_recent_metrics(metrics_dir):
+    metrics_files = sorted(iter_find_files(metrics_dir, '*.jsonl'), reverse=True)
+    if not metrics_files:
+        print_err('no recent metrics found at %s' % metrics_dir)
+        return
+    metrics_file = metrics_files[0]
+    print('#  ' + os.path.basename(metrics_file) + '\n')
+    print(open(metrics_file).read())
 
-class DataCollector(object):
+
+class MetricsCollector(object):
+    # maybe someday
     def __init__(self, project_list):
         self.project_processor = ProjectProcessor(self._collect_one, project_list)
 

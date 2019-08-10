@@ -323,25 +323,9 @@ class ProjectProcessor(object):
         pass
 
 
-def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
-    project_list = plist.project_list
-    if targets:
-        project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
-    all_metric_mods = []
-    for metric_path in iter_find_files(METRICS_PATH, '*.py', ignored='__init__.py'):
-        mod_name = os.path.splitext(os.path.split(metric_path)[-1])[0]
-        metric_mod = imp.load_source(mod_name, metric_path)
-        if not callable(getattr(metric_mod, 'collect', None)):
-            print_err('skipping non-metric module at %r' % metric_path)
-            continue
-        # TODO: check required commands
-        all_metric_mods.append(metric_mod)
-    metric_mods = all_metric_mods
-    if metrics:
-        metric_mods = [m for m in metric_mods if m.__name__ in metrics]
+def _get_project_repo_info_map(project_list, repo_dir):
+    ret = OrderedDict()
 
-    project_pull_dt_map = OrderedDict()
-    project_repo_map = OrderedDict()
     for project in project_list:
         target_repo_dir = os.path.join(repo_dir, project.name_slug)
         if not os.path.isdir(target_repo_dir):
@@ -351,11 +335,41 @@ def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
         with open(pull_date_path, 'r') as f:
             last_pulled_bytes = f.read()
             try:
-                project_pull_dt_map[project] = isoparse(last_pulled_bytes)
+                last_pulled = isoparse(last_pulled_bytes)
             except (TypeError, ValueError):
                 print_err('project %s had unreadable pull date at: %r' % (project.name, pull_date_path))
                 continue
-        project_repo_map[project] = target_repo_dir
+        ret[project] = (target_repo_dir, last_pulled)
+
+    return ret
+
+
+def _get_all_metric_mods():
+    ret = []
+    for metric_path in iter_find_files(METRICS_PATH, '*.py', ignored='__init__.py'):
+        mod_name = os.path.splitext(os.path.split(metric_path)[-1])[0]
+        metric_mod = imp.load_source(mod_name, metric_path)
+        if not callable(getattr(metric_mod, 'collect', None)):
+            print_err('skipping non-metric module at %r' % metric_path)
+            continue
+        # TODO: check required commands
+        ret.append(metric_mod)
+    return ret
+
+
+def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
+    project_list = plist.project_list
+    if targets:
+        project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
+
+    metric_mods = all_metric_mods = _get_all_metric_mods()
+    if metrics:
+        metric_mods = [m for m in metric_mods if m.__name__ in metrics]
+
+    if not metric_mods:
+        print_err('failed to collect data. no known metrics selected (available: %s)' % ', '.join([m.__name__ for m in all_metric_mods]))
+
+    project_repo_map = _get_project_repo_info_map(project_list, repo_dir)
 
     if not project_repo_map:
         print_err('failed to collect data on any projects')
@@ -363,8 +377,8 @@ def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
 
     res_fn_tmpl = 'apatite-metrics__{run_dt}__{newest_dt}__{oldest_dt}.jsonl'
 
-    newest_dt = max(project_pull_dt_map.values())
-    oldest_dt = min(project_pull_dt_map.values())
+    newest_dt = max([last_pulled for _, last_pulled in project_repo_map.values()])
+    oldest_dt = min([last_pulled for _, last_pulled in project_repo_map.values()])
 
     res_fn = res_fn_tmpl.format(run_dt=datetime.datetime.utcnow().isoformat(),
                                 # TODO: upgrade req to 3.6 and make isofromat('minutes'),
@@ -372,8 +386,7 @@ def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
                                 oldest_dt=oldest_dt.isoformat().rsplit(':', 1)[0])
 
     for metric_mod in metric_mods:
-        for project, target_repo_dir in project_repo_map.items():
-            last_pulled = project_pull_dt_map[project]
+        for project, (target_repo_dir, last_pulled) in project_repo_map.items():
             res = metric_mod.collect(project, target_repo_dir)
             entry = {'project': project.name_slug,
                      'metric_name': metric_mod.__name__,

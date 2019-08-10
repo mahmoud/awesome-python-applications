@@ -7,10 +7,12 @@
 import os
 import imp
 import sys
+import json
 import time
 import shutil
 import datetime
 import subprocess
+from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import attr
@@ -235,6 +237,7 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
     cmd = format_list(cmd_tmpl, cmd=vcs, url=url, target_dir=target_dir)
     # avoid asking for github username and password, since closing stdin doesn't work
 
+    cur_dt = datetime.datetime.utcnow()
     started = time.time()
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd, env={'GIT_TERMINAL_PROMPT': '0'})
     proc.project_name = proj.name_slug
@@ -252,7 +255,7 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
         print_err(proc_res.stderr)
     else:
         with atomic_save(target_dir + '/.apatite_last_pulled') as f:
-            f.write(datetime.datetime.utcnow().isoformat().partition('.')[0].encode('utf8'))
+            f.write(cur_dt.isoformat().partition('.')[0].encode('utf8'))
 
     return proc_res
 
@@ -320,7 +323,7 @@ class ProjectProcessor(object):
         pass
 
 
-def collect_data(plist, repo_dir, targets=None, metrics=None):
+def collect_data(plist, repo_dir, metrics_dir, targets=None, metrics=None):
     project_list = plist.project_list
     if targets:
         project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
@@ -331,29 +334,55 @@ def collect_data(plist, repo_dir, targets=None, metrics=None):
         if not callable(getattr(metric_mod, 'collect', None)):
             print_err('skipping non-metric module at %r' % metric_path)
             continue
+        # TODO: check required commands
         all_metric_mods.append(metric_mod)
     metric_mods = all_metric_mods
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
 
-    for metric_mod in metric_mods:
-        for project in project_list:
-            target_repo_dir = os.path.join(repo_dir, project.name_slug)
-            if not os.path.isdir(target_repo_dir):
-                print_err('project %s repo directory not found at: %r' % (project.name, target_repo_dir))
+    project_pull_dt_map = OrderedDict()
+    project_repo_map = OrderedDict()
+    for project in project_list:
+        target_repo_dir = os.path.join(repo_dir, project.name_slug)
+        if not os.path.isdir(target_repo_dir):
+            print_err('project %s repo directory not found at: %r' % (project.name, target_repo_dir))
+            continue
+        pull_date_path = target_repo_dir + '/.apatite_last_pulled'
+        with open(pull_date_path, 'r') as f:
+            last_pulled_bytes = f.read()
+            try:
+                project_pull_dt_map[project] = isoparse(last_pulled_bytes)
+            except (TypeError, ValueError):
+                print_err('project %s had unreadable pull date at: %r' % (project.name, pull_date_path))
                 continue
-            with open(target_repo_dir + '/.apatite_last_pulled', 'r') as f:
-                last_pulled_bytes = f.read()
-                try:
-                    last_pulled = isoparse(last_pulled_bytes)
-                except (TypeError, ValueError):
-                    last_pulled = datetime.datetime.fromutctimestamp(0)
-                    # TOOD: error
+        project_repo_map[project] = target_repo_dir
+
+    if not project_repo_map:
+        print_err('failed to collect data on any projects')
+        return
+
+    res_fn_tmpl = 'apatite-metrics__{run_dt}__{newest_dt}__{oldest_dt}.jsonl'
+
+    newest_dt = max(project_pull_dt_map.values())
+    oldest_dt = min(project_pull_dt_map.values())
+
+    res_fn = res_fn_tmpl.format(run_dt=datetime.datetime.utcnow().isoformat(),
+                                # TODO: upgrade req to 3.6 and make isofromat('minutes'),
+                                newest_dt=newest_dt.isoformat().rsplit(':', 1)[0],
+                                oldest_dt=oldest_dt.isoformat().rsplit(':', 1)[0])
+
+    for metric_mod in metric_mods:
+        for project, target_repo_dir in project_repo_map.items():
+            last_pulled = project_pull_dt_map[project]
             res = metric_mod.collect(project, target_repo_dir)
-            entry = {'project': project.name_slug, 'metric_name': metric_mod.__name__, 'result': res, 'timestamp': last_pulled.isoformat()}
+            entry = {'project': project.name_slug,
+                     'metric_name': metric_mod.__name__,
+                     'result': res,
+                     'pull_date': last_pulled.isoformat()}
 
-            print(entry)
-
+            res_json = json.dumps(entry, sort_keys=True)
+            with open(os.path.join(metrics_dir, res_fn), 'a') as f:
+                f.write(res_json + '\n')
     return
 
 
@@ -396,13 +425,15 @@ def mw_ensure_project_listing(next_, file):
     return next_(plist=plist, pdir=pdir, pfile=file_abs_path)
 
 
-@face_middleware(provides=['work_dir', 'repo_dir'], optional=True)
+@face_middleware(provides=['work_dir', 'repo_dir', 'metrics_dir'], optional=True)
 def mw_ensure_work_dir(next_):
     work_dir = os.path.expanduser('~/.apatite/')
     repo_dir = work_dir + 'repos/'
     mkdir_p(repo_dir)
     open(repo_dir + '/.apatite_repo_dir', 'w').close()
-    return next_(work_dir=work_dir, repo_dir=repo_dir)
+    metrics_dir = work_dir + 'metrics/'
+    mkdir_p(metrics_dir)
+    return next_(work_dir=work_dir, repo_dir=repo_dir, metrics_dir=metrics_dir)
 
 
 @face_middleware

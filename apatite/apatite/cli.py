@@ -9,7 +9,7 @@ import sys
 import time
 import shutil
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import attr
 from tqdm import tqdm
@@ -176,47 +176,6 @@ to arguments, and then I can associate futures to processes?
 
 """
 
-FUTS = []
-
-
-def _future_call(executor, args, **kw):
-    kw['stdout'] = subprocess.PIPE
-    kw['stderr'] = subprocess.PIPE
-
-    fut = executor.submit(subprocess.Popen, args, **kw)
-    FUTS.append(fut)
-
-    def _fut_done(fut):
-        # note: new future execution is not started until done
-        # callback is complete. basically, futures aren't really done
-        # until their callbacks are, which is fine by me!
-        # TODO: fix
-        executor.progress.set_description(desc='(%s)' % ', '.join([fut.project.name_slug for fut in FUTS if fut.running() or (fut.done() and not getattr(fut, 'process_result', None))]))
-
-        if fut.cancelled():
-            return
-        started = time.time()
-        proc = fut.result()
-        stdout, stderr = proc.communicate()
-        proc_res = ProcessResult(returncode=proc.returncode,
-                                 stdout=stdout,
-                                 stderr=stderr,
-                                 start_time=started,
-                                 end_time=time.time())
-        fut.process_result = proc_res
-        if proc_res.returncode == 0:
-            executor.progress.update()
-        else:
-            print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
-            print(proc_res.stderr)
-
-        return
-
-    fut.add_done_callback(_fut_done)
-
-    return fut
-
-
 def format_list(list_tmpl, *a, **kw):
     ret = []
     for text in list_tmpl:
@@ -230,9 +189,11 @@ VCS_TMPLS = {'git': {'clone': ['{cmd}', 'clone', '{url}', '{target_dir}'],
                     'update': ['{cmd}', 'pull']},
              'bzr': {'clone': ['{cmd}', 'branch', '{url}'],
                      'update': ['{cmd}', 'pull']}}
+CUR_PROCS = []
 
 
-def _pull_single_repo(executor, proj, repo_dir, rm_cached=False):
+def _pull_single_repo(proj, repo_dir, rm_cached=False):
+    # TODO: turn rm_cached into a flag
     # TODO: shouldn't this be the callable submitted to the executor?
     vcs, url = proj.clone_info
     if url is None:
@@ -258,36 +219,77 @@ def _pull_single_repo(executor, proj, repo_dir, rm_cached=False):
         raise Exception('unsupported operation %r with vcs %r' % (mode, vcs))
     cmd = format_list(cmd_tmpl, cmd=vcs, url=url, target_dir=target_dir)
     # avoid asking for github username and password, since closing stdin doesn't work
-    fut = _future_call(executor, cmd, cwd=cwd, env={'GIT_TERMINAL_PROMPT': '0'})
-    fut.project = proj
-    return
+
+    started = time.time()
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=cwd, env={'GIT_TERMINAL_PROMPT': '0'})
+    proc.project_name = proj.name_slug
+    proc.target_dir = target_dir
+    CUR_PROCS.append(proc)
+    stdout, stderr = proc.communicate()
+    CUR_PROCS.remove(proc)
+    proc_res = ProcessResult(returncode=proc.returncode,
+                             stdout=stdout.decode('utf8'),
+                             stderr=stderr,
+                             start_time=started,
+                             end_time=time.time())
+    if proc_res.returncode != 0:
+        print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
+        print(proc_res.stderr)
+
+    return proc_res
 
 
-def pull_repos(plist, targets, work_dir=None):
+def pull_repos(plist, targets, work_dir=None, verbose=False):
     """
     clone or pull all projects. requires git, hg, and bzr to be installed for projects in APA
     """
+    successes = []
     if work_dir is None:
         work_dir = os.path.expanduser('~/.apatite/')
         repo_dir = work_dir + 'repos/'
         mkdir_p(repo_dir)
         open(repo_dir + '/.apatite_repo_dir', 'w').close()
     try:
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            project_list = plist.project_list
-            if targets:
-                project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
-            executor.progress = tqdm(total=len(project_list))
+        project_list = plist.project_list
+        if targets:
+            project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
+        with ThreadPoolExecutor(max_workers=5) as executor, tqdm(total=len(project_list)) as progress:
+            futs = []
+
             for proj in project_list:
-                _pull_single_repo(executor, proj, repo_dir)
-    except Exception:
-        for fut in FUTS:
-            if fut.done() and not fut.cancelled() and fut.result().returncode is None:
-                fut.result().kill()
-                # clean up incomplete paths
-                if os.path.exists(fut.target_dir):
-                    shutil.rmtree(fut.target_dir)
-        raise
+                fut = executor.submit(_pull_single_repo, proj, repo_dir)
+                fut.project = proj
+                futs.append(fut)
+
+            for fut in as_completed(futs):
+                progress.update()
+                progress.set_description(desc='(%s)' % ', '.join([fut.project.name_slug for fut in futs if fut.running()]))
+                exc = fut.exception()
+                if exc is not None:
+                    print('%s got exception %r' % (fut.project.name_slug, exc))
+                    continue
+                proc_res = fut.result()
+                if not proc_res:
+                    continue  # TODO
+                if proc_res.returncode == 0:
+                    successes.append(fut.project)
+                if verbose:
+                    print(proc_res.stdout)
+    finally:
+        for proc in CUR_PROCS:
+            if proc.returncode:
+                continue
+            proc.kill()
+            # clean up incomplete paths
+            if os.path.exists(proc.target_dir):
+                shutil.rmtree(proc.target_dir)
+    print()
+    if successes:
+        print('successfully pulled %s project(s): %s' % (len(successes), ', '.join([p.name_slug for p in successes])))
+    else:
+        print('failed to pull any projects')
+    return
+
 
 def show_missing_tags():
     pass

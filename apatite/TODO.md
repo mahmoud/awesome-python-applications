@@ -22,13 +22,15 @@
 
 # Data collection
 
-* results files
+* results files, jsonlines-formatted
 * command to delete results older than a certain date
+* lock or threaded flush?
 * load all results files
 * apatite collect --targets --metrics, apatite collate --date, apatite analyze collated_file.json
 * apatite-results__2019-08-10T10-10-10__2019-08-10T10-10-10.json (oldest date__newest_date)
 * look at all targets for the collection, take the oldest and newest
-  dates, then generate filename, then start data collection
+  dates, then generate results filename, then start data collection
+* collection needs to take into account existing valid results and resume
 * for results collation, accept a date, load all results files with
   that date within their range, keep newest results up to that date
 * apatite tarchive, apatite merge-tarchive ? (for cross-host results

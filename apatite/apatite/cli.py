@@ -5,6 +5,7 @@
 # docs have been manually edited.
 
 import os
+import imp
 import sys
 import time
 import shutil
@@ -15,7 +16,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import attr
 from tqdm import tqdm
 from face import Command, Flag, face_middleware, ListParam
-from boltons.fileutils import iter_find_files, atomic_save, mkdir_p
+from boltons.fileutils import iter_find_files, atomic_save, mkdir_p, iter_find_files
+from boltons.timeutils import isoparse
 
 from .dal import ProjectList
 from .formatting import format_tag_toc, format_all_categories
@@ -24,6 +26,15 @@ from ._version import __version__
 _ANSI_FORE_RED = '\x1b[31m'
 _ANSI_FORE_GREEN = '\x1b[32m'
 _ANSI_RESET_ALL = '\x1b[0m'
+
+CUR_PATH = os.path.dirname(os.path.abspath(__file__))
+METRICS_PATH = os.path.join(CUR_PATH, 'metrics')
+
+
+def print_err(*a, **kw):
+    kw['file'] = sys.stderr
+    return print(*a, **kw)
+
 
 def _get_colorized_lines(lines):
     ret = []
@@ -61,10 +72,12 @@ def main(argv=None):
     cmd.add('--non-interactive', parse_as=True,
             doc='disable falling back to interactive authentication, useful for automation')
     cmd.add('--targets', parse_as=ListParam(str), missing=[], doc='specific target projects')
+    cmd.add('--metrics', parse_as=ListParam(str), missing=[], doc='specific metrics to collect')
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
     cmd.add(mw_ensure_project_listing)
+    cmd.add(mw_ensure_work_dir)
 
     # add subcommands
     cmd.add(console)
@@ -72,6 +85,7 @@ def main(argv=None):
     cmd.add(render)
     cmd.add(normalize)
     cmd.add(pull_repos)
+    cmd.add(collect_data)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -198,7 +212,7 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
     # TODO: shouldn't this be the callable submitted to the executor?
     vcs, url = proj.clone_info
     if url is None:
-        print('project "%s" has unsupported vcs type for repo url: %r' % (proj.name, proj.repo_url))
+        print_err('project "%s" has unsupported vcs type for repo url: %r' % (proj.name, proj.repo_url))
         return  # TODO
     target_dir = repo_dir + proj.name_slug + '/'
     cwd = repo_dir
@@ -234,25 +248,20 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
                              start_time=started,
                              end_time=time.time())
     if proc_res.returncode != 0:
-        print('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
-        print(proc_res.stderr)
+        print_err('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
+        print_err(proc_res.stderr)
     else:
-        with atomic_save(target_dir + '/.apatite_last_pulled', overwrite_part=True) as f:
-            f.write(datetime.datetime.utcnow().isoformat().encode('utf8'))
+        with atomic_save(target_dir + '/.apatite_last_pulled') as f:
+            f.write(datetime.datetime.utcnow().isoformat().partition('.')[0].encode('utf8'))
 
     return proc_res
 
 
-def pull_repos(plist, targets, work_dir=None, verbose=False):
+def pull_repos(plist, targets, repo_dir, verbose=False):
     """
     clone or pull all projects. requires git, hg, and bzr to be installed for projects in APA
     """
     successes = []
-    if work_dir is None:
-        work_dir = os.path.expanduser('~/.apatite/')
-        repo_dir = work_dir + 'repos/'
-        mkdir_p(repo_dir)
-        open(repo_dir + '/.apatite_repo_dir', 'w').close()
     try:
         project_list = plist.project_list
         if targets:
@@ -270,7 +279,7 @@ def pull_repos(plist, targets, work_dir=None, verbose=False):
                 progress.set_description(desc='(%s)' % ', '.join([fut.project.name_slug for fut in futs if fut.running()]))
                 exc = fut.exception()
                 if exc is not None:
-                    print('%s got exception %r' % (fut.project.name_slug, exc))
+                    print_err('%s got exception %r' % (fut.project.name_slug, exc))
                     continue
                 proc_res = fut.result()
                 if not proc_res:
@@ -296,6 +305,7 @@ def pull_repos(plist, targets, work_dir=None, verbose=False):
 
 
 class ProjectProcessor(object):
+    # TODO
     def __init__(self, func, args):
         self.futs = []
         self.func = func
@@ -308,6 +318,49 @@ class ProjectProcessor(object):
     def process(self):
         # TODO: basically the generic parts of pull_repos
         pass
+
+
+def collect_data(plist, repo_dir, targets=None, metrics=None):
+    project_list = plist.project_list
+    if targets:
+        project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
+    all_metric_mods = []
+    for metric_path in iter_find_files(METRICS_PATH, '*.py', ignored='__init__.py'):
+        mod_name = os.path.splitext(os.path.split(metric_path)[-1])[0]
+        metric_mod = imp.load_source(mod_name, metric_path)
+        if not callable(getattr(metric_mod, 'collect', None)):
+            print_err('skipping non-metric module at %r' % metric_path)
+            continue
+        all_metric_mods.append(metric_mod)
+    metric_mods = all_metric_mods
+    if metrics:
+        metric_mods = [m for m in metric_mods if m.__name__ in metrics]
+
+    for metric_mod in metric_mods:
+        for project in project_list:
+            target_repo_dir = os.path.join(repo_dir, project.name_slug)
+            if not os.path.isdir(target_repo_dir):
+                print_err('project %s repo directory not found at: %r' % (project.name, target_repo_dir))
+                continue
+            with open(target_repo_dir + '/.apatite_last_pulled', 'r') as f:
+                last_pulled_bytes = f.read()
+                try:
+                    last_pulled = isoparse(last_pulled_bytes)
+                except (TypeError, ValueError):
+                    last_pulled = datetime.datetime.fromutctimestamp(0)
+                    # TOOD: error
+            res = metric_mod.collect(project, target_repo_dir)
+            entry = {'project': project.name_slug, 'metric_name': metric_mod.__name__, 'result': res, 'timestamp': last_pulled.isoformat()}
+
+            print(entry)
+
+    return
+
+
+
+class DataCollector(object):
+    def __init__(self, project_list):
+        self.project_processor = ProjectProcessor(self._collect_one, project_list)
 
 
 def show_missing_tags():
@@ -341,6 +394,15 @@ def mw_ensure_project_listing(next_, file):
     pdir = os.path.dirname(file_abs_path)
     plist = ProjectList.from_path(file_abs_path)
     return next_(plist=plist, pdir=pdir, pfile=file_abs_path)
+
+
+@face_middleware(provides=['work_dir', 'repo_dir'], optional=True)
+def mw_ensure_work_dir(next_):
+    work_dir = os.path.expanduser('~/.apatite/')
+    repo_dir = work_dir + 'repos/'
+    mkdir_p(repo_dir)
+    open(repo_dir + '/.apatite_repo_dir', 'w').close()
+    return next_(work_dir=work_dir, repo_dir=repo_dir)
 
 
 @face_middleware

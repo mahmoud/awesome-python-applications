@@ -386,17 +386,21 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
                                 newest_dt=newest_dt.isoformat().rsplit(':', 1)[0],
                                 oldest_dt=oldest_dt.isoformat().rsplit(':', 1)[0])
 
+    print('collecting data for metrics: %s' % ', '.join([m.__name__ for m in metric_mods]))
     for metric_mod in metric_mods:
-        for project, (target_repo_dir, last_pulled) in project_repo_map.items():
-            res = metric_mod.collect(project, target_repo_dir)
-            entry = {'project': project.name_slug,
-                     'metric_name': metric_mod.__name__,
-                     'result': res,
-                     'pull_date': last_pulled.isoformat()}
+        with tqdm(total=len(project_repo_map)) as cur_metric_progress:
+            for project, (target_repo_dir, last_pulled) in project_repo_map.items():
+                cur_metric_progress.set_description('%s: %s' % (metric_mod.__name__, project.name_slug))
+                res = metric_mod.collect(project, target_repo_dir)
+                entry = {'project': project.name_slug,
+                         'metric_name': metric_mod.__name__,
+                         'result': res,
+                         'pull_date': last_pulled.isoformat()}
 
-            res_json = json.dumps(entry, sort_keys=True)
-            with open(os.path.join(metrics_dir, res_fn), 'a') as f:
-                f.write(res_json + '\n')
+                res_json = json.dumps(entry, sort_keys=True)
+                with open(os.path.join(metrics_dir, res_fn), 'a') as f:
+                    f.write(res_json + '\n')
+                cur_metric_progress.update()
     return
 
 

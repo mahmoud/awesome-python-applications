@@ -28,3 +28,7 @@ def collect(project, repo_dir):
     except KeyError:
         lic = possible_licenses[0]['error']
     return {'license': lic}
+
+# TOOD
+# add top three licenses and confidences
+# add total licenses detected as number

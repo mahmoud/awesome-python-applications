@@ -82,7 +82,7 @@ def main(argv=None):
 
       * apatite pull-repos  (can take 3-4 hours, 25GB on the full APA, use --targets to limit)
       * apatite collect-metrics
-      * apatite collate  # TODO
+      * apatite export  # TODO
       * apatite analyze  # TODO
     """
     cmd = Command(name='apatite', func=None, doc=main.__doc__)  # func=None means output help
@@ -112,7 +112,7 @@ def main(argv=None):
     cmd.add(normalize)
     cmd.add(pull_repos)
     cmd.add(collect_metrics)
-    cmd.add(collate_metrics)
+    cmd.add(export_metrics)
     cmd.add(show_recent_metrics)
     cmd.add(console)
     cmd.add(print_version, name='version')
@@ -476,7 +476,7 @@ def show_recent_metrics(metrics_dir):
     return
 
 
-def collate_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None):
+def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None):
     metric_mods = all_metric_mods = _get_all_metric_mods()
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]

@@ -5,7 +5,7 @@ from collections import Counter
 
 from boltons.timeutils import isoparse
 
-required_cmds = []
+required_cmds = {'git': 'install via your package manager'}
 
 def collect(project, repo_dir):
     """

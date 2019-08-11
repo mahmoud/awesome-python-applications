@@ -74,7 +74,6 @@ def get_git_info(repo_dir):
         _commits_by_name[gdict['name']] += gdict['commit_count']
         _commits_by_email[gdict['email']] += gdict['commit_count']
 
-
     ret['commit_count'] = commit_count = sum(_commits_by_name.values())
     ret['committer_count'] = len(_commits_by_name)
     ret['committer_email_count'] = len(_commits_by_email)
@@ -93,7 +92,7 @@ def get_git_info(repo_dir):
             _cur_committer_count += 1
         return _cur_committer_count
 
-    # how many developers's commits together comprise XX% of the commits?
+    # how many developers' commits does it take to comprise XX% of the commits?
     committer_dist_map = {thresh: _get_proportion_count(thresh_commit_count)
                           for thresh, thresh_commit_count in commit_thresh_map.items()}
     ret['committer_dist'] = committer_dist_map

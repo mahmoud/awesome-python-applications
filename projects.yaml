@@ -1481,6 +1481,11 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Mesosphere,_Inc.#Mesosphere_DC/OS
     desc: Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
     tags: ["ops", "server", "corp"]
+  - name: netbox
+    repo_url: https://github.com/netbox-community/netbox
+    docs_url: https://netbox.readthedocs.io/en/stable/
+    desc: IP address management (IPAM) and data center infrastructure management (DCIM) tool, conceived at Digital Ocean.
+    tags: ["ops", "server", "django"]
 
 ## Misc / To File
   - name: JARVIS on Messenger

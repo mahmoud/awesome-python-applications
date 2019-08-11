@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **253**
+This document is an always-growing list of **254**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,10 +43,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(110)*
+1. <a href="#tag-dev">Dev</a> *(111)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
-    1. <a href="#tag-dev.ops">Ops</a> *(23)*
+    1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(13)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
@@ -282,6 +282,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)). `(server)`
   1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(server, corp)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest/)) Process manager and monitor. `(linux, mac)`
+  1. **netbox** - ([Repo](https://github.com/netbox-community/netbox), [Docs](https://netbox.readthedocs.io/en/stable/)) IP address management (IPAM) and data center infrastructure management (DCIM) tool, conceived at Digital Ocean. `(server, django)`
   1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(server, corp)`
   1. **OpenStack** - ([Repo](https://git.openstack.org/cgit/openstack/openstack/tree/), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
   1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(linux, mac)`

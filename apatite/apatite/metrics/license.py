@@ -9,7 +9,7 @@ DETECT_CMD = 'license-detector'
 
 required_cmds = {DETECT_CMD:
                  'Download from: https://github.com/src-d/go-license-detector/releases,'
-                 ' rename to "license-detector", place it on your PATH,'
+                 ' rename to "license-detector" (if need be), place it on your PATH,'
                  ' and make it executable.'}
 
 def collect(project, repo_dir):

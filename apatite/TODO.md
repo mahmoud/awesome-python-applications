@@ -22,11 +22,11 @@
 
 # Data collection
 
-* results files, jsonlines-formatted
-* command to delete results older than a certain date
-* lock or threaded flush?
+* command to delete/archive results older than a certain date?
 * load all results files
-* apatite collect --targets --metrics, apatite collate --date, apatite analyze collated_file.json
+* apatite collect --targets --metrics
+* apatite collate --date
+* apatite analyze collated_file.json
 * apatite-results__2019-08-10T10-10-10__2019-08-10T10-10-10.json (oldest date__newest_date)
 * look at all targets for the collection, take the oldest and newest
   dates, then generate results filename, then start data collection
@@ -35,3 +35,11 @@
   that date within their range, keep newest results up to that date
 * apatite tarchive, apatite merge-tarchive ? (for cross-host results
   merging if repeating collection takes too long)
+
+## Collation
+
+* Open all files with data between date ranges
+* Scan through for unique combinations of supported metrics and still-listed projects
+* Keep the most recent data (that isn't newer than the specified date)
+  * isodates don't need to be parsed to be compared; stick to string comps for speed
+* Future: Make note of which data is missing

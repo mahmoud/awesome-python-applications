@@ -45,6 +45,7 @@
   merging if repeating collection takes too long)
 * sloc should be enhanced to create committer identities, grouped by
   case-/whitespace-normalized name and email.
+* probably add metric name to results file? (faster collation, not an issue now)
 
 ## Collation
 

@@ -527,6 +527,13 @@ def collate_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None
     # TODO: deal with missing metrics
     # TODO: output csv or something
 
+    ''' --cols 'license.total,evcs.*, sloc.TOTAL_*  --cols-file
+
+    if col.endswith('*'):
+       pop the segment with the star, fetch up until that point, then fetch/flatten everything underneath
+    '''
+
+
     from pprint import pprint
     pprint(sorted(possible_paths))
     print(len(possible_paths))

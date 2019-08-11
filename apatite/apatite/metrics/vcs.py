@@ -77,6 +77,7 @@ def get_git_info(repo_dir):
     ret['committer_count'] = len(_commits_by_name)
     ret['committer_email_count'] = len(_commits_by_email)
 
+    # these will be stored as percentages, so keep it to two-digit precision max
     threshes = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99, 1.0]
     commit_thresh_map = {thresh: (commit_count * thresh) for thresh in threshes}
 
@@ -92,10 +93,10 @@ def get_git_info(repo_dir):
         return _cur_committer_count
 
     # how many developers' commits does it take to comprise XX% of the commits?
-    committer_dist_map = {thresh: _get_proportion_count(thresh_commit_count)
+    committer_dist_map = {round(thresh * 100): _get_proportion_count(thresh_commit_count)
                           for thresh, thresh_commit_count in commit_thresh_map.items()}
-    ret['committer_dist'] = committer_dist_map
-    ret['top_5'] = [round(c / commit_count, 4) for _, c in sorted_committers][:5]
+    ret['committer_percent_dist'] = committer_dist_map
+    ret['committer_top_5'] = [round(c / commit_count, 4) for _, c in sorted_committers][:5]
     ret['minor_committer_counts'] = {x: len([c for _, c in sorted_committers if c <= x])
                                      for x in range(1, 6)}
 

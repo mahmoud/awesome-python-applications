@@ -448,7 +448,12 @@ def show_recent_metrics(metrics_dir):
         return
     metrics_file = metrics_files[0]
     print('#  ' + os.path.basename(metrics_file) + '\n')
-    print(open(metrics_file).read())
+    for line in open(metrics_file):
+        try:
+            print(line, end='')
+        except IOError:
+            break
+    return
 
 
 class MetricsCollector(object):

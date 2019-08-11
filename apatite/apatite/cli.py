@@ -19,7 +19,8 @@ import attr
 from tqdm import tqdm
 from face import Command, Flag, face_middleware, ListParam
 from boltons.fileutils import iter_find_files, atomic_save, mkdir_p, iter_find_files
-from boltons.timeutils import isoparse
+from boltons.timeutils import isoparse, parse_timedelta
+from boltons.jsonutils import JSONLIterator
 
 from .dal import ProjectList
 from .formatting import format_tag_toc, format_all_categories
@@ -61,6 +62,16 @@ class APACLIError(APAError):
         return
 
 
+def _date_param(text):
+    text = text.strip()
+    if text.startswith('-'):
+        td = parse_timedelta(text)
+        dt = datetime.datetime.utcnow() + td  # adding a negative
+        return dt
+    dt = isoparse(text)
+    return dt
+
+
 def main(argv=None):
     """\
     automation and analytics for curated lists of awesome software.
@@ -84,6 +95,10 @@ def main(argv=None):
     cmd.add('--targets', parse_as=ListParam(str), missing=[], doc='specific target projects')
     cmd.add('--metrics', parse_as=ListParam(str), missing=[], doc='specific metrics to collect')
     cmd.add('--dry-run', parse_as=True, doc='do not save results')
+    two_weeks_ago = _date_param('-2w')
+    cmd.add('--earliest', parse_as=_date_param, missing=two_weeks_ago,
+            doc=('minimum datetime value to accept (isodate or negative timedelta).'
+                 ' defaults to two weeks ago (-2w)'))
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
@@ -95,6 +110,7 @@ def main(argv=None):
     cmd.add(normalize)
     cmd.add(pull_repos)
     cmd.add(collect_metrics)
+    cmd.add(collate_metrics)
     cmd.add(show_recent_metrics)
     cmd.add(console)
     cmd.add(print_version, name='version')
@@ -388,7 +404,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dr
     if targets:
         project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
 
-    metric_mods = all_metric_mods = _get_all_metric_mods()
+    metric_mods = all_metric_mods = _get_all_metric_mods(selected=metrics)
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
 
@@ -456,6 +472,48 @@ def show_recent_metrics(metrics_dir):
         except IOError:
             break
     return
+
+
+def collate_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None):
+    metric_mods = all_metric_mods = _get_all_metric_mods()
+    if metrics:
+        metric_mods = [m for m in metric_mods if m.__name__ in metrics]
+    if not metric_mods:
+        print_err('failed to collect data. no known metrics selected (available: %s)' % ', '.join([m.__name__ for m in all_metric_mods]))
+        return
+
+    metrics_map = {(m.__name__, p.name_slug): None for m in all_metric_mods for p in plist.project_list}
+    print(len(metrics_map))
+
+    metrics_files = iter_find_files(metrics_dir, '*.jsonl')
+    earliest_text = earliest.isoformat()
+    files_to_search = []
+    for metric_file in metrics_files:
+        metric_base_fn = os.path.basename(os.path.splitext(metric_file)[0])
+        _, run_dt_text, newest_dt_text, oldest_dt_text = metric_base_fn.split('__')
+        if newest_dt_text < earliest_text:
+            print('skipping', metric_file)
+            continue
+        files_to_search.append(metric_file)
+
+        with open(metric_file) as f:
+            # TODO: possible optimization when searching for a
+            # specific project/metric. search for the project name
+            # slug and metric name in the part of the line before the
+            # result begins (the jsonl keys are carefully chosen to
+            # sort nicely)
+            for line_data in JSONLIterator(f):
+                metric_name, proj_slug = line_data['metric_name'], line_data['project']
+                try:
+                    cur_data = metrics_map[metric_name, proj_slug]
+                except KeyError:
+                    # not a tracked project/metric
+                    continue
+                if cur_data is None or cur_data['pull_date'] < line_data['pull_date']:
+                    metrics_map[metric_name, proj_slug] = line_data
+
+    # TODO: deal with missing metrics
+    # TODO: output csv or something
 
 
 class MetricsCollector(object):

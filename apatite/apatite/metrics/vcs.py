@@ -24,7 +24,6 @@ def collect(project, repo_dir):
     return ret
 
 
-
 def run_cap(args, **kw):
     kw['stdout'] = subprocess.PIPE
     kw['stderr'] = subprocess.PIPE

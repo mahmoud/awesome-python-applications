@@ -5,18 +5,17 @@ import subprocess
 import time
 from apatite.cli import ProcessResult
 
-instr = ('Download from: https://github.com/src-d/go-license-detector/releases,',
-         ' rename to "license-detector", place it on your PATH,'
-         ' and make it executable.')
+DETECT_CMD = 'license-detector'
 
-CMD_NAME = 'license-detector'
-
-required_cmds = {'name': CMD_NAME, 'instructions': instr}
+required_cmds = {DETECT_CMD:
+                 'Download from: https://github.com/src-d/go-license-detector/releases,'
+                 ' rename to "license-detector", place it on your PATH,'
+                 ' and make it executable.'}
 
 def collect(project, repo_dir):
 
     started = datetime.datetime.utcnow()
-    proc = subprocess.Popen([CMD_NAME, repo_dir, '--format', 'json'],
+    proc = subprocess.Popen([DETECT_CMD, repo_dir, '--format', 'json'],
                             stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = proc.communicate()
     proc_res = ProcessResult(returncode=proc.returncode,

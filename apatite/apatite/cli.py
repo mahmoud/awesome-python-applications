@@ -353,8 +353,20 @@ def _get_all_metric_mods():
         if not callable(getattr(metric_mod, 'collect', None)):
             print_err('skipping non-metric module at %r' % metric_path)
             continue
-        # TODO: check required commands, shutil.which
-        ret.append(metric_mod)
+        required_cmds = getattr(metric_mod, 'required_cmds', {})
+        missing_cmds = []
+        if required_cmds:
+            for cmd, instr_text in required_cmds.items():
+                cmd_path = shutil.which(cmd)
+                if cmd_path is None:
+                    print_err('missing command "%s", required by metric "%s". Installation instructions:\n\n%s\n'
+                              % (cmd, metric_mod.__name__, instr_text))
+                    missing_cmds.append(cmd)
+        if missing_cmds:
+            print_err('omitting metric "%s" due to missing commands: %s (see installation instructions above)'
+                      % (metric_mod.__name__, ', '.join(missing_cmds)))
+        else:
+            ret.append(metric_mod)
     return ret
 
 
@@ -369,6 +381,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
 
     if not metric_mods:
         print_err('failed to collect data. no known metrics selected (available: %s)' % ', '.join([m.__name__ for m in all_metric_mods]))
+        return
 
     project_repo_map = _get_project_repo_info_map(project_list, repo_dir)
 

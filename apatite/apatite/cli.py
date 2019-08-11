@@ -62,9 +62,17 @@ class APACLIError(APAError):
 
 
 def main(argv=None):
-    cmd = Command(name='apatite', func=None)  # func=None means output help
+    """\
+    automation and analytics for curated lists of awesome software.
 
-    util_cmd = Command(name='util', func=None)
+    Normal analysis workflow:
+
+      * apatite pull-repos  (can take 3-4 hours, 25GB on the full APA, use --targets to limit)
+      * apatite collect-metrics
+      * apatite collate  # TODO
+      * apatite analyze  # TODO
+    """
+    cmd = Command(name='apatite', func=None, doc=main.__doc__)  # func=None means output help
 
     # add flags
     cmd.add('--file', missing='projects.yaml',
@@ -82,13 +90,12 @@ def main(argv=None):
     cmd.add(mw_ensure_work_dir)
 
     # add subcommands
-    cmd.add(console)
-    cmd.add(check)
     cmd.add(render)
     cmd.add(normalize)
     cmd.add(pull_repos)
     cmd.add(collect_metrics)
     cmd.add(show_recent_metrics)
+    cmd.add(console)
     cmd.add(print_version, name='version')
 
     cmd.prepare()  # an optional check on all subcommands, not just the one being executed
@@ -104,11 +111,13 @@ def main(argv=None):
 
 
 def console(plist, pdir):
+    "use pdb to explore plist and pdir"
     import pdb;pdb.set_trace()
     return
 
 
 def render(plist, pdir):
+    "generate the list markdown from the yaml listing"
     topic_map = plist.get_projects_by_type('topic')
     topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)
@@ -162,6 +171,8 @@ def show_no_cat(cat_name):
 
 
 def normalize(plist, pfile):
+    """normalize project and tag order, checking for duplicates
+    and format divergences, overwrites the yaml listing"""
     plist.normalize()
     new_yaml = plist.to_yaml()
     with atomic_save(pfile) as f:
@@ -371,6 +382,7 @@ def _get_all_metric_mods():
 
 
 def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
+    "use local clones of repositories (from pull-repos) to gather data about projects"
     project_list = plist.project_list
     if targets:
         project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
@@ -429,6 +441,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
 
 
 def show_recent_metrics(metrics_dir):
+    "shows the most recent metrics collection"
     metrics_files = sorted(iter_find_files(metrics_dir, '*.jsonl'), reverse=True)
     if not metrics_files:
         print_err('no recent metrics found at %s' % metrics_dir)

@@ -250,7 +250,7 @@ def _pull_single_repo(proj, repo_dir, rm_cached=False):
                              stdout=stdout.decode('utf8'),
                              stderr=stderr,
                              start_time=started,
-                             end_time=time.time())
+                             end_time=datetime.datetime.utcnow()) # Bug? duratiion, start_time - end_time TypeError
     if proc_res.returncode != 0:
         print_err('%r exited with code %r, stderr:' % (proc.args, proc_res.returncode))
         print_err(proc_res.stderr)
@@ -353,7 +353,7 @@ def _get_all_metric_mods():
         if not callable(getattr(metric_mod, 'collect', None)):
             print_err('skipping non-metric module at %r' % metric_path)
             continue
-        # TODO: check required commands
+        # TODO: check required commands, shutil.which
         ret.append(metric_mod)
     return ret
 

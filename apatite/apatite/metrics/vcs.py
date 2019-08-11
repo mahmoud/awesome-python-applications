@@ -29,6 +29,10 @@ def run_cap(args, **kw):
     kw['stdout'] = subprocess.PIPE
     kw['stderr'] = subprocess.PIPE
     kw.setdefault('encoding', 'utf8')
+    # slightly worried about ignoring utf8 decode errors on git
+    # output, bc the git docs say they recode to utf8 (this came up bc
+    # unicode characters in committer names)
+    # https://git-scm.com/docs/git-show/1.8.2.2
     kw.setdefault('errors', 'replace')
 
     return subprocess.run(args, **kw)
@@ -78,12 +82,6 @@ def get_git_info(repo_dir):
     threshes = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99, 1.0]
     commit_thresh_map = {thresh: (commit_count * thresh) for thresh in threshes}
 
-    # the following calculates how many developers had more than X0% of commits
-    #  - not super useful bc there'll only ever be 1 above 0.5, and squashes the info in lower thresholds.
-    # might be more interesting as fixed numbers "how many made more than 2, 5, 10, 20, 100 commits, etc."
-    # committer_dist_map = {thresh: len([x for x in _commits_by_name.values() if x > thresh_commit_count])
-    #                       for thresh, thresh_commit_count in commit_thresh_map}
-
     sorted_committers = sorted(_commits_by_name.items(), reverse=True, key=lambda x: x[1])
     def _get_proportion_count(thresh_commit_count):
         _cur_commit_count = 0
@@ -95,19 +93,13 @@ def get_git_info(repo_dir):
             _cur_committer_count += 1
         return _cur_committer_count
 
+    # how many developers's commits together comprise XX% of the commits?
     committer_dist_map = {thresh: _get_proportion_count(thresh_commit_count)
                           for thresh, thresh_commit_count in commit_thresh_map.items()}
     ret['committer_dist'] = committer_dist_map
     ret['top_5'] = [round(c / commit_count, 4) for _, c in sorted_committers][:5]
     ret['minor_committer_counts'] = {x: len([c for _, c in sorted_committers if c <= x])
                                      for x in range(1, 6)}
-    """
-    how many developers's commits together comprise X0% of the commits?
-
-    vs
-
-    how many developers had more than X0% of commits
-    """
 
     '''
     # DEBUG
@@ -116,6 +108,6 @@ def get_git_info(repo_dir):
     pprint(committer_dist_map)
     pprint(ret['top_5'])
     pprint(ret)
-    raise SystemExit
+    raise SystemExit  # quits after the first
     '''
     return ret

@@ -18,7 +18,8 @@
 * Packaging (containers: docker, snap, flatpak; freezers; setup.py/pypi, etc.)
 * sloccount
 * age / # of contributions, contributors. # of overlapping contributors.
-* source control (git vs hg vs lp)
+* source control (git vs hg vs bzr)
+* correlation between stars and contributors?
 
 # Data collection
 
@@ -35,6 +36,8 @@
   that date within their range, keep newest results up to that date
 * apatite tarchive, apatite merge-tarchive ? (for cross-host results
   merging if repeating collection takes too long)
+* sloc should be enhanced to create committer identities, grouped by
+  case-/whitespace-normalized name and email.
 
 ## Collation
 

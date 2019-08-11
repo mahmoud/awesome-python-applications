@@ -21,6 +21,13 @@
 * source control (git vs hg vs bzr)
 * correlation between stars and contributors?
 
+## Architecture
+
+* Server vs GUI vs CLI
+* Django vs Flask vs Other Server
+* Qt vs GTK vs TK vs Other GUI
+* argparse vs click vs other CLI
+
 # Data collection
 
 * command to delete/archive results older than a certain date?

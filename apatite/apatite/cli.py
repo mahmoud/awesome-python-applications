@@ -21,6 +21,8 @@ from face import Command, Flag, face_middleware, ListParam
 from boltons.fileutils import iter_find_files, atomic_save, mkdir_p, iter_find_files
 from boltons.timeutils import isoparse, parse_timedelta
 from boltons.jsonutils import JSONLIterator
+from boltons.setutils import IndexedSet
+from boltons.iterutils import remap
 
 from .dal import ProjectList
 from .formatting import format_tag_toc, format_all_categories
@@ -512,8 +514,22 @@ def collate_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None
                 if cur_data is None or cur_data['pull_date'] < line_data['pull_date']:
                     metrics_map[metric_name, proj_slug] = line_data
 
+    possible_paths = IndexedSet()
+    for (metric_name, proj_slug), data in metrics_map.items():
+        if data is None:
+            continue
+        def _visit(path, key, value):
+            if not isinstance(value, (list, dict)):
+                possible_paths.add((metric_name,) + path + (key,))
+            return True
+        remap(data['result'], visit=_visit)
+
     # TODO: deal with missing metrics
     # TODO: output csv or something
+
+    from pprint import pprint
+    pprint(sorted(possible_paths))
+    print(len(possible_paths))
 
 
 class MetricsCollector(object):

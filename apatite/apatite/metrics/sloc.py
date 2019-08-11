@@ -28,11 +28,9 @@ def collect(project, repo_dir):
     data = data['inner']
     ret = {}
     for lang, stats in data.items():
-        stats.pop('stats')  # per-file stats not necessary
-        if stats.get('inaccurate'):
-            continue
-        stats.pop('inaccurate')
-        ret[lang.lower()] = stats
-    ret['total'] = {key: sum([s[key] for s in ret.values()])
-                    for key in ['blanks', 'code', 'comments', 'lines']}
+        ret[lang.lower()] = stats['lines']
+        ret[lang.lower() + '_code'] = stats['code']
+
+    ret.update({'TOTAL_%s' % key: sum([s[key] for s in data.values()])
+                for key in ['blanks', 'code', 'comments', 'lines']})
     return ret

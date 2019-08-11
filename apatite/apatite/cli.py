@@ -83,6 +83,7 @@ def main(argv=None):
             doc='disable falling back to interactive authentication, useful for automation')
     cmd.add('--targets', parse_as=ListParam(str), missing=[], doc='specific target projects')
     cmd.add('--metrics', parse_as=ListParam(str), missing=[], doc='specific metrics to collect')
+    cmd.add('--dry-run', parse_as=True, doc='do not save results')
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
@@ -381,7 +382,7 @@ def _get_all_metric_mods():
     return ret
 
 
-def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
+def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dry_run=False):
     "use local clones of repositories (from pull-repos) to gather data about projects"
     project_list = plist.project_list
     if targets:
@@ -434,8 +435,9 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
                          '~ms': round((time.time() - start_time) * 1000, 2)}
 
                 res_json = json.dumps(entry, sort_keys=True)
-                with open(os.path.join(metrics_dir, res_fn), 'a') as f:
-                    f.write(res_json + '\n')
+                if not dry_run:
+                    with open(os.path.join(metrics_dir, res_fn), 'a') as f:
+                        f.write(res_json + '\n')
                 cur_metric_progress.update()
     return
 

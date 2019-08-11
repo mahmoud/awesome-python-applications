@@ -24,7 +24,7 @@ def collect(project, repo_dir):
                              start_time=started,
                              end_time=datetime.datetime.utcnow())
     output_json = json.loads(proc_res.stdout)
-    possible_licenses = glom.glom(output_json, glom.Coalesce('0.matches'), default=[])
+    possible_licenses = glom.glom(output_json, '0.matches', default=[])
     # sort and set into descending order
     possible_licenses = sorted(possible_licenses, key=lambda x: x['confidence'] * -1)
     num_possible_licenses = len(possible_licenses)

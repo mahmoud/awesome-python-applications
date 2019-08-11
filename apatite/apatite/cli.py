@@ -404,7 +404,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dr
     if targets:
         project_list = [proj for proj in project_list if (proj.name in targets or proj.name_slug in targets)]
 
-    metric_mods = all_metric_mods = _get_all_metric_mods(selected=metrics)
+    metric_mods = all_metric_mods = _get_all_metric_mods()
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
 

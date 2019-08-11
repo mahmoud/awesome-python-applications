@@ -388,22 +388,25 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None):
 
     print('collecting data for metrics: %s' % ', '.join([m.__name__ for m in metric_mods]))
     for metric_mod in metric_mods:
-        with tqdm(total=len(project_repo_map)) as cur_metric_progress:
+        with tqdm(total=len(project_repo_map), unit='run') as cur_metric_progress:
             for project, (target_repo_dir, last_pulled) in project_repo_map.items():
-                cur_metric_progress.set_description('%s: %s' % (metric_mod.__name__, project.name_slug))
+                cur_metric_progress.set_description(f'{metric_mod.__name__}: {project.name_slug}'.ljust(20))
                 start_time = time.time()
                 try:
                     res = metric_mod.collect(project, target_repo_dir)
+                except KeyboardInterrupt:
+                    return
                 except Exception as e:
                     print_err('%s metric failed on project %s with exception %r. (run with APATITE_DEBUG=1 to debug.)'
                               % (metric_mod.__name__, project.name_slug, e))
                     if os.getenv('APATITE_DEBUG'):
                         import pdb;pdb.post_mortem()
+                    continue
                 entry = {'project': project.name_slug,
                          'metric_name': metric_mod.__name__,
                          'result': res,
                          'pull_date': last_pulled.isoformat(),
-                         '~duration': round((time.time() - start_time) * 1000, 2)}
+                         '~ms': round((time.time() - start_time) * 1000, 2)}
 
                 res_json = json.dumps(entry, sort_keys=True)
                 with open(os.path.join(metrics_dir, res_fn), 'a') as f:

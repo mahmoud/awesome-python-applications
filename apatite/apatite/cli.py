@@ -16,6 +16,7 @@ from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import attr
+import glom
 from tqdm import tqdm
 from face import Command, Flag, face_middleware, ListParam
 from boltons.fileutils import iter_find_files, atomic_save, mkdir_p, iter_find_files
@@ -112,8 +113,9 @@ def main(argv=None):
     cmd.add(normalize)
     cmd.add(pull_repos)
     cmd.add(collect_metrics)
-    cmd.add(export_metrics)
     cmd.add(show_recent_metrics)
+    cmd.add(export_metrics)
+    cmd.add(show_exportable_metrics)
     cmd.add(console)
     cmd.add(print_version, name='version')
 
@@ -476,7 +478,12 @@ def show_recent_metrics(metrics_dir):
     return
 
 
-def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None):
+def show_exportable_metrics(plist, earliest, metrics_dir, metrics=None):
+    "show a list of metric names available for export-metrics --cols and --cols-file flags"
+    return export_metrics(plist, earliest, metrics_dir, metrics, _show_exportable=True)
+
+
+def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None, _show_exportable=False):
     metric_mods = all_metric_mods = _get_all_metric_mods()
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
@@ -532,11 +539,38 @@ def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None,
     if col.endswith('*'):
        pop the segment with the star, fetch up until that point, then fetch/flatten everything underneath
     '''
-
+    possible_paths = sorted(possible_paths)
+    path_texts = ['.'.join('%s' % s for s in path) for path in possible_paths]
 
     from pprint import pprint
-    pprint(sorted(possible_paths))
-    print(len(possible_paths))
+    if _show_exportable:
+        print('\n'.join(path_texts))
+        print('Showing %s exportable columns.' % len(possible_paths))
+        return
+
+    # for each project, output project_name, ...cols..., pull_date
+    cols = path_texts
+    all_proj_dicts = []
+    for project in plist.project_list:
+        cur_proj_dict = {'name': project.name_slug}
+        for col in cols:
+            metric_mod_name, glom_path = col.split('.', 1)
+            cur_result_dict = (metrics_map[metric_mod_name, project.name_slug] or {'result': {}})['result']
+            cur_proj_dict[col] = glom.glom(cur_result_dict, glom_path, default='')
+            cur_proj_dict[col] = cur_proj_dict[col] if cur_proj_dict[col] is not None else ''
+        all_proj_dicts.append(cur_proj_dict)
+
+    all_cols = ['name'] + cols  # TODO: + ['pull_date'] (oldest of all the collated metrics or?
+
+    import csv
+
+    with open('apatite_export.csv', 'w') as f:
+        w = csv.DictWriter(f, all_cols)
+        w.writeheader()
+        for proj_dict in all_proj_dicts:
+            w.writerow(proj_dict)
+
+    return
 
 
 class MetricsCollector(object):

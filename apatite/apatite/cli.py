@@ -387,7 +387,7 @@ def _get_all_metric_mods():
             print_err('omitting metric "%s" due to missing commands: %s (see installation instructions above)'
                       % (metric_mod.__name__, ', '.join(missing_cmds)))
         elif missing_env_vars:
-            print_err('omitting metric "%s" due to missing ENV variables: %s (see installation instructions above)'
+            print_err('omitting metric "%s" due to missing ENV variables: %s'
                       % (metric_mod.__name__, ', '.join(missing_env_vars)))
         else:
             ret.append(metric_mod)
@@ -402,7 +402,6 @@ def _check_required_env_vars(metric_mod):
     for env_var in required_env_vars:
         var_value = os.getenv(env_var, UNSET)
         if var_value is UNSET:
-            print_err('missing env var "%s", required by metric "%s".' % (env_var, metric_mod.__name__))
             missing_env_vars.append(env_var)
     return missing_env_vars
 

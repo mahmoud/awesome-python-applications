@@ -5,6 +5,7 @@
 # docs have been manually edited.
 
 import os
+import csv
 import imp
 import sys
 import json
@@ -83,7 +84,7 @@ def main(argv=None):
 
       * apatite pull-repos  (can take 3-4 hours, 25GB on the full APA, use --targets to limit)
       * apatite collect-metrics
-      * apatite export  # TODO
+      * apatite export-metrics
       * apatite analyze  # TODO
     """
     cmd = Command(name='apatite', func=None, doc=main.__doc__)  # func=None means output help
@@ -484,6 +485,7 @@ def show_exportable_metrics(plist, earliest, metrics_dir, metrics=None):
 
 
 def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None, _show_exportable=False):
+    "export a csv with metrics collated from previous collect-metrics runs"
     metric_mods = all_metric_mods = _get_all_metric_mods()
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
@@ -561,8 +563,6 @@ def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None,
         all_proj_dicts.append(cur_proj_dict)
 
     all_cols = ['name'] + cols  # TODO: + ['pull_date'] (oldest of all the collated metrics or?
-
-    import csv
 
     with open('apatite_export.csv', 'w') as f:
         w = csv.DictWriter(f, all_cols)

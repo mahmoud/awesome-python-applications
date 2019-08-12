@@ -41,12 +41,13 @@ def format_category(project_map, tag_entry):
 
         for project in project_map[tag_entry]:
             tmpl = '  {bullet} **{name}** - ({links}) {desc}'
+            urls = [u for u in project.urls if u[0] != 'clone']  # clone_urls aren't for display
             links = ', '.join(['[%s](%s)' % (_format_url_name(name), url) for name, url
-                               in soft_sorted(project.urls, key=lambda x: x[0], first=_URL_ORDER[:-1], last=_URL_ORDER[-1:])])
+                               in soft_sorted(urls, key=lambda x: x[0], first=_URL_ORDER[:-1], last=_URL_ORDER[-1:])])
 
             line = tmpl.format(bullet=BULLET, name=project.name, links=links, desc=project.desc)
-            if len(project.tags) > 1:
-                other_tags = [t for t in project.tags if t != tag_entry.tag]
+            if len(project._tags) > 1:
+                other_tags = [t for t in project._tags if t != tag_entry.tag]
                 line += ' `(%s)`' % ', '.join(other_tags)
             lines.append(line)
 

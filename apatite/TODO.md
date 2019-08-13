@@ -58,6 +58,7 @@ Spotchecking the license output
 * modoboa is actually ISC, not 0BSD (second guess)
 * nvda is actually gplv2, under copying.txt (not bzip2)
 * kallithea is actually GPLv3, not MPL
+* 30 projects have no data (code is there for at least 15 of those)
 
 # Collation
 
@@ -66,3 +67,11 @@ Spotchecking the license output
 * Keep the most recent data (that isn't newer than the specified date)
   * isodates don't need to be parsed to be compared; stick to string comps for speed
 * Future: Make note of which data is missing
+
+# Tagsonomy improvements
+
+* Console (and CLI/TUI/GUI) is more about UI than target platform
+
+# Features
+
+* Stale projects (have not been updated for more than X% of their lifespan)

@@ -1,11 +1,11 @@
-#
+# 
 # Format of this file:
-#
+# 
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
 #  - After that is "projects", a list of awesome projects
-#
+# 
 # Each project has the following format:
-#
+# 
 #  - name: Project Name
 #    repo_url: github or bitbucket or other web link to code
 #    wp_url: Wikipedia URL if there is one
@@ -13,13 +13,13 @@
 #    home_url: Home page if not one of the above
 #    tags: ["", ""]  # see full taxonomy elsewhere in this file
 #    desc: Handy project designed for handiness
-#
+# 
 # Only the name, repo_url, tags, and description are required.
-#
+# 
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
-# on the list.
-#
+# on the list.  
+# 
 tagsonomy:
   # NOTE: order here controls order of the rendered text
   topic:
@@ -88,6 +88,7 @@ tagsonomy:
           - windows
           - mac
     - console
+    - tui
     - mobile
     - browser
     - server:
@@ -112,9 +113,9 @@ tagsonomy:
     - proprietary
 
 projects:
-#
+# 
 # Internet
-#
+# 
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/
@@ -133,7 +134,7 @@ projects:
     tags:
       - internet
       - linux
-      - curses
+      - tui
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/
@@ -292,9 +293,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Audio
-#
+# 
   - name: Beets
     repo_url: https://github.com/beetbox/beets
     pypi_url: https://pypi.org/project/beets/
@@ -401,9 +402,9 @@ projects:
       - audio
       - linux
       - gtk
-#
+# 
 # Video
-#
+# 
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -455,6 +456,9 @@ projects:
 #
 # Graphics
 #
+# 
+# Graphics
+# 
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
     home_url: https://www.kapwing.com/cartoonify
@@ -573,9 +577,9 @@ projects:
       - graphics
       - dev
       - server
-#
+# 
 # Games
-#
+# 
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
@@ -634,9 +638,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Productivity
-#
+# 
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey/
@@ -742,11 +746,11 @@ projects:
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
     home_url: https://ranger.github.io/
-    desc: Console-based file manager, inspired by vim.
+    desc: TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim.
     tags:
       - productivity
       - linux
-      - curses
+      - tui
   - name: Redash
     repo_url: https://github.com/getredash/redash
     home_url: https://redash.io/
@@ -763,9 +767,9 @@ projects:
       - productivity
       - server
       - flask
-#
+# 
 # Organization
-#
+# 
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre/
     home_url: https://calibre-ebook.com/
@@ -891,9 +895,9 @@ projects:
       - linux
       - windows
       - gtk
-#
+# 
 # Communication
-#
+# 
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com/
@@ -919,7 +923,7 @@ projects:
       - linux
       - windows
       - mac
-      - curses
+      - tui
       - kivy
       - qt4
   - name: Gajim
@@ -1104,9 +1108,9 @@ projects:
     tags:
       - communication
       - server
-#
+# 
 # Education
-#
+# 
   - name: Anki
     repo_url: https://github.com/dae/anki
     home_url: https://apps.ankiweb.net/
@@ -1142,9 +1146,9 @@ projects:
     tags:
       - education
       - server
-#
+# 
 # Science
-#
+# 
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
@@ -1289,9 +1293,9 @@ projects:
       - windows
       - mac
       - qt
-#
+# 
 # Cms
-#
+# 
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en/
@@ -1349,9 +1353,9 @@ projects:
       - cms
       - server
       - django
-#
+# 
 # Erp
-#
+# 
   - name: ERP5
     home_url: https://erp5.nexedi.com/
     repo_url: https://lab.nexedi.com/nexedi/erp5
@@ -1388,9 +1392,9 @@ projects:
       - erp
       - server
       - fdn
-#
+# 
 # Static_Site
-#
+# 
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
@@ -1451,6 +1455,9 @@ projects:
 #
 # Scm
 #
+# 
+# Scm
+# 
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
@@ -1559,9 +1566,9 @@ projects:
     tags:
       - scm
       - server
-#
+# 
 # Code_Review
-#
+# 
   - name: Meld
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/
@@ -1587,9 +1594,9 @@ projects:
     tags:
       - code_review
       - server
-#
+# 
 # Ops
-#
+# 
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible/
@@ -1772,15 +1779,16 @@ projects:
     tags:
       - ops
       - linux
-#
+# 
 # Security
-#
+# 
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/
     desc: Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
     tags:
       - security
+      - server
   - name: Maltrail
     repo_url: https://github.com/stamparm/maltrail
     desc: Malicious traffic detection system with web-based monitoring.
@@ -1794,6 +1802,9 @@ projects:
     desc: Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
     tags:
       - security
+      - linux
+      - windows
+      - mac
   - name: MozDef
     repo_url: https://github.com/mozilla/MozDef
     docs_url: https://mozdef.readthedocs.io/en/latest/?badge=latest
@@ -1824,6 +1835,7 @@ projects:
     desc: Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more.
     tags:
       - security
+      - console
   - name: Spiderfoot
     repo_url: https://github.com/smicallef/spiderfoot
     home_url: https://www.spiderfoot.net/
@@ -1866,14 +1878,16 @@ projects:
     desc: '[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.'
     tags:
       - security
-#
+      - console
+# 
 # Docs
-#
+# 
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
     tags:
       - docs
+      - console
   - name: Kuma
     repo_url: https://github.com/mozilla/kuma
     home_url: https://developer.mozilla.org/en-US/
@@ -1889,6 +1903,7 @@ projects:
     desc: Simple, customizable project documentation, with built-in dev server.
     tags:
       - docs
+      - console
   - name: readthedocs.org
     repo_url: https://github.com/rtfd/readthedocs.org
     home_url: https://readthedocs.org/
@@ -1904,9 +1919,10 @@ projects:
     desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
     tags:
       - docs
-#
+      - console
+# 
 # Editor
-#
+# 
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/
@@ -2014,9 +2030,9 @@ projects:
       - windows
       - mac
       - tk
-#
+# 
 # Pkg_Mgr
-#
+# 
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
@@ -2090,9 +2106,9 @@ projects:
       - pkg_mgr
       - linux
       - corp
-#
+# 
 # Pkg_Repo
-#
+# 
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
@@ -2116,9 +2132,9 @@ projects:
       - pkg_repo
       - server
       - fnd
-#
+# 
 # Build
-#
+# 
   - name: bitbake
     wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
@@ -2203,9 +2219,9 @@ projects:
     tags:
       - build
       - linux
-#
+# 
 # Shell
-#
+# 
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
@@ -2231,9 +2247,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Dev
-#
+# 
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/
@@ -2254,6 +2270,7 @@ projects:
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags:
       - dev
+      - console
   - name: Cookiecutter
     repo_url: https://github.com/audreyr/cookiecutter
     pypi_url: https://pypi.org/project/cookiecutter/
@@ -2275,6 +2292,7 @@ projects:
     desc: Set of enhancements to Python, wrapping it for richer interactivity.
     tags:
       - dev
+      - console
   - name: kinto
     repo_url: https://github.com/Kinto/kinto
     docs_url: http://docs.kinto-storage.org/
@@ -2328,6 +2346,7 @@ projects:
     desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
     tags:
       - dev
+      - console
   - name: Sentry
     repo_url: https://github.com/getsentry/sentry
     home_url: https://sentry.io/
@@ -2354,9 +2373,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Misc
-#
+# 
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/

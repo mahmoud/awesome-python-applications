@@ -162,6 +162,18 @@ class Project(object):
         return None
 
     @property
+    def author(self):
+        if self.repo_url.host != 'github.com':
+            return None
+        return self.repo_url.path[0]
+
+    @property
+    def repo_name(self):
+        if self.repo_url.host != 'github.com':
+            return None
+        return self.repo_url.path[1]
+
+    @property
     def clone_info(self):
         for name, url in self.urls:
             if name == 'clone':

@@ -9,6 +9,11 @@ SLOC_CMD = 'tokei'
 
 required_cmds = {SLOC_CMD: 'install from https://github.com/XAMPPRocky/tokei/releases (put on path, chmod a+x)'}
 
+_DEFAULT_IGNORED_LANGS = 'svg,ini,json,text'
+IGNORED_LANGS = set([l.strip() for l in
+                     os.getenv('APATITE_SLOC_IGNORE_LANGS', _DEFAULT_IGNORED_LANGS).split(',')])
+MERGE_HEADERS = not os.getenv('APATITE_NO_MERGE_HEADERS', '')
+
 def run_cap(args, **kw):
     kw['stdout'] = subprocess.PIPE
     kw['stderr'] = subprocess.PIPE
@@ -30,6 +35,24 @@ def _dir_file_count(path):
     return dir_count, file_count
 
 
+def _merge_headers(d, lang):
+    lang_code = '%s_code' % lang
+    header_key = '%sheader' % lang
+    header_code_key = '%sheader_code' % lang
+    if not d.get(header_key):
+        return
+    try:
+        d[lang] += d[header_key]
+        d[lang_code] += d[header_code_key]
+    except KeyError:
+        d[lang] = d[header_key]
+        d[lang_code] = d[header_code_key]
+
+    d.pop(header_key)
+    d.pop(header_code_key)
+    return
+
+
 def collect(project, repo_dir):
     proc_res = run_cap([SLOC_CMD, '--output', 'json'], cwd=repo_dir)
 
@@ -37,10 +60,19 @@ def collect(project, repo_dir):
     data = data['inner']
     ret = {}
     for lang, stats in data.items():
-        ret[lang.lower()] = stats['lines']
-        ret[lang.lower() + '_code'] = stats['code']
+        if not stats['lines']:
+            continue
+        lang = lang.lower()
+        if lang in IGNORED_LANGS:
+            continue
+        ret[lang] = stats['lines']
+        ret[lang + '_code'] = stats['code']
 
-    sorted_stats = sorted([(k, v['code']) for k, v in data.items()],
+    if MERGE_HEADERS:
+        _merge_headers(ret, 'c')
+        _merge_headers(ret, 'cpp')
+
+    sorted_stats = sorted([(k, v) for k, v in stats.items() if k.endswith('_code')],
                           reverse=True, key=lambda x: x[1])
     ret.update({'TOTAL_%s' % key: sum([s[key] for s in data.values()])
                 for key in ['blanks', 'code', 'comments', 'lines']})

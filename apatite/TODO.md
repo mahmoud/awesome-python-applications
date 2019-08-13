@@ -9,6 +9,7 @@
   * viewvc
   * gedit
 * Add SVN support (low pri)
+* Remove opsmop
 
 # Stats Ideas
 
@@ -20,6 +21,9 @@
 * age / # of contributions, contributors. # of overlapping contributors.
 * source control (git vs hg vs bzr)
 * correlation between stars and contributors?
+* Need to categorize small, medium, large
+* Can committer distribution be used as an indicator of maturity?
+* Can number of minor contributors be used as a proxy for popularity/usage?
 
 ## Architecture
 
@@ -47,7 +51,15 @@
   case-/whitespace-normalized name and email.
 * probably add metric name to results file? (faster collation, not an issue now)
 
-## Collation
+## Licenses
+
+Spotchecking the license output
+
+* modoboa is actually ISC, not 0BSD (second guess)
+* nvda is actually gplv2, under copying.txt (not bzip2)
+* kallithea is actually GPLv3, not MPL
+
+# Collation
 
 * Open all files with data between date ranges
 * Scan through for unique combinations of supported metrics and still-listed projects

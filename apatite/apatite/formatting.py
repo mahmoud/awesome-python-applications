@@ -20,7 +20,6 @@ def _format_url_name(name):
     return _URL_LABEL_MAP.get(name, name.title())
 
 
-
 def format_category(project_map, tag_entry):
     lines = []
     append = lines.append

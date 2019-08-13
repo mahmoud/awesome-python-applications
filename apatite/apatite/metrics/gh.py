@@ -1,10 +1,8 @@
-import datetime
 import glom
 import json
 import os
-import subprocess
+import urllib.request
 
-from apatite.cli import ProcessResult
 
 DETECT_CMD = 'curl'
 DETECT_ENV = 'GH_API_KEY'
@@ -18,18 +16,13 @@ def collect(project, repo_dir):
     host = project.repo_url.host
     if host != 'github.com':
         return {}
-    started = datetime.datetime.utcnow()
     GH_API_KEY = os.getenv(DETECT_ENV)
-    api_url = 'https://api.github.com/repos/%s/%s' % (project.author, project.repo_name)
-    proc = subprocess.Popen([DETECT_CMD, '-L', '-H', 'Authorization: token %s' % GH_API_KEY, api_url],
-                            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout, stderr = proc.communicate()
-    proc_res = ProcessResult(returncode=proc.returncode,
-                             stdout=stdout.decode('utf8'),
-                             stderr=stderr,
-                             start_time=started,
-                             end_time=datetime.datetime.utcnow())
-    api_json = json.loads(proc_res.stdout)
+    api_url = 'https://api.github.com/repos/%s/%s' % (project.author,
+                                                      project.repo_name)
+    request = urllib.request.Request(api_url)
+    request.add_header('Authorization', 'token %s' % GH_API_KEY)
+    response = urllib.request.urlopen(request)
+    api_json = json.loads(response.read())
     glom_spec = {
         'size': 'size',
         'stars': 'stargazers_count',

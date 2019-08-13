@@ -12,6 +12,11 @@ required_cmds = {SLOC_CMD: 'install from https://github.com/XAMPPRocky/tokei/rel
 _DEFAULT_IGNORED_LANGS = 'svg,ini,json,text'
 IGNORED_LANGS = set([l.strip() for l in
                      os.getenv('APATITE_SLOC_IGNORE_LANGS', _DEFAULT_IGNORED_LANGS).split(',')])
+
+_DEFAULT_IGNORED_FILES = 'translations,Language'  # freecad has a bunch of .ts files
+IGNORED_FILES = set([l.strip() for l in
+                     os.getenv('APATITE_SLOC_IGNORE_FILES', _DEFAULT_IGNORED_FILES).split(',')])
+
 MERGE_HEADERS = not os.getenv('APATITE_NO_MERGE_HEADERS', '')
 
 def run_cap(args, **kw):
@@ -53,14 +58,17 @@ def _merge_headers(d, lang):
     return
 
 
-def collect(project, repo_dir):
-    proc_res = run_cap([SLOC_CMD, '--output', 'json'], cwd=repo_dir)
+def collect(plist, project, repo_dir):
+    cmd = [SLOC_CMD, '--output', 'json']
+    for file_part in IGNORED_FILES:
+        cmd.extend(['-e', file_part])
+    proc_res = run_cap(cmd, cwd=repo_dir)
 
     data = json.loads(proc_res.stdout)
     data = data['inner']
     ret = {}
     for lang, stats in data.items():
-        if not stats['lines']:
+        if not stats['lines'] or stats['inaccurate']:
             continue
         lang = lang.lower()
         if lang in IGNORED_LANGS:
@@ -72,7 +80,7 @@ def collect(project, repo_dir):
         _merge_headers(ret, 'c')
         _merge_headers(ret, 'cpp')
 
-    sorted_stats = sorted([(k, v) for k, v in stats.items() if k.endswith('_code')],
+    sorted_stats = sorted([(k, v) for k, v in ret.items() if k.endswith('_code')],
                           reverse=True, key=lambda x: x[1])
     ret.update({'TOTAL_%s' % key: sum([s[key] for s in data.values()])
                 for key in ['blanks', 'code', 'comments', 'lines']})

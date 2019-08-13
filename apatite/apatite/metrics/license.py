@@ -12,7 +12,7 @@ required_cmds = {DETECT_CMD:
                  ' rename to "license-detector" (if need be), place it on your PATH,'
                  ' and make it executable.'}
 
-def collect(project, repo_dir):
+def collect(plist, project, repo_dir):
 
     started = datetime.datetime.utcnow()
     proc = subprocess.Popen([DETECT_CMD, repo_dir, '--format', 'json'],

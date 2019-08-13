@@ -7,7 +7,7 @@ from boltons.timeutils import isoparse
 
 required_cmds = []
 
-def collect(project, repo_dir):
+def collect(plist, project, repo_dir):
     """
     TODO:
 
@@ -74,7 +74,7 @@ def get_git_info(repo_dir):
         _commits_by_email[gdict['email']] += gdict['commit_count']
 
     ret['commit_count'] = commit_count = sum(_commits_by_name.values())
-    ret['committer_count'] = len(_commits_by_name)
+    ret['committer_count'] = len(_commits_by_name)  # redundant with committer_percent_dist.100
     ret['committer_email_count'] = len(_commits_by_email)
 
     # these will be stored as percentages, so keep it to two-digit precision max

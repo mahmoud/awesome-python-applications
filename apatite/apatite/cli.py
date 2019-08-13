@@ -440,7 +440,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dr
                 cur_metric_progress.set_description(f'{metric_mod.__name__}: {project.name_slug}'.ljust(20))
                 start_time = time.time()
                 try:
-                    res = metric_mod.collect(project, target_repo_dir)
+                    res = metric_mod.collect(plist, project, target_repo_dir)
                 except KeyboardInterrupt:
                     return
                 except Exception as e:

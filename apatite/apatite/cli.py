@@ -386,21 +386,40 @@ def _get_all_metric_mods():
         if not callable(getattr(metric_mod, 'collect', None)):
             print_err('skipping non-metric module at %r' % metric_path)
             continue
-        required_cmds = getattr(metric_mod, 'required_cmds', {})
-        missing_cmds = []
-        if required_cmds:
-            for cmd, instr_text in required_cmds.items():
-                cmd_path = shutil.which(cmd)
-                if cmd_path is None:
-                    print_err('missing command "%s", required by metric "%s". Installation instructions:\n\n%s\n'
-                              % (cmd, metric_mod.__name__, instr_text))
-                    missing_cmds.append(cmd)
+        missing_env_vars = _check_required_env_vars(metric_mod)
+        missing_cmds = _check_required_cmds(metric_mod)
         if missing_cmds:
             print_err('omitting metric "%s" due to missing commands: %s (see installation instructions above)'
                       % (metric_mod.__name__, ', '.join(missing_cmds)))
+        elif missing_env_vars:
+            print_err('omitting metric "%s" due to missing ENV variables: %s'
+                      % (metric_mod.__name__, ', '.join(missing_env_vars)))
         else:
             ret.append(metric_mod)
     return ret
+
+# TODO _check_required_env_vars and _check_required_cmds have similar
+# structures, maybe refactor to more generic
+def _check_required_env_vars(metric_mod):
+    UNSET = object()
+    missing_env_vars = []
+    required_env_vars = getattr(metric_mod, 'required_env_vars', [])
+    for env_var in required_env_vars:
+        var_value = os.getenv(env_var, UNSET)
+        if var_value is UNSET:
+            missing_env_vars.append(env_var)
+    return missing_env_vars
+
+def _check_required_cmds(metric_mod):
+    missing_cmds = []
+    required_cmds = getattr(metric_mod, 'required_cmds', {})
+    for cmd, instr_text in required_cmds.items():
+        cmd_path = shutil.which(cmd)
+        if cmd_path is None:
+            print_err('missing command "%s", required by metric "%s". Installation instructions:\n\n%s\n'
+                      % (cmd, metric_mod.__name__, instr_text))
+            missing_cmds.append(cmd)
+    return missing_cmds
 
 
 def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dry_run=False):

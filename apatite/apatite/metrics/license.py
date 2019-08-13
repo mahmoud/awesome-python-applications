@@ -2,7 +2,7 @@ import datetime
 import glom
 import json
 import subprocess
-import time
+
 from apatite.cli import ProcessResult
 
 DETECT_CMD = 'license-detector'

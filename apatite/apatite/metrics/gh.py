@@ -14,12 +14,12 @@ required_env_vars = {API_KEY_ENV_VAR: 'The GitHub API only allows 50 requests pe
                      '\nNote that no special permissions are needed, so leave all/most of those checkboxes unchecked.'}
 
 
-def collect(project, repo_dir):
+def collect(plist, project, repo_dir):
 
     host = project.repo_url.host
     if host != 'github.com':
         return {}
-    GH_API_KEY = os.getenv(DETECT_ENV)
+    GH_API_KEY = os.getenv(API_KEY_ENV_VAR)
     api_url = 'https://api.github.com/repos/%s/%s' % (project.author,
                                                       project.repo_name)
     request = urllib.request.Request(api_url)

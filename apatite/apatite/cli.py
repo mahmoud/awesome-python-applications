@@ -403,10 +403,12 @@ def _get_all_metric_mods():
 def _check_required_env_vars(metric_mod):
     UNSET = object()
     missing_env_vars = []
-    required_env_vars = getattr(metric_mod, 'required_env_vars', [])
-    for env_var in required_env_vars:
-        var_value = os.getenv(env_var, UNSET)
-        if var_value is UNSET:
+    required_env_vars = getattr(metric_mod, 'required_env_vars', {})
+    for env_var, instr_text in required_env_vars.items():
+        var_value = os.getenv(env_var)
+        if not var_value:  # empty str is the same as unset
+            print_err('env var "%s" is unset, but required by metric "%s". Instructions:\n\n%s\n'
+                      % (env_var, metric_mod.__name__, instr_text))
             missing_env_vars.append(env_var)
     return missing_env_vars
 

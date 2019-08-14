@@ -4,11 +4,14 @@ import os
 import urllib.request
 
 
-DETECT_CMD = 'curl'
-DETECT_ENV = 'GH_API_KEY'
+API_KEY_ENV_VAR = 'GH_API_KEY'
 
-required_cmds = {DETECT_CMD: 'install via your package manager'}
-required_env_vars = [DETECT_ENV]
+required_cmds = {}
+required_env_vars = {API_KEY_ENV_VAR: 'The GitHub API only allows 50 requests per hour for unauthenticated clients.'
+                     '\nTo unlock 5000/hour, sent an env var with a token generated here: https://github.com/settings/tokens'
+                     '\nIf this is your first time, it might help to follow the directions here:'
+                     ' https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.'
+                     '\nNote that no special permissions are needed, so leave all/most of those checkboxes unchecked.'}
 
 
 def collect(project, repo_dir):

@@ -10,6 +10,11 @@
   * gedit
 * Add SVN support (low pri)
 * Remove opsmop
+* Establish the importance of libraries vs applications
+  * The answers for applications differ from that of libraries'
+* split out "data_assets" in sloc (xml, svg, json, yaml)
+  * maybe docs too? md, tex, rst
+* count python files
 
 # Stats Ideas
 
@@ -76,5 +81,10 @@ Spotchecking the license output
 
 * Stale projects (have not been updated for more than X% of their lifespan)
 
+# Interesting findings
+
+* Even some older projects have already adopted asyncio. mailman, ipython, mitmproxy, even portage
+* The weird hybrids. Haskell + Python (Ganeti, developed by google). Java + Python (nimbus). Rust + Python (pants)
+* One of the apps (Meson) has its own sloc type
 
 <--! -->

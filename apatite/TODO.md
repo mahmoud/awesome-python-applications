@@ -10,9 +10,6 @@
   * gedit
 * Add SVN support (low pri)
 * Remove opsmop
-* TODO: right now export-metrics can fail if commands/env vars
-  relevant to collection aren't set. export doesn't invoke commands,
-  so there's not a great reason for this.
 
 # Stats Ideas
 
@@ -78,3 +75,6 @@ Spotchecking the license output
 # Features
 
 * Stale projects (have not been updated for more than X% of their lifespan)
+
+
+<--! -->

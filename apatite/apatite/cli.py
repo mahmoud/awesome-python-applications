@@ -103,6 +103,7 @@ def main(argv=None):
     cmd.add('--earliest', parse_as=_date_param, missing=two_weeks_ago,
             doc=('minimum datetime value to accept (isodate or negative timedelta).'
                  ' defaults to two weeks ago (-2w)'))
+    cmd.add('--no-progress', parse_as=True)
 
     # add middlewares, outermost first ("first added, first called")
     cmd.add(mw_exit_handler)
@@ -378,13 +379,16 @@ def _get_project_repo_info_map(project_list, repo_dir):
     return ret
 
 
-def _get_all_metric_mods():
+def _get_all_metric_mods(check_reqs=True):
     ret = []
     for metric_path in iter_find_files(METRICS_PATH, '*.py', ignored='__init__.py'):
         mod_name = os.path.splitext(os.path.split(metric_path)[-1])[0]
         metric_mod = imp.load_source(mod_name, metric_path)
         if not callable(getattr(metric_mod, 'collect', None)):
             print_err('skipping non-metric module at %r' % metric_path)
+            continue
+        if not check_reqs:
+            ret.append(metric_mod)
             continue
         missing_env_vars = _check_required_env_vars(metric_mod)
         missing_cmds = _check_required_cmds(metric_mod)
@@ -424,7 +428,7 @@ def _check_required_cmds(metric_mod):
     return missing_cmds
 
 
-def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dry_run=False):
+def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dry_run=False, no_progress=False):
     "use local clones of repositories (from pull-repos) to gather data about projects"
     project_list = plist.project_list
     if targets:
@@ -456,7 +460,7 @@ def collect_metrics(plist, repo_dir, metrics_dir, targets=None, metrics=None, dr
 
     print('collecting data for metrics: %s' % ', '.join([m.__name__ for m in metric_mods]))
     for metric_mod in metric_mods:
-        with tqdm(total=len(project_repo_map), unit='run') as cur_metric_progress:
+        with tqdm(total=len(project_repo_map), unit='run', disable=no_progress) as cur_metric_progress:
             for project, (target_repo_dir, last_pulled) in project_repo_map.items():
                 cur_metric_progress.set_description(f'{metric_mod.__name__}: {project.name_slug}'.ljust(20))
                 start_time = time.time()
@@ -507,7 +511,7 @@ def show_exportable_metrics(plist, earliest, metrics_dir, metrics=None):
 
 def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None, output_format=None, _show_exportable=False):
     "export a csv with metrics collated from previous collect-metrics runs"
-    metric_mods = all_metric_mods = _get_all_metric_mods()
+    metric_mods = all_metric_mods = _get_all_metric_mods(check_reqs=False)
     if metrics:
         metric_mods = [m for m in metric_mods if m.__name__ in metrics]
     if not metric_mods:
@@ -515,7 +519,6 @@ def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None,
         return
 
     metrics_map = {(m.__name__, p.name_slug): None for m in all_metric_mods for p in plist.project_list}
-    print(len(metrics_map))
 
     metrics_files = iter_find_files(metrics_dir, '*.jsonl')
     earliest_text = earliest.isoformat()
@@ -590,6 +593,10 @@ def export_metrics(plist, earliest, metrics_dir, metrics=None, output_path=None,
         w.writeheader()
         for proj_dict in all_proj_dicts:
             w.writerow(proj_dict)
+
+    print('exported %s columns for %s projects across %s metrics (%s)'
+          % (len(all_cols), len(all_proj_dicts), len(metric_mods),
+             ', '.join(sorted(m.__name__ for m in metric_mods))))
 
     return
 

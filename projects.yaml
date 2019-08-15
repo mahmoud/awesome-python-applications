@@ -1661,6 +1661,7 @@ projects:
     desc: Daemon to ban hosts that cause multiple authentication errors on Linux servers.
     tags:
       - ops
+      - server
       - linux
   - name: Ganeti
     repo_url: https://github.com/ganeti/ganeti
@@ -1668,6 +1669,7 @@ projects:
     tags:
       - ops
       - linux
+      - server
       - haskell
   - name: Gunicorn
     repo_url: https://github.com/benoitc/gunicorn
@@ -1691,6 +1693,7 @@ projects:
     desc: Process manager and monitor.
     tags:
       - ops
+      - server
       - linux
       - mac
   - name: Oncall
@@ -1724,7 +1727,7 @@ projects:
     pypi_url: https://pypi.python.org/pypi/pgcli/
     home_url: https://www.pgcli.com/
     desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
-    tags:                          # dev?
+    tags:
       - ops
       - linux
       - mac
@@ -1774,6 +1777,7 @@ projects:
     desc: Process manager and monitor.
     tags:
       - ops
+      - server
       - linux
       - mac
   - name: WAL-E

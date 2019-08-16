@@ -10,10 +10,12 @@ SLOC_CMD = 'tokei'
 required_cmds = {SLOC_CMD: 'install from https://github.com/XAMPPRocky/tokei/releases (put on path, chmod a+x)'}
 
 _DEFAULT_IGNORED_LANGS = 'svg,ini,json,text'
-IGNORED_LANGS = set([l.strip() for l in
+IGNORED_LANGS = set([l.strip().lower() for l in
                      os.getenv('APATITE_SLOC_IGNORE_LANGS', _DEFAULT_IGNORED_LANGS).split(',')])
-
-_DEFAULT_IGNORED_FILES = 'translations,Language'  # freecad has a bunch of .ts files
+_DEFAULT_VERBOSE_LANGS = 'python,c,cpp'
+VERBOSE_LANGS = set([l.strip().lower() for l in
+                     os.getenv('APATITE_SLOC_VERBOSE_LANGS', _DEFAULT_VERBOSE_LANGS).split(',')])
+_DEFAULT_IGNORED_FILES = 'translations,Language,contrib,vendor'  # freecad has a bunch of .ts files
 IGNORED_FILES = set([l.strip() for l in
                      os.getenv('APATITE_SLOC_IGNORE_FILES', _DEFAULT_IGNORED_FILES).split(',')])
 
@@ -47,14 +49,14 @@ def _merge_headers(d, lang):
     if not d.get(header_key):
         return
     try:
-        d[lang] += d[header_key]
-        d[lang_code] += d[header_code_key]
+        d[lang] += d.get(header_key, 0)
+        d[lang_code] += d.get(header_code_key, 0)
     except KeyError:
-        d[lang] = d[header_key]
-        d[lang_code] = d[header_code_key]
+        d[lang] = d.get(header_key, 0)
+        d[lang_code] = d.get(header_code_key, 0)
 
-    d.pop(header_key)
-    d.pop(header_code_key)
+    d.pop(header_key, None)
+    d.pop(header_code_key, None)
     return
 
 
@@ -73,23 +75,28 @@ def collect(plist, project, repo_dir):
         lang = lang.lower()
         if lang in IGNORED_LANGS:
             continue
+        if stats['lines'] < 50 and lang not in VERBOSE_LANGS:
+            continue  # more noise reduction
         ret[lang] = stats['lines']
-        ret[lang + '_code'] = stats['code']
+        if lang in VERBOSE_LANGS:
+            ret[lang + '_code'] = stats['code']
+            ret[lang + '_comments'] = stats['comments']
+            ret[lang + '_files'] = len(stats['stats'])
 
     if MERGE_HEADERS:
         _merge_headers(ret, 'c')
         _merge_headers(ret, 'cpp')
 
-    sorted_stats = sorted([(k, v) for k, v in ret.items() if k.endswith('_code')],
+    sorted_stats = sorted([(k, v) for k, v in ret.items() if '_' not in k],
                           reverse=True, key=lambda x: x[1])
     ret.update({'TOTAL_%s' % key: sum([s[key] for s in data.values()])
                 for key in ['blanks', 'code', 'comments', 'lines']})
 
     ratio_map = {}
-    for lang, count in sorted_stats[:5]:
-        ratio = round(count / ret['TOTAL_code'], 2)
-        if ratio < 0.1:
-            break
+    for lang, count in sorted_stats:
+        ratio = round(count / ret['TOTAL_lines'], 2)
+        if not ratio or (ratio < 0.1 and lang not in VERBOSE_LANGS):
+            continue
         ratio_map[lang.lower()] = ratio
     ratio_map['OTHER'] = round(1.0 - sum(ratio_map.values()), 2) if sorted_stats else 1.0
 

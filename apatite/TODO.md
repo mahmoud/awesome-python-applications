@@ -12,9 +12,12 @@
 * Remove opsmop
 * Establish the importance of libraries vs applications
   * The answers for applications differ from that of libraries'
-* split out "data_assets" in sloc (xml, svg, json, yaml)
-  * maybe docs too? md, tex, rst
+* split out "assets" in sloc (xml, svg, json, yaml, qml)
+  * maybe docs too? md, tex, rst, org
+  * tooling: autoconf, make, meson, Dockerfile
 * count python files
+* update progress bar to say "(done)" instead of name of last project (wicd rn)
+* tokei thinks .master = asp.net (also, ignore contrib, ignore vendor, ignore single files)
 
 # Stats Ideas
 

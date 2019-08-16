@@ -67,7 +67,7 @@ LICENSE_MAP = {
 
 
 # OSL: True
-GROUP_RECIPROCAL_MAP = {'AFL': False,
+GROUP_HEREDITARY_MAP = {'AFL': False,
                         'AGPL': True,
                         'Apache': True,
                         'BSD': False,
@@ -95,6 +95,7 @@ def collect(plist, project, repo_dir):
     possible_licenses = glom.glom(output_json, '0.matches', default=[])
     # sort and set into descending order
     possible_licenses = sorted(possible_licenses, key=lambda x: x['confidence'], reverse=True)[:3]
+    norm_licenses = []
     for pl in possible_licenses:
         if pl['confidence'] < 0.9:
             continue
@@ -114,6 +115,6 @@ def collect(plist, project, repo_dir):
 
     group = re.split('\W+', ret['license'])[0]
     ret['license_group'] = group
-    ret['reciprocal'] = GROUP_RECIPROCAL_MAP.get(group)
+    ret['hereditary'] = GROUP_HEREDITARY_MAP.get(group)
 
     return ret

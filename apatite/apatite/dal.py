@@ -317,6 +317,15 @@ class ProjectList(object):
         for project in sorted(self.project_list, key=plist_sort_key):
             if not project.desc[-1:] in ').!':
                 project = attr.evolve(project, desc=project.desc + '.')
+
+            cleaned_urls = []
+            for url_name, url in project.urls:
+                # strip off trailing slashes from all urls
+                new_path = tuple([segm for segm in url.path if segm != ''])
+                clean_url = url.replace(path=new_path).normalize()
+                cleaned_urls.append((url_name, clean_url))
+            project = attr.evolve(project, urls=cleaned_urls)
+
             project_list.append(project)
 
         self.project_list = project_list

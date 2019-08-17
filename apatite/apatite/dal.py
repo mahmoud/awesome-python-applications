@@ -322,7 +322,8 @@ class ProjectList(object):
             for url_name, url in project.urls:
                 # strip off trailing slashes from all urls
                 new_path = tuple([segm for segm in url.path if segm != ''])
-                cleaned_urls.append((url_name, url.replace(path=new_path)))
+                clean_url = url.replace(path=new_path).normalize()
+                cleaned_urls.append((url_name, clean_url))
             project = attr.evolve(project, urls=cleaned_urls)
 
             project_list.append(project)

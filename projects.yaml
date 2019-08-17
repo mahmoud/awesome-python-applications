@@ -194,7 +194,7 @@ projects:
       - server
   - name: Planet
     wp_url: https://en.wikipedia.org/wiki/Planet_%28software%29
-    repo_url: https://github.com/python/planet/tree/master/code/planet
+    repo_url: https://github.com/python/planet
     desc: RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
     home_url: https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/

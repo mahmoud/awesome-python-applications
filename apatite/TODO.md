@@ -87,7 +87,7 @@ Spotchecking the license output
 # Interesting findings
 
 * Even some older projects have already adopted asyncio. mailman, ipython, mitmproxy, even portage
-* The weird hybrids. Haskell + Python (Ganeti, developed by google). Java + Python (nimbus). Rust + Python (pants)
+* The weird hybrids. Haskell + Python (Ganeti, developed by google). Java + Python (nimbus, but 2014). Rust + Python (pants)
 * One of the apps (Meson) has its own sloc type
 * One app has all its docs written in TeX
 * 90 tox.inis (I'm used to seeing tox for libraries, not applications)

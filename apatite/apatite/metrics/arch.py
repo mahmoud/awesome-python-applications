@@ -250,11 +250,11 @@ def _get_py_version(plist, project, repo_dir):
         supp_versions = min_version_line[26:].split()
         for version in supp_versions:
             if version[0] == '2':
-                py_2_version = version
+                py_2_version = version.strip(',')
             elif version[0] == '3':
-                py_3_version = version
+                py_3_version = version.strip(',')
 
-    return {'min_py_2_version': py_2_version, 'min_py_3_version': py_3_version}
+    return {'min_py2': py_2_version, 'min_py3': py_3_version}
 
 
 ''' Some interesting results that illustrate how server/desktop

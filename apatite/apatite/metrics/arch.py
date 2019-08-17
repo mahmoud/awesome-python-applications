@@ -1,6 +1,7 @@
 
-import os
 import itertools
+import os
+import re
 
 from boltons.dictutils import OMD
 from boltons.iterutils import first
@@ -9,8 +10,10 @@ from boltons.iterutils import first
 from apatite.utils import run_cap
 
 RG_CMD = 'rg'
+VERSION_CMD = 'vermin'
 
-required_cmds = {RG_CMD: 'install from https://github.com/BurntSushi/ripgrep/releases (put on path, chmod a+x)'}
+required_cmds = {RG_CMD: 'install from https://github.com/BurntSushi/ripgrep/releases (put on path, chmod a+x)',
+                 VERSION_CMD: 'install from: https://pypi.org/project/vermin/#description'}
 
 # probably going to have to manually code this up in here, and then
 # modify the tagsonomy posthoc once things start looking coherent
@@ -68,6 +71,7 @@ def collect(plist, project, repo_dir):
 
     ret['pkg'] = _get_pkg_info(plist, project, repo_dir)
 
+    ret['compat'] = _get_py_version(plist, project, repo_dir)
     '''
     # See comment at bottom of file
     if ret['type'] == 'server' and ret['pkg'].get('freezer'):
@@ -216,6 +220,35 @@ def _get_pkg_info(plist, project, repo_dir):
         ret['freezer'] = top
 
     return ret
+
+
+def _get_py_version(plist, project, repo_dir):
+
+    cmd = [VERSION_CMD, '-v', repo_dir]
+    proc_res = run_cap(cmd, cwd=repo_dir)
+    MIN_VERSION_PATTERN = '^Minimum required versions:'
+    INCOMP_VERSION_PATTERN = '^Incompatible versions:'
+
+    lines = proc_res.stdout.splitlines()
+    min_version_line = None
+    incomp_version_line = None
+    for line in lines[-5:]:
+        if re.match(MIN_VERSION_PATTERN, line):
+            min_version_line = line
+        if re.match(INCOMP_VERSION_PATTERN, line):
+            incomp_version_line = line
+
+    py_2_version = None
+    py_3_version = None
+    if min_version_line is not None:
+        supp_versions = min_version_line[26:].split()
+        for version in supp_versions:
+            if version[0] == '2':
+                py_2_version = version
+            elif version[0] == '3':
+                py_3_version = version
+
+    return {'py_2_version': py_2_version, 'py_3_version': py_3_version}
 
 
 ''' Some interesting results that illustrate how server/desktop

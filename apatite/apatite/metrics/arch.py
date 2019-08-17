@@ -79,7 +79,7 @@ def collect(plist, project, repo_dir):
 
 
 def search_files(patt, file_patt, repo_dir):
-    cmd = ['rg']
+    cmd = [RG_CMD]
     if file_patt:
         cmd.extend(['-g', file_patt])
     cmd.append(patt)

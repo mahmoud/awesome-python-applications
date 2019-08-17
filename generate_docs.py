@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
-
+import io
 import os
+import copy
 
 import attr
-from ruamel import yaml
+from ruamel.yaml import YAML, round_trip_load
+from ruamel.yaml.comments import CommentedMap
 from boltons.dictutils import OMD
 from boltons.fileutils import iter_find_files, atomic_save
 
@@ -15,6 +17,15 @@ TEMPLATES_PATH = os.path.dirname(os.path.abspath(__file__)) + '/templates/'
 # house = u"\u2302"
 BULLET = '1.'
 INDENT = ' ' * 4
+
+
+def to_yaml(obj):
+    sio = io.StringIO()
+    yaml = YAML()
+    yaml.width = 2000
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    yaml.dump(obj, sio)
+    return sio.getvalue()
 
 
 
@@ -39,6 +50,7 @@ class Project(object):
     desc = attr.ib(default='')
     tags = attr.ib(default=())
     urls = attr.ib(default=())
+    _orig_data = attr.ib(default=None, repr=False, cmp=False)
 
     @classmethod
     def from_dict(cls, d):
@@ -50,7 +62,19 @@ class Project(object):
                 continue
             cur_urls += ((k[:-4], kwargs.pop(k)),)
             kwargs['urls'] = cur_urls
+        kwargs['orig_data'] = d
         return cls(**kwargs)
+
+    def to_dict(self):
+        # deepcopy necessary to maintain comments
+        ret = copy.deepcopy(self._orig_data) if self._orig_data else CommentedMap()
+        # print(to_yaml(ret), end='')
+        ret['name'] = self.name
+        ret['desc'] = self.desc
+        ret['tags'] = self.tags
+        for url_type, url in self.urls:
+            ret[url_type + '_url'] = url
+        return ret
 
 
 def _unwrap_dict(d):
@@ -77,8 +101,55 @@ class ProjectList(object):
 
     @classmethod
     def from_path(cls, path):
-        data = yaml.safe_load(open(path, encoding='utf-8'))
+        data = round_trip_load(open(path, encoding='utf-8'))
         return cls(data['projects'], data['tagsonomy'])
+
+    def to_dict(self):
+        ret = CommentedMap()
+        ret['tagsonomy'] = self.tagsonomy
+        plist = []
+        seen_topics = set()
+        for p in self.project_list:
+            cur_pdict = p.to_dict()
+            plist.append(cur_pdict)
+
+            # now, determine whether to emit a comment
+            topic_tags = [t for t in p.tags
+                          if t in self.tag_registry
+                          and self.tag_registry[t].tag_type == 'topic']
+            if not topic_tags:
+                continue
+            first_topic = topic_tags[0]
+            if first_topic in seen_topics:
+                continue
+            seen_topics.add(first_topic)
+            cur_pdict.yaml_set_start_comment('\n' + first_topic.title() + '\n\n')
+
+        ret['project_list'] = plist
+        return ret
+
+    def to_yaml(self):
+        return to_yaml(self.to_dict())
+
+    def normalize(self):
+        # sort project list by first topic tag and name (lexi).
+        tag_list = list(self.tag_registry.keys())
+        def plist_sort_key(project):
+            topic_tags = [t for t in project.tags
+                          if t in self.tag_registry
+                          and self.tag_registry[t].tag_type == 'topic']
+            first_topic = topic_tags[0] if topic_tags else 'misc'  # TODO: might change to uncategorized in future
+            first_topic_idx = tag_list.index(first_topic)
+            return (first_topic_idx, project.name.lower())
+
+        project_list = []
+        for project in sorted(self.project_list, key=plist_sort_key):
+            if not project.desc[-1:] in ').':
+                project = attr.evolve(project, desc=project.desc + '.')
+            project_list.append(project)
+
+        self.project_list = project_list
+        return
 
     def register_tag(self, tag_type, tag_entry, tag_path=()):
         if isinstance(tag_entry, str):
@@ -254,7 +325,9 @@ def format_all_categories(project_map):
 
 def main():
     plist = ProjectList.from_path('projects.yaml')
-    print([p for p in plist.project_list if not p.desc])
+    plist.normalize()
+    print(plist.to_yaml())
+
     topic_map = plist.get_projects_by_type('topic')
     topic_toc_text = format_tag_toc(topic_map)
     projects_by_topic = format_all_categories(topic_map)

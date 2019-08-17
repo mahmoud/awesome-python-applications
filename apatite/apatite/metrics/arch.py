@@ -13,7 +13,7 @@ RG_CMD = 'rg'
 VERSION_CMD = 'vermin'
 
 required_cmds = {RG_CMD: 'install from https://github.com/BurntSushi/ripgrep/releases (put on path, chmod a+x)',
-                 VERSION_CMD: 'install from: https://pypi.org/project/vermin/#description'}
+                 VERSION_CMD: 'install version 0.6.0 of vermin from: https://pypi.org/project/vermin/#description'}
 
 # probably going to have to manually code this up in here, and then
 # modify the tagsonomy posthoc once things start looking coherent
@@ -224,20 +224,26 @@ def _get_pkg_info(plist, project, repo_dir):
 
 def _get_py_version(plist, project, repo_dir):
 
+    # -v flag required because it improves the correctness of detection
+    # manual tests on the calibre package showed better results with -v
     cmd = [VERSION_CMD, '-v', repo_dir]
     proc_res = run_cap(cmd, cwd=repo_dir)
+    # hardcoded strings to search output lines for
     MIN_VERSION_PATTERN = '^Minimum required versions:'
     INCOMP_VERSION_PATTERN = '^Incompatible versions:'
 
     lines = proc_res.stdout.splitlines()
     min_version_line = None
     incomp_version_line = None
+    # with -v flag a lot of output is generated, the lines containing
+    # version information will probably be at the bottom
     for line in lines[-5:]:
         if re.match(MIN_VERSION_PATTERN, line):
             min_version_line = line
         if re.match(INCOMP_VERSION_PATTERN, line):
             incomp_version_line = line
 
+    # None indicates not compatible with that major version of python
     py_2_version = None
     py_3_version = None
     if min_version_line is not None:
@@ -248,7 +254,7 @@ def _get_py_version(plist, project, repo_dir):
             elif version[0] == '3':
                 py_3_version = version
 
-    return {'py_2_version': py_2_version, 'py_3_version': py_3_version}
+    return {'min_py_2_version': py_2_version, 'min_py_3_version': py_3_version}
 
 
 ''' Some interesting results that illustrate how server/desktop

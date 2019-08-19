@@ -769,6 +769,16 @@ projects:
 #
 # Organization
 #
+  - name: bugwarrior
+    repo_url: https://github.com/ralphbean/bugwarrior
+    docs_url: https://bugwarrior.readthedocs.io/en/latest/
+    desc: Pull tickets from github, bitbucket, bugzilla, jira, trac, and others into taskwarrior.
+    tags:
+      - organization
+      - linux
+      - windows
+      - mac
+      - homebrew
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre
     home_url: https://calibre-ebook.com/

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **254**
+This document is an always-growing list of **255**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more. If you have one to add or find some
 information missing, [please let us
@@ -43,10 +43,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(112)*
+1. <a href="#tag-dev">Dev</a> *(113)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
-    1. <a href="#tag-dev.storage">Storage</a> *(6)*
+    1. <a href="#tag-dev.storage">Storage</a> *(7)*
     1. <a href="#tag-dev.ops">Ops</a> *(21)*
     1. <a href="#tag-dev.security">Security</a> *(13)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
@@ -271,6 +271,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.storage" href="#tag-dev.storage">Storage</a>
 
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
+  1. **EdgeDB** - ([Repo](https://github.com/edgedb/edgedb), [Home](https://edgedb.com/), [Docs](https://edgedb.com/docs)) High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support. `(server)`
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends. `(server)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(security, console)`

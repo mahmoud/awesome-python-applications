@@ -2383,6 +2383,13 @@ projects:
       - server
       - corp
       - flask
+  - name: Socorro
+    repo_url: https://github.com/mozilla-services/socorro
+    docs_url: https://wiki.mozilla.org/Socorro
+    desc: Web service for collecting crash statistics from Mozilla products, including Firefox, Thunderbird, and [others](https://crash-stats.mozilla.org/).
+    tags:
+      - dev
+      - server
   - name: Ubiquity  # ubuntu installer
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_%28software%29
     repo_url: https://code.launchpad.net/ubiquity

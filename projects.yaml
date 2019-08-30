@@ -1,11 +1,11 @@
-#
+# 
 # Format of this file:
-#
+# 
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
 #  - After that is "projects", a list of awesome projects
-#
+# 
 # Each project has the following format:
-#
+# 
 #  - name: Project Name
 #    repo_url: github or bitbucket or other web link to code
 #    wp_url: Wikipedia URL if there is one
@@ -13,13 +13,13 @@
 #    home_url: Home page if not one of the above
 #    tags: ["", ""]  # see full taxonomy elsewhere in this file
 #    desc: Handy project designed for handiness
-#
+# 
 # Only the name, repo_url, tags, and description are required.
-#
+# 
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
-# on the list.
-#
+# on the list.  
+# 
 tagsonomy:
   # NOTE: order here controls order of the rendered text
   topic:
@@ -44,6 +44,7 @@ tagsonomy:
           - scm:
               title: SCM
           - code_review
+          - storage
           - ops
           - security
           - docs
@@ -115,9 +116,9 @@ tagsonomy:
     - proprietary
 
 projects:
-#
+# 
 # Internet
-#
+# 
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/
@@ -295,9 +296,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Audio
-#
+# 
   - name: Beets
     repo_url: https://github.com/beetbox/beets
     pypi_url: https://pypi.org/project/beets
@@ -404,9 +405,9 @@ projects:
       - audio
       - linux
       - gtk
-#
+# 
 # Video
-#
+# 
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -457,6 +458,12 @@ projects:
 #
 # Graphics
 #
+#
+# Graphics
+#
+# 
+# Graphics
+# 
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
     home_url: https://www.kapwing.com/cartoonify
@@ -576,9 +583,9 @@ projects:
       - graphics
       - dev
       - server
-#
+# 
 # Games
-#
+# 
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
@@ -637,9 +644,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Productivity
-#
+# 
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey
@@ -766,9 +773,9 @@ projects:
       - productivity
       - server
       - flask
-#
+# 
 # Organization
-#
+# 
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre
     home_url: https://calibre-ebook.com/
@@ -894,9 +901,9 @@ projects:
       - linux
       - windows
       - gtk
-#
+# 
 # Communication
-#
+# 
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com/
@@ -1107,9 +1114,9 @@ projects:
     tags:
       - communication
       - server
-#
+# 
 # Education
-#
+# 
   - name: Anki
     repo_url: https://github.com/dae/anki
     home_url: https://apps.ankiweb.net/
@@ -1145,9 +1152,9 @@ projects:
     tags:
       - education
       - server
-#
+# 
 # Science
-#
+# 
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
@@ -1292,9 +1299,9 @@ projects:
       - windows
       - mac
       - qt
-#
+# 
 # Cms
-#
+# 
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en
@@ -1352,9 +1359,9 @@ projects:
       - cms
       - server
       - django
-#
+# 
 # Erp
-#
+# 
   - name: ERP5
     home_url: https://erp5.nexedi.com/
     repo_url: https://lab.nexedi.com/nexedi/erp5
@@ -1391,9 +1398,9 @@ projects:
       - erp
       - server
       - fdn
-#
+# 
 # Static_Site
-#
+# 
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
@@ -1454,6 +1461,12 @@ projects:
 #
 # Scm
 #
+#
+# Scm
+#
+# 
+# Scm
+# 
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
@@ -1562,9 +1575,9 @@ projects:
     tags:
       - scm
       - server
-#
+# 
 # Code_Review
-#
+# 
   - name: Meld
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/
@@ -1590,9 +1603,50 @@ projects:
     tags:
       - code_review
       - server
-#
+# 
+# Storage
+# 
+  - name: Barman
+    repo_url: https://github.com/2ndquadrant-it/barman
+    desc: Remote backup and disaster recovery for PostgreSQL.
+    tags:
+      - storage
+      - linux
+  - name: kinto
+    repo_url: https://github.com/Kinto/kinto
+    docs_url: http://docs.kinto-storage.org/
+    home_url: https://www.kinto-storage.org/
+    desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
+    tags:
+      - storage
+      - server
+  - name: pgcli
+    repo_url: https://github.com/dbcli/pgcli
+    pypi_url: https://pypi.python.org/pypi/pgcli
+    home_url: https://www.pgcli.com/
+    desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
+    tags:
+      - storage
+      - linux
+      - mac
+  - name: sqlmap
+    repo_url: https://github.com/sqlmapproject/sqlmap
+    home_url: http://sqlmap.org/
+    docs_url: https://github.com/sqlmapproject/sqlmap/wiki
+    desc: Automatic SQL injection and database takeover.
+    tags:
+      - storage
+      - security
+      - console
+  - name: WAL-E
+    repo_url: https://github.com/wal-e/wal-e
+    desc: Continuous archiving of PostgreSQL WAL files and base backups.
+    tags:
+      - storage
+      - linux
+# 
 # Ops
-#
+# 
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible
@@ -1612,12 +1666,6 @@ projects:
       - ops
       - console
       - py26
-  - name: Barman
-    repo_url: https://github.com/2ndquadrant-it/barman
-    desc: Remote backup and disaster recovery for PostgreSQL.
-    tags:
-      - ops
-      - linux
   - name: Beaker
     repo_url: https://git.beaker-project.org/cgit/beaker
     home_url: https://beaker-project.org/
@@ -1723,15 +1771,6 @@ projects:
       - ops
       - linux
       - mac
-  - name: pgcli
-    repo_url: https://github.com/dbcli/pgcli
-    pypi_url: https://pypi.python.org/pypi/pgcli
-    home_url: https://www.pgcli.com/
-    desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
-    tags:
-      - ops
-      - linux
-      - mac
   - name: Pulp
     repo_url: https://github.com/pulp/pulp
     docs_url: https://docs.pulpproject.org/en/3.0/nightly
@@ -1781,15 +1820,9 @@ projects:
       - linux
       - mac
       - server
-  - name: WAL-E
-    repo_url: https://github.com/wal-e/wal-e
-    desc: Continuous archiving of PostgreSQL WAL files and base backups.
-    tags:
-      - ops
-      - linux
-#
+# 
 # Security
-#
+# 
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/
@@ -1856,14 +1889,6 @@ projects:
       - mac
       - docker
       - server
-  - name: sqlmap
-    repo_url: https://github.com/sqlmapproject/sqlmap
-    home_url: http://sqlmap.org/
-    docs_url: https://github.com/sqlmapproject/sqlmap/wiki
-    desc: Automatic SQL injection and database takeover.
-    tags:
-      - security
-      - console
   - name: sshuttle
     repo_url: https://github.com/sshuttle/sshuttle
     docs_url: https://sshuttle.readthedocs.org/
@@ -1887,9 +1912,9 @@ projects:
     tags:
       - security
       - console
-#
+# 
 # Docs
-#
+# 
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -1928,9 +1953,9 @@ projects:
     tags:
       - docs
       - console
-#
+# 
 # Editor
-#
+# 
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/
@@ -2038,9 +2063,9 @@ projects:
       - windows
       - mac
       - tk
-#
+# 
 # Pkg_Mgr
-#
+# 
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
@@ -2114,9 +2139,9 @@ projects:
       - pkg_mgr
       - linux
       - corp
-#
+# 
 # Pkg_Repo
-#
+# 
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
@@ -2140,9 +2165,9 @@ projects:
       - pkg_repo
       - server
       - fnd
-#
+# 
 # Build
-#
+# 
   - name: bitbake
     wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
@@ -2227,9 +2252,9 @@ projects:
     tags:
       - build
       - linux
-#
+# 
 # Shell
-#
+# 
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
@@ -2255,9 +2280,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Dev
-#
+# 
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/
@@ -2301,14 +2326,6 @@ projects:
     tags:
       - dev
       - console
-  - name: kinto
-    repo_url: https://github.com/Kinto/kinto
-    docs_url: http://docs.kinto-storage.org/
-    home_url: https://www.kinto-storage.org/
-    desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
-    tags:
-      - dev
-      - server
   - name: Locust
     repo_url: https://github.com/locustio/locust
     home_url: https://locust.io/
@@ -2381,9 +2398,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Misc
-#
+# 
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/

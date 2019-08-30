@@ -184,6 +184,12 @@ projects:
       - internet
       - server
       - django
+  - name: Nyaa
+    repo_url: https://github.com/nyaadevs/nyaa
+    desc: Bittorrent tracker software built for anime site [nyaa.si](https://nyaa.si/).
+    tags:
+      - internet
+      - server
   - name: Pi-Hole
     repo_url: https://github.com/pi-hole/pi-hole
     home_url: https://pi-hole.net/
@@ -1442,18 +1448,6 @@ projects:
       - windows
       - mac
     desc: Command-line static site generator that supports Markdown and reST syntax.
-#
-# Scm
-#
-#
-# Scm
-#
-#
-# Scm
-#
-#
-# Scm
-#
 #
 # Scm
 #

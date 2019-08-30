@@ -461,6 +461,9 @@ projects:
 #
 # Graphics
 #
+#
+# Graphics
+#
 # 
 # Graphics
 # 
@@ -1077,16 +1080,6 @@ projects:
     tags:
       - communication
       - server
-  - name: TahoeLAFS
-    wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
-    home_url: https://tahoe-lafs.org/trac/tahoe-lafs
-    repo_url: https://github.com/tahoe-lafs/tahoe-lafs
-    desc: Decentralized cloud storage system for robust distributed data storage.
-    tags:
-      - communication
-      - linux
-      - windows
-      - mac
   - name: Virtaal
     home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
@@ -1464,6 +1457,9 @@ projects:
 #
 # Scm
 #
+#
+# Scm
+#
 # 
 # Scm
 # 
@@ -1638,6 +1634,16 @@ projects:
       - storage
       - security
       - console
+  - name: TahoeLAFS
+    wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
+    home_url: https://tahoe-lafs.org/trac/tahoe-lafs
+    repo_url: https://github.com/tahoe-lafs/tahoe-lafs
+    desc: Decentralized cloud storage system for robust distributed data storage.
+    tags:
+      - storage
+      - linux
+      - windows
+      - mac
   - name: WAL-E
     repo_url: https://github.com/wal-e/wal-e
     desc: Continuous archiving of PostgreSQL WAL files and base backups.

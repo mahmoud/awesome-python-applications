@@ -1596,6 +1596,14 @@ projects:
     tags:
       - storage
       - linux
+  - name: Datasette
+    repo_url: https://github.com/simonw/datasette
+    docs_url: https://datasette.readthedocs.io/en/latest
+    pypi_url: https://pypi.org/project/datasette
+    desc: A tool for exploring and publishing data, backed by SQLite.
+    tags:
+      - storage
+      - server
   - name: EdgeDB
     home_url: https://edgedb.com/
     repo_url: https://github.com/edgedb/edgedb

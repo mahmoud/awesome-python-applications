@@ -2489,3 +2489,12 @@ projects:
       - misc
       - linux
       - windows
+  - name: GTimeLog
+    home_url: https://gtimelog.org
+    repo_url: https://github.com/gtimelog/gtimelog
+    desc: Simple app for keeping track of time.
+    tags:
+      - organization
+      - productivity
+      - mac
+      - linux

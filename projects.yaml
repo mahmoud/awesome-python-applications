@@ -130,6 +130,15 @@ projects:
       - linux
       - windows
       - docker
+  - name: archivematica
+    repo_url: https://github.com/artefactual/archivematica
+    home_url: https://www.archivematica.org/en
+    docs_url: https://www.archivematica.org/en/docs
+    desc: Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians.
+    tags:
+      - internet
+      - organization
+      - server
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29

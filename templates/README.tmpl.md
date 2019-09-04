@@ -17,8 +17,10 @@ Overflow answers.
 
 This document is an always-growing list of **{TOTAL_COUNT}**
 open-source Python applications arranged by topic, with links to
-repositories, docs, and more. If you have one to add or find some
-information missing, [please let us
+repositories, docs, and more, generated from [structured
+data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
+using [apatite](https://github.com/mahmoud/apatite). If you have one
+to add or find some information missing, [please let us
 know](https://github.com/mahmoud/awesome-python-applications/issues)!
 
 Read [**the announcement post**](http://sedimental.org/awesome_python_applications.html) to learn more about this list.

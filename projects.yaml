@@ -1070,6 +1070,13 @@ projects:
       - linux
       - windows
       - mac
+  - name: Mailu
+    repo_url: https://github.com/Mailu/Mailu
+    home_url: https://mailu.io
+    desc: Full-featured mail server designed for easy setup and maintenance, supporting IMAP, IMAP+, SMTP, and Submission, as well as a slew of advanced features.
+    tags:
+      - communication
+      - server
   - name: Modoboa
     repo_url: https://github.com/modoboa/modoboa
     home_url: https://modoboa.org/en

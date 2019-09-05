@@ -819,6 +819,15 @@ projects:
       - linux
       - windows
       - gtk
+  - name: CouchPotato
+    repo_url: https://github.com/CouchPotato/CouchPotatoServer
+    home_url: http://couchpota.to/
+    desc: Personal video recorder focused on movies, with support for usenet and torrents.
+    tags:
+      - organization
+      - linux
+      - windows
+      - mac
   - name: dvc (Data Version Control)
     repo_url: https://github.com/iterative/dvc
     docs_url: https://dvc.org/doc
@@ -895,6 +904,15 @@ projects:
     tags:                             # communication?
       - organization
       - server
+  - name: SiCKRAGE
+    repo_url: https://git.sickrage.ca/SiCKRAGE/sickrage
+    gh_url: https://github.com/SiCKRAGE/SiCKRAGE
+    docs_url: https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes
+    desc: Video library manager with support for automatic TV show archival.
+    tags:
+      - organization
+      - linux
+      - windows
   - name: Taiga
     repo_url: https://github.com/taigaio/taiga-back
     docs_url: http://taigaio.github.io/taiga-doc/dist

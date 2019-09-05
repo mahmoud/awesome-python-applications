@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **261**
+This document is an always-growing list of **263**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(15)*
+1. <a href="#tag-organization">Organization</a> *(17)*
 1. <a href="#tag-communication">Communication</a> *(23)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -157,6 +157,7 @@ thereof), see Architectures. -->
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(internet, server)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
+  1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(linux, windows, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(dev, linux, windows, mac)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
@@ -165,6 +166,7 @@ thereof), see Architectures. -->
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(linux, windows, gtk)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
+  1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [Gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(linux, windows)`
   1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes. `(dev, server, django)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(linux, windows, gtk)`

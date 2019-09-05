@@ -53,6 +53,7 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/sshuttle/sshuttle
 * https://github.com/Maratyszcza/PeachPy (cli assembler, used by go, etc., https://blog.gopheracademy.com/advent-2016/peachpy/ https://github.com/digitalbrain79/NNPACK-darknet/blob/master/configure.py )
 * https://github.com/push-things/django-th  # good concept, but dev has slowed, looks kind of immature
+* https://github.com/taroved/pol  # always a good concept, unsure about the adoption rate, code is a little bit disorganized
 
 ## AlternativeTo Trawl
 

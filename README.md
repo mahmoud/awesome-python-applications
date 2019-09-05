@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **264**
+This document is an always-growing list of **265**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(17)*
+1. <a href="#tag-organization">Organization</a> *(18)*
 1. <a href="#tag-communication">Communication</a> *(23)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -163,6 +163,7 @@ thereof), see Architectures. -->
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(linux, windows, mac, homebrew)`
+  1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian/), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(linux, mac)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(linux, windows, gtk)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`

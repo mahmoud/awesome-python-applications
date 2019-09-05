@@ -875,6 +875,15 @@ projects:
       - windows
       - mac
       - homebrew
+  - name: LazyLibrarian
+    repo_url: https://gitlab.com/LazyLibrarian/LazyLibrarian
+    docs_url: https://lazylibrarian.gitlab.io/
+    forum_url: https://www.reddit.com/r/LazyLibrarian/
+    desc: Web-based digital library organizer with support for following authors and automatic metadata retrieval.
+    tags:
+      - organization
+      - linux
+      - mac
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/

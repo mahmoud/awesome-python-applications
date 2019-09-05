@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(178)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(161)*
+1. <a href="#tag-desktop">Desktop</a> *(179)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(162)*
     1. <a href="#tag-desktop.windows">Windows</a> *(106)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(103)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(104)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -103,6 +103,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(organization, windows, mac, homebrew)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(editor, windows, mac)`
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(editor, windows, mac, cpp, js)`
+  1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian/), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(organization, mac)`
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(static_site, windows, mac)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(editor, windows, mac, qt5)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(games, windows, qt4)`
@@ -356,6 +357,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(organization, linux, windows, homebrew)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/)) Web-based, extensible notebook environment for interactive computing. `(editor, linux, windows)`
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(editor, linux, windows, cpp, js)`
+  1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian/), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(organization, linux)`
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(static_site, linux, windows)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(editor, linux, windows, qt5)`
   1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(productivity, linux)`

@@ -217,6 +217,15 @@ projects:
     tags:
       - internet
       - server
+  - name: PyLoad
+    repo_url: https://github.com/pyload/pyload
+    home_url: https://pyload.net/
+    desc: Download manager with a web interface and API.
+    tags:
+      - internet
+      - linux
+      - windows
+      - mac
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
     home_url: https://www.qutebrowser.org/

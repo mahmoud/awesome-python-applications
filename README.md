@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **263**
+This document is an always-growing list of **264**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(22)*
+1. <a href="#tag-internet">Internet</a> *(23)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
@@ -75,6 +75,7 @@ thereof), see Architectures. -->
   1. **Nyaa** - ([Repo](https://github.com/nyaadevs/nyaa)) Bittorrent tracker software built for anime site [nyaa.si](https://nyaa.si/). `(server)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`
   1. **Planet** - ([Repo](https://github.com/python/planet), [Home](https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org), [WP](https://en.wikipedia.org/wiki/Planet_%28software%29)) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more. `(server)`
+  1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(linux, windows, mac)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(linux, windows, mac, qt5)`
   1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.) `(server)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(linux, windows, mac, server)`

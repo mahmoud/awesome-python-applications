@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **265**
+This document is an always-growing list of **266**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,11 +45,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(115)*
+1. <a href="#tag-dev">Dev</a> *(116)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.storage">Storage</a> *(8)*
-    1. <a href="#tag-dev.ops">Ops</a> *(21)*
+    1. <a href="#tag-dev.ops">Ops</a> *(22)*
     1. <a href="#tag-dev.security">Security</a> *(13)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
@@ -301,6 +301,7 @@ Projects related to software development and adjacent technical areas.
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine). `(linux, server, haskell)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, linux, windows, mac, server)`
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)). `(server)`
+  1. **Healthchecks** - ([Repo](https://github.com/healthchecks/healthchecks), [Home](https://healthchecks.io/), [Docs](https://healthchecks.io/docs/)) Web-based monitor for scheduled jobs (e.g., cron). `(server, corp)`
   1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(server, corp)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(linux, mac, server)`
   1. **netbox** - ([Repo](https://github.com/netbox-community/netbox), [Docs](https://netbox.readthedocs.io/en/stable)) IP address management (IPAM) and data center infrastructure management (DCIM) tool, conceived at Digital Ocean. `(server, django)`

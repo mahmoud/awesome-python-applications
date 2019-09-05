@@ -1797,6 +1797,15 @@ projects:
       - ops
       - server
       - corp
+  - name: Healthchecks
+    repo_url: https://github.com/healthchecks/healthchecks
+    docs_url: https://healthchecks.io/docs/
+    home_url: https://healthchecks.io/
+    desc: Web-based monitor for scheduled jobs (e.g., cron).
+    tags:
+      - ops
+      - server
+      - corp
   - name: NColony
     home_url: http://ncolony.org/en/latest
     repo_url: https://github.com/ncolony/ncolony

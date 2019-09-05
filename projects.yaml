@@ -774,6 +774,13 @@ projects:
       - productivity
       - server
       - flask
+  - name: Superset
+    repo_url: https://github.com/apache/incubator-superset
+    docs_url: http://superset.apache.org/
+    desc: Data exploration, visualization, and business intelligence web application.
+    tags:
+      - productivity
+      - server
   - name: wttr.in
     repo_url: https://github.com/chubin/wttr.in
     home_url: http://wttr.in/

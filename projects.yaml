@@ -270,6 +270,13 @@ projects:
       - linux
       - windows
       - mac
+  - name: syncserver
+    repo_url: https://github.com/mozilla-services/syncserver
+    docs_url: https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html
+    desc: All-in-one package for running a self-hosted Mozilla Firefox Sync server.
+    tags:
+      - internet
+      - server
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     home_url: http://www.tribler.org/

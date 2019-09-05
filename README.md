@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **260**
+This document is an always-growing list of **261**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(21)*
+1. <a href="#tag-internet">Internet</a> *(22)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
@@ -81,6 +81,7 @@ thereof), see Architectures. -->
   1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(security, server, flask)`
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(console)`
   1. **streamlink** - ([Repo](https://github.com/streamlink/streamlink), [Home](https://streamlink.github.io/), [PyPI](https://pypi.org/project/streamlink)) Command-line utility that extracts streams from various services and pipes them into a video player of choice. `(linux, windows, mac)`
+  1. **syncserver** - ([Repo](https://github.com/mozilla-services/syncserver), [Docs](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)) All-in-one package for running a self-hosted Mozilla Firefox Sync server. `(server)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`

@@ -915,6 +915,13 @@ projects:
       - linux
       - windows
       - gtk
+  - name: Pinry
+    repo_url: https://github.com/pinry/pinry
+    home_url: https://getpinry.com/
+    desc: Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest.
+    tags:
+      - organization
+      - server
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
     home_url: https://pymedusa.com/

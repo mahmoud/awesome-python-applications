@@ -2114,6 +2114,15 @@ projects:
       - windows
       - mac
       - qt5
+  - name: ML Workspace
+    repo_url: https://github.com/ml-tooling/ml-workspace
+    desc: All-in-one web-based IDE for machine learning and data science with Python.
+    tags:
+      - editor
+      - linux
+      - windows
+      - mac
+      - docker
   - name: mu
     home_url: https://codewith.mu/en
     repo_url: https://github.com/mu-editor/mu

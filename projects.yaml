@@ -858,6 +858,15 @@ projects:
       - windows
       - mac
       - gtk
+  - name: Headphones
+    repo_url: https://github.com/rembo10/headphones
+    docs_url: https://github.com/rembo10/headphones/wiki
+    desc: Web-based digital music library for automating music downloads through Usenet and torrents.
+    tags:
+      - organization
+      - linux
+      - mac
+      - windows
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
     docs_url: https://invenio.readthedocs.io/

@@ -938,6 +938,13 @@ projects:
     tags:                             # communication?
       - organization
       - server
+  - name: Xandikos
+    repo_url: https://github.com/jelmer/xandikos
+    home_url: https://www.xandikos.org/
+    desc: Lightweight but relatively complete CardDAV/CalDAV server which backs up changes in a Git repository.
+    tags:
+      - organization
+      - server
   - name: SiCKRAGE
     repo_url: https://git.sickrage.ca/SiCKRAGE/sickrage
     gh_url: https://github.com/SiCKRAGE/SiCKRAGE

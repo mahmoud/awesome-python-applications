@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **271**
+This document is an always-growing list of **272**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(20)*
+1. <a href="#tag-organization">Organization</a> *(21)*
 1. <a href="#tag-communication">Communication</a> *(26)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -173,6 +173,7 @@ thereof), see Architectures. -->
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [Gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(linux, windows)`
   1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes. `(dev, server, django)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
+  1. **Xandikos** - ([Repo](https://github.com/jelmer/xandikos), [Home](https://www.xandikos.org/)) Lightweight but relatively complete CardDAV/CalDAV server which backs up changes in a Git repository. `(server)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(linux, windows, gtk)`
 
 ## <a id="tag-communication" href="#tag-communication">Communication</a>

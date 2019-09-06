@@ -1530,6 +1530,20 @@ projects:
       - windows
       - mac
     desc: Command-line static site generator that supports Markdown and reST syntax.
+  - name: MkDocs
+    repo_url: https://github.com/mkdocs/mkdocs
+    home_url: https://www.mkdocs.org/
+    pypi_url: https://pypi.org/project/mkdocs/
+    tags:
+      - static_site
+      - linux
+      - windows
+      - mac
+    desc: Command-line site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+#
+# Scm
+#
+
 #
 # Scm
 #

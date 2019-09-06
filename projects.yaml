@@ -1050,6 +1050,14 @@ projects:
     tags:
       - communication
       - server
+  - name: Inboxen
+    repo_url: https://github.com/Inboxen/Inboxen
+    home_url: https://inboxen.org/
+    docs_url: https://inboxen.readthedocs.io/en/latest/
+    desc: Web application which provides an infinite number of unique email inboxes, for segmenting services and maintaining privacy.
+    tags:
+      - communication
+      - server
   - name: Magic Wormhole
     repo_url: https://github.com/warner/magic-wormhole
     docs_url: https://magic-wormhole.readthedocs.io/en/latest

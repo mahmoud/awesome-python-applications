@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **269**
+This document is an always-growing list of **270**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
 1. <a href="#tag-organization">Organization</a> *(20)*
-1. <a href="#tag-communication">Communication</a> *(24)*
+1. <a href="#tag-communication">Communication</a> *(25)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(9)*
@@ -183,6 +183,7 @@ thereof), see Architectures. -->
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(linux, windows, mac, gtk)`
   1. **GlobaLeaks** - ([Repo](https://github.com/globaleaks/GlobaLeaks), [Home](https://www.globaleaks.org/)) Web application to enable secure and anonymous whistleblowing initiatives. `(server)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(linux, mac, docker, snap)`
+  1. **Hawkpost** - ([Repo](https://github.com/whitesmith/hawkpost), [Home](https://hawkpost.co/)) Web application which enables receiving encrypted messages from less technical senders. `(server)`
   1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system. `(server)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole), [Docs](https://magic-wormhole.readthedocs.io/en/latest)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(linux, mac, console)`
   1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives. `(server)`

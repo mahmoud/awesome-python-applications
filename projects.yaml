@@ -1036,6 +1036,13 @@ projects:
       - mac
       - docker
       - snap
+  - name: Hawkpost
+    repo_url: https://github.com/whitesmith/hawkpost
+    home_url: https://hawkpost.co/
+    desc: Web application which enables receiving encrypted messages from less technical senders.
+    tags:
+      - communication
+      - server
   - name: Helios Voting
     home_url: http://heliosvoting.org/
     repo_url: https://github.com/benadida/helios-server

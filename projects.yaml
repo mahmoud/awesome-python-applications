@@ -1173,6 +1173,15 @@ projects:
       - communication
       - server
       - flask
+  - name: Socialhome
+    repo_url: https://git.feneas.org/socialhome/socialhome
+    gh_url: https://github.com/jaywink/socialhome
+    home_url: https://socialhome.network/
+    docs_url: https://socialhome.readthedocs.io/en/latest/
+    desc: Web application enabling users to build a federated personal profile with social networking functionality.
+    tags:
+      - communication
+      - server
   - name: Synapse
     repo_url: https://github.com/matrix-org/synapse
     home_url: https://riot.im/app#/home

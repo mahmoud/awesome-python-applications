@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **272**
+This document is an always-growing list of **273**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
 1. <a href="#tag-organization">Organization</a> *(21)*
-1. <a href="#tag-communication">Communication</a> *(26)*
+1. <a href="#tag-communication">Communication</a> *(27)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(9)*
@@ -200,6 +200,7 @@ thereof), see Architectures. -->
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms)) Interactive SMS text messaging platform. `(server)`
   1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
   1. **SecureDrop** - ([Repo](https://github.com/freedomofpress/securedrop), [Home](https://securedrop.org/), [Docs](https://docs.securedrop.org/)) Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation). `(server, flask)`
+  1. **Socialhome** - ([Repo](https://git.feneas.org/socialhome/socialhome), [Home](https://socialhome.network/), [Gh](https://github.com/jaywink/socialhome), [Docs](https://socialhome.readthedocs.io/en/latest/)) Web application enabling users to build a federated personal profile with social networking functionality. `(server)`
   1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app#/home), [Fund](https://www.patreon.com/matrixdotorg/overview)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/). `(server)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(linux, windows, mac, gtk)`
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate)) Web based localization tool with tight version control integration. `(server)`

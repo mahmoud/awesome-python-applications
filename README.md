@@ -43,6 +43,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(9)*
+1. <a href="#tag-crm">CRM</a> *(1)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
 1. <a href="#tag-dev">Dev</a> *(116)*
@@ -238,6 +239,10 @@ thereof), see Architectures. -->
   1. **PyCon** - ([Repo](https://github.com/PyCon/pycon), [Home](https://us.pycon.org/), [Docs](https://pycon.readthedocs.io/en/latest)) Content management and conference organization web application, based on Django and [Symposion](https://github.com/pinax/symposion). `(server, django)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(server, django)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
+
+## <a id="tag-crm" href="#tag-crm">CRM</a>
+
+  1. **Django-CRM** - ([Repo](https://github.com/MicroPyramid/Django-CRM), [Home](https://demo.django-crm.io), [WP](https://github.com/MicroPyramid/Django-CRM/wiki), [Docs](http://django-crm.readthedocs.io)) Opensourse Web-based CRM developed on django framework. `(server, django)`
 
 ## <a id="tag-erp" href="#tag-erp">ERP</a>
 

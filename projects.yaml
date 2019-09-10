@@ -1561,6 +1561,17 @@ projects:
       - windows
       - mac
     desc: Command-line static site generator that supports Markdown and reST syntax.
+  - name: Prosopopee
+    repo_url: https://github.com/Psycojoker/prosopopee/
+    docs_url: https://prosopopee.readthedocs.io/
+    example_url: https://surleschemins.fr/
+    pypi_url: https://pypi.org/project/prosopopee/
+    desc: A static site generator designed for photographers and others who tell stories with pictures.
+    tags:
+      - static_site
+      - linux
+      - windows
+      - mac
 #
 # Scm
 #

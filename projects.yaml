@@ -1092,6 +1092,14 @@ projects:
       - kivy
       - qt4
       - tui
+  - name: Collaborate
+    repo_url: https://github.com/propublica/django-collaborative
+    docs_url: https://propublica.gitbook.io/collaborate-user-manual/
+    desc: Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts.
+    tags:
+      - communication
+      - organization
+      - server
   - name: Gajim
     desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim

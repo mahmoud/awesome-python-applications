@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **286**
+This document is an always-growing list of **287**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(24)*
+1. <a href="#tag-organization">Organization</a> *(25)*
 1. <a href="#tag-communication">Communication</a> *(29)*
 1. <a href="#tag-education">Education</a> *(5)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -162,6 +162,7 @@ thereof), see Architectures. -->
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(internet, server)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
+  1. **Calibre-Web** - ([Repo](https://github.com/janeczku/calibre-web)) Web application providing a clean interface for browsing, reading, and downloading ebooks using an existing [Calibre](https://calibre-ebook.com/) database. `(linux)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(linux, windows, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(dev, linux, windows, mac)`

@@ -862,6 +862,12 @@ projects:
       - windows
       - mac
       - qt5
+  - name: Calibre-Web
+    repo_url: https://github.com/janeczku/calibre-web
+    desc: Web application providing a clean interface for browsing, reading, and downloading ebooks using an existing [Calibre](https://calibre-ebook.com/) database.
+    tags:
+      - organization
+      - linux
   - name: CherryTree
     repo_url: https://github.com/giuspen/cherrytree
     home_url: https://www.giuspen.com/cherrytree

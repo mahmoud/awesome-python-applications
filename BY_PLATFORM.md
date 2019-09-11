@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(181)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(164)*
+1. <a href="#tag-desktop">Desktop</a> *(182)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(165)*
     1. <a href="#tag-desktop.windows">Windows</a> *(108)*
     1. <a href="#tag-desktop.mac">Mac</a> *(106)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -61,6 +61,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(productivity, mac)`
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(static_site, windows, mac)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(organization, windows, mac, qt5)`
+  1. **Calibre-Web** - ([Repo](https://github.com/janeczku/calibre-web)) Web application providing a clean interface for browsing, reading, and downloading ebooks using an existing [Calibre](https://calibre-ebook.com/) database. `(organization)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(internet, tui)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(science, windows, mac)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(organization, windows, gtk)`

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **274**
+This document is an always-growing list of **275**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -44,7 +44,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
-1. <a href="#tag-static_site">Static Site</a> *(7)*
+1. <a href="#tag-static_site">Static Site</a> *(8)*
 1. <a href="#tag-dev">Dev</a> *(117)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
@@ -258,6 +258,7 @@ thereof), see Architectures. -->
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(linux, windows, mac)`
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com/), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(linux, windows, mac)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com/), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(linux, windows, mac)`
+  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee/), [Example](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee/), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(linux, windows, mac)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(video, linux, server)`
 
 ## <a id="tag-dev" href="#tag-dev">Dev</a>

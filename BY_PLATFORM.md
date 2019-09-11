@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(180)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(163)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(107)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(105)*
+1. <a href="#tag-desktop">Desktop</a> *(181)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(164)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(108)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(106)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -159,6 +159,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(editor, c, gtk)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, windows, mac)`
   1. **Portage** - ([Repo](https://gitweb.gentoo.org/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_%28software%29)) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(pkg_mgr)`
+  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee/), [Example](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee/), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, windows, mac)`
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(audio, qt4)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, docker, server)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(science, gtk)`
@@ -285,6 +286,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(pkg_mgr, linux, mac)`
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(productivity, linux, mac, hardware, qt5)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, mac)`
+  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee/), [Example](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee/), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, mac)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(games, linux, gtk)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, mac)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, linux)`
@@ -398,6 +400,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(pkg_mgr, linux, windows)`
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(productivity, linux, windows, hardware, qt5)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, windows)`
+  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee/), [Example](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee/), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, windows)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, linux, windows, qt5)`

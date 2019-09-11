@@ -169,6 +169,13 @@ projects:
       - windows
       - mac
       - gtk
+  - name: Isso
+    repo_url: https://github.com/posativ/isso
+    home_url: https://posativ.org/isso/
+    desc: Lightweight commenting server, designed as a drop-in replacement for Disqus.
+    tags:
+      - internet
+      - server
   - name: KindleEar
     repo_url: https://github.com/cdhigh/KindleEar
     docs_url: https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md

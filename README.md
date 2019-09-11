@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **275**
+This document is an always-growing list of **276**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(23)*
+1. <a href="#tag-internet">Internet</a> *(24)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
@@ -69,6 +69,7 @@ thereof), see Architectures. -->
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, tui)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
+  1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso/)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`

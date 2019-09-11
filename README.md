@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **277**
+This document is an always-growing list of **278**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,8 +38,8 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(21)*
-1. <a href="#tag-communication">Communication</a> *(27)*
+1. <a href="#tag-organization">Organization</a> *(22)*
+1. <a href="#tag-communication">Communication</a> *(28)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(9)*
@@ -164,6 +164,7 @@ thereof), see Architectures. -->
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(dev, linux, windows, mac)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(linux, windows, mac)`
+  1. **Indico** - ([Repo](https://github.com/indico/indico), [Home](https://getindico.io/), [Example](https://sandbox.getindico.io/), [Docs](https://docs.getindico.io/en/stable/installation/)) Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more. `(communication, server)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(linux, windows, mac, homebrew)`
   1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian/), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(linux, mac)`
@@ -189,6 +190,7 @@ thereof), see Architectures. -->
   1. **Hawkpost** - ([Repo](https://github.com/whitesmith/hawkpost), [Home](https://hawkpost.co/)) Web application which enables receiving encrypted messages from less technical senders. `(server)`
   1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system. `(server)`
   1. **Inboxen** - ([Repo](https://github.com/Inboxen/Inboxen), [Home](https://inboxen.org/), [Docs](https://inboxen.readthedocs.io/en/latest/)) Web application which provides an infinite number of unique email inboxes, for segmenting services and maintaining privacy. `(server)`
+  1. **Indico** - ([Repo](https://github.com/indico/indico), [Home](https://getindico.io/), [Example](https://sandbox.getindico.io/), [Docs](https://docs.getindico.io/en/stable/installation/)) Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more. `(organization, server)`
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole), [Docs](https://magic-wormhole.readthedocs.io/en/latest)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(linux, mac, console)`
   1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives. `(server)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features. `(linux, windows, mac)`

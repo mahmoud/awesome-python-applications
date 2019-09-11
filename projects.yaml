@@ -1081,6 +1081,16 @@ projects:
     tags:
       - communication
       - server
+  - name: Indico
+    repo_url: https://github.com/indico/indico
+    docs_url: https://docs.getindico.io/en/stable/installation/
+    home_url: https://getindico.io
+    example_url: https://sandbox.getindico.io
+    desc: Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
+    tags:
+      - communication
+      - organization
+      - server
   - name: Magic Wormhole
     repo_url: https://github.com/warner/magic-wormhole
     docs_url: https://magic-wormhole.readthedocs.io/en/latest

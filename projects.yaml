@@ -163,7 +163,7 @@ projects:
     repo_url: https://github.com/flaskbb/flaskbb
     example_url: https://forums.flaskbb.org/
     home_url: https://flaskbb.org/
-    docs_url: https://flaskbb.readthedocs.io/en/latest/
+    docs_url: https://flaskbb.readthedocs.io/en/latest
     desc: A classic web forum application (bulletin board) with a modern look.
     tags:
       - internet
@@ -180,7 +180,7 @@ projects:
       - gtk
   - name: Isso
     repo_url: https://github.com/posativ/isso
-    home_url: https://posativ.org/isso/
+    home_url: https://posativ.org/isso
     desc: Lightweight commenting server, designed as a drop-in replacement for Disqus.
     tags:
       - internet
@@ -209,6 +209,15 @@ projects:
       - internet
       - server
       - django
+  - name: nsupdate.info
+    repo_url: https://github.com/nsupdate-info/nsupdate.info
+    docs_url: https://nsupdateinfo.readthedocs.io/en/latest
+    pypi_url: https://pypi.org/project/nsupdate
+    desc: Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers.
+    tags:
+      - internet
+      - ops
+      - server
   - name: Nyaa
     repo_url: https://github.com/nyaadevs/nyaa
     desc: Bittorrent tracker software built for anime site [nyaa.si](https://nyaa.si/).
@@ -881,8 +890,18 @@ projects:
     tags:
       - organization
       - linux
-      - mac
       - windows
+      - mac
+  - name: Indico
+    repo_url: https://github.com/indico/indico
+    docs_url: https://docs.getindico.io/en/stable/installation
+    home_url: https://getindico.io/
+    example_url: https://sandbox.getindico.io/
+    desc: Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
+    tags:
+      - organization
+      - communication
+      - server
   - name: Invenio
     repo_url: https://github.com/inveniosoftware/invenio
     docs_url: https://invenio.readthedocs.io/
@@ -903,7 +922,7 @@ projects:
   - name: LazyLibrarian
     repo_url: https://gitlab.com/LazyLibrarian/LazyLibrarian
     docs_url: https://lazylibrarian.gitlab.io/
-    forum_url: https://www.reddit.com/r/LazyLibrarian/
+    forum_url: https://www.reddit.com/r/LazyLibrarian
     desc: Web-based digital library organizer with support for following authors and automatic metadata retrieval.
     tags:
       - organization
@@ -938,6 +957,15 @@ projects:
     tags:
       - organization
       - server
+  - name: Pretalx
+    repo_url: https://github.com/pretalx/pretalx
+    home_url: https://pretalx.com/p/about
+    fund_url: https://www.patreon.com/rixx
+    desc: Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management.
+    tags:
+      - organization
+      - communication
+      - server
   - name: PyMedusa
     repo_url: https://github.com/pymedusa/Medusa
     home_url: https://pymedusa.com/
@@ -952,13 +980,6 @@ projects:
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
     tags:                             # communication?
-      - organization
-      - server
-  - name: Xandikos
-    repo_url: https://github.com/jelmer/xandikos
-    home_url: https://www.xandikos.org/
-    desc: Lightweight but relatively complete CardDAV/CalDAV server which backs up changes in a Git repository.
-    tags:
       - organization
       - server
   - name: SiCKRAGE
@@ -990,6 +1011,13 @@ projects:
       - windows
       - mac
       - wx
+  - name: Xandikos
+    repo_url: https://github.com/jelmer/xandikos
+    home_url: https://www.xandikos.org/
+    desc: Lightweight but relatively complete CardDAV/CalDAV server which backs up changes in a Git repository.
+    tags:
+      - organization
+      - server
   - name: Zim Wiki
     repo_url: https://github.com/jaap-karssenberg/zim-desktop-wiki
     home_url: http://zim-wiki.org/
@@ -1076,20 +1104,10 @@ projects:
   - name: Inboxen
     repo_url: https://github.com/Inboxen/Inboxen
     home_url: https://inboxen.org/
-    docs_url: https://inboxen.readthedocs.io/en/latest/
+    docs_url: https://inboxen.readthedocs.io/en/latest
     desc: Web application which provides an infinite number of unique email inboxes, for segmenting services and maintaining privacy.
     tags:
       - communication
-      - server
-  - name: Indico
-    repo_url: https://github.com/indico/indico
-    docs_url: https://docs.getindico.io/en/stable/installation/
-    home_url: https://getindico.io
-    example_url: https://sandbox.getindico.io
-    desc: Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
-    tags:
-      - communication
-      - organization
       - server
   - name: Magic Wormhole
     repo_url: https://github.com/warner/magic-wormhole
@@ -1120,7 +1138,7 @@ projects:
       - mac
   - name: Mailu
     repo_url: https://github.com/Mailu/Mailu
-    home_url: https://mailu.io
+    home_url: https://mailu.io/
     desc: Full-featured mail server designed for easy setup and maintenance, supporting IMAP, IMAP+, SMTP, and Submission, as well as a slew of advanced features.
     tags:
       - communication
@@ -1168,15 +1186,6 @@ projects:
     tags:
       - communication
       - server
-  - name: Pretalx
-    repo_url: https://github.com/pretalx/pretalx
-    home_url: https://pretalx.com/p/about/
-    fund_url: https://www.patreon.com/rixx
-    desc: Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management.
-    tags:
-      - communication
-      - organization
-      - server
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw
@@ -1212,7 +1221,7 @@ projects:
     repo_url: https://git.feneas.org/socialhome/socialhome
     gh_url: https://github.com/jaywink/socialhome
     home_url: https://socialhome.network/
-    docs_url: https://socialhome.readthedocs.io/en/latest/
+    docs_url: https://socialhome.readthedocs.io/en/latest
     desc: Web application enabling users to build a federated personal profile with social networking functionality.
     tags:
       - communication
@@ -1472,6 +1481,17 @@ projects:
     tags:
       - cms
       - server
+  - name: Pretix
+    repo_url: https://github.com/pretix/pretix
+    home_url: https://pretix.eu/
+    docs_url: https://docs.pretix.eu/en/latest/development/index.html
+    pypi_url: https://pypi.org/project/pretix
+    blog_url: https://pretix.eu/about/en/blog
+    desc: Web-based ticketing software, with support for customizable storefronts, direct payments, box office, and reporting.
+    tags:
+      - cms
+      - server
+      - corp
   - name: PyCon
     repo_url: https://github.com/PyCon/pycon
     home_url: https://us.pycon.org/
@@ -1489,6 +1509,14 @@ projects:
       - cms
       - server
       - django
+  - name: Shuup
+    repo_url: https://github.com/shuup/shuup
+    home_url: https://www.shuup.com/
+    docs_url: https://shuup.readthedocs.io/en/latest
+    desc: Storefront web application, with support for single- and multi-marketplace models.
+    tags:
+      - cms
+      - server
   - name: Wagtail
     repo_url: https://github.com/wagtail/wagtail
     home_url: https://wagtail.io/
@@ -1497,25 +1525,6 @@ projects:
       - cms
       - server
       - django
-  - name: Shuup
-    repo_url: https://github.com/shuup/shuup
-    home_url: https://www.shuup.com/
-    docs_url: https://shuup.readthedocs.io/en/latest/
-    desc: Storefront web application, with support for single- and multi-marketplace models.
-    tags:
-      - cms
-      - server
-  - name: Pretix
-    repo_url: https://github.com/pretix/pretix
-    home_url: https://pretix.eu
-    docs_url: https://docs.pretix.eu/en/latest/development/index.html
-    pypi_url: https://pypi.org/project/pretix/
-    blog_url: https://pretix.eu/about/en/blog/
-    desc: Web-based ticketing software, with support for customizable storefronts, direct payments, box office, and reporting.
-    tags:
-      - cms
-      - server
-      - corp
 #
 # Erp
 #
@@ -1616,10 +1625,10 @@ projects:
       - mac
     desc: Command-line static site generator that supports Markdown and reST syntax.
   - name: Prosopopee
-    repo_url: https://github.com/Psycojoker/prosopopee/
+    repo_url: https://github.com/Psycojoker/prosopopee
     docs_url: https://prosopopee.readthedocs.io/
     example_url: https://surleschemins.fr/
-    pypi_url: https://pypi.org/project/prosopopee/
+    pypi_url: https://pypi.org/project/prosopopee
     desc: A static site generator designed for photographers and others who tell stories with pictures.
     tags:
       - static_site
@@ -1908,19 +1917,19 @@ projects:
     tags:
       - ops
       - server
-  - name: Iris
-    repo_url: https://github.com/linkedin/iris
-    home_url: https://iris.claims/
-    desc: Flexible automated incident paging system, developed by and used at LinkedIn.
+  - name: Healthchecks
+    repo_url: https://github.com/healthchecks/healthchecks
+    docs_url: https://healthchecks.io/docs
+    home_url: https://healthchecks.io/
+    desc: Web-based monitor for scheduled jobs (e.g., cron).
     tags:
       - ops
       - server
       - corp
-  - name: Healthchecks
-    repo_url: https://github.com/healthchecks/healthchecks
-    docs_url: https://healthchecks.io/docs/
-    home_url: https://healthchecks.io/
-    desc: Web-based monitor for scheduled jobs (e.g., cron).
+  - name: Iris
+    repo_url: https://github.com/linkedin/iris
+    home_url: https://iris.claims/
+    desc: Flexible automated incident paging system, developed by and used at LinkedIn.
     tags:
       - ops
       - server
@@ -1942,15 +1951,6 @@ projects:
       - ops
       - server
       - django
-  - name: nsupdate.info
-    repo_url: https://github.com/nsupdate-info/nsupdate.info
-    docs_url: https://nsupdateinfo.readthedocs.io/en/latest/
-    pypi_url: https://pypi.org/project/nsupdate/
-    desc: Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers.
-    tags:
-      - ops
-      - internet
-      - server
   - name: Oncall
     repo_url: https://github.com/linkedin/oncall
     home_url: https://oncall.tools/
@@ -2012,8 +2012,8 @@ projects:
   - name: Spinnaker
     repo_url: https://github.com/spinnaker/spinnaker
     home_url: https://www.spinnaker.io/
-    docs_url: https://www.spinnaker.io/concepts/
-    wp_url: https://en.wikipedia.org/wiki/Spinnaker_(software)
+    docs_url: https://www.spinnaker.io/concepts
+    wp_url: https://en.wikipedia.org/wiki/Spinnaker_%28software%29
     desc: Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments.
     tags:
       - ops

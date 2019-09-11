@@ -8,3 +8,6 @@ projects:
   - name: imgpush
     repo_url: https://github.com/hauxir/imgpush
     reason: Too young (16 commits, 3 months)
+  - name: tagtool
+    repo_url: https://gitlab.com/tagtool/tagtool
+    reason: low commit count. also, tried it out, seemed interesting, but confusing in its current state.

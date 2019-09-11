@@ -1327,6 +1327,13 @@ projects:
     tags:
       - education
       - server
+  - name: RELATE
+    repo_url: https://github.com/inducer/relate
+    docs_url: https://documen.tician.de/relate/
+    desc: Web-based courseware with support for course planning and versioning, scheduling, testing, and grading.
+    tags:
+      - education
+      - server
 #
 # Science
 #

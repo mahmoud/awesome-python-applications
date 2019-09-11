@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **285**
+This document is an always-growing list of **286**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-productivity">Productivity</a> *(15)*
 1. <a href="#tag-organization">Organization</a> *(24)*
 1. <a href="#tag-communication">Communication</a> *(29)*
-1. <a href="#tag-education">Education</a> *(4)*
+1. <a href="#tag-education">Education</a> *(5)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(4)*
@@ -222,6 +222,7 @@ thereof), see Architectures. -->
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(linux, windows, mac, qt5)`
   1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form. `(server)`
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(server)`
+  1. **RELATE** - ([Repo](https://github.com/inducer/relate), [Docs](https://documen.tician.de/relate/)) Web-based courseware with support for course planning and versioning, scheduling, testing, and grading. `(server)`
 
 ## <a id="tag-science" href="#tag-science">Science</a>
 

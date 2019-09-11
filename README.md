@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **283**
+This document is an always-growing list of **284**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(26)*
+1. <a href="#tag-internet">Internet</a> *(27)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
@@ -74,6 +74,7 @@ thereof), see Architectures. -->
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`
+  1. **Newspipe** - ([Repo](https://gitlab.com/newspipe/newspipe), [Home](http://newspipe.io/), [Example](https://www.newspipe.org/), [Gh](https://github.com/newspipe/newspipe), [Docs](https://newspipe.readthedocs.io/en/latest/)) Web-based news aggregator and reader. `(server)`
   1. **nsupdate.info** - ([Repo](https://github.com/nsupdate-info/nsupdate.info), [PyPI](https://pypi.org/project/nsupdate), [Docs](https://nsupdateinfo.readthedocs.io/en/latest)) Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers. `(ops, server)`
   1. **Nyaa** - ([Repo](https://github.com/nyaadevs/nyaa)) Bittorrent tracker software built for anime site [nyaa.si](https://nyaa.si/). `(server)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`

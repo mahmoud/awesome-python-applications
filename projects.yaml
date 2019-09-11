@@ -209,6 +209,16 @@ projects:
       - internet
       - server
       - django
+  - name: Newspipe
+    repo_url: https://gitlab.com/newspipe/newspipe
+    gh_url: https://github.com/newspipe/newspipe
+    docs_url: https://newspipe.readthedocs.io/en/latest/
+    home_url: http://newspipe.io/
+    example_url: https://www.newspipe.org
+    desc: Web-based news aggregator and reader.
+    tags:
+      - internet
+      - server
   - name: nsupdate.info
     repo_url: https://github.com/nsupdate-info/nsupdate.info
     docs_url: https://nsupdateinfo.readthedocs.io/en/latest

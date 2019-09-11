@@ -928,6 +928,16 @@ projects:
       - organization
       - linux
       - mac
+  - name: Mayan
+    repo_url: https://gitlab.com/mayan-edms/mayan-edms
+    home_url: https://www.mayan-edms.com/
+    docs_url: https://docs.mayan-edms.com/
+    fund_url: https://www.paypal.me/MayanEDMS
+    pypi_url: https://pypi.org/project/mayan-edms/3.2.7/
+    desc: Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API.
+    tags:
+      - organization
+      - server
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/

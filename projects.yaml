@@ -1505,6 +1505,17 @@ projects:
     tags:
       - cms
       - server
+  - name: Pretix
+    repo_url: https://github.com/pretix/pretix
+    home_url: https://pretix.eu
+    docs_url: https://docs.pretix.eu/en/latest/development/index.html
+    pypi_url: https://pypi.org/project/pretix/
+    blog_url: https://pretix.eu/about/en/blog/
+    desc: Web-based ticketing software, with support for customizable storefronts, direct payments, box office, and reporting.
+    tags:
+      - cms
+      - server
+      - corp
 #
 # Erp
 #

@@ -1935,6 +1935,16 @@ projects:
     tags:
       - ops
       - server
+  - name: Spinnaker
+    repo_url: https://github.com/spinnaker/spinnaker
+    home_url: https://www.spinnaker.io/
+    docs_url: https://www.spinnaker.io/concepts/
+    wp_url: https://en.wikipedia.org/wiki/Spinnaker_(software)
+    desc: Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments.
+    tags:
+      - ops
+      - server
+      - corp
   - name: StackStorm
     repo_url: https://github.com/StackStorm/st2
     home_url: http://www.stackstorm.com/

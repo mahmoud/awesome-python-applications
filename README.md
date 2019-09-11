@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **273**
+This document is an always-growing list of **274**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,11 +45,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(9)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(7)*
-1. <a href="#tag-dev">Dev</a> *(116)*
+1. <a href="#tag-dev">Dev</a> *(117)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.storage">Storage</a> *(8)*
-    1. <a href="#tag-dev.ops">Ops</a> *(22)*
+    1. <a href="#tag-dev.ops">Ops</a> *(23)*
     1. <a href="#tag-dev.security">Security</a> *(13)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
@@ -319,6 +319,7 @@ Projects related to software development and adjacent technical areas.
   1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/latest)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office. `(server, django)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`
+  1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_(software)), [Docs](https://www.spinnaker.io/concepts/)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments. `(server, corp)`
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac, server)`
 

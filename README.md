@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **284**
+This document is an always-growing list of **285**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -32,7 +32,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(27)*
+1. <a href="#tag-internet">Internet</a> *(28)*
 1. <a href="#tag-audio">Audio</a> *(11)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
@@ -68,6 +68,7 @@ thereof), see Architectures. -->
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(organization, server)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, tui)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
+  1. **Elixire** - ([Repo](https://gitlab.com/elixire/elixire), [Home](https://elixi.re/), [Docs](https://gitlab.com/elixire/api-docs)) Featureful file host and link shortener with API and support for multiple vanity urls. `(server)`
   1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Example](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look. `(server)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`

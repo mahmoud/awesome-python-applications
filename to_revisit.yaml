@@ -5,3 +5,6 @@ projects:
   - name: OpenEats
     repo_url: https://github.com/open-eats/OpenEats
     reason: Not enough commnits (59)
+  - name: imgpush
+    repo_url: https://github.com/hauxir/imgpush
+    reason: Too young (16 commits, 3 months)

@@ -168,6 +168,14 @@ projects:
     tags:
       - internet
       - server
+  - name: Elixire
+    repo_url: https://gitlab.com/elixire/elixire
+    docs_url: https://gitlab.com/elixire/api-docs
+    home_url: https://elixi.re/
+    desc: Featureful file host and link shortener with API and support for multiple vanity urls.
+    tags:
+      - internet
+      - server
   - name: gPodder
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder

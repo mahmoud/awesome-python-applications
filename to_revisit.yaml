@@ -2,3 +2,6 @@ projects:
   - name: docnado
     repo_url: https://github.com/HEInventions/docnado
     reason: Too young (48 commits, <1 year)
+  - name: OpenEats
+    repo_url: https://github.com/open-eats/OpenEats
+    reason: Not enough commnits (59)

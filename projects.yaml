@@ -1168,6 +1168,15 @@ projects:
     tags:
       - communication
       - server
+  - name: Pretalx
+    repo_url: https://github.com/pretalx/pretalx
+    home_url: https://pretalx.com/p/about/
+    fund_url: https://www.patreon.com/rixx
+    desc: Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management.
+    tags:
+      - communication
+      - organization
+      - server
   - name: pycsw
     repo_url: https://github.com/geopython/pycsw
     wp_url: https://en.wikipedia.org/wiki/Pycsw

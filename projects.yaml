@@ -159,6 +159,15 @@ projects:
       - mac
       - server
       - gtk
+  - name: FlaskBB
+    repo_url: https://github.com/flaskbb/flaskbb
+    example_url: https://forums.flaskbb.org/
+    home_url: https://flaskbb.org/
+    docs_url: https://flaskbb.readthedocs.io/en/latest/
+    desc: A classic web forum application (bulletin board) with a modern look.
+    tags:
+      - internet
+      - server
   - name: gPodder
     home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder

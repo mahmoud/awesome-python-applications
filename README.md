@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **279**
+This document is an always-growing list of **280**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-communication">Communication</a> *(29)*
 1. <a href="#tag-education">Education</a> *(4)*
 1. <a href="#tag-science">Science</a> *(15)*
-1. <a href="#tag-cms">CMS</a> *(9)*
+1. <a href="#tag-cms">CMS</a> *(10)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
 1. <a href="#tag-dev">Dev</a> *(117)*
@@ -247,6 +247,7 @@ thereof), see Architectures. -->
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(video, server, plone)`
   1. **PyCon** - ([Repo](https://github.com/PyCon/pycon), [Home](https://us.pycon.org/), [Docs](https://pycon.readthedocs.io/en/latest)) Content management and conference organization web application, based on Django and [Symposion](https://github.com/pinax/symposion). `(server, django)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(server, django)`
+  1. **Shuup** - ([Repo](https://github.com/shuup/shuup), [Home](https://www.shuup.com/), [Docs](https://shuup.readthedocs.io/en/latest/)) Storefront web application, with support for single- and multi-marketplace models. `(server)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
 
 ## <a id="tag-erp" href="#tag-erp">ERP</a>

@@ -1497,6 +1497,14 @@ projects:
       - cms
       - server
       - django
+  - name: Shuup
+    repo_url: https://github.com/shuup/shuup
+    home_url: https://www.shuup.com/
+    docs_url: https://shuup.readthedocs.io/en/latest/
+    desc: Storefront web application, with support for single- and multi-marketplace models.
+    tags:
+      - cms
+      - server
 #
 # Erp
 #

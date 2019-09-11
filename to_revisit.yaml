@@ -1,0 +1,4 @@
+projects:
+  - name: docnado
+    repo_url: https://github.com/HEInventions/docnado
+    reason: Too young (48 commits, <1 year)

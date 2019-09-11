@@ -1942,6 +1942,15 @@ projects:
       - ops
       - server
       - django
+  - name: nsupdate.info
+    repo_url: https://github.com/nsupdate-info/nsupdate.info
+    docs_url: https://nsupdateinfo.readthedocs.io/en/latest/
+    pypi_url: https://pypi.org/project/nsupdate/
+    desc: Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers.
+    tags:
+      - ops
+      - internet
+      - server
   - name: Oncall
     repo_url: https://github.com/linkedin/oncall
     home_url: https://oncall.tools/

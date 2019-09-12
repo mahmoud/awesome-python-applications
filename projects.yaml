@@ -2736,6 +2736,13 @@ projects:
     tags:
       - misc
       - linux
+  - name: uMap
+    repo_url: https://github.com/umap-project/umap
+    docs_url: https://wiki.openstreetmap.org/wiki/UMap
+    desc: Web application allowing users to create maps with OpenStreetMap layers and embed it on other sites.
+    tags:
+      - misc
+      - server
   - name: Wicd
     wp_url: https://en.wikipedia.org/wiki/Wicd
     home_url: http://wicd.sourceforge.net/download.php

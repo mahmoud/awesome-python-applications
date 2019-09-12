@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **290**
+This document is an always-growing list of **291**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -34,9 +34,9 @@ thereof), see Architectures. -->
 
 1. <a href="#tag-internet">Internet</a> *(28)*
 1. <a href="#tag-audio">Audio</a> *(12)*
-1. <a href="#tag-video">Video</a> *(5)*
+1. <a href="#tag-video">Video</a> *(6)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
-1. <a href="#tag-games">Games</a> *(6)*
+1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
 1. <a href="#tag-organization">Organization</a> *(26)*
 1. <a href="#tag-communication">Communication</a> *(30)*
@@ -111,6 +111,7 @@ thereof), see Architectures. -->
 ## <a id="tag-video" href="#tag-video">Video</a>
 
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(linux, gtk)`
+  1. **Open Streaming Platform** - ([Repo](https://gitlab.com/Deamos/flask-nginx-rtmp-manager)) Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube. `(games, server)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot), [Fund](https://www.patreon.com/openshot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(linux, windows, mac, qt5)`
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
@@ -136,6 +137,7 @@ thereof), see Architectures. -->
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, windows, pygame)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(linux, windows, qt4)`
   1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/), [Fund](https://www.patreon.com/lutris)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(linux, gtk)`
+  1. **Open Streaming Platform** - ([Repo](https://gitlab.com/Deamos/flask-nginx-rtmp-manager)) Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube. `(video, server)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(linux, windows, gtk)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(linux, windows, android, kivy, tk)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, windows, mac)`

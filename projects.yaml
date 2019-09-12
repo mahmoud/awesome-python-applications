@@ -511,7 +511,13 @@ projects:
       - mac
       - qt5
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
-
+  - name: Open Streaming Platform
+    repo_url: https://gitlab.com/Deamos/flask-nginx-rtmp-manager
+    desc: Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube.
+    tags:
+      - video
+      - games
+      - server
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
     wp_url: https://en.wikipedia.org/wiki/Pitivi

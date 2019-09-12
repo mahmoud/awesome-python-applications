@@ -352,7 +352,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server)`
-  1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Web-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks. `(server)`
+  1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application. `(linux, windows, server)`
   1. **Maltrail** - ([Repo](https://github.com/stamparm/maltrail)) Malicious traffic detection system with web-based monitoring. `(linux, server)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(linux, windows, mac)`
   1. **MozDef** - ([Repo](https://github.com/mozilla/MozDef), [Docs](https://mozdef.readthedocs.io/en/latest?badge=latest)) Security incident automation with metrics and collaboration tools for defenders. `(server)`

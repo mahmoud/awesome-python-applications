@@ -2158,9 +2158,11 @@ projects:
   - name: King Phisher
     repo_url: https://github.com/securestate/king-phisher
     docs_url: https://king-phisher.readthedocs.io/
-    desc: Web-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks.
+    desc: Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application.
     tags:
       - security
+      - linux
+      - windows
       - server
   - name: Maltrail
     repo_url: https://github.com/stamparm/maltrail

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **298**
+This document is an always-growing list of **299**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,12 +45,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(120)*
+1. <a href="#tag-dev">Dev</a> *(121)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.storage">Storage</a> *(8)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
-    1. <a href="#tag-dev.security">Security</a> *(15)*
+    1. <a href="#tag-dev.security">Security</a> *(16)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
@@ -358,6 +358,7 @@ Projects related to software development and adjacent technical areas.
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(linux, windows, mac)`
   1. **MozDef** - ([Repo](https://github.com/mozilla/MozDef), [Docs](https://mozdef.readthedocs.io/en/latest?badge=latest)) Security incident automation with metrics and collaboration tools for defenders. `(server)`
   1. **OpenSnitch** - ([Repo](https://github.com/evilsocket/opensnitch), [Home](https://opensnitch.io/)) GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall. `(linux, qt5)`
+  1. **Passit** - ([Repo](https://gitlab.com/passit/passit-backend), [Home](https://passit.io/), [Docs](https://passit.io/documentation/)) Password management server, providing storage services and group access control list features. `(server)`
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Example](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(productivity, server)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(linux, docker, server)`
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more. `(console)`

@@ -2195,6 +2195,14 @@ projects:
       - security
       - linux
       - qt5
+  - name: Passit
+    repo_url: https://gitlab.com/passit/passit-backend
+    docs_url: https://passit.io/documentation/
+    home_url: https://passit.io/
+    desc: Password management server, providing storage services and group access control list features.
+    tags:
+      - security
+      - server
   - name: Psono
     repo_url: https://gitlab.com/psono/psono-server
     home_url: https://psono.com/

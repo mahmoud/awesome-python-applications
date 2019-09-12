@@ -931,6 +931,14 @@ projects:
       - linux
       - windows
       - mac
+  - name: ihatemoney
+    repo_url: https://github.com/spiral-project/ihatemoney
+    home_url: https://ihatemoney.org/
+    docs_url: https://ihatemoney.readthedocs.io/
+    desc: Web application made to ease shared budget management by keeping track of who bought what, when, and for whom.
+    tags:
+      - organization
+      - server
   - name: Indico
     repo_url: https://github.com/indico/indico
     docs_url: https://docs.getindico.io/en/stable/installation

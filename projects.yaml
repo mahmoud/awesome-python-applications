@@ -866,6 +866,17 @@ projects:
 #
 # Organization
 #
+  - name: beancount
+    repo_url: https://bitbucket.org/blais/beancount/commits/all
+    gh_url: https://github.com/beancount/beancount
+    docs_url: https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit
+    pypi_url: https://pypi.org/project/beancount/
+    desc: A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).
+    tags:
+      - organization
+      - linux
+      - windows
+      - mac
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre
     home_url: https://calibre-ebook.com/

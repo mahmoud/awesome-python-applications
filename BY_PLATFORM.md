@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(182)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(165)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(108)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(106)*
+1. <a href="#tag-desktop">Desktop</a> *(183)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(166)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(109)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(107)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -52,6 +52,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, mac)`
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey)) Desktop automation utility for Linux and X11. `(productivity, gtk, qt)`
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(storage)`
+  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount/commits/all), [Gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount/), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(organization, windows, mac)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, windows, mac)`
   1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints. `(build)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol. `(communication, windows, mac, kivy, qt4, tui)`
@@ -216,6 +217,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, linux)`
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, docker)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, mac, gtk)`
+  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount/commits/all), [Gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount/), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(organization, linux, mac)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, linux, mac)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol. `(communication, linux, mac, kivy, qt4, tui)`
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy. `(productivity, linux, gtk)`
@@ -327,6 +329,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, linux, corp)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, windows, gtk)`
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, linux)`
+  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount/commits/all), [Gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount/), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(organization, linux, windows)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, linux, windows)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol. `(communication, linux, windows, kivy, qt4, tui)`
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(build, linux, windows)`

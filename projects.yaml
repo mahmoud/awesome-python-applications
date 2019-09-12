@@ -2148,6 +2148,13 @@ projects:
     tags:
       - security
       - server
+  - name: King Phisher
+    repo_url: https://github.com/securestate/king-phisher
+    docs_url: https://king-phisher.readthedocs.io/
+    desc: Web-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks.
+    tags:
+      - security
+      - server
   - name: Maltrail
     repo_url: https://github.com/stamparm/maltrail
     desc: Malicious traffic detection system with web-based monitoring.

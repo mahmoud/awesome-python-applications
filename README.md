@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **295**
+This document is an always-growing list of **296**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,12 +45,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(118)*
+1. <a href="#tag-dev">Dev</a> *(119)*
     1. <a href="#tag-dev.scm">SCM</a> *(12)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
     1. <a href="#tag-dev.storage">Storage</a> *(8)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
-    1. <a href="#tag-dev.security">Security</a> *(13)*
+    1. <a href="#tag-dev.security">Security</a> *(14)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
@@ -351,6 +351,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server)`
+  1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Web-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks. `(server)`
   1. **Maltrail** - ([Repo](https://github.com/stamparm/maltrail)) Malicious traffic detection system with web-based monitoring. `(linux, server)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(linux, windows, mac)`
   1. **MozDef** - ([Repo](https://github.com/mozilla/MozDef), [Docs](https://mozdef.readthedocs.io/en/latest?badge=latest)) Security incident automation with metrics and collaboration tools for defenders. `(server)`

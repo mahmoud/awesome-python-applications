@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **294**
+This document is an always-growing list of **295**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(15)*
-1. <a href="#tag-organization">Organization</a> *(28)*
+1. <a href="#tag-organization">Organization</a> *(29)*
 1. <a href="#tag-communication">Communication</a> *(31)*
 1. <a href="#tag-education">Education</a> *(5)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -164,13 +164,14 @@ thereof), see Architectures. -->
 
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(internet, server)`
-  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount/commits/all), [Gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount/), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(linux, windows, mac)`
+  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount/), [Gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount/), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(linux, windows, mac)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
   1. **Calibre-Web** - ([Repo](https://github.com/janeczku/calibre-web)) Web application providing a clean interface for browsing, reading, and downloading ebooks using an existing [Calibre](https://calibre-ebook.com/) database. `(linux)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual/)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts. `(communication, server)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(linux, windows, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(dev, linux, windows, mac)`
+  1. **fava** - ([Repo](https://github.com/beancount/fava/), [Example](https://fava.pythonanywhere.com/huge-example-file/income_statement/), [Docs](https://beancount.github.io/fava/)) Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability. `(linux, windows, mac)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(linux, windows, mac)`
   1. **ihatemoney** - ([Repo](https://github.com/spiral-project/ihatemoney), [Home](https://ihatemoney.org/), [Docs](https://ihatemoney.readthedocs.io/)) Web application made to ease shared budget management by keeping track of who bought what, when, and for whom. `(server)`

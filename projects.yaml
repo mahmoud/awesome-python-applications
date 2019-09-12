@@ -867,7 +867,8 @@ projects:
 # Organization
 #
   - name: beancount
-    repo_url: https://bitbucket.org/blais/beancount/commits/all
+    repo_url: https://bitbucket.org/blais/beancount
+    home_url: http://furius.ca/beancount/
     gh_url: https://github.com/beancount/beancount
     docs_url: https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit
     pypi_url: https://pypi.org/project/beancount/
@@ -920,6 +921,16 @@ projects:
     tags:
       - organization
       - dev
+      - linux
+      - windows
+      - mac
+  - name: fava
+    repo_url: https://github.com/beancount/fava/
+    docs_url: https://beancount.github.io/fava/
+    example_url: https://fava.pythonanywhere.com/huge-example-file/income_statement/
+    desc: Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability.
+    tags:
+      - organization
       - linux
       - windows
       - mac

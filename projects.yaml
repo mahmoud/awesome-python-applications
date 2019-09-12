@@ -866,6 +866,13 @@ projects:
 #
 # Organization
 #
+  - name: Baby Buddy
+    repo_url: https://github.com/cdubz/babybuddy
+    example_url: http://demo.baby-buddy.net/
+    desc: Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork.
+    tags:
+      - organization
+      - server
   - name: beancount
     repo_url: https://bitbucket.org/blais/beancount
     home_url: http://furius.ca/beancount/

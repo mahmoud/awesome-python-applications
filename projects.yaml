@@ -2195,6 +2195,16 @@ projects:
       - security
       - linux
       - qt5
+  - name: Psono
+    repo_url: https://gitlab.com/psono/psono-server
+    home_url: https://psono.com/
+    docs_url: https://doc.psono.com/
+    example_url: https://www.psono.pw/
+    desc: Server-based password manager, built for teams.
+    tags:
+      - security
+      - productivity
+      - server
   - name: Pupy
     repo_url: https://github.com/n1nj4sec/pupy
     docs_url: https://github.com/n1nj4sec/pupy/wiki/Installation

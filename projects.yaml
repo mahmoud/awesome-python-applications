@@ -1115,6 +1115,14 @@ projects:
       - communication
       - organization
       - server
+  - name: Formspree
+    repo_url: https://github.com/formspree/formspree
+    home_url: https://formspree.io/
+    desc: Web server which turns an HTML form submission into an email, without registration, JavaScript, or custom Python.
+    tags:
+      - communication
+      - server
+      - corp
   - name: Gajim
     desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim

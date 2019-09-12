@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **288**
+This document is an always-growing list of **289**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(28)*
-1. <a href="#tag-audio">Audio</a> *(11)*
+1. <a href="#tag-audio">Audio</a> *(12)*
 1. <a href="#tag-video">Video</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(12)*
 1. <a href="#tag-games">Games</a> *(6)*
@@ -99,6 +99,7 @@ thereof), see Architectures. -->
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(linux, windows, mac, gtk)`
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_%28software%29)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(linux, windows, mac, qt)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(linux, windows, mac, qt5)`
+  1. **Funkwhale** - ([Repo](https://dev.funkwhale.audio/funkwhale/funkwhale), [Home](https://funkwhale.audio/en_US/), [Docs](https://docs.funkwhale.audio/)) Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network. `(server)`
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(linux, windows, mac, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(linux, windows, mac, gtk)`
   1. **Mopidy** - ([Repo](https://github.com/mopidy/mopidy), [Home](https://www.mopidy.com/)) Extensible music player server with plugin support for a wide range of services. `(server)`

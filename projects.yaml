@@ -413,6 +413,15 @@ projects:
       - windows
       - mac
       - qt5
+  - name: Funkwhale
+    repo_url: https://dev.funkwhale.audio/funkwhale/funkwhale
+    home_url: https://funkwhale.audio/en_US/
+    clone_url: git+https://dev.funkwhale.audio/funkwhale/funkwhale.git
+    docs_url: https://docs.funkwhale.audio/
+    desc: Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network.
+    tags:
+      - audio
+      - server
   - name: GNU Radio
     repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
     wp_url: https://en.wikipedia.org/wiki/GNU_Radio

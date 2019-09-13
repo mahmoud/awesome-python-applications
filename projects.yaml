@@ -2732,6 +2732,13 @@ projects:
     tags:
       - dev
       - console
+  - name: ScratchABit
+    repo_url: https://github.com/pfalcon/ScratchABit/
+    desc: Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.
+    tags:
+      - dev
+      - tui
+      - linux
   - name: Sentry
     repo_url: https://github.com/getsentry/sentry
     home_url: https://sentry.io/

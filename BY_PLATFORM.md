@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(185)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(168)*
+1. <a href="#tag-desktop">Desktop</a> *(186)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(169)*
     1. <a href="#tag-desktop.windows">Windows</a> *(111)*
     1. <a href="#tag-desktop.mac">Mac</a> *(108)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -181,6 +181,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, windows, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, windows, mac)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, windows, mac)`
+  1. **ScratchABit** - ([Repo](https://github.com/pfalcon/ScratchABit/)) Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API. `(dev, tui)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [Gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(organization, windows)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(graphics, windows, mac, gtk, wx)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(science, windows, mac, wx)`

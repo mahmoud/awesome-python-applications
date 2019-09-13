@@ -1908,6 +1908,14 @@ projects:
     tags:
       - storage
       - server
+  - name: FreeNAS
+    repo_url: https://github.com/freenas/freenas
+    home_url: https://www.freenas.org/
+    docs_url: https://www.ixsystems.com/documentation/freenas/
+    desc: Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more.
+    tags:
+      - storage
+      - server
   - name: kinto
     repo_url: https://github.com/Kinto/kinto
     docs_url: http://docs.kinto-storage.org/

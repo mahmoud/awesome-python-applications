@@ -2709,6 +2709,18 @@ projects:
       - dev
       - linux
       - qt5
+  - name: PPCI
+    repo_url: https://bitbucket.org/windel/ppci/
+    gh_url: https://github.com/windelbouwman/ppci-mirror
+    docs_url: https://ppci.readthedocs.io/
+    demo_url: https://godbolt.org/g/eooaPP
+    pypi_url: https://pypi.org/project/ppci/
+    desc: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: Polyaxon
     repo_url: https://github.com/polyaxon/polyaxon
     docs_url: https://docs.polyaxon.com/

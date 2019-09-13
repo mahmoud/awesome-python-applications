@@ -161,7 +161,7 @@ projects:
       - gtk
   - name: FlaskBB
     repo_url: https://github.com/flaskbb/flaskbb
-    example_url: https://forums.flaskbb.org/
+    demo_url: https://forums.flaskbb.org/
     home_url: https://flaskbb.org/
     docs_url: https://flaskbb.readthedocs.io/en/latest
     desc: A classic web forum application (bulletin board) with a modern look.
@@ -222,7 +222,7 @@ projects:
     gh_url: https://github.com/newspipe/newspipe
     docs_url: https://newspipe.readthedocs.io/en/latest/
     home_url: http://newspipe.io/
-    example_url: https://www.newspipe.org
+    demo_url: https://www.newspipe.org
     desc: Web-based news aggregator and reader.
     tags:
       - internet
@@ -868,7 +868,7 @@ projects:
 #
   - name: Baby Buddy
     repo_url: https://github.com/cdubz/babybuddy
-    example_url: http://demo.baby-buddy.net/
+    demo_url: http://demo.baby-buddy.net/
     desc: Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork.
     tags:
       - organization
@@ -934,7 +934,7 @@ projects:
   - name: fava
     repo_url: https://github.com/beancount/fava/
     docs_url: https://beancount.github.io/fava/
-    example_url: https://fava.pythonanywhere.com/huge-example-file/income_statement/
+    demo_url: https://fava.pythonanywhere.com/huge-example-file/income_statement/
     desc: Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability.
     tags:
       - organization
@@ -972,7 +972,7 @@ projects:
     repo_url: https://github.com/indico/indico
     docs_url: https://docs.getindico.io/en/stable/installation
     home_url: https://getindico.io/
-    example_url: https://sandbox.getindico.io/
+    demo_url: https://sandbox.getindico.io/
     desc: Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
     tags:
       - organization
@@ -1736,7 +1736,7 @@ projects:
   - name: Prosopopee
     repo_url: https://github.com/Psycojoker/prosopopee
     docs_url: https://prosopopee.readthedocs.io/
-    example_url: https://surleschemins.fr/
+    demo_url: https://surleschemins.fr/
     pypi_url: https://pypi.org/project/prosopopee
     desc: A static site generator designed for photographers and others who tell stories with pictures.
     tags:
@@ -2215,7 +2215,7 @@ projects:
     repo_url: https://gitlab.com/psono/psono-server
     home_url: https://psono.com/
     docs_url: https://doc.psono.com/
-    example_url: https://www.psono.pw/
+    demo_url: https://www.psono.pw/
     desc: Server-based password manager, built for teams.
     tags:
       - security

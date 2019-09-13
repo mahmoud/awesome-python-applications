@@ -2290,7 +2290,7 @@ projects:
       - docs
       - console
   - name: readthedocs.org
-    repo_url: https://github.com/rtfd/readthedocs.org
+    repo_url: https://github.com/readthedocs/readthedocs.org
     home_url: https://readthedocs.org/
     docs_url: https://docs.readthedocs.io/en/stable
     desc: Continuous integration platform for building and hosting documentation.

@@ -375,7 +375,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, linux, windows, mac, flatpak, gtk)`
   1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN) `(server, django)`
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/)) Simple, customizable project documentation, with built-in dev server. `(console)`
-  1. **readthedocs.org** - ([Repo](https://github.com/rtfd/readthedocs.org), [Home](https://readthedocs.org/), [Docs](https://docs.readthedocs.io/en/stable)) Continuous integration platform for building and hosting documentation. `(server, django)`
+  1. **readthedocs.org** - ([Repo](https://github.com/readthedocs/readthedocs.org), [Home](https://readthedocs.org/), [Docs](https://docs.readthedocs.io/en/stable)) Continuous integration platform for building and hosting documentation. `(server, django)`
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)). `(console)`
 
 ### <a id="tag-dev.editor" href="#tag-dev.editor">Editor</a>

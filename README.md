@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **311**
+This document is an always-growing list of **312**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-productivity">Productivity</a> *(16)*
 1. <a href="#tag-organization">Organization</a> *(31)*
 1. <a href="#tag-communication">Communication</a> *(32)*
-1. <a href="#tag-education">Education</a> *(5)*
+1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(4)*
@@ -235,6 +235,7 @@ thereof), see Architectures. -->
 ## <a id="tag-education" href="#tag-education">Education</a>
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(linux, windows, mac, qt5)`
+  1. **Kolibri** - ([Repo](https://github.com/learningequality/kolibri), [Home](https://learningequality.org/kolibri/), [Demo](https://kolibridemo.learningequality.org/), [PyPI](https://pypi.org/project/kolibri/), [Docs](https://kolibri.readthedocs.io/en/latest/)) Self-hostable learning web application targeted at making high quality education technology available in low-resource communities (e.g., rural schools, refugee camps, orphanages, non-formal school systems, and prison systems). `(server)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(linux, windows, mac, qt5)`
   1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form. `(server)`
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(server)`

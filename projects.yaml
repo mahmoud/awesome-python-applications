@@ -1411,6 +1411,16 @@ projects:
       - windows
       - mac
       - qt5
+  - name: Kolibri
+    repo_url: https://github.com/learningequality/kolibri
+    docs_url: https://kolibri.readthedocs.io/en/latest/
+    home_url: https://learningequality.org/kolibri/
+    pypi_url: https://pypi.org/project/kolibri/
+    demo_url: https://kolibridemo.learningequality.org/
+    desc: Self-hostable learning web application targeted at making high quality education technology available in low-resource communities (e.g., rural schools, refugee camps, orphanages, non-formal school systems, and prison systems).
+    tags:
+      - education
+      - server
   - name: Mnemosyne
     repo_url: https://github.com/mnemosyne-proj/mnemosyne
     home_url: https://mnemosyne-proj.org/

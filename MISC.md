@@ -57,6 +57,10 @@ cases. Here are some helpful questions to help classify Python software:
 * https://kibitzr.github.io/
 * https://github.com/vitorfs/bootcamp  # looks a bit unmaintained
 * https://github.com/byro/byro
+* https://salsa.debian.org/ftp-team/dak
+* https://salsa.debian.org/qa/distro-tracker
+* https://salsa.debian.org/debian-keyring/keyring
+* https://github.com/spl0k/supysonic
 
 ## AlternativeTo Trawl
 
@@ -79,6 +83,10 @@ https://alternativeto.net/software/stoq/
 https://alternativeto.net/software/activitywatch/
 https://alternativeto.net/software/launchpad/
 https://alternativeto.net/software/netdata/
+
+## Pages to scour
+
+* https://salsa.debian.org/python-team/applications?sort=name_asc
 
 ## Pages scoured
 

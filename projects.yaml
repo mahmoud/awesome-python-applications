@@ -2712,6 +2712,14 @@ projects:
     tags:
       - dev
       - console
+  - name: LocalStack
+    repo_url: https://github.com/localstack/localstack
+    home_url: https://localstack.cloud
+    pypi_url: https://pypi.org/project/localstack/
+    desc: Self-hostable version of many AWS services, including S3, Route53, Lambda, Redshift, and much more, designed for testing cloud-centric code.
+    tags:
+      - dev
+      - server
   - name: Locust
     repo_url: https://github.com/locustio/locust
     home_url: https://locust.io/

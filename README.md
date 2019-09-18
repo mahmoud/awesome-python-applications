@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **304**
+This document is an always-growing list of **305**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(16)*
-1. <a href="#tag-organization">Organization</a> *(30)*
+1. <a href="#tag-organization">Organization</a> *(31)*
 1. <a href="#tag-communication">Communication</a> *(31)*
 1. <a href="#tag-education">Education</a> *(5)*
 1. <a href="#tag-science">Science</a> *(15)*
@@ -165,6 +165,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
+  1. **Ambar** - ([Repo](https://github.com/RD17/ambar), [Home](https://ambar.cloud/), [Demo](https://app.ambar.cloud/), [Docs](https://ambar.cloud/docs/system-requirements/)) Document search engine with automated crawling, OCR, tagging, and instant full-text search. `(server)`
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(internet, server)`
   1. **Baby Buddy** - ([Repo](https://github.com/cdubz/babybuddy), [Demo](http://demo.baby-buddy.net/)) Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork. `(server)`

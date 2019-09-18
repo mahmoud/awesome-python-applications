@@ -883,6 +883,15 @@ projects:
 #
 # Organization
 #
+  - name: Ambar
+    repo_url: https://github.com/RD17/ambar
+    home_url: https://ambar.cloud/
+    demo_url: https://app.ambar.cloud/
+    docs_url: https://ambar.cloud/docs/system-requirements/
+    desc: Document search engine with automated crawling, OCR, tagging, and instant full-text search.
+    tags:
+      - organization
+      - server
   - name: Baby Buddy
     repo_url: https://github.com/cdubz/babybuddy
     demo_url: http://demo.baby-buddy.net/

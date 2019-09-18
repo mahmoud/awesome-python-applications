@@ -1178,6 +1178,14 @@ projects:
       - communication
       - organization
       - server
+  - name: Django Wiki
+    repo_url: https://github.com/django-wiki/django-wiki
+    demo_url: https://demo.django-wiki.org/
+    docs_url: https://django-wiki.readthedocs.io/en/latest/
+    desc: A simple and mature web-based wiki.
+    tags:
+      - communication
+      - server
   - name: Formspree
     repo_url: https://github.com/formspree/formspree
     home_url: https://formspree.io/

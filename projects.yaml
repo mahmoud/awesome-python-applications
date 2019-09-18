@@ -953,7 +953,7 @@ projects:
     desc: Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions.
     tags:
       - organization
-      - dev
+      - scm
       - linux
       - windows
       - mac

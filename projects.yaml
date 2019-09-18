@@ -645,6 +645,14 @@ projects:
       - graphics
       - linux
       - gtk
+  - name: Photonix
+    repo_url: https://github.com/damianmoore/photonix
+    demo_url: https://demo.photonix.org/
+    home_url: https://photonix.org/
+    desc: Web-based photo management, featuring smart filtering with object recognition, location awareness, color analysis, and more.
+    tags:
+      - graphics
+      - server
   - name: Quru Image Server
     repo_url: https://github.com/quru/qis
     home_url: https://www.quruimageserver.com/

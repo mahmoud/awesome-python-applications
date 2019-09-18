@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **302**
+This document is an always-growing list of **303**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -35,7 +35,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(28)*
 1. <a href="#tag-audio">Audio</a> *(12)*
 1. <a href="#tag-video">Video</a> *(6)*
-1. <a href="#tag-graphics">Graphics</a> *(12)*
+1. <a href="#tag-graphics">Graphics</a> *(13)*
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(16)*
 1. <a href="#tag-organization">Organization</a> *(30)*
@@ -129,6 +129,7 @@ thereof), see Architectures. -->
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(linux, mac, console)`
   1. **Octoprint** - ([Repo](https://github.com/foosel/OctoPrint), [Home](https://octoprint.org/), [Fund](https://www.patreon.com/foosel)) Web-based controller for consumer 3D printers. `(server, flask, hardware)`
   1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(linux, gtk)`
+  1. **Quru Image Server** - ([Repo](https://github.com/quru/qis), [Home](https://www.quruimageserver.com/), [Demo](https://images.quru.com/demo/), [Docs](https://github.com/quru/qis/blob/master/doc/overview.md)) High-performance web server for creating and delivering dynamic images. `(server)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(linux, windows, mac, gtk, wx)`
   1. **Thumbor** - ([Repo](https://github.com/thumbor/thumbor), [Home](http://thumbor.org/), [Docs](https://thumbor.readthedocs.io/)) Photo thumbnail service with resizing, flipping, and smart cropping of images. `(dev, server)`
 

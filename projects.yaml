@@ -645,6 +645,15 @@ projects:
       - graphics
       - linux
       - gtk
+  - name: Quru Image Server
+    repo_url: https://github.com/quru/qis
+    home_url: https://www.quruimageserver.com/
+    demo_url: https://images.quru.com/demo/
+    docs_url: https://github.com/quru/qis/blob/master/doc/overview.md
+    desc: High-performance web server for creating and delivering dynamic images.
+    tags:
+      - graphics
+      - server
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
     wp_url: https://en.wikipedia.org/wiki/SK1_%28program%29

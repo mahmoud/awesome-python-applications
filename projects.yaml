@@ -2827,6 +2827,15 @@ projects:
       - linux
       - windows
       - mac
+  - name: YunoHost
+    home_url: https://yunohost.org
+    repo_url: https://github.com/YunoHost/yunohost
+    docs_url: https://yunohost.org/#/docs
+    desc: Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware.
+    tags:
+      - dev
+      - linux
+      - server
 #
 # Misc
 #

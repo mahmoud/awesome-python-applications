@@ -1893,6 +1893,15 @@ projects:
 #
 # Code_Review
 #
+  - name: Diffoscope
+    repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
+    home_url: https://diffoscope.org/
+    pypi_url: https://pypi.org/project/diffoscope/
+    demo_url: https://try.diffoscope.org/
+    desc: Web-based deep comparison of files, archives, and directories, including support for diffing tarballs, ISO images, and PDFs.
+    tags:
+      - code_review
+      - server
   - name: Meld
     repo_url: https://github.com/GNOME/meld
     home_url: http://meldmerge.org/

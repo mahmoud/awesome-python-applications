@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **309**
+This document is an always-growing list of **310**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,9 +45,9 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(4)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(128)*
+1. <a href="#tag-dev">Dev</a> *(129)*
     1. <a href="#tag-dev.scm">SCM</a> *(14)*
-    1. <a href="#tag-dev.code_review">Code Review</a> *(3)*
+    1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(9)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(16)*
@@ -313,6 +313,7 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
+  1. **Diffoscope** - ([Repo](https://salsa.debian.org/reproducible-builds/diffoscope), [Home](https://diffoscope.org/), [Demo](https://try.diffoscope.org/), [PyPI](https://pypi.org/project/diffoscope/)) Web-based deep comparison of files, archives, and directories, including support for diffing tarballs, ISO images, and PDFs. `(server)`
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion. `(linux, windows, mac, gtk)`
   1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes. `(server)`
   1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld), [Home](https://codereview.appspot.com/), [WP](https://en.wikipedia.org/wiki/Rietveld_%28software%29)) Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)). `(server)`

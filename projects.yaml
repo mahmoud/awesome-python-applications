@@ -1802,6 +1802,15 @@ projects:
       - linux
       - windows
       - mac
+  - name: Klaus
+    repo_url: https://github.com/jonashaag/klaus
+    demo_url: http://klausdemo.lophus.org/
+    pypi_url: https://pypi.org/project/klaus/
+    docs_url: https://github.com/jonashaag/klaus/wiki
+    desc: 'pip-installable web-based viewer for git repositories that "just works".'
+    tags:
+      - scm
+      - server
   - name: Kallithea
     repo_url: https://kallithea-scm.org/repos/kallithea
     clone_url: hg+https://kallithea-scm.org/repos/kallithea

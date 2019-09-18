@@ -2752,6 +2752,15 @@ projects:
       - dev
       - linux
       - qt5
+  - name: Plinth
+    repo_url: https://salsa.debian.org/freedombox-team/plinth/
+    home_url: https://freedombox.org/
+    docs_url: https://wiki.debian.org/FreedomBox/Plinth
+    desc: The core functionality and web front-end of [FreedomBox](https://freedombox.org/), an easy-to-manage, privacy-oriented home server.
+    tags:
+      - dev
+      - linux
+      - server
   - name: PPCI
     repo_url: https://bitbucket.org/windel/ppci/
     gh_url: https://github.com/windelbouwman/ppci-mirror

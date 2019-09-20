@@ -2734,6 +2734,16 @@ projects:
     tags:
       - dev
       - console
+  - name: doitlive
+    repo_url: https://github.com/sloria/doitlive
+    home_url: https://doitlive.readthedocs.io/
+    docs_url: https://doitlive.readthedocs.io/en/stable/
+    desc: Tool for live presentations in the terminal.
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: howdoi
     repo_url: https://github.com/gleitz/howdoi
     pypi_url: https://pypi.org/project/howdoi

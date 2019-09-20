@@ -2616,6 +2616,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: doit
+    repo_url: https://github.com/pydoit/doit
+    docs_url: https://pydoit.org/contents.html
+    wp_url: https://pydoit.org/
+    desc: Task management & automation tool.
+    tags:
+      - build
+      - linux
+      - windows
+      - mac
   - name: GYP
     home_url: https://gyp.gsrc.io/
     repo_url: https://chromium.googlesource.com/external/gyp

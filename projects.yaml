@@ -1,11 +1,11 @@
-#
+# 
 # Format of this file:
-#
+# 
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
 #  - After that is "projects", a list of awesome projects
-#
+# 
 # Each project has the following format:
-#
+# 
 #  - name: Project Name
 #    repo_url: github or bitbucket or other web link to code
 #    wp_url: Wikipedia URL if there is one
@@ -13,13 +13,13 @@
 #    home_url: Home page if not one of the above
 #    tags: ["", ""]  # see full taxonomy elsewhere in this file
 #    desc: Handy project designed for handiness
-#
+# 
 # Only the name, repo_url, tags, and description are required.
-#
+# 
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
-# on the list.
-#
+# on the list.  
+# 
 tagsonomy:
   # NOTE: order here controls order of the rendered text
   topic:
@@ -116,9 +116,9 @@ tagsonomy:
     - proprietary
 
 projects:
-#
+# 
 # Internet
-#
+# 
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/
@@ -159,20 +159,20 @@ projects:
       - mac
       - server
       - gtk
+  - name: Elixire
+    repo_url: https://gitlab.com/elixire/elixire
+    docs_url: https://gitlab.com/elixire/api-docs
+    home_url: https://elixi.re/
+    desc: Featureful file host and link shortener with API and support for multiple vanity urls.
+    tags:
+      - internet
+      - server
   - name: FlaskBB
     repo_url: https://github.com/flaskbb/flaskbb
     demo_url: https://forums.flaskbb.org/
     home_url: https://flaskbb.org/
     docs_url: https://flaskbb.readthedocs.io/en/latest
     desc: A classic web forum application (bulletin board) with a modern look.
-    tags:
-      - internet
-      - server
-  - name: Elixire
-    repo_url: https://gitlab.com/elixire/elixire
-    docs_url: https://gitlab.com/elixire/api-docs
-    home_url: https://elixi.re/
-    desc: Featureful file host and link shortener with API and support for multiple vanity urls.
     tags:
       - internet
       - server
@@ -220,9 +220,9 @@ projects:
   - name: Newspipe
     repo_url: https://gitlab.com/newspipe/newspipe
     gh_url: https://github.com/newspipe/newspipe
-    docs_url: https://newspipe.readthedocs.io/en/latest/
+    docs_url: https://newspipe.readthedocs.io/en/latest
     home_url: http://newspipe.io/
-    demo_url: https://www.newspipe.org
+    demo_url: https://www.newspipe.org/
     desc: Web-based news aggregator and reader.
     tags:
       - internet
@@ -370,9 +370,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Audio
-#
+# 
   - name: Beets
     repo_url: https://github.com/beetbox/beets
     pypi_url: https://pypi.org/project/beets
@@ -415,7 +415,7 @@ projects:
       - qt5
   - name: Funkwhale
     repo_url: https://dev.funkwhale.audio/funkwhale/funkwhale
-    home_url: https://funkwhale.audio/en_US/
+    home_url: https://funkwhale.audio/en_US
     clone_url: git+https://dev.funkwhale.audio/funkwhale/funkwhale.git
     docs_url: https://docs.funkwhale.audio/
     desc: Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network.
@@ -488,9 +488,9 @@ projects:
       - audio
       - linux
       - gtk
-#
+# 
 # Video
-#
+# 
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -499,6 +499,13 @@ projects:
       - linux
       - gtk
     desc: Multitrack, non-linear video editing software for Linux.
+  - name: Open Streaming Platform
+    repo_url: https://gitlab.com/Deamos/flask-nginx-rtmp-manager
+    desc: Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube.
+    tags:
+      - video
+      - games
+      - server
   - name: OpenShot
     repo_url: https://github.com/OpenShot/openshot-qt
     home_url: https://www.openshot.org/
@@ -511,13 +518,6 @@ projects:
       - mac
       - qt5
     desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
-  - name: Open Streaming Platform
-    repo_url: https://gitlab.com/Deamos/flask-nginx-rtmp-manager
-    desc: Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube.
-    tags:
-      - video
-      - games
-      - server
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
     wp_url: https://en.wikipedia.org/wiki/Pitivi
@@ -538,15 +538,15 @@ projects:
   - name: PyVideo
     repo_url: https://github.com/pyvideo/pyvideo
     home_url: https://pyvideo.org/
+    desc: Static media index custom-built for the Python community, and all the content our meetings and conferences produce.
     tags:
       - video
       - static_site
       - linux
       - server
-    desc: Static media index custom-built for the Python community, and all the content our meetings and conferences produce.
-#
+# 
 # Graphics
-#
+# 
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
     home_url: https://www.kapwing.com/cartoonify
@@ -656,7 +656,7 @@ projects:
   - name: Quru Image Server
     repo_url: https://github.com/quru/qis
     home_url: https://www.quruimageserver.com/
-    demo_url: https://images.quru.com/demo/
+    demo_url: https://images.quru.com/demo
     docs_url: https://github.com/quru/qis/blob/master/doc/overview.md
     desc: High-performance web server for creating and delivering dynamic images.
     tags:
@@ -683,9 +683,9 @@ projects:
       - graphics
       - dev
       - server
-#
+# 
 # Games
-#
+# 
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
@@ -744,9 +744,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Productivity
-#
+# 
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey
@@ -849,6 +849,16 @@ projects:
       - mac
       - hardware
       - qt5
+  - name: Psono
+    repo_url: https://gitlab.com/psono/psono-server
+    home_url: https://psono.com/
+    docs_url: https://doc.psono.com/
+    demo_url: https://www.psono.pw/
+    desc: Server-based password manager, built for teams.
+    tags:
+      - productivity
+      - security
+      - server
   - name: Ranger
     repo_url: https://github.com/ranger/ranger
     home_url: https://ranger.github.io/
@@ -880,14 +890,14 @@ projects:
       - productivity
       - server
       - flask
-#
+# 
 # Organization
-#
+# 
   - name: Ambar
     repo_url: https://github.com/RD17/ambar
     home_url: https://ambar.cloud/
     demo_url: https://app.ambar.cloud/
-    docs_url: https://ambar.cloud/docs/system-requirements/
+    docs_url: https://ambar.cloud/docs/system-requirements
     desc: Document search engine with automated crawling, OCR, tagging, and instant full-text search.
     tags:
       - organization
@@ -901,10 +911,10 @@ projects:
       - server
   - name: beancount
     repo_url: https://bitbucket.org/blais/beancount
-    home_url: http://furius.ca/beancount/
+    home_url: http://furius.ca/beancount
     gh_url: https://github.com/beancount/beancount
     docs_url: https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit
-    pypi_url: https://pypi.org/project/beancount/
+    pypi_url: https://pypi.org/project/beancount
     desc: A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).
     tags:
       - organization
@@ -937,6 +947,14 @@ projects:
       - linux
       - windows
       - gtk
+  - name: Collaborate
+    repo_url: https://github.com/propublica/django-collaborative
+    docs_url: https://propublica.gitbook.io/collaborate-user-manual
+    desc: Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts.
+    tags:
+      - organization
+      - communication
+      - server
   - name: CouchPotato
     repo_url: https://github.com/CouchPotato/CouchPotatoServer
     home_url: http://couchpota.to/
@@ -958,9 +976,9 @@ projects:
       - windows
       - mac
   - name: fava
-    repo_url: https://github.com/beancount/fava/
-    docs_url: https://beancount.github.io/fava/
-    demo_url: https://fava.pythonanywhere.com/huge-example-file/income_statement/
+    repo_url: https://github.com/beancount/fava
+    docs_url: https://beancount.github.io/fava
+    demo_url: https://fava.pythonanywhere.com/huge-example-file/income_statement
     desc: Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability.
     tags:
       - organization
@@ -1035,7 +1053,7 @@ projects:
     home_url: https://www.mayan-edms.com/
     docs_url: https://docs.mayan-edms.com/
     fund_url: https://www.paypal.me/MayanEDMS
-    pypi_url: https://pypi.org/project/mayan-edms/3.2.7/
+    pypi_url: https://pypi.org/project/mayan-edms/3.2.7
     desc: Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API.
     tags:
       - organization
@@ -1139,9 +1157,9 @@ projects:
       - linux
       - windows
       - gtk
-#
+# 
 # Communication
-#
+# 
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com/
@@ -1170,18 +1188,10 @@ projects:
       - kivy
       - qt4
       - tui
-  - name: Collaborate
-    repo_url: https://github.com/propublica/django-collaborative
-    docs_url: https://propublica.gitbook.io/collaborate-user-manual/
-    desc: Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts.
-    tags:
-      - communication
-      - organization
-      - server
   - name: Django Wiki
     repo_url: https://github.com/django-wiki/django-wiki
     demo_url: https://demo.django-wiki.org/
-    docs_url: https://django-wiki.readthedocs.io/en/latest/
+    docs_url: https://django-wiki.readthedocs.io/en/latest
     desc: A simple and mature web-based wiki.
     tags:
       - communication
@@ -1397,9 +1407,9 @@ projects:
     tags:
       - communication
       - server
-#
+# 
 # Education
-#
+# 
   - name: Anki
     repo_url: https://github.com/dae/anki
     home_url: https://apps.ankiweb.net/
@@ -1413,9 +1423,9 @@ projects:
       - qt5
   - name: Kolibri
     repo_url: https://github.com/learningequality/kolibri
-    docs_url: https://kolibri.readthedocs.io/en/latest/
-    home_url: https://learningequality.org/kolibri/
-    pypi_url: https://pypi.org/project/kolibri/
+    docs_url: https://kolibri.readthedocs.io/en/latest
+    home_url: https://learningequality.org/kolibri
+    pypi_url: https://pypi.org/project/kolibri
     demo_url: https://kolibridemo.learningequality.org/
     desc: Self-hostable learning web application targeted at making high quality education technology available in low-resource communities (e.g., rural schools, refugee camps, orphanages, non-formal school systems, and prison systems).
     tags:
@@ -1447,14 +1457,14 @@ projects:
       - server
   - name: RELATE
     repo_url: https://github.com/inducer/relate
-    docs_url: https://documen.tician.de/relate/
+    docs_url: https://documen.tician.de/relate
     desc: Web-based courseware with support for course planning and versioning, scheduling, testing, and grading.
     tags:
       - education
       - server
-#
+# 
 # Science
-#
+# 
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
@@ -1599,9 +1609,9 @@ projects:
       - windows
       - mac
       - qt
-#
+# 
 # Cms
-#
+# 
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en
@@ -1678,9 +1688,9 @@ projects:
       - cms
       - server
       - django
-#
+# 
 # Erp
-#
+# 
   - name: ERP5
     home_url: https://erp5.nexedi.com/
     repo_url: https://lab.nexedi.com/nexedi/erp5
@@ -1717,9 +1727,9 @@ projects:
       - erp
       - server
       - fdn
-#
+# 
 # Static_Site
-#
+# 
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
@@ -1788,9 +1798,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Scm
-#
+# 
   - name: Allura
     repo_url: https://github.com/apache/allura
     wp_url: https://en.wikipedia.org/wiki/Apache_Allura
@@ -1820,20 +1830,20 @@ projects:
       - linux
       - windows
       - mac
-  - name: Klaus
-    repo_url: https://github.com/jonashaag/klaus
-    demo_url: http://klausdemo.lophus.org/
-    pypi_url: https://pypi.org/project/klaus/
-    docs_url: https://github.com/jonashaag/klaus/wiki
-    desc: 'pip-installable web-based viewer for git repositories that "just works".'
-    tags:
-      - scm
-      - server
   - name: Kallithea
     repo_url: https://kallithea-scm.org/repos/kallithea
     clone_url: hg+https://kallithea-scm.org/repos/kallithea
     wp_url: https://en.wikipedia.org/wiki/Kallithea_%28software%29
     desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
+    tags:
+      - scm
+      - server
+  - name: Klaus
+    repo_url: https://github.com/jonashaag/klaus
+    demo_url: http://klausdemo.lophus.org/
+    pypi_url: https://pypi.org/project/klaus
+    docs_url: https://github.com/jonashaag/klaus/wiki
+    desc: pip-installable web-based viewer for git repositories that "just works".
     tags:
       - scm
       - server
@@ -1908,13 +1918,13 @@ projects:
     tags:
       - scm
       - server
-#
+# 
 # Code_Review
-#
+# 
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
     home_url: https://diffoscope.org/
-    pypi_url: https://pypi.org/project/diffoscope/
+    pypi_url: https://pypi.org/project/diffoscope
     demo_url: https://try.diffoscope.org/
     desc: Web-based deep comparison of files, archives, and directories, including support for diffing tarballs, ISO images, and PDFs.
     tags:
@@ -1945,9 +1955,9 @@ projects:
     tags:
       - code_review
       - server
-#
+# 
 # Storage
-#
+# 
   - name: Barman
     repo_url: https://github.com/2ndquadrant-it/barman
     desc: Remote backup and disaster recovery for PostgreSQL.
@@ -1973,7 +1983,7 @@ projects:
   - name: FreeNAS
     repo_url: https://github.com/freenas/freenas
     home_url: https://www.freenas.org/
-    docs_url: https://www.ixsystems.com/documentation/freenas/
+    docs_url: https://www.ixsystems.com/documentation/freenas
     desc: Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more.
     tags:
       - storage
@@ -2020,9 +2030,9 @@ projects:
     tags:
       - storage
       - linux
-#
+# 
 # Ops
-#
+# 
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     docs_url: https://docs.ansible.com/ansible
@@ -2215,9 +2225,9 @@ projects:
       - linux
       - mac
       - server
-#
+# 
 # Security
-#
+# 
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/
@@ -2267,21 +2277,11 @@ projects:
       - qt5
   - name: Passit
     repo_url: https://gitlab.com/passit/passit-backend
-    docs_url: https://passit.io/documentation/
+    docs_url: https://passit.io/documentation
     home_url: https://passit.io/
     desc: Password management server, providing storage services and group access control list features.
     tags:
       - security
-      - server
-  - name: Psono
-    repo_url: https://gitlab.com/psono/psono-server
-    home_url: https://psono.com/
-    docs_url: https://doc.psono.com/
-    demo_url: https://www.psono.pw/
-    desc: Server-based password manager, built for teams.
-    tags:
-      - security
-      - productivity
       - server
   - name: Pupy
     repo_url: https://github.com/n1nj4sec/pupy
@@ -2334,9 +2334,9 @@ projects:
     tags:
       - security
       - console
-#
+# 
 # Docs
-#
+# 
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -2375,9 +2375,9 @@ projects:
     tags:
       - docs
       - console
-#
+# 
 # Editor
-#
+# 
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/
@@ -2485,9 +2485,9 @@ projects:
       - windows
       - mac
       - tk
-#
+# 
 # Pkg_Mgr
-#
+# 
   - name: Conda
     home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
@@ -2561,9 +2561,9 @@ projects:
       - pkg_mgr
       - linux
       - corp
-#
+# 
 # Pkg_Repo
-#
+# 
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
@@ -2587,9 +2587,9 @@ projects:
       - pkg_repo
       - server
       - fnd
-#
+# 
 # Build
-#
+# 
   - name: bitbake
     wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
@@ -2674,9 +2674,9 @@ projects:
     tags:
       - build
       - linux
-#
+# 
 # Shell
-#
+# 
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
@@ -2702,9 +2702,9 @@ projects:
       - linux
       - windows
       - mac
-#
+# 
 # Dev
-#
+# 
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/
@@ -2750,8 +2750,8 @@ projects:
       - console
   - name: LocalStack
     repo_url: https://github.com/localstack/localstack
-    home_url: https://localstack.cloud
-    pypi_url: https://pypi.org/project/localstack/
+    home_url: https://localstack.cloud/
+    pypi_url: https://pypi.org/project/localstack
     desc: Self-hostable version of many AWS services, including S3, Route53, Lambda, Redshift, and much more, designed for testing cloud-centric code.
     tags:
       - dev
@@ -2780,7 +2780,7 @@ projects:
       - linux
       - qt5
   - name: Plinth
-    repo_url: https://salsa.debian.org/freedombox-team/plinth/
+    repo_url: https://salsa.debian.org/freedombox-team/plinth
     home_url: https://freedombox.org/
     docs_url: https://wiki.debian.org/FreedomBox/Plinth
     desc: The core functionality and web front-end of [FreedomBox](https://freedombox.org/), an easy-to-manage, privacy-oriented home server.
@@ -2788,18 +2788,6 @@ projects:
       - dev
       - linux
       - server
-  - name: PPCI
-    repo_url: https://bitbucket.org/windel/ppci/
-    gh_url: https://github.com/windelbouwman/ppci-mirror
-    docs_url: https://ppci.readthedocs.io/
-    demo_url: https://godbolt.org/g/eooaPP
-    pypi_url: https://pypi.org/project/ppci/
-    desc: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
-    tags:
-      - dev
-      - linux
-      - windows
-      - mac
   - name: Polyaxon
     repo_url: https://github.com/polyaxon/polyaxon
     docs_url: https://docs.polyaxon.com/
@@ -2808,6 +2796,18 @@ projects:
     tags:
       - dev
       - server
+  - name: PPCI
+    repo_url: https://bitbucket.org/windel/ppci
+    gh_url: https://github.com/windelbouwman/ppci-mirror
+    docs_url: https://ppci.readthedocs.io/
+    demo_url: https://godbolt.org/g/eooaPP
+    pypi_url: https://pypi.org/project/ppci
+    desc: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: RedHat Anaconda
     repo_url: https://github.com/rhinstaller/anaconda
     docs_url: https://anaconda-installer.readthedocs.io/en/latest
@@ -2824,12 +2824,12 @@ projects:
       - dev
       - console
   - name: ScratchABit
-    repo_url: https://github.com/pfalcon/ScratchABit/
+    repo_url: https://github.com/pfalcon/ScratchABit
     desc: Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.
     tags:
       - dev
-      - tui
       - linux
+      - tui
   - name: Sentry
     repo_url: https://github.com/getsentry/sentry
     home_url: https://sentry.io/
@@ -2864,7 +2864,7 @@ projects:
       - windows
       - mac
   - name: YunoHost
-    home_url: https://yunohost.org
+    home_url: https://yunohost.org/
     repo_url: https://github.com/YunoHost/yunohost
     docs_url: https://yunohost.org/#/docs
     desc: Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware.
@@ -2872,9 +2872,9 @@ projects:
       - dev
       - linux
       - server
-#
+# 
 # Misc
-#
+# 
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/

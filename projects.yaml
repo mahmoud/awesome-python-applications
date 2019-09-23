@@ -1,11 +1,11 @@
-# 
+#
 # Format of this file:
-# 
+#
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
 #  - After that is "projects", a list of awesome projects
-# 
+#
 # Each project has the following format:
-# 
+#
 #  - name: Project Name
 #    repo_url: github or bitbucket or other web link to code
 #    wp_url: Wikipedia URL if there is one
@@ -13,13 +13,13 @@
 #    home_url: Home page if not one of the above
 #    tags: ["", ""]  # see full taxonomy elsewhere in this file
 #    desc: Handy project designed for handiness
-# 
+#
 # Only the name, repo_url, tags, and description are required.
-# 
+#
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
-# on the list.  
-# 
+# on the list.
+#
 tagsonomy:
   # NOTE: order here controls order of the rendered text
   topic:
@@ -116,9 +116,9 @@ tagsonomy:
     - proprietary
 
 projects:
-# 
+#
 # Internet
-# 
+#
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/
@@ -161,24 +161,24 @@ projects:
       - gtk
   - name: Elixire
     repo_url: https://gitlab.com/elixire/elixire
-    docs_url: https://gitlab.com/elixire/api-docs
     home_url: https://elixi.re/
+    docs_url: https://gitlab.com/elixire/api-docs
     desc: Featureful file host and link shortener with API and support for multiple vanity urls.
     tags:
       - internet
       - server
   - name: FlaskBB
     repo_url: https://github.com/flaskbb/flaskbb
-    demo_url: https://forums.flaskbb.org/
     home_url: https://flaskbb.org/
+    demo_url: https://forums.flaskbb.org/
     docs_url: https://flaskbb.readthedocs.io/en/latest
     desc: A classic web forum application (bulletin board) with a modern look.
     tags:
       - internet
       - server
   - name: gPodder
-    home_url: https://gpodder.org/
     repo_url: https://github.com/gpodder/gpodder
+    home_url: https://gpodder.org/
     desc: Simple, mature media aggregator and podcast client.
     tags:
       - internet
@@ -219,10 +219,10 @@ projects:
       - django
   - name: Newspipe
     repo_url: https://gitlab.com/newspipe/newspipe
-    gh_url: https://github.com/newspipe/newspipe
-    docs_url: https://newspipe.readthedocs.io/en/latest
     home_url: http://newspipe.io/
     demo_url: https://www.newspipe.org/
+    docs_url: https://newspipe.readthedocs.io/en/latest
+    gh_url: https://github.com/newspipe/newspipe
     desc: Web-based news aggregator and reader.
     tags:
       - internet
@@ -252,11 +252,11 @@ projects:
       - linux
       - server
   - name: Planet
-    wp_url: https://en.wikipedia.org/wiki/Planet_%28software%29
     repo_url: https://github.com/python/planet
-    desc: RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
     home_url: https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org
     # see_also: https://people.gnome.org/~jdub/bzr/planet/devel/trunk/
+    wp_url: https://en.wikipedia.org/wiki/Planet_%28software%29
+    desc: RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
     tags:
       - internet
       - server
@@ -360,8 +360,8 @@ projects:
       - windows
       - mac
   - name: ZeroNet
-    home_url: https://zeronet.io/
     repo_url: https://github.com/HelloZeroNet/ZeroNet
+    home_url: https://zeronet.io/
     docs_url: https://zeronet.readthedocs.io/en/latest
     wp_url: https://en.wikipedia.org/wiki/ZeroNet
     desc: Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
@@ -370,13 +370,13 @@ projects:
       - linux
       - windows
       - mac
-# 
+#
 # Audio
-# 
+#
   - name: Beets
     repo_url: https://github.com/beetbox/beets
-    pypi_url: https://pypi.org/project/beets
     home_url: http://beets.io/
+    pypi_url: https://pypi.org/project/beets
     desc: Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more.
     tags:
       - audio
@@ -386,13 +386,13 @@ projects:
   - name: Exaile
     repo_url: https://github.com/exaile/exaile
     wp_url: https://en.wikipedia.org/wiki/Exaile
+    desc: Cross-platform audio player, tag editor, and library organizer.
     tags:
       - audio
       - linux
       - windows
       - mac
       - gtk
-    desc: Cross-platform audio player, tag editor, and library organizer.
   - name: Frescobaldi
     repo_url: https://github.com/wbsoft/frescobaldi
     wp_url: https://en.wikipedia.org/wiki/Frescobaldi_%28software%29
@@ -404,8 +404,8 @@ projects:
       - mac
       - qt
   - name: Friture
-    home_url: http://friture.org/
     repo_url: https://github.com/tlecomte/friture
+    home_url: http://friture.org/
     desc: Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more.
     tags:
       - audio
@@ -424,8 +424,8 @@ projects:
       - server
   - name: GNU Radio
     repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
-    wp_url: https://en.wikipedia.org/wiki/GNU_Radio
     home_url: https://www.gnuradio.org/
+    wp_url: https://en.wikipedia.org/wiki/GNU_Radio
     desc: Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems.
     tags:
       - audio
@@ -437,24 +437,24 @@ projects:
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
+    desc: An ear-training program intended to help musicians improve their skills.
     tags:
       - audio
       - linux
       - windows
       - mac
       - gtk
-    desc: An ear-training program intended to help musicians improve their skills.
   - name: Mopidy
-    home_url: https://www.mopidy.com/
     repo_url: https://github.com/mopidy/mopidy
+    home_url: https://www.mopidy.com/
     desc: Extensible music player server with plugin support for a wide range of services.
     tags:
       - audio
       - server
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
-    wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
     home_url: https://picard.musicbrainz.org/
+    wp_url: https://en.wikipedia.org/wiki/MusicBrainz_Picard
     desc: Automatically identify, tag, and organize music albums and other digital audio recordings.
     tags:
       - audio
@@ -473,32 +473,32 @@ projects:
   - name: Quod Libet
     repo_url: https://github.com/quodlibet/quodlibet
     wp_url: https://en.wikipedia.org/wiki/Quod_Libet_%28software%29
+    desc: Cross-platform audio player, tag editor, and library organizer.
     tags:
       - audio
       - linux
       - windows
       - mac
       - gtk
-    desc: Cross-platform audio player, tag editor, and library organizer.
   - name: SoundConverter
-    desc: A GNOME-based audio file transcoder.
     repo_url: https://github.com/kassoulet/soundconverter
     wp_url: https://en.wikipedia.org/wiki/GNOME_SoundConverter
+    desc: A GNOME-based audio file transcoder.
     tags:
       - audio
       - linux
       - gtk
-# 
+#
 # Video
-# 
+#
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
+    desc: Multitrack, non-linear video editing software for Linux.
     tags:
       - video
       - linux
       - gtk
-    desc: Multitrack, non-linear video editing software for Linux.
   - name: Open Streaming Platform
     repo_url: https://gitlab.com/Deamos/flask-nginx-rtmp-manager
     desc: Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube.
@@ -511,21 +511,21 @@ projects:
     home_url: https://www.openshot.org/
     fund_url: https://www.patreon.com/openshot
     wp_url: https://en.wikipedia.org/wiki/OpenShot
+    desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
     tags:
       - video
       - linux
       - windows
       - mac
       - qt5
-    desc: A cross-platform video editor for FreeBSD, Linux, macOS, and Windows.
   - name: Pitivi
     repo_url: https://gitlab.gnome.org/GNOME/pitivi
     wp_url: https://en.wikipedia.org/wiki/Pitivi
+    desc: Non-linear video editor for Linux, based on GStreamer.
     tags:
       - video
       - linux
       - gtk
-    desc: Non-linear video editor for Linux, based on GStreamer.
   - name: Plumi
     repo_url: https://github.com/plumi/plumi.app
     wp_url: https://en.wikipedia.org/wiki/Plumi
@@ -544,9 +544,9 @@ projects:
       - static_site
       - linux
       - server
-# 
+#
 # Graphics
-# 
+#
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
     home_url: https://www.kapwing.com/cartoonify
@@ -558,8 +558,9 @@ projects:
       - hardware
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
-    wp_url: https://en.wikipedia.org/wiki/FreeCAD
     fund_url: https://salt.bountysource.com/teams/freecad
+    wp_url: https://en.wikipedia.org/wiki/FreeCAD
+    desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
     tags:
       - graphics
       - linux
@@ -567,7 +568,6 @@ projects:
       - mac
       - cpp
       - qt
-    desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
   - name: Gaphor
     repo_url: https://github.com/gaphor/gaphor
     docs_url: https://gaphor.readthedocs.io/en/latest
@@ -581,15 +581,15 @@ projects:
       - flatpak
       - gtk
   - name: MakeHuman
-    wp_url: https://en.wikipedia.org/wiki/MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
+    wp_url: https://en.wikipedia.org/wiki/MakeHuman
+    desc: 3D computer graphics software designed for the prototyping of photo realistic humanoids.
     tags:
       - graphics
       - linux
       - windows
       - mac
       - qt
-    desc: 3D computer graphics software designed for the prototyping of photo realistic humanoids.
   - name: Meshroom
     repo_url: https://github.com/alicevision/meshroom
     home_url: http://alicevision.github.io/
@@ -604,21 +604,21 @@ projects:
     repo_url: https://github.com/mypaint/mypaint
     home_url: http://mypaint.org/
     wp_url: https://en.wikipedia.org/wiki/MyPaint
+    desc: Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
     tags:
       - graphics
       - linux
       - windows
       - mac
       - gtk
-    desc: Raster graphics editor for digital painters with a focus on painting rather than image manipulation.
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder
+    desc: An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
     tags:
       - graphics
       - linux
       - gtk
-    desc: An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract.
   - name: OCRopus
     repo_url: https://github.com/tmbdev/ocropy
     wp_url: https://en.wikipedia.org/wiki/OCRopus
@@ -647,8 +647,8 @@ projects:
       - gtk
   - name: Photonix
     repo_url: https://github.com/damianmoore/photonix
-    demo_url: https://demo.photonix.org/
     home_url: https://photonix.org/
+    demo_url: https://demo.photonix.org/
     desc: Web-based photo management, featuring smart filtering with object recognition, location awareness, color analysis, and more.
     tags:
       - graphics
@@ -664,8 +664,9 @@ projects:
       - server
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
-    wp_url: https://en.wikipedia.org/wiki/SK1_%28program%29
     home_url: https://sk1project.net/  #  (forked from skencil)
+    wp_url: https://en.wikipedia.org/wiki/SK1_%28program%29
+    desc: Feature-rich, cross-platform illustration program.
     tags:
       - graphics
       - linux
@@ -673,19 +674,18 @@ projects:
       - mac
       - gtk
       - wx
-    desc: Feature-rich, cross-platform illustration program.
   - name: Thumbor
     repo_url: https://github.com/thumbor/thumbor
-    docs_url: https://thumbor.readthedocs.io/
     home_url: http://thumbor.org/
+    docs_url: https://thumbor.readthedocs.io/
     desc: Photo thumbnail service with resizing, flipping, and smart cropping of images.
     tags:
       - graphics
       - dev
       - server
-# 
+#
 # Games
-# 
+#
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python
@@ -744,9 +744,9 @@ projects:
       - linux
       - windows
       - mac
-# 
+#
 # Productivity
-# 
+#
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey
@@ -766,8 +766,8 @@ projects:
       - windows
       - gtk
   - name: BorgBackup
-    home_url: https://www.borgbackup.org/
     repo_url: https://github.com/borgbackup/borg
+    home_url: https://www.borgbackup.org/
     desc: Deduplicating backup system with optional encryption and other features.
     tags:
       - productivity
@@ -781,8 +781,8 @@ projects:
       - linux
       - mac
   - name: Excalibur
-    home_url: https://www.tryexcalibur.com/
     repo_url: https://github.com/camelot-dev/excalibur
+    home_url: https://www.tryexcalibur.com/
     desc: Web interface to extract tabular data from PDFs.
     tags:
       - productivity
@@ -801,8 +801,8 @@ projects:
       - mac
       - server
   - name: gmvault
-    home_url: http://gmvault.org/
     repo_url: https://github.com/gaubert/gmvault
+    home_url: http://gmvault.org/
     desc: Tool for backing up gmail accounts.
     tags:
       - productivity
@@ -852,8 +852,8 @@ projects:
   - name: Psono
     repo_url: https://gitlab.com/psono/psono-server
     home_url: https://psono.com/
-    docs_url: https://doc.psono.com/
     demo_url: https://www.psono.pw/
+    docs_url: https://doc.psono.com/
     desc: Server-based password manager, built for teams.
     tags:
       - productivity
@@ -890,9 +890,9 @@ projects:
       - productivity
       - server
       - flask
-# 
+#
 # Organization
-# 
+#
   - name: Ambar
     repo_url: https://github.com/RD17/ambar
     home_url: https://ambar.cloud/
@@ -912,8 +912,8 @@ projects:
   - name: beancount
     repo_url: https://bitbucket.org/blais/beancount
     home_url: http://furius.ca/beancount
-    gh_url: https://github.com/beancount/beancount
     docs_url: https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit
+    gh_url: https://github.com/beancount/beancount
     pypi_url: https://pypi.org/project/beancount
     desc: A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).
     tags:
@@ -966,8 +966,8 @@ projects:
       - mac
   - name: dvc (Data Version Control)
     repo_url: https://github.com/iterative/dvc
-    docs_url: https://dvc.org/doc
     home_url: https://dvc.org/
+    docs_url: https://dvc.org/doc
     desc: Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions.
     tags:
       - organization
@@ -977,8 +977,8 @@ projects:
       - mac
   - name: fava
     repo_url: https://github.com/beancount/fava
-    docs_url: https://beancount.github.io/fava
     demo_url: https://fava.pythonanywhere.com/huge-example-file/income_statement
+    docs_url: https://beancount.github.io/fava
     desc: Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability.
     tags:
       - organization
@@ -1014,9 +1014,9 @@ projects:
       - server
   - name: Indico
     repo_url: https://github.com/indico/indico
-    docs_url: https://docs.getindico.io/en/stable/installation
     home_url: https://getindico.io/
     demo_url: https://sandbox.getindico.io/
+    docs_url: https://docs.getindico.io/en/stable/installation
     desc: Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
     tags:
       - organization
@@ -1072,8 +1072,8 @@ projects:
   - name: Paperwork
     repo_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork
     home_url: https://openpaper.work/
-    fund_url: https://www.patreon.com/openpaper
     docs_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home
+    fund_url: https://www.patreon.com/openpaper
     desc: Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search.
     tags:
       - organization
@@ -1105,8 +1105,8 @@ projects:
       - linux
       - windows
   - name: Radicale
-    home_url: https://radicale.org/
     repo_url: https://github.com/Kozea/Radicale
+    home_url: https://radicale.org/
     docs_url: https://radicale.org/documentation
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
     tags:                             # communication?
@@ -1114,8 +1114,8 @@ projects:
       - server
   - name: SiCKRAGE
     repo_url: https://git.sickrage.ca/SiCKRAGE/sickrage
-    gh_url: https://github.com/SiCKRAGE/SiCKRAGE
     docs_url: https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes
+    gh_url: https://github.com/SiCKRAGE/SiCKRAGE
     desc: Video library manager with support for automatic TV show archival.
     tags:
       - organization
@@ -1123,8 +1123,8 @@ projects:
       - windows
   - name: Taiga
     repo_url: https://github.com/taigaio/taiga-back
-    docs_url: http://taigaio.github.io/taiga-doc/dist
     home_url: https://taiga.io/
+    docs_url: http://taigaio.github.io/taiga-doc/dist
     desc: Web application built for managing projects with agile development processes.
     tags:
       - organization
@@ -1157,9 +1157,9 @@ projects:
       - linux
       - windows
       - gtk
-# 
+#
 # Communication
-# 
+#
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com/
@@ -1177,9 +1177,9 @@ projects:
       - server
       - corp
   - name: Bitmessage
-    desc: Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol.
-    docs_url: https://bitmessage.org/wiki/Main_Page
     repo_url: https://github.com/Bitmessage/PyBitmessage
+    docs_url: https://bitmessage.org/wiki/Main_Page
+    desc: Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol.
     tags:
       - communication
       - linux
@@ -1205,10 +1205,10 @@ projects:
       - server
       - corp
   - name: Gajim
-    desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     repo_url: https://dev.gajim.org/gajim/gajim
     clone_url: git+https://dev.gajim.org/gajim/gajim.git
     wp_url: https://en.wikipedia.org/wiki/Gajim
+    desc: Lightweight, cross-platform instant messaging client for the XMPP protocol.
     tags:
       - communication
       - linux
@@ -1241,8 +1241,8 @@ projects:
       - communication
       - server
   - name: Helios Voting
-    home_url: http://heliosvoting.org/
     repo_url: https://github.com/benadida/helios-server
+    home_url: http://heliosvoting.org/
     desc: End-to-end verifiable voting system.
     tags:
       - communication
@@ -1274,9 +1274,9 @@ projects:
       - communication
       - server
   - name: Mailpile
-    desc: Fast email client with user-friendly encryption and privacy features.
     repo_url: https://github.com/mailpile/Mailpile
     home_url: https://mailpile.is/
+    desc: Fast email client with user-friendly encryption and privacy features.
     tags:
       - communication
       - linux
@@ -1297,9 +1297,9 @@ projects:
       - communication
       - server
   - name: MoinMoin
+    repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
     home_url: http://moinmo.in/
     docs_url: https://moin-20.readthedocs.io/en/latest
-    repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
     wp_url: https://en.wikipedia.org/wiki/MoinMoin
     desc: Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others.
     tags:
@@ -1315,8 +1315,8 @@ projects:
       - linux
   - name: OnionShare
     repo_url: https://github.com/micahflee/onionshare
-    docs_url: https://github.com/micahflee/onionshare/wiki
     home_url: https://onionshare.org/
+    docs_url: https://github.com/micahflee/onionshare/wiki
     desc: Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services.
     tags:
       - communication
@@ -1325,9 +1325,9 @@ projects:
       - mac
       - qt5
   - name: Pootle
-    wp_url: https://en.wikipedia.org/wiki/Pootle
-    home_url: http://pootle.translatehouse.org/
     repo_url: https://github.com/translate/pootle
+    home_url: http://pootle.translatehouse.org/
+    wp_url: https://en.wikipedia.org/wiki/Pootle
     desc: Web application for collaborative translation.
     tags:
       - communication
@@ -1365,9 +1365,9 @@ projects:
       - flask
   - name: Socialhome
     repo_url: https://git.feneas.org/socialhome/socialhome
-    gh_url: https://github.com/jaywink/socialhome
     home_url: https://socialhome.network/
     docs_url: https://socialhome.readthedocs.io/en/latest
+    gh_url: https://github.com/jaywink/socialhome
     desc: Web application enabling users to build a federated personal profile with social networking functionality.
     tags:
       - communication
@@ -1381,8 +1381,8 @@ projects:
       - communication
       - server
   - name: Virtaal
-    home_url: http://virtaal.translatehouse.org/
     repo_url: https://github.com/translate/virtaal
+    home_url: http://virtaal.translatehouse.org/
     desc: Cross-platform GUI for performing translation, with support for a variety of formats.
     tags:
       - communication
@@ -1407,9 +1407,9 @@ projects:
     tags:
       - communication
       - server
-# 
+#
 # Education
-# 
+#
   - name: Anki
     repo_url: https://github.com/dae/anki
     home_url: https://apps.ankiweb.net/
@@ -1423,10 +1423,10 @@ projects:
       - qt5
   - name: Kolibri
     repo_url: https://github.com/learningequality/kolibri
-    docs_url: https://kolibri.readthedocs.io/en/latest
     home_url: https://learningequality.org/kolibri
-    pypi_url: https://pypi.org/project/kolibri
     demo_url: https://kolibridemo.learningequality.org/
+    docs_url: https://kolibri.readthedocs.io/en/latest
+    pypi_url: https://pypi.org/project/kolibri
     desc: Self-hostable learning web application targeted at making high quality education technology available in low-resource communities (e.g., rural schools, refugee camps, orphanages, non-formal school systems, and prison systems).
     tags:
       - education
@@ -1462,9 +1462,9 @@ projects:
     tags:
       - education
       - server
-# 
+#
 # Science
-# 
+#
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     home_url: https://anuga.anu.edu.au/
@@ -1475,8 +1475,8 @@ projects:
       - windows
   - name: ASCEND
     repo_url: http://code.ascend4.org/ascend/trunk   # svn
-    wp_url: https://en.wikipedia.org/wiki/ASCEND
     home_url: http://ascend4.org/Main_Page
+    wp_url: https://en.wikipedia.org/wiki/ASCEND
     desc: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
     tags:
       - science
@@ -1485,8 +1485,8 @@ projects:
       - mac
       - gtk
   - name: CellProfiler
-    home_url: http://cellprofiler.org/
     repo_url: https://github.com/CellProfiler/CellProfiler
+    home_url: http://cellprofiler.org/
     docs_url: https://github.com/CellProfiler/CellProfiler/wiki
     manual_url: https://cellprofiler.org/cpa
     desc: Interactive data exploration, analysis, and classification of biological image sets.
@@ -1505,8 +1505,8 @@ projects:
       - flask
   - name: CoCalc
     repo_url: https://github.com/sagemathinc/cocalc
-    wp_url: https://en.wikipedia.org/wiki/CoCalc
     home_url: https://cocalc.com/
+    wp_url: https://en.wikipedia.org/wiki/CoCalc
     desc: Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality.
     tags:
       - science
@@ -1558,8 +1558,8 @@ projects:
       - windows
       - mac
   - name: Orange
-    home_url: https://orange.biolab.si/
     repo_url: https://github.com/biolab/orange3
+    home_url: https://orange.biolab.si/
     wp_url: https://en.wikipedia.org/wiki/Orange_%28software%29
     desc: Component-based data mining software for graphical interactive data analysis and visualization.
     tags:
@@ -1578,10 +1578,10 @@ projects:
       - linux
       - gtk
   - name: Sage Math
-    wp_url: https://en.wikipedia.org/wiki/SageMath
-    home_url: http://www.sagemath.org/
     repo_url: https://git.sagemath.org/sage.git
+    home_url: http://www.sagemath.org/
     clone_url: git+git://git.sagemath.org/sage.git
+    wp_url: https://en.wikipedia.org/wiki/SageMath
     desc: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
     tags:
       - science
@@ -1590,8 +1590,8 @@ projects:
       - mac
   - name: SOFA Statistics
     repo_url: https://code.launchpad.net/sofastatistics
-    clone_url: git+https://git.launchpad.net/sofastatistics
     home_url: http://www.sofastatistics.com/
+    clone_url: git+https://git.launchpad.net/sofastatistics
     desc: User-friendly statistics and analysis with a learn-as-you-go approach.
     tags:
       - science
@@ -1609,9 +1609,9 @@ projects:
       - windows
       - mac
       - qt
-# 
+#
 # Cms
-# 
+#
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en
@@ -1638,8 +1638,8 @@ projects:
       - django
   - name: Plone
     repo_url: https://github.com/plone/Plone
-    wp_url: https://en.wikipedia.org/wiki/Plone_%28software%29
     home_url: https://plone.com/
+    wp_url: https://en.wikipedia.org/wiki/Plone_%28software%29
     desc: Extensible enterprise content management system built on Zope.
     tags:
       - cms
@@ -1647,9 +1647,9 @@ projects:
   - name: Pretix
     repo_url: https://github.com/pretix/pretix
     home_url: https://pretix.eu/
+    blog_url: https://pretix.eu/about/en/blog
     docs_url: https://docs.pretix.eu/en/latest/development/index.html
     pypi_url: https://pypi.org/project/pretix
-    blog_url: https://pretix.eu/about/en/blog
     desc: Web-based ticketing software, with support for customizable storefronts, direct payments, box office, and reporting.
     tags:
       - cms
@@ -1688,12 +1688,12 @@ projects:
       - cms
       - server
       - django
-# 
+#
 # Erp
-# 
+#
   - name: ERP5
-    home_url: https://erp5.nexedi.com/
     repo_url: https://lab.nexedi.com/nexedi/erp5
+    home_url: https://erp5.nexedi.com/
     clone_url: git+https://lab.nexedi.com/nexedi/erp5.git
     wp_url: https://en.wikipedia.org/wiki/ERP5
     desc: Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability.
@@ -1718,18 +1718,18 @@ projects:
       - server
   - name: Tryton
     repo_url: https://hg.tryton.org/trytond
-    clone_url: hg+https://hg.tryton.org/trytond
-    wp_url: https://en.wikipedia.org/wiki/Tryton
     home_url: https://www.tryton.org/
+    clone_url: hg+https://hg.tryton.org/trytond
     docs_url: https://docs.tryton.org/en/latest
+    wp_url: https://en.wikipedia.org/wiki/Tryton
     desc: Modular web-based ERP, designed for companies of all sizes.
     tags:
       - erp
       - server
       - fdn
-# 
+#
 # Static_Site
-# 
+#
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
@@ -1781,16 +1781,16 @@ projects:
     repo_url: https://github.com/getpelican/pelican
     home_url: https://blog.getpelican.com/
     pypi_url: https://pypi.org/project/pelican
+    desc: Command-line static site generator that supports Markdown and reST syntax.
     tags:
       - static_site
       - linux
       - windows
       - mac
-    desc: Command-line static site generator that supports Markdown and reST syntax.
   - name: Prosopopee
     repo_url: https://github.com/Psycojoker/prosopopee
-    docs_url: https://prosopopee.readthedocs.io/
     demo_url: https://surleschemins.fr/
+    docs_url: https://prosopopee.readthedocs.io/
     pypi_url: https://pypi.org/project/prosopopee
     desc: A static site generator designed for photographers and others who tell stories with pictures.
     tags:
@@ -1798,13 +1798,13 @@ projects:
       - linux
       - windows
       - mac
-# 
+#
 # Scm
-# 
+#
   - name: Allura
     repo_url: https://github.com/apache/allura
-    wp_url: https://en.wikipedia.org/wiki/Apache_Allura
     home_url: https://allura.apache.org/
+    wp_url: https://en.wikipedia.org/wiki/Apache_Allura
     desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
     tags:
       - scm
@@ -1821,8 +1821,8 @@ projects:
       - qt4
       - qt5
   - name: GNU Bazaar
-    home_url: http://bazaar.canonical.com/en
     repo_url: https://code.launchpad.net/bzr
+    home_url: http://bazaar.canonical.com/en
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
     desc: Distributed and client-server revision control system.
     tags:
@@ -1841,15 +1841,15 @@ projects:
   - name: Klaus
     repo_url: https://github.com/jonashaag/klaus
     demo_url: http://klausdemo.lophus.org/
-    pypi_url: https://pypi.org/project/klaus
     docs_url: https://github.com/jonashaag/klaus/wiki
+    pypi_url: https://pypi.org/project/klaus
     desc: pip-installable web-based viewer for git repositories that "just works".
     tags:
       - scm
       - server
   - name: Mercurial
-    home_url: https://www.mercurial-scm.org/
     repo_url: https://www.mercurial-scm.org/repo/hg-stable
+    home_url: https://www.mercurial-scm.org/
     clone_url: hg+https://www.mercurial-scm.org/repo/hg-stable
     wp_url: https://en.wikipedia.org/wiki/Mercurial
     desc: Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.
@@ -1859,8 +1859,8 @@ projects:
       - windows
       - mac
   - name: Pagure
-    home_url: https://pagure.io/
     repo_url: https://pagure.io/pagure
+    home_url: https://pagure.io/
     clone_url: git+https://pagure.io/pagure.git
     desc: Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team.
     tags:
@@ -1875,8 +1875,8 @@ projects:
       - scm
       - server
   - name: RhodeCode
-    home_url: https://rhodecode.com/
     repo_url: https://code.rhodecode.com/rhodecode-enterprise-ce
+    home_url: https://rhodecode.com/
     clone_url: hg+https://code.rhodecode.com/rhodecode-enterprise-ce
     wp_url: https://en.wikipedia.org/wiki/RhodeCode
     desc: Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion.
@@ -1885,18 +1885,18 @@ projects:
       - server
       - corp
   - name: Roundup
-    wp_url: https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29
     repo_url: http://hg.code.sf.net/p/roundup/code
     clone_url: hg+http://hg.code.sf.net/p/roundup/code
+    wp_url: https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29
     desc: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
     tags:
       - scm
       - server
   - name: TortoiseHg
     repo_url: https://bitbucket.org/tortoisehg/thg/src
+    home_url: https://tortoisehg.bitbucket.io/
     clone_url: hg+https://bitbucket.org/tortoisehg/thg  # bc repo_url has extra "src" in it to avoid project default redirect to wiki
     docs_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
-    home_url: https://tortoisehg.bitbucket.io/
     desc: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
     tags:
       - scm
@@ -1912,20 +1912,20 @@ projects:
       - scm
       - server
   - name: ViewVC
-    home_url: http://viewvc.org/
     repo_url: https://github.com/viewvc/viewvc
+    home_url: http://viewvc.org/
     desc: Browser interface for CVS and Subversion version control repositories.
     tags:
       - scm
       - server
-# 
+#
 # Code_Review
-# 
+#
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
     home_url: https://diffoscope.org/
-    pypi_url: https://pypi.org/project/diffoscope
     demo_url: https://try.diffoscope.org/
+    pypi_url: https://pypi.org/project/diffoscope
     desc: Web-based deep comparison of files, archives, and directories, including support for diffing tarballs, ISO images, and PDFs.
     tags:
       - code_review
@@ -1955,9 +1955,9 @@ projects:
     tags:
       - code_review
       - server
-# 
+#
 # Storage
-# 
+#
   - name: Barman
     repo_url: https://github.com/2ndquadrant-it/barman
     desc: Remote backup and disaster recovery for PostgreSQL.
@@ -1973,8 +1973,8 @@ projects:
       - storage
       - server
   - name: EdgeDB
-    home_url: https://edgedb.com/
     repo_url: https://github.com/edgedb/edgedb
+    home_url: https://edgedb.com/
     docs_url: https://edgedb.com/docs
     desc: High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support.
     tags:
@@ -1990,16 +1990,16 @@ projects:
       - server
   - name: kinto
     repo_url: https://github.com/Kinto/kinto
-    docs_url: http://docs.kinto-storage.org/
     home_url: https://www.kinto-storage.org/
+    docs_url: http://docs.kinto-storage.org/
     desc: A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
     tags:
       - storage
       - server
   - name: pgcli
     repo_url: https://github.com/dbcli/pgcli
-    pypi_url: https://pypi.python.org/pypi/pgcli
     home_url: https://www.pgcli.com/
+    pypi_url: https://pypi.python.org/pypi/pgcli
     desc: Interactive PostgreSQL client that does auto-completion and syntax highlighting.
     tags:
       - storage
@@ -2015,9 +2015,9 @@ projects:
       - security
       - console
   - name: TahoeLAFS
-    wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
-    home_url: https://tahoe-lafs.org/trac/tahoe-lafs
     repo_url: https://github.com/tahoe-lafs/tahoe-lafs
+    home_url: https://tahoe-lafs.org/trac/tahoe-lafs
+    wp_url: https://en.wikipedia.org/wiki/Tahoe-LAFS
     desc: Decentralized cloud storage system for robust distributed data storage.
     tags:
       - storage
@@ -2030,13 +2030,13 @@ projects:
     tags:
       - storage
       - linux
-# 
+#
 # Ops
-# 
+#
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
-    docs_url: https://docs.ansible.com/ansible
     home_url: https://www.ansible.com/
+    docs_url: https://docs.ansible.com/ansible
     desc: Agentless, playbook-based automation.
     tags:
       - ops
@@ -2055,8 +2055,8 @@ projects:
   - name: Beaker
     repo_url: https://git.beaker-project.org/cgit/beaker
     home_url: https://beaker-project.org/
-    docs_url: https://beaker-project.org/docs
     clone_url: git+git://git.beaker-project.org/beaker
+    docs_url: https://beaker-project.org/docs
     desc: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
     tags:
       - ops
@@ -2073,8 +2073,8 @@ projects:
       - server
   - name: DCOS
     repo_url: https://github.com/dcos/dcos
-    docs_url: https://dcos.io/docs
     home_url: https://dcos.io/
+    docs_url: https://dcos.io/docs
     wp_url: https://en.wikipedia.org/wiki/Mesosphere%2C_Inc.#Mesosphere_DC/OS
     desc: Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
     tags:
@@ -2082,8 +2082,8 @@ projects:
       - server
       - corp
   - name: fail2ban
-    home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
     repo_url: https://github.com/fail2ban/fail2ban
+    home_url: https://www.fail2ban.org/wiki/index.php/Main_Page
     wp_url: https://en.wikipedia.org/wiki/Fail2ban
     desc: Daemon to ban hosts that cause multiple authentication errors on Linux servers.
     tags:
@@ -2108,8 +2108,8 @@ projects:
       - server
   - name: Healthchecks
     repo_url: https://github.com/healthchecks/healthchecks
-    docs_url: https://healthchecks.io/docs
     home_url: https://healthchecks.io/
+    docs_url: https://healthchecks.io/docs
     desc: Web-based monitor for scheduled jobs (e.g., cron).
     tags:
       - ops
@@ -2124,8 +2124,8 @@ projects:
       - server
       - corp
   - name: NColony
-    home_url: http://ncolony.org/en/latest
     repo_url: https://github.com/ncolony/ncolony
+    home_url: http://ncolony.org/en/latest
     desc: Process manager and monitor.
     tags:
       - ops
@@ -2168,8 +2168,8 @@ projects:
       - mac
   - name: Pulp
     repo_url: https://github.com/pulp/pulp
-    docs_url: https://docs.pulpproject.org/en/3.0/nightly
     home_url: https://pulpproject.org/
+    docs_url: https://docs.pulpproject.org/en/3.0/nightly
     desc: Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat.
     tags:
       - ops
@@ -2217,17 +2217,17 @@ projects:
       - server
       - corp
   - name: Supervisor
-    home_url: http://supervisord.org/
     repo_url: https://github.com/Supervisor/supervisor
+    home_url: http://supervisord.org/
     desc: Process manager and monitor.
     tags:
       - ops
       - linux
       - mac
       - server
-# 
+#
 # Security
-# 
+#
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/
@@ -2277,8 +2277,8 @@ projects:
       - qt5
   - name: Passit
     repo_url: https://gitlab.com/passit/passit-backend
-    docs_url: https://passit.io/documentation
     home_url: https://passit.io/
+    docs_url: https://passit.io/documentation
     desc: Password management server, providing storage services and group access control list features.
     tags:
       - security
@@ -2328,15 +2328,15 @@ projects:
       - windows
       - mac
   - name: XSStrike
-    home_url: https://somdev.me/XSStrike
     repo_url: https://github.com/s0md3v/XSStrike
+    home_url: https://somdev.me/XSStrike
     desc: '[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.'
     tags:
       - security
       - console
-# 
+#
 # Docs
-# 
+#
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     desc: Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
@@ -2375,9 +2375,9 @@ projects:
     tags:
       - docs
       - console
-# 
+#
 # Editor
-# 
+#
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/
@@ -2387,8 +2387,8 @@ projects:
       - editor
       - console
   - name: Eric IDE
-    home_url: https://eric-ide.python-projects.org/
     repo_url: http://die-offenbachs.homelinux.org:48888/hg/eric
+    home_url: https://eric-ide.python-projects.org/
     clone_url: hg+http://die-offenbachs.homelinux.org:48888/hg/eric
     desc: Python editor and IDE, based on Qt, integrating Scintilla editor control.
     tags:
@@ -2436,8 +2436,8 @@ projects:
       - mac
       - qt5
   - name: mu
-    home_url: https://codewith.mu/en
     repo_url: https://github.com/mu-editor/mu
+    home_url: https://codewith.mu/en
     desc: A small, simple editor designed for beginner Python programmers.
     tags:
       - editor
@@ -2447,8 +2447,8 @@ projects:
       - qt5
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
-    wp_url: https://en.wikipedia.org/wiki/Ninja-IDE
     home_url: http://ninja-ide.org/
+    wp_url: https://en.wikipedia.org/wiki/Ninja-IDE
     desc: Cross-platform Python IDE with project management, linting, extensions, and more.
     tags:
       - editor
@@ -2485,12 +2485,12 @@ projects:
       - windows
       - mac
       - tk
-# 
+#
 # Pkg_Mgr
-# 
+#
   - name: Conda
-    home_url: https://conda.io/
     repo_url: https://github.com/conda/conda
+    home_url: https://conda.io/
     wp_url: https://en.wikipedia.org/wiki/Conda_%28package_manager%29
     desc: OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing.
     tags:
@@ -2528,8 +2528,8 @@ projects:
       - windows
       - mac
   - name: Poetry
-    home_url: https://poetry.eustace.io/
     repo_url: https://github.com/sdispater/poetry
+    home_url: https://poetry.eustace.io/
     docs_url: https://poetry.eustace.io/docs
     desc: An independent approach to Python dependency management and packaging.
     tags:
@@ -2561,9 +2561,9 @@ projects:
       - pkg_mgr
       - linux
       - corp
-# 
+#
 # Pkg_Repo
-# 
+#
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     desc: PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
@@ -2580,20 +2580,20 @@ projects:
       - server
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
-    fund_url: https://psfmember.org/civicrm/contribute/transact?reset=1&id=13
     docs_url: https://warehouse.pypa.io/
+    fund_url: https://psfmember.org/civicrm/contribute/transact?reset=1&id=13
     desc: Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from.
     tags:
       - pkg_repo
       - server
       - fnd
-# 
+#
 # Build
-# 
+#
   - name: bitbake
-    wp_url: https://en.wikipedia.org/wiki/BitBake
     repo_url: https://github.com/openembedded/bitbake
     docs_url: https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html
+    wp_url: https://en.wikipedia.org/wiki/BitBake
     desc: Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
     tags:
       - build
@@ -2617,8 +2617,8 @@ projects:
       - windows
       - mac
   - name: GYP
-    home_url: https://gyp.gsrc.io/
     repo_url: https://chromium.googlesource.com/external/gyp
+    home_url: https://gyp.gsrc.io/
     clone_url: git+https://chromium.googlesource.com/external/gyp
     wp_url: https://en.wikipedia.org/wiki/GYP_%28software%29
     desc: AKA 'Generate Your Projects', a build system that generates other build systems.
@@ -2628,8 +2628,8 @@ projects:
       - windows
       - mac
   - name: Meson
-    home_url: http://mesonbuild.com/
     repo_url: https://github.com/mesonbuild/meson
+    home_url: http://mesonbuild.com/
     desc: Build system designed for speed and user-friendliness.
     tags:
       - build
@@ -2637,8 +2637,8 @@ projects:
       - windows
       - mac
   - name: Pants
-    home_url: https://www.pantsbuild.org/
     repo_url: https://github.com/pantsbuild/pants
+    home_url: https://www.pantsbuild.org/
     desc: Build system designed for monolithic repositories.
     tags:
       - build
@@ -2666,17 +2666,17 @@ projects:
       - windows
       - mac
   - name: Waf
-    home_url: https://waf.io/
     repo_url: https://gitlab.com/ita1024/waf
+    home_url: https://waf.io/
     docs_url: https://waf.io/book
     wp_url: https://en.wikipedia.org/wiki/Waf
     desc: Cross-platform build system designed to improve on SCons.
     tags:
       - build
       - linux
-# 
+#
 # Shell
-# 
+#
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
@@ -2702,9 +2702,9 @@ projects:
       - linux
       - windows
       - mac
-# 
+#
 # Dev
-# 
+#
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/
@@ -2728,8 +2728,8 @@ projects:
       - console
   - name: Cookiecutter
     repo_url: https://github.com/audreyr/cookiecutter
-    pypi_url: https://pypi.org/project/cookiecutter
     docs_url: https://cookiecutter.readthedocs.io/en/latest
+    pypi_url: https://pypi.org/project/cookiecutter
     desc: Utility for creating new projects from shareable templates.
     tags:
       - dev
@@ -2742,8 +2742,8 @@ projects:
       - dev
       - console
   - name: IPython
-    docs_url: https://ipython.readthedocs.org/
     repo_url: https://github.com/ipython/ipython
+    docs_url: https://ipython.readthedocs.org/
     desc: Set of enhancements to Python, wrapping it for richer interactivity.
     tags:
       - dev
@@ -2790,17 +2790,17 @@ projects:
       - server
   - name: Polyaxon
     repo_url: https://github.com/polyaxon/polyaxon
-    docs_url: https://docs.polyaxon.com/
     home_url: https://polyaxon.com/
+    docs_url: https://docs.polyaxon.com/
     desc: A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more.
     tags:
       - dev
       - server
   - name: PPCI
     repo_url: https://bitbucket.org/windel/ppci
-    gh_url: https://github.com/windelbouwman/ppci-mirror
-    docs_url: https://ppci.readthedocs.io/
     demo_url: https://godbolt.org/g/eooaPP
+    docs_url: https://ppci.readthedocs.io/
+    gh_url: https://github.com/windelbouwman/ppci-mirror
     pypi_url: https://pypi.org/project/ppci
     desc: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
     tags:
@@ -2847,8 +2847,8 @@ projects:
       - dev
       - server
   - name: Ubiquity  # ubuntu installer
-    wp_url: https://en.wikipedia.org/wiki/Ubiquity_%28software%29
     repo_url: https://code.launchpad.net/ubiquity
+    wp_url: https://en.wikipedia.org/wiki/Ubiquity_%28software%29
     desc: The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
     tags:
       - dev
@@ -2864,17 +2864,17 @@ projects:
       - windows
       - mac
   - name: YunoHost
-    home_url: https://yunohost.org/
     repo_url: https://github.com/YunoHost/yunohost
+    home_url: https://yunohost.org/
     docs_url: https://yunohost.org/#/docs
     desc: Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware.
     tags:
       - dev
       - linux
       - server
-# 
+#
 # Misc
-# 
+#
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
@@ -2891,8 +2891,8 @@ projects:
       - misc
       - linux
   - name: JARVIS on Messenger
-    home_url: https://m.me/J.A.R.V.I.S.on.Messenger
     repo_url: https://github.com/swapagarwal/JARVIS-on-Messenger
+    home_url: https://m.me/J.A.R.V.I.S.on.Messenger
     desc: Facebook Messenger bot with a wide assortment of features.
     tags:
       - misc
@@ -2913,8 +2913,8 @@ projects:
       - misc
       - linux
   - name: OpenLP
-    home_url: https://openlp.org/
     repo_url: https://code.launchpad.net/openlp
+    home_url: https://openlp.org/
     desc: Presentation software geared toward church usage.
     tags:
       - misc
@@ -2937,17 +2937,17 @@ projects:
       - misc
       - server
   - name: Wicd
-    wp_url: https://en.wikipedia.org/wiki/Wicd
-    home_url: http://wicd.sourceforge.net/download.php
     repo_url: https://code.launchpad.net/wicd
+    home_url: http://wicd.sourceforge.net/download.php
+    wp_url: https://en.wikipedia.org/wiki/Wicd
     desc: Graphical utility for managing wired and wireless connections on Linux.
     tags:
       - misc
       - linux
       - gtk
   - name: Xpra
-    home_url: http://xpra.org/
     repo_url: https://xpra.org/svn/Xpra/trunk   # svn
+    home_url: http://xpra.org/
     desc: Cross-platform remote display server and client for forwarding applications and desktop screens.
     tags:
       - misc

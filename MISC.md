@@ -94,6 +94,11 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/borgbase/vorta
 * https://github.com/marcelstoer/nodemcu-pyflasher
 * https://github.com/defaultnamehere/cookie_crimes
+* https://github.com/DedSecInside/TorBot
+* https://github.com/Drakkar-Software/OctoBot
+* https://github.com/datawire/kubernaut
+* https://github.com/snapcore/snapcraft
+* https://github.com/frostming/legit
 
 ## AlternativeTo Trawl
 

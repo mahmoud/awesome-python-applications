@@ -28,3 +28,12 @@ projects:
   - name: bscan
     repo_url: https://github.com/welchbj/bscan
     reason: wavering maintenance status, still young, though has packaging.
+  - name: Loki
+    repo_url: https://github.com/Pure-L0G1C/Loki
+    reason: low commit, 1 committers
+  - name: captcha_trainer
+    repo_url: https://github.com/kerlomz/captcha_trainer
+    reason: low commit, 2 committers
+  - name: bustag
+    repo_url: https://github.com/gxtrobot/bustag
+    reason: low commit, 1 committer

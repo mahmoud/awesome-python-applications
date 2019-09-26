@@ -61,6 +61,39 @@ cases. Here are some helpful questions to help classify Python software:
 * https://salsa.debian.org/qa/distro-tracker
 * https://salsa.debian.org/debian-keyring/keyring
 * https://github.com/spl0k/supysonic
+* https://github.com/qwj/python-proxy
+* https://github.com/airspeed-velocity/asv
+* https://github.com/artisan-roaster-scope/artisan
+* https://github.com/guardicore/monkey
+* https://github.com/remyroy/CDDA-Game-Launcher
+* https://github.com/EmpireProject/Empire (maybe, has a lot of powershell)
+* https://github.com/lbryio/lbry-sdk
+* https://github.com/golemfactory/golem
+* https://github.com/cs01/gdbgui
+* https://github.com/pyfa-org/Pyfa
+* https://github.com/hubblestack/hubble
+* https://github.com/jendrikseipp/rednotebook
+* https://github.com/mstuttgart/pynocchio
+* https://github.com/google/grr
+* https://github.com/zenhack/simp_le
+* https://github.com/thombashi/sqlitebiter
+* https://github.com/malwaredllc/byob
+* https://github.com/ctxis/CAPE
+* https://github.com/Codaone/DEXBot
+* https://github.com/usnistgov/mosaic
+* https://github.com/NuID/nebulousAD
+* https://github.com/chanzuckerberg/cellxgene
+* https://github.com/dipu-bd/lightnovel-crawler
+* https://github.com/delmic/odemis
+* https://github.com/raiden-network/raiden  # blockchain, maybe too cynical
+* https://github.com/JaDogg/pydoro
+* https://github.com/arsenetar/dupeguru
+* https://github.com/gridsync/gridsync
+* https://github.com/ActivityWatch/aw-server
+* https://github.com/overhangio/tutor
+* https://github.com/borgbase/vorta
+* https://github.com/marcelstoer/nodemcu-pyflasher
+* https://github.com/defaultnamehere/cookie_crimes
 
 ## AlternativeTo Trawl
 
@@ -86,7 +119,9 @@ https://alternativeto.net/software/netdata/
 
 ## Pages to scour
 
-* https://salsa.debian.org/python-team/applications?sort=name_asc
+* https://bestpractices.coreinfrastructure.org/en/projects?gteq=100&sort=achieved_passing_at&sort_direction=desc
+* https://www.reddit.com/r/pyxel/ / https://github.com/kitao/pyxel/network/dependents?package_id=UGFja2FnZS02MzQ5MTY1MQ%3D%3D
+* https://github.com/PySimpleGUI/PySimpleGUI/network/dependents?package_id=UGFja2FnZS05MjkyNDU5MA%3D%3D
 
 ## Pages scoured
 
@@ -101,6 +136,8 @@ mining a spent resource.
 * https://en.wikipedia.org/wiki/PyGTK#Notable_applications_that_use_PyGTK
 * http://pythonsource.com/
 * http://openhub.net/ (python + pyqt4/5 + pygtk tags, pretty noisy dataset)
+* https://bestpractices.coreinfrastructure.org/en/projects?gteq=100&sort=achieved_passing_at&sort_direction=desc
+* https://github.com/pyinstaller/pyinstaller/network/dependents
 
 ## Problems with other lists
 

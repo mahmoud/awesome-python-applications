@@ -14,3 +14,17 @@ projects:
   - name: rapidbay
     repo_url: https://github.com/hauxir/rapidbay/
     reason: bit young, 1 contributor, low commit count (93)
+  - name: shadowproxy
+    repo_url: https://github.com/guyingbo/shadowproxy
+  - name: mlox
+    repo_url: https://github.com/mlox/mlox/graphs/contributors
+    reason: maybe a little too niche?
+  - name: kungfu trader
+    repo_url: https://github.com/taurusai/kungfu
+    reason: not obviously python enough
+  - name: iqiyi-parser
+    repo_url: https://github.com/ZSAIm/iqiyi-parser
+    reason: young, 1 contributor. also, misleading name, this is a tencent video downloader.
+  - name: bscan
+    repo_url: https://github.com/welchbj/bscan
+    reason: wavering maintenance status, still young, though has packaging.

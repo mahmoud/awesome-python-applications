@@ -55,3 +55,6 @@ projects:
   - name: zktop
     repo_url: https://github.com/phunt/zktop
     reason: bit young, not a lot of commits
+  - name: jampy postfix aliases
+    repo_url: https://github.com/platipusica/jampy-posfixaliases
+    reason: <100 commits, 2 committers, bit quiet.

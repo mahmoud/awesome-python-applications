@@ -141,31 +141,19 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/jrfonseca/xdot.py
 * https://github.com/ARMmbed/yotta
 * https://github.com/newtdb/db
+* https://git.duniter.org/clients/python/sakia / https://github.com/duniter/sakia
+* https://github.com/certsocietegenerale/fame
+* https://github.com/masfaraud/BMSpy
+* https://github.com/tasdikrahman/spaceShooter # bit out of date, but it's a pygame game with a bit of fame
+* https://github.com/bfontaine/term2048  # terminal game yay
+* https://github.com/scour-project/scour
+* https://github.com/iovisor/bcc  # half python half c++
+* https://github.com/stoq/stoq  # maybe discontinued? github is updated, but home page is empty
+* https://github.com/ActivityWatch/activitywatch
+* https://launchpad.net/launchpad  # thought i added this
+* https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
 
-## AlternativeTo Trawl
-
-https://alternativeto.net/software/cutecoin/ - need more review
-https://alternativeto.net/software/pince/ - added
-https://alternativeto.net/software/dontpanic/ - discontinued/offline
-https://alternativeto.net/software/outspline/ - bit too small
-https://alternativeto.net/software/dbpedia/ - mostly not python, lots of disparate components
-https://alternativeto.net/software/meshroom/ -
-https://alternativeto.net/software/magic-wormhole/
-https://alternativeto.net/software/bms/
-https://alternativeto.net/software/fame-automates-malware-evaluation/
-https://alternativeto.net/software/space-shooter/
-https://alternativeto.net/software/jam-py-postfix-aliases/
-https://alternativeto.net/software/term2048/
-https://alternativeto.net/software/scour/
-https://alternativeto.net/software/shreddit/
-https://alternativeto.net/software/bcc/
-https://alternativeto.net/software/stoq/
-https://alternativeto.net/software/activitywatch/
-https://alternativeto.net/software/launchpad/
-https://alternativeto.net/software/netdata/
-
-
-## Pages to scour
+## Pages to trawl
 
 * https://bestpractices.coreinfrastructure.org/en/projects?gteq=100&sort=achieved_passing_at&sort_direction=desc
 * https://www.reddit.com/r/pyxel/ / https://github.com/kitao/pyxel/network/dependents?package_id=UGFja2FnZS02MzQ5MTY1MQ%3D%3D
@@ -174,7 +162,7 @@ https://alternativeto.net/software/netdata/
 * https://www.pygame.org  # really wish there was an API here, or some sort of curation
 * https://games.renpy.org/year/2019  # i dunnnnoooo
 
-## Pages scoured
+## Pages trawled
 
 Hardly the only sources, but mostly so others don't spend their time
 mining a spent resource.
@@ -187,8 +175,9 @@ mining a spent resource.
 * https://en.wikipedia.org/wiki/PyGTK#Notable_applications_that_use_PyGTK
 * http://pythonsource.com/
 * http://openhub.net/ (python + pyqt4/5 + pygtk tags, pretty noisy dataset)
-* https://bestpractices.coreinfrastructure.org/en/projects?gteq=100&sort=achieved_passing_at&sort_direction=desc
 * https://github.com/pyinstaller/pyinstaller/network/dependents
+* https://alternativeto.net/ (python tag)
+* https://git.duniter.org/explore/projects/
 
 ## Problems with other lists
 

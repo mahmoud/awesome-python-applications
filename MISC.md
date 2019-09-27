@@ -140,6 +140,7 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/DonyorM/weresync  # not sure it's actually as accessible as it claims to be
 * https://github.com/jrfonseca/xdot.py
 * https://github.com/ARMmbed/yotta
+* https://github.com/newtdb/db
 
 ## AlternativeTo Trawl
 

@@ -99,6 +99,47 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/datawire/kubernaut
 * https://github.com/snapcore/snapcraft
 * https://github.com/frostming/legit
+* https://github.com/pazz/alot
+* https://github.com/languitar/autosuspend
+* https://github.com/Backblaze/B2_Command_Line_Tool  # backblaze, has bash completion
+* https://github.com/Blosc/bloscpack
+* https://github.com/xfce-mirror/catfish
+* https://github.com/giuspen/cherrytree
+* https://github.com/cea-hpc/clustershell
+* https://github.com/pixelb/crudini
+* https://github.com/cython/cython
+* https://code.launchpad.net/dkimpy-milter
+* https://github.com/otsaloma/gaupol
+* https://github.com/sdg-mit/gitless
+* https://github.com/regebro/hovercraft
+* https://github.com/pimutils/khal
+* https://github.com/insanum/gcalcli
+* https://github.com/kupferlauncher/kupfer  # maybe, seems a bit quiet
+* https://code.launchpad.net/menulibre  # maybe, it's updated, but hard to establish quality/popularity
+* https://github.com/eonpatapon/mpDris2  # pretty niche
+* https://github.com/bluesabre/mugshot  # also pretty niche
+* https://github.com/HenriWahl/Nagstamon / https://nagstamon.ifw-dresden.de/
+* https://github.com/otsaloma/nfoview
+* https://github.com/jeromerobert/pdfarranger
+* https://gitlab.com/pdftools/pdfposter
+* https://github.com/sopel-irc/sopel
+* https://github.com/platformio/platformio-core
+* https://github.com/PyCQA/prospector
+* https://github.com/scheibler/khard
+* https://github.com/pytrainer/pytrainer  # like a mini strava
+* https://github.com/rabbitvcs/rabbitvcs
+* https://github.com/retext-project/retext
+* https://github.com/amanusk/s-tui
+* https://github.com/s3ql/s3ql  # i wonder what other fuse filesystems are implemented in python
+* https://github.com/TomasTomecek/sen/
+* https://github.com/SlapOS/slapos
+* https://github.com/subdownloader/subdownloader
+* https://github.com/ihabunek/toot/
+* https://github.com/nschloe/tuna
+* https://github.com/pimutils/vdirsyncer  # even with its questionable maintainer status
+* https://github.com/DonyorM/weresync  # not sure it's actually as accessible as it claims to be
+* https://github.com/jrfonseca/xdot.py
+* https://github.com/ARMmbed/yotta
 
 ## AlternativeTo Trawl
 
@@ -122,11 +163,15 @@ https://alternativeto.net/software/activitywatch/
 https://alternativeto.net/software/launchpad/
 https://alternativeto.net/software/netdata/
 
+
 ## Pages to scour
 
 * https://bestpractices.coreinfrastructure.org/en/projects?gteq=100&sort=achieved_passing_at&sort_direction=desc
 * https://www.reddit.com/r/pyxel/ / https://github.com/kitao/pyxel/network/dependents?package_id=UGFja2FnZS02MzQ5MTY1MQ%3D%3D
 * https://github.com/PySimpleGUI/PySimpleGUI/network/dependents?package_id=UGFja2FnZS05MjkyNDU5MA%3D%3D
+* https://github.com/pygame/pygame/network/dependents?package_id=UGFja2FnZS01MjQ3MDAxOQ%3D%3D
+* https://www.pygame.org  # really wish there was an API here, or some sort of curation
+* https://games.renpy.org/year/2019  # i dunnnnoooo
 
 ## Pages scoured
 

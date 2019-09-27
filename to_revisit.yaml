@@ -37,3 +37,21 @@ projects:
   - name: bustag
     repo_url: https://github.com/gxtrobot/bustag
     reason: low commit, 1 committer
+  - name: miio
+    repo_url: https://github.com/rytilahti/python-miio
+    reason: not sure its cli is substantive enough, seems more like a library
+  - name: pyomo
+    repo_url: https://github.com/Pyomo/pyomo
+    reason: seems mostly like a library/framework
+  - name: valinor
+    repo_url: https://github.com/ARMmbed/valinor
+    reason: seems a bit too quiet
+  - name: visualequation
+    repo_url: https://github.com/daniel-molina/visualequation
+    reason: might be a bit young, only one committer
+  - name: weasyprint
+    repo_url: https://github.com/Kozea/WeasyPrint/
+    reason: not sure the CLI is substantive enough, though it does follow some best practices
+  - name: zktop
+    repo_url: https://github.com/phunt/zktop
+    reason: bit young, not a lot of commits

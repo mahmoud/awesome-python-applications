@@ -5,12 +5,38 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-09-24T06:22:16Z</updated>
+  <updated>2019-09-28T21:54:15Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
+  
+  <entry>
+    <id>https://github.com/belangeo/soundgrain</id>
+    <title>SoundGrain</title>
+    <link rel="alternate" type="text/html" href="https://github.com/belangeo/soundgrain" />
+    <published>2019-09-28T02:53:00Z</published>
+    <updated>2019-09-28T02:53:00Z</updated>
+    <category term="audio"/><category term="linux"/><category term="windows"/><category term="mac"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/belangeo/soundgrain">SoundGrain</a></strong>: Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis).</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href="https://github.com/belangeo/soundgrain">Repo</a></li>
+        <li><a href="http://ajaxsoundstudio.com/software/soundgrain/">Home</a></li>
+        <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9CA99DH6ES3HA">Fund</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/learningequality/kolibri</id>

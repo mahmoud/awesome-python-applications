@@ -34,7 +34,6 @@ cases. Here are some helpful questions to help classify Python software:
 
 ## Candidates
 
-* https://github.com/belangeo/soundgrain
 * https://github.com/albertz/music-player
 * https://github.com/j3ffhubb/musikernel
 * https://github.com/danboid/shufti

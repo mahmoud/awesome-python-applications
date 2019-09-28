@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(189)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(172)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(112)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(109)*
+1. <a href="#tag-desktop">Desktop</a> *(190)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(173)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(113)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(110)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -189,6 +189,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(science, windows, mac, wx)`
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(pkg_mgr, corp)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(audio, gtk)`
+  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain/), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(audio, windows, mac)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, windows, mac, docker, server)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(editor, windows, mac, qt5)`
   1. **sshuttle** - ([Repo](https://github.com/sshuttle/sshuttle), [Docs](https://sshuttle.readthedocs.org/)) Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access. `(security, mac)`
@@ -312,6 +313,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(organization, linux)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(graphics, linux, mac, gtk, wx)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(science, linux, mac, wx)`
+  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain/), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(audio, linux, mac)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, mac, docker, server)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(editor, linux, mac, qt5)`
   1. **streamlink** - ([Repo](https://github.com/streamlink/streamlink), [Home](https://streamlink.github.io/), [PyPI](https://pypi.org/project/streamlink)) Command-line utility that extracts streams from various services and pipes them into a video player of choice. `(internet, linux, mac)`
@@ -425,6 +427,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, linux, windows)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(graphics, linux, windows, gtk, wx)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(science, linux, windows, wx)`
+  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain/), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(audio, linux, windows)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, docker, server)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(editor, linux, windows, qt5)`
   1. **sshuttle** - ([Repo](https://github.com/sshuttle/sshuttle), [Docs](https://sshuttle.readthedocs.org/)) Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access. `(security, linux)`

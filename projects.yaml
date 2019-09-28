@@ -528,6 +528,17 @@ projects:
       - audio
       - linux
       - gtk
+  - name: SoundGrain
+    repo_url: https://github.com/belangeo/soundgrain
+    home_url: http://ajaxsoundstudio.com/software/soundgrain/
+    fund_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA
+    date_added: 2019-09-28 02:53:00
+    desc: Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis).
+    tags:
+      - audio
+      - linux
+      - windows
+      - mac
 #
 # Video
 #

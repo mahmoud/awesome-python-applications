@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **317**
+This document is an always-growing list of **318**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(6)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
-1. <a href="#tag-productivity">Productivity</a> *(16)*
+1. <a href="#tag-productivity">Productivity</a> *(17)*
 1. <a href="#tag-organization">Organization</a> *(31)*
 1. <a href="#tag-communication">Communication</a> *(32)*
 1. <a href="#tag-education">Education</a> *(6)*
@@ -104,13 +104,13 @@ thereof), see Architectures. -->
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(linux, windows, mac, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(linux, windows, mac, gtk)`
   1. **Mopidy** - ([Repo](https://github.com/mopidy/mopidy), [Home](https://www.mopidy.com/)) Extensible music player server with plugin support for a wide range of services. `(server)`
-  1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player/)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(linux, mac)`
+  1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(linux, mac)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(linux, windows, mac, qt)`
   1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(linux, windows, mac)`
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(linux, qt4)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(linux, windows, mac, gtk)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(linux, gtk)`
-  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain/), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(linux, windows, mac)`
+  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(linux, windows, mac)`
 
 ## <a id="tag-video" href="#tag-video">Video</a>
 
@@ -164,6 +164,7 @@ thereof), see Architectures. -->
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(security, server)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(linux, tui)`
   1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
+  1. **Sunflower** - ([Repo](https://github.com/MeanEYE/Sunflower), [Home](http://sunflower-fm.org/)) Small and highly-customizable twin-panel file manager for Linux with plugin support. `(linux)`
   1. **Superset** - ([Repo](https://github.com/apache/incubator-superset), [Docs](http://superset.apache.org/)) Data exploration, visualization, and business intelligence web application. `(server)`
   1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
 
@@ -312,7 +313,7 @@ Projects related to software development and adjacent technical areas.
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities. `(linux, windows, mac)`
   1. **Pagure** - ([Repo](https://pagure.io/pagure), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team. `(server)`
   1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development. `(server)`
-  1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki/)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(linux)`
+  1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(linux)`
   1. **RhodeCode** - ([Repo](https://code.rhodecode.com/rhodecode-enterprise-ce), [Home](https://rhodecode.com/), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion. `(server, corp)`
   1. **Roundup** - ([Repo](http://hg.code.sf.net/p/roundup/code), [WP](https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29)) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org). `(server)`
   1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support. `(linux, windows, qt4, qt5)`

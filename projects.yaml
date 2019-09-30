@@ -487,6 +487,15 @@ projects:
     tags:
       - audio
       - server
+  - name: Music Player
+    repo_url: https://github.com/albertz/music-player
+    home_url: http://albertz.github.io/music-player
+    date_added: 2019-09-29 17:58:00
+    desc: A simple music player designed around an infinite intelligent playlist, with support for headless playback.
+    tags:
+      - audio
+      - linux
+      - mac
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     home_url: https://picard.musicbrainz.org/
@@ -499,15 +508,6 @@ projects:
       - windows
       - mac
       - qt
-  - name: Music Player
-    repo_url: https://github.com/albertz/music-player
-    home_url: http://albertz.github.io/music-player/
-    date_added: 2019-09-29 17:58:00
-    desc: A simple music player designed around an infinite intelligent playlist, with support for headless playback.
-    tags:
-      - audio
-      - linux
-      - mac
   - name: Musikernel
     repo_url: https://github.com/j3ffhubb/musikernel
     date_added: 2019-09-29 18:01:00
@@ -548,7 +548,7 @@ projects:
       - gtk
   - name: SoundGrain
     repo_url: https://github.com/belangeo/soundgrain
-    home_url: http://ajaxsoundstudio.com/software/soundgrain/
+    home_url: http://ajaxsoundstudio.com/software/soundgrain
     fund_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA
     date_added: 2019-09-28 02:53:00
     desc: Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis).
@@ -984,6 +984,14 @@ projects:
       - productivity
       - server
       - flask
+  - name: Sunflower
+    repo_url: https://github.com/MeanEYE/Sunflower
+    home_url: http://sunflower-fm.org/
+    date_added: 2019-09-29 22:17:00
+    desc: Small and highly-customizable twin-panel file manager for Linux with plugin support.
+    tags:
+      - productivity
+      - linux
   - name: Superset
     repo_url: https://github.com/apache/incubator-superset
     docs_url: http://superset.apache.org/
@@ -2106,7 +2114,7 @@ projects:
   - name: RabbitVCS
     repo_url: https://github.com/rabbitvcs/rabbitvcs
     home_url: http://rabbitvcs.org/
-    docs_url: http://wiki.rabbitvcs.org/wiki/
+    docs_url: http://wiki.rabbitvcs.org/wiki
     date_added: 2019-09-29 18:50:00
     desc: Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line.
     tags:

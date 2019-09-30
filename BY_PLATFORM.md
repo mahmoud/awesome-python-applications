@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(198)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(181)*
+1. <a href="#tag-desktop">Desktop</a> *(199)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(182)*
     1. <a href="#tag-desktop.windows">Windows</a> *(118)*
     1. <a href="#tag-desktop.mac">Mac</a> *(113)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -70,6 +70,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_%28software%29)) Linux installation server that allows for rapid setup of network installation environments. `(ops, server)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, windows, mac, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, windows, mac)`
+  1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives. `(communication)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, windows, mac, server, gtk)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(pkg_mgr, corp)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, windows, mac)`

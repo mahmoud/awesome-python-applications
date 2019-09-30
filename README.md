@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **326**
+This document is an always-growing list of **327**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
 1. <a href="#tag-organization">Organization</a> *(33)*
-1. <a href="#tag-communication">Communication</a> *(32)*
+1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(11)*
@@ -213,6 +213,7 @@ thereof), see Architectures. -->
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(server, corp)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol. `(linux, windows, mac, kivy, qt4, tui)`
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts. `(organization, server)`
+  1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives. `(linux)`
   1. **Django Wiki** - ([Repo](https://github.com/django-wiki/django-wiki), [Demo](https://demo.django-wiki.org/), [Docs](https://django-wiki.readthedocs.io/en/latest)) A simple and mature web-based wiki. `(server)`
   1. **Formspree** - ([Repo](https://github.com/formspree/formspree), [Home](https://formspree.io/)) Web server which turns an HTML form submission into an email, without registration, JavaScript, or custom Python. `(server, corp)`
   1. **Gajim** - ([Repo](https://dev.gajim.org/gajim/gajim), [WP](https://en.wikipedia.org/wiki/Gajim)) Lightweight, cross-platform instant messaging client for the XMPP protocol. `(linux, windows, mac, gtk)`

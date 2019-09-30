@@ -1382,6 +1382,13 @@ projects:
       - kivy
       - qt4
       - tui
+  - name: dak
+    repo_url: https://salsa.debian.org/ftp-team/dak
+    date_added: 2019-09-30 10:20:00
+    desc: Collection of programs used to maintain the Debian project's email archives.
+    tags:
+      - communication
+      - linux
   - name: Django Wiki
     repo_url: https://github.com/django-wiki/django-wiki
     demo_url: https://demo.django-wiki.org/

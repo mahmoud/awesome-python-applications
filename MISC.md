@@ -34,10 +34,6 @@ cases. Here are some helpful questions to help classify Python software:
 
 ## Candidates
 
-* https://github.com/danboid/shufti
-* https://github.com/examachine/pisi
-* https://github.com/jedie/PyLucid  # distribution of django-cms?
-* https://github.com/frePPLe/frepple  # more erp!
 * https://github.com/rabbitvcs/rabbitvcs
 * https://github.com/MeanEYE/Sunflower/
 * https://github.com/gammu/wammu  # maybe

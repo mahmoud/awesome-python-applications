@@ -8,3 +8,5 @@ projects:
   - name: glipper
     repo_url: https://launchpad.net/glipper
     wp_url: https://en.wikipedia.org/wiki/Glipper
+  - name: pisi
+    repo_url: https://github.com/examachine/pisi

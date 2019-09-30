@@ -58,3 +58,9 @@ projects:
   - name: jampy postfix aliases
     repo_url: https://github.com/platipusica/jampy-posfixaliases
     reason: <100 commits, 2 committers, bit quiet.
+  - name: shufti
+    repo_url: https://github.com/danboid/shufti
+    reason: <100 commits, 2 committers, bit quiet.
+  - name: PyLucid
+    repo_url: https://github.com/jedie/PyLucid
+    reason: Not sure if application enough. Says itself it's more of a distribution of django cms. Also, 1 contributor.

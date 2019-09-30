@@ -1909,6 +1909,17 @@ projects:
     tags:
       - erp
       - server
+  - name: Frepple
+    repo_url: https://github.com/frePPLe/frepple
+    home_url: https://frepple.com/
+    docs_url: https://frepple.com/docs/current/user-guide/index.php
+    date_added: 2019-09-29 18:46:00
+    desc: Web-based supply chain planning for production planning and scheduling.
+    tags:
+      - erp
+      - linux
+      - windows
+      - server
   - name: Odoo
     repo_url: https://github.com/odoo/odoo
     home_url: https://www.odoo.com/

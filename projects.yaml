@@ -619,6 +619,15 @@ projects:
       - static_site
       - linux
       - server
+  - name: Vidcutter
+    repo_url: https://github.com/ozmartian/vidcutter
+    date_added: 2019-09-30 09:41:00
+    desc: GUI and CLI aiming to be the fastest and simplest way to cut and join video.
+    tags:
+      - video
+      - linux
+      - windows
+      - mac
 #
 # Graphics
 #

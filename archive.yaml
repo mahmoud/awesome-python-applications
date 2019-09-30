@@ -10,3 +10,5 @@ projects:
     wp_url: https://en.wikipedia.org/wiki/Glipper
   - name: pisi
     repo_url: https://github.com/examachine/pisi
+  - name: Kabikaboo
+    repo_url: https://launchpad.net/kabikaboo

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(196)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(179)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(116)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(112)*
+1. <a href="#tag-desktop">Desktop</a> *(197)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(180)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(117)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(113)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -208,6 +208,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(security, windows, mac)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(games, windows, mac)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(science, windows, mac, qt)`
+  1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(video, windows, mac)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, windows, mac, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, windows, mac)`
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(build)`
@@ -332,6 +333,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(security, linux, mac)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(games, linux, mac)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(science, linux, mac, qt)`
+  1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(video, linux, mac)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, linux, mac, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, linux, mac)`
   1. **Wammu** - ([Repo](https://github.com/gammu/wammu), [Home](https://wammu.eu/wammu)) GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones. `(misc, linux)`
@@ -450,6 +452,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(security, linux, windows)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(games, linux, windows)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(science, linux, windows, qt)`
+  1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(video, linux, windows)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, linux, windows, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, linux, windows)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(organization, linux, windows, wx)`

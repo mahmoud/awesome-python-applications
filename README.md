@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **319**
+This document is an always-growing list of **320**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -35,7 +35,7 @@ thereof), see Architectures. -->
 
 1. <a href="#tag-internet">Internet</a> *(28)*
 1. <a href="#tag-audio">Audio</a> *(15)*
-1. <a href="#tag-video">Video</a> *(6)*
+1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(17)*
@@ -120,6 +120,7 @@ thereof), see Architectures. -->
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
+  1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(linux, windows, mac)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 

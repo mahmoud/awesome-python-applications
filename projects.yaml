@@ -3146,6 +3146,14 @@ projects:
       - dev
       - linux
       - mac
+  - name: PeachPy
+    repo_url: https://github.com/Maratyszcza/PeachPy
+    date_added: 2019-09-30 10:01:00
+    desc: Highly portable assembler with unified syntax, sporting an extensive user list, including many cryptography libraries for Go.
+    tags:
+      - dev
+      - linux
+      - windows
   - name: PINCE
     repo_url: https://github.com/korcankaraokcu/PINCE
     date_added: 2019-01-02 09:47:00

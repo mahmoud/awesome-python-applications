@@ -1070,6 +1070,14 @@ projects:
       - linux
       - windows
       - mac
+  - name: Byro
+    repo_url: https://github.com/byro/byro
+    docs_url: https://byro.readthedocs.io/
+    date_added: 2019-09-30 10:15:00
+    desc: Web-based membership administration tool for small and medium sized clubs/NGOs/associations of all kinds, with a focus on the DACH region.
+    tags:
+      - organization
+      - server
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre
     home_url: https://calibre-ebook.com/

@@ -15,3 +15,5 @@ projects:
   - name: Bika LIMS
     repo_url: https://github.com/bikalims/bika.lims
     home_url: https://www.bikalims.org/
+  - name: Django Trigger Happy
+    repo_url: https://github.com/push-things/django-th

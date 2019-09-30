@@ -34,9 +34,6 @@ cases. Here are some helpful questions to help classify Python software:
 
 ## Candidates
 
-* https://github.com/rabbitvcs/rabbitvcs
-* https://github.com/MeanEYE/Sunflower/
-* https://github.com/gammu/wammu  # maybe
 * https://github.com/thinkle/gourmet
 * https://github.com/GNOME/postr
 * https://launchpad.net/kabikaboo  # been a while since last release
@@ -145,6 +142,7 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/ActivityWatch/activitywatch
 * https://launchpad.net/launchpad  # thought i added this
 * https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
+* https://github.com/GNOME/jhbuild
 
 ## Pages to trawl
 

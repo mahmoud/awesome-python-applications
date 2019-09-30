@@ -23,9 +23,9 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(195)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(178)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(115)*
+1. <a href="#tag-desktop">Desktop</a> *(196)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(179)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(116)*
     1. <a href="#tag-desktop.mac">Mac</a> *(112)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -212,6 +212,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, windows, mac)`
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(build)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(storage)`
+  1. **Wammu** - ([Repo](https://github.com/gammu/wammu), [Home](https://wammu.eu/wammu)) GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones. `(misc, windows)`
   1. **Wicd** - ([Repo](https://code.launchpad.net/wicd), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(misc, gtk)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(organization, windows, mac, wx)`
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(shell, windows, mac)`
@@ -333,6 +334,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(science, linux, mac, qt)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, linux, mac, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, linux, mac)`
+  1. **Wammu** - ([Repo](https://github.com/gammu/wammu), [Home](https://wammu.eu/wammu)) GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones. `(misc, linux)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(organization, linux, mac, wx)`
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(shell, linux, mac)`
   1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens. `(misc, linux)`

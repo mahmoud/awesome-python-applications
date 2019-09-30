@@ -3303,6 +3303,15 @@ projects:
     tags:
       - misc
       - server
+  - name: Wammu
+    repo_url: https://github.com/gammu/wammu
+    home_url: https://wammu.eu/wammu
+    date_added: 2019-09-30 09:35:00
+    desc: GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones.
+    tags:
+      - misc
+      - linux
+      - windows
   - name: Wicd
     repo_url: https://code.launchpad.net/wicd
     home_url: http://wicd.sourceforge.net/download.php

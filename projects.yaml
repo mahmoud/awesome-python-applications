@@ -2103,6 +2103,15 @@ projects:
     tags:
       - scm
       - server
+  - name: RabbitVCS
+    repo_url: https://github.com/rabbitvcs/rabbitvcs
+    home_url: http://rabbitvcs.org/
+    docs_url: http://wiki.rabbitvcs.org/wiki/
+    date_added: 2019-09-29 18:50:00
+    desc: Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line.
+    tags:
+      - scm
+      - linux
   - name: RhodeCode
     repo_url: https://code.rhodecode.com/rhodecode-enterprise-ce
     home_url: https://rhodecode.com/

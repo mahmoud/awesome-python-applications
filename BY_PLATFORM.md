@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(193)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(176)*
+1. <a href="#tag-desktop">Desktop</a> *(194)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(177)*
     1. <a href="#tag-desktop.windows">Windows</a> *(115)*
     1. <a href="#tag-desktop.mac">Mac</a> *(112)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -180,6 +180,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) A small, flexible, scriptable tiling window manager. `(misc)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, windows, mac, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, windows, mac, qt5)`
+  1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki/)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(scm)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(productivity, tui)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(dev, gtk)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, windows, mac, console)`

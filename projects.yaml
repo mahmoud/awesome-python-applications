@@ -1264,6 +1264,14 @@ projects:
     tags:                             # communication?
       - organization
       - server
+  - name: Senaite
+    repo_url: https://github.com/senaite/senaite.lims
+    home_url: https://www.senaite.com/
+    date_added: 2019-09-30 09:47:00
+    desc: Web-based, mobile-first laboratory information management system (LIMS).
+    tags:
+      - organization
+      - server
   - name: SiCKRAGE
     repo_url: https://git.sickrage.ca/SiCKRAGE/sickrage
     docs_url: https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes
@@ -2540,6 +2548,16 @@ projects:
       - security
       - linux
       - windows
+      - server
+  - name: LinOTP
+    repo_url: https://github.com/LinOTP/LinOTP
+    home_url: https://www.linotp.org/
+    docs_url: https://www.linotp.org/documentation.html
+    wp_url: https://en.wikipedia.org/wiki/LinOTP
+    date_added: 2019-09-30 09:54:00
+    desc: Server supporting two-factor authentication with one-time passwords from several sources, from Yubikeys to SMS.
+    tags:
+      - security
       - server
   - name: Maltrail
     repo_url: https://github.com/stamparm/maltrail

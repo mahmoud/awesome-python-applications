@@ -12,3 +12,6 @@ projects:
     repo_url: https://github.com/examachine/pisi
   - name: Kabikaboo
     repo_url: https://launchpad.net/kabikaboo
+  - name: Bika LIMS
+    repo_url: https://github.com/bikalims/bika.lims
+    home_url: https://www.bikalims.org/

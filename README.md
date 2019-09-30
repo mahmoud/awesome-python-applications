@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **320**
+This document is an always-growing list of **322**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,19 +39,19 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
 1. <a href="#tag-productivity">Productivity</a> *(17)*
-1. <a href="#tag-organization">Organization</a> *(31)*
+1. <a href="#tag-organization">Organization</a> *(32)*
 1. <a href="#tag-communication">Communication</a> *(32)*
 1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(15)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(130)*
+1. <a href="#tag-dev">Dev</a> *(131)*
     1. <a href="#tag-dev.scm">SCM</a> *(15)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(9)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
-    1. <a href="#tag-dev.security">Security</a> *(16)*
+    1. <a href="#tag-dev.security">Security</a> *(17)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
@@ -197,6 +197,7 @@ thereof), see Architectures. -->
   1. **Pretalx** - ([Repo](https://github.com/pretalx/pretalx), [Home](https://pretalx.com/p/about), [Fund](https://www.patreon.com/rixx)) Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management. `(communication, server)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
+  1. **Senaite** - ([Repo](https://github.com/senaite/senaite.lims), [Home](https://www.senaite.com/)) Web-based, mobile-first laboratory information management system (LIMS). `(server)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(linux, windows)`
   1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes. `(dev, server, django)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(linux, windows, mac, wx)`
@@ -371,6 +372,7 @@ Projects related to software development and adjacent technical areas.
 
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server)`
   1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application. `(linux, windows, server)`
+  1. **LinOTP** - ([Repo](https://github.com/LinOTP/LinOTP), [Home](https://www.linotp.org/), [WP](https://en.wikipedia.org/wiki/LinOTP), [Docs](https://www.linotp.org/documentation.html)) Server supporting two-factor authentication with one-time passwords from several sources, from Yubikeys to SMS. `(server)`
   1. **Maltrail** - ([Repo](https://github.com/stamparm/maltrail)) Malicious traffic detection system with web-based monitoring. `(linux, server)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(linux, windows, mac)`
   1. **MozDef** - ([Repo](https://github.com/mozilla/MozDef), [Docs](https://mozdef.readthedocs.io/en/latest?badge=latest)) Security incident automation with metrics and collaboration tools for defenders. `(server)`

@@ -929,6 +929,16 @@ projects:
       - windows
       - mac
       - qt5
+  - name: Kibitzer
+    repo_url: https://github.com/kibitzr/kibitzr
+    home_url: https://kibitzr.github.io/
+    docs_url: https://kibitzr.readthedocs.io/
+    pypi_url: https://pypi.org/project/kibitzr
+    date_added: 2019-09-30 10:10:00
+    desc: Self-hosted personal assistant server for automating routine tasks.
+    tags:
+      - productivity
+      - server
   - name: Mackup
     repo_url: https://github.com/lra/mackup
     pypi_url: https://pypi.org/project/mackup

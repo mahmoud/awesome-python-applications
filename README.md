@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **324**
+This document is an always-growing list of **325**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
-1. <a href="#tag-productivity">Productivity</a> *(17)*
+1. <a href="#tag-productivity">Productivity</a> *(18)*
 1. <a href="#tag-organization">Organization</a> *(32)*
 1. <a href="#tag-communication">Communication</a> *(32)*
 1. <a href="#tag-education">Education</a> *(6)*
@@ -159,6 +159,7 @@ thereof), see Architectures. -->
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur), [Home](https://www.tryexcalibur.com/)) Web interface to extract tabular data from PDFs. `(linux, windows)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(ops, linux, windows, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(linux, windows, mac, qt5)`
+  1. **Kibitzer** - ([Repo](https://github.com/kibitzr/kibitzr), [Home](https://kibitzr.github.io/), [PyPI](https://pypi.org/project/kibitzr), [Docs](https://kibitzr.readthedocs.io/)) Self-hosted personal assistant server for automating routine tasks. `(server)`
   1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(linux, mac)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`

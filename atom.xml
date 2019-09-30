@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-09-30T17:20:32Z</updated>
+  <updated>2019-09-30T18:19:48Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -64,7 +64,7 @@
   
   <entry>
     <id>https://github.com/kibitzr/kibitzr</id>
-    <title>Kibitzer</title>
+    <title>Kibitzr</title>
     <link rel="alternate" type="text/html" href="https://github.com/kibitzr/kibitzr" />
     <published>2019-09-30T10:10:00Z</published>
     <updated>2019-09-30T10:10:00Z</updated>
@@ -72,7 +72,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/kibitzr/kibitzr">Kibitzer</a></strong>: Self-hosted personal assistant server for automating routine tasks.</p>
+      <p><strong><a href="https://github.com/kibitzr/kibitzr">Kibitzr</a></strong>: Self-hosted personal assistant server for automating routine tasks.</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/kibitzr/kibitzr'>Repo</a></li>

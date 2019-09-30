@@ -929,7 +929,7 @@ projects:
       - windows
       - mac
       - qt5
-  - name: Kibitzer
+  - name: Kibitzr
     repo_url: https://github.com/kibitzr/kibitzr
     home_url: https://kibitzr.github.io/
     docs_url: https://kibitzr.readthedocs.io/

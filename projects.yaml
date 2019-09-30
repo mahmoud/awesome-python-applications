@@ -499,6 +499,15 @@ projects:
       - windows
       - mac
       - qt
+  - name: Music Player
+    repo_url: https://github.com/albertz/music-player
+    home_url: http://albertz.github.io/music-player/
+    date_added: 2019-09-29 17:58:00
+    desc: A simple music player designed around an infinite intelligent playlist, with support for headless playback.
+    tags:
+      - audio
+      - linux
+      - mac
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag
     wp_url: https://en.wikipedia.org/wiki/Puddletag

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(191)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(174)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(113)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(111)*
+1. <a href="#tag-desktop">Desktop</a> *(192)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(175)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(114)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(112)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -130,6 +130,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, windows, mac, qt5)`
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player/)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, mac)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, windows, mac, qt)`
+  1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, windows, mac)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, windows, mac, gtk)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(ops, mac, server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(internet, windows, mac)`
@@ -281,6 +282,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, linux, mac, qt5)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, linux, mac, qt5)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, linux, mac, qt)`
+  1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, linux, mac)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, linux, mac, gtk)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(internet, linux, mac)`
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(misc, linux, gtk)`
@@ -397,6 +399,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, linux, windows, qt5)`
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player/)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, linux)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, linux, windows, qt)`
+  1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, linux, windows)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, linux, windows, gtk)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(ops, linux, server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(internet, linux, windows)`

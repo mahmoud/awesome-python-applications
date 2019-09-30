@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **314**
+This document is an always-growing list of **315**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(28)*
-1. <a href="#tag-audio">Audio</a> *(14)*
+1. <a href="#tag-audio">Audio</a> *(15)*
 1. <a href="#tag-video">Video</a> *(6)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
@@ -106,6 +106,7 @@ thereof), see Architectures. -->
   1. **Mopidy** - ([Repo](https://github.com/mopidy/mopidy), [Home](https://www.mopidy.com/)) Extensible music player server with plugin support for a wide range of services. `(server)`
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player/)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(linux, mac)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(linux, windows, mac, qt)`
+  1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(linux, windows, mac)`
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(linux, qt4)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(linux, windows, mac, gtk)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(linux, gtk)`

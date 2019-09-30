@@ -508,6 +508,15 @@ projects:
       - audio
       - linux
       - mac
+  - name: Musikernel
+    repo_url: https://github.com/j3ffhubb/musikernel
+    date_added: 2019-09-29 18:01:00
+    desc: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.
+    tags:
+      - audio
+      - linux
+      - windows
+      - mac
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag
     wp_url: https://en.wikipedia.org/wiki/Puddletag

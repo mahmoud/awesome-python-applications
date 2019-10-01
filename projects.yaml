@@ -2643,6 +2643,15 @@ projects:
       - security
       - server
       - corp
+  - name: GRR Rapid Response
+    repo_url: https://github.com/google/grr
+    docs_url: https://grr-doc.readthedocs.io/en/latest
+    date_added: 2019-10-01 14:50:00
+    desc: Server-agent system focused on remote live forensics for quick, browser-based triage and analysis of attacks on fleets of machines, with agent support for Linux, Windows, and OS X.
+    tags:
+      - security
+      - server
+      - corp
   - name: Hubble
     repo_url: https://github.com/hubblestack/hubble
     docs_url: https://hubblestack.readthedocs.io/en/latest

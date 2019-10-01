@@ -2963,6 +2963,15 @@ projects:
     tags:
       - pkg_repo
       - server
+  - name: distro-tracker
+    repo_url: https://salsa.debian.org/qa/distro-tracker
+    demo_url: https://tracker.debian.org/
+    docs_url: https://qa.pages.debian.net/distro-tracker
+    date_added: 2019-09-30 18:35:00
+    desc: Web application designed to follow the evolution of a Debian-based distribution with email updates and a comprehensive web interface. Powers the [Debian Package Tracker](https://tracker.debian.org/).
+    tags:
+      - pkg_repo
+      - server
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
     docs_url: https://warehouse.pypa.io/

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **327**
+This document is an always-growing list of **328**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(132)*
+1. <a href="#tag-dev">Dev</a> *(133)*
     1. <a href="#tag-dev.scm">SCM</a> *(15)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(9)*
@@ -55,7 +55,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(11)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
-    1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(3)*
+    1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(4)*
     1. <a href="#tag-dev.build">Build</a> *(9)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a> *(24)*
@@ -430,6 +430,7 @@ Projects related to software development and adjacent technical areas.
 
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/). `(server, corp)`
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI. `(server)`
+  1. **distro-tracker** - ([Repo](https://salsa.debian.org/qa/distro-tracker), [Demo](https://tracker.debian.org/), [Docs](https://qa.pages.debian.net/distro-tracker)) Web application designed to follow the evolution of a Debian-based distribution with email updates and a comprehensive web interface. Powers the [Debian Package Tracker](https://tracker.debian.org/). `(server)`
   1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse), [Fund](https://psfmember.org/civicrm/contribute/transact?reset=1&id=13), [Docs](https://warehouse.pypa.io/)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>

@@ -34,21 +34,8 @@ cases. Here are some helpful questions to help classify Python software:
 
 ## Candidates
 
-* https://github.com/thinkle/gourmet
 * https://github.com/GNOME/postr
-* https://launchpad.net/kabikaboo  # been a while since last release
-* https://github.com/ozmartian/vidcutter
-* https://github.com/senaite/senaite.lims / https://github.com/bikalims/bika.lims
-* https://github.com/LinOTP/LinOTP
-* https://github.com/sshuttle/sshuttle
-* https://github.com/Maratyszcza/PeachPy (cli assembler, used by go, etc., https://blog.gopheracademy.com/advent-2016/peachpy/ https://github.com/digitalbrain79/NNPACK-darknet/blob/master/configure.py )
-* https://github.com/push-things/django-th  # good concept, but dev has slowed, looks kind of immature
-* https://github.com/taroved/pol  # always a good concept, unsure about the adoption rate, code is a little bit disorganized
-* https://kibitzr.github.io/
 * https://github.com/vitorfs/bootcamp  # looks a bit unmaintained
-* https://github.com/byro/byro
-* https://salsa.debian.org/ftp-team/dak
-* https://salsa.debian.org/qa/distro-tracker
 * https://salsa.debian.org/debian-keyring/keyring
 * https://github.com/spl0k/supysonic
 * https://github.com/qwj/python-proxy
@@ -143,6 +130,7 @@ cases. Here are some helpful questions to help classify Python software:
 * https://launchpad.net/launchpad  # thought i added this
 * https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
 * https://github.com/GNOME/jhbuild
+* https://github.com/alcarithemad/zfsp
 
 ## Pages to trawl
 

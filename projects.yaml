@@ -2610,6 +2610,16 @@ projects:
       - security
       - server
       - corp
+  - name: Hubble
+    repo_url: https://github.com/hubblestack/hubble
+    docs_url: https://hubblestack.readthedocs.io/en/latest
+    date_added: 2019-10-01 09:58:00
+    desc: Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe.
+    tags:
+      - security
+      - linux
+      - windows
+      - corp
   - name: Infection Monkey
     repo_url: https://github.com/guardicore/monkey
     home_url: https://www.guardicore.com/infectionmonkey

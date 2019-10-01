@@ -23,9 +23,9 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(203)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(186)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(122)*
+1. <a href="#tag-desktop">Desktop</a> *(204)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(187)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(123)*
     1. <a href="#tag-desktop.mac">Mac</a> *(117)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -106,6 +106,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, mac, docker, snap)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, windows, mac)`
   1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/)) Home automation platform that puts local control and privacy first. `(misc)`
+  1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, windows, corp)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, windows, mac)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(organization)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, windows, mac, gtk)`
@@ -276,6 +277,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, mac, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, mac)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, mac)`
+  1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, linux, corp)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, linux, mac)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, linux, mac, gtk)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(organization, linux, mac, homebrew)`

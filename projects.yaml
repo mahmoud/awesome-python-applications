@@ -799,6 +799,16 @@ projects:
 #
 # Games
 #
+  - name: 'Cataclysm: Dark Days Ahead (Launcher)'
+    repo_url: https://github.com/remyroy/CDDA-Game-Launcher
+    home_url: https://cataclysmdda.org/
+    date_added: 2019-09-30 18:57:00
+    desc: Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management.
+    tags:
+      - games
+      - linux
+      - windows
+      - mac
   - name: Frets on Fire X
     repo_url: https://github.com/fofix/fofix
     # see_also: https://github.com/fretsonfire/fof-python

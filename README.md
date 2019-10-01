@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **331**
+This document is an always-growing list of **332**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -37,7 +37,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
-1. <a href="#tag-games">Games</a> *(7)*
+1. <a href="#tag-games">Games</a> *(8)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
 1. <a href="#tag-organization">Organization</a> *(33)*
 1. <a href="#tag-communication">Communication</a> *(33)*
@@ -143,6 +143,7 @@ thereof), see Architectures. -->
 
 ## <a id="tag-games" href="#tag-games">Games</a>
 
+  1. **Cataclysm: Dark Days Ahead (Launcher)** - ([Repo](https://github.com/remyroy/CDDA-Game-Launcher), [Home](https://cataclysmdda.org/)) Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management. `(linux, windows, mac)`
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(linux, windows, pygame)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(linux, windows, qt4)`
   1. **Lutris** - ([Repo](https://github.com/lutris/lutris), [Home](https://lutris.net/), [Fund](https://www.patreon.com/lutris)) Gaming platform for GNU/Linux, managing game installations with a unified interface. `(linux, gtk)`

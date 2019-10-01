@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(200)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(183)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(119)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(114)*
+1. <a href="#tag-desktop">Desktop</a> *(201)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(184)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(120)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(115)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -65,6 +65,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(organization, windows, mac, qt5)`
   1. **Calibre-Web** - ([Repo](https://github.com/janeczku/calibre-web)) Web application providing a clean interface for browsing, reading, and downloading ebooks using an existing [Calibre](https://calibre-ebook.com/) database. `(organization)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(internet, tui)`
+  1. **Cataclysm: Dark Days Ahead (Launcher)** - ([Repo](https://github.com/remyroy/CDDA-Game-Launcher), [Home](https://cataclysmdda.org/)) Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management. `(games, windows, mac)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(science, windows, mac)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(organization, windows, gtk)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, windows, mac)`
@@ -242,6 +243,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(build, linux, mac)`
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(static_site, linux, mac)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(organization, linux, mac, qt5)`
+  1. **Cataclysm: Dark Days Ahead (Launcher)** - ([Repo](https://github.com/remyroy/CDDA-Game-Launcher), [Home](https://cataclysmdda.org/)) Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management. `(games, linux, mac)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(science, linux, mac)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(organization, linux, gtk)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, mac)`
@@ -364,6 +366,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(productivity, linux)`
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(static_site, linux, windows)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(organization, linux, windows, qt5)`
+  1. **Cataclysm: Dark Days Ahead (Launcher)** - ([Repo](https://github.com/remyroy/CDDA-Game-Launcher), [Home](https://cataclysmdda.org/)) Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management. `(games, linux, windows)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(science, linux, windows)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, windows)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, windows, corp)`

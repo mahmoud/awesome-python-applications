@@ -1714,6 +1714,17 @@ projects:
       - science
       - linux
       - windows
+  - name: Artisan
+    repo_url: https://github.com/artisan-roaster-scope/artisan
+    home_url: https://artisan-scope.org/
+    docs_url: https://artisan-scope.org/docs/quick-start-guide
+    date_added: 2019-09-30 18:50:00
+    desc: Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles.
+    tags:
+      - science
+      - linux
+      - windows
+      - mac
   - name: ASCEND
     repo_url: http://code.ascend4.org/ascend/trunk   # svn
     home_url: http://ascend4.org/Main_Page

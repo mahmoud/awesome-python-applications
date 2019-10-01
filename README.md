@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **329**
+This document is an always-growing list of **330**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(33)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(6)*
-1. <a href="#tag-science">Science</a> *(15)*
+1. <a href="#tag-science">Science</a> *(16)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
@@ -256,6 +256,7 @@ thereof), see Architectures. -->
 ## <a id="tag-science" href="#tag-science">Science</a>
 
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(linux, windows)`
+  1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(linux, windows, mac)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(linux, windows, mac, gtk)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(linux, windows, mac)`
   1. **CKAN** - ([Repo](https://github.com/ckan/ckan), [Home](https://ckan.org/)) Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites. `(server, flask)`

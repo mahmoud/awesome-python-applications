@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(199)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(182)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(118)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(113)*
+1. <a href="#tag-desktop">Desktop</a> *(200)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(183)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(119)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(114)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -48,6 +48,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, mac, corp)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, windows)`
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, windows, docker)`
+  1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(science, windows, mac)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, windows, mac, gtk)`
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, mac)`
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [PyPI](https://pypi.org/project/autokey)) Desktop automation utility for Linux and X11. `(productivity, gtk, qt)`
@@ -232,6 +233,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, mac, qt5)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, linux)`
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, docker)`
+  1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(science, linux, mac)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, mac, gtk)`
   1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(organization, linux, mac)`
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(audio, linux, mac)`
@@ -352,6 +354,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, windows, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, linux, corp)`
+  1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(science, linux, windows)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(science, linux, windows, gtk)`
   1. **asciinema** - ([Repo](https://github.com/asciinema/asciinema), [Home](https://asciinema.org/)) Terminal session recorder and replayer. `(dev, linux)`
   1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(organization, linux, windows)`

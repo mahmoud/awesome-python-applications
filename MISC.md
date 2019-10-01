@@ -37,16 +37,11 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/GNOME/postr
 * https://github.com/vitorfs/bootcamp  # looks a bit unmaintained
 * https://salsa.debian.org/debian-keyring/keyring
-* https://github.com/spl0k/supysonic
 * https://github.com/qwj/python-proxy
 * https://github.com/airspeed-velocity/asv
-* https://github.com/artisan-roaster-scope/artisan
-* https://github.com/guardicore/monkey
-* https://github.com/remyroy/CDDA-Game-Launcher
 * https://github.com/EmpireProject/Empire (maybe, has a lot of powershell)
 * https://github.com/lbryio/lbry-sdk
 * https://github.com/golemfactory/golem
-* https://github.com/cs01/gdbgui
 * https://github.com/pyfa-org/Pyfa
 * https://github.com/hubblestack/hubble
 * https://github.com/jendrikseipp/rednotebook

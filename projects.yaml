@@ -690,6 +690,13 @@ projects:
       - mac
       - flatpak
       - gtk
+  - name: Lector
+    repo_url: https://github.com/BasioMeusPuga/Lector
+    date_added: 2019-10-01 14:41:00
+    desc: Desktop ebook reader and browser, with support for many formats, including comic book archives.
+    tags:
+      - graphics
+      - linux
   - name: MakeHuman
     repo_url: https://bitbucket.org/MakeHuman/makehuman
     wp_url: https://en.wikipedia.org/wiki/MakeHuman

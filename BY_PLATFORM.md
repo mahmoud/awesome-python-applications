@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(207)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(190)*
+1. <a href="#tag-desktop">Desktop</a> *(208)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(191)*
     1. <a href="#tag-desktop.windows">Windows</a> *(124)*
     1. <a href="#tag-desktop.mac">Mac</a> *(118)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -115,6 +115,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application. `(security, windows, server)`
   1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform. `(editor, windows, mac, cpp, js)`
   1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(organization, mac)`
+  1. **Lector** - ([Repo](https://github.com/BasioMeusPuga/Lector)) Desktop ebook reader and browser, with support for many formats, including comic book archives. `(graphics)`
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(static_site, windows, mac)`
   1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing. `(editor, windows, mac, qt5)`
   1. **Lucas Chess** - ([Repo](https://github.com/lukasmonk/lucaschess), [Home](http://lucaschess.pythonanywhere.com/)) Featureful chess client for Windows, with some Linux support. `(games, windows, qt4)`

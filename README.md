@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **338**
+This document is an always-growing list of **339**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -36,7 +36,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(30)*
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
-1. <a href="#tag-graphics">Graphics</a> *(16)*
+1. <a href="#tag-graphics">Graphics</a> *(17)*
 1. <a href="#tag-games">Games</a> *(9)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
 1. <a href="#tag-organization">Organization</a> *(34)*
@@ -130,6 +130,7 @@ thereof), see Architectures. -->
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(console, docker, hardware)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD), [Fund](https://salt.bountysource.com/teams/freecad)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(docs, linux, windows, mac, flatpak, gtk)`
+  1. **Lector** - ([Repo](https://github.com/BasioMeusPuga/Lector)) Desktop ebook reader and browser, with support for many formats, including comic book archives. `(linux)`
   1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids. `(linux, windows, mac, qt)`
   1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models. `(linux, windows, mac, qt)`
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(internet, linux)`

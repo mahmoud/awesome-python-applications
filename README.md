@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **328**
+This document is an always-growing list of **329**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(29)*
-1. <a href="#tag-audio">Audio</a> *(15)*
+1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(7)*
@@ -112,6 +112,7 @@ thereof), see Architectures. -->
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(linux, windows, mac, gtk)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(linux, gtk)`
   1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis). `(linux, windows, mac)`
+  1. **Supysonic** - ([Repo](https://github.com/spl0k/supysonic)) Implementation of the [Subsonic server API](http://www.subsonic.org/), with support for browsing, streaming, transcoding, scrobbling, and more. `(server)`
 
 ## <a id="tag-video" href="#tag-video">Video</a>
 

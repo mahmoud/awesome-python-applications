@@ -565,6 +565,13 @@ projects:
       - linux
       - windows
       - mac
+  - name: Supysonic
+    repo_url: https://github.com/spl0k/supysonic
+    date_added: 2019-09-30 18:41:00
+    desc: Implementation of the [Subsonic server API](http://www.subsonic.org/), with support for browsing, streaming, transcoding, scrobbling, and more.
+    tags:
+      - audio
+      - server
 #
 # Video
 #

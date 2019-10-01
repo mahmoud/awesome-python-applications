@@ -42,11 +42,6 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/EmpireProject/Empire (maybe, has a lot of powershell)
 * https://github.com/lbryio/lbry-sdk
 * https://github.com/golemfactory/golem
-* https://github.com/pyfa-org/Pyfa
-* https://github.com/hubblestack/hubble
-* https://github.com/jendrikseipp/rednotebook
-* https://github.com/mstuttgart/pynocchio
-* https://github.com/google/grr
 * https://github.com/zenhack/simp_le
 * https://github.com/thombashi/sqlitebiter
 * https://github.com/malwaredllc/byob

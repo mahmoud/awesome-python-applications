@@ -2590,6 +2590,16 @@ projects:
     tags:
       - security
       - server
+      - corp
+  - name: Infection Monkey
+    repo_url: https://github.com/guardicore/monkey
+    home_url: https://www.guardicore.com/infectionmonkey
+    docs_url: https://github.com/guardicore/monkey/wiki
+    date_added: 2019-09-30 18:53:00
+    desc: Web-based tool for testing a datacenter's resiliency to perimeter breaches and internal server infection.
+    tags:
+      - security
+      - server
   - name: King Phisher
     repo_url: https://github.com/securestate/king-phisher
     docs_url: https://king-phisher.readthedocs.io/

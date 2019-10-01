@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(202)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(185)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(121)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(116)*
+1. <a href="#tag-desktop">Desktop</a> *(203)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(186)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(122)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(117)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -178,6 +178,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, docker, server)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(science, gtk)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(games, windows, gtk)`
+  1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, windows, mac)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, windows, mac)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, windows)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(games, windows, android, kivy, tk)`
@@ -319,6 +320,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **PPCI** - ([Repo](https://bitbucket.org/windel/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others). `(dev, linux, mac)`
   1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, mac)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(games, linux, gtk)`
+  1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, linux, mac)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, mac)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, linux)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(games, linux, android, kivy, tk)`
@@ -443,6 +445,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, windows)`
   1. **PPCI** - ([Repo](https://bitbucket.org/windel/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others). `(dev, linux, windows)`
   1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, windows)`
+  1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, linux, windows)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, linux, windows, qt5)`

@@ -209,6 +209,14 @@ projects:
     tags:
       - internet
       - server
+  - name: Mylar
+    repo_url: https://github.com/evilhero/mylar
+    date_added: 2019-10-01 14:39:00
+    desc: A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents.
+    tags:
+      - internet
+      - graphics
+      - linux
   - name: Neubot
     repo_url: https://github.com/neubot/neubot
     home_url: http://www.neubot.org/

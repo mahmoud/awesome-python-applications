@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **335**
+This document is an always-growing list of **336**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(14)*
 1. <a href="#tag-games">Games</a> *(9)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
-1. <a href="#tag-organization">Organization</a> *(33)*
+1. <a href="#tag-organization">Organization</a> *(34)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(16)*
@@ -203,6 +203,7 @@ thereof), see Architectures. -->
   1. **Pretalx** - ([Repo](https://github.com/pretalx/pretalx), [Home](https://pretalx.com/p/about), [Fund](https://www.patreon.com/rixx)) Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management. `(communication, server)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
+  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(linux, windows, mac)`
   1. **Senaite** - ([Repo](https://github.com/senaite/senaite.lims), [Home](https://www.senaite.com/)) Web-based, mobile-first laboratory information management system (LIMS). `(server)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(linux, windows)`
   1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes. `(dev, server, django)`

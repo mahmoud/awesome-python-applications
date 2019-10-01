@@ -1316,6 +1316,16 @@ projects:
     tags:                             # communication?
       - organization
       - server
+  - name: RedNotebook
+    repo_url: https://github.com/jendrikseipp/rednotebook
+    home_url: https://rednotebook.sourceforge.io/downloads.html
+    date_added: 2019-10-01 10:04:00
+    desc: Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF.
+    tags:
+      - organization
+      - linux
+      - windows
+      - mac
   - name: Senaite
     repo_url: https://github.com/senaite/senaite.lims
     home_url: https://www.senaite.com/

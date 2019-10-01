@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(204)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(187)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(123)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(117)*
+1. <a href="#tag-desktop">Desktop</a> *(205)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(188)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(124)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(118)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -190,6 +190,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(scm)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(productivity, tui)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(dev, gtk)`
+  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(organization, windows, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, windows, mac, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, windows, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, windows, mac)`
@@ -328,6 +329,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(games, linux, android, kivy, tk)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, mac, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, linux, mac, qt5)`
+  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(organization, linux, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, mac, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, linux, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, linux, mac)`
@@ -451,6 +453,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, linux, windows, qt5)`
+  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(organization, linux, windows)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, windows, console)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, linux, windows, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, linux, windows)`

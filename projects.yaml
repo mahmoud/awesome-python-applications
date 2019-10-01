@@ -763,6 +763,14 @@ projects:
     tags:
       - graphics
       - server
+  - name: Pynocchio
+    repo_url: https://github.com/mstuttgart/pynocchio
+    home_url: https://mstuttgart.github.io/pynocchio
+    date_added: 2019-10-01 14:33:00
+    desc: Minimalist comic reader, supporting many common image and archive formats.
+    tags:
+      - graphics
+      - linux
   - name: Quru Image Server
     repo_url: https://github.com/quru/qis
     home_url: https://www.quruimageserver.com/

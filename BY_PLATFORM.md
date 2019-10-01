@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(205)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(188)*
+1. <a href="#tag-desktop">Desktop</a> *(206)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(189)*
     1. <a href="#tag-desktop.windows">Windows</a> *(124)*
     1. <a href="#tag-desktop.mac">Mac</a> *(118)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -182,6 +182,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, windows, mac)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, windows, mac)`
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(organization, windows)`
+  1. **Pynocchio** - ([Repo](https://github.com/mstuttgart/pynocchio), [Home](https://mstuttgart.github.io/pynocchio)) Minimalist comic reader, supporting many common image and archive formats. `(graphics)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(games, windows, android, kivy, tk)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(video, static_site, server)`
   1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) A small, flexible, scriptable tiling window manager. `(misc)`

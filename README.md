@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **336**
+This document is an always-growing list of **337**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -36,7 +36,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(29)*
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
-1. <a href="#tag-graphics">Graphics</a> *(14)*
+1. <a href="#tag-graphics">Graphics</a> *(15)*
 1. <a href="#tag-games">Games</a> *(9)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
 1. <a href="#tag-organization">Organization</a> *(34)*
@@ -137,6 +137,7 @@ thereof), see Architectures. -->
   1. **Octoprint** - ([Repo](https://github.com/foosel/OctoPrint), [Home](https://octoprint.org/), [Fund](https://www.patreon.com/foosel)) Web-based controller for consumer 3D printers. `(server, flask, hardware)`
   1. **PhotoCollage** - ([Repo](https://github.com/adrienverge/PhotoCollage)) Automatically lays out a photo collage to fill out a given poster space. `(linux, gtk)`
   1. **Photonix** - ([Repo](https://github.com/damianmoore/photonix), [Home](https://photonix.org/), [Demo](https://demo.photonix.org/)) Web-based photo management, featuring smart filtering with object recognition, location awareness, color analysis, and more. `(server)`
+  1. **Pynocchio** - ([Repo](https://github.com/mstuttgart/pynocchio), [Home](https://mstuttgart.github.io/pynocchio)) Minimalist comic reader, supporting many common image and archive formats. `(linux)`
   1. **Quru Image Server** - ([Repo](https://github.com/quru/qis), [Home](https://www.quruimageserver.com/), [Demo](https://images.quru.com/demo), [Docs](https://github.com/quru/qis/blob/master/doc/overview.md)) High-performance web server for creating and delivering dynamic images. `(server)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(linux, windows, mac, gtk, wx)`
   1. **Thumbor** - ([Repo](https://github.com/thumbor/thumbor), [Home](http://thumbor.org/), [Docs](https://thumbor.readthedocs.io/)) Photo thumbnail service with resizing, flipping, and smart cropping of images. `(dev, server)`

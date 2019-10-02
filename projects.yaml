@@ -2634,6 +2634,15 @@ projects:
 #
 # Security
 #
+  - name: BYOB (Build Your Own Botnet)
+    repo_url: https://github.com/malwaredllc/byob
+    date_added: 2019-10-01 17:51:00
+    desc: Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets.
+    tags:
+      - security
+      - linux
+      - windows
+      - mac
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/

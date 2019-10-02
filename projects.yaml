@@ -2417,6 +2417,17 @@ projects:
 #
 # Storage
 #
+  - name: B2
+    repo_url: https://github.com/Backblaze/B2_Command_Line_Tool
+    pypi_url: https://pypi.python.org/pypi/b2
+    date_added: 2019-10-01 21:44:00
+    desc: Command-line tool that gives easy access to all of the capabilities of Backblaze's [B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html).
+    tags:
+      - storage
+      - linux
+      - windows
+      - mac
+      - corp
   - name: Barman
     repo_url: https://github.com/2ndquadrant-it/barman
     date_added: 2018-11-30 23:53:00

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **355**
+This document is an always-growing list of **356**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,10 +46,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(147)*
+1. <a href="#tag-dev">Dev</a> *(148)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(12)*
+    1. <a href="#tag-dev.storage">Storage</a> *(13)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
@@ -352,6 +352,7 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.storage" href="#tag-dev.storage">Storage</a>
 
+  1. **B2** - ([Repo](https://github.com/Backblaze/B2_Command_Line_Tool), [PyPI](https://pypi.python.org/pypi/b2)) Command-line tool that gives easy access to all of the capabilities of Backblaze's [B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html). `(linux, windows, mac, corp)`
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
   1. **Datasette** - ([Repo](https://github.com/simonw/datasette), [PyPI](https://pypi.org/project/datasette), [Docs](https://datasette.readthedocs.io/en/latest)) A tool for exploring and publishing data, backed by SQLite. `(server)`
   1. **EdgeDB** - ([Repo](https://github.com/edgedb/edgedb), [Home](https://edgedb.com/), [Docs](https://edgedb.com/docs)) High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support. `(server)`

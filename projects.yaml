@@ -978,6 +978,16 @@ projects:
       - windows
       - mac
       - qt5
+  - name: Gridsync
+    repo_url: https://github.com/gridsync/gridsync
+    date_added: 2019-10-01 20:33:00
+    desc: Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids.
+    tags:
+      - productivity
+      - storage
+      - linux
+      - windows
+      - mac
   - name: Kibitzr
     repo_url: https://github.com/kibitzr/kibitzr
     home_url: https://kibitzr.github.io/
@@ -1634,14 +1644,6 @@ projects:
     docs_url: http://readthedocs.org/docs/rapidsms
     date_added: 2018-11-24 02:37:00
     desc: Interactive SMS text messaging platform.
-    tags:
-      - communication
-      - server
-  - name: Seafile
-    repo_url: https://github.com/haiwen/seahub
-    wp_url: https://en.wikipedia.org/wiki/Seafile
-    date_added: 2018-11-26 01:59:00
-    desc: Cross-platform file hosting and synchronization system.
     tags:
       - communication
       - server
@@ -2428,6 +2430,14 @@ projects:
       - storage
       - linux
       - mac
+  - name: Seafile
+    repo_url: https://github.com/haiwen/seahub
+    wp_url: https://en.wikipedia.org/wiki/Seafile
+    date_added: 2018-11-26 01:59:00
+    desc: Cross-platform file hosting and synchronization system.
+    tags:
+      - storage
+      - server
   - name: sqlmap
     repo_url: https://github.com/sqlmapproject/sqlmap
     home_url: http://sqlmap.org/

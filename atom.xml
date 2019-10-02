@@ -5,13 +5,37 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-10-02T03:18:57Z</updated>
+  <updated>2019-10-02T03:33:14Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/gridsync/gridsync</id>
+    <title>Gridsync</title>
+    <link rel="alternate" type="text/html" href="https://github.com/gridsync/gridsync" />
+    <published>2019-10-01T20:33:00Z</published>
+    <updated>2019-10-01T20:33:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/gridsync/gridsync">Gridsync</a></strong>: Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/gridsync/gridsync'>Repo</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/arsenetar/dupeguru</id>
@@ -5322,31 +5346,6 @@
   </entry>
   
   <entry>
-    <id>https://github.com/haiwen/seahub</id>
-    <title>Seafile</title>
-    <link rel="alternate" type="text/html" href="https://github.com/haiwen/seahub" />
-    <published>2018-11-26T01:59:00Z</published>
-    <updated>2018-11-26T01:59:00Z</updated>
-    <category term="audio"/><category term="audio"/>
-
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/haiwen/seahub">Seafile</a></strong>: Cross-platform file hosting and synchronization system.</p>
-      <p>Links:</p>
-      <ul>
-        <li><a href='https://github.com/haiwen/seahub'>Repo</a></li>
-        <li><a href='https://en.wikipedia.org/wiki/Seafile'>WP</a></li>
-        
-      </ul>
-      </div>
-    </content>
-    <author>
-      <name>Awesome Python Applications contributors</name>
-      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
-    </author>
-  </entry>
-  
-  <entry>
     <id>https://github.com/translate/virtaal</id>
     <title>Virtaal</title>
     <link rel="alternate" type="text/html" href="https://github.com/translate/virtaal" />
@@ -5874,6 +5873,31 @@
         <li><a href='https://github.com/rietveld-codereview/rietveld'>Repo</a></li>
         <li><a href='https://codereview.appspot.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Rietveld_%28software%29'>WP</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/haiwen/seahub</id>
+    <title>Seafile</title>
+    <link rel="alternate" type="text/html" href="https://github.com/haiwen/seahub" />
+    <published>2018-11-26T01:59:00Z</published>
+    <updated>2018-11-26T01:59:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/haiwen/seahub">Seafile</a></strong>: Cross-platform file hosting and synchronization system.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/haiwen/seahub'>Repo</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Seafile'>WP</a></li>
         
       </ul>
       </div>

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(213)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(196)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(128)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(122)*
+1. <a href="#tag-desktop">Desktop</a> *(214)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(197)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(129)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(123)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -104,6 +104,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, windows, mac, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, windows, mac, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, windows, mac, gtk)`
+  1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, windows, mac)`
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(misc, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, windows, mac)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, mac, docker, snap)`
@@ -287,6 +288,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, linux, mac, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, mac, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, mac, gtk)`
+  1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, linux, mac)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, mac)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, mac)`
   1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, linux, corp)`
@@ -414,6 +416,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, linux, windows, gtk)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, windows, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, windows, gtk)`
+  1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, linux, windows)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, windows)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, docker, snap)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, windows)`
@@ -670,7 +673,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, linux, windows, mac)`
   1. **Saleor** - ([Repo](https://github.com/mirumee/saleor), [Home](https://getsaleor.com/)) Modular, high-performance e-commerce storefront built with Django, GraphQL, and ReactJS. `(cms, django)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(ops, corp)`
-  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(communication)`
+  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(storage)`
   1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(internet, security, flask)`
   1. **SecureDrop** - ([Repo](https://github.com/freedomofpress/securedrop), [Home](https://securedrop.org/), [Docs](https://docs.securedrop.org/)) Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation). `(communication, flask)`
   1. **Senaite** - ([Repo](https://github.com/senaite/senaite.lims), [Home](https://www.senaite.com/)) Web-based, mobile-first laboratory information management system (LIMS). `(organization)`

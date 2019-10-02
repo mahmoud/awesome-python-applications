@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **346**
+This document is an always-growing list of **347**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,18 +38,18 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(17)*
 1. <a href="#tag-games">Games</a> *(9)*
-1. <a href="#tag-productivity">Productivity</a> *(18)*
+1. <a href="#tag-productivity">Productivity</a> *(19)*
 1. <a href="#tag-organization">Organization</a> *(35)*
-1. <a href="#tag-communication">Communication</a> *(33)*
+1. <a href="#tag-communication">Communication</a> *(32)*
 1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(19)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(139)*
+1. <a href="#tag-dev">Dev</a> *(141)*
     1. <a href="#tag-dev.scm">SCM</a> *(15)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(9)*
+    1. <a href="#tag-dev.storage">Storage</a> *(11)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
@@ -166,6 +166,7 @@ thereof), see Architectures. -->
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur), [Home](https://www.tryexcalibur.com/)) Web interface to extract tabular data from PDFs. `(linux, windows)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(ops, linux, windows, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(linux, windows, mac, qt5)`
+  1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(storage, linux, windows, mac)`
   1. **Kibitzr** - ([Repo](https://github.com/kibitzr/kibitzr), [Home](https://kibitzr.github.io/), [PyPI](https://pypi.org/project/kibitzr), [Docs](https://kibitzr.readthedocs.io/)) Self-hosted personal assistant server for automating routine tasks. `(server)`
   1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(linux, mac)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`
@@ -244,7 +245,6 @@ thereof), see Architectures. -->
   1. **Pretalx** - ([Repo](https://github.com/pretalx/pretalx), [Home](https://pretalx.com/p/about), [Fund](https://www.patreon.com/rixx)) Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management. `(organization, server)`
   1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification. `(server)`
   1. **RapidSMS** - ([Repo](https://github.com/rapidsms/rapidsms), [Home](http://rapidsms.org/), [Docs](http://readthedocs.org/docs/rapidsms)) Interactive SMS text messaging platform. `(server)`
-  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
   1. **SecureDrop** - ([Repo](https://github.com/freedomofpress/securedrop), [Home](https://securedrop.org/), [Docs](https://docs.securedrop.org/)) Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation). `(server, flask)`
   1. **Socialhome** - ([Repo](https://git.feneas.org/socialhome/socialhome), [Home](https://socialhome.network/), [gh](https://github.com/jaywink/socialhome), [Docs](https://socialhome.readthedocs.io/en/latest)) Web application enabling users to build a federated personal profile with social networking functionality. `(server)`
   1. **Synapse** - ([Repo](https://github.com/matrix-org/synapse), [Home](https://riot.im/app#/home), [Fund](https://www.patreon.com/matrixdotorg/overview)) Reference server for the [matrix.org](https://matrix.org) distributed chat protocol. Used daily by tens of thousands at [riot.im](https://riot.im/app/). `(server)`
@@ -352,8 +352,10 @@ Projects related to software development and adjacent technical areas.
   1. **Datasette** - ([Repo](https://github.com/simonw/datasette), [PyPI](https://pypi.org/project/datasette), [Docs](https://datasette.readthedocs.io/en/latest)) A tool for exploring and publishing data, backed by SQLite. `(server)`
   1. **EdgeDB** - ([Repo](https://github.com/edgedb/edgedb), [Home](https://edgedb.com/), [Docs](https://edgedb.com/docs)) High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support. `(server)`
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(server)`
+  1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, linux, windows, mac)`
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends. `(server)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
+  1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(security, console)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(linux, windows, mac)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(linux)`

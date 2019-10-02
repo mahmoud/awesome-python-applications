@@ -1860,6 +1860,17 @@ projects:
       - windows
       - mac
       - qt4
+  - name: Mosaic
+    repo_url: https://github.com/usnistgov/mosaic
+    home_url: https://pages.nist.gov/mosaic
+    docs_url: https://pages.nist.gov/mosaic/html/index.html
+    date_added: 2019-10-01 18:32:00
+    desc: Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data.
+    tags:
+      - science
+      - linux
+      - windows
+      - mac
   - name: OPEM
     repo_url: https://github.com/ECSIM/opem
     docs_url: https://www.ecsim.ir/opem/doc

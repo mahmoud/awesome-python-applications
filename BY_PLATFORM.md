@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(209)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(192)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(125)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(119)*
+1. <a href="#tag-desktop">Desktop</a> *(210)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(193)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(126)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(120)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -135,6 +135,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(productivity, windows, mac, wx)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(security, windows, mac)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, windows, mac, qt5)`
+  1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(science, windows, mac)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, windows, mac, qt5)`
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, mac)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, windows, mac, qt)`
@@ -303,6 +304,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(productivity, linux, mac, wx)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(security, linux, mac)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, linux, mac, qt5)`
+  1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(science, linux, mac)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, linux, mac, qt5)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, linux, mac, qt)`
   1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, linux, mac)`
@@ -428,6 +430,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(productivity, linux, windows, wx)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(security, linux, windows)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, linux, windows, qt5)`
+  1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(science, linux, windows)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, linux, windows, qt5)`
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, linux)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, linux, windows, qt)`

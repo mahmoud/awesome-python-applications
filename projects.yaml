@@ -1175,6 +1175,17 @@ projects:
       - linux
       - windows
       - mac
+  - name: dupeGuru
+    repo_url: https://github.com/arsenetar/dupeguru
+    home_url: https://dupeguru.voltaicideas.net/
+    docs_url: https://dupeguru.voltaicideas.net/help/en
+    date_added: 2019-10-01 20:18:00
+    desc: Cross-platform GUI tool to find duplicate files.
+    tags:
+      - organization
+      - linux
+      - windows
+      - mac
   - name: dvc (Data Version Control)
     repo_url: https://github.com/iterative/dvc
     home_url: https://dvc.org/

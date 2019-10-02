@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(212)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(195)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(127)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(121)*
+1. <a href="#tag-desktop">Desktop</a> *(213)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(196)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(128)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(122)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -77,6 +77,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives. `(communication)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, windows, mac, server, gtk)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(pkg_mgr, corp)`
+  1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, windows, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, windows, mac)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, windows, mac)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, windows, mac, qt5)`
@@ -263,6 +264,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, mac, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, linux, mac)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, mac, server, gtk)`
+  1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, linux, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, mac)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, linux, mac)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, linux, mac, qt5)`
@@ -392,6 +394,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, windows, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, linux, windows)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, windows, server, gtk)`
+  1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, linux, windows)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, windows)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, linux, windows)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, linux, windows, qt5)`

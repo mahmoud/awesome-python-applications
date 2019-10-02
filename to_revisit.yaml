@@ -64,3 +64,6 @@ projects:
   - name: PyLucid
     repo_url: https://github.com/jedie/PyLucid
     reason: Not sure if application enough. Says itself it's more of a distribution of django cms. Also, 1 contributor.
+  - name: pydoro
+    repo_url: https://github.com/JaDogg/pydoro
+    reason: good concept, but import error when I tried it.

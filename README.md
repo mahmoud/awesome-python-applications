@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **345**
+This document is an always-growing list of **346**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(17)*
 1. <a href="#tag-games">Games</a> *(9)*
 1. <a href="#tag-productivity">Productivity</a> *(18)*
-1. <a href="#tag-organization">Organization</a> *(34)*
+1. <a href="#tag-organization">Organization</a> *(35)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(6)*
 1. <a href="#tag-science">Science</a> *(19)*
@@ -191,6 +191,7 @@ thereof), see Architectures. -->
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(linux, windows, gtk)`
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts. `(communication, server)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(linux, windows, mac)`
+  1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(linux, windows, mac)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(scm, linux, windows, mac)`
   1. **fava** - ([Repo](https://github.com/beancount/fava), [Demo](https://fava.pythonanywhere.com/huge-example-file/income_statement), [Docs](https://beancount.github.io/fava)) Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability. `(linux, windows, mac)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(linux, windows, mac, gtk)`

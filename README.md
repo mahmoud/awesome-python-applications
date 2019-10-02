@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **354**
+This document is an always-growing list of **355**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(146)*
+1. <a href="#tag-dev">Dev</a> *(147)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(12)*
@@ -56,7 +56,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(4)*
-    1. <a href="#tag-dev.build">Build</a> *(10)*
+    1. <a href="#tag-dev.build">Build</a> *(11)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a> *(25)*
 1. <a href="#tag-misc">Misc</a> *(11)*
@@ -470,6 +470,7 @@ Projects related to software development and adjacent technical areas.
   1. **PlatformIO Core** - ([Repo](https://github.com/platformio/platformio-core), [Home](https://platformio.org/), [Fund](https://platformio.org/donate?utm_source=github&utm_medium=core), [PyPI](https://pypi.org/project/platformio), [Docs](https://docs.platformio.org/en/latest?utm_source=github&utm_medium=core)) Multiplatform CLI build system and library manager for IoT development. `(linux, windows, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(linux, windows, mac, console)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(linux, windows, mac)`
+  1. **Snapcraft** - ([Repo](https://github.com/snapcore/snapcraft), [Home](https://snapcraft.io/), [Docs](https://snapcraft.io/docs)) A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical. `(linux)`
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(linux)`
 
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>

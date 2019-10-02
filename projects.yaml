@@ -3306,6 +3306,15 @@ projects:
       - linux
       - windows
       - mac
+  - name: Snapcraft
+    repo_url: https://github.com/snapcore/snapcraft
+    home_url: https://snapcraft.io/
+    docs_url: https://snapcraft.io/docs
+    date_added: 2019-10-01 21:40:00
+    desc: A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical.
+    tags:
+      - build
+      - linux
   - name: Waf
     repo_url: https://gitlab.com/ita1024/waf
     home_url: https://waf.io/

@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(219)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(202)*
+1. <a href="#tag-desktop">Desktop</a> *(220)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(203)*
     1. <a href="#tag-desktop.windows">Windows</a> *(131)*
     1. <a href="#tag-desktop.mac">Mac</a> *(126)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
@@ -211,6 +211,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **ScratchABit** - ([Repo](https://github.com/pfalcon/ScratchABit)) Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API. `(dev, tui)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(organization, windows)`
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(graphics, windows, mac, gtk, wx)`
+  1. **Snapcraft** - ([Repo](https://github.com/snapcore/snapcraft), [Home](https://snapcraft.io/), [Docs](https://snapcraft.io/docs)) A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical. `(build)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(science, windows, mac, wx)`
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(pkg_mgr, corp)`
   1. **SoundConverter** - ([Repo](https://github.com/kassoulet/soundconverter), [WP](https://en.wikipedia.org/wiki/GNOME_SoundConverter)) A GNOME-based audio file transcoder. `(audio, gtk)`

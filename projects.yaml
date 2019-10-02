@@ -2628,6 +2628,17 @@ projects:
       - ops
       - server
       - corp
+  - name: Nagstamon
+    repo_url: https://github.com/HenriWahl/Nagstamon
+    home_url: https://nagstamon.ifw-dresden.de/
+    docs_url: https://nagstamon.ifw-dresden.de/docs
+    date_added: 2019-10-01 21:51:00
+    desc: Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more.
+    tags:
+      - ops
+      - linux
+      - windows
+      - mac
   - name: NColony
     repo_url: https://github.com/ncolony/ncolony
     home_url: http://ncolony.org/en/latest

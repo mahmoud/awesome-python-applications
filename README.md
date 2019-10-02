@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **357**
+This document is an always-growing list of **358**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,11 +46,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(149)*
+1. <a href="#tag-dev">Dev</a> *(150)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(13)*
-    1. <a href="#tag-dev.ops">Ops</a> *(24)*
+    1. <a href="#tag-dev.ops">Ops</a> *(25)*
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
@@ -379,6 +379,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)). `(server)`
   1. **Healthchecks** - ([Repo](https://github.com/healthchecks/healthchecks), [Home](https://healthchecks.io/), [Docs](https://healthchecks.io/docs)) Web-based monitor for scheduled jobs (e.g., cron). `(server, corp)`
   1. **Iris** - ([Repo](https://github.com/linkedin/iris), [Home](https://iris.claims/)) Flexible automated incident paging system, developed by and used at LinkedIn. `(server, corp)`
+  1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more. `(linux, windows, mac)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(linux, mac, server)`
   1. **netbox** - ([Repo](https://github.com/netbox-community/netbox), [Docs](https://netbox.readthedocs.io/en/stable)) IP address management (IPAM) and data center infrastructure management (DCIM) tool, conceived at Digital Ocean. `(server, django)`
   1. **nsupdate.info** - ([Repo](https://github.com/nsupdate-info/nsupdate.info), [PyPI](https://pypi.org/project/nsupdate), [Docs](https://nsupdateinfo.readthedocs.io/en/latest)) Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers. `(internet, server)`

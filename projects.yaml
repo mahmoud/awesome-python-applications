@@ -3252,6 +3252,19 @@ projects:
       - linux
       - mac
       - corp
+  - name: PlatformIO Core
+    repo_url: https://github.com/platformio/platformio-core
+    home_url: https://platformio.org/
+    docs_url: https://docs.platformio.org/en/latest?utm_source=github&utm_medium=core
+    fund_url: https://platformio.org/donate?utm_source=github&utm_medium=core
+    pypi_url: https://pypi.org/project/platformio
+    date_added: 2019-10-01 21:22:00
+    desc: Multiplatform CLI build system and library manager for IoT development.
+    tags:
+      - build
+      - linux
+      - windows
+      - mac
   - name: redo
     repo_url: https://github.com/apenwarr/redo
     docs_url: https://redo.readthedocs.io/en/latest

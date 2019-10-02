@@ -2643,6 +2643,14 @@ projects:
       - linux
       - windows
       - mac
+  - name: CAPE
+    repo_url: https://github.com/ctxis/CAPE
+    demo_url: https://cape.contextis.com/submit
+    date_added: 2019-10-01 18:01:00
+    desc: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.
+    tags:
+      - security
+      - server
   - name: Cowrie
     repo_url: https://github.com/cowrie/cowrie
     home_url: http://www.cowrie.org/

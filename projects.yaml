@@ -731,6 +731,16 @@ projects:
       - windows
       - mac
       - gtk
+  - name: NFO Viewer
+    repo_url: https://github.com/otsaloma/nfoview
+    home_url: https://otsaloma.io/nfoview
+    date_added: 2019-10-01 21:58:00
+    desc: A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks.
+    tags:
+      - graphics
+      - misc
+      - linux
+      - windows
   - name: OCRFeeder
     repo_url: https://gitlab.gnome.org/GNOME/ocrfeeder
     wp_url: https://en.wikipedia.org/wiki/OCRFeeder

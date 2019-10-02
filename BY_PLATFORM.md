@@ -23,9 +23,9 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(223)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(206)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(134)*
+1. <a href="#tag-desktop">Desktop</a> *(224)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(207)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(135)*
     1. <a href="#tag-desktop.mac">Mac</a> *(129)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -151,6 +151,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more. `(ops, windows, mac)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(ops, mac, server)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(internet, windows, mac)`
+  1. **NFO Viewer** - ([Repo](https://github.com/otsaloma/nfoview), [Home](https://otsaloma.io/nfoview)) A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks. `(graphics, misc, windows)`
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(misc, windows, gtk)`
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com/), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(static_site, windows, mac)`
   1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus), [Home](http://www.nimbusproject.org/)) Infrastructure-as-a-Service platform geared toward scientific cloud computing. `(misc)`
@@ -330,6 +331,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, linux, mac, gtk)`
   1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more. `(ops, linux, mac)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(internet, linux, mac)`
+  1. **NFO Viewer** - ([Repo](https://github.com/otsaloma/nfoview), [Home](https://otsaloma.io/nfoview)) A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks. `(graphics, misc, linux)`
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(misc, linux, gtk)`
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com/), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(static_site, linux, mac)`
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(editor, linux, mac, qt5)`

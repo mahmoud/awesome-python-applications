@@ -3403,6 +3403,18 @@ projects:
     tags:
       - dev
       - console
+  - name: Cython
+    repo_url: https://github.com/cython/cython
+    home_url: https://cython.org/
+    docs_url: http://docs.cython.org/
+    pypi_url: https://pypi.org/project/cython
+    date_added: 2019-10-01 21:48:00
+    desc: Language and compiler designed for high-performance Python and C interoperability.
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: gdbgui
     repo_url: https://github.com/cs01/gdbgui
     home_url: https://gdbgui.com/

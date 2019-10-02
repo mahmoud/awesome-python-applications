@@ -3582,7 +3582,7 @@ projects:
       - dev
       - server
       - corp
-      - flask
+      - django
   - name: Socorro
     repo_url: https://github.com/mozilla-services/socorro
     docs_url: https://wiki.mozilla.org/Socorro

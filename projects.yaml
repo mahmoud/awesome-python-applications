@@ -3043,7 +3043,6 @@ projects:
     tags:
       - editor
       - linux
-      - mac
   - name: Spyder IDE
     repo_url: https://github.com/spyder-ide/spyder
     home_url: https://www.spyder-ide.org/

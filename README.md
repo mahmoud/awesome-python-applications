@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **359**
+This document is an always-growing list of **360**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -37,7 +37,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(18)*
-1. <a href="#tag-games">Games</a> *(9)*
+1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(20)*
 1. <a href="#tag-organization">Organization</a> *(35)*
 1. <a href="#tag-communication">Communication</a> *(32)*
@@ -156,6 +156,7 @@ thereof), see Architectures. -->
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/)) Advanced chess client, suitable for new, casual, and competitive play. `(linux, windows, gtk)`
   1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(linux, windows, mac)`
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(linux, windows, android, kivy, tk)`
+  1. **term2048** - ([Repo](https://github.com/bfontaine/term2048), [PyPI](https://pypi.python.org/pypi/term2048)) TUI version of [2048](http://gabrielecirulli.github.io/2048/). `(linux, mac, tui)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, windows, mac)`
 
 ## <a id="tag-productivity" href="#tag-productivity">Productivity</a>

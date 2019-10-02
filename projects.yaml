@@ -905,6 +905,16 @@ projects:
       - android
       - kivy
       - tk
+  - name: term2048
+    repo_url: https://github.com/bfontaine/term2048
+    pypi_url: https://pypi.python.org/pypi/term2048
+    date_added: 2019-10-01 22:06:00
+    desc: TUI version of [2048](http://gabrielecirulli.github.io/2048/).
+    tags:
+      - games
+      - linux
+      - mac
+      - tui
   - name: Unknown Horizons
     repo_url: https://github.com/unknown-horizons/unknown-horizons
     home_url: http://unknown-horizons.org/

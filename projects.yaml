@@ -2266,6 +2266,16 @@ projects:
     tags:
       - scm
       - server
+  - name: Launchpad
+    repo_url: https://launchpad.net/launchpad
+    home_url: https://launchpad.net/
+    docs_url: https://dev.launchpad.net/
+    wp_url: https://en.wikipedia.org/wiki/Launchpad_%28website%29
+    date_added: 2019-10-01 21:32:00
+    desc: Software forge designed and run by Canonical, with support for Git and [Bazaar](https://en.wikipedia.org/wiki/GNU_Bazaar).
+    tags:
+      - scm
+      - server
   - name: Mercurial
     repo_url: https://www.mercurial-scm.org/repo/hg-stable
     home_url: https://www.mercurial-scm.org/

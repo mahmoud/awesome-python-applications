@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **352**
+This document is an always-growing list of **353**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,8 +46,8 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(145)*
-    1. <a href="#tag-dev.scm">SCM</a> *(16)*
+1. <a href="#tag-dev">Dev</a> *(146)*
+    1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(12)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
@@ -331,6 +331,7 @@ Projects related to software development and adjacent technical areas.
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(linux, windows, mac)`
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_%28software%29)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014. `(server)`
   1. **Klaus** - ([Repo](https://github.com/jonashaag/klaus), [Demo](http://klausdemo.lophus.org/), [PyPI](https://pypi.org/project/klaus), [Docs](https://github.com/jonashaag/klaus/wiki)) pip-installable web-based viewer for git repositories that "just works". `(server)`
+  1. **Launchpad** - ([Repo](https://launchpad.net/launchpad), [Home](https://launchpad.net/), [WP](https://en.wikipedia.org/wiki/Launchpad_%28website%29), [Docs](https://dev.launchpad.net/)) Software forge designed and run by Canonical, with support for Git and [Bazaar](https://en.wikipedia.org/wiki/GNU_Bazaar). `(server)`
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities. `(linux, windows, mac)`
   1. **Pagure** - ([Repo](https://pagure.io/pagure), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team. `(server)`
   1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development. `(server)`

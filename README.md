@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **349**
+This document is an always-growing list of **350**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,10 +46,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(142)*
+1. <a href="#tag-dev">Dev</a> *(143)*
     1. <a href="#tag-dev.scm">SCM</a> *(16)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(11)*
+    1. <a href="#tag-dev.storage">Storage</a> *(12)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
@@ -357,6 +357,7 @@ Projects related to software development and adjacent technical areas.
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, linux, windows, mac)`
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends. `(server)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
+  1. **s3ql** - ([Repo](https://github.com/s3ql/s3ql), [Docs](http://www.rath.org/s3ql-docs/index.html)) A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more. `(linux)`
   1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(security, console)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(linux, windows, mac)`

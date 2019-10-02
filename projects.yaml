@@ -2451,6 +2451,14 @@ projects:
       - storage
       - linux
       - mac
+  - name: s3ql
+    repo_url: https://github.com/s3ql/s3ql
+    docs_url: http://www.rath.org/s3ql-docs/index.html
+    date_added: 2019-10-01 21:04:00
+    desc: A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more.
+    tags:
+      - storage
+      - linux
   - name: Seafile
     repo_url: https://github.com/haiwen/seahub
     wp_url: https://en.wikipedia.org/wiki/Seafile

@@ -44,10 +44,7 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/golemfactory/golem
 * https://github.com/zenhack/simp_le
 * https://github.com/thombashi/sqlitebiter
-* https://github.com/malwaredllc/byob
-* https://github.com/ctxis/CAPE
 * https://github.com/Codaone/DEXBot
-* https://github.com/usnistgov/mosaic
 * https://github.com/NuID/nebulousAD
 * https://github.com/chanzuckerberg/cellxgene
 * https://github.com/dipu-bd/lightnovel-crawler

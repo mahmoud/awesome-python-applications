@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **343**
+This document is an always-growing list of **344**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(34)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(6)*
-1. <a href="#tag-science">Science</a> *(17)*
+1. <a href="#tag-science">Science</a> *(18)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
@@ -266,13 +266,14 @@ thereof), see Architectures. -->
   1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(linux, windows, mac)`
   1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978. `(linux, windows, mac, gtk)`
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(linux, windows, mac)`
+  1. **cellxgene** - ([Repo](https://github.com/chanzuckerberg/cellxgene), [Home](https://chanzuckerberg.github.io/cellxgene)) Web-based interactive explorer for single-cell transcriptomics data. `(linux, windows, mac)`
   1. **CKAN** - ([Repo](https://github.com/ckan/ckan), [Home](https://ckan.org/)) Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites. `(server, flask)`
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality. `(server)`
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(server, django)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(linux, windows, mac, gtk)`
   1. **Manim** - ([Repo](https://github.com/3b1b/manim), [Docs](https://manim.readthedocs.io/)) Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). `(linux)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization. `(linux, windows, mac, qt4)`
-  1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(linux, windows, mac)`
+  1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(linux, windows, mac, gov)`
   1. **OPEM** - ([Repo](https://github.com/ECSIM/opem), [Docs](https://www.ecsim.ir/opem/doc)) A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell). `(linux, windows, mac)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_%28software%29)) Component-based data mining software for graphical interactive data analysis and visualization. `(linux, windows, mac, qt4, qt5)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`

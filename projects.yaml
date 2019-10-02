@@ -1801,6 +1801,17 @@ projects:
       - linux
       - windows
       - mac
+  - name: cellxgene
+    repo_url: https://github.com/chanzuckerberg/cellxgene
+    home_url: https://chanzuckerberg.github.io/cellxgene
+    date_added: 2019-10-01 18:39:00
+    desc: Web-based interactive explorer for single-cell transcriptomics data.
+    tags:
+      - science
+      - linux
+      - windows
+      - mac
+      - fnd
   - name: CKAN
     repo_url: https://github.com/ckan/ckan
     home_url: https://ckan.org/
@@ -1871,6 +1882,7 @@ projects:
       - linux
       - windows
       - mac
+      - gov
   - name: OPEM
     repo_url: https://github.com/ECSIM/opem
     docs_url: https://www.ecsim.ir/opem/doc

@@ -1883,6 +1883,14 @@ projects:
       - windows
       - mac
       - gov
+  - name: odemis
+    repo_url: https://github.com/delmic/odemis
+    home_url: https://www.delmic.com/microscopy-software-odemis
+    date_added: 2019-10-01 18:55:00
+    desc: Desktop imaging workflow software for Delmic microscopes, supporting autofocus, coordinate history, and OME-TIFF and HDF5 export.
+    tags:
+      - science
+      - linux
   - name: OPEM
     repo_url: https://github.com/ECSIM/opem
     docs_url: https://www.ecsim.ir/opem/doc

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **350**
+This document is an always-growing list of **351**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,14 +46,14 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(143)*
+1. <a href="#tag-dev">Dev</a> *(144)*
     1. <a href="#tag-dev.scm">SCM</a> *(16)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(12)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
-    1. <a href="#tag-dev.editor">Editor</a> *(11)*
+    1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(4)*
     1. <a href="#tag-dev.build">Build</a> *(9)*
@@ -435,6 +435,7 @@ Projects related to software development and adjacent technical areas.
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(linux, windows, mac, qt5)`
   1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more. `(linux, windows, mac, qt5)`
   1. **Pluma** - ([Repo](https://github.com/mate-desktop/pluma)) Small and lightweight UTF-8 text editor for [the MATE environment](http://mate-desktop.org/). Based on gedit. `(linux, c, gtk)`
+  1. **ReText** - ([Repo](https://github.com/retext-project/retext), [PyPI](https://pypi.org/project/ReText), [Docs](https://github.com/retext-project/retext/wiki)) Simple but powerful editor for Markdown and reStructuredText markup languages. `(linux, mac)`
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(linux, windows, mac, qt5)`
   1. **Thonny** - ([Repo](https://github.com/thonny/thonny), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(linux, windows, mac, tk)`
 

@@ -3034,6 +3034,16 @@ projects:
       - linux
       - c
       - gtk
+  - name: ReText
+    repo_url: https://github.com/retext-project/retext
+    docs_url: https://github.com/retext-project/retext/wiki
+    pypi_url: https://pypi.org/project/ReText
+    date_added: 2019-10-01 21:08:00
+    desc: Simple but powerful editor for Markdown and reStructuredText markup languages.
+    tags:
+      - editor
+      - linux
+      - mac
   - name: Spyder IDE
     repo_url: https://github.com/spyder-ide/spyder
     home_url: https://www.spyder-ide.org/

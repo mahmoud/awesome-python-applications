@@ -1754,6 +1754,7 @@ projects:
   - name: Open edX Platform
     repo_url: https://github.com/edx/edx-platform
     home_url: http://open.edx.org/
+    wp_url: https://en.wikipedia.org/wiki/EdX#Open_edX
     date_added: 2018-11-24 02:37:00
     desc: Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX).
     tags:
@@ -1764,6 +1765,14 @@ projects:
     docs_url: https://documen.tician.de/relate
     date_added: 2019-09-11 10:06:00
     desc: Web-based courseware with support for course planning and versioning, scheduling, testing, and grading.
+    tags:
+      - education
+      - server
+  - name: Tutor
+    repo_url: https://github.com/overhangio/tutor
+    docs_url: https://docs.tutor.overhang.io/
+    date_added: 2019-10-01 20:36:00
+    desc: Docker-based Open edX distribution, both for production and local development, with a goal of easing deployment, customization, upgrading, and scaling.
     tags:
       - education
       - server

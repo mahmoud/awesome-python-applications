@@ -2224,6 +2224,18 @@ projects:
       - mac
       - qt4
       - qt5
+  - name: Gitless
+    repo_url: https://github.com/sdg-mit/gitless
+    home_url: https://gitless.com/
+    docs_url: https://gitless.com/#documentation
+    pypi_url: https://pypi.org/project/gitless
+    date_added: 2019-10-01 20:58:00
+    desc: Simple version control system built on top of Git.
+    tags:
+      - scm
+      - linux
+      - windows
+      - mac
   - name: GNU Bazaar
     repo_url: https://code.launchpad.net/bzr
     home_url: http://bazaar.canonical.com/en

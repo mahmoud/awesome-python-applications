@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **348**
+This document is an always-growing list of **349**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,8 +46,8 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(141)*
-    1. <a href="#tag-dev.scm">SCM</a> *(15)*
+1. <a href="#tag-dev">Dev</a> *(142)*
+    1. <a href="#tag-dev.scm">SCM</a> *(16)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(11)*
     1. <a href="#tag-dev.ops">Ops</a> *(24)*
@@ -327,6 +327,7 @@ Projects related to software development and adjacent technical areas.
   1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn. `(server)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, linux, windows, mac)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(linux, windows, mac, qt4, qt5)`
+  1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(linux, windows, mac)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(linux, windows, mac)`
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_%28software%29)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014. `(server)`
   1. **Klaus** - ([Repo](https://github.com/jonashaag/klaus), [Demo](http://klausdemo.lophus.org/), [PyPI](https://pypi.org/project/klaus), [Docs](https://github.com/jonashaag/klaus/wiki)) pip-installable web-based viewer for git repositories that "just works". `(server)`

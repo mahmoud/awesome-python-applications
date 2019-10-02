@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(214)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(197)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(129)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(123)*
+1. <a href="#tag-desktop">Desktop</a> *(215)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(198)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(130)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(124)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -97,6 +97,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gdbgui** - ([Repo](https://github.com/cs01/gdbgui), [Home](https://gdbgui.com/), [PyPI](https://pypi.org/project/gdbgui)) Browser-based frontend for [gdb](https://en.wikipedia.org/wiki/GNU_Debugger). `(dev, windows, mac)`
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit)) The default GNOME text editor makes extensive use of Python, in addition to C. `(editor, c, gtk)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, windows, mac, qt4, qt5)`
+  1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, windows, mac)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, windows, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, windows, mac, qt5)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(scm, windows, mac)`
@@ -281,6 +282,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, linux, mac, flatpak, gtk)`
   1. **gdbgui** - ([Repo](https://github.com/cs01/gdbgui), [Home](https://gdbgui.com/), [PyPI](https://pypi.org/project/gdbgui)) Browser-based frontend for [gdb](https://en.wikipedia.org/wiki/GNU_Debugger). `(dev, linux, mac)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, linux, mac, qt4, qt5)`
+  1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, linux, mac)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, mac, qt5)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(scm, linux, mac)`
@@ -409,6 +411,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, docs, linux, windows, flatpak, gtk)`
   1. **gdbgui** - ([Repo](https://github.com/cs01/gdbgui), [Home](https://gdbgui.com/), [PyPI](https://pypi.org/project/gdbgui)) Browser-based frontend for [gdb](https://en.wikipedia.org/wiki/GNU_Debugger). `(dev, linux, windows)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(scm, linux, windows, qt4, qt5)`
+  1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, linux, windows)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, windows, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, windows, qt5)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(scm, linux, windows)`

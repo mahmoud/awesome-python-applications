@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(218)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(201)*
+1. <a href="#tag-desktop">Desktop</a> *(219)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(202)*
     1. <a href="#tag-desktop.windows">Windows</a> *(131)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(125)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(126)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -232,6 +232,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(video, windows, mac)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, windows, mac, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, windows, mac)`
+  1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(productivity, mac)`
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(build)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(storage)`
   1. **Wammu** - ([Repo](https://github.com/gammu/wammu), [Home](https://wammu.eu/wammu)) GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones. `(misc, windows)`
@@ -502,6 +503,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(video, linux, windows)`
   1. **Virtaal** - ([Repo](https://github.com/translate/virtaal), [Home](http://virtaal.translatehouse.org/)) Cross-platform GUI for performing translation, with support for a variety of formats. `(communication, linux, windows, gtk)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(dev, linux, windows)`
+  1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(productivity, linux)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(organization, linux, windows, wx)`
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(shell, linux, windows)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(internet, linux, windows)`

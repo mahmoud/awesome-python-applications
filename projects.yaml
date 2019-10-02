@@ -1086,6 +1086,15 @@ projects:
     tags:
       - productivity
       - server
+  - name: Vorta
+    repo_url: https://github.com/borgbase/vorta
+    home_url: https://vorta.borgbase.com/
+    date_added: 2019-10-01 21:35:00
+    desc: GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/).
+    tags:
+      - productivity
+      - linux
+      - mac
   - name: wttr.in
     repo_url: https://github.com/chubin/wttr.in
     home_url: http://wttr.in/

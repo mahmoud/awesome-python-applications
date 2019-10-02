@@ -48,33 +48,25 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/NuID/nebulousAD
 * https://github.com/chanzuckerberg/cellxgene
 * https://github.com/dipu-bd/lightnovel-crawler
-* https://github.com/delmic/odemis
 * https://github.com/raiden-network/raiden  # blockchain, maybe too cynical
 * https://github.com/JaDogg/pydoro
-* https://github.com/arsenetar/dupeguru
-* https://github.com/gridsync/gridsync
 * https://github.com/ActivityWatch/aw-server
-* https://github.com/overhangio/tutor
-* https://github.com/borgbase/vorta
+* https://github.com/ActivityWatch/activitywatch
 * https://github.com/marcelstoer/nodemcu-pyflasher
 * https://github.com/defaultnamehere/cookie_crimes
 * https://github.com/DedSecInside/TorBot
 * https://github.com/Drakkar-Software/OctoBot
 * https://github.com/datawire/kubernaut
-* https://github.com/snapcore/snapcraft
 * https://github.com/frostming/legit
 * https://github.com/pazz/alot
 * https://github.com/languitar/autosuspend
-* https://github.com/Backblaze/B2_Command_Line_Tool  # backblaze, has bash completion
 * https://github.com/Blosc/bloscpack
 * https://github.com/xfce-mirror/catfish
 * https://github.com/giuspen/cherrytree
 * https://github.com/cea-hpc/clustershell
 * https://github.com/pixelb/crudini
-* https://github.com/cython/cython
 * https://code.launchpad.net/dkimpy-milter
 * https://github.com/otsaloma/gaupol
-* https://github.com/sdg-mit/gitless
 * https://github.com/regebro/hovercraft
 * https://github.com/pimutils/khal
 * https://github.com/insanum/gcalcli
@@ -82,19 +74,13 @@ cases. Here are some helpful questions to help classify Python software:
 * https://code.launchpad.net/menulibre  # maybe, it's updated, but hard to establish quality/popularity
 * https://github.com/eonpatapon/mpDris2  # pretty niche
 * https://github.com/bluesabre/mugshot  # also pretty niche
-* https://github.com/HenriWahl/Nagstamon / https://nagstamon.ifw-dresden.de/
-* https://github.com/otsaloma/nfoview
 * https://github.com/jeromerobert/pdfarranger
 * https://gitlab.com/pdftools/pdfposter
 * https://github.com/sopel-irc/sopel
-* https://github.com/platformio/platformio-core
 * https://github.com/PyCQA/prospector
 * https://github.com/scheibler/khard
 * https://github.com/pytrainer/pytrainer  # like a mini strava
-* https://github.com/rabbitvcs/rabbitvcs
-* https://github.com/retext-project/retext
 * https://github.com/amanusk/s-tui
-* https://github.com/s3ql/s3ql  # i wonder what other fuse filesystems are implemented in python
 * https://github.com/TomasTomecek/sen/
 * https://github.com/SlapOS/slapos
 * https://github.com/subdownloader/subdownloader
@@ -109,12 +95,9 @@ cases. Here are some helpful questions to help classify Python software:
 * https://github.com/certsocietegenerale/fame
 * https://github.com/masfaraud/BMSpy
 * https://github.com/tasdikrahman/spaceShooter # bit out of date, but it's a pygame game with a bit of fame
-* https://github.com/bfontaine/term2048  # terminal game yay
 * https://github.com/scour-project/scour
 * https://github.com/iovisor/bcc  # half python half c++
 * https://github.com/stoq/stoq  # maybe discontinued? github is updated, but home page is empty
-* https://github.com/ActivityWatch/activitywatch
-* https://launchpad.net/launchpad  # thought i added this
 * https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
 * https://github.com/GNOME/jhbuild
 * https://github.com/alcarithemad/zfsp

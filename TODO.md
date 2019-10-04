@@ -168,7 +168,6 @@ cxoompare to the APA.
 * https://github.com/languitar/autosuspend
 * https://github.com/Blosc/bloscpack
 * https://github.com/xfce-mirror/catfish
-* https://github.com/giuspen/cherrytree
 * https://github.com/cea-hpc/clustershell
 * https://github.com/pixelb/crudini
 * https://code.launchpad.net/dkimpy-milter
@@ -207,3 +206,6 @@ cxoompare to the APA.
 * https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
 * https://github.com/GNOME/jhbuild
 * https://github.com/alcarithemad/zfsp
+* https://github.com/microcosm-cc/microweb
+* https://github.com/jhpyle/docassemble / https://docassemble.org/
+* https://github.com/grow/grow

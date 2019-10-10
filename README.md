@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **361**
+This document is an always-growing list of **362**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(151)*
+1. <a href="#tag-dev">Dev</a> *(152)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(13)*
@@ -55,7 +55,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(9)*
-    1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(4)*
+    1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
     1. <a href="#tag-dev.build">Build</a> *(11)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a> *(26)*
@@ -331,7 +331,7 @@ Projects related to software development and adjacent technical areas.
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, linux, windows, mac)`
   1. **Git Cola** - ([Repo](https://github.com/git-cola/git-cola), [Home](https://git-cola.github.io/)) Featureful cross-platform GUI wrapper for `git`. `(linux, windows, mac, qt4, qt5)`
   1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(linux, windows, mac)`
-  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar)) Distributed and client-server revision control system. `(linux, windows, mac)`
+  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](http://doc.bazaar.canonical.com/en)) Distributed and client-server revision control system. `(linux, windows, mac)`
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_%28software%29)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014. `(server)`
   1. **Klaus** - ([Repo](https://github.com/jonashaag/klaus), [Demo](http://klausdemo.lophus.org/), [PyPI](https://pypi.org/project/klaus), [Docs](https://github.com/jonashaag/klaus/wiki)) pip-installable web-based viewer for git repositories that "just works". `(server)`
   1. **Launchpad** - ([Repo](https://launchpad.net/launchpad), [Home](https://launchpad.net/), [WP](https://en.wikipedia.org/wiki/Launchpad_%28website%29), [Docs](https://dev.launchpad.net/)) Software forge designed and run by Canonical, with support for Git and [Bazaar](https://en.wikipedia.org/wiki/GNU_Bazaar). `(server)`
@@ -462,6 +462,7 @@ Projects related to software development and adjacent technical areas.
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/). `(server, corp)`
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI. `(server)`
   1. **distro-tracker** - ([Repo](https://salsa.debian.org/qa/distro-tracker), [Demo](https://tracker.debian.org/), [Docs](https://qa.pages.debian.net/distro-tracker)) Web application designed to follow the evolution of a Debian-based distribution with email updates and a comprehensive web interface. Powers the [Debian Package Tracker](https://tracker.debian.org/). `(server)`
+  1. **SweetTooth Web** - ([Repo](https://gitlab.gnome.org/Infrastructure/extensions-web), [Home](https://extensions.gnome.org/)) The web store for extensions to the [GNOME](https://en.wikipedia.org/wiki/GNOME) desktop environment, supporting adding and updating extensions directly from the browser. `(server)`
   1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse), [Fund](https://psfmember.org/civicrm/contribute/transact?reset=1&id=13), [Docs](https://warehouse.pypa.io/)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>

@@ -1691,8 +1691,8 @@ projects:
       - flask
   - name: Socialhome
     repo_url: https://git.feneas.org/socialhome/socialhome
-    clone_url: git+https://git.feneas.org/socialhome/socialhome.git
     home_url: https://socialhome.network/
+    clone_url: git+https://git.feneas.org/socialhome/socialhome.git
     docs_url: https://socialhome.readthedocs.io/en/latest
     gh_url: https://github.com/jaywink/socialhome
     date_added: 2019-09-09 11:52:00
@@ -2271,8 +2271,8 @@ projects:
       - mac
   - name: GNU Bazaar
     repo_url: https://code.launchpad.net/bzr
-    docs_url: http://doc.bazaar.canonical.com/en/
     home_url: http://bazaar.canonical.com/en
+    docs_url: http://doc.bazaar.canonical.com/en
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
     date_added: 2018-11-26 01:59:00
     desc: Distributed and client-server revision control system.
@@ -2302,8 +2302,8 @@ projects:
       - server
   - name: Launchpad
     repo_url: https://launchpad.net/launchpad
-    clone_url: git+https://git.launchpad.net/launchpad
     home_url: https://launchpad.net/
+    clone_url: git+https://git.launchpad.net/launchpad
     docs_url: https://dev.launchpad.net/
     wp_url: https://en.wikipedia.org/wiki/Launchpad_%28website%29
     date_added: 2019-10-01 21:32:00
@@ -2404,8 +2404,8 @@ projects:
 #
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
-    clone_url: git+https://salsa.debian.org/reproducible-builds/diffoscope.git
     home_url: https://diffoscope.org/
+    clone_url: git+https://salsa.debian.org/reproducible-builds/diffoscope.git
     demo_url: https://try.diffoscope.org/
     pypi_url: https://pypi.org/project/diffoscope
     date_added: 2019-09-18 09:34:00
@@ -3258,6 +3258,15 @@ projects:
     tags:
       - pkg_repo
       - server
+  - name: SweetTooth Web
+    repo_url: https://gitlab.gnome.org/Infrastructure/extensions-web
+    home_url: https://extensions.gnome.org/
+    clone_url: git+https://gitlab.gnome.org/Infrastructure/extensions-web.git
+    date_added: 2019-10-10 12:29:00
+    desc: The web store for extensions to the [GNOME](https://en.wikipedia.org/wiki/GNOME) desktop environment, supporting adding and updating extensions directly from the browser.
+    tags:
+      - pkg_repo
+      - server
   - name: Warehouse
     repo_url: https://github.com/pypa/warehouse
     docs_url: https://warehouse.pypa.io/
@@ -3537,8 +3546,8 @@ projects:
       - qt5
   - name: Plinth
     repo_url: https://salsa.debian.org/freedombox-team/plinth
-    clone_url: git+https://salsa.debian.org/freedombox-team/plinth.git
     home_url: https://freedombox.org/
+    clone_url: git+https://salsa.debian.org/freedombox-team/plinth.git
     docs_url: https://wiki.debian.org/FreedomBox/Plinth
     date_added: 2019-09-17 23:06:00
     desc: The core functionality and web front-end of [FreedomBox](https://freedombox.org/), an easy-to-manage, privacy-oriented home server.

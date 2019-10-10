@@ -2189,6 +2189,17 @@ projects:
       - linux
       - windows
       - mac
+  - name: Grow
+    repo_url: https://github.com/grow/grow
+    home_url: https://grow.io/
+    pypi_url: https://pypi.org/project/grow
+    date_added: 2019-10-10 12:59:00
+    desc: Static site generator optimized for building interactive, localized microsites, with a focus on workflow and maintainability.
+    tags:
+      - static_site
+      - linux
+      - windows
+      - mac
   - name: Hyde
     repo_url: https://github.com/hyde/hyde
     home_url: http://hyde.github.io/

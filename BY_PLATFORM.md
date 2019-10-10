@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(226)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(209)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(136)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(131)*
+1. <a href="#tag-desktop">Desktop</a> *(227)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(210)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(137)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(132)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -109,6 +109,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, windows, mac, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, windows, mac, gtk)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, windows, mac)`
+  1. **Grow** - ([Repo](https://github.com/grow/grow), [Home](https://grow.io/), [PyPI](https://pypi.org/project/grow)) Static site generator optimized for building interactive, localized microsites, with a focus on workflow and maintainability. `(static_site, windows, mac)`
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(misc, gtk)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, windows, mac)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, mac, docker, snap)`
@@ -305,6 +306,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, mac, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, mac, gtk)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, linux, mac)`
+  1. **Grow** - ([Repo](https://github.com/grow/grow), [Home](https://grow.io/), [PyPI](https://pypi.org/project/grow)) Static site generator optimized for building interactive, localized microsites, with a focus on workflow and maintainability. `(static_site, linux, mac)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, mac)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, mac)`
   1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, linux, corp)`
@@ -440,6 +442,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(internet, linux, windows, gtk)`
   1. **Gramps** - ([Repo](https://github.com/gramps-project/gramps), [Home](https://gramps-project.org/)) Genealogy software that is both intuitive for hobbyists and feature-complete for professional genealogists. `(organization, linux, windows, gtk)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, storage, linux, windows)`
+  1. **Grow** - ([Repo](https://github.com/grow/grow), [Home](https://grow.io/), [PyPI](https://pypi.org/project/grow)) Static site generator optimized for building interactive, localized microsites, with a focus on workflow and maintainability. `(static_site, linux, windows)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, windows)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, docker, snap)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, windows)`

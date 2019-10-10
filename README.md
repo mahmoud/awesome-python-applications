@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **363**
+This document is an always-growing list of **364**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -45,7 +45,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-science">Science</a> *(20)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
-1. <a href="#tag-static_site">Static Site</a> *(8)*
+1. <a href="#tag-static_site">Static Site</a> *(9)*
 1. <a href="#tag-dev">Dev</a> *(152)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
@@ -314,6 +314,7 @@ thereof), see Architectures. -->
 
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(linux, windows, mac)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(linux, windows, mac)`
+  1. **Grow** - ([Repo](https://github.com/grow/grow), [Home](https://grow.io/), [PyPI](https://pypi.org/project/grow)) Static site generator optimized for building interactive, localized microsites, with a focus on workflow and maintainability. `(linux, windows, mac)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(linux, windows, mac)`
   1. **Lektor** - ([Repo](https://github.com/lektor/lektor), [Home](https://www.getlektor.com/)) Static site generator with built-in admin console and minimal desktop application. `(linux, windows, mac)`
   1. **Nikola** - ([Repo](https://github.com/getnikola/nikola), [Home](https://www.getnikola.com/), [PyPI](https://pypi.org/project/nikola)) Command-line static site generator with incremental rebuilds and support for Markdown, reST, Jupyter notebooks, and HTML. `(linux, windows, mac)`

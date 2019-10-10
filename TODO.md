@@ -208,5 +208,4 @@ cxoompare to the APA.
 * https://github.com/alcarithemad/zfsp
 * https://github.com/microcosm-cc/microweb
 * https://github.com/jhpyle/docassemble / https://docassemble.org/
-* https://github.com/grow/grow
-*
+* https://github.com/VIDA-NYU/reprozip/graphs/contributors

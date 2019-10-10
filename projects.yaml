@@ -486,6 +486,7 @@ projects:
       - qt
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
+    clone_url: git+https://git.savannah.gnu.org/git/solfege.git
     wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
     date_added: 2018-11-24 02:37:00
     desc: An ear-training program intended to help musicians improve their skills.
@@ -1409,6 +1410,7 @@ projects:
       - server
   - name: SiCKRAGE
     repo_url: https://git.sickrage.ca/SiCKRAGE/sickrage
+    clone_url: git+https://git.sickrage.ca/SiCKRAGE/sickrage.git
     docs_url: https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes
     gh_url: https://github.com/SiCKRAGE/SiCKRAGE
     date_added: 2019-09-04 20:17:00
@@ -1493,6 +1495,7 @@ projects:
       - tui
   - name: dak
     repo_url: https://salsa.debian.org/ftp-team/dak
+    clone_url: git+https://salsa.debian.org/ftp-team/dak.git
     date_added: 2019-09-30 10:20:00
     desc: Collection of programs used to maintain the Debian project's email archives.
     tags:
@@ -1688,6 +1691,7 @@ projects:
       - flask
   - name: Socialhome
     repo_url: https://git.feneas.org/socialhome/socialhome
+    clone_url: git+https://git.feneas.org/socialhome/socialhome.git
     home_url: https://socialhome.network/
     docs_url: https://socialhome.readthedocs.io/en/latest
     gh_url: https://github.com/jaywink/socialhome
@@ -2267,6 +2271,7 @@ projects:
       - mac
   - name: GNU Bazaar
     repo_url: https://code.launchpad.net/bzr
+    docs_url: http://doc.bazaar.canonical.com/en/
     home_url: http://bazaar.canonical.com/en
     wp_url: https://en.wikipedia.org/wiki/GNU_Bazaar
     date_added: 2018-11-26 01:59:00
@@ -2297,6 +2302,7 @@ projects:
       - server
   - name: Launchpad
     repo_url: https://launchpad.net/launchpad
+    clone_url: git+https://git.launchpad.net/launchpad
     home_url: https://launchpad.net/
     docs_url: https://dev.launchpad.net/
     wp_url: https://en.wikipedia.org/wiki/Launchpad_%28website%29
@@ -2398,6 +2404,7 @@ projects:
 #
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
+    clone_url: git+https://salsa.debian.org/reproducible-builds/diffoscope.git
     home_url: https://diffoscope.org/
     demo_url: https://try.diffoscope.org/
     pypi_url: https://pypi.org/project/diffoscope
@@ -3243,6 +3250,7 @@ projects:
       - server
   - name: distro-tracker
     repo_url: https://salsa.debian.org/qa/distro-tracker
+    clone_url: git+https://salsa.debian.org/qa/distro-tracker.git
     demo_url: https://tracker.debian.org/
     docs_url: https://qa.pages.debian.net/distro-tracker
     date_added: 2019-09-30 18:35:00
@@ -3529,6 +3537,7 @@ projects:
       - qt5
   - name: Plinth
     repo_url: https://salsa.debian.org/freedombox-team/plinth
+    clone_url: git+https://salsa.debian.org/freedombox-team/plinth.git
     home_url: https://freedombox.org/
     docs_url: https://wiki.debian.org/FreedomBox/Plinth
     date_added: 2019-09-17 23:06:00

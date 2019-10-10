@@ -2002,6 +2002,17 @@ projects:
       - windows
       - mac
       - wx
+  - name: Taguette
+    repo_url: https://gitlab.com/remram44/taguette
+    home_url: https://www.taguette.org/
+    docs_url: https://www.taguette.org/getting-started.html
+    gh_url: https://github.com/remram44/taguette
+    pypi_url: https://pypi.org/project/taguette
+    date_added: 2019-10-10 12:43:00
+    desc: Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats.
+    tags:
+      - science
+      - server
   - name: Veusz
     repo_url: https://github.com/veusz/veusz
     home_url: https://veusz.github.io/
@@ -3173,6 +3184,7 @@ projects:
   - name: pip
     repo_url: https://github.com/pypa/pip
     home_url: https://pip.pypa.io/en/stable
+    pypi_url: https://pypi.org/project/pip
     wp_url: https://en.wikipedia.org/wiki/Pip_%28package_manager%29
     date_added: 2018-11-26 01:59:00
     desc: Python's go-to package manager, with a wide range of features and platform support.

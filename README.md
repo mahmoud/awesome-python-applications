@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **362**
+This document is an always-growing list of **363**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(35)*
 1. <a href="#tag-communication">Communication</a> *(32)*
 1. <a href="#tag-education">Education</a> *(7)*
-1. <a href="#tag-science">Science</a> *(19)*
+1. <a href="#tag-science">Science</a> *(20)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
@@ -285,6 +285,7 @@ thereof), see Architectures. -->
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(linux, windows, mac, wx)`
+  1. **Taguette** - ([Repo](https://gitlab.com/remram44/taguette), [Home](https://www.taguette.org/), [gh](https://github.com/remram44/taguette), [PyPI](https://pypi.org/project/taguette), [Docs](https://www.taguette.org/getting-started.html)) Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats. `(server)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
 
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
@@ -450,7 +451,7 @@ Projects related to software development and adjacent technical areas.
   1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(linux, windows, mac)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(linux, windows, mac, corp)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(linux, corp)`
-  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29)) Python's go-to package manager, with a wide range of features and platform support. `(linux, windows, mac)`
+  1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29), [PyPI](https://pypi.org/project/pip)) Python's go-to package manager, with a wide range of features and platform support. `(linux, windows, mac)`
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(linux, windows, mac)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(linux, windows, mac)`
   1. **Portage** - ([Repo](https://gitweb.gentoo.org/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_%28software%29)) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(linux)`

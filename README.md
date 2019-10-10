@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **360**
+This document is an always-growing list of **361**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(8)*
-1. <a href="#tag-dev">Dev</a> *(150)*
+1. <a href="#tag-dev">Dev</a> *(151)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(13)*
@@ -54,7 +54,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.security">Security</a> *(22)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
-    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(8)*
+    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(9)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(4)*
     1. <a href="#tag-dev.build">Build</a> *(11)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
@@ -447,6 +447,7 @@ Projects related to software development and adjacent technical areas.
 
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
+  1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(linux, windows, mac)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(linux, windows, mac, corp)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(linux, corp)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29)) Python's go-to package manager, with a wide range of features and platform support. `(linux, windows, mac)`

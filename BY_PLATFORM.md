@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(225)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(208)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(135)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(130)*
+1. <a href="#tag-desktop">Desktop</a> *(226)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(209)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(136)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(131)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -73,6 +73,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(organization, windows, gtk)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, windows, mac)`
   1. **Cobbler** - ([Repo](https://github.com/Cobbler/Cobbler), [Home](https://cobbler.github.io/), [WP](https://en.wikipedia.org/wiki/Cobbler_%28software%29)) Linux installation server that allows for rapid setup of network installation environments. `(ops, server)`
+  1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(pkg_mgr, windows, mac)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, windows, mac, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, windows, mac)`
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, windows, mac)`
@@ -274,6 +275,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **cellxgene** - ([Repo](https://github.com/chanzuckerberg/cellxgene), [Home](https://chanzuckerberg.github.io/cellxgene)) Web-based interactive explorer for single-cell transcriptomics data. `(science, linux, mac, fnd)`
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting. `(organization, linux, gtk)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, mac)`
+  1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(pkg_mgr, linux, mac)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, mac, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, linux, mac)`
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, linux, mac)`
@@ -411,6 +413,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets. `(science, linux, windows)`
   1. **cellxgene** - ([Repo](https://github.com/chanzuckerberg/cellxgene), [Home](https://chanzuckerberg.github.io/cellxgene)) Web-based interactive explorer for single-cell transcriptomics data. `(science, linux, windows, fnd)`
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :) `(static_site, linux, windows)`
+  1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(pkg_mgr, linux, windows)`
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(pkg_mgr, linux, windows, corp)`
   1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents. `(organization, linux, windows)`
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, linux, windows)`

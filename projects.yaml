@@ -3130,6 +3130,17 @@ projects:
 #
 # Pkg_Mgr
 #
+  - name: Conan
+    repo_url: https://github.com/conan-io/conan
+    home_url: https://conan.io/
+    docs_url: https://docs.conan.io/en/latest
+    date_added: 2019-10-10 10:00:00
+    desc: Decentralized package manager for binary package management, targeted at C/C++ developers.
+    tags:
+      - pkg_mgr
+      - linux
+      - windows
+      - mac
   - name: Conda
     repo_url: https://github.com/conda/conda
     home_url: https://conda.io/

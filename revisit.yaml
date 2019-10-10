@@ -67,3 +67,6 @@ projects:
   - name: pydoro
     repo_url: https://github.com/JaDogg/pydoro
     reason: good concept, but import error when I tried it.
+  - name: hanash
+    repo_url: https://github.com/Aboghazala/Hanash
+    reason: young (33 commits), quiet for its age (no commits for 3 months)

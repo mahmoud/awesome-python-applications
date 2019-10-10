@@ -1510,6 +1510,15 @@ projects:
     tags:
       - communication
       - server
+  - name: Docassemble
+    repo_url: https://github.com/jhpyle/docassemble
+    home_url: https://docassemble.org/
+    docs_url: https://docassemble.org/docs.html
+    date_added: 2019-10-10 13:06:00
+    desc: Platform for creating mobile-friendly web-based interviews, collecting responses, and much more.
+    tags:
+      - communication
+      - server
   - name: Formspree
     repo_url: https://github.com/formspree/formspree
     home_url: https://formspree.io/

@@ -1,0 +1,19 @@
+projects:
+  - name: wger
+    repo_url: https://github.com/wger-project/wger
+  - name: mediadrop
+    repo_url: https://github.com/mediadrop/mediadrop
+  - name: mogoaudit
+    repo_url: https://github.com/stampery/mongoaudit
+  - name: glipper
+    repo_url: https://launchpad.net/glipper
+    wp_url: https://en.wikipedia.org/wiki/Glipper
+  - name: pisi
+    repo_url: https://github.com/examachine/pisi
+  - name: Kabikaboo
+    repo_url: https://launchpad.net/kabikaboo
+  - name: Bika LIMS
+    repo_url: https://github.com/bikalims/bika.lims
+    home_url: https://www.bikalims.org/
+  - name: Django Trigger Happy
+    repo_url: https://github.com/push-things/django-th

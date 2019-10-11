@@ -2932,6 +2932,20 @@ projects:
     tags:
       - security
       - server
+  - name: privacyIDEA
+    repo_url: https://github.com/privacyidea/privacyidea
+    wp_url: https://en.wikipedia.org/wiki/PrivacyIDEA
+    docs_url: https://privacyidea.readthedocs.io
+    home_url: https://privacyidea.org
+    date_added: 2019-10-06 20:15:00
+    desc: A multi factor authentication server running on premises, supporting many different token types and allowing authentication via 
+      REST API, RADIUS, PAM, Windows Credential Provider, SAML, OpenID Connect.
+    tags:
+      - security
+      - server
+      - internet
+      - organization
+      - flask
   - name: Pupy
     repo_url: https://github.com/n1nj4sec/pupy
     docs_url: https://github.com/n1nj4sec/pupy/wiki/Installation

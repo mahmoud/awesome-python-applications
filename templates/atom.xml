@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en">
+  <id>https://github.com/mahmoud/awesome-python-applications</id>
+  <title type="text">Awesome Python Applications</title>
+  <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
+  <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
+  <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
+  <updated>{last_generated_utc}</updated>
+  <sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFrequency>1</sy:updateFrequency>
+
+  <rights type="html">CC-BY-SA unless otherwise noted</rights>
+  <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
+
+  {#projects}
+  <entry>
+    <id>{repo_url}</id>
+    <title>{name}</title>
+    <link rel="alternate" type="text/html" href="{repo_url}" />
+    <published>{date_added_utc}</published>
+    <updated>{date_added_utc}</updated>
+    {#tags}<category term="audio"/>{/tags}
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="{repo_url}">{name}</a></strong>: {desc}</p>
+      <p>Links:</p>
+      <ul>
+        {@iterate key=urls}<li><a href='{$1}'>{$0}</a></li>
+        {/iterate}
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  {/projects}
+</feed>

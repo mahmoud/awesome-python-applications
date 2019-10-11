@@ -3508,6 +3508,15 @@ projects:
     tags:
       - dev
       - console
+  - name: doitlive
+    repo_url: https://github.com/sloria/doitlive
+    docs_url: https://doitlive.readthedocs.io/
+    pypi_url: https://pypi.org/project/doitlive/
+    desc: Tool for live presentations in the terminal.
+    tags:
+      - dev
+      - linux
+      - mac
   - name: Cython
     repo_url: https://github.com/cython/cython
     home_url: https://cython.org/

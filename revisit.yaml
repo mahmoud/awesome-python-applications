@@ -1,0 +1,72 @@
+projects:
+  - name: docnado
+    repo_url: https://github.com/HEInventions/docnado
+    reason: Too young (48 commits, <1 year)
+  - name: OpenEats
+    repo_url: https://github.com/open-eats/OpenEats
+    reason: Not enough commnits (59)
+  - name: imgpush
+    repo_url: https://github.com/hauxir/imgpush
+    reason: Too young (16 commits, 3 months)
+  - name: tagtool
+    repo_url: https://gitlab.com/tagtool/tagtool
+    reason: low commit count. also, tried it out, seemed interesting, but confusing in its current state.
+  - name: rapidbay
+    repo_url: https://github.com/hauxir/rapidbay/
+    reason: bit young, 1 contributor, low commit count (93)
+  - name: shadowproxy
+    repo_url: https://github.com/guyingbo/shadowproxy
+  - name: mlox
+    repo_url: https://github.com/mlox/mlox/graphs/contributors
+    reason: maybe a little too niche?
+  - name: kungfu trader
+    repo_url: https://github.com/taurusai/kungfu
+    reason: not obviously python enough
+  - name: iqiyi-parser
+    repo_url: https://github.com/ZSAIm/iqiyi-parser
+    reason: young, 1 contributor. also, misleading name, this is a tencent video downloader.
+  - name: bscan
+    repo_url: https://github.com/welchbj/bscan
+    reason: wavering maintenance status, still young, though has packaging.
+  - name: Loki
+    repo_url: https://github.com/Pure-L0G1C/Loki
+    reason: low commit, 1 committers
+  - name: captcha_trainer
+    repo_url: https://github.com/kerlomz/captcha_trainer
+    reason: low commit, 2 committers
+  - name: bustag
+    repo_url: https://github.com/gxtrobot/bustag
+    reason: low commit, 1 committer
+  - name: miio
+    repo_url: https://github.com/rytilahti/python-miio
+    reason: not sure its cli is substantive enough, seems more like a library
+  - name: pyomo
+    repo_url: https://github.com/Pyomo/pyomo
+    reason: seems mostly like a library/framework
+  - name: valinor
+    repo_url: https://github.com/ARMmbed/valinor
+    reason: seems a bit too quiet
+  - name: visualequation
+    repo_url: https://github.com/daniel-molina/visualequation
+    reason: might be a bit young, only one committer
+  - name: weasyprint
+    repo_url: https://github.com/Kozea/WeasyPrint/
+    reason: not sure the CLI is substantive enough, though it does follow some best practices
+  - name: zktop
+    repo_url: https://github.com/phunt/zktop
+    reason: bit young, not a lot of commits
+  - name: jampy postfix aliases
+    repo_url: https://github.com/platipusica/jampy-posfixaliases
+    reason: <100 commits, 2 committers, bit quiet.
+  - name: shufti
+    repo_url: https://github.com/danboid/shufti
+    reason: <100 commits, 2 committers, bit quiet.
+  - name: PyLucid
+    repo_url: https://github.com/jedie/PyLucid
+    reason: Not sure if application enough. Says itself it's more of a distribution of django cms. Also, 1 contributor.
+  - name: pydoro
+    repo_url: https://github.com/JaDogg/pydoro
+    reason: good concept, but import error when I tried it.
+  - name: hanash
+    repo_url: https://github.com/Aboghazala/Hanash
+    reason: young (33 commits), quiet for its age (no commits for 3 months)

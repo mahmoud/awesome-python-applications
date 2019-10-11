@@ -5,13 +5,119 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-10-10T20:07:00Z</updated>
+  <updated>2019-10-11T06:21:49Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/jakubroztocil/httpie</id>
+    <title>httpie</title>
+    <link rel="alternate" type="text/html" href="https://github.com/jakubroztocil/httpie" />
+    <published>2019-10-10T23:15:00Z</published>
+    <updated>2019-10-10T23:15:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/jakubroztocil/httpie">httpie</a></strong>: Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/jakubroztocil/httpie'>Repo</a></li>
+        <li><a href='https://httpie.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/httpie'>PyPI</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/gtimelog/gtimelog</id>
+    <title>GTimeLog</title>
+    <link rel="alternate" type="text/html" href="https://github.com/gtimelog/gtimelog" />
+    <published>2019-10-10T23:15:00Z</published>
+    <updated>2019-10-10T23:15:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/gtimelog/gtimelog">GTimeLog</a></strong>: Desktop-based time tracker with support for logging billable/non-billable work.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/gtimelog/gtimelog'>Repo</a></li>
+        <li><a href='https://gtimelog.org/'>Home</a></li>
+        <li><a href='https://ko-fi.com/mgedmin'>Fund</a></li>
+        <li><a href='https://gtimelog.org/docs.html'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/pydoit/doit</id>
+    <title>doit</title>
+    <link rel="alternate" type="text/html" href="https://github.com/pydoit/doit" />
+    <published>2019-10-10T23:15:00Z</published>
+    <updated>2019-10-10T23:15:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/pydoit/doit">doit</a></strong>: Command-line task management and automation tool, with directives written in Python.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/pydoit/doit'>Repo</a></li>
+        <li><a href='https://pydoit.org/'>Home</a></li>
+        <li><a href='https://opencollective.com/doit'>Fund</a></li>
+        <li><a href='https://pydoit.org/contents.html'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/sloria/doitlive</id>
+    <title>doitlive</title>
+    <link rel="alternate" type="text/html" href="https://github.com/sloria/doitlive" />
+    <published>2019-10-10T23:15:00Z</published>
+    <updated>2019-10-10T23:15:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/sloria/doitlive">doitlive</a></strong>: Tool for live presentations in the terminal.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/sloria/doitlive'>Repo</a></li>
+        <li><a href='https://pypi.org/project/doitlive'>PyPI</a></li>
+        <li><a href='https://doitlive.readthedocs.io/'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/jhpyle/docassemble</id>
@@ -134,6 +240,33 @@
         <li><a href='https://github.com/conan-io/conan'>Repo</a></li>
         <li><a href='https://conan.io/'>Home</a></li>
         <li><a href='https://docs.conan.io/en/latest'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/privacyidea/privacyidea</id>
+    <title>privacyIDEA</title>
+    <link rel="alternate" type="text/html" href="https://github.com/privacyidea/privacyidea" />
+    <published>2019-10-06T20:15:00Z</published>
+    <updated>2019-10-06T20:15:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/privacyidea/privacyidea">privacyIDEA</a></strong>: A multi factor authentication server running on premises, supporting many different token types and allowing authentication via REST API, RADIUS, PAM, Windows Credential Provider, SAML, OpenID Connect.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/privacyidea/privacyidea'>Repo</a></li>
+        <li><a href='https://privacyidea.org/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/PrivacyIDEA'>WP</a></li>
+        <li><a href='https://privacyidea.readthedocs.io/'>Docs</a></li>
         
       </ul>
       </div>

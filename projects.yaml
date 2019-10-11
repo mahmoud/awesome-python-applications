@@ -3485,6 +3485,17 @@ projects:
 #
 # Dev
 #
+  - name: httpie
+    repo_url: https://github.com/jakubroztocil/httpie
+    pypi_url: https://pypi.org/project/httpie/
+    home_url: https://httpie.org/
+    desc: Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more.
+    tags: 
+      - dev
+      - internet
+      - linux
+      - windows
+      - mac
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/

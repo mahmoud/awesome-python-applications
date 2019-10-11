@@ -3814,3 +3814,14 @@ projects:
       - misc
       - linux
       - windows
+  - name: GTimeLog
+    home_url: https://gtimelog.org
+    docs_url: https://gtimelog.org/docs.html
+    repo_url: https://github.com/gtimelog/gtimelog
+    desc: Desktop-based time tracker with support for logging billable/non-billable work.
+    tags:
+      - organization
+      - productivity
+      - mac
+      - linux
+      - windows

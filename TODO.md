@@ -207,5 +207,10 @@ cxoompare to the APA.
 * https://github.com/GNOME/jhbuild
 * https://github.com/alcarithemad/zfsp
 * https://github.com/microcosm-cc/microweb
-* https://github.com/jhpyle/docassemble / https://docassemble.org/
-* https://github.com/VIDA-NYU/reprozip/graphs/contributors
+* https://github.com/VIDA-NYU/reprozip/
+* https://github.com/tldr-pages/tldr
+* https://github.com/whipper-team/whipper
+* https://github.com/zopefoundation/ZEO
+* https://github.com/manns/pyspread/
+* https://github.com/oaubert/advene
+* https://github.com/hynek/doc2dash

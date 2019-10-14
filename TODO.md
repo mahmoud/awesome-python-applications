@@ -214,3 +214,6 @@ cxoompare to the APA.
 * https://github.com/manns/pyspread/
 * https://github.com/oaubert/advene
 * https://github.com/hynek/doc2dash
+* https://github.com/VIDA-NYU/reprozip
+* https://github.com/fnielsen/scholia
+* https://github.com/intoli/exodus

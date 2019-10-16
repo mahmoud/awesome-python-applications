@@ -14,6 +14,34 @@
 
   
   <entry>
+    <id>https://github.com/saulpw/visidata</id>
+    <title>VisiData</title>
+    <link rel="alternate" type="text/html" href="https://github.com/saulpw/visidata" />
+    <published>2019-10-15T22:58:00Z</published>
+    <updated>2019-10-15T22:58:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/saulpw/visidata">VisiData</a></strong>: Interactive multitool for exploring, analyzing and converting datasets in the terminal.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/saulpw/visidata'>Repo</a></li>
+        <li><a href='https://visidata.org/'>Home</a></li>
+        <li><a href='https://patreon.com/saulpw'>Fund</a></li>
+        <li><a href='https://pypi.org/project/visidata'>PyPI</a></li>
+        <li><a href='https://visidata.org/docs'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
     <id>https://github.com/jakubroztocil/httpie</id>
     <title>httpie</title>
     <link rel="alternate" type="text/html" href="https://github.com/jakubroztocil/httpie" />

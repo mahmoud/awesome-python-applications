@@ -526,7 +526,7 @@ Projects related to software development and adjacent technical areas.
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 
   1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles. `(linux, gtk)`
-  1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/)) Home automation platform that puts local control and privacy first. `(linux)`
+  1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/), [Demo](https://demo.home-assistant.io/), [Docs](https://www.home-assistant.io/docs)) Home automation platform that puts local control and privacy first. `(linux)`
   1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger), [Home](https://m.me/J.A.R.V.I.S.on.Messenger)) Facebook Messenger bot with a wide assortment of features. `(server)`
   1. **NFO Viewer** - ([Repo](https://github.com/otsaloma/nfoview), [Home](https://otsaloma.io/nfoview)) A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks. `(graphics, linux, windows)`
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system. `(linux, windows, gtk)`

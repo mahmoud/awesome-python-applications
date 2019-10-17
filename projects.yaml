@@ -3753,6 +3753,8 @@ projects:
   - name: Home Assistant
     repo_url: https://github.com/home-assistant/home-assistant
     home_url: https://www.home-assistant.io/
+    demo_url: https://demo.home-assistant.io/
+    docs_url: https://www.home-assistant.io/docs
     date_added: 2018-12-15 23:13:00
     desc: Home automation platform that puts local control and privacy first.
     tags:

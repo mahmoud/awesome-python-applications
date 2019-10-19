@@ -110,7 +110,7 @@ mining a spent resource.
 
 This is hardly the first attempt to curate a list of Python
 software. Here are some other lists we've covered, and how they
-cxoompare to the APA.
+compare to the APA.
 
 * Wikipedia (https://en.wikipedia.org/wiki/List_of_Python_software)
    * No clear curation

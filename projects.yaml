@@ -152,6 +152,7 @@ projects:
       - tui
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
+    wp_url: https://en.wikipedia.org/wiki/Deluge_(software)
     home_url: https://deluge-torrent.org/
     fund_url: https://www.patreon.com/deluge_cas
     date_added: 2018-11-26 01:59:00
@@ -878,6 +879,7 @@ projects:
       - qt4
   - name: Lutris
     repo_url: https://github.com/lutris/lutris
+    wp_url: https://en.wikipedia.org/wiki/Lutris
     home_url: https://lutris.net/
     fund_url: https://www.patreon.com/lutris
     date_added: 2019-01-07 22:16:00
@@ -888,6 +890,7 @@ projects:
       - gtk
   - name: PyChess
     repo_url: https://github.com/pychess/pychess
+    wp_url: https://en.wikipedia.org/wiki/PyChess
     home_url: http://pychess.org/
     date_added: 2018-11-24 02:37:00
     desc: Advanced chess client, suitable for new, casual, and competitive play.
@@ -943,6 +946,7 @@ projects:
 #
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
+    wp_url: https://en.wikipedia.org/wiki/AutoKey
     pypi_url: https://pypi.org/project/autokey
     date_added: 2018-11-24 02:37:00
     desc: Desktop automation utility for Linux and X11.
@@ -1194,6 +1198,7 @@ projects:
       - server
   - name: Calibre
     repo_url: https://github.com/kovidgoyal/calibre
+    wp_url: https://en.wikipedia.org/wiki/Calibre_(software)
     home_url: https://calibre-ebook.com/
     fund_url: https://www.patreon.com/kovidgoyal
     date_added: 2018-11-24 02:37:00
@@ -3096,6 +3101,7 @@ projects:
       - qt5
   - name: Gedit
     repo_url: https://gitlab.gnome.org/GNOME/gedit
+    wp_url: https://en.wikipedia.org/wiki/Gedit
     date_added: 2018-11-26 01:59:00
     desc: The default GNOME text editor makes extensive use of Python, in addition to C.
     tags:
@@ -3105,6 +3111,7 @@ projects:
       - gtk
   - name: Jupyter Notebook
     repo_url: https://github.com/jupyter/notebook
+    wp_url: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook
     home_url: https://jupyter.org/
     date_added: 2018-11-26 01:59:00
     desc: Web-based, extensible notebook environment for interactive computing.
@@ -3115,6 +3122,7 @@ projects:
       - mac
   - name: Komodo Edit
     repo_url: https://github.com/Komodo/KomodoEdit
+    wp_url: https://en.wikipedia.org/wiki/Komodo_Edit
     home_url: https://www.activestate.com/products/komodo-edit
     date_added: 2018-11-26 01:59:00
     desc: Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
@@ -3127,6 +3135,7 @@ projects:
       - js
   - name: Leo Editor
     repo_url: https://github.com/leo-editor/leo-editor
+    wp_url: https://en.wikipedia.org/wiki/Leo_(text_editor)
     home_url: http://leoeditor.com/
     date_added: 2018-11-26 01:59:00
     desc: Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
@@ -3179,6 +3188,7 @@ projects:
       - linux
   - name: Spyder IDE
     repo_url: https://github.com/spyder-ide/spyder
+    wp_url: https://en.wikipedia.org/wiki/Spyder_(software)
     home_url: https://www.spyder-ide.org/
     date_added: 2018-11-26 01:59:00
     desc: Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.

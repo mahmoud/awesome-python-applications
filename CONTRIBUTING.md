@@ -156,7 +156,7 @@ around](https://github.com/mahmoud/awesome-python-applications/blob/master/TODO.
 following represent the goals of this list versus many others:
 
 1. More explicit criteria for inclusion
-2. Guaranteed qualititative review (peer review, etc.)
+2. Guaranteed qualitative review (peer review, etc.)
 3. Only applications, no frameworks or libraries
 4. Links, specifically repo link required, for automated quality control (dead links, dead projects)
 5. Human-readable docs, machine-readable structured data

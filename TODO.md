@@ -48,7 +48,7 @@ would help keep the list navigable.
   2. Push back rendered changes straight from CI so users don't need
      apatite installed.
   3. Automate maintenance of the dataset used to in the included
-     analysis notebook. (this is a doozy, will probaby involve
+     analysis notebook. (this is a doozy, will probably involve
      creating a huge, pre-warmed up container with 37GB+ repos for it
      to execute in reasonable time)
 

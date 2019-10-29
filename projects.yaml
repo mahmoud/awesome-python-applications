@@ -678,6 +678,15 @@ projects:
       - console
       - docker
       - hardware
+  - name: DrawBot
+    repo_url: https://github.com/typemytype/drawbot
+    home_url: http://www.drawbot.com/
+    date_added: 2019-10-18 15:28:00
+    desc: DrawBot is a powerful, free application for MacOSX that invites you to write simple Python scripts to generate two-dimensional graphics.
+    tags:
+      - graphics
+      - drawing
+      - learning
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
     fund_url: https://salt.bountysource.com/teams/freecad

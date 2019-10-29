@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(232)*
+1. <a href="#tag-desktop">Desktop</a> *(233)*
     1. <a href="#tag-desktop.linux">Linux</a> *(215)*
     1. <a href="#tag-desktop.windows">Windows</a> *(140)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(136)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(137)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -430,6 +430,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, windows, server, gtk)`
   1. **doit** - ([Repo](https://github.com/pydoit/doit), [Home](https://pydoit.org/), [Fund](https://opencollective.com/doit), [Docs](https://pydoit.org/contents.html)) Command-line task management and automation tool, with directives written in Python. `(build, linux, windows)`
   1. **doitlive** - ([Repo](https://github.com/sloria/doitlive), [PyPI](https://pypi.org/project/doitlive), [Docs](https://doitlive.readthedocs.io/)) Tool for live presentations in the terminal. `(dev, linux)`
+  1. **DrawBot** - ([Repo](https://github.com/typemytype/drawbot), [Home](http://www.drawbot.com/), [WP](https://en.wikipedia.org/wiki/DrawBot)) A powerful programmatic 2D drawing application for MacOS X which generates graphics from Python scripts. `(graphics, education, dev)`
   1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, linux, windows)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, windows)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, linux, windows)`

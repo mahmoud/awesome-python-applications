@@ -5,13 +5,38 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-10-17T17:01:53Z</updated>
+  <updated>2019-10-29T16:30:15Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/apache/airflow</id>
+    <title>Airflow</title>
+    <link rel="alternate" type="text/html" href="https://github.com/apache/airflow" />
+    <published>2019-10-22T07:00:00Z</published>
+    <updated>2019-10-22T07:00:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/apache/airflow">Airflow</a></strong>: A platform to programmatically author, schedule and monitor workflows.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/apache/airflow'>Repo</a></li>
+        <li><a href='https://airflow.apache.org/'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/jakubroztocil/httpie</id>
@@ -4438,6 +4463,7 @@
       <ul>
         <li><a href='https://github.com/lutris/lutris'>Repo</a></li>
         <li><a href='https://lutris.net/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Lutris'>WP</a></li>
         <li><a href='https://www.patreon.com/lutris'>Fund</a></li>
         
       </ul>
@@ -5607,6 +5633,7 @@
       <ul>
         <li><a href='https://github.com/deluge-torrent/deluge'>Repo</a></li>
         <li><a href='https://deluge-torrent.org/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Deluge_%28software%29'>WP</a></li>
         <li><a href='https://www.patreon.com/deluge_cas'>Fund</a></li>
         
       </ul>
@@ -6829,6 +6856,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://gitlab.gnome.org/GNOME/gedit'>Repo</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Gedit'>WP</a></li>
         
       </ul>
       </div>
@@ -6854,6 +6882,7 @@
       <ul>
         <li><a href='https://github.com/jupyter/notebook'>Repo</a></li>
         <li><a href='https://jupyter.org/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook'>WP</a></li>
         
       </ul>
       </div>
@@ -6879,6 +6908,7 @@
       <ul>
         <li><a href='https://github.com/Komodo/KomodoEdit'>Repo</a></li>
         <li><a href='https://www.activestate.com/products/komodo-edit'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Komodo_Edit'>WP</a></li>
         
       </ul>
       </div>
@@ -6904,6 +6934,7 @@
       <ul>
         <li><a href='https://github.com/leo-editor/leo-editor'>Repo</a></li>
         <li><a href='http://leoeditor.com/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Leo_%28text_editor%29'>WP</a></li>
         
       </ul>
       </div>
@@ -6979,6 +7010,7 @@
       <ul>
         <li><a href='https://github.com/spyder-ide/spyder'>Repo</a></li>
         <li><a href='https://www.spyder-ide.org/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Spyder_%28software%29'>WP</a></li>
         
       </ul>
       </div>
@@ -8247,6 +8279,7 @@
       <ul>
         <li><a href='https://github.com/pychess/pychess'>Repo</a></li>
         <li><a href='http://pychess.org/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/PyChess'>WP</a></li>
         
       </ul>
       </div>
@@ -8322,6 +8355,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/autokey/autokey'>Repo</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/AutoKey'>WP</a></li>
         <li><a href='https://pypi.org/project/autokey'>PyPI</a></li>
         
       </ul>
@@ -8498,6 +8532,7 @@
       <ul>
         <li><a href='https://github.com/kovidgoyal/calibre'>Repo</a></li>
         <li><a href='https://calibre-ebook.com/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Calibre_%28software%29'>WP</a></li>
         <li><a href='https://www.patreon.com/kovidgoyal'>Fund</a></li>
         
       </ul>

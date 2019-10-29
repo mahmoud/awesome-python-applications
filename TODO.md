@@ -48,7 +48,7 @@ would help keep the list navigable.
   2. Push back rendered changes straight from CI so users don't need
      apatite installed.
   3. Automate maintenance of the dataset used to in the included
-     analysis notebook. (this is a doozy, will probaby involve
+     analysis notebook. (this is a doozy, will probably involve
      creating a huge, pre-warmed up container with 37GB+ repos for it
      to execute in reasonable time)
 
@@ -110,7 +110,7 @@ mining a spent resource.
 
 This is hardly the first attempt to curate a list of Python
 software. Here are some other lists we've covered, and how they
-cxoompare to the APA.
+compare to the APA.
 
 * Wikipedia (https://en.wikipedia.org/wiki/List_of_Python_software)
    * No clear curation
@@ -217,3 +217,4 @@ cxoompare to the APA.
 * https://github.com/VIDA-NYU/reprozip
 * https://github.com/fnielsen/scholia
 * https://github.com/intoli/exodus
+* https://github.com/burningmantech/ranger-ims-server

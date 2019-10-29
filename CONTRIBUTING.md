@@ -130,6 +130,8 @@ Additional soft criteria that have proven useful in curating the list:
 * Technologies and hype alone do not make an application
   awesome. Value provided to a userbase are far more important to the
   spirit of the list.
+* Good candidates should generally not exist solely to demonstrate an
+  underlying technology.
 
 ### What is an application?
 
@@ -156,7 +158,7 @@ around](https://github.com/mahmoud/awesome-python-applications/blob/master/TODO.
 following represent the goals of this list versus many others:
 
 1. More explicit criteria for inclusion
-2. Guaranteed qualititative review (peer review, etc.)
+2. Guaranteed qualitative review (peer review, etc.)
 3. Only applications, no frameworks or libraries
 4. Links, specifically repo link required, for automated quality control (dead links, dead projects)
 5. Human-readable docs, machine-readable structured data

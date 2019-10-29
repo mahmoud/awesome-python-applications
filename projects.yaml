@@ -2611,6 +2611,18 @@ projects:
 #
 # Ops
 #
+  - name: Airflow
+    repo_url: https://github.com/apache/airflow
+    home_url: https://airflow.apache.org/
+    docs_url: https://airflow.apache.org/
+    date_added: 2019-10-22 07:00:00
+    desc: A platform to programmatically author, schedule and monitor workflows.
+    tags:
+      - ops
+      - linux
+      - server
+      - flask
+      - corp
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     home_url: https://www.ansible.com/

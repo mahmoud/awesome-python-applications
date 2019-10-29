@@ -217,3 +217,4 @@ compare to the APA.
 * https://github.com/VIDA-NYU/reprozip
 * https://github.com/fnielsen/scholia
 * https://github.com/intoli/exodus
+* https://github.com/burningmantech/ranger-ims-server

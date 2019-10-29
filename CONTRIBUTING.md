@@ -130,6 +130,8 @@ Additional soft criteria that have proven useful in curating the list:
 * Technologies and hype alone do not make an application
   awesome. Value provided to a userbase are far more important to the
   spirit of the list.
+* Good candidates should generally not exist solely to demonstrate an
+  underlying technology.
 
 ### What is an application?
 

@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-10-29T16:47:35Z</updated>
+  <updated>2019-10-29T17:01:20Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -14,7 +14,34 @@
 
   
   <entry>
+    <id>https://github.com/saulpw/visidata</id>
+    <title>VisiData</title>
+    <link rel="alternate" type="text/html" href="https://github.com/saulpw/visidata" />
+    <published>2019-10-29T10:00:00Z</published>
+    <updated>2019-10-29T10:00:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/saulpw/visidata">VisiData</a></strong>: Interactive multitool for exploring, analyzing, and converting datasets in the terminal.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/saulpw/visidata'>Repo</a></li>
+        <li><a href='https://visidata.org/'>Home</a></li>
+        <li><a href='https://patreon.com/saulpw'>Fund</a></li>
+        <li><a href='https://pypi.org/project/visidata'>PyPI</a></li>
+        <li><a href='https://visidata.org/docs'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
     <id>https://github.com/apache/airflow</id>
     <title>Airflow</title>
     <link rel="alternate" type="text/html" href="https://github.com/apache/airflow" />

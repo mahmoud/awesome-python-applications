@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **372**
+This document is an always-growing list of **373**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(31)*
+1. <a href="#tag-internet">Internet</a> *(32)*
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(19)*
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(158)*
+1. <a href="#tag-dev">Dev</a> *(159)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(13)*
     1. <a href="#tag-dev.ops">Ops</a> *(26)*
-    1. <a href="#tag-dev.security">Security</a> *(23)*
+    1. <a href="#tag-dev.security">Security</a> *(24)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(9)*
@@ -72,6 +72,7 @@ thereof), see Architectures. -->
   1. **Elixire** - ([Repo](https://gitlab.com/elixire/elixire), [Home](https://elixi.re/), [Docs](https://gitlab.com/elixire/api-docs)) Featureful file host and link shortener with API and support for multiple vanity urls. `(server)`
   1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Demo](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look. `(server)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
+  1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(security, linux, windows, mac)`
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(dev, linux, windows, mac)`
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
@@ -411,6 +412,7 @@ Projects related to software development and adjacent technical areas.
   1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE), [Demo](https://cape.contextis.com/submit)) Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts. `(server)`
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server, corp)`
   1. **GRR Rapid Response** - ([Repo](https://github.com/google/grr), [Docs](https://grr-doc.readthedocs.io/en/latest)) Server-agent system focused on remote live forensics for quick, browser-based triage and analysis of attacks on fleets of machines, with agent support for Linux, Windows, and OS X. `(server, corp)`
+  1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, linux, windows, mac)`
   1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(linux, windows, corp)`
   1. **Infection Monkey** - ([Repo](https://github.com/guardicore/monkey), [Home](https://www.guardicore.com/infectionmonkey), [Docs](https://github.com/guardicore/monkey/wiki)) Web-based tool for testing a datacenter's resiliency to perimeter breaches and internal server infection. `(server)`
   1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application. `(linux, windows, server)`

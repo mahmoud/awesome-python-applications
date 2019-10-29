@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(233)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(215)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(140)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(137)*
+1. <a href="#tag-desktop">Desktop</a> *(234)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(216)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(141)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(138)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -119,6 +119,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, mac, docker, snap)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, windows, mac)`
   1. **Home Assistant** - ([Repo](https://github.com/home-assistant/home-assistant), [Home](https://www.home-assistant.io/), [Demo](https://demo.home-assistant.io/), [Docs](https://www.home-assistant.io/docs)) Home automation platform that puts local control and privacy first. `(misc)`
+  1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, security, windows, mac)`
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(internet, dev, windows, mac)`
   1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, windows, corp)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, windows, mac)`
@@ -316,6 +317,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **GTimeLog** - ([Repo](https://github.com/gtimelog/gtimelog), [Home](https://gtimelog.org/), [Fund](https://ko-fi.com/mgedmin), [Docs](https://gtimelog.org/docs.html)) Desktop-based time tracker with support for logging billable/non-billable work. `(productivity, organization, linux, mac)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, mac)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, mac)`
+  1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, security, linux, mac)`
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(internet, dev, linux, mac)`
   1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe. `(security, linux, corp)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, linux, mac)`
@@ -458,6 +460,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(build, linux, windows)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, docker, snap)`
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents. `(organization, linux, windows)`
+  1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, security, linux, windows)`
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(internet, dev, linux, windows)`
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, linux, windows)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, linux, windows, gtk)`

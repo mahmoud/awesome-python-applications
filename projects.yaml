@@ -197,12 +197,13 @@ projects:
   - name: hosts
     repo_url: https://github.com/StevenBlack/hosts
     date_added: 2019-10-18 14:45:00
-    desc: To consolidate several reputable hosts files, and merges them into a unified hosts file with duplicates removed for the purpose of blocking undesirable websites via DNS blackhole. One can optionally invoke extensions to block additional sites by category.
+    desc: Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole.
     tags:
       - internet
+      - security
       - linux
+      - windows
       - mac
-      - server
   - name: httpie
     repo_url: https://github.com/jakubroztocil/httpie
     home_url: https://httpie.org/

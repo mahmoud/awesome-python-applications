@@ -15,6 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
+
 This document is an always-growing list of **373**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
@@ -38,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(19)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(21)*
+1. <a href="#tag-productivity">Productivity</a> *(22)*
 1. <a href="#tag-organization">Organization</a> *(36)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
@@ -183,6 +184,7 @@ thereof), see Architectures. -->
   1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
   1. **Sunflower** - ([Repo](https://github.com/MeanEYE/Sunflower), [Home](http://sunflower-fm.org/)) Small and highly-customizable twin-panel file manager for Linux with plugin support. `(linux)`
   1. **Superset** - ([Repo](https://github.com/apache/incubator-superset), [Docs](http://superset.apache.org/)) Data exploration, visualization, and business intelligence web application. `(server)`
+  1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing and converting datasets in the terminal. `(linux, mac, tui)`
   1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(linux, mac)`
   1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
 

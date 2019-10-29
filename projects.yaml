@@ -1157,6 +1157,19 @@ projects:
     tags:
       - productivity
       - server
+  - name: VisiData
+    repo_url: https://github.com/saulpw/visidata
+    home_url: https://visidata.org/
+    docs_url: https://visidata.org/docs
+    fund_url: https://patreon.com/saulpw
+    pypi_url: https://pypi.org/project/visidata
+    date_added: 2019-10-15 22:58:00
+    desc: Interactive multitool for exploring, analyzing and converting datasets in the terminal.
+    tags:
+      - productivity
+      - linux
+      - mac
+      - tui
   - name: Vorta
     repo_url: https://github.com/borgbase/vorta
     home_url: https://vorta.borgbase.com/

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **374**
+This document is an always-growing list of **375**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -36,7 +36,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-internet">Internet</a> *(32)*
 1. <a href="#tag-audio">Audio</a> *(16)*
 1. <a href="#tag-video">Video</a> *(7)*
-1. <a href="#tag-graphics">Graphics</a> *(19)*
+1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(22)*
 1. <a href="#tag-organization">Organization</a> *(36)*
@@ -130,6 +130,7 @@ thereof), see Architectures. -->
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(console, docker, hardware)`
+  1. **Cura** - ([Repo](https://github.com/Ultimaker/Cura), [Home](https://ultimaker.com/software/ultimaker-cura), [WP](https://en.wikipedia.org/wiki/Cura_%28software%29), [Docs](https://ultimaker.com/en/resources/manuals/software)) Popular desktop software for preparation and control of 3D printing, integrated with CAD workflows. `(linux, windows, mac, corp, hardware)`
   1. **DrawBot** - ([Repo](https://github.com/typemytype/drawbot), [Home](http://www.drawbot.com/), [WP](https://en.wikipedia.org/wiki/DrawBot)) A powerful programmatic 2D drawing application for MacOS X which generates graphics from Python scripts. `(education, dev, mac)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD), [Fund](https://salt.bountysource.com/teams/freecad)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(linux, windows, mac, cpp, qt)`
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(docs, linux, windows, mac, flatpak, gtk)`

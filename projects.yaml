@@ -688,6 +688,20 @@ projects:
       - console
       - docker
       - hardware
+  - name: Cura
+    repo_url: https://github.com/Ultimaker/Cura
+    home_url: https://ultimaker.com/software/ultimaker-cura
+    docs_url: https://ultimaker.com/en/resources/manuals/software
+    wp_url: https://en.wikipedia.org/wiki/Cura_%28software%29
+    date_added: 2019-10-29 17:37:00
+    desc: Popular desktop software for preparation and control of 3D printing, integrated with CAD workflows.
+    tags:
+      - graphics
+      - linux
+      - windows
+      - mac
+      - corp
+      - hardware
   - name: DrawBot
     repo_url: https://github.com/typemytype/drawbot
     home_url: http://www.drawbot.com/

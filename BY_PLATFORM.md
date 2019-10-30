@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(236)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(218)*
+1. <a href="#tag-desktop">Desktop</a> *(237)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(219)*
     1. <a href="#tag-desktop.windows">Windows</a> *(142)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(140)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(141)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -149,6 +149,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness. `(build, windows, mac)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(productivity, windows, mac, wx)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(security, windows, mac)`
+  1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(organization, dev, mac, corp)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, windows, mac, qt5)`
   1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(science, windows, mac, gov)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, windows, mac, qt5)`
@@ -485,6 +486,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness. `(build, linux, windows)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(productivity, linux, windows, wx)`
   1. **MITMproxy** - ([Repo](https://github.com/mitmproxy/mitmproxy), [Home](https://mitmproxy.org/)) Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. `(security, linux, windows)`
+  1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(organization, dev, linux, corp)`
   1. **Mnemosyne** - ([Repo](https://github.com/mnemosyne-proj/mnemosyne), [Home](https://mnemosyne-proj.org/)) Spaced-repetition flashcard program for efficient memorization. `(education, linux, windows, qt5)`
   1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data. `(science, linux, windows, gov)`
   1. **mu** - ([Repo](https://github.com/mu-editor/mu), [Home](https://codewith.mu/en)) A small, simple editor designed for beginner Python programmers. `(editor, linux, windows, qt5)`

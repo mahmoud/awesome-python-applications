@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-10-30T00:37:14Z</updated>
+  <updated>2019-10-30T00:46:50Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/mlflow/mlflow</id>
+    <title>MLflow</title>
+    <link rel="alternate" type="text/html" href="https://github.com/mlflow/mlflow" />
+    <published>2019-10-29T17:46:00Z</published>
+    <updated>2019-10-29T17:46:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/mlflow/mlflow">MLflow</a></strong>: Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html).</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/mlflow/mlflow'>Repo</a></li>
+        <li><a href='https://mlflow.org/'>Home</a></li>
+        <li><a href='https://mlflow.org/docs/latest/index.html'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/Ultimaker/Cura</id>

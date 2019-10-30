@@ -1408,6 +1408,18 @@ projects:
     tags:
       - organization
       - server
+  - name: MLflow
+    repo_url: https://github.com/mlflow/mlflow
+    home_url: https://mlflow.org/
+    docs_url: https://mlflow.org/docs/latest/index.html
+    date_added: 2019-10-29 17:46:00
+    desc: Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html).
+    tags:
+      - organization
+      - dev
+      - linux
+      - mac
+      - corp
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/

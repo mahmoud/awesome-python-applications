@@ -3866,6 +3866,20 @@ projects:
     tags:
       - misc
       - linux
+  - name: Nuxeo Drive
+    repo_url: https://github.com/nuxeo/nuxeo-drive
+    docs_url: https://doc.nuxeo.com/client-apps/nuxeo-drive/
+    home_url: https://www.nuxeo.com/products/drive-desktop-sync/
+    date_added: 2019-10-31 20:21:00
+    desc: Cross-platform desktop synchronization client for the Nuxeo platform.
+    tags:
+      - appimage
+      - console
+      - lgpl
+      - linux
+      - mac
+      - qt5
+      - windows
   - name: OpenLP
     repo_url: https://code.launchpad.net/openlp
     home_url: https://openlp.org/

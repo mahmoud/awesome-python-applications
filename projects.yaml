@@ -2836,16 +2836,6 @@ projects:
       - ops
       - server
       - corp
-  - name: OpsMop
-    repo_url: https://github.com/opsmop/opsmop
-    home_url: https://opsmop.io/
-    docs_url: https://docs.opsmop.io/
-    date_added: 2019-01-23 09:56:00
-    desc: Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency.
-    tags:
-      - ops
-      - linux
-      - mac
   - name: Pulp
     repo_url: https://github.com/pulp/pulp
     home_url: https://pulpproject.org/

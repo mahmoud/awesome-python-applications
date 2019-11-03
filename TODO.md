@@ -218,3 +218,5 @@ compare to the APA.
 * https://github.com/fnielsen/scholia
 * https://github.com/intoli/exodus
 * https://github.com/burningmantech/ranger-ims-server
+* https://github.com/psincraian/pepy
+* https://github.com/crflynn/pypistats.org

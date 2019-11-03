@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(237)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(219)*
+1. <a href="#tag-desktop">Desktop</a> *(236)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(218)*
     1. <a href="#tag-desktop.windows">Windows</a> *(142)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(141)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(140)*
     1. <a href="#tag-desktop.console">Console</a> *(19)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -177,7 +177,6 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenLP** - ([Repo](https://code.launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, windows, mac, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot), [Fund](https://www.patreon.com/openshot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, windows, mac, qt5)`
   1. **OpenSnitch** - ([Repo](https://github.com/evilsocket/opensnitch), [Home](https://opensnitch.io/)) GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall. `(security, qt5)`
-  1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(ops, mac)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_%28software%29)) Component-based data mining software for graphical interactive data analysis and visualization. `(science, windows, mac, qt4, qt5)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, mac, corp)`
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(organization, windows, gtk)`
@@ -505,7 +504,6 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, docker)`
   1. **OpenLP** - ([Repo](https://code.launchpad.net/openlp), [Home](https://openlp.org/)) Presentation software geared toward church usage. `(misc, linux, windows, qt5)`
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot), [Fund](https://www.patreon.com/openshot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, linux, windows, qt5)`
-  1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(ops, linux)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_%28software%29)) Component-based data mining software for graphical interactive data analysis and visualization. `(science, linux, windows, qt4, qt5)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, linux, corp)`
   1. **PathPicker** - ([Repo](https://github.com/facebook/PathPicker), [Home](http://facebook.github.io/PathPicker)) Shell utility to interactively select paths from the output of other commands. `(dev, linux)`

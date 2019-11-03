@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **376**
+This document is an always-growing list of **375**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,11 +46,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(160)*
+1. <a href="#tag-dev">Dev</a> *(159)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(13)*
-    1. <a href="#tag-dev.ops">Ops</a> *(26)*
+    1. <a href="#tag-dev.ops">Ops</a> *(25)*
     1. <a href="#tag-dev.security">Security</a> *(24)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
@@ -400,7 +400,6 @@ Projects related to software development and adjacent technical areas.
   1. **nsupdate.info** - ([Repo](https://github.com/nsupdate-info/nsupdate.info), [PyPI](https://pypi.org/project/nsupdate), [Docs](https://nsupdateinfo.readthedocs.io/en/latest)) Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers. `(internet, server)`
   1. **Oncall** - ([Repo](https://github.com/linkedin/oncall), [Home](https://oncall.tools/)) Calendar tool designed for on-call management and scheduling, developed by and used at LinkedIn. `(server, corp)`
   1. **OpenStack** - ([Repo](https://github.com/openstack/openstack), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
-  1. **OpsMop** - ([Repo](https://github.com/opsmop/opsmop), [Home](https://opsmop.io/), [Docs](https://docs.opsmop.io/)) Agentless distributed SSH control plane, with a focus on runtime performance and developer efficiency. `(linux, mac)`
   1. **Pulp** - ([Repo](https://github.com/pulp/pulp), [Home](https://pulpproject.org/), [Docs](https://docs.pulpproject.org/en/3.0/nightly)) Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat. `(server)`
   1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/latest)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office. `(server, django)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`

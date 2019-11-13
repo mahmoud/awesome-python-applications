@@ -1103,6 +1103,22 @@ projects:
       - windows
       - mac
       - wx
+  - name: Nuxeo Drive
+    repo_url: https://github.com/nuxeo/nuxeo-drive
+    home_url: https://www.nuxeo.com/products/drive-desktop-sync
+    docs_url: https://doc.nuxeo.com/client-apps/nuxeo-drive
+    date_added: 2019-10-31 20:21:00
+    desc: Cross-platform desktop synchronization client for the Nuxeo platform.
+    tags:
+      - productivity
+      - storage
+      - linux
+      - windows
+      - mac
+      - console
+      - appimage
+      - lgpl
+      - qt5
   - name: nvda
     repo_url: https://github.com/nvaccess/nvda
     home_url: https://www.nvaccess.org/
@@ -3319,6 +3335,15 @@ projects:
       - linux
       - windows
       - mac
+  - name: pip-tools
+    repo_url: https://github.com/jazzband/pip-tools
+    date_added: 2019-11-13 09:43:00
+    desc: A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.
+    tags:
+      - pkg_mgr
+      - linux
+      - windows
+      - mac
   - name: pipenv
     repo_url: https://github.com/pypa/pipenv
     docs_url: https://pipenv.readthedocs.io/en/latest
@@ -3367,15 +3392,6 @@ projects:
       - pkg_mgr
       - linux
       - corp
-  - name: pip-tools
-    repo_url: https://github.com/jazzband/pip-tools
-    home_url: https://github.com/jazzband/pip-tools
-    desc: A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.
-    tags:
-      - pkg_mgr
-      - linux
-      - windows
-      - mac
 #
 # Pkg_Repo
 #
@@ -3865,20 +3881,6 @@ projects:
     tags:
       - misc
       - linux
-  - name: Nuxeo Drive
-    repo_url: https://github.com/nuxeo/nuxeo-drive
-    docs_url: https://doc.nuxeo.com/client-apps/nuxeo-drive/
-    home_url: https://www.nuxeo.com/products/drive-desktop-sync/
-    date_added: 2019-10-31 20:21:00
-    desc: Cross-platform desktop synchronization client for the Nuxeo platform.
-    tags:
-      - appimage
-      - console
-      - lgpl
-      - linux
-      - mac
-      - qt5
-      - windows
   - name: OpenLP
     repo_url: https://code.launchpad.net/openlp
     home_url: https://openlp.org/

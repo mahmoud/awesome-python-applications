@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **375**
+This document is an always-growing list of **377**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(22)*
+1. <a href="#tag-productivity">Productivity</a> *(23)*
 1. <a href="#tag-organization">Organization</a> *(37)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
@@ -46,15 +46,15 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(159)*
+1. <a href="#tag-dev">Dev</a> *(161)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(13)*
+    1. <a href="#tag-dev.storage">Storage</a> *(14)*
     1. <a href="#tag-dev.ops">Ops</a> *(25)*
     1. <a href="#tag-dev.security">Security</a> *(24)*
     1. <a href="#tag-dev.docs">Docs</a> *(6)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
-    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(9)*
+    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
     1. <a href="#tag-dev.build">Build</a> *(12)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
@@ -177,6 +177,7 @@ thereof), see Architectures. -->
   1. **Kibitzr** - ([Repo](https://github.com/kibitzr/kibitzr), [Home](https://kibitzr.github.io/), [PyPI](https://pypi.org/project/kibitzr), [Docs](https://kibitzr.readthedocs.io/)) Self-hosted personal assistant server for automating routine tasks. `(server)`
   1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications. `(linux, mac)`
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`
+  1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(storage, linux, windows, mac, console, appimage, lgpl, qt5)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(linux, windows, mac, hardware, qt5)`
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(security, server)`
@@ -373,6 +374,7 @@ Projects related to software development and adjacent technical areas.
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(server)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, linux, windows, mac)`
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends. `(server)`
+  1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(productivity, linux, windows, mac, console, appimage, lgpl, qt5)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`
   1. **s3ql** - ([Repo](https://github.com/s3ql/s3ql), [Docs](http://www.rath.org/s3ql-docs/index.html)) A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more. `(linux)`
   1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system. `(server)`
@@ -465,6 +467,7 @@ Projects related to software development and adjacent technical areas.
   1. **Conda** - ([Repo](https://github.com/conda/conda), [Home](https://conda.io/), [WP](https://en.wikipedia.org/wiki/Conda_%28package_manager%29)) OS-agnostic, system-level binary package manager and ecosystem, with a focus on Python and high-performance scientific computing. `(linux, windows, mac, corp)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(linux, corp)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29), [PyPI](https://pypi.org/project/pip)) Python's go-to package manager, with a wide range of features and platform support. `(linux, windows, mac)`
+  1. **pip-tools** - ([Repo](https://github.com/jazzband/pip-tools)) A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them. `(linux, windows, mac)`
   1. **pipenv** - ([Repo](https://github.com/pypa/pipenv), [Docs](https://pipenv.readthedocs.io/en/latest)) Wrapper around `pip`, [`virtualenv`](https://github.com/pypa/virtualenv), and [`pip-tools`](https://github.com/jazzband/pip-tools) for a more holistic package management workflow. `(linux, windows, mac)`
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(linux, windows, mac)`
   1. **Portage** - ([Repo](https://gitweb.gentoo.org/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_%28software%29)) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(linux)`

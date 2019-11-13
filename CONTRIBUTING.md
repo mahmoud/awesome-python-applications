@@ -69,7 +69,9 @@ possible. Some common forms:
 * `pypi_url` - A link to the PyPI project page when the project has
   one. (most applications do not; PyPI is primarily for libraries)
 
-Other keys of the form `*_url` will also be handled automatically.
+Other keys of the form `*_url` will also be handled
+automatically. There's rarely a reason to include the same URL under
+multiple keys, so just pick the closest one.
 
 #### Tags
 

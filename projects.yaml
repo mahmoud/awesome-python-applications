@@ -3367,6 +3367,15 @@ projects:
       - pkg_mgr
       - linux
       - corp
+  - name: pip-tools
+    repo_url: https://github.com/jazzband/pip-tools
+    home_url: https://github.com/jazzband/pip-tools
+    desc: A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.
+    tags:
+      - pkg_mgr
+      - linux
+      - windows
+      - mac
 #
 # Pkg_Repo
 #

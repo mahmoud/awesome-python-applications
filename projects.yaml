@@ -1171,6 +1171,17 @@ projects:
       - productivity
       - server
       - flask
+  - name: ReproZip
+    repo_url: https://github.com/VIDA-NYU/reprozip
+    home_url: https://www.reprozip.org/
+    demo_url: https://examples.reprozip.org/
+    docs_url: https://docs.reprozip.org/
+    date_added: 2019-11-13 10:04:00
+    desc: Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science.
+    tags:
+      - productivity
+      - science
+      - linux
   - name: Sunflower
     repo_url: https://github.com/MeanEYE/Sunflower
     home_url: http://sunflower-fm.org/

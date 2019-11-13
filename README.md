@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **379**
+This document is an always-growing list of **380**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,11 +38,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(23)*
+1. <a href="#tag-productivity">Productivity</a> *(24)*
 1. <a href="#tag-organization">Organization</a> *(37)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
-1. <a href="#tag-science">Science</a> *(20)*
+1. <a href="#tag-science">Science</a> *(21)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
@@ -183,6 +183,7 @@ thereof), see Architectures. -->
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(security, server)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(linux, tui)`
   1. **Redash** - ([Repo](https://github.com/getredash/redash), [Home](https://redash.io/)) Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others. `(server, flask)`
+  1. **ReproZip** - ([Repo](https://github.com/VIDA-NYU/reprozip), [Home](https://www.reprozip.org/), [Demo](https://examples.reprozip.org/), [Docs](https://docs.reprozip.org/)) Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science. `(science, linux)`
   1. **Sunflower** - ([Repo](https://github.com/MeanEYE/Sunflower), [Home](http://sunflower-fm.org/)) Small and highly-customizable twin-panel file manager for Linux with plugin support. `(linux)`
   1. **Superset** - ([Repo](https://github.com/apache/incubator-superset), [Docs](http://superset.apache.org/)) Data exploration, visualization, and business intelligence web application. `(server)`
   1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing, and converting datasets in the terminal. `(linux, mac, tui)`
@@ -294,6 +295,7 @@ thereof), see Architectures. -->
   1. **OPEM** - ([Repo](https://github.com/ECSIM/opem), [Docs](https://www.ecsim.ir/opem/doc)) A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell). `(linux, windows, mac)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_%28software%29)) Component-based data mining software for graphical interactive data analysis and visualization. `(linux, windows, mac, qt4, qt5)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`
+  1. **ReproZip** - ([Repo](https://github.com/VIDA-NYU/reprozip), [Home](https://www.reprozip.org/), [Demo](https://examples.reprozip.org/), [Docs](https://docs.reprozip.org/)) Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science. `(productivity, linux)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(linux, windows, mac, wx)`
   1. **Taguette** - ([Repo](https://gitlab.com/remram44/taguette), [Home](https://www.taguette.org/), [gh](https://github.com/remram44/taguette), [PyPI](https://pypi.org/project/taguette), [Docs](https://www.taguette.org/getting-started.html)) Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats. `(server)`

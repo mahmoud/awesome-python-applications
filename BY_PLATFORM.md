@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(240)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(222)*
+1. <a href="#tag-desktop">Desktop</a> *(241)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(223)*
     1. <a href="#tag-desktop.windows">Windows</a> *(144)*
     1. <a href="#tag-desktop.mac">Mac</a> *(142)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -219,6 +219,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(dev, gtk)`
   1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(organization, windows, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, windows, mac, console)`
+  1. **ReproZip** - ([Repo](https://github.com/VIDA-NYU/reprozip), [Home](https://www.reprozip.org/), [Demo](https://examples.reprozip.org/), [Docs](https://docs.reprozip.org/)) Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science. `(productivity, science)`
   1. **ReText** - ([Repo](https://github.com/retext-project/retext), [PyPI](https://pypi.org/project/ReText), [Docs](https://github.com/retext-project/retext/wiki)) Simple but powerful editor for Markdown and reStructuredText markup languages. `(editor)`
   1. **s3ql** - ([Repo](https://github.com/s3ql/s3ql), [Docs](http://www.rath.org/s3ql-docs/index.html)) A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more. `(storage)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, windows, mac, server)`

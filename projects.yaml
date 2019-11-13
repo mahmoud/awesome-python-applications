@@ -2689,6 +2689,13 @@ projects:
     tags:
       - storage
       - linux
+  - name: ZFSp
+    repo_url: https://github.com/alcarithemad/zfsp
+    date_added: 2019-11-13 09:59:00
+    desc: A reverse-engineered [ZFS](https://en.wikipedia.org/wiki/ZFS) implementation, written in Python, without reading the original C.
+    tags:
+      - storage
+      - linux
 #
 # Ops
 #

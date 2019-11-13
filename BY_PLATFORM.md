@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(239)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(221)*
+1. <a href="#tag-desktop">Desktop</a> *(240)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(222)*
     1. <a href="#tag-desktop.windows">Windows</a> *(144)*
     1. <a href="#tag-desktop.mac">Mac</a> *(142)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -264,6 +264,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_%28software%29)) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.). `(pkg_mgr, corp)`
   1. **YunoHost** - ([Repo](https://github.com/YunoHost/yunohost), [Home](https://yunohost.org/), [Docs](https://yunohost.org/#/docs)) Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware. `(dev, server)`
   1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest)) Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(internet, windows, mac)`
+  1. **ZFSp** - ([Repo](https://github.com/alcarithemad/zfsp)) A reverse-engineered [ZFS](https://en.wikipedia.org/wiki/ZFS) implementation, written in Python, without reading the original C. `(storage)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(organization, windows, gtk)`
 
 ### <a id="tag-desktop.windows" href="#tag-desktop.windows">Windows</a>

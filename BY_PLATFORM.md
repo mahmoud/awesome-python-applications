@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(238)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(220)*
+1. <a href="#tag-desktop">Desktop</a> *(239)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(221)*
     1. <a href="#tag-desktop.windows">Windows</a> *(144)*
     1. <a href="#tag-desktop.mac">Mac</a> *(142)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -126,6 +126,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll). `(static_site, windows, mac)`
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(organization)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(science, windows, mac, gtk)`
+  1. **JHBuild** - ([Repo](https://gitlab.gnome.org/GNOME/jhbuild), [Home](https://wiki.gnome.org/Projects/Jhbuild), [gh](https://github.com/GNOME/jhbuild), [Docs](https://developer.gnome.org/jhbuild/stable/getting-started.html.en)) Tool designed to ease building collections of packages, originally written to build the GNOME desktop from sources. `(build)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(organization, windows, mac, homebrew)`
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/), [WP](https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook)) Web-based, extensible notebook environment for interactive computing. `(editor, windows, mac)`
   1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application. `(security, windows, server)`

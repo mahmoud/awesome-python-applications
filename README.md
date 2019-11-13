@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **377**
+This document is an always-growing list of **378**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(161)*
+1. <a href="#tag-dev">Dev</a> *(162)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(14)*
@@ -56,7 +56,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
-    1. <a href="#tag-dev.build">Build</a> *(12)*
+    1. <a href="#tag-dev.build">Build</a> *(13)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a> *(30)*
 1. <a href="#tag-misc">Misc</a> *(12)*
@@ -489,6 +489,7 @@ Projects related to software development and adjacent technical areas.
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(linux, windows, mac)`
   1. **doit** - ([Repo](https://github.com/pydoit/doit), [Home](https://pydoit.org/), [Fund](https://opencollective.com/doit), [Docs](https://pydoit.org/contents.html)) Command-line task management and automation tool, with directives written in Python. `(linux, windows, mac)`
   1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems. `(linux, windows, mac)`
+  1. **JHBuild** - ([Repo](https://gitlab.gnome.org/GNOME/jhbuild), [Home](https://wiki.gnome.org/Projects/Jhbuild), [gh](https://github.com/GNOME/jhbuild), [Docs](https://developer.gnome.org/jhbuild/stable/getting-started.html.en)) Tool designed to ease building collections of packages, originally written to build the GNOME desktop from sources. `(linux)`
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness. `(linux, windows, mac)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(linux, mac, corp)`
   1. **PlatformIO Core** - ([Repo](https://github.com/platformio/platformio-core), [Home](https://platformio.org/), [Fund](https://platformio.org/donate?utm_source=github&utm_medium=core), [PyPI](https://pypi.org/project/platformio), [Docs](https://docs.platformio.org/en/latest?utm_source=github&utm_medium=core)) Multiplatform CLI build system and library manager for IoT development. `(linux, windows, mac)`

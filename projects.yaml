@@ -3496,6 +3496,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: JHBuild
+    repo_url: https://gitlab.gnome.org/GNOME/jhbuild
+    home_url: https://wiki.gnome.org/Projects/Jhbuild
+    docs_url: https://developer.gnome.org/jhbuild/stable/getting-started.html.en
+    gh_url: https://github.com/GNOME/jhbuild
+    date_added: 2019-11-13 09:55:00
+    desc: Tool designed to ease building collections of packages, originally written to build the GNOME desktop from sources.
+    tags:
+      - build
+      - linux
   - name: Meson
     repo_url: https://github.com/mesonbuild/meson
     home_url: http://mesonbuild.com/

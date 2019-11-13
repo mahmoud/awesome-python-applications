@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(241)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(223)*
+1. <a href="#tag-desktop">Desktop</a> *(242)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(224)*
     1. <a href="#tag-desktop.windows">Windows</a> *(144)*
     1. <a href="#tag-desktop.mac">Mac</a> *(142)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -256,6 +256,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(build)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(storage)`
   1. **Wammu** - ([Repo](https://github.com/gammu/wammu), [Home](https://wammu.eu/wammu)) GUI phone manager with read/write support for contacts, todo, calendar, SMS, and more, primarily designed for Nokia and AT-compatible phones. `(misc, windows)`
+  1. **Whipper** - ([Repo](https://github.com/whipper-team/whipper)) A CLI-based CD Audio ripper designed for accuracy over speed, with support for overriding hardware caches, accuracy verification, MusicBrainz metadata lookup, hidden tracks, FLAC, and much more. `(audio)`
   1. **Wicd** - ([Repo](https://code.launchpad.net/wicd), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(misc, gtk)`
   1. **Wikid Pad** - ([Repo](https://github.com/WikidPad/WikidPad), [Home](http://wikidpad.sourceforge.net/)) Desktop wiki notebook for storing your thoughts and ideas. `(organization, windows, mac, wx)`
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(shell, windows, mac)`

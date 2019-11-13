@@ -604,6 +604,13 @@ projects:
     tags:
       - audio
       - server
+  - name: Whipper
+    repo_url: https://github.com/whipper-team/whipper
+    date_added: 2019-11-13 11:20:00
+    desc: A CLI-based CD Audio ripper designed for accuracy over speed, with support for overriding hardware caches, accuracy verification, MusicBrainz metadata lookup, hidden tracks, FLAC, and much more.
+    tags:
+      - audio
+      - linux
 #
 # Video
 #

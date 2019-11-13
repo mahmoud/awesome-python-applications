@@ -204,12 +204,7 @@ compare to the APA.
 * https://github.com/iovisor/bcc  # half python half c++
 * https://github.com/stoq/stoq  # maybe discontinued? github is updated, but home page is empty
 * https://github.com/netdata/netdata  # might belong better on a list of applications successfully using python for plugins
-* https://github.com/GNOME/jhbuild
-* https://github.com/alcarithemad/zfsp
 * https://github.com/microcosm-cc/microweb
-* https://github.com/VIDA-NYU/reprozip/
-* https://github.com/tldr-pages/tldr
-* https://github.com/whipper-team/whipper
 * https://github.com/zopefoundation/ZEO
 * https://github.com/manns/pyspread/
 * https://github.com/oaubert/advene
@@ -220,3 +215,4 @@ compare to the APA.
 * https://github.com/burningmantech/ranger-ims-server
 * https://github.com/psincraian/pepy
 * https://github.com/crflynn/pypistats.org
+* https://github.com/bram85/topydo

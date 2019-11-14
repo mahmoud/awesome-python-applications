@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **381**
+This document is an always-growing list of **382**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,10 +39,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(24)*
-1. <a href="#tag-organization">Organization</a> *(37)*
+1. <a href="#tag-organization">Organization</a> *(38)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
-1. <a href="#tag-science">Science</a> *(21)*
+1. <a href="#tag-science">Science</a> *(22)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
@@ -224,6 +224,7 @@ thereof), see Architectures. -->
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support. `(linux, windows)`
   1. **Radicale** - ([Repo](https://github.com/Kozea/Radicale), [Home](https://radicale.org/), [Docs](https://radicale.org/documentation)) Simple CalDAV (calendar) and CardDAV (contact) server. `(server)`
   1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(linux, windows, mac)`
+  1. **Scholia** - ([Repo](https://github.com/fnielsen/scholia), [Home](https://tools.wmflabs.org/scholia), [Docs](https://www.wikidata.org/wiki/Wikidata%3AScholia)) Python package and web application for interacting with scholarly information on [Wikidata](https://www.wikidata.org/). `(science, server)`
   1. **Senaite** - ([Repo](https://github.com/senaite/senaite.lims), [Home](https://www.senaite.com/)) Web-based, mobile-first laboratory information management system (LIMS). `(server)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(linux, windows)`
   1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes. `(dev, server, django)`
@@ -298,6 +299,7 @@ thereof), see Architectures. -->
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(linux, gtk)`
   1. **ReproZip** - ([Repo](https://github.com/VIDA-NYU/reprozip), [Home](https://www.reprozip.org/), [Demo](https://examples.reprozip.org/), [Docs](https://docs.reprozip.org/)) Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science. `(productivity, linux)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
+  1. **Scholia** - ([Repo](https://github.com/fnielsen/scholia), [Home](https://tools.wmflabs.org/scholia), [Docs](https://www.wikidata.org/wiki/Wikidata%3AScholia)) Python package and web application for interacting with scholarly information on [Wikidata](https://www.wikidata.org/). `(organization, server)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(linux, windows, mac, wx)`
   1. **Taguette** - ([Repo](https://gitlab.com/remram44/taguette), [Home](https://www.taguette.org/), [gh](https://github.com/remram44/taguette), [PyPI](https://pypi.org/project/taguette), [Docs](https://www.taguette.org/getting-started.html)) Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats. `(server)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`

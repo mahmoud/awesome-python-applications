@@ -3166,7 +3166,7 @@ projects:
     home_url: https://doc2dash.readthedocs.io/
     pypi_url: https://pypi.org/project/doc2dash
     date_added: 2019-11-13 18:33:00
-    desc: CLI-based extensible [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended to be used with the [Dash.app](https://kapeli.com/dash/) API browser for macOS.
+    desc: Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).
     tags:
       - docs
       - linux

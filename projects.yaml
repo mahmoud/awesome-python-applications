@@ -3735,6 +3735,18 @@ projects:
       - linux
       - windows
       - mac
+  - name: GNS3 GUI
+    repo_url: https://github.com/GNS3/gns3-gui
+    home_url: https://www.gns3.com/
+    docs_url: https://docs.gns3.com/
+    pypi_url: https://pypi.org/project/gns3-gui
+    date_added: 2019-11-13 18:53:00
+    desc: Graphical Network Simulator used to emulate, configure, test and troubleshoot virtual and real networks. (Backed by server component [here](https://github.com/GNS3/gns3-server).)
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: howdoi
     repo_url: https://github.com/gleitz/howdoi
     pypi_url: https://pypi.org/project/howdoi

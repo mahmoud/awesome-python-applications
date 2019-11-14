@@ -213,3 +213,4 @@ compare to the APA.
 * https://github.com/psincraian/pepy
 * https://github.com/crflynn/pypistats.org
 * https://github.com/bram85/topydo
+* https://github.com/nexedi/neoppod

@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(244)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(226)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(144)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(143)*
+1. <a href="#tag-desktop">Desktop</a> *(245)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(227)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(145)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(144)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -108,6 +108,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, windows, mac)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, windows, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, windows, mac, qt5)`
+  1. **GNS3 GUI** - ([Repo](https://github.com/GNS3/gns3-gui), [Home](https://www.gns3.com/), [PyPI](https://pypi.org/project/gns3-gui), [Docs](https://docs.gns3.com/)) Graphical Network Simulator used to emulate, configure, test and troubleshoot virtual and real networks. (Backed by server component [here](https://github.com/GNS3/gns3-server).) `(dev, windows, mac)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](http://doc.bazaar.canonical.com/en)) Distributed and client-server revision control system. `(scm, windows, mac)`
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(audio, windows, mac, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, windows, mac, gtk)`
@@ -318,6 +319,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, linux, mac)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, mac, qt5)`
+  1. **GNS3 GUI** - ([Repo](https://github.com/GNS3/gns3-gui), [Home](https://www.gns3.com/), [PyPI](https://pypi.org/project/gns3-gui), [Docs](https://docs.gns3.com/)) Graphical Network Simulator used to emulate, configure, test and troubleshoot virtual and real networks. (Backed by server component [here](https://github.com/GNS3/gns3-server).) `(dev, linux, mac)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](http://doc.bazaar.canonical.com/en)) Distributed and client-server revision control system. `(scm, linux, mac)`
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(audio, linux, mac, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, linux, mac, gtk)`
@@ -464,6 +466,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git. `(scm, linux, windows)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(productivity, ops, linux, windows, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(productivity, linux, windows, qt5)`
+  1. **GNS3 GUI** - ([Repo](https://github.com/GNS3/gns3-gui), [Home](https://www.gns3.com/), [PyPI](https://pypi.org/project/gns3-gui), [Docs](https://docs.gns3.com/)) Graphical Network Simulator used to emulate, configure, test and troubleshoot virtual and real networks. (Backed by server component [here](https://github.com/GNS3/gns3-server).) `(dev, linux, windows)`
   1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](http://doc.bazaar.canonical.com/en)) Distributed and client-server revision control system. `(scm, linux, windows)`
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(audio, linux, windows, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(audio, linux, windows, gtk)`

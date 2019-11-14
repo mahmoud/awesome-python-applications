@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **382**
+This document is an always-growing list of **383**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,13 +46,13 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(163)*
+1. <a href="#tag-dev">Dev</a> *(164)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(15)*
     1. <a href="#tag-dev.ops">Ops</a> *(25)*
     1. <a href="#tag-dev.security">Security</a> *(24)*
-    1. <a href="#tag-dev.docs">Docs</a> *(6)*
+    1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
@@ -446,6 +446,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.docs" href="#tag-dev.docs">Docs</a>
 
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs. `(console)`
+  1. **doc2dash** - ([Repo](https://github.com/hynek/doc2dash), [Home](https://doc2dash.readthedocs.io/), [PyPI](https://pypi.org/project/doc2dash)) CLI-based extensible [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended to be used with the [Dash.app](https://kapeli.com/dash/) API browser for macOS. `(linux, mac)`
   1. **Gaphor** - ([Repo](https://github.com/gaphor/gaphor), [Docs](https://gaphor.readthedocs.io/en/latest)) Simple [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) modeling tool designed for beginners. `(graphics, linux, windows, mac, flatpak, gtk)`
   1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN) `(server, django)`
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/)) Simple, customizable project documentation, with built-in dev server. `(console)`

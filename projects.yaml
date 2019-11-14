@@ -3151,6 +3151,16 @@ projects:
     tags:
       - docs
       - console
+  - name: doc2dash
+    repo_url: https://github.com/hynek/doc2dash
+    home_url: https://doc2dash.readthedocs.io/
+    pypi_url: https://pypi.org/project/doc2dash
+    date_added: 2019-11-13 18:33:00
+    desc: CLI-based extensible [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended to be used with the [Dash.app](https://kapeli.com/dash/) API browser for macOS.
+    tags:
+      - docs
+      - linux
+      - mac
   - name: Kuma
     repo_url: https://github.com/mozilla/kuma
     home_url: https://developer.mozilla.org/en-US

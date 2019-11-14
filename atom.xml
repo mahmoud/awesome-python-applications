@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-11-14T02:26:10Z</updated>
+  <updated>2019-11-14T02:33:06Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/hynek/doc2dash</id>
+    <title>doc2dash</title>
+    <link rel="alternate" type="text/html" href="https://github.com/hynek/doc2dash" />
+    <published>2019-11-13T18:33:00Z</published>
+    <updated>2019-11-13T18:33:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/hynek/doc2dash">doc2dash</a></strong>: CLI-based extensible [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended to be used with the [Dash.app](https://kapeli.com/dash/) API browser for macOS.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/hynek/doc2dash'>Repo</a></li>
+        <li><a href='https://doc2dash.readthedocs.io/'>Home</a></li>
+        <li><a href='https://pypi.org/project/doc2dash'>PyPI</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/fnielsen/scholia</id>

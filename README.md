@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **383**
+This document is an always-growing list of **384**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,10 +46,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(164)*
+1. <a href="#tag-dev">Dev</a> *(165)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(15)*
+    1. <a href="#tag-dev.storage">Storage</a> *(16)*
     1. <a href="#tag-dev.ops">Ops</a> *(25)*
     1. <a href="#tag-dev.security">Security</a> *(24)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
@@ -386,6 +386,7 @@ Projects related to software development and adjacent technical areas.
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(security, console)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(linux, windows, mac)`
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups. `(linux)`
+  1. **ZEO** - ([Repo](https://github.com/zopefoundation/ZEO), [PyPI](https://pypi.org/project/ZEO), [Docs](https://zope.readthedocs.io/en/latest/zopebook/ZEO.html)) Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network. `(linux, server)`
   1. **ZFSp** - ([Repo](https://github.com/alcarithemad/zfsp)) A reverse-engineered [ZFS](https://en.wikipedia.org/wiki/ZFS) implementation, written in Python, without reading the original C. `(linux)`
 
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>

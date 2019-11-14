@@ -2717,6 +2717,16 @@ projects:
     tags:
       - storage
       - linux
+  - name: ZEO
+    repo_url: https://github.com/zopefoundation/ZEO
+    docs_url: https://zope.readthedocs.io/en/latest/zopebook/ZEO.html
+    pypi_url: https://pypi.org/project/ZEO
+    date_added: 2019-11-13 18:42:00
+    desc: Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network.
+    tags:
+      - storage
+      - linux
+      - server
   - name: ZFSp
     repo_url: https://github.com/alcarithemad/zfsp
     date_added: 2019-11-13 09:59:00

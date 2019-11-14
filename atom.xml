@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2019-11-14T02:33:06Z</updated>
+  <updated>2019-11-14T02:42:09Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/zopefoundation/ZEO</id>
+    <title>ZEO</title>
+    <link rel="alternate" type="text/html" href="https://github.com/zopefoundation/ZEO" />
+    <published>2019-11-13T18:42:00Z</published>
+    <updated>2019-11-13T18:42:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/zopefoundation/ZEO">ZEO</a></strong>: Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/zopefoundation/ZEO'>Repo</a></li>
+        <li><a href='https://pypi.org/project/ZEO'>PyPI</a></li>
+        <li><a href='https://zope.readthedocs.io/en/latest/zopebook/ZEO.html'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/hynek/doc2dash</id>

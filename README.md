@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **385**
+This document is an always-growing list of **386**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,7 +39,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(24)*
-1. <a href="#tag-organization">Organization</a> *(38)*
+1. <a href="#tag-organization">Organization</a> *(39)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(22)*
@@ -218,6 +218,7 @@ thereof), see Architectures. -->
   1. **Mayan** - ([Repo](https://gitlab.com/mayan-edms/mayan-edms), [Home](https://www.mayan-edms.com/), [Fund](https://www.paypal.me/MayanEDMS), [PyPI](https://pypi.org/project/mayan-edms/3.2.7), [Docs](https://docs.mayan-edms.com/)) Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API. `(server)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(dev, linux, mac, corp)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`
+  1. **Paperless** - ([Repo](https://github.com/the-paperless-project/paperless), [Docs](https://paperless.readthedocs.io/en/latest)) Scan, index, and archive all of your paper documents. Supports OCR, tags, search, encryption and more. `(server)`
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(linux, windows, gtk)`
   1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest. `(server)`
   1. **Pretalx** - ([Repo](https://github.com/pretalx/pretalx), [Home](https://pretalx.com/p/about), [Fund](https://www.patreon.com/rixx)) Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management. `(communication, server)`

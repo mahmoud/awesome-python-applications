@@ -1468,7 +1468,8 @@ projects:
       - docker
   - name: Paperless
     repo_url: https://github.com/the-paperless-project/paperless
-    docs_url: https://paperless.readthedocs.io/en/latest/
+    docs_url: https://paperless.readthedocs.io/en/latest
+    date_added: 2020-01-07 22:37:00
     desc: Scan, index, and archive all of your paper documents. Supports OCR, tags, search, encryption and more.
     tags:
       - organization

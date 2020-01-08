@@ -3874,6 +3874,15 @@ projects:
       - dev
       - linux
       - tui
+  - name: Script Server
+    repo_url: https://github.com/bugy/script-server
+    demo_url: https://script-server.net/
+    docs_url: https://github.com/bugy/script-server/wiki
+    date_added: 2020-01-07 22:48:00
+    desc: Turn scripts into interactive, validated, authenticated, auditable web UIs, without modifying the scripts.
+    tags:
+      - dev
+      - server
   - name: Sentry
     repo_url: https://github.com/getsentry/sentry
     home_url: https://sentry.io/

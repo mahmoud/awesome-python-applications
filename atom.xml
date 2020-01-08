@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-01-08T06:37:36Z</updated>
+  <updated>2020-01-08T06:48:42Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/bugy/script-server</id>
+    <title>Script Server</title>
+    <link rel="alternate" type="text/html" href="https://github.com/bugy/script-server" />
+    <published>2020-01-07T22:48:00Z</published>
+    <updated>2020-01-07T22:48:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/bugy/script-server">Script Server</a></strong>: Turn scripts into interactive, validated, authenticated, auditable web UIs, without modifying the scripts.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/bugy/script-server'>Repo</a></li>
+        <li><a href='https://script-server.net/'>Demo</a></li>
+        <li><a href='https://github.com/bugy/script-server/wiki'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/the-paperless-project/paperless</id>

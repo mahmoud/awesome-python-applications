@@ -2550,6 +2550,8 @@ projects:
       - qt5
   - name: Trac
     repo_url: https://github.com/edgewall/trac
+    home_url: https://trac.edgewall.org/
+    docs_url: https://trac.edgewall.org/wiki/TracGuide
     wp_url: https://en.wikipedia.org/wiki/Trac
     date_added: 2018-11-26 01:59:00
     desc: Enhanced web-based wiki and issue tracking system for software development projects.

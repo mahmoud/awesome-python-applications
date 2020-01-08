@@ -214,3 +214,8 @@ compare to the APA.
 * https://github.com/crflynn/pypistats.org
 * https://github.com/bram85/topydo
 * https://github.com/nexedi/neoppod
+* https://github.com/Kozea/wdb
+* https://github.com/Scifabric/pybossa
+* https://github.com/Flexget/Flexget
+* https://github.com/RocketMap/RocketMap
+* https://github.com/nerdvegas/rez

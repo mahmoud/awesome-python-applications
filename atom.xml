@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-01-08T06:48:42Z</updated>
+  <updated>2020-01-12T03:28:43Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/CTFd/CTFd</id>
+    <title>CTFd</title>
+    <link rel="alternate" type="text/html" href="https://github.com/CTFd/CTFd" />
+    <published>2020-01-12T03:28:00Z</published>
+    <updated>2020-01-12T03:28:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/CTFd/CTFd">CTFd</a></strong>: CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it&#x27;s easy to customize with plugins and themes.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/CTFd/CTFd'>Repo</a></li>
+        <li><a href='https://ctfd.io/'>Home</a></li>
+        <li><a href='https://github.com/CTFd/CTFd/wiki'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/bugy/script-server</id>

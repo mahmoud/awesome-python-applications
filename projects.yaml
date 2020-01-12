@@ -150,6 +150,15 @@ projects:
       - internet
       - linux
       - tui
+  - name: CTFd
+    repo_url: https://github.com/CTFd/CTFd
+    home_url: https://ctfd.io/
+    docs_url: https://github.com/CTFd/CTFd/wiki
+    date_added: 2020-01-12 03:28:00
+    desc: CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes.
+    tags:
+      - internet
+      - server
   - name: Deluge
     repo_url: https://github.com/deluge-torrent/deluge
     home_url: https://deluge-torrent.org/

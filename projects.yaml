@@ -3131,6 +3131,15 @@ projects:
     tags:
       - security
       - console
+  - name: Recon-ng
+    repo_url: https://github.com/lanmaster53/recon-ng
+    home_url: https://github.com/lanmaster53/recon-ng
+    docs_url: https://github.com/lanmaster53/recon-ng/wiki
+    date_added: 2020-01-13 18:22:00
+    desc: Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly.
+    tags:
+      - security
+      - linux
   - name: Spiderfoot
     repo_url: https://github.com/smicallef/spiderfoot
     home_url: https://www.spiderfoot.net/

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **387**
+This document is an always-growing list of **388**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(32)*
+1. <a href="#tag-internet">Internet</a> *(33)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
@@ -68,6 +68,7 @@ thereof), see Architectures. -->
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(organization, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(organization, server)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, tui)`
+  1. **CTFd** - ([Repo](https://github.com/CTFd/CTFd), [Home](https://ctfd.io/), [Docs](https://github.com/CTFd/CTFd/wiki)) CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes. `(server)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **Elixire** - ([Repo](https://gitlab.com/elixire/elixire), [Home](https://elixi.re/), [Docs](https://gitlab.com/elixire/api-docs)) Featureful file host and link shortener with API and support for multiple vanity urls. `(server)`
   1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Demo](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look. `(server)`

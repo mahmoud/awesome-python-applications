@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-01-12T03:28:43Z</updated>
+  <updated>2020-01-13T18:22:19Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/lanmaster53/recon-ng</id>
+    <title>Recon-ng</title>
+    <link rel="alternate" type="text/html" href="https://github.com/lanmaster53/recon-ng" />
+    <published>2020-01-13T18:22:00Z</published>
+    <updated>2020-01-13T18:22:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/lanmaster53/recon-ng">Recon-ng</a></strong>: Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/lanmaster53/recon-ng'>Repo</a></li>
+        <li><a href='https://github.com/lanmaster53/recon-ng'>Home</a></li>
+        <li><a href='https://github.com/lanmaster53/recon-ng/wiki'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/CTFd/CTFd</id>

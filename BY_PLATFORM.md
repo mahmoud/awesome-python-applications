@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(245)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(227)*
+1. <a href="#tag-desktop">Desktop</a> *(246)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(228)*
     1. <a href="#tag-desktop.windows">Windows</a> *(145)*
     1. <a href="#tag-desktop.mac">Mac</a> *(144)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -218,6 +218,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5. `(internet, windows, mac, qt5)`
   1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(scm)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(productivity, tui)`
+  1. **Recon-ng** - ([Repo](https://github.com/lanmaster53/recon-ng), [Home](https://github.com/lanmaster53/recon-ng), [Docs](https://github.com/lanmaster53/recon-ng/wiki)) Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. `(security)`
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions. `(dev, gtk)`
   1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF. `(organization, windows, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, windows, mac, console)`

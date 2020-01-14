@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **388**
+This document is an always-growing list of **389**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(167)*
+1. <a href="#tag-dev">Dev</a> *(168)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(16)*
     1. <a href="#tag-dev.ops">Ops</a> *(25)*
-    1. <a href="#tag-dev.security">Security</a> *(24)*
+    1. <a href="#tag-dev.security">Security</a> *(25)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(12)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
@@ -439,6 +439,7 @@ Projects related to software development and adjacent technical areas.
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(productivity, server)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(linux, docker, server)`
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more. `(console)`
+  1. **Recon-ng** - ([Repo](https://github.com/lanmaster53/recon-ng), [Home](https://github.com/lanmaster53/recon-ng), [Docs](https://github.com/lanmaster53/recon-ng/wiki)) Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. `(linux)`
   1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(internet, server, flask)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(linux, windows, mac, docker, server)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(storage, console)`

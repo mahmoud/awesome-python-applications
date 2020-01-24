@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '00 9 * * *'
   push:
 name: Link Checker
 jobs:

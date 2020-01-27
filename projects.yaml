@@ -3153,6 +3153,14 @@ projects:
       - mac
       - docker
       - server
+  - name: Scapy
+    repo_url: https://github.com/secdev/scapy
+    home_url: https://scapy.net
+    docs_url: https://scapy.readthedocs.io/en/latest/
+    desc: Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. 
+    tags:
+      - security
+      - linux
   - name: sshuttle
     repo_url: https://github.com/sshuttle/sshuttle
     docs_url: https://sshuttle.readthedocs.org/

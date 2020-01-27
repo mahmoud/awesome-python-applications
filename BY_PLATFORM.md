@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(246)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(228)*
+1. <a href="#tag-desktop">Desktop</a> *(247)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(229)*
     1. <a href="#tag-desktop.windows">Windows</a> *(145)*
     1. <a href="#tag-desktop.mac">Mac</a> *(144)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
@@ -227,6 +227,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **s3ql** - ([Repo](https://github.com/s3ql/s3ql), [Docs](http://www.rath.org/s3ql-docs/index.html)) A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more. `(storage)`
   1. **SABnzbd** - ([Repo](https://github.com/sabnzbd/sabnzbd), [Home](https://sabnzbd.org/), [Docs](https://sabnzbd.org/wiki)) Simple, cross-platform newsreader for downloading from Usenet. Supports many integrations and 16 languages. `(internet, windows, mac, server)`
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(science, windows, mac)`
+  1. **Scapy** - ([Repo](https://github.com/secdev/scapy), [Home](https://scapy.net/), [Docs](https://scapy.readthedocs.io/en/latest)) Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3. `(security)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(build, windows, mac)`
   1. **ScratchABit** - ([Repo](https://github.com/pfalcon/ScratchABit)) Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API. `(dev, tui)`
   1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival. `(organization, windows)`

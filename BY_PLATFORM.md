@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(246)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(228)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(145)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(144)*
+1. <a href="#tag-desktop">Desktop</a> *(247)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(229)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(146)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(145)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -45,6 +45,7 @@ segmentation by distribution (i.e., Docker, etc.)
 ### <a id="tag-desktop.linux" href="#tag-desktop.linux">Linux</a>
 
   1. **Airflow** - ([Repo](https://github.com/apache/airflow), [Docs](https://airflow.apache.org/)) A platform to programmatically author, schedule and monitor workflows. `(ops, server, corp, flask)`
+  1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, windows, mac, tk)`
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, windows, mac, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, mac, corp)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, windows)`
@@ -275,6 +276,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-desktop.windows" href="#tag-desktop.windows">Windows</a>
 
+  1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, linux, mac, tk)`
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, mac, qt5)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core), [Home](https://anuga.anu.edu.au/)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, linux)`
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, organization, linux, docker)`
@@ -423,6 +425,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-desktop.mac" href="#tag-desktop.mac">Mac</a>
 
+  1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, linux, windows, tk)`
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, windows, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, linux, corp)`
   1. **Artisan** - ([Repo](https://github.com/artisan-roaster-scope/artisan), [Home](https://artisan-scope.org/), [Docs](https://artisan-scope.org/docs/quick-start-guide)) Desktop visual scope for coffee roasters, which helps coffee roasters record, analyze, and control roast profiles. `(science, linux, windows)`

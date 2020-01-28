@@ -3238,6 +3238,17 @@ projects:
 #
 # Editor
 #
+  - name: Algojammer
+    repo_url: https://github.com/ChrisKnott/Algojammer
+    demo_url: https://www.youtube.com/watch?v=9XPE4uT0AdE
+    date_added: 2020-01-28 09:50:00
+    desc: An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting.
+    tags:
+      - editor
+      - linux
+      - windows
+      - mac
+      - tk
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/

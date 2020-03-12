@@ -422,7 +422,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
   1. **BYOB (Build Your Own Botnet)** - ([Repo](https://github.com/malwaredllc/byob)) Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets. `(linux, windows, mac)`
-  1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE), [Demo](https://cape.contextis.com/submit)) Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts. `(server)`
+  1. **CAPE** - ([Repo](https://github.com/kevoreilly/CAPEv2), [Demo](https://www.capesandbox.com/submit)) Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts. `(server)`
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server, corp)`
   1. **GRR Rapid Response** - ([Repo](https://github.com/google/grr), [Docs](https://grr-doc.readthedocs.io/en/latest)) Server-agent system focused on remote live forensics for quick, browser-based triage and analysis of attacks on fleets of machines, with agent support for Linux, Windows, and OS X. `(server, corp)`
   1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, linux, windows, mac)`

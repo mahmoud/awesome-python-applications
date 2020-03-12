@@ -2995,8 +2995,8 @@ projects:
       - windows
       - mac
   - name: CAPE
-    repo_url: https://github.com/ctxis/CAPE
-    demo_url: https://cape.contextis.com/submit
+    repo_url: https://github.com/kevoreilly/CAPEv2
+    demo_url: https://www.capesandbox.com/submit
     date_added: 2019-10-01 18:01:00
     desc: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.
     tags:

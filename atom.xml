@@ -12,7 +12,7 @@
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
-  
+
   <entry>
     <id>https://github.com/ChrisKnott/Algojammer</id>
     <title>Algojammer</title>
@@ -28,7 +28,7 @@
       <ul>
         <li><a href='https://github.com/ChrisKnott/Algojammer'>Repo</a></li>
         <li><a href='https://www.youtube.com/watch?v=9XPE4uT0AdE'>Demo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -37,7 +37,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/lanmaster53/recon-ng</id>
     <title>Recon-ng</title>
@@ -54,7 +54,7 @@
         <li><a href='https://github.com/lanmaster53/recon-ng'>Repo</a></li>
         <li><a href='https://github.com/lanmaster53/recon-ng'>Home</a></li>
         <li><a href='https://github.com/lanmaster53/recon-ng/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -63,7 +63,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/CTFd/CTFd</id>
     <title>CTFd</title>
@@ -80,7 +80,7 @@
         <li><a href='https://github.com/CTFd/CTFd'>Repo</a></li>
         <li><a href='https://ctfd.io/'>Home</a></li>
         <li><a href='https://github.com/CTFd/CTFd/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -89,7 +89,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/bugy/script-server</id>
     <title>Script Server</title>
@@ -106,7 +106,7 @@
         <li><a href='https://github.com/bugy/script-server'>Repo</a></li>
         <li><a href='https://script-server.net/'>Demo</a></li>
         <li><a href='https://github.com/bugy/script-server/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -115,7 +115,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/the-paperless-project/paperless</id>
     <title>Paperless</title>
@@ -131,7 +131,7 @@
       <ul>
         <li><a href='https://github.com/the-paperless-project/paperless'>Repo</a></li>
         <li><a href='https://paperless.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -140,7 +140,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/GNS3/gns3-gui</id>
     <title>GNS3 GUI</title>
@@ -158,7 +158,7 @@
         <li><a href='https://www.gns3.com/'>Home</a></li>
         <li><a href='https://pypi.org/project/gns3-gui'>PyPI</a></li>
         <li><a href='https://docs.gns3.com/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -167,7 +167,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/zopefoundation/ZEO</id>
     <title>ZEO</title>
@@ -184,7 +184,7 @@
         <li><a href='https://github.com/zopefoundation/ZEO'>Repo</a></li>
         <li><a href='https://pypi.org/project/ZEO'>PyPI</a></li>
         <li><a href='https://zope.readthedocs.io/en/latest/zopebook/ZEO.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -193,7 +193,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/hynek/doc2dash</id>
     <title>doc2dash</title>
@@ -210,7 +210,7 @@
         <li><a href='https://github.com/hynek/doc2dash'>Repo</a></li>
         <li><a href='https://doc2dash.readthedocs.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/doc2dash'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -219,7 +219,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/fnielsen/scholia</id>
     <title>Scholia</title>
@@ -236,7 +236,7 @@
         <li><a href='https://github.com/fnielsen/scholia'>Repo</a></li>
         <li><a href='https://tools.wmflabs.org/scholia'>Home</a></li>
         <li><a href='https://www.wikidata.org/wiki/Wikidata%3AScholia'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -245,7 +245,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/whipper-team/whipper</id>
     <title>Whipper</title>
@@ -260,7 +260,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/whipper-team/whipper'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -269,7 +269,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/VIDA-NYU/reprozip</id>
     <title>ReproZip</title>
@@ -287,7 +287,7 @@
         <li><a href='https://www.reprozip.org/'>Home</a></li>
         <li><a href='https://examples.reprozip.org/'>Demo</a></li>
         <li><a href='https://docs.reprozip.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -296,7 +296,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/alcarithemad/zfsp</id>
     <title>ZFSp</title>
@@ -311,7 +311,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/alcarithemad/zfsp'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -320,7 +320,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/GNOME/jhbuild</id>
     <title>JHBuild</title>
@@ -338,7 +338,7 @@
         <li><a href='https://wiki.gnome.org/Projects/Jhbuild'>Home</a></li>
         <li><a href='https://github.com/GNOME/jhbuild'>gh</a></li>
         <li><a href='https://developer.gnome.org/jhbuild/stable/getting-started.html.en'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -347,7 +347,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jazzband/pip-tools</id>
     <title>pip-tools</title>
@@ -362,7 +362,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/jazzband/pip-tools'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -371,7 +371,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nuxeo/nuxeo-drive</id>
     <title>Nuxeo Drive</title>
@@ -388,7 +388,7 @@
         <li><a href='https://github.com/nuxeo/nuxeo-drive'>Repo</a></li>
         <li><a href='https://www.nuxeo.com/products/drive-desktop-sync'>Home</a></li>
         <li><a href='https://doc.nuxeo.com/client-apps/nuxeo-drive'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -397,7 +397,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mlflow/mlflow</id>
     <title>MLflow</title>
@@ -414,7 +414,7 @@
         <li><a href='https://github.com/mlflow/mlflow'>Repo</a></li>
         <li><a href='https://mlflow.org/'>Home</a></li>
         <li><a href='https://mlflow.org/docs/latest/index.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -423,7 +423,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Ultimaker/Cura</id>
     <title>Cura</title>
@@ -441,7 +441,7 @@
         <li><a href='https://ultimaker.com/software/ultimaker-cura'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Cura_%28software%29'>WP</a></li>
         <li><a href='https://ultimaker.com/en/resources/manuals/software'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -450,7 +450,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/saulpw/visidata</id>
     <title>VisiData</title>
@@ -469,7 +469,7 @@
         <li><a href='https://patreon.com/saulpw'>Fund</a></li>
         <li><a href='https://pypi.org/project/visidata'>PyPI</a></li>
         <li><a href='https://visidata.org/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -478,7 +478,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/apache/airflow</id>
     <title>Airflow</title>
@@ -494,7 +494,7 @@
       <ul>
         <li><a href='https://github.com/apache/airflow'>Repo</a></li>
         <li><a href='https://airflow.apache.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -503,7 +503,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/typemytype/drawbot</id>
     <title>DrawBot</title>
@@ -520,7 +520,7 @@
         <li><a href='https://github.com/typemytype/drawbot'>Repo</a></li>
         <li><a href='http://www.drawbot.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/DrawBot'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -529,7 +529,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/StevenBlack/hosts</id>
     <title>hosts</title>
@@ -544,7 +544,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/StevenBlack/hosts'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -553,7 +553,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jakubroztocil/httpie</id>
     <title>httpie</title>
@@ -570,7 +570,7 @@
         <li><a href='https://github.com/jakubroztocil/httpie'>Repo</a></li>
         <li><a href='https://httpie.org/'>Home</a></li>
         <li><a href='https://pypi.org/project/httpie'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -579,7 +579,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gtimelog/gtimelog</id>
     <title>GTimeLog</title>
@@ -597,7 +597,7 @@
         <li><a href='https://gtimelog.org/'>Home</a></li>
         <li><a href='https://ko-fi.com/mgedmin'>Fund</a></li>
         <li><a href='https://gtimelog.org/docs.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -606,7 +606,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pydoit/doit</id>
     <title>doit</title>
@@ -624,7 +624,7 @@
         <li><a href='https://pydoit.org/'>Home</a></li>
         <li><a href='https://opencollective.com/doit'>Fund</a></li>
         <li><a href='https://pydoit.org/contents.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -633,7 +633,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sloria/doitlive</id>
     <title>doitlive</title>
@@ -650,7 +650,7 @@
         <li><a href='https://github.com/sloria/doitlive'>Repo</a></li>
         <li><a href='https://pypi.org/project/doitlive'>PyPI</a></li>
         <li><a href='https://doitlive.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -659,7 +659,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jhpyle/docassemble</id>
     <title>Docassemble</title>
@@ -676,7 +676,7 @@
         <li><a href='https://github.com/jhpyle/docassemble'>Repo</a></li>
         <li><a href='https://docassemble.org/'>Home</a></li>
         <li><a href='https://docassemble.org/docs.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -685,7 +685,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/grow/grow</id>
     <title>Grow</title>
@@ -702,7 +702,7 @@
         <li><a href='https://github.com/grow/grow'>Repo</a></li>
         <li><a href='https://grow.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/grow'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -711,7 +711,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/remram44/taguette</id>
     <title>Taguette</title>
@@ -730,7 +730,7 @@
         <li><a href='https://github.com/remram44/taguette'>gh</a></li>
         <li><a href='https://pypi.org/project/taguette'>PyPI</a></li>
         <li><a href='https://www.taguette.org/getting-started.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -739,7 +739,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/Infrastructure/extensions-web</id>
     <title>SweetTooth Web</title>
@@ -755,7 +755,7 @@
       <ul>
         <li><a href='https://gitlab.gnome.org/Infrastructure/extensions-web'>Repo</a></li>
         <li><a href='https://extensions.gnome.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -764,7 +764,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/conan-io/conan</id>
     <title>Conan</title>
@@ -781,7 +781,7 @@
         <li><a href='https://github.com/conan-io/conan'>Repo</a></li>
         <li><a href='https://conan.io/'>Home</a></li>
         <li><a href='https://docs.conan.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -790,7 +790,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/privacyidea/privacyidea</id>
     <title>privacyIDEA</title>
@@ -808,7 +808,7 @@
         <li><a href='https://privacyidea.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/PrivacyIDEA'>WP</a></li>
         <li><a href='https://privacyidea.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -817,7 +817,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/bfontaine/term2048</id>
     <title>term2048</title>
@@ -833,7 +833,7 @@
       <ul>
         <li><a href='https://github.com/bfontaine/term2048'>Repo</a></li>
         <li><a href='https://pypi.python.org/pypi/term2048'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -842,7 +842,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/otsaloma/nfoview</id>
     <title>NFO Viewer</title>
@@ -858,7 +858,7 @@
       <ul>
         <li><a href='https://github.com/otsaloma/nfoview'>Repo</a></li>
         <li><a href='https://otsaloma.io/nfoview'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -867,7 +867,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/HenriWahl/Nagstamon</id>
     <title>Nagstamon</title>
@@ -884,7 +884,7 @@
         <li><a href='https://github.com/HenriWahl/Nagstamon'>Repo</a></li>
         <li><a href='https://nagstamon.ifw-dresden.de/'>Home</a></li>
         <li><a href='https://nagstamon.ifw-dresden.de/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -893,7 +893,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/cython/cython</id>
     <title>Cython</title>
@@ -911,7 +911,7 @@
         <li><a href='https://cython.org/'>Home</a></li>
         <li><a href='https://pypi.org/project/cython'>PyPI</a></li>
         <li><a href='http://docs.cython.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -920,7 +920,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Backblaze/B2_Command_Line_Tool</id>
     <title>B2</title>
@@ -936,7 +936,7 @@
       <ul>
         <li><a href='https://github.com/Backblaze/B2_Command_Line_Tool'>Repo</a></li>
         <li><a href='https://pypi.python.org/pypi/b2'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -945,7 +945,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/snapcore/snapcraft</id>
     <title>Snapcraft</title>
@@ -962,7 +962,7 @@
         <li><a href='https://github.com/snapcore/snapcraft'>Repo</a></li>
         <li><a href='https://snapcraft.io/'>Home</a></li>
         <li><a href='https://snapcraft.io/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -971,7 +971,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/borgbase/vorta</id>
     <title>Vorta</title>
@@ -987,7 +987,7 @@
       <ul>
         <li><a href='https://github.com/borgbase/vorta'>Repo</a></li>
         <li><a href='https://vorta.borgbase.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -996,7 +996,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://launchpad.net/launchpad</id>
     <title>Launchpad</title>
@@ -1014,7 +1014,7 @@
         <li><a href='https://launchpad.net/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Launchpad_%28website%29'>WP</a></li>
         <li><a href='https://dev.launchpad.net/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1023,7 +1023,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/platformio/platformio-core</id>
     <title>PlatformIO Core</title>
@@ -1042,7 +1042,7 @@
         <li><a href='https://platformio.org/donate?utm_source=github&amp;utm_medium=core'>Fund</a></li>
         <li><a href='https://pypi.org/project/platformio'>PyPI</a></li>
         <li><a href='https://docs.platformio.org/en/latest?utm_source=github&amp;utm_medium=core'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1051,7 +1051,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/retext-project/retext</id>
     <title>ReText</title>
@@ -1068,7 +1068,7 @@
         <li><a href='https://github.com/retext-project/retext'>Repo</a></li>
         <li><a href='https://pypi.org/project/ReText'>PyPI</a></li>
         <li><a href='https://github.com/retext-project/retext/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1077,7 +1077,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/s3ql/s3ql</id>
     <title>s3ql</title>
@@ -1093,7 +1093,7 @@
       <ul>
         <li><a href='https://github.com/s3ql/s3ql'>Repo</a></li>
         <li><a href='http://www.rath.org/s3ql-docs/index.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1102,7 +1102,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sdg-mit/gitless</id>
     <title>Gitless</title>
@@ -1120,7 +1120,7 @@
         <li><a href='https://gitless.com/'>Home</a></li>
         <li><a href='https://pypi.org/project/gitless'>PyPI</a></li>
         <li><a href='https://gitless.com/#documentation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1129,7 +1129,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/overhangio/tutor</id>
     <title>Tutor</title>
@@ -1145,7 +1145,7 @@
       <ul>
         <li><a href='https://github.com/overhangio/tutor'>Repo</a></li>
         <li><a href='https://docs.tutor.overhang.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1154,7 +1154,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gridsync/gridsync</id>
     <title>Gridsync</title>
@@ -1169,7 +1169,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/gridsync/gridsync'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1178,7 +1178,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/arsenetar/dupeguru</id>
     <title>dupeGuru</title>
@@ -1195,7 +1195,7 @@
         <li><a href='https://github.com/arsenetar/dupeguru'>Repo</a></li>
         <li><a href='https://dupeguru.voltaicideas.net/'>Home</a></li>
         <li><a href='https://dupeguru.voltaicideas.net/help/en'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1204,7 +1204,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/delmic/odemis</id>
     <title>odemis</title>
@@ -1220,7 +1220,7 @@
       <ul>
         <li><a href='https://github.com/delmic/odemis'>Repo</a></li>
         <li><a href='https://www.delmic.com/microscopy-software-odemis'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1229,7 +1229,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/chanzuckerberg/cellxgene</id>
     <title>cellxgene</title>
@@ -1245,7 +1245,7 @@
       <ul>
         <li><a href='https://github.com/chanzuckerberg/cellxgene'>Repo</a></li>
         <li><a href='https://chanzuckerberg.github.io/cellxgene'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1254,7 +1254,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/usnistgov/mosaic</id>
     <title>Mosaic</title>
@@ -1271,7 +1271,7 @@
         <li><a href='https://github.com/usnistgov/mosaic'>Repo</a></li>
         <li><a href='https://pages.nist.gov/mosaic'>Home</a></li>
         <li><a href='https://pages.nist.gov/mosaic/html/index.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1280,23 +1280,23 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
-    <id>https://github.com/ctxis/CAPE</id>
+    <id>https://github.com/kevoreilly/CAPEv2</id>
     <title>CAPE</title>
-    <link rel="alternate" type="text/html" href="https://github.com/ctxis/CAPE" />
+    <link rel="alternate" type="text/html" href="https://github.com/kevoreilly/CAPEv2" />
     <published>2019-10-01T18:01:00Z</published>
     <updated>2019-10-01T18:01:00Z</updated>
     <category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/ctxis/CAPE">CAPE</a></strong>: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.</p>
+      <p><strong><a href="https://github.com/kevoreilly/CAPEv2">CAPE</a></strong>: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://github.com/ctxis/CAPE'>Repo</a></li>
-        <li><a href='https://cape.contextis.com/submit'>Demo</a></li>
-        
+        <li><a href='https://github.com/kevoreilly/CAPEv2'>Repo</a></li>
+        <li><a href='https://www.capesandbox.com/submit'>Demo</a></li>
+
       </ul>
       </div>
     </content>
@@ -1305,7 +1305,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/malwaredllc/byob</id>
     <title>BYOB (Build Your Own Botnet)</title>
@@ -1320,7 +1320,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/malwaredllc/byob'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1329,7 +1329,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/google/grr</id>
     <title>GRR Rapid Response</title>
@@ -1345,7 +1345,7 @@
       <ul>
         <li><a href='https://github.com/google/grr'>Repo</a></li>
         <li><a href='https://grr-doc.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1354,7 +1354,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/BasioMeusPuga/Lector</id>
     <title>Lector</title>
@@ -1369,7 +1369,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/BasioMeusPuga/Lector'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1378,7 +1378,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/evilhero/mylar</id>
     <title>Mylar</title>
@@ -1393,7 +1393,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/evilhero/mylar'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1402,7 +1402,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mstuttgart/pynocchio</id>
     <title>Pynocchio</title>
@@ -1418,7 +1418,7 @@
       <ul>
         <li><a href='https://github.com/mstuttgart/pynocchio'>Repo</a></li>
         <li><a href='https://mstuttgart.github.io/pynocchio'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1427,7 +1427,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jendrikseipp/rednotebook</id>
     <title>RedNotebook</title>
@@ -1443,7 +1443,7 @@
       <ul>
         <li><a href='https://github.com/jendrikseipp/rednotebook'>Repo</a></li>
         <li><a href='https://rednotebook.sourceforge.io/downloads.html'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1452,7 +1452,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/hubblestack/hubble</id>
     <title>Hubble</title>
@@ -1468,7 +1468,7 @@
       <ul>
         <li><a href='https://github.com/hubblestack/hubble'>Repo</a></li>
         <li><a href='https://hubblestack.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1477,7 +1477,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pyfa-org/Pyfa</id>
     <title>Pyfa</title>
@@ -1492,7 +1492,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/pyfa-org/Pyfa'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1501,7 +1501,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/cs01/gdbgui</id>
     <title>gdbgui</title>
@@ -1518,7 +1518,7 @@
         <li><a href='https://github.com/cs01/gdbgui'>Repo</a></li>
         <li><a href='https://gdbgui.com/'>Home</a></li>
         <li><a href='https://pypi.org/project/gdbgui'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1527,7 +1527,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/remyroy/CDDA-Game-Launcher</id>
     <title>Cataclysm: Dark Days Ahead (Launcher)</title>
@@ -1543,7 +1543,7 @@
       <ul>
         <li><a href='https://github.com/remyroy/CDDA-Game-Launcher'>Repo</a></li>
         <li><a href='https://cataclysmdda.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1552,7 +1552,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/guardicore/monkey</id>
     <title>Infection Monkey</title>
@@ -1569,7 +1569,7 @@
         <li><a href='https://github.com/guardicore/monkey'>Repo</a></li>
         <li><a href='https://www.guardicore.com/infectionmonkey'>Home</a></li>
         <li><a href='https://github.com/guardicore/monkey/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1578,7 +1578,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/artisan-roaster-scope/artisan</id>
     <title>Artisan</title>
@@ -1595,7 +1595,7 @@
         <li><a href='https://github.com/artisan-roaster-scope/artisan'>Repo</a></li>
         <li><a href='https://artisan-scope.org/'>Home</a></li>
         <li><a href='https://artisan-scope.org/docs/quick-start-guide'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1604,7 +1604,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/spl0k/supysonic</id>
     <title>Supysonic</title>
@@ -1619,7 +1619,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/spl0k/supysonic'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1628,7 +1628,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://salsa.debian.org/qa/distro-tracker</id>
     <title>distro-tracker</title>
@@ -1645,7 +1645,7 @@
         <li><a href='https://salsa.debian.org/qa/distro-tracker'>Repo</a></li>
         <li><a href='https://tracker.debian.org/'>Demo</a></li>
         <li><a href='https://qa.pages.debian.net/distro-tracker'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1654,7 +1654,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://salsa.debian.org/ftp-team/dak</id>
     <title>dak</title>
@@ -1669,7 +1669,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://salsa.debian.org/ftp-team/dak'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1678,7 +1678,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/byro/byro</id>
     <title>Byro</title>
@@ -1694,7 +1694,7 @@
       <ul>
         <li><a href='https://github.com/byro/byro'>Repo</a></li>
         <li><a href='https://byro.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1703,7 +1703,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/kibitzr/kibitzr</id>
     <title>Kibitzr</title>
@@ -1721,7 +1721,7 @@
         <li><a href='https://kibitzr.github.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/kibitzr'>PyPI</a></li>
         <li><a href='https://kibitzr.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1730,7 +1730,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/taroved/pol</id>
     <title>Pol</title>
@@ -1746,7 +1746,7 @@
       <ul>
         <li><a href='https://github.com/taroved/pol'>Repo</a></li>
         <li><a href='https://politepol.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1755,7 +1755,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Maratyszcza/PeachPy</id>
     <title>PeachPy</title>
@@ -1770,7 +1770,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/Maratyszcza/PeachPy'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1779,7 +1779,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/LinOTP/LinOTP</id>
     <title>LinOTP</title>
@@ -1797,7 +1797,7 @@
         <li><a href='https://www.linotp.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/LinOTP'>WP</a></li>
         <li><a href='https://www.linotp.org/documentation.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1806,7 +1806,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/senaite/senaite.lims</id>
     <title>Senaite</title>
@@ -1822,7 +1822,7 @@
       <ul>
         <li><a href='https://github.com/senaite/senaite.lims'>Repo</a></li>
         <li><a href='https://www.senaite.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1831,7 +1831,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ozmartian/vidcutter</id>
     <title>Vidcutter</title>
@@ -1846,7 +1846,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ozmartian/vidcutter'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1855,7 +1855,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gammu/wammu</id>
     <title>Wammu</title>
@@ -1871,7 +1871,7 @@
       <ul>
         <li><a href='https://github.com/gammu/wammu'>Repo</a></li>
         <li><a href='https://wammu.eu/wammu'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1880,7 +1880,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/MeanEYE/Sunflower</id>
     <title>Sunflower</title>
@@ -1896,7 +1896,7 @@
       <ul>
         <li><a href='https://github.com/MeanEYE/Sunflower'>Repo</a></li>
         <li><a href='http://sunflower-fm.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1905,7 +1905,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rabbitvcs/rabbitvcs</id>
     <title>RabbitVCS</title>
@@ -1922,7 +1922,7 @@
         <li><a href='https://github.com/rabbitvcs/rabbitvcs'>Repo</a></li>
         <li><a href='http://rabbitvcs.org/'>Home</a></li>
         <li><a href='http://wiki.rabbitvcs.org/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1931,7 +1931,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/frePPLe/frepple</id>
     <title>Frepple</title>
@@ -1948,7 +1948,7 @@
         <li><a href='https://github.com/frePPLe/frepple'>Repo</a></li>
         <li><a href='https://frepple.com/'>Home</a></li>
         <li><a href='https://frepple.com/docs/current/user-guide/index.php'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1957,7 +1957,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/j3ffhubb/musikernel</id>
     <title>Musikernel</title>
@@ -1972,7 +1972,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/j3ffhubb/musikernel'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -1981,7 +1981,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/albertz/music-player</id>
     <title>Music Player</title>
@@ -1997,7 +1997,7 @@
       <ul>
         <li><a href='https://github.com/albertz/music-player'>Repo</a></li>
         <li><a href='http://albertz.github.io/music-player'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2006,7 +2006,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/belangeo/soundgrain</id>
     <title>SoundGrain</title>
@@ -2023,7 +2023,7 @@
         <li><a href='https://github.com/belangeo/soundgrain'>Repo</a></li>
         <li><a href='http://ajaxsoundstudio.com/software/soundgrain'>Home</a></li>
         <li><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9CA99DH6ES3HA'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2032,7 +2032,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/learningequality/kolibri</id>
     <title>Kolibri</title>
@@ -2051,7 +2051,7 @@
         <li><a href='https://kolibridemo.learningequality.org/'>Demo</a></li>
         <li><a href='https://pypi.org/project/kolibri'>PyPI</a></li>
         <li><a href='https://kolibri.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2060,7 +2060,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/django-wiki/django-wiki</id>
     <title>Django Wiki</title>
@@ -2077,7 +2077,7 @@
         <li><a href='https://github.com/django-wiki/django-wiki'>Repo</a></li>
         <li><a href='https://demo.django-wiki.org/'>Demo</a></li>
         <li><a href='https://django-wiki.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2086,7 +2086,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://salsa.debian.org/reproducible-builds/diffoscope</id>
     <title>Diffoscope</title>
@@ -2104,7 +2104,7 @@
         <li><a href='https://diffoscope.org/'>Home</a></li>
         <li><a href='https://try.diffoscope.org/'>Demo</a></li>
         <li><a href='https://pypi.org/project/diffoscope'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2113,7 +2113,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://salsa.debian.org/freedombox-team/plinth</id>
     <title>Plinth</title>
@@ -2130,7 +2130,7 @@
         <li><a href='https://salsa.debian.org/freedombox-team/plinth'>Repo</a></li>
         <li><a href='https://freedombox.org/'>Home</a></li>
         <li><a href='https://wiki.debian.org/FreedomBox/Plinth'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2139,7 +2139,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/YunoHost/yunohost</id>
     <title>YunoHost</title>
@@ -2156,7 +2156,7 @@
         <li><a href='https://github.com/YunoHost/yunohost'>Repo</a></li>
         <li><a href='https://yunohost.org/'>Home</a></li>
         <li><a href='https://yunohost.org/#/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2165,7 +2165,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jonashaag/klaus</id>
     <title>Klaus</title>
@@ -2183,7 +2183,7 @@
         <li><a href='http://klausdemo.lophus.org/'>Demo</a></li>
         <li><a href='https://pypi.org/project/klaus'>PyPI</a></li>
         <li><a href='https://github.com/jonashaag/klaus/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2192,7 +2192,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/localstack/localstack</id>
     <title>LocalStack</title>
@@ -2209,7 +2209,7 @@
         <li><a href='https://github.com/localstack/localstack'>Repo</a></li>
         <li><a href='https://localstack.cloud/'>Home</a></li>
         <li><a href='https://pypi.org/project/localstack'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2218,7 +2218,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/RD17/ambar</id>
     <title>Ambar</title>
@@ -2236,7 +2236,7 @@
         <li><a href='https://ambar.cloud/'>Home</a></li>
         <li><a href='https://app.ambar.cloud/'>Demo</a></li>
         <li><a href='https://ambar.cloud/docs/system-requirements'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2245,7 +2245,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/damianmoore/photonix</id>
     <title>Photonix</title>
@@ -2262,7 +2262,7 @@
         <li><a href='https://github.com/damianmoore/photonix'>Repo</a></li>
         <li><a href='https://photonix.org/'>Home</a></li>
         <li><a href='https://demo.photonix.org/'>Demo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2271,7 +2271,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/quru/qis</id>
     <title>Quru Image Server</title>
@@ -2289,7 +2289,7 @@
         <li><a href='https://www.quruimageserver.com/'>Home</a></li>
         <li><a href='https://images.quru.com/demo'>Demo</a></li>
         <li><a href='https://github.com/quru/qis/blob/master/doc/overview.md'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2298,7 +2298,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://bitbucket.org/windel/ppci</id>
     <title>PPCI</title>
@@ -2317,7 +2317,7 @@
         <li><a href='https://github.com/windelbouwman/ppci-mirror'>gh</a></li>
         <li><a href='https://pypi.org/project/ppci'>PyPI</a></li>
         <li><a href='https://ppci.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2326,7 +2326,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pfalcon/ScratchABit</id>
     <title>ScratchABit</title>
@@ -2341,7 +2341,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/pfalcon/ScratchABit'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2350,7 +2350,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/freenas/freenas</id>
     <title>FreeNAS</title>
@@ -2367,7 +2367,7 @@
         <li><a href='https://github.com/freenas/freenas'>Repo</a></li>
         <li><a href='https://www.freenas.org/'>Home</a></li>
         <li><a href='https://www.ixsystems.com/documentation/freenas'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2376,7 +2376,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/readthedocs/readthedocs.org</id>
     <title>readthedocs.org</title>
@@ -2393,7 +2393,7 @@
         <li><a href='https://github.com/readthedocs/readthedocs.org'>Repo</a></li>
         <li><a href='https://readthedocs.org/'>Home</a></li>
         <li><a href='https://docs.readthedocs.io/en/stable'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2402,7 +2402,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/passit/passit-backend</id>
     <title>Passit</title>
@@ -2419,7 +2419,7 @@
         <li><a href='https://gitlab.com/passit/passit-backend'>Repo</a></li>
         <li><a href='https://passit.io/'>Home</a></li>
         <li><a href='https://passit.io/documentation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2428,7 +2428,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/psono/psono-server</id>
     <title>Psono</title>
@@ -2446,7 +2446,7 @@
         <li><a href='https://psono.com/'>Home</a></li>
         <li><a href='https://www.psono.pw/'>Demo</a></li>
         <li><a href='https://doc.psono.com/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2455,7 +2455,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/cdubz/babybuddy</id>
     <title>Baby Buddy</title>
@@ -2471,7 +2471,7 @@
       <ul>
         <li><a href='https://github.com/cdubz/babybuddy'>Repo</a></li>
         <li><a href='http://demo.baby-buddy.net/'>Demo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2480,7 +2480,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/securestate/king-phisher</id>
     <title>King Phisher</title>
@@ -2496,7 +2496,7 @@
       <ul>
         <li><a href='https://github.com/securestate/king-phisher'>Repo</a></li>
         <li><a href='https://king-phisher.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2505,7 +2505,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/beancount/fava</id>
     <title>fava</title>
@@ -2522,7 +2522,7 @@
         <li><a href='https://github.com/beancount/fava'>Repo</a></li>
         <li><a href='https://fava.pythonanywhere.com/huge-example-file/income_statement'>Demo</a></li>
         <li><a href='https://beancount.github.io/fava'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2531,7 +2531,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://bitbucket.org/blais/beancount</id>
     <title>beancount</title>
@@ -2550,7 +2550,7 @@
         <li><a href='https://github.com/beancount/beancount'>gh</a></li>
         <li><a href='https://pypi.org/project/beancount'>PyPI</a></li>
         <li><a href='https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2559,7 +2559,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/spiral-project/ihatemoney</id>
     <title>ihatemoney</title>
@@ -2576,7 +2576,7 @@
         <li><a href='https://github.com/spiral-project/ihatemoney'>Repo</a></li>
         <li><a href='https://ihatemoney.org/'>Home</a></li>
         <li><a href='https://ihatemoney.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2585,7 +2585,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/formspree/formspree</id>
     <title>Formspree</title>
@@ -2601,7 +2601,7 @@
       <ul>
         <li><a href='https://github.com/formspree/formspree'>Repo</a></li>
         <li><a href='https://formspree.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2610,7 +2610,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/Deamos/flask-nginx-rtmp-manager</id>
     <title>Open Streaming Platform</title>
@@ -2625,7 +2625,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://gitlab.com/Deamos/flask-nginx-rtmp-manager'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2634,7 +2634,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/umap-project/umap</id>
     <title>uMap</title>
@@ -2650,7 +2650,7 @@
       <ul>
         <li><a href='https://github.com/umap-project/umap'>Repo</a></li>
         <li><a href='https://wiki.openstreetmap.org/wiki/UMap'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2659,7 +2659,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://dev.funkwhale.audio/funkwhale/funkwhale</id>
     <title>Funkwhale</title>
@@ -2676,7 +2676,7 @@
         <li><a href='https://dev.funkwhale.audio/funkwhale/funkwhale'>Repo</a></li>
         <li><a href='https://funkwhale.audio/en_US'>Home</a></li>
         <li><a href='https://docs.funkwhale.audio/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2685,7 +2685,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/propublica/django-collaborative</id>
     <title>Collaborate</title>
@@ -2701,7 +2701,7 @@
       <ul>
         <li><a href='https://github.com/propublica/django-collaborative'>Repo</a></li>
         <li><a href='https://propublica.gitbook.io/collaborate-user-manual'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2710,7 +2710,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/janeczku/calibre-web</id>
     <title>Calibre-Web</title>
@@ -2725,7 +2725,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/janeczku/calibre-web'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2734,7 +2734,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/inducer/relate</id>
     <title>RELATE</title>
@@ -2750,7 +2750,7 @@
       <ul>
         <li><a href='https://github.com/inducer/relate'>Repo</a></li>
         <li><a href='https://documen.tician.de/relate'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2759,7 +2759,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/elixire/elixire</id>
     <title>Elixire</title>
@@ -2776,7 +2776,7 @@
         <li><a href='https://gitlab.com/elixire/elixire'>Repo</a></li>
         <li><a href='https://elixi.re/'>Home</a></li>
         <li><a href='https://gitlab.com/elixire/api-docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2785,7 +2785,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/newspipe/newspipe</id>
     <title>Newspipe</title>
@@ -2804,7 +2804,7 @@
         <li><a href='https://www.newspipe.org/'>Demo</a></li>
         <li><a href='https://github.com/newspipe/newspipe'>gh</a></li>
         <li><a href='https://newspipe.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2813,7 +2813,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/mayan-edms/mayan-edms</id>
     <title>Mayan</title>
@@ -2832,7 +2832,7 @@
         <li><a href='https://www.paypal.me/MayanEDMS'>Fund</a></li>
         <li><a href='https://pypi.org/project/mayan-edms/3.2.7'>PyPI</a></li>
         <li><a href='https://docs.mayan-edms.com/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2841,7 +2841,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nsupdate-info/nsupdate.info</id>
     <title>nsupdate.info</title>
@@ -2858,7 +2858,7 @@
         <li><a href='https://github.com/nsupdate-info/nsupdate.info'>Repo</a></li>
         <li><a href='https://pypi.org/project/nsupdate'>PyPI</a></li>
         <li><a href='https://nsupdateinfo.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2867,7 +2867,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pretix/pretix</id>
     <title>Pretix</title>
@@ -2886,7 +2886,7 @@
         <li><a href='https://pretix.eu/about/en/blog'>Blog</a></li>
         <li><a href='https://pypi.org/project/pretix'>PyPI</a></li>
         <li><a href='https://docs.pretix.eu/en/latest/development/index.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2895,7 +2895,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/shuup/shuup</id>
     <title>Shuup</title>
@@ -2912,7 +2912,7 @@
         <li><a href='https://github.com/shuup/shuup'>Repo</a></li>
         <li><a href='https://www.shuup.com/'>Home</a></li>
         <li><a href='https://shuup.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2921,7 +2921,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pretalx/pretalx</id>
     <title>Pretalx</title>
@@ -2938,7 +2938,7 @@
         <li><a href='https://github.com/pretalx/pretalx'>Repo</a></li>
         <li><a href='https://pretalx.com/p/about'>Home</a></li>
         <li><a href='https://www.patreon.com/rixx'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2947,7 +2947,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/indico/indico</id>
     <title>Indico</title>
@@ -2965,7 +2965,7 @@
         <li><a href='https://getindico.io/'>Home</a></li>
         <li><a href='https://sandbox.getindico.io/'>Demo</a></li>
         <li><a href='https://docs.getindico.io/en/stable/installation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -2974,7 +2974,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/flaskbb/flaskbb</id>
     <title>FlaskBB</title>
@@ -2992,7 +2992,7 @@
         <li><a href='https://flaskbb.org/'>Home</a></li>
         <li><a href='https://forums.flaskbb.org/'>Demo</a></li>
         <li><a href='https://flaskbb.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3001,7 +3001,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/posativ/isso</id>
     <title>Isso</title>
@@ -3017,7 +3017,7 @@
       <ul>
         <li><a href='https://github.com/posativ/isso'>Repo</a></li>
         <li><a href='https://posativ.org/isso'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3026,7 +3026,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/spinnaker/spinnaker</id>
     <title>Spinnaker</title>
@@ -3044,7 +3044,7 @@
         <li><a href='https://www.spinnaker.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Spinnaker_%28software%29'>WP</a></li>
         <li><a href='https://www.spinnaker.io/concepts'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3053,7 +3053,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Psycojoker/prosopopee</id>
     <title>Prosopopee</title>
@@ -3071,7 +3071,7 @@
         <li><a href='https://surleschemins.fr/'>Demo</a></li>
         <li><a href='https://pypi.org/project/prosopopee'>PyPI</a></li>
         <li><a href='https://prosopopee.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3080,7 +3080,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://git.feneas.org/socialhome/socialhome</id>
     <title>Socialhome</title>
@@ -3098,7 +3098,7 @@
         <li><a href='https://socialhome.network/'>Home</a></li>
         <li><a href='https://github.com/jaywink/socialhome'>gh</a></li>
         <li><a href='https://socialhome.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3107,7 +3107,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jelmer/xandikos</id>
     <title>Xandikos</title>
@@ -3123,7 +3123,7 @@
       <ul>
         <li><a href='https://github.com/jelmer/xandikos'>Repo</a></li>
         <li><a href='https://www.xandikos.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3132,7 +3132,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Inboxen/Inboxen</id>
     <title>Inboxen</title>
@@ -3149,7 +3149,7 @@
         <li><a href='https://github.com/Inboxen/Inboxen'>Repo</a></li>
         <li><a href='https://inboxen.org/'>Home</a></li>
         <li><a href='https://inboxen.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3158,7 +3158,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/whitesmith/hawkpost</id>
     <title>Hawkpost</title>
@@ -3174,7 +3174,7 @@
       <ul>
         <li><a href='https://github.com/whitesmith/hawkpost'>Repo</a></li>
         <li><a href='https://hawkpost.co/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3183,7 +3183,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Mailu/Mailu</id>
     <title>Mailu</title>
@@ -3199,7 +3199,7 @@
       <ul>
         <li><a href='https://github.com/Mailu/Mailu'>Repo</a></li>
         <li><a href='https://mailu.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3208,7 +3208,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pinry/pinry</id>
     <title>Pinry</title>
@@ -3224,7 +3224,7 @@
       <ul>
         <li><a href='https://github.com/pinry/pinry'>Repo</a></li>
         <li><a href='https://getpinry.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3233,7 +3233,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rembo10/headphones</id>
     <title>Headphones</title>
@@ -3249,7 +3249,7 @@
       <ul>
         <li><a href='https://github.com/rembo10/headphones'>Repo</a></li>
         <li><a href='https://github.com/rembo10/headphones/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3258,7 +3258,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/healthchecks/healthchecks</id>
     <title>Healthchecks</title>
@@ -3275,7 +3275,7 @@
         <li><a href='https://github.com/healthchecks/healthchecks'>Repo</a></li>
         <li><a href='https://healthchecks.io/'>Home</a></li>
         <li><a href='https://healthchecks.io/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3284,7 +3284,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/LazyLibrarian/LazyLibrarian</id>
     <title>LazyLibrarian</title>
@@ -3301,7 +3301,7 @@
         <li><a href='https://gitlab.com/LazyLibrarian/LazyLibrarian'>Repo</a></li>
         <li><a href='https://www.reddit.com/r/LazyLibrarian'>Forum</a></li>
         <li><a href='https://lazylibrarian.gitlab.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3310,7 +3310,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pyload/pyload</id>
     <title>PyLoad</title>
@@ -3326,7 +3326,7 @@
       <ul>
         <li><a href='https://github.com/pyload/pyload'>Repo</a></li>
         <li><a href='https://pyload.net/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3335,7 +3335,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/CouchPotato/CouchPotatoServer</id>
     <title>CouchPotato</title>
@@ -3351,7 +3351,7 @@
       <ul>
         <li><a href='https://github.com/CouchPotato/CouchPotatoServer'>Repo</a></li>
         <li><a href='http://couchpota.to/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3360,7 +3360,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://git.sickrage.ca/SiCKRAGE/sickrage</id>
     <title>SiCKRAGE</title>
@@ -3377,7 +3377,7 @@
         <li><a href='https://git.sickrage.ca/SiCKRAGE/sickrage'>Repo</a></li>
         <li><a href='https://github.com/SiCKRAGE/SiCKRAGE'>gh</a></li>
         <li><a href='https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3386,7 +3386,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mozilla-services/syncserver</id>
     <title>syncserver</title>
@@ -3402,7 +3402,7 @@
       <ul>
         <li><a href='https://github.com/mozilla-services/syncserver'>Repo</a></li>
         <li><a href='https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3411,7 +3411,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/apache/incubator-superset</id>
     <title>Superset</title>
@@ -3427,7 +3427,7 @@
       <ul>
         <li><a href='https://github.com/apache/incubator-superset'>Repo</a></li>
         <li><a href='http://superset.apache.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3436,7 +3436,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/artefactual/archivematica</id>
     <title>archivematica</title>
@@ -3453,7 +3453,7 @@
         <li><a href='https://github.com/artefactual/archivematica'>Repo</a></li>
         <li><a href='https://www.archivematica.org/en'>Home</a></li>
         <li><a href='https://www.archivematica.org/en/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3462,7 +3462,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/simonw/datasette</id>
     <title>Datasette</title>
@@ -3479,7 +3479,7 @@
         <li><a href='https://github.com/simonw/datasette'>Repo</a></li>
         <li><a href='https://pypi.org/project/datasette'>PyPI</a></li>
         <li><a href='https://datasette.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3488,7 +3488,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mozilla-services/socorro</id>
     <title>Socorro</title>
@@ -3504,7 +3504,7 @@
       <ul>
         <li><a href='https://github.com/mozilla-services/socorro'>Repo</a></li>
         <li><a href='https://wiki.mozilla.org/Socorro'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3513,7 +3513,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nyaadevs/nyaa</id>
     <title>Nyaa</title>
@@ -3528,7 +3528,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/nyaadevs/nyaa'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3537,7 +3537,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/edgedb/edgedb</id>
     <title>EdgeDB</title>
@@ -3554,7 +3554,7 @@
         <li><a href='https://github.com/edgedb/edgedb'>Repo</a></li>
         <li><a href='https://edgedb.com/'>Home</a></li>
         <li><a href='https://edgedb.com/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3563,7 +3563,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/netbox-community/netbox</id>
     <title>netbox</title>
@@ -3579,7 +3579,7 @@
       <ul>
         <li><a href='https://github.com/netbox-community/netbox'>Repo</a></li>
         <li><a href='https://netbox.readthedocs.io/en/stable'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3588,7 +3588,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/openstack/openstack</id>
     <title>OpenStack</title>
@@ -3605,7 +3605,7 @@
         <li><a href='https://github.com/openstack/openstack'>Repo</a></li>
         <li><a href='https://www.openstack.org/'>Home</a></li>
         <li><a href='https://docs.openstack.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3614,7 +3614,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitweb.gentoo.org/proj/portage.git</id>
     <title>Portage</title>
@@ -3630,7 +3630,7 @@
       <ul>
         <li><a href='https://gitweb.gentoo.org/proj/portage.git'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Portage_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3639,7 +3639,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.launchpad.net/openlp</id>
     <title>OpenLP</title>
@@ -3655,7 +3655,7 @@
       <ul>
         <li><a href='https://code.launchpad.net/openlp'>Repo</a></li>
         <li><a href='https://openlp.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3664,7 +3664,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/polyaxon/polyaxon</id>
     <title>Polyaxon</title>
@@ -3681,7 +3681,7 @@
         <li><a href='https://github.com/polyaxon/polyaxon'>Repo</a></li>
         <li><a href='https://polyaxon.com/'>Home</a></li>
         <li><a href='https://docs.polyaxon.com/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3690,7 +3690,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ECSIM/opem</id>
     <title>OPEM</title>
@@ -3706,7 +3706,7 @@
       <ul>
         <li><a href='https://github.com/ECSIM/opem'>Repo</a></li>
         <li><a href='https://www.ecsim.ir/opem/doc'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3715,7 +3715,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/iterative/dvc</id>
     <title>dvc (Data Version Control)</title>
@@ -3732,7 +3732,7 @@
         <li><a href='https://github.com/iterative/dvc'>Repo</a></li>
         <li><a href='https://dvc.org/'>Home</a></li>
         <li><a href='https://dvc.org/doc'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3741,7 +3741,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/taigaio/taiga-back</id>
     <title>Taiga</title>
@@ -3758,7 +3758,7 @@
         <li><a href='https://github.com/taigaio/taiga-back'>Repo</a></li>
         <li><a href='https://taiga.io/'>Home</a></li>
         <li><a href='http://taigaio.github.io/taiga-doc/dist'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3767,7 +3767,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/maebert/jrnl</id>
     <title>jrnl</title>
@@ -3783,7 +3783,7 @@
       <ul>
         <li><a href='https://github.com/maebert/jrnl'>Repo</a></li>
         <li><a href='http://jrnl.sh/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3792,7 +3792,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/chubin/wttr.in</id>
     <title>wttr.in</title>
@@ -3808,7 +3808,7 @@
       <ul>
         <li><a href='https://github.com/chubin/wttr.in'>Repo</a></li>
         <li><a href='http://wttr.in/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3817,7 +3817,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/openstenoproject/plover</id>
     <title>Plover</title>
@@ -3835,7 +3835,7 @@
         <li><a href='https://www.openstenoproject.org/plover'>Home</a></li>
         <li><a href='https://www.openstenoproject.org/donate'>Fund</a></li>
         <li><a href='https://github.com/openstenoproject/plover/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3844,7 +3844,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/foosel/OctoPrint</id>
     <title>Octoprint</title>
@@ -3861,7 +3861,7 @@
         <li><a href='https://github.com/foosel/OctoPrint'>Repo</a></li>
         <li><a href='https://octoprint.org/'>Home</a></li>
         <li><a href='https://www.patreon.com/foosel'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3870,7 +3870,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gaphor/gaphor</id>
     <title>Gaphor</title>
@@ -3886,7 +3886,7 @@
       <ul>
         <li><a href='https://github.com/gaphor/gaphor'>Repo</a></li>
         <li><a href='https://gaphor.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3895,7 +3895,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/n1nj4sec/pupy</id>
     <title>Pupy</title>
@@ -3911,7 +3911,7 @@
       <ul>
         <li><a href='https://github.com/n1nj4sec/pupy'>Repo</a></li>
         <li><a href='https://github.com/n1nj4sec/pupy/wiki/Installation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3920,7 +3920,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/danmacnish/cartoonify</id>
     <title>cartoonify / Draw This.</title>
@@ -3936,7 +3936,7 @@
       <ul>
         <li><a href='https://github.com/danmacnish/cartoonify'>Repo</a></li>
         <li><a href='https://www.kapwing.com/cartoonify'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3945,7 +3945,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pirate/ArchiveBox</id>
     <title>ArchiveBox</title>
@@ -3962,7 +3962,7 @@
         <li><a href='https://github.com/pirate/ArchiveBox'>Repo</a></li>
         <li><a href='https://archivebox.io/'>Home</a></li>
         <li><a href='https://github.com/pirate/ArchiveBox/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3971,7 +3971,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/tdryer/hangups</id>
     <title>Hangups</title>
@@ -3988,7 +3988,7 @@
         <li><a href='https://github.com/tdryer/hangups'>Repo</a></li>
         <li><a href='https://snapcraft.io/hangups'>Snap</a></li>
         <li><a href='https://hangups.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -3997,7 +3997,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mozilla/MozDef</id>
     <title>MozDef</title>
@@ -4013,7 +4013,7 @@
       <ul>
         <li><a href='https://github.com/mozilla/MozDef'>Repo</a></li>
         <li><a href='https://mozdef.readthedocs.io/en/latest?badge=latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4022,7 +4022,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/smicallef/spiderfoot</id>
     <title>Spiderfoot</title>
@@ -4039,7 +4039,7 @@
         <li><a href='https://github.com/smicallef/spiderfoot'>Repo</a></li>
         <li><a href='https://www.spiderfoot.net/'>Home</a></li>
         <li><a href='https://www.spiderfoot.net/documentation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4048,7 +4048,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/cdhigh/KindleEar</id>
     <title>KindleEar</title>
@@ -4064,7 +4064,7 @@
       <ul>
         <li><a href='https://github.com/cdhigh/KindleEar'>Repo</a></li>
         <li><a href='https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4073,7 +4073,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/apenwarr/redo</id>
     <title>redo</title>
@@ -4089,7 +4089,7 @@
       <ul>
         <li><a href='https://github.com/apenwarr/redo'>Repo</a></li>
         <li><a href='https://redo.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4098,7 +4098,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/dcos/dcos</id>
     <title>DCOS</title>
@@ -4116,7 +4116,7 @@
         <li><a href='https://dcos.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Mesosphere%2C_Inc.#Mesosphere_DC/OS'>WP</a></li>
         <li><a href='https://dcos.io/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4125,7 +4125,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/World/OpenPaperwork/paperwork</id>
     <title>Paperwork</title>
@@ -4143,7 +4143,7 @@
         <li><a href='https://openpaper.work/'>Home</a></li>
         <li><a href='https://www.patreon.com/openpaper'>Fund</a></li>
         <li><a href='https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4152,7 +4152,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mozilla/kuma</id>
     <title>Kuma</title>
@@ -4169,7 +4169,7 @@
         <li><a href='https://github.com/mozilla/kuma'>Repo</a></li>
         <li><a href='https://developer.mozilla.org/en-US'>Home</a></li>
         <li><a href='https://kuma.readthedocs.io/en/latest/installation.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4178,7 +4178,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/freedomofpress/securedrop</id>
     <title>SecureDrop</title>
@@ -4195,7 +4195,7 @@
         <li><a href='https://github.com/freedomofpress/securedrop'>Repo</a></li>
         <li><a href='https://securedrop.org/'>Home</a></li>
         <li><a href='https://docs.securedrop.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4204,7 +4204,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/micahflee/onionshare</id>
     <title>OnionShare</title>
@@ -4221,7 +4221,7 @@
         <li><a href='https://github.com/micahflee/onionshare'>Repo</a></li>
         <li><a href='https://onionshare.org/'>Home</a></li>
         <li><a href='https://github.com/micahflee/onionshare/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4230,7 +4230,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/stamparm/maltrail</id>
     <title>Maltrail</title>
@@ -4245,7 +4245,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/stamparm/maltrail'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4254,7 +4254,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pulp/pulp</id>
     <title>Pulp</title>
@@ -4271,7 +4271,7 @@
         <li><a href='https://github.com/pulp/pulp'>Repo</a></li>
         <li><a href='https://pulpproject.org/'>Home</a></li>
         <li><a href='https://docs.pulpproject.org/en/3.0/nightly'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4280,7 +4280,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mkdocs/mkdocs</id>
     <title>mkdocs</title>
@@ -4296,7 +4296,7 @@
       <ul>
         <li><a href='https://github.com/mkdocs/mkdocs'>Repo</a></li>
         <li><a href='https://www.mkdocs.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4305,7 +4305,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/wting/autojump</id>
     <title>autojump</title>
@@ -4320,7 +4320,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/wting/autojump'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4329,7 +4329,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/lra/mackup</id>
     <title>Mackup</title>
@@ -4345,7 +4345,7 @@
       <ul>
         <li><a href='https://github.com/lra/mackup'>Repo</a></li>
         <li><a href='https://pypi.org/project/mackup'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4354,7 +4354,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/audreyr/cookiecutter</id>
     <title>Cookiecutter</title>
@@ -4371,7 +4371,7 @@
         <li><a href='https://github.com/audreyr/cookiecutter'>Repo</a></li>
         <li><a href='https://pypi.org/project/cookiecutter'>PyPI</a></li>
         <li><a href='https://cookiecutter.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4380,7 +4380,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nicolargo/glances</id>
     <title>Glances</title>
@@ -4397,7 +4397,7 @@
         <li><a href='https://github.com/nicolargo/glances'>Repo</a></li>
         <li><a href='https://nicolargo.github.io/glances'>Home</a></li>
         <li><a href='https://glances.readthedocs.io/en/stable'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4406,7 +4406,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/getredash/redash</id>
     <title>Redash</title>
@@ -4422,7 +4422,7 @@
       <ul>
         <li><a href='https://github.com/getredash/redash'>Repo</a></li>
         <li><a href='https://redash.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4431,7 +4431,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sqlmapproject/sqlmap</id>
     <title>sqlmap</title>
@@ -4448,7 +4448,7 @@
         <li><a href='https://github.com/sqlmapproject/sqlmap'>Repo</a></li>
         <li><a href='http://sqlmap.org/'>Home</a></li>
         <li><a href='https://github.com/sqlmapproject/sqlmap/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4457,7 +4457,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sivel/speedtest-cli</id>
     <title>speedtest-cli</title>
@@ -4472,7 +4472,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/sivel/speedtest-cli'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4481,7 +4481,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/aws/aws-cli</id>
     <title>aws-cli</title>
@@ -4498,7 +4498,7 @@
         <li><a href='https://github.com/aws/aws-cli'>Repo</a></li>
         <li><a href='https://pypi.org/project/awscli'>PyPI</a></li>
         <li><a href='https://docs.aws.amazon.com/cli/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4507,7 +4507,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gleitz/howdoi</id>
     <title>howdoi</title>
@@ -4523,7 +4523,7 @@
       <ul>
         <li><a href='https://github.com/gleitz/howdoi'>Repo</a></li>
         <li><a href='https://pypi.org/project/howdoi'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4532,7 +4532,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ambv/black</id>
     <title>Black</title>
@@ -4549,7 +4549,7 @@
         <li><a href='https://github.com/ambv/black'>Repo</a></li>
         <li><a href='https://pypi.org/project/black'>PyPI</a></li>
         <li><a href='https://black.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4558,7 +4558,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/asciinema/asciinema</id>
     <title>asciinema</title>
@@ -4574,7 +4574,7 @@
       <ul>
         <li><a href='https://github.com/asciinema/asciinema'>Repo</a></li>
         <li><a href='https://asciinema.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4583,7 +4583,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/thumbor/thumbor</id>
     <title>Thumbor</title>
@@ -4600,7 +4600,7 @@
         <li><a href='https://github.com/thumbor/thumbor'>Repo</a></li>
         <li><a href='http://thumbor.org/'>Home</a></li>
         <li><a href='https://thumbor.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4609,7 +4609,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/3b1b/manim</id>
     <title>Manim</title>
@@ -4625,7 +4625,7 @@
       <ul>
         <li><a href='https://github.com/3b1b/manim'>Repo</a></li>
         <li><a href='https://manim.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4634,7 +4634,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mopidy/mopidy</id>
     <title>Mopidy</title>
@@ -4650,7 +4650,7 @@
       <ul>
         <li><a href='https://github.com/mopidy/mopidy'>Repo</a></li>
         <li><a href='https://www.mopidy.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4659,7 +4659,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/asciimoo/searx</id>
     <title>Searx</title>
@@ -4675,7 +4675,7 @@
       <ul>
         <li><a href='https://github.com/asciimoo/searx'>Repo</a></li>
         <li><a href='https://asciimoo.github.io/searx'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4684,7 +4684,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Kinto/kinto</id>
     <title>kinto</title>
@@ -4701,7 +4701,7 @@
         <li><a href='https://github.com/Kinto/kinto'>Repo</a></li>
         <li><a href='https://www.kinto-storage.org/'>Home</a></li>
         <li><a href='http://docs.kinto-storage.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4710,7 +4710,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/evilsocket/opensnitch</id>
     <title>OpenSnitch</title>
@@ -4726,7 +4726,7 @@
       <ul>
         <li><a href='https://github.com/evilsocket/opensnitch'>Repo</a></li>
         <li><a href='https://opensnitch.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4735,7 +4735,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jopohl/urh</id>
     <title>Universal Radio Hacker (URH)</title>
@@ -4750,7 +4750,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/jopohl/urh'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4759,7 +4759,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/samuelclay/NewsBlur</id>
     <title>NewsBlur</title>
@@ -4775,7 +4775,7 @@
       <ul>
         <li><a href='https://github.com/samuelclay/NewsBlur'>Repo</a></li>
         <li><a href='https://www.newsblur.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4784,7 +4784,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/allegro/ralph</id>
     <title>Ralph</title>
@@ -4801,7 +4801,7 @@
         <li><a href='https://github.com/allegro/ralph'>Repo</a></li>
         <li><a href='https://ralph.allegro.tech/'>Home</a></li>
         <li><a href='https://ralph-ng.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4810,7 +4810,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://git.beaker-project.org/cgit/beaker</id>
     <title>Beaker</title>
@@ -4827,7 +4827,7 @@
         <li><a href='https://git.beaker-project.org/cgit/beaker'>Repo</a></li>
         <li><a href='https://beaker-project.org/'>Home</a></li>
         <li><a href='https://beaker-project.org/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4836,7 +4836,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/facebook/PathPicker</id>
     <title>PathPicker</title>
@@ -4852,7 +4852,7 @@
       <ul>
         <li><a href='https://github.com/facebook/PathPicker'>Repo</a></li>
         <li><a href='http://facebook.github.io/PathPicker'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4861,7 +4861,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pyvideo/pyvideo</id>
     <title>PyVideo</title>
@@ -4877,7 +4877,7 @@
       <ul>
         <li><a href='https://github.com/pyvideo/pyvideo'>Repo</a></li>
         <li><a href='https://pyvideo.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4886,7 +4886,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ckan/ckan</id>
     <title>CKAN</title>
@@ -4902,7 +4902,7 @@
       <ul>
         <li><a href='https://github.com/ckan/ckan'>Repo</a></li>
         <li><a href='https://ckan.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4911,7 +4911,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/streamlink/streamlink</id>
     <title>streamlink</title>
@@ -4928,7 +4928,7 @@
         <li><a href='https://github.com/streamlink/streamlink'>Repo</a></li>
         <li><a href='https://streamlink.github.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/streamlink'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4937,7 +4937,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/lutris/lutris</id>
     <title>Lutris</title>
@@ -4955,7 +4955,7 @@
         <li><a href='https://lutris.net/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Lutris'>WP</a></li>
         <li><a href='https://www.patreon.com/lutris'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4964,7 +4964,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/borgbackup/borg</id>
     <title>BorgBackup</title>
@@ -4980,7 +4980,7 @@
       <ul>
         <li><a href='https://github.com/borgbackup/borg'>Repo</a></li>
         <li><a href='https://www.borgbackup.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -4989,7 +4989,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/thonny/thonny</id>
     <title>Thonny</title>
@@ -5006,7 +5006,7 @@
         <li><a href='https://github.com/thonny/thonny'>Repo</a></li>
         <li><a href='https://thonny.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Thonny'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5015,7 +5015,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/PyCon/pycon</id>
     <title>PyCon</title>
@@ -5032,7 +5032,7 @@
         <li><a href='https://github.com/PyCon/pycon'>Repo</a></li>
         <li><a href='https://us.pycon.org/'>Home</a></li>
         <li><a href='https://pycon.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5041,7 +5041,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/warner/magic-wormhole</id>
     <title>Magic Wormhole</title>
@@ -5058,7 +5058,7 @@
         <li><a href='https://github.com/warner/magic-wormhole'>Repo</a></li>
         <li><a href='https://pypi.org/project/magic-wormhole'>PyPI</a></li>
         <li><a href='https://magic-wormhole.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5067,7 +5067,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/alicevision/meshroom</id>
     <title>Meshroom</title>
@@ -5083,7 +5083,7 @@
       <ul>
         <li><a href='https://github.com/alicevision/meshroom'>Repo</a></li>
         <li><a href='http://alicevision.github.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5092,7 +5092,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/korcankaraokcu/PINCE</id>
     <title>PINCE</title>
@@ -5107,7 +5107,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/korcankaraokcu/PINCE'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5116,7 +5116,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.launchpad.net/sofastatistics</id>
     <title>SOFA Statistics</title>
@@ -5132,7 +5132,7 @@
       <ul>
         <li><a href='https://code.launchpad.net/sofastatistics'>Repo</a></li>
         <li><a href='http://www.sofastatistics.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5141,7 +5141,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sshuttle/sshuttle</id>
     <title>sshuttle</title>
@@ -5157,7 +5157,7 @@
       <ul>
         <li><a href='https://github.com/sshuttle/sshuttle'>Repo</a></li>
         <li><a href='https://sshuttle.readthedocs.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5166,7 +5166,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://hg.tryton.org/trytond</id>
     <title>Tryton</title>
@@ -5184,7 +5184,7 @@
         <li><a href='https://www.tryton.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Tryton'>WP</a></li>
         <li><a href='https://docs.tryton.org/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5193,7 +5193,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/beetbox/beets</id>
     <title>Beets</title>
@@ -5210,7 +5210,7 @@
         <li><a href='https://github.com/beetbox/beets'>Repo</a></li>
         <li><a href='http://beets.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/beets'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5219,7 +5219,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/lukasmonk/lucaschess</id>
     <title>Lucas Chess</title>
@@ -5235,7 +5235,7 @@
       <ul>
         <li><a href='https://github.com/lukasmonk/lucaschess'>Repo</a></li>
         <li><a href='http://lucaschess.pythonanywhere.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5244,7 +5244,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/abilian/abilian-sbe</id>
     <title>Abilian SBE</title>
@@ -5260,7 +5260,7 @@
       <ul>
         <li><a href='https://github.com/abilian/abilian-sbe'>Repo</a></li>
         <li><a href='https://www.abilian.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5269,7 +5269,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/git-cola/git-cola</id>
     <title>Git Cola</title>
@@ -5285,7 +5285,7 @@
       <ul>
         <li><a href='https://github.com/git-cola/git-cola'>Repo</a></li>
         <li><a href='https://git-cola.github.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5294,7 +5294,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://lab.nexedi.com/nexedi/erp5</id>
     <title>ERP5</title>
@@ -5311,7 +5311,7 @@
         <li><a href='https://lab.nexedi.com/nexedi/erp5'>Repo</a></li>
         <li><a href='https://erp5.nexedi.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/ERP5'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5320,7 +5320,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pypa/pipenv</id>
     <title>pipenv</title>
@@ -5336,7 +5336,7 @@
       <ul>
         <li><a href='https://github.com/pypa/pipenv'>Repo</a></li>
         <li><a href='https://pipenv.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5345,7 +5345,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rhinstaller/anaconda</id>
     <title>RedHat Anaconda</title>
@@ -5361,7 +5361,7 @@
       <ul>
         <li><a href='https://github.com/rhinstaller/anaconda'>Repo</a></li>
         <li><a href='https://anaconda-installer.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5370,7 +5370,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://bitbucket.org/tortoisehg/thg/src</id>
     <title>TortoiseHg</title>
@@ -5387,7 +5387,7 @@
         <li><a href='https://bitbucket.org/tortoisehg/thg/src'>Repo</a></li>
         <li><a href='https://tortoisehg.bitbucket.io/'>Home</a></li>
         <li><a href='https://bitbucket.org/tortoisehg/thg/wiki/developers/Home'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5396,7 +5396,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/giuspen/cherrytree</id>
     <title>CherryTree</title>
@@ -5412,7 +5412,7 @@
       <ul>
         <li><a href='https://github.com/giuspen/cherrytree'>Repo</a></li>
         <li><a href='https://www.giuspen.com/cherrytree'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5421,7 +5421,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/invesalius/invesalius3</id>
     <title>InVesalius</title>
@@ -5438,7 +5438,7 @@
         <li><a href='https://github.com/invesalius/invesalius3'>Repo</a></li>
         <li><a href='https://invesalius.github.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/InVesalius'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5447,7 +5447,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/linkedin/iris</id>
     <title>Iris</title>
@@ -5463,7 +5463,7 @@
       <ul>
         <li><a href='https://github.com/linkedin/iris'>Repo</a></li>
         <li><a href='https://iris.claims/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5472,7 +5472,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/linkedin/oncall</id>
     <title>Oncall</title>
@@ -5488,7 +5488,7 @@
       <ul>
         <li><a href='https://github.com/linkedin/oncall'>Repo</a></li>
         <li><a href='https://oncall.tools/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5497,7 +5497,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/HelloZeroNet/ZeroNet</id>
     <title>ZeroNet</title>
@@ -5515,7 +5515,7 @@
         <li><a href='https://zeronet.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/ZeroNet'>WP</a></li>
         <li><a href='https://zeronet.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5524,7 +5524,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/adrienverge/PhotoCollage</id>
     <title>PhotoCollage</title>
@@ -5539,7 +5539,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/adrienverge/PhotoCollage'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5548,7 +5548,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/snare/voltron</id>
     <title>Voltron</title>
@@ -5563,7 +5563,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/snare/voltron'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5572,7 +5572,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sdispater/poetry</id>
     <title>Poetry</title>
@@ -5589,7 +5589,7 @@
         <li><a href='https://github.com/sdispater/poetry'>Repo</a></li>
         <li><a href='https://poetry.eustace.io/'>Home</a></li>
         <li><a href='https://poetry.eustace.io/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5598,7 +5598,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ncolony/ncolony</id>
     <title>NColony</title>
@@ -5614,7 +5614,7 @@
       <ul>
         <li><a href='https://github.com/ncolony/ncolony'>Repo</a></li>
         <li><a href='http://ncolony.org/en/latest'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5623,7 +5623,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Supervisor/supervisor</id>
     <title>Supervisor</title>
@@ -5639,7 +5639,7 @@
       <ul>
         <li><a href='https://github.com/Supervisor/supervisor'>Repo</a></li>
         <li><a href='http://supervisord.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5648,7 +5648,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pantsbuild/pants</id>
     <title>Pants</title>
@@ -5664,7 +5664,7 @@
       <ul>
         <li><a href='https://github.com/pantsbuild/pants'>Repo</a></li>
         <li><a href='https://www.pantsbuild.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5673,7 +5673,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gpodder/gpodder</id>
     <title>gPodder</title>
@@ -5689,7 +5689,7 @@
       <ul>
         <li><a href='https://github.com/gpodder/gpodder'>Repo</a></li>
         <li><a href='https://gpodder.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5698,7 +5698,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pi-hole/pi-hole</id>
     <title>Pi-Hole</title>
@@ -5715,7 +5715,7 @@
         <li><a href='https://github.com/pi-hole/pi-hole'>Repo</a></li>
         <li><a href='https://pi-hole.net/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Pi-hole'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5724,7 +5724,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/tlecomte/friture</id>
     <title>Friture</title>
@@ -5740,7 +5740,7 @@
       <ul>
         <li><a href='https://github.com/tlecomte/friture'>Repo</a></li>
         <li><a href='http://friture.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5749,7 +5749,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/camelot-dev/excalibur</id>
     <title>Excalibur</title>
@@ -5765,7 +5765,7 @@
       <ul>
         <li><a href='https://github.com/camelot-dev/excalibur'>Repo</a></li>
         <li><a href='https://www.tryexcalibur.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5774,7 +5774,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Kozea/Radicale</id>
     <title>Radicale</title>
@@ -5791,7 +5791,7 @@
         <li><a href='https://github.com/Kozea/Radicale'>Repo</a></li>
         <li><a href='https://radicale.org/'>Home</a></li>
         <li><a href='https://radicale.org/documentation'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5800,7 +5800,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/modoboa/modoboa</id>
     <title>Modoboa</title>
@@ -5816,7 +5816,7 @@
       <ul>
         <li><a href='https://github.com/modoboa/modoboa'>Repo</a></li>
         <li><a href='https://modoboa.org/en'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5825,7 +5825,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mu-editor/mu</id>
     <title>mu</title>
@@ -5841,7 +5841,7 @@
       <ul>
         <li><a href='https://github.com/mu-editor/mu'>Repo</a></li>
         <li><a href='https://codewith.mu/en'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5850,7 +5850,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jupyter/nbgrader</id>
     <title>NBGrader</title>
@@ -5866,7 +5866,7 @@
       <ul>
         <li><a href='https://github.com/jupyter/nbgrader'>Repo</a></li>
         <li><a href='https://nbgrader.readthedocs.io/en/stable'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5875,7 +5875,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/home-assistant/home-assistant</id>
     <title>Home Assistant</title>
@@ -5893,7 +5893,7 @@
         <li><a href='https://www.home-assistant.io/'>Home</a></li>
         <li><a href='https://demo.home-assistant.io/'>Demo</a></li>
         <li><a href='https://www.home-assistant.io/docs'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5902,7 +5902,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/plone/Plone</id>
     <title>Plone</title>
@@ -5919,7 +5919,7 @@
         <li><a href='https://github.com/plone/Plone'>Repo</a></li>
         <li><a href='https://plone.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Plone_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5928,7 +5928,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/getnikola/nikola</id>
     <title>Nikola</title>
@@ -5945,7 +5945,7 @@
         <li><a href='https://github.com/getnikola/nikola'>Repo</a></li>
         <li><a href='https://www.getnikola.com/'>Home</a></li>
         <li><a href='https://pypi.org/project/nikola'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5954,7 +5954,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://bitbucket.org/thomaswaldmann/moin-2.0</id>
     <title>MoinMoin</title>
@@ -5972,7 +5972,7 @@
         <li><a href='http://moinmo.in/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/MoinMoin'>WP</a></li>
         <li><a href='https://moin-20.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -5981,7 +5981,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sabnzbd/sabnzbd</id>
     <title>SABnzbd</title>
@@ -5998,7 +5998,7 @@
         <li><a href='https://github.com/sabnzbd/sabnzbd'>Repo</a></li>
         <li><a href='https://sabnzbd.org/'>Home</a></li>
         <li><a href='https://sabnzbd.org/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6007,7 +6007,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/2ndquadrant-it/barman</id>
     <title>Barman</title>
@@ -6022,7 +6022,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/2ndquadrant-it/barman'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6031,7 +6031,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/dbcli/pgcli</id>
     <title>pgcli</title>
@@ -6048,7 +6048,7 @@
         <li><a href='https://github.com/dbcli/pgcli'>Repo</a></li>
         <li><a href='https://www.pgcli.com/'>Home</a></li>
         <li><a href='https://pypi.python.org/pypi/pgcli'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6057,7 +6057,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/wal-e/wal-e</id>
     <title>WAL-E</title>
@@ -6072,7 +6072,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/wal-e/wal-e'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6081,7 +6081,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/dissemin/dissemin</id>
     <title>Dissem.in</title>
@@ -6098,7 +6098,7 @@
         <li><a href='https://github.com/dissemin/dissemin'>Repo</a></li>
         <li><a href='https://dissem.in/'>Home</a></li>
         <li><a href='https://dev.dissem.in/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6107,7 +6107,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/deluge-torrent/deluge</id>
     <title>Deluge</title>
@@ -6125,7 +6125,7 @@
         <li><a href='https://deluge-torrent.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Deluge_%28software%29'>WP</a></li>
         <li><a href='https://www.patreon.com/deluge_cas'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6134,7 +6134,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/neubot/neubot</id>
     <title>Neubot</title>
@@ -6150,7 +6150,7 @@
       <ul>
         <li><a href='https://github.com/neubot/neubot'>Repo</a></li>
         <li><a href='http://www.neubot.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6159,7 +6159,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/python/planet</id>
     <title>Planet</title>
@@ -6176,7 +6176,7 @@
         <li><a href='https://github.com/python/planet'>Repo</a></li>
         <li><a href='https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Planet_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6185,7 +6185,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/qutebrowser/qutebrowser</id>
     <title>Qute Browser</title>
@@ -6201,7 +6201,7 @@
       <ul>
         <li><a href='https://github.com/qutebrowser/qutebrowser'>Repo</a></li>
         <li><a href='https://www.qutebrowser.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6210,7 +6210,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/reddit-archive/reddit</id>
     <title>Reddit</title>
@@ -6226,7 +6226,7 @@
       <ul>
         <li><a href='https://github.com/reddit-archive/reddit'>Repo</a></li>
         <li><a href='http://reddit.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6235,7 +6235,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Tribler/tribler</id>
     <title>Tribler</title>
@@ -6252,7 +6252,7 @@
         <li><a href='https://github.com/Tribler/tribler'>Repo</a></li>
         <li><a href='http://www.tribler.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Tribler'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6261,7 +6261,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/soimort/you-get</id>
     <title>You-Get</title>
@@ -6277,7 +6277,7 @@
       <ul>
         <li><a href='https://github.com/soimort/you-get'>Repo</a></li>
         <li><a href='https://you-get.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6286,7 +6286,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rg3/youtube-dl</id>
     <title>youtube-dl</title>
@@ -6303,7 +6303,7 @@
         <li><a href='https://github.com/rg3/youtube-dl'>Repo</a></li>
         <li><a href='http://rg3.github.io/youtube-dl'>Home</a></li>
         <li><a href='https://pypi.org/project/youtube_dl'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6312,7 +6312,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://bitbucket.org/MakeHuman/makehuman</id>
     <title>MakeHuman</title>
@@ -6328,7 +6328,7 @@
       <ul>
         <li><a href='https://bitbucket.org/MakeHuman/makehuman'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/MakeHuman'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6337,7 +6337,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ASKBOT/askbot-devel</id>
     <title>Askbot</title>
@@ -6353,7 +6353,7 @@
       <ul>
         <li><a href='https://github.com/ASKBOT/askbot-devel'>Repo</a></li>
         <li><a href='https://askbot.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6362,7 +6362,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/benadida/helios-server</id>
     <title>Helios Voting</title>
@@ -6378,7 +6378,7 @@
       <ul>
         <li><a href='https://github.com/benadida/helios-server'>Repo</a></li>
         <li><a href='http://heliosvoting.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6387,7 +6387,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/OfflineIMAP/offlineimap</id>
     <title>OfflineIMAP</title>
@@ -6404,7 +6404,7 @@
         <li><a href='https://github.com/OfflineIMAP/offlineimap'>Repo</a></li>
         <li><a href='http://www.offlineimap.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/OfflineIMAP'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6413,7 +6413,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/translate/pootle</id>
     <title>Pootle</title>
@@ -6430,7 +6430,7 @@
         <li><a href='https://github.com/translate/pootle'>Repo</a></li>
         <li><a href='http://pootle.translatehouse.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Pootle'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6439,7 +6439,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/geopython/pycsw</id>
     <title>pycsw</title>
@@ -6455,7 +6455,7 @@
       <ul>
         <li><a href='https://github.com/geopython/pycsw'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Pycsw'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6464,7 +6464,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/translate/virtaal</id>
     <title>Virtaal</title>
@@ -6480,7 +6480,7 @@
       <ul>
         <li><a href='https://github.com/translate/virtaal'>Repo</a></li>
         <li><a href='http://virtaal.translatehouse.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6489,7 +6489,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/WeblateOrg/weblate</id>
     <title>Weblate</title>
@@ -6506,7 +6506,7 @@
         <li><a href='https://github.com/WeblateOrg/weblate'>Repo</a></li>
         <li><a href='https://weblate.org/'>Home</a></li>
         <li><a href='https://pypi.org/project/Weblate'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6515,7 +6515,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/zulip/zulip</id>
     <title>Zulip</title>
@@ -6533,7 +6533,7 @@
         <li><a href='https://zulip.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Zulip'>WP</a></li>
         <li><a href='https://zulip.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6542,7 +6542,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sagemathinc/cocalc</id>
     <title>CoCalc</title>
@@ -6559,7 +6559,7 @@
         <li><a href='https://github.com/sagemathinc/cocalc'>Repo</a></li>
         <li><a href='https://cocalc.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/CoCalc'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6568,7 +6568,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://git.sagemath.org/sage.git</id>
     <title>Sage Math</title>
@@ -6585,7 +6585,7 @@
         <li><a href='https://git.sagemath.org/sage.git'>Repo</a></li>
         <li><a href='http://www.sagemath.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/SageMath'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6594,7 +6594,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mahmoud/chert</id>
     <title>Chert</title>
@@ -6610,7 +6610,7 @@
       <ul>
         <li><a href='https://github.com/mahmoud/chert'>Repo</a></li>
         <li><a href='https://pypi.org/project/chert'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6619,7 +6619,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/hyde/hyde</id>
     <title>Hyde</title>
@@ -6636,7 +6636,7 @@
         <li><a href='https://github.com/hyde/hyde'>Repo</a></li>
         <li><a href='http://hyde.github.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/hyde'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6645,7 +6645,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/getpelican/pelican</id>
     <title>Pelican</title>
@@ -6662,7 +6662,7 @@
         <li><a href='https://github.com/getpelican/pelican'>Repo</a></li>
         <li><a href='https://blog.getpelican.com/'>Home</a></li>
         <li><a href='https://pypi.org/project/pelican'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6671,7 +6671,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/apache/allura</id>
     <title>Allura</title>
@@ -6688,7 +6688,7 @@
         <li><a href='https://github.com/apache/allura'>Repo</a></li>
         <li><a href='https://allura.apache.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Apache_Allura'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6697,7 +6697,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.launchpad.net/bzr</id>
     <title>GNU Bazaar</title>
@@ -6715,7 +6715,7 @@
         <li><a href='http://bazaar.canonical.com/en'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNU_Bazaar'>WP</a></li>
         <li><a href='http://doc.bazaar.canonical.com/en'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6724,7 +6724,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://kallithea-scm.org/repos/kallithea</id>
     <title>Kallithea</title>
@@ -6740,7 +6740,7 @@
       <ul>
         <li><a href='https://kallithea-scm.org/repos/kallithea'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Kallithea_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6749,7 +6749,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://www.mercurial-scm.org/repo/hg-stable</id>
     <title>Mercurial</title>
@@ -6766,7 +6766,7 @@
         <li><a href='https://www.mercurial-scm.org/repo/hg-stable'>Repo</a></li>
         <li><a href='https://www.mercurial-scm.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Mercurial'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6775,7 +6775,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://pagure.io/pagure</id>
     <title>Pagure</title>
@@ -6791,7 +6791,7 @@
       <ul>
         <li><a href='https://pagure.io/pagure'>Repo</a></li>
         <li><a href='https://pagure.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6800,7 +6800,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/getpatchwork/patchwork</id>
     <title>Patchwork</title>
@@ -6817,7 +6817,7 @@
         <li><a href='https://github.com/getpatchwork/patchwork'>Repo</a></li>
         <li><a href='http://jk.ozlabs.org/projects/patchwork'>Home</a></li>
         <li><a href='https://patchwork.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6826,7 +6826,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.rhodecode.com/rhodecode-enterprise-ce</id>
     <title>RhodeCode</title>
@@ -6843,7 +6843,7 @@
         <li><a href='https://code.rhodecode.com/rhodecode-enterprise-ce'>Repo</a></li>
         <li><a href='https://rhodecode.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/RhodeCode'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6852,7 +6852,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>http://hg.code.sf.net/p/roundup/code</id>
     <title>Roundup</title>
@@ -6868,7 +6868,7 @@
       <ul>
         <li><a href='http://hg.code.sf.net/p/roundup/code'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6877,7 +6877,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/edgewall/trac</id>
     <title>Trac</title>
@@ -6895,7 +6895,7 @@
         <li><a href='https://trac.edgewall.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Trac'>WP</a></li>
         <li><a href='https://trac.edgewall.org/wiki/TracGuide'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6904,7 +6904,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/viewvc/viewvc</id>
     <title>ViewVC</title>
@@ -6920,7 +6920,7 @@
       <ul>
         <li><a href='https://github.com/viewvc/viewvc'>Repo</a></li>
         <li><a href='http://viewvc.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6929,7 +6929,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/GNOME/meld</id>
     <title>Meld</title>
@@ -6945,7 +6945,7 @@
       <ul>
         <li><a href='https://github.com/GNOME/meld'>Repo</a></li>
         <li><a href='http://meldmerge.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6954,7 +6954,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/reviewboard/reviewboard</id>
     <title>Review Board</title>
@@ -6970,7 +6970,7 @@
       <ul>
         <li><a href='https://github.com/reviewboard/reviewboard'>Repo</a></li>
         <li><a href='https://www.reviewboard.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -6979,7 +6979,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rietveld-codereview/rietveld</id>
     <title>Rietveld</title>
@@ -6996,7 +6996,7 @@
         <li><a href='https://github.com/rietveld-codereview/rietveld'>Repo</a></li>
         <li><a href='https://codereview.appspot.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Rietveld_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7005,7 +7005,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/haiwen/seahub</id>
     <title>Seafile</title>
@@ -7021,7 +7021,7 @@
       <ul>
         <li><a href='https://github.com/haiwen/seahub'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Seafile'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7030,7 +7030,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/tahoe-lafs/tahoe-lafs</id>
     <title>TahoeLAFS</title>
@@ -7047,7 +7047,7 @@
         <li><a href='https://github.com/tahoe-lafs/tahoe-lafs'>Repo</a></li>
         <li><a href='https://tahoe-lafs.org/trac/tahoe-lafs'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Tahoe-LAFS'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7056,7 +7056,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ansible/ansible</id>
     <title>Ansible</title>
@@ -7073,7 +7073,7 @@
         <li><a href='https://github.com/ansible/ansible'>Repo</a></li>
         <li><a href='https://www.ansible.com/'>Home</a></li>
         <li><a href='https://docs.ansible.com/ansible'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7082,7 +7082,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Cobbler/Cobbler</id>
     <title>Cobbler</title>
@@ -7099,7 +7099,7 @@
         <li><a href='https://github.com/Cobbler/Cobbler'>Repo</a></li>
         <li><a href='https://cobbler.github.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Cobbler_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7108,7 +7108,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/fail2ban/fail2ban</id>
     <title>fail2ban</title>
@@ -7125,7 +7125,7 @@
         <li><a href='https://github.com/fail2ban/fail2ban'>Repo</a></li>
         <li><a href='https://www.fail2ban.org/wiki/index.php/Main_Page'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Fail2ban'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7134,7 +7134,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ganeti/ganeti</id>
     <title>Ganeti</title>
@@ -7149,7 +7149,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ganeti/ganeti'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7158,7 +7158,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/benoitc/gunicorn</id>
     <title>Gunicorn</title>
@@ -7175,7 +7175,7 @@
         <li><a href='https://github.com/benoitc/gunicorn'>Repo</a></li>
         <li><a href='https://gunicorn.org/'>Home</a></li>
         <li><a href='https://pypi.python.org/pypi/gunicorn'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7184,7 +7184,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/saltstack/salt</id>
     <title>Salt Stack</title>
@@ -7200,7 +7200,7 @@
       <ul>
         <li><a href='https://github.com/saltstack/salt'>Repo</a></li>
         <li><a href='https://repo.saltstack.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7209,7 +7209,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/naparuba/shinken</id>
     <title>Shinken</title>
@@ -7225,7 +7225,7 @@
       <ul>
         <li><a href='https://github.com/naparuba/shinken'>Repo</a></li>
         <li><a href='http://www.shinken-monitoring.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7234,7 +7234,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/StackStorm/st2</id>
     <title>StackStorm</title>
@@ -7250,7 +7250,7 @@
       <ul>
         <li><a href='https://github.com/StackStorm/st2'>Repo</a></li>
         <li><a href='http://www.stackstorm.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7259,7 +7259,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/asciidoc/asciidoc</id>
     <title>asciidoc</title>
@@ -7274,7 +7274,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/asciidoc/asciidoc'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7283,7 +7283,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sphinx-doc/sphinx</id>
     <title>Sphinx</title>
@@ -7299,7 +7299,7 @@
       <ul>
         <li><a href='https://github.com/sphinx-doc/sphinx'>Repo</a></li>
         <li><a href='http://sphinx-doc.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7308,7 +7308,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>http://die-offenbachs.homelinux.org:48888/hg/eric</id>
     <title>Eric IDE</title>
@@ -7324,7 +7324,7 @@
       <ul>
         <li><a href='http://die-offenbachs.homelinux.org:48888/hg/eric'>Repo</a></li>
         <li><a href='https://eric-ide.python-projects.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7333,7 +7333,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/GNOME/gedit</id>
     <title>Gedit</title>
@@ -7349,7 +7349,7 @@
       <ul>
         <li><a href='https://gitlab.gnome.org/GNOME/gedit'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Gedit'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7358,7 +7358,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jupyter/notebook</id>
     <title>Jupyter Notebook</title>
@@ -7375,7 +7375,7 @@
         <li><a href='https://github.com/jupyter/notebook'>Repo</a></li>
         <li><a href='https://jupyter.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7384,7 +7384,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Komodo/KomodoEdit</id>
     <title>Komodo Edit</title>
@@ -7401,7 +7401,7 @@
         <li><a href='https://github.com/Komodo/KomodoEdit'>Repo</a></li>
         <li><a href='https://www.activestate.com/products/komodo-edit'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Komodo_Edit'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7410,7 +7410,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/leo-editor/leo-editor</id>
     <title>Leo Editor</title>
@@ -7427,7 +7427,7 @@
         <li><a href='https://github.com/leo-editor/leo-editor'>Repo</a></li>
         <li><a href='http://leoeditor.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Leo_%28text_editor%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7436,7 +7436,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ninja-ide/ninja-ide</id>
     <title>Ninja IDE</title>
@@ -7453,7 +7453,7 @@
         <li><a href='https://github.com/ninja-ide/ninja-ide'>Repo</a></li>
         <li><a href='http://ninja-ide.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Ninja-IDE'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7462,7 +7462,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mate-desktop/pluma</id>
     <title>Pluma</title>
@@ -7477,7 +7477,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/mate-desktop/pluma'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7486,7 +7486,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/spyder-ide/spyder</id>
     <title>Spyder IDE</title>
@@ -7503,7 +7503,7 @@
         <li><a href='https://github.com/spyder-ide/spyder'>Repo</a></li>
         <li><a href='https://www.spyder-ide.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Spyder_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7512,7 +7512,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/conda/conda</id>
     <title>Conda</title>
@@ -7529,7 +7529,7 @@
         <li><a href='https://github.com/conda/conda'>Repo</a></li>
         <li><a href='https://conda.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Conda_%28package_manager%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7538,7 +7538,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rpm-software-management/dnf</id>
     <title>dnf</title>
@@ -7555,7 +7555,7 @@
         <li><a href='https://github.com/rpm-software-management/dnf'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/DNF_%28software%29'>WP</a></li>
         <li><a href='https://dnf.readthedocs.io/en/latest'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7564,7 +7564,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pypa/pip</id>
     <title>pip</title>
@@ -7582,7 +7582,7 @@
         <li><a href='https://pip.pypa.io/en/stable'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Pip_%28package_manager%29'>WP</a></li>
         <li><a href='https://pypi.org/project/pip'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7591,7 +7591,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/oracle/solaris-ips</id>
     <title>Solaris IPS</title>
@@ -7606,7 +7606,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/oracle/solaris-ips'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7615,7 +7615,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rpm-software-management/yum</id>
     <title>yum</title>
@@ -7632,7 +7632,7 @@
         <li><a href='https://github.com/rpm-software-management/yum'>Repo</a></li>
         <li><a href='http://yum.baseurl.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Yum_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7641,7 +7641,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pypa/bandersnatch</id>
     <title>Bandersnatch</title>
@@ -7656,7 +7656,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/pypa/bandersnatch'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7665,7 +7665,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/devpi/devpi</id>
     <title>devpi</title>
@@ -7681,7 +7681,7 @@
       <ul>
         <li><a href='https://github.com/devpi/devpi'>Repo</a></li>
         <li><a href='http://doc.devpi.net/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7690,7 +7690,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pypa/warehouse</id>
     <title>Warehouse</title>
@@ -7707,7 +7707,7 @@
         <li><a href='https://github.com/pypa/warehouse'>Repo</a></li>
         <li><a href='https://psfmember.org/civicrm/contribute/transact?reset=1&amp;id=13'>Fund</a></li>
         <li><a href='https://warehouse.pypa.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7716,7 +7716,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/openembedded/bitbake</id>
     <title>bitbake</title>
@@ -7733,7 +7733,7 @@
         <li><a href='https://github.com/openembedded/bitbake'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/BitBake'>WP</a></li>
         <li><a href='https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7742,7 +7742,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/buildbot/buildbot</id>
     <title>buildbot</title>
@@ -7759,7 +7759,7 @@
         <li><a href='https://github.com/buildbot/buildbot'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Buildbot'>WP</a></li>
         <li><a href='https://www.buildbot.net/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7768,7 +7768,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/buildout/buildout</id>
     <title>Buildout</title>
@@ -7785,7 +7785,7 @@
         <li><a href='https://github.com/buildout/buildout'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Buildout'>WP</a></li>
         <li><a href='http://docs.buildout.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7794,7 +7794,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://chromium.googlesource.com/external/gyp</id>
     <title>GYP</title>
@@ -7811,7 +7811,7 @@
         <li><a href='https://chromium.googlesource.com/external/gyp'>Repo</a></li>
         <li><a href='https://gyp.gsrc.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GYP_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7820,7 +7820,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mesonbuild/meson</id>
     <title>Meson</title>
@@ -7836,7 +7836,7 @@
       <ul>
         <li><a href='https://github.com/mesonbuild/meson'>Repo</a></li>
         <li><a href='http://mesonbuild.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7845,7 +7845,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/SCons/scons</id>
     <title>SCons</title>
@@ -7862,7 +7862,7 @@
         <li><a href='https://github.com/SCons/scons'>Repo</a></li>
         <li><a href='http://scons.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/SCons'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7871,7 +7871,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/ita1024/waf</id>
     <title>Waf</title>
@@ -7889,7 +7889,7 @@
         <li><a href='https://waf.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Waf'>WP</a></li>
         <li><a href='https://waf.io/book'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7898,7 +7898,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ergonomica/ergonomica</id>
     <title>Ergonomica</title>
@@ -7914,7 +7914,7 @@
       <ul>
         <li><a href='https://github.com/ergonomica/ergonomica'>Repo</a></li>
         <li><a href='http://ergonomica.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7923,7 +7923,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/oilshell/oil</id>
     <title>Oil</title>
@@ -7939,7 +7939,7 @@
       <ul>
         <li><a href='https://github.com/oilshell/oil'>Repo</a></li>
         <li><a href='http://www.oilshell.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7948,7 +7948,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/xonsh/xonsh</id>
     <title>Xonsh</title>
@@ -7964,7 +7964,7 @@
       <ul>
         <li><a href='https://github.com/xonsh/xonsh'>Repo</a></li>
         <li><a href='https://xon.sh/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7973,7 +7973,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/coala/coala</id>
     <title>coala</title>
@@ -7989,7 +7989,7 @@
       <ul>
         <li><a href='https://github.com/coala/coala'>Repo</a></li>
         <li><a href='https://coala.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -7998,7 +7998,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ipython/ipython</id>
     <title>IPython</title>
@@ -8014,7 +8014,7 @@
       <ul>
         <li><a href='https://github.com/ipython/ipython'>Repo</a></li>
         <li><a href='https://ipython.readthedocs.org/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8023,7 +8023,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/locustio/locust</id>
     <title>Locust</title>
@@ -8040,7 +8040,7 @@
         <li><a href='https://github.com/locustio/locust'>Repo</a></li>
         <li><a href='https://locust.io/'>Home</a></li>
         <li><a href='https://docs.locust.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8049,7 +8049,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/robotframework/robotframework</id>
     <title>Robot Framework</title>
@@ -8065,7 +8065,7 @@
       <ul>
         <li><a href='https://github.com/robotframework/robotframework'>Repo</a></li>
         <li><a href='http://robotframework.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8074,7 +8074,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.launchpad.net/ubiquity</id>
     <title>Ubiquity</title>
@@ -8090,7 +8090,7 @@
       <ul>
         <li><a href='https://code.launchpad.net/ubiquity'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Ubiquity_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8099,7 +8099,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Guake/guake</id>
     <title>Guake</title>
@@ -8115,7 +8115,7 @@
       <ul>
         <li><a href='https://github.com/Guake/guake'>Repo</a></li>
         <li><a href='http://guake-project.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8124,7 +8124,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/swapagarwal/JARVIS-on-Messenger</id>
     <title>JARVIS on Messenger</title>
@@ -8140,7 +8140,7 @@
       <ul>
         <li><a href='https://github.com/swapagarwal/JARVIS-on-Messenger'>Repo</a></li>
         <li><a href='https://m.me/J.A.R.V.I.S.on.Messenger'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8149,7 +8149,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Nicotine-Plus/nicotine-plus</id>
     <title>Nicotine+</title>
@@ -8164,7 +8164,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/Nicotine-Plus/nicotine-plus'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8173,7 +8173,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nimbusproject/nimbus</id>
     <title>Nimbus</title>
@@ -8189,7 +8189,7 @@
       <ul>
         <li><a href='https://github.com/nimbusproject/nimbus'>Repo</a></li>
         <li><a href='http://www.nimbusproject.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8198,7 +8198,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/qtile/qtile</id>
     <title>qtile</title>
@@ -8214,7 +8214,7 @@
       <ul>
         <li><a href='https://github.com/qtile/qtile'>Repo</a></li>
         <li><a href='http://qtile.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8223,7 +8223,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://code.launchpad.net/wicd</id>
     <title>Wicd</title>
@@ -8240,7 +8240,7 @@
         <li><a href='https://code.launchpad.net/wicd'>Repo</a></li>
         <li><a href='http://wicd.sourceforge.net/download.php'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Wicd'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8249,7 +8249,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://xpra.org/svn/Xpra/trunk</id>
     <title>Xpra</title>
@@ -8265,7 +8265,7 @@
       <ul>
         <li><a href='https://xpra.org/svn/Xpra/trunk'>Repo</a></li>
         <li><a href='http://xpra.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8274,7 +8274,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/themoken/canto-next</id>
     <title>Canto</title>
@@ -8290,7 +8290,7 @@
       <ul>
         <li><a href='https://github.com/themoken/canto-next'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8299,7 +8299,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/exaile/exaile</id>
     <title>Exaile</title>
@@ -8315,7 +8315,7 @@
       <ul>
         <li><a href='https://github.com/exaile/exaile'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Exaile'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8324,7 +8324,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/wbsoft/frescobaldi</id>
     <title>Frescobaldi</title>
@@ -8340,7 +8340,7 @@
       <ul>
         <li><a href='https://github.com/wbsoft/frescobaldi'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Frescobaldi_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8349,7 +8349,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gnuradio/gnuradio</id>
     <title>GNU Radio</title>
@@ -8366,7 +8366,7 @@
         <li><a href='https://github.com/gnuradio/gnuradio'>Repo</a></li>
         <li><a href='https://www.gnuradio.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNU_Radio'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8375,7 +8375,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>http://git.savannah.gnu.org/cgit/solfege.git</id>
     <title>GNU Solfege</title>
@@ -8391,7 +8391,7 @@
       <ul>
         <li><a href='http://git.savannah.gnu.org/cgit/solfege.git'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNU_Solfege'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8400,7 +8400,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/metabrainz/picard</id>
     <title>MusicBrainz Picard</title>
@@ -8417,7 +8417,7 @@
         <li><a href='https://github.com/metabrainz/picard'>Repo</a></li>
         <li><a href='https://picard.musicbrainz.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/MusicBrainz_Picard'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8426,7 +8426,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/keithgg/puddletag</id>
     <title>PuddleTag</title>
@@ -8442,7 +8442,7 @@
       <ul>
         <li><a href='https://github.com/keithgg/puddletag'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Puddletag'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8451,7 +8451,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/quodlibet/quodlibet</id>
     <title>Quod Libet</title>
@@ -8467,7 +8467,7 @@
       <ul>
         <li><a href='https://github.com/quodlibet/quodlibet'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Quod_Libet_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8476,7 +8476,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/kassoulet/soundconverter</id>
     <title>SoundConverter</title>
@@ -8492,7 +8492,7 @@
       <ul>
         <li><a href='https://github.com/kassoulet/soundconverter'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNOME_SoundConverter'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8501,7 +8501,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jliljebl/flowblade</id>
     <title>Flowblade</title>
@@ -8517,7 +8517,7 @@
       <ul>
         <li><a href='https://github.com/jliljebl/flowblade'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Flowblade'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8526,7 +8526,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/OpenShot/openshot-qt</id>
     <title>OpenShot</title>
@@ -8544,7 +8544,7 @@
         <li><a href='https://www.openshot.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/OpenShot'>WP</a></li>
         <li><a href='https://www.patreon.com/openshot'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8553,7 +8553,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/GNOME/pitivi</id>
     <title>Pitivi</title>
@@ -8569,7 +8569,7 @@
       <ul>
         <li><a href='https://gitlab.gnome.org/GNOME/pitivi'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Pitivi'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8578,7 +8578,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/plumi/plumi.app</id>
     <title>Plumi</title>
@@ -8594,7 +8594,7 @@
       <ul>
         <li><a href='https://github.com/plumi/plumi.app'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Plumi'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8603,7 +8603,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/FreeCAD/FreeCAD</id>
     <title>FreeCAD</title>
@@ -8620,7 +8620,7 @@
         <li><a href='https://github.com/FreeCAD/FreeCAD'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/FreeCAD'>WP</a></li>
         <li><a href='https://salt.bountysource.com/teams/freecad'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8629,7 +8629,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mypaint/mypaint</id>
     <title>MyPaint</title>
@@ -8646,7 +8646,7 @@
         <li><a href='https://github.com/mypaint/mypaint'>Repo</a></li>
         <li><a href='http://mypaint.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/MyPaint'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8655,7 +8655,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.gnome.org/GNOME/ocrfeeder</id>
     <title>OCRFeeder</title>
@@ -8671,7 +8671,7 @@
       <ul>
         <li><a href='https://gitlab.gnome.org/GNOME/ocrfeeder'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/OCRFeeder'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8680,7 +8680,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/tmbdev/ocropy</id>
     <title>OCRopus</title>
@@ -8696,7 +8696,7 @@
       <ul>
         <li><a href='https://github.com/tmbdev/ocropy'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/OCRopus'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8705,7 +8705,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/sk1project/sk1-wx</id>
     <title>SK1</title>
@@ -8722,7 +8722,7 @@
         <li><a href='https://github.com/sk1project/sk1-wx'>Repo</a></li>
         <li><a href='https://sk1project.net/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/SK1_%28program%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8731,7 +8731,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/fofix/fofix</id>
     <title>Frets on Fire X</title>
@@ -8746,7 +8746,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/fofix/fofix'>Repo</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8755,7 +8755,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pychess/pychess</id>
     <title>PyChess</title>
@@ -8772,7 +8772,7 @@
         <li><a href='https://github.com/pychess/pychess'>Repo</a></li>
         <li><a href='http://pychess.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/PyChess'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8781,7 +8781,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/shlomif/PySolFC</id>
     <title>PySolFC</title>
@@ -8798,7 +8798,7 @@
         <li><a href='https://github.com/shlomif/PySolFC'>Repo</a></li>
         <li><a href='https://pysolfc.sourceforge.io/'>Home</a></li>
         <li><a href='https://f-droid.org/en/packages/org.lufebe16.pysolfc'>Android</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8807,7 +8807,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/unknown-horizons/unknown-horizons</id>
     <title>Unknown Horizons</title>
@@ -8823,7 +8823,7 @@
       <ul>
         <li><a href='https://github.com/unknown-horizons/unknown-horizons'>Repo</a></li>
         <li><a href='http://unknown-horizons.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8832,7 +8832,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/autokey/autokey</id>
     <title>Autokey</title>
@@ -8849,7 +8849,7 @@
         <li><a href='https://github.com/autokey/autokey'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/AutoKey'>WP</a></li>
         <li><a href='https://pypi.org/project/autokey'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8858,7 +8858,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/bleachbit/bleachbit</id>
     <title>Bleachbit</title>
@@ -8874,7 +8874,7 @@
       <ul>
         <li><a href='https://github.com/bleachbit/bleachbit'>Repo</a></li>
         <li><a href='https://www.bleachbit.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8883,7 +8883,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Bup/Bup</id>
     <title>Bup</title>
@@ -8899,7 +8899,7 @@
       <ul>
         <li><a href='https://github.com/Bup/Bup'>Repo</a></li>
         <li><a href='https://bup.github.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8908,7 +8908,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gaubert/gmvault</id>
     <title>gmvault</title>
@@ -8924,7 +8924,7 @@
       <ul>
         <li><a href='https://github.com/gaubert/gmvault'>Repo</a></li>
         <li><a href='http://gmvault.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8933,7 +8933,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/metamorphose/metamorphose2</id>
     <title>Metamorphose</title>
@@ -8949,7 +8949,7 @@
       <ul>
         <li><a href='https://github.com/metamorphose/metamorphose2'>Repo</a></li>
         <li><a href='http://file-folder-ren.sourceforge.net/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8958,7 +8958,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/nvaccess/nvda</id>
     <title>nvda</title>
@@ -8974,7 +8974,7 @@
       <ul>
         <li><a href='https://github.com/nvaccess/nvda'>Repo</a></li>
         <li><a href='https://www.nvaccess.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -8983,7 +8983,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ranger/ranger</id>
     <title>Ranger</title>
@@ -8999,7 +8999,7 @@
       <ul>
         <li><a href='https://github.com/ranger/ranger'>Repo</a></li>
         <li><a href='https://ranger.github.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9008,7 +9008,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/kovidgoyal/calibre</id>
     <title>Calibre</title>
@@ -9026,7 +9026,7 @@
         <li><a href='https://calibre-ebook.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Calibre_%28software%29'>WP</a></li>
         <li><a href='https://www.patreon.com/kovidgoyal'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9035,7 +9035,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/gramps-project/gramps</id>
     <title>Gramps</title>
@@ -9051,7 +9051,7 @@
       <ul>
         <li><a href='https://github.com/gramps-project/gramps'>Repo</a></li>
         <li><a href='https://gramps-project.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9060,7 +9060,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/inveniosoftware/invenio</id>
     <title>Invenio</title>
@@ -9076,7 +9076,7 @@
       <ul>
         <li><a href='https://github.com/inveniosoftware/invenio'>Repo</a></li>
         <li><a href='https://invenio.readthedocs.io/'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9085,7 +9085,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/internetarchive/openlibrary</id>
     <title>OpenLibrary</title>
@@ -9102,7 +9102,7 @@
         <li><a href='https://github.com/internetarchive/openlibrary'>Repo</a></li>
         <li><a href='https://openlibrary.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Open_Library'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9111,7 +9111,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/pymedusa/Medusa</id>
     <title>PyMedusa</title>
@@ -9127,7 +9127,7 @@
       <ul>
         <li><a href='https://github.com/pymedusa/Medusa'>Repo</a></li>
         <li><a href='https://pymedusa.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9136,7 +9136,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/WikidPad/WikidPad</id>
     <title>Wikid Pad</title>
@@ -9152,7 +9152,7 @@
       <ul>
         <li><a href='https://github.com/WikidPad/WikidPad'>Repo</a></li>
         <li><a href='http://wikidpad.sourceforge.net/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9161,7 +9161,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/jaap-karssenberg/zim-desktop-wiki</id>
     <title>Zim Wiki</title>
@@ -9177,7 +9177,7 @@
       <ul>
         <li><a href='https://github.com/jaap-karssenberg/zim-desktop-wiki'>Repo</a></li>
         <li><a href='http://zim-wiki.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9186,7 +9186,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/Bitmessage/PyBitmessage</id>
     <title>Bitmessage</title>
@@ -9202,7 +9202,7 @@
       <ul>
         <li><a href='https://github.com/Bitmessage/PyBitmessage'>Repo</a></li>
         <li><a href='https://bitmessage.org/wiki/Main_Page'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9211,7 +9211,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://dev.gajim.org/gajim/gajim</id>
     <title>Gajim</title>
@@ -9227,7 +9227,7 @@
       <ul>
         <li><a href='https://dev.gajim.org/gajim/gajim'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Gajim'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9236,7 +9236,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/globaleaks/GlobaLeaks</id>
     <title>GlobaLeaks</title>
@@ -9252,7 +9252,7 @@
       <ul>
         <li><a href='https://github.com/globaleaks/GlobaLeaks'>Repo</a></li>
         <li><a href='https://www.globaleaks.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9261,7 +9261,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://gitlab.com/mailman/mailman</id>
     <title>Mailman</title>
@@ -9278,7 +9278,7 @@
         <li><a href='https://gitlab.com/mailman/mailman'>Repo</a></li>
         <li><a href='http://www.list.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNU_Mailman'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9287,7 +9287,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mailpile/Mailpile</id>
     <title>Mailpile</title>
@@ -9303,7 +9303,7 @@
       <ul>
         <li><a href='https://github.com/mailpile/Mailpile'>Repo</a></li>
         <li><a href='https://mailpile.is/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9312,7 +9312,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/rapidsms/rapidsms</id>
     <title>RapidSMS</title>
@@ -9329,7 +9329,7 @@
         <li><a href='https://github.com/rapidsms/rapidsms'>Repo</a></li>
         <li><a href='http://rapidsms.org/'>Home</a></li>
         <li><a href='http://readthedocs.org/docs/rapidsms'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9338,7 +9338,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/matrix-org/synapse</id>
     <title>Synapse</title>
@@ -9355,7 +9355,7 @@
         <li><a href='https://github.com/matrix-org/synapse'>Repo</a></li>
         <li><a href='https://riot.im/app#/home'>Home</a></li>
         <li><a href='https://www.patreon.com/matrixdotorg/overview'>Fund</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9364,7 +9364,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/dae/anki</id>
     <title>Anki</title>
@@ -9381,7 +9381,7 @@
         <li><a href='https://github.com/dae/anki'>Repo</a></li>
         <li><a href='https://apps.ankiweb.net/'>Home</a></li>
         <li><a href='https://apps.ankiweb.net/docs/manual.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9390,7 +9390,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mnemosyne-proj/mnemosyne</id>
     <title>Mnemosyne</title>
@@ -9406,7 +9406,7 @@
       <ul>
         <li><a href='https://github.com/mnemosyne-proj/mnemosyne'>Repo</a></li>
         <li><a href='https://mnemosyne-proj.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9415,7 +9415,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/edx/edx-platform</id>
     <title>Open edX Platform</title>
@@ -9432,7 +9432,7 @@
         <li><a href='https://github.com/edx/edx-platform'>Repo</a></li>
         <li><a href='http://open.edx.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/EdX#Open_edX'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9441,7 +9441,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/GeoscienceAustralia/anuga_core</id>
     <title>AnuGA</title>
@@ -9457,7 +9457,7 @@
       <ul>
         <li><a href='https://github.com/GeoscienceAustralia/anuga_core'>Repo</a></li>
         <li><a href='https://anuga.anu.edu.au/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9466,7 +9466,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>http://code.ascend4.org/ascend/trunk</id>
     <title>ASCEND</title>
@@ -9483,7 +9483,7 @@
         <li><a href='http://code.ascend4.org/ascend/trunk'>Repo</a></li>
         <li><a href='http://ascend4.org/Main_Page'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/ASCEND'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9492,7 +9492,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/CellProfiler/CellProfiler</id>
     <title>CellProfiler</title>
@@ -9510,7 +9510,7 @@
         <li><a href='http://cellprofiler.org/'>Home</a></li>
         <li><a href='https://cellprofiler.org/cpa'>Manual</a></li>
         <li><a href='https://github.com/CellProfiler/CellProfiler/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9519,7 +9519,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/enthought/mayavi</id>
     <title>Mayavi</title>
@@ -9535,7 +9535,7 @@
       <ul>
         <li><a href='https://github.com/enthought/mayavi'>Repo</a></li>
         <li><a href='http://docs.enthought.com/mayavi/mayavi'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9544,7 +9544,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/biolab/orange3</id>
     <title>Orange</title>
@@ -9561,7 +9561,7 @@
         <li><a href='https://github.com/biolab/orange3'>Repo</a></li>
         <li><a href='https://orange.biolab.si/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Orange_%28software%29'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9570,7 +9570,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/GNOME/pybliographer</id>
     <title>Pybliographer</title>
@@ -9586,7 +9586,7 @@
       <ul>
         <li><a href='https://github.com/GNOME/pybliographer'>Repo</a></li>
         <li><a href='https://pybliographer.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9595,7 +9595,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/veusz/veusz</id>
     <title>Veusz</title>
@@ -9611,7 +9611,7 @@
       <ul>
         <li><a href='https://github.com/veusz/veusz'>Repo</a></li>
         <li><a href='https://veusz.github.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9620,7 +9620,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/divio/django-cms</id>
     <title>Django-CMS</title>
@@ -9636,7 +9636,7 @@
       <ul>
         <li><a href='https://github.com/divio/django-cms'>Repo</a></li>
         <li><a href='https://www.django-cms.org/en'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9645,7 +9645,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/ella/ella</id>
     <title>Ella</title>
@@ -9661,7 +9661,7 @@
       <ul>
         <li><a href='https://github.com/ella/ella'>Repo</a></li>
         <li><a href='https://ella.readthedocs.io/en/latest/index.html'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9670,7 +9670,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/stephenmcd/mezzanine</id>
     <title>Mezzanine</title>
@@ -9686,7 +9686,7 @@
       <ul>
         <li><a href='https://github.com/stephenmcd/mezzanine'>Repo</a></li>
         <li><a href='http://mezzanine.jupo.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9695,7 +9695,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mirumee/saleor</id>
     <title>Saleor</title>
@@ -9711,7 +9711,7 @@
       <ul>
         <li><a href='https://github.com/mirumee/saleor'>Repo</a></li>
         <li><a href='https://getsaleor.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9720,7 +9720,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/wagtail/wagtail</id>
     <title>Wagtail</title>
@@ -9736,7 +9736,7 @@
       <ul>
         <li><a href='https://github.com/wagtail/wagtail'>Repo</a></li>
         <li><a href='https://wagtail.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9745,7 +9745,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/frappe/erpnext</id>
     <title>ERPNext</title>
@@ -9762,7 +9762,7 @@
         <li><a href='https://github.com/frappe/erpnext'>Repo</a></li>
         <li><a href='https://erpnext.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/ERPNext'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9771,7 +9771,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/odoo/odoo</id>
     <title>Odoo</title>
@@ -9788,7 +9788,7 @@
         <li><a href='https://github.com/odoo/odoo'>Repo</a></li>
         <li><a href='https://www.odoo.com/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Odoo'>WP</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9797,7 +9797,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/eudicots/Cactus</id>
     <title>Cactus</title>
@@ -9813,7 +9813,7 @@
       <ul>
         <li><a href='https://github.com/eudicots/Cactus'>Repo</a></li>
         <li><a href='https://pypi.org/project/cactus'>PyPI</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9822,7 +9822,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/lektor/lektor</id>
     <title>Lektor</title>
@@ -9838,7 +9838,7 @@
       <ul>
         <li><a href='https://github.com/lektor/lektor'>Repo</a></li>
         <li><a href='https://www.getlektor.com/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9847,7 +9847,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/cowrie/cowrie</id>
     <title>Cowrie</title>
@@ -9863,7 +9863,7 @@
       <ul>
         <li><a href='https://github.com/cowrie/cowrie'>Repo</a></li>
         <li><a href='http://www.cowrie.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9872,7 +9872,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/mitmproxy/mitmproxy</id>
     <title>MITMproxy</title>
@@ -9888,7 +9888,7 @@
       <ul>
         <li><a href='https://github.com/mitmproxy/mitmproxy'>Repo</a></li>
         <li><a href='https://mitmproxy.org/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9897,7 +9897,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/joxeankoret/pyew</id>
     <title>PyEW</title>
@@ -9913,7 +9913,7 @@
       <ul>
         <li><a href='https://github.com/joxeankoret/pyew'>Repo</a></li>
         <li><a href='https://github.com/joxeankoret/pyew/wiki'>Docs</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9922,7 +9922,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/s0md3v/XSStrike</id>
     <title>XSStrike</title>
@@ -9938,7 +9938,7 @@
       <ul>
         <li><a href='https://github.com/s0md3v/XSStrike'>Repo</a></li>
         <li><a href='https://somdev.me/XSStrike'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9947,7 +9947,7 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
   <entry>
     <id>https://github.com/getsentry/sentry</id>
     <title>Sentry</title>
@@ -9963,7 +9963,7 @@
       <ul>
         <li><a href='https://github.com/getsentry/sentry'>Repo</a></li>
         <li><a href='https://sentry.io/'>Home</a></li>
-        
+
       </ul>
       </div>
     </content>
@@ -9972,5 +9972,5 @@
       <uri>https://github.com/mahmoud/awesome-python-applications</uri>
     </author>
   </entry>
-  
+
 </feed>

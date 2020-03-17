@@ -2998,6 +2998,14 @@ projects:
     repo_url: https://github.com/ctxis/CAPE
     demo_url: https://cape.contextis.com/submit
     date_added: 2019-10-01 18:01:00
+    desc: Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2).
+    tags:
+      - security
+      - server
+  - name: CAPEv2
+    repo_url: https://github.com/kevoreilly/CAPEv2
+    demo_url: https://www.capesandbox.com/
+    date_added: 2020-03-17 01:20:00
     desc: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.
     tags:
       - security

@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **390**
+This document is an always-growing list of **391**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(169)*
+1. <a href="#tag-dev">Dev</a> *(170)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(16)*
     1. <a href="#tag-dev.ops">Ops</a> *(25)*
-    1. <a href="#tag-dev.security">Security</a> *(25)*
+    1. <a href="#tag-dev.security">Security</a> *(26)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
@@ -422,7 +422,8 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
   1. **BYOB (Build Your Own Botnet)** - ([Repo](https://github.com/malwaredllc/byob)) Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets. `(linux, windows, mac)`
-  1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE), [Demo](https://cape.contextis.com/submit)) Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts. `(server)`
+  1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE), [Demo](https://cape.contextis.com/submit)) Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2). `(server)`
+  1. **CAPEv2** - ([Repo](https://github.com/kevoreilly/CAPEv2), [Demo](https://www.capesandbox.com/)) Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts. `(server)`
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(server, corp)`
   1. **GRR Rapid Response** - ([Repo](https://github.com/google/grr), [Docs](https://grr-doc.readthedocs.io/en/latest)) Server-agent system focused on remote live forensics for quick, browser-based triage and analysis of attacks on fleets of machines, with agent support for Linux, Windows, and OS X. `(server, corp)`
   1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(internet, linux, windows, mac)`

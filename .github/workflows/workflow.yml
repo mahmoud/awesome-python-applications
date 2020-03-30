@@ -1,0 +1,13 @@
+on:
+  schedule:
+  - cron: '00 9 * * *'
+  push:
+name: Link Checker
+jobs:
+  linkchecker:
+    name: linkchecker
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: linkchecker
+      uses: cam-barts/linkchecker-action@master

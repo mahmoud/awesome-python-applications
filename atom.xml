@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-03-17T08:20:21Z</updated>
+  <updated>2020-04-02T07:59:46Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -1972,7 +1972,7 @@
       <ul>
         <li><a href='https://github.com/frePPLe/frepple'>Repo</a></li>
         <li><a href='https://frepple.com/'>Home</a></li>
-        <li><a href='https://frepple.com/docs/current/user-guide/index.php'>Docs</a></li>
+        <li><a href='https://frepple.org/docs/current'>Docs</a></li>
         
       </ul>
       </div>
@@ -2825,7 +2825,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://gitlab.com/newspipe/newspipe'>Repo</a></li>
-        <li><a href='http://newspipe.io/'>Home</a></li>
         <li><a href='https://www.newspipe.org/'>Demo</a></li>
         <li><a href='https://github.com/newspipe/newspipe'>gh</a></li>
         <li><a href='https://newspipe.readthedocs.io/en/latest'>Docs</a></li>
@@ -4295,7 +4294,7 @@
       <ul>
         <li><a href='https://github.com/pulp/pulp'>Repo</a></li>
         <li><a href='https://pulpproject.org/'>Home</a></li>
-        <li><a href='https://docs.pulpproject.org/en/3.0/nightly'>Docs</a></li>
+        <li><a href='https://docs.pulpproject.org/'>Docs</a></li>
         
       </ul>
       </div>
@@ -4750,7 +4749,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/evilsocket/opensnitch'>Repo</a></li>
-        <li><a href='https://opensnitch.io/'>Home</a></li>
+        <li><a href='https://www.patreon.com/evilsocket'>Fund</a></li>
         
       </ul>
       </div>
@@ -4825,7 +4824,7 @@
       <ul>
         <li><a href='https://github.com/allegro/ralph'>Repo</a></li>
         <li><a href='https://ralph.allegro.tech/'>Home</a></li>
-        <li><a href='https://ralph-ng.readthedocs.io/en/latest'>Docs</a></li>
+        <li><a href='https://ralph-ng.readthedocs.io/en/stable'>Docs</a></li>
         
       </ul>
       </div>
@@ -5789,7 +5788,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/camelot-dev/excalibur'>Repo</a></li>
-        <li><a href='https://www.tryexcalibur.com/'>Home</a></li>
         
       </ul>
       </div>
@@ -5815,7 +5813,6 @@
       <ul>
         <li><a href='https://github.com/Kozea/Radicale'>Repo</a></li>
         <li><a href='https://radicale.org/'>Home</a></li>
-        <li><a href='https://radicale.org/documentation'>Docs</a></li>
         
       </ul>
       </div>
@@ -6630,7 +6627,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/mahmoud/chert">Chert</a></strong>: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author&#x27;s blog. Mostly here as an easter egg :)</p>
+      <p><strong><a href="https://github.com/mahmoud/chert">Chert</a></strong>: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [0ver.org](https://0ver.org), and [sedimental.org](https://sedimental.org/), the author&#x27;s blog. Mostly here as an easter egg :)</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/mahmoud/chert'>Repo</a></li>
@@ -8644,7 +8641,6 @@
       <ul>
         <li><a href='https://github.com/FreeCAD/FreeCAD'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/FreeCAD'>WP</a></li>
-        <li><a href='https://salt.bountysource.com/teams/freecad'>Fund</a></li>
         
       </ul>
       </div>
@@ -9353,7 +9349,7 @@
       <ul>
         <li><a href='https://github.com/rapidsms/rapidsms'>Repo</a></li>
         <li><a href='http://rapidsms.org/'>Home</a></li>
-        <li><a href='http://readthedocs.org/docs/rapidsms'>Docs</a></li>
+        <li><a href='https://rapidsms.readthedocs.io/en/develop'>Docs</a></li>
         
       </ul>
       </div>
@@ -9481,7 +9477,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/GeoscienceAustralia/anuga_core'>Repo</a></li>
-        <li><a href='https://anuga.anu.edu.au/'>Home</a></li>
         
       </ul>
       </div>
@@ -9962,7 +9957,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/s0md3v/XSStrike'>Repo</a></li>
-        <li><a href='https://somdev.me/XSStrike'>Home</a></li>
         
       </ul>
       </div>

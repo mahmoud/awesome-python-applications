@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-04-02T07:59:46Z</updated>
+  <updated>2020-04-05T07:01:30Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/freelawproject/courtlistener</id>
+    <title>CourtListener</title>
+    <link rel="alternate" type="text/html" href="https://github.com/freelawproject/courtlistener" />
+    <published>2020-04-04T23:59:00Z</published>
+    <updated>2020-04-04T23:59:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/freelawproject/courtlistener">CourtListener</a></strong>: Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/freelawproject/courtlistener'>Repo</a></li>
+        <li><a href='https://www.courtlistener.com/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Free_Law_Project'>WP</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/kevoreilly/CAPEv2</id>

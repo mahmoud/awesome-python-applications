@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(247)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(229)*
+1. <a href="#tag-desktop">Desktop</a> *(248)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(230)*
     1. <a href="#tag-desktop.windows">Windows</a> *(146)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(145)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(146)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -160,6 +160,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, mac)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, windows, mac, qt)`
   1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, windows, mac)`
+  1. **mycli** - ([Repo](https://github.com/dbcli/mycli), [Home](https://www.mycli.net/), [PyPI](https://pypi.python.org/pypi/mycli)) Interactive MySQL client that does auto-completion and syntax highlighting. `(storage, mac)`
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(internet, graphics)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, windows, mac, gtk)`
   1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more. `(ops, windows, mac)`
@@ -510,6 +511,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback. `(audio, linux)`
   1. **MusicBrainz Picard** - ([Repo](https://github.com/metabrainz/picard), [Home](https://picard.musicbrainz.org/), [WP](https://en.wikipedia.org/wiki/MusicBrainz_Picard)) Automatically identify, tag, and organize music albums and other digital audio recordings. `(audio, linux, windows, qt)`
   1. **Musikernel** - ([Repo](https://github.com/j3ffhubb/musikernel)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(audio, linux, windows)`
+  1. **mycli** - ([Repo](https://github.com/dbcli/mycli), [Home](https://www.mycli.net/), [PyPI](https://pypi.python.org/pypi/mycli)) Interactive MySQL client that does auto-completion and syntax highlighting. `(storage, linux)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(graphics, linux, windows, gtk)`
   1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more. `(ops, linux, windows)`
   1. **NColony** - ([Repo](https://github.com/ncolony/ncolony), [Home](http://ncolony.org/en/latest)) Process manager and monitor. `(ops, linux, server)`

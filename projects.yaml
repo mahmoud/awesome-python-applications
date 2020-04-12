@@ -2681,6 +2681,16 @@ projects:
     tags:
       - storage
       - server
+  - name: mycli
+    repo_url: https://github.com/dbcli/mycli
+    home_url: https://www.mycli.net/
+    pypi_url: https://pypi.python.org/pypi/mycli
+    date_added: 2020-04-11 01:53:00
+    desc: Interactive MySQL client that does auto-completion and syntax highlighting.
+    tags:
+      - storage
+      - linux
+      - mac
   - name: pgcli
     repo_url: https://github.com/dbcli/pgcli
     home_url: https://www.pgcli.com/

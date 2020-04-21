@@ -11,3 +11,9 @@ jobs:
     - uses: actions/checkout@master
     - name: linkchecker
       uses: cam-barts/linkchecker-action@master
+    - name: Upload exclusion list as an artifact
+      uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: exclude_links.json
+        path: exclude_links.json

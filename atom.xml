@@ -5,13 +5,141 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-01-12T03:28:43Z</updated>
+  <updated>2020-04-10T21:20:23Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/dbcli/mycli</id>
+    <title>mycli</title>
+    <link rel="alternate" type="text/html" href="https://github.com/dbcli/mycli" />
+    <published>2020-04-11T01:53:00Z</published>
+    <updated>2020-04-11T01:53:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/dbcli/mycli">mycli</a></strong>: Interactive MySQL client that does auto-completion and syntax highlighting.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/dbcli/mycli'>Repo</a></li>
+        <li><a href='https://www.mycli.net/'>Home</a></li>
+        <li><a href='https://pypi.python.org/pypi/mycli'>PyPI</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/freelawproject/courtlistener</id>
+    <title>CourtListener</title>
+    <link rel="alternate" type="text/html" href="https://github.com/freelawproject/courtlistener" />
+    <published>2020-04-04T23:59:00Z</published>
+    <updated>2020-04-04T23:59:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/freelawproject/courtlistener">CourtListener</a></strong>: Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/freelawproject/courtlistener'>Repo</a></li>
+        <li><a href='https://www.courtlistener.com/'>Home</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Free_Law_Project'>WP</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/kevoreilly/CAPEv2</id>
+    <title>CAPEv2</title>
+    <link rel="alternate" type="text/html" href="https://github.com/kevoreilly/CAPEv2" />
+    <published>2020-03-17T01:20:00Z</published>
+    <updated>2020-03-17T01:20:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/kevoreilly/CAPEv2">CAPEv2</a></strong>: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/kevoreilly/CAPEv2'>Repo</a></li>
+        <li><a href='https://www.capesandbox.com/'>Demo</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/ChrisKnott/Algojammer</id>
+    <title>Algojammer</title>
+    <link rel="alternate" type="text/html" href="https://github.com/ChrisKnott/Algojammer" />
+    <published>2020-01-28T09:50:00Z</published>
+    <updated>2020-01-28T09:50:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/ChrisKnott/Algojammer">Algojammer</a></strong>: An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/ChrisKnott/Algojammer'>Repo</a></li>
+        <li><a href='https://www.youtube.com/watch?v=9XPE4uT0AdE'>Demo</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/lanmaster53/recon-ng</id>
+    <title>Recon-ng</title>
+    <link rel="alternate" type="text/html" href="https://github.com/lanmaster53/recon-ng" />
+    <published>2020-01-13T18:22:00Z</published>
+    <updated>2020-01-13T18:22:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/lanmaster53/recon-ng">Recon-ng</a></strong>: Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/lanmaster53/recon-ng'>Repo</a></li>
+        <li><a href='https://github.com/lanmaster53/recon-ng'>Home</a></li>
+        <li><a href='https://github.com/lanmaster53/recon-ng/wiki'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/CTFd/CTFd</id>
@@ -1240,7 +1368,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/ctxis/CAPE">CAPE</a></strong>: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.</p>
+      <p><strong><a href="https://github.com/ctxis/CAPE">CAPE</a></strong>: Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2).</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ctxis/CAPE'>Repo</a></li>
@@ -1896,7 +2024,7 @@
       <ul>
         <li><a href='https://github.com/frePPLe/frepple'>Repo</a></li>
         <li><a href='https://frepple.com/'>Home</a></li>
-        <li><a href='https://frepple.com/docs/current/user-guide/index.php'>Docs</a></li>
+        <li><a href='https://frepple.org/docs/current'>Docs</a></li>
         
       </ul>
       </div>
@@ -2749,7 +2877,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://gitlab.com/newspipe/newspipe'>Repo</a></li>
-        <li><a href='http://newspipe.io/'>Home</a></li>
         <li><a href='https://www.newspipe.org/'>Demo</a></li>
         <li><a href='https://github.com/newspipe/newspipe'>gh</a></li>
         <li><a href='https://newspipe.readthedocs.io/en/latest'>Docs</a></li>
@@ -4219,7 +4346,7 @@
       <ul>
         <li><a href='https://github.com/pulp/pulp'>Repo</a></li>
         <li><a href='https://pulpproject.org/'>Home</a></li>
-        <li><a href='https://docs.pulpproject.org/en/3.0/nightly'>Docs</a></li>
+        <li><a href='https://docs.pulpproject.org/'>Docs</a></li>
         
       </ul>
       </div>
@@ -4674,7 +4801,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/evilsocket/opensnitch'>Repo</a></li>
-        <li><a href='https://opensnitch.io/'>Home</a></li>
+        <li><a href='https://www.patreon.com/evilsocket'>Fund</a></li>
         
       </ul>
       </div>
@@ -4749,7 +4876,7 @@
       <ul>
         <li><a href='https://github.com/allegro/ralph'>Repo</a></li>
         <li><a href='https://ralph.allegro.tech/'>Home</a></li>
-        <li><a href='https://ralph-ng.readthedocs.io/en/latest'>Docs</a></li>
+        <li><a href='https://ralph-ng.readthedocs.io/en/stable'>Docs</a></li>
         
       </ul>
       </div>
@@ -5713,7 +5840,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/camelot-dev/excalibur'>Repo</a></li>
-        <li><a href='https://www.tryexcalibur.com/'>Home</a></li>
         
       </ul>
       </div>
@@ -5739,7 +5865,6 @@
       <ul>
         <li><a href='https://github.com/Kozea/Radicale'>Repo</a></li>
         <li><a href='https://radicale.org/'>Home</a></li>
-        <li><a href='https://radicale.org/documentation'>Docs</a></li>
         
       </ul>
       </div>
@@ -6554,7 +6679,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/mahmoud/chert">Chert</a></strong>: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author&#x27;s blog. Mostly here as an easter egg :)</p>
+      <p><strong><a href="https://github.com/mahmoud/chert">Chert</a></strong>: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [0ver.org](https://0ver.org), and [sedimental.org](https://sedimental.org/), the author&#x27;s blog. Mostly here as an easter egg :)</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/mahmoud/chert'>Repo</a></li>
@@ -8568,7 +8693,6 @@
       <ul>
         <li><a href='https://github.com/FreeCAD/FreeCAD'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/FreeCAD'>WP</a></li>
-        <li><a href='https://salt.bountysource.com/teams/freecad'>Fund</a></li>
         
       </ul>
       </div>
@@ -9277,7 +9401,7 @@
       <ul>
         <li><a href='https://github.com/rapidsms/rapidsms'>Repo</a></li>
         <li><a href='http://rapidsms.org/'>Home</a></li>
-        <li><a href='http://readthedocs.org/docs/rapidsms'>Docs</a></li>
+        <li><a href='https://rapidsms.readthedocs.io/en/develop'>Docs</a></li>
         
       </ul>
       </div>
@@ -9405,7 +9529,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/GeoscienceAustralia/anuga_core'>Repo</a></li>
-        <li><a href='https://anuga.anu.edu.au/'>Home</a></li>
         
       </ul>
       </div>
@@ -9886,7 +10009,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/s0md3v/XSStrike'>Repo</a></li>
-        <li><a href='https://somdev.me/XSStrike'>Home</a></li>
         
       </ul>
       </div>

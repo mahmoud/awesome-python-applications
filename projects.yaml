@@ -270,7 +270,7 @@ projects:
       - django
   - name: Newspipe
     repo_url: https://gitlab.com/newspipe/newspipe
-    home_url: http://newspipe.io/
+    # home_url: http://newspipe.io/  # down as of 2020-04-02
     demo_url: https://www.newspipe.org/
     docs_url: https://newspipe.readthedocs.io/en/latest
     gh_url: https://github.com/newspipe/newspipe
@@ -731,7 +731,7 @@ projects:
       - mac
   - name: FreeCAD
     repo_url: https://github.com/FreeCAD/FreeCAD
-    fund_url: https://salt.bountysource.com/teams/freecad
+    # fund_url: https://salt.bountysource.com/teams/freecad  # 500ing as of 2020-04-02
     wp_url: https://en.wikipedia.org/wiki/FreeCAD
     date_added: 2018-11-24 02:37:00
     desc: General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support.
@@ -1035,7 +1035,7 @@ projects:
       - mac
   - name: Excalibur
     repo_url: https://github.com/camelot-dev/excalibur
-    home_url: https://www.tryexcalibur.com/
+    # home_url: https://www.tryexcalibur.com/  # down as of 2020-04-02
     date_added: 2018-12-17 10:51:00
     desc: Web interface to extract tabular data from PDFs.
     tags:
@@ -1525,7 +1525,6 @@ projects:
   - name: Radicale
     repo_url: https://github.com/Kozea/Radicale
     home_url: https://radicale.org/
-    docs_url: https://radicale.org/documentation
     date_added: 2018-12-17 10:51:00
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
     tags:                             # communication?
@@ -1833,7 +1832,7 @@ projects:
   - name: RapidSMS  # too much of a library?
     repo_url: https://github.com/rapidsms/rapidsms
     home_url: http://rapidsms.org/
-    docs_url: http://readthedocs.org/docs/rapidsms
+    docs_url: https://rapidsms.readthedocs.io/en/develop
     date_added: 2018-11-24 02:37:00
     desc: Interactive SMS text messaging platform.
     tags:
@@ -1974,7 +1973,7 @@ projects:
 #
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
-    home_url: https://anuga.anu.edu.au/
+    # home_url: https://anuga.anu.edu.au/  # SSL broken as of 2020-04-02 (site notes trac deprecation)
     date_added: 2018-11-24 02:37:00
     desc: Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
     tags:
@@ -2297,7 +2296,7 @@ projects:
   - name: Frepple
     repo_url: https://github.com/frePPLe/frepple
     home_url: https://frepple.com/
-    docs_url: https://frepple.com/docs/current/user-guide/index.php
+    docs_url: https://frepple.org/docs/current
     date_added: 2019-09-29 18:46:00
     desc: Web-based supply chain planning for production planning and scheduling.
     tags:
@@ -2343,7 +2342,7 @@ projects:
     repo_url: https://github.com/mahmoud/chert
     pypi_url: https://pypi.org/project/chert
     date_added: 2018-11-26 01:59:00
-    desc: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [zerover.org](https://zerover.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
+    desc: Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [0ver.org](https://0ver.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
     tags:
       - static_site
       - linux
@@ -2682,6 +2681,16 @@ projects:
     tags:
       - storage
       - server
+  - name: mycli
+    repo_url: https://github.com/dbcli/mycli
+    home_url: https://www.mycli.net/
+    pypi_url: https://pypi.python.org/pypi/mycli
+    date_added: 2020-04-11 01:53:00
+    desc: Interactive MySQL client that does auto-completion and syntax highlighting.
+    tags:
+      - storage
+      - linux
+      - mac
   - name: pgcli
     repo_url: https://github.com/dbcli/pgcli
     home_url: https://www.pgcli.com/
@@ -2919,7 +2928,7 @@ projects:
   - name: Pulp
     repo_url: https://github.com/pulp/pulp
     home_url: https://pulpproject.org/
-    docs_url: https://docs.pulpproject.org/en/3.0/nightly
+    docs_url: https://docs.pulpproject.org/
     date_added: 2019-01-31 21:16:00
     desc: Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat.
     tags:
@@ -2928,7 +2937,7 @@ projects:
   - name: Ralph
     repo_url: https://github.com/allegro/ralph
     home_url: https://ralph.allegro.tech/
-    docs_url: https://ralph-ng.readthedocs.io/en/latest
+    docs_url: https://ralph-ng.readthedocs.io/en/stable
     date_added: 2019-01-23 10:06:00
     desc: Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
     tags:
@@ -2998,6 +3007,14 @@ projects:
     repo_url: https://github.com/ctxis/CAPE
     demo_url: https://cape.contextis.com/submit
     date_added: 2019-10-01 18:01:00
+    desc: Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2).
+    tags:
+      - security
+      - server
+  - name: CAPEv2
+    repo_url: https://github.com/kevoreilly/CAPEv2
+    demo_url: https://www.capesandbox.com/
+    date_added: 2020-03-17 01:20:00
     desc: Web application designed to automate malware analysis, with a goal of extracting payloads and configuration from uploaded artifacts.
     tags:
       - security
@@ -3087,7 +3104,8 @@ projects:
       - server
   - name: OpenSnitch
     repo_url: https://github.com/evilsocket/opensnitch
-    home_url: https://opensnitch.io/
+    fund_url: https://www.patreon.com/evilsocket
+    # home_url: https://opensnitch.io/  # down on 2020-04-02
     date_added: 2019-01-27 01:29:00
     desc: GNU/Linux port of the [Little Snitch](https://en.wikipedia.org/wiki/Little_Snitch) application firewall.
     tags:
@@ -3131,6 +3149,15 @@ projects:
     tags:
       - security
       - console
+  - name: Recon-ng
+    repo_url: https://github.com/lanmaster53/recon-ng
+    home_url: https://github.com/lanmaster53/recon-ng
+    docs_url: https://github.com/lanmaster53/recon-ng/wiki
+    date_added: 2020-01-13 18:22:00
+    desc: Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly.
+    tags:
+      - security
+      - linux
   - name: Spiderfoot
     repo_url: https://github.com/smicallef/spiderfoot
     home_url: https://www.spiderfoot.net/
@@ -3164,7 +3191,7 @@ projects:
       - mac
   - name: XSStrike
     repo_url: https://github.com/s0md3v/XSStrike
-    home_url: https://somdev.me/XSStrike
+    # home_url: https://somdev.me/XSStrike  # down as of 2020-04-02
     date_added: 2018-11-24 02:37:00
     desc: '[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.'
     tags:
@@ -3229,6 +3256,17 @@ projects:
 #
 # Editor
 #
+  - name: Algojammer
+    repo_url: https://github.com/ChrisKnott/Algojammer
+    demo_url: https://www.youtube.com/watch?v=9XPE4uT0AdE
+    date_added: 2020-01-28 09:50:00
+    desc: An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting.
+    tags:
+      - editor
+      - linux
+      - windows
+      - mac
+      - tk
   - name: Black
     repo_url: https://github.com/ambv/black
     docs_url: https://black.readthedocs.io/
@@ -3942,6 +3980,15 @@ projects:
 #
 # Misc
 #
+  - name: CourtListener
+    repo_url: https://github.com/freelawproject/courtlistener
+    home_url: https://www.courtlistener.com/
+    wp_url: https://en.wikipedia.org/wiki/Free_Law_Project
+    date_added: 2020-04-04 23:59:00
+    desc: Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).
+    tags:
+      - misc
+      - server
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/

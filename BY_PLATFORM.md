@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(248)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(230)*
+1. <a href="#tag-desktop">Desktop</a> *(249)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(231)*
     1. <a href="#tag-desktop.windows">Windows</a> *(146)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(146)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(147)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -246,6 +246,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(ops, mac, server)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(storage, windows, mac)`
   1. **term2048** - ([Repo](https://github.com/bfontaine/term2048), [PyPI](https://pypi.python.org/pypi/term2048)) TUI version of [2048](http://gabrielecirulli.github.io/2048/). `(games, mac, tui)`
+  1. **The Fuck** - ([Repo](https://github.com/nvbn/thefuck), [PyPI](https://pypi.org/project/thefuck)) A command that corrects errors in your previous console commnad. `(mac)`
   1. **Thonny** - ([Repo](https://github.com/thonny/thonny), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(editor, windows, mac, tk)`
   1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support. `(scm, windows, qt4, qt5)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(internet, windows, mac, qt5)`
@@ -557,6 +558,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(ops, linux, server)`
   1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage. `(storage, linux, windows)`
   1. **term2048** - ([Repo](https://github.com/bfontaine/term2048), [PyPI](https://pypi.python.org/pypi/term2048)) TUI version of [2048](http://gabrielecirulli.github.io/2048/). `(games, linux, tui)`
+  1. **The Fuck** - ([Repo](https://github.com/nvbn/thefuck), [PyPI](https://pypi.org/project/thefuck)) A command that corrects errors in your previous console commnad. `(linux)`
   1. **Thonny** - ([Repo](https://github.com/thonny/thonny), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(editor, linux, windows, tk)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(internet, linux, windows, qt5)`
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(security, linux, windows)`

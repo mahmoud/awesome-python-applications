@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(248)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(230)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(146)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(146)*
+1. <a href="#tag-desktop">Desktop</a> *(249)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(231)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(147)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(147)*
     1. <a href="#tag-desktop.console">Console</a> *(20)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -208,6 +208,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats. `(audio, qt4)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, docker, server)`
   1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI. `(science, gtk)`
+  1. **PyBuilder** - ([Repo](https://github.com/pybuilder/pybuilder), [Home](https://pybuilder.io/)) Extensible build automation tool, mainly targeting Python applications. `(build, windows, mac)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/), [WP](https://en.wikipedia.org/wiki/PyChess)) Advanced chess client, suitable for new, casual, and competitive play. `(games, windows, gtk)`
   1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, windows, mac)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, windows, mac)`
@@ -386,6 +387,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, mac)`
   1. **PPCI** - ([Repo](https://bitbucket.org/windel/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others). `(dev, linux, mac)`
   1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, mac)`
+  1. **PyBuilder** - ([Repo](https://github.com/pybuilder/pybuilder), [Home](https://pybuilder.io/)) Extensible build automation tool, mainly targeting Python applications. `(build, linux, mac)`
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/), [WP](https://en.wikipedia.org/wiki/PyChess)) Advanced chess client, suitable for new, casual, and competitive play. `(games, linux, gtk)`
   1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, linux, mac)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, mac)`
@@ -538,6 +540,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(pkg_mgr, linux, windows)`
   1. **PPCI** - ([Repo](https://bitbucket.org/windel/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others). `(dev, linux, windows)`
   1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(static_site, linux, windows)`
+  1. **PyBuilder** - ([Repo](https://github.com/pybuilder/pybuilder), [Home](https://pybuilder.io/)) Extensible build automation tool, mainly targeting Python applications. `(build, linux, windows)`
   1. **Pyfa** - ([Repo](https://github.com/pyfa-org/Pyfa)) Python Fitting Assistant, cross-platform experimentation tool for [EVE Online](https://en.wikipedia.org/wiki/Eve_Online) ship fittings. `(games, linux, windows)`
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API. `(internet, linux, windows)`
   1. **Quod Libet** - ([Repo](https://github.com/quodlibet/quodlibet), [WP](https://en.wikipedia.org/wiki/Quod_Libet_%28software%29)) Cross-platform audio player, tag editor, and library organizer. `(audio, linux, windows, gtk)`

@@ -3651,6 +3651,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: PyBuilder
+    repo_url: https://github.com/pybuilder/pybuilder
+    home_url: https://pybuilder.io/
+    date_added: 2020-04-30 18:41:00
+    desc: Extensible build automation tool, mainly targeting Python applications.
+    tags:
+      - build
+      - linux
+      - windows
+      - mac
   - name: redo
     repo_url: https://github.com/apenwarr/redo
     docs_url: https://redo.readthedocs.io/en/latest

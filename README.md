@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **393**
+This document is an always-growing list of **394**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,7 +46,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(171)*
+1. <a href="#tag-dev">Dev</a> *(172)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
@@ -56,7 +56,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
-    1. <a href="#tag-dev.build">Build</a> *(13)*
+    1. <a href="#tag-dev.build">Build</a> *(14)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
     1. <a href="#tag-dev-other">Other Dev projects</a> *(32)*
 1. <a href="#tag-misc">Misc</a> *(13)*
@@ -507,6 +507,7 @@ Projects related to software development and adjacent technical areas.
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness. `(linux, windows, mac)`
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(linux, mac, corp)`
   1. **PlatformIO Core** - ([Repo](https://github.com/platformio/platformio-core), [Home](https://platformio.org/), [Fund](https://platformio.org/donate?utm_source=github&utm_medium=core), [PyPI](https://pypi.org/project/platformio), [Docs](https://docs.platformio.org/en/latest?utm_source=github&utm_medium=core)) Multiplatform CLI build system and library manager for IoT development. `(linux, windows, mac)`
+  1. **PyBuilder** - ([Repo](https://github.com/pybuilder/pybuilder), [Home](https://pybuilder.io/)) Extensible build automation tool, mainly targeting Python applications. `(linux, windows, mac)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(linux, windows, mac, console)`
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache. `(linux, windows, mac)`
   1. **Snapcraft** - ([Repo](https://github.com/snapcore/snapcraft), [Home](https://snapcraft.io/), [Docs](https://snapcraft.io/docs)) A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical. `(linux)`

@@ -334,6 +334,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: Quokka
+    repo_url: https://github.com/quokkaproject/quokka
+    home_url: http://www.quokkaproject.org/
+    pypi_url: https://pypi.org/project/quokka
+    date_added: 2020-04-30 22:14:00
+    desc: A Flask based CMS for dynamic/static websites, using MongoDB or flat file TinyDB.
+    tags:
+      - internet
+      - static_site
+      - server
   - name: Qute Browser
     repo_url: https://github.com/qutebrowser/qutebrowser
     home_url: https://www.qutebrowser.org/

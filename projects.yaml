@@ -119,6 +119,14 @@ projects:
 #
 # Internet
 #
+  - name: Ajenti
+    repo_url: https://github.com/ajenti/ajenti
+    home_url: http://ajenti.org/
+    date_added: 2020-04-30 18:06:00
+    desc: A Linux & BSD web admin panel, that is easy to install and lightweight.
+    tags:
+      - internet
+      - server
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/

@@ -4052,6 +4052,14 @@ projects:
     tags:
       - misc
       - linux
+  - name: The Fuck
+    repo_url: https://github.com/nvbn/thefuck
+    pypi_url: https://pypi.org/project/thefuck
+    date_added: 2020-04-30 22:55:00
+    desc: A command that corrects errors in your previous console commnad.
+    tags:
+      - linux
+      - mac
   - name: uMap
     repo_url: https://github.com/umap-project/umap
     docs_url: https://wiki.openstreetmap.org/wiki/UMap

@@ -1782,7 +1782,7 @@ projects:
       - communication
       - server
   - name: MoinMoin
-    repo_url: https://bitbucket.org/thomaswaldmann/moin-2.0  # https://github.com/mirror/moin-2.0
+    repo_url: https://github.com/moinwiki/moin
     home_url: http://moinmo.in/
     docs_url: https://moin-20.readthedocs.io/en/latest
     wp_url: https://en.wikipedia.org/wiki/MoinMoin

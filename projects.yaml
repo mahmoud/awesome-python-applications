@@ -141,6 +141,19 @@ projects:
       - internet
       - organization
       - server
+  - name: buku
+    repo_url: https://github.com/jarun/buku
+    docs_url: https://github.com/jarun/buku/wiki
+    fund_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q
+    date_added: 2020-08-04 00:15:00
+    desc: Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs.
+    tags:
+      - internet
+      - organization
+      - linux
+      - windows
+      - mac
+      - server
   - name: Canto
     repo_url: https://github.com/themoken/canto-next
     wp_url: https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29

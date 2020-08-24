@@ -2974,6 +2974,15 @@ projects:
     tags:
       - ops
       - server
+  - name: SpaceSiren
+    repo_url: https://github.com/spacesiren/spacesiren
+    docs_url: https://github.com/spacesiren/spacesiren/blob/master/docs/getting-started.md
+    date_added: 2020-08-24 11:24:00
+    desc: Honeypot management and alert system for AWS tokens, with a fully serverless architecture.
+    tags:
+      - ops
+      - security
+      - server
   - name: Spinnaker
     repo_url: https://github.com/spinnaker/spinnaker
     home_url: https://www.spinnaker.io/

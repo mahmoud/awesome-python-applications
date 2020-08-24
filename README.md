@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **394**
+This document is an always-growing list of **395**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(171)*
+1. <a href="#tag-dev">Dev</a> *(172)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
-    1. <a href="#tag-dev.ops">Ops</a> *(25)*
-    1. <a href="#tag-dev.security">Security</a> *(26)*
+    1. <a href="#tag-dev.ops">Ops</a> *(26)*
+    1. <a href="#tag-dev.security">Security</a> *(27)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
@@ -418,6 +418,7 @@ Projects related to software development and adjacent technical areas.
   1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/stable)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office. `(server, django)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`
+  1. **SpaceSiren** - ([Repo](https://github.com/spacesiren/spacesiren), [Docs](https://github.com/spacesiren/spacesiren/blob/master/docs/getting-started.md)) Honeypot management and alert system for AWS tokens, with a fully serverless architecture. `(security, server)`
   1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_%28software%29), [Docs](https://www.spinnaker.io/concepts)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments. `(server, corp)`
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac, server)`
@@ -445,6 +446,7 @@ Projects related to software development and adjacent technical areas.
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more. `(console)`
   1. **Recon-ng** - ([Repo](https://github.com/lanmaster53/recon-ng), [Home](https://github.com/lanmaster53/recon-ng), [Docs](https://github.com/lanmaster53/recon-ng/wiki)) Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. `(linux)`
   1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(internet, server, flask)`
+  1. **SpaceSiren** - ([Repo](https://github.com/spacesiren/spacesiren), [Docs](https://github.com/spacesiren/spacesiren/blob/master/docs/getting-started.md)) Honeypot management and alert system for AWS tokens, with a fully serverless architecture. `(ops, server)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(linux, windows, mac, docker, server)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(storage, console)`
   1. **sshuttle** - ([Repo](https://github.com/sshuttle/sshuttle), [Docs](https://sshuttle.readthedocs.org/)) Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access. `(linux, mac)`

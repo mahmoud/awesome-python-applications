@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **396**
+This document is an always-growing list of **397**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(173)*
+1. <a href="#tag-dev">Dev</a> *(174)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
     1. <a href="#tag-dev.ops">Ops</a> *(27)*
-    1. <a href="#tag-dev.security">Security</a> *(28)*
+    1. <a href="#tag-dev.security">Security</a> *(29)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
@@ -452,6 +452,7 @@ Projects related to software development and adjacent technical areas.
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(linux, windows, mac, docker, server)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(storage, console)`
   1. **sshuttle** - ([Repo](https://github.com/sshuttle/sshuttle), [Docs](https://sshuttle.readthedocs.org/)) Transparent network proxy server that uses SSH to achieve VPN-like results, without requiring root access. `(linux, mac)`
+  1. **Thug** - ([Repo](https://github.com/buffer/thug), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XTDF8AHJ28CXY), [PyPI](https://pypi.org/project/thug), [Docs](https://thug-honeyclient.readthedocs.io/en/latest)) Low-interaction honeyclient designed to mimic the behavior of a web browser in order to detect and emulate malicious contents. `(linux, mac)`
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(linux, windows, mac)`
   1. **XSStrike** - ([Repo](https://github.com/s0md3v/XSStrike)) [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler. `(console)`
 

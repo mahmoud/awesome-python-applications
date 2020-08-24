@@ -3212,6 +3212,17 @@ projects:
       - security
       - linux
       - mac
+  - name: Thug
+    repo_url: https://github.com/buffer/thug
+    docs_url: https://thug-honeyclient.readthedocs.io/en/latest
+    fund_url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XTDF8AHJ28CXY
+    pypi_url: https://pypi.org/project/thug
+    date_added: 2020-08-24 12:02:00
+    desc: Low-interaction honeyclient designed to mimic the behavior of a web browser in order to detect and emulate malicious contents.
+    tags:
+      - security
+      - linux
+      - mac
   - name: Universal Radio Hacker (URH)
     repo_url: https://github.com/jopohl/urh
     date_added: 2019-01-27 01:10:00

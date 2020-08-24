@@ -2957,6 +2957,16 @@ projects:
       - ops
       - server
       - django
+  - name: RDPY
+    repo_url: https://github.com/citronneur/rdpy
+    date_added: 2020-08-24 11:37:00
+    desc: An implementation of the Microsoft Remote Desktop Protocol built on Twisted, including applications for client use, MITM proxy, and Honeypot server.
+    tags:
+      - ops
+      - security
+      - linux
+      - windows
+      - server
   - name: Salt Stack
     repo_url: https://github.com/saltstack/salt
     home_url: https://repo.saltstack.com/

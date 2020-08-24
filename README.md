@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **395**
+This document is an always-growing list of **396**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,12 +46,12 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(172)*
+1. <a href="#tag-dev">Dev</a> *(173)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
-    1. <a href="#tag-dev.ops">Ops</a> *(26)*
-    1. <a href="#tag-dev.security">Security</a> *(27)*
+    1. <a href="#tag-dev.ops">Ops</a> *(27)*
+    1. <a href="#tag-dev.security">Security</a> *(28)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
     1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
@@ -416,6 +416,7 @@ Projects related to software development and adjacent technical areas.
   1. **OpenStack** - ([Repo](https://github.com/openstack/openstack), [Home](https://www.openstack.org/), [Docs](https://docs.openstack.org/)) Cloud operating system that controls large pools of compute, storage, and networking resources throughout a datacenter, manageable through a web-based dashboard. `(server, corp)`
   1. **Pulp** - ([Repo](https://github.com/pulp/pulp), [Home](https://pulpproject.org/), [Docs](https://docs.pulpproject.org/)) Platform for managing repositories of software packages and making it available to a large numbers of consumers. Developed and used by Red Hat. `(server)`
   1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/stable)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office. `(server, django)`
+  1. **RDPY** - ([Repo](https://github.com/citronneur/rdpy)) An implementation of the Microsoft Remote Desktop Protocol built on Twisted, including applications for client use, MITM proxy, and Honeypot server. `(security, linux, windows, server)`
   1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale. `(server, corp)`
   1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments. `(server)`
   1. **SpaceSiren** - ([Repo](https://github.com/spacesiren/spacesiren), [Docs](https://github.com/spacesiren/spacesiren/blob/master/docs/getting-started.md)) Honeypot management and alert system for AWS tokens, with a fully serverless architecture. `(security, server)`
@@ -444,6 +445,7 @@ Projects related to software development and adjacent technical areas.
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(productivity, server)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(linux, docker, server)`
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more. `(console)`
+  1. **RDPY** - ([Repo](https://github.com/citronneur/rdpy)) An implementation of the Microsoft Remote Desktop Protocol built on Twisted, including applications for client use, MITM proxy, and Honeypot server. `(ops, linux, windows, server)`
   1. **Recon-ng** - ([Repo](https://github.com/lanmaster53/recon-ng), [Home](https://github.com/lanmaster53/recon-ng), [Docs](https://github.com/lanmaster53/recon-ng/wiki)) Recon-ng is a full-featured reconnaissance framework providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. `(linux)`
   1. **Searx** - ([Repo](https://github.com/asciimoo/searx), [Docs](https://asciimoo.github.io/searx)) Self-hosted metasearch engine, aggregating results from more than 70 services while avoiding tracking and profiling. `(internet, server, flask)`
   1. **SpaceSiren** - ([Repo](https://github.com/spacesiren/spacesiren), [Docs](https://github.com/spacesiren/spacesiren/blob/master/docs/getting-started.md)) Honeypot management and alert system for AWS tokens, with a fully serverless architecture. `(ops, server)`

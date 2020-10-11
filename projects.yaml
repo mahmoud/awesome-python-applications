@@ -2183,6 +2183,17 @@ projects:
       - windows
       - mac
       - wx
+  - name: Spack
+    repo_url: https://github.com/spack/spack
+    home_url: https://spack.io/
+    docs_url: https://spack.readthedocs.io/en/latest
+    date_added: 2020-10-11 00:06:00
+    desc: Language-independent package manager for supercomputers, Mac, and Linux, designed for scientific computing.
+    tags:
+      - science
+      - pkg_mgr
+      - linux
+      - mac
   - name: Taguette
     repo_url: https://gitlab.com/remram44/taguette
     home_url: https://www.taguette.org/

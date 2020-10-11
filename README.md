@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **398**
+This document is an always-growing list of **399**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,11 +42,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(40)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
-1. <a href="#tag-science">Science</a> *(23)*
+1. <a href="#tag-science">Science</a> *(24)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(174)*
+1. <a href="#tag-dev">Dev</a> *(175)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
@@ -54,7 +54,7 @@ thereof), see Architectures. -->
     1. <a href="#tag-dev.security">Security</a> *(29)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
-    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(10)*
+    1. <a href="#tag-dev.pkg_mgr">Package Managers</a> *(11)*
     1. <a href="#tag-dev.pkg_repo">Package Repositories</a> *(5)*
     1. <a href="#tag-dev.build">Build</a> *(13)*
     1. <a href="#tag-dev.shell">Shell</a> *(3)*
@@ -306,6 +306,7 @@ thereof), see Architectures. -->
   1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics. `(linux, windows, mac)`
   1. **Scholia** - ([Repo](https://github.com/fnielsen/scholia), [Home](https://tools.wmflabs.org/scholia), [Docs](https://www.wikidata.org/wiki/Wikidata%3AScholia)) Python package and web application for interacting with scholarly information on [Wikidata](https://www.wikidata.org/). `(organization, server)`
   1. **SOFA Statistics** - ([Repo](https://code.launchpad.net/sofastatistics), [Home](http://www.sofastatistics.com/)) User-friendly statistics and analysis with a learn-as-you-go approach. `(linux, windows, mac, wx)`
+  1. **Spack** - ([Repo](https://github.com/spack/spack), [Home](https://spack.io/), [Docs](https://spack.readthedocs.io/en/latest)) Language-independent package manager for supercomputers, Mac, and Linux, designed for scientific computing. `(pkg_mgr, linux, mac)`
   1. **Taguette** - ([Repo](https://gitlab.com/remram44/taguette), [Home](https://www.taguette.org/), [gh](https://github.com/remram44/taguette), [PyPI](https://pypi.org/project/taguette), [Docs](https://www.taguette.org/getting-started.html)) Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats. `(server)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
 
@@ -494,6 +495,7 @@ Projects related to software development and adjacent technical areas.
   1. **Poetry** - ([Repo](https://github.com/sdispater/poetry), [Home](https://poetry.eustace.io/), [Docs](https://poetry.eustace.io/docs)) An independent approach to Python dependency management and packaging. `(linux, windows, mac)`
   1. **Portage** - ([Repo](https://gitweb.gentoo.org/proj/portage.git), [WP](https://en.wikipedia.org/wiki/Portage_%28software%29)) Platform-agnostic Package management system created for and used by Gentoo Linux and also by Chrome OS, Sabayon, and Funtoo Linux. Inspired by FreeBSD ports. `(linux)`
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth. `(linux, corp)`
+  1. **Spack** - ([Repo](https://github.com/spack/spack), [Home](https://spack.io/), [Docs](https://spack.readthedocs.io/en/latest)) Language-independent package manager for supercomputers, Mac, and Linux, designed for scientific computing. `(science, linux, mac)`
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_%28software%29)) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.). `(linux, corp)`
 
 ### <a id="tag-dev.pkg_repo" href="#tag-dev.pkg_repo">Package Repositories</a>

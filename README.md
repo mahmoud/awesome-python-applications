@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **397**
+This document is an always-growing list of **398**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -42,7 +42,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-organization">Organization</a> *(40)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
-1. <a href="#tag-science">Science</a> *(22)*
+1. <a href="#tag-science">Science</a> *(23)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
@@ -293,6 +293,7 @@ thereof), see Architectures. -->
   1. **CKAN** - ([Repo](https://github.com/ckan/ckan), [Home](https://ckan.org/)) Data management system (DMS) which makes it easy to publish, share, and use data. Data hubs powered by CKAN include [datahub.io](https://datahub.io), [catalog.data.gov](https://catalog.data.gov), and [europeandataportal.eu](https://europeandataportal.eu/data/en/dataset), among many other sites. `(server, flask)`
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality. `(server)`
   1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories. `(server, django)`
+  1. **Galaxy** - ([Repo](https://github.com/galaxyproject/galaxy), [Home](https://galaxyproject.org/), [Docs](https://galaxyproject.org/docs)) Web-based platform for reproducible and transparent computational research, with a focus on bioinformatics. `(server)`
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans. `(linux, windows, mac, gtk)`
   1. **Manim** - ([Repo](https://github.com/3b1b/manim), [Docs](https://manim.readthedocs.io/)) Animation engine for explanatory math videos, primarily designed for [works by 3blue1brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). `(linux)`
   1. **Mayavi** - ([Repo](https://github.com/enthought/mayavi), [Home](http://docs.enthought.com/mayavi/mayavi)) General purpose, cross-platform tool for 2-D and 3-D scientific data visualization. `(linux, windows, mac, qt4)`

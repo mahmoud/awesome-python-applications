@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-08-24T19:02:52Z</updated>
+  <updated>2020-10-11T06:41:16Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/galaxyproject/galaxy</id>
+    <title>Galaxy</title>
+    <link rel="alternate" type="text/html" href="https://github.com/galaxyproject/galaxy" />
+    <published>2020-10-10T23:41:00Z</published>
+    <updated>2020-10-10T23:41:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/galaxyproject/galaxy">Galaxy</a></strong>: Web-based platform for reproducible and transparent computational research, with a focus on bioinformatics.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/galaxyproject/galaxy'>Repo</a></li>
+        <li><a href='https://galaxyproject.org/'>Home</a></li>
+        <li><a href='https://galaxyproject.org/docs'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/buffer/thug</id>

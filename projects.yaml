@@ -2067,6 +2067,15 @@ projects:
       - science
       - server
       - django
+  - name: Galaxy
+    repo_url: https://github.com/galaxyproject/galaxy
+    home_url: https://galaxyproject.org/
+    docs_url: https://galaxyproject.org/docs
+    date_added: 2020-10-10 23:41:00
+    desc: Web-based platform for reproducible and transparent computational research, with a focus on bioinformatics.
+    tags:
+      - science
+      - server
   - name: InVesalius
     repo_url: https://github.com/invesalius/invesalius3
     home_url: https://invesalius.github.io/

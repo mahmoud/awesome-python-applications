@@ -390,6 +390,7 @@ projects:
       - flask
   - name: speedtest-cli
     repo_url: https://github.com/sivel/speedtest-cli
+    pypi_url: https://pypi.org/project/speedtest-cli
     date_added: 2019-01-27 15:37:00
     desc: Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net).
     tags:
@@ -1205,6 +1206,7 @@ projects:
     home_url: https://www.reprozip.org/
     demo_url: https://examples.reprozip.org/
     docs_url: https://docs.reprozip.org/
+    pypi_url: https://pypi.org/project/reprozip
     date_added: 2019-11-13 10:04:00
     desc: Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science.
     tags:
@@ -2406,6 +2408,7 @@ projects:
   - name: Lektor
     repo_url: https://github.com/lektor/lektor
     home_url: https://www.getlektor.com/
+    pypi_url: https://pypi.org/project/Lektor
     date_added: 2018-11-24 02:37:00
     desc: Static site generator with built-in admin console and minimal desktop application.
     tags:
@@ -2754,6 +2757,7 @@ projects:
     repo_url: https://github.com/sqlmapproject/sqlmap
     home_url: http://sqlmap.org/
     docs_url: https://github.com/sqlmapproject/sqlmap/wiki
+    pypi_url: https://pypi.org/project/sqlmap
     date_added: 2019-01-27 15:41:00
     desc: Automatic SQL injection and database takeover.
     tags:
@@ -3293,6 +3297,7 @@ projects:
   - name: mkdocs
     repo_url: https://github.com/mkdocs/mkdocs
     home_url: https://www.mkdocs.org/
+    pypi_url: https://pypi.org/project/mkdocs
     date_added: 2019-01-31 21:02:00
     desc: Simple, customizable project documentation, with built-in dev server.
     tags:
@@ -3311,6 +3316,7 @@ projects:
   - name: Sphinx
     repo_url: https://github.com/sphinx-doc/sphinx
     home_url: http://sphinx-doc.org/
+    pypi_url: https://pypi.org/project/Sphinx
     date_added: 2018-11-26 01:59:00
     desc: Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
     tags:
@@ -3717,6 +3723,7 @@ projects:
   - name: redo
     repo_url: https://github.com/apenwarr/redo
     docs_url: https://redo.readthedocs.io/en/latest
+    pypi_url: https://pypi.org/project/redo-tools
     date_added: 2019-03-06 09:53:00
     desc: A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein).
     tags:
@@ -3808,6 +3815,7 @@ projects:
   - name: coala
     repo_url: https://github.com/coala/coala
     home_url: https://coala.io/
+    pypi_url: https://pypi.org/project/coala
     date_added: 2018-11-26 01:59:00
     desc: Unified command-line interface for linting and fixing code, regardless of programming language.
     tags:
@@ -3878,6 +3886,7 @@ projects:
   - name: IPython
     repo_url: https://github.com/ipython/ipython
     docs_url: https://ipython.readthedocs.org/
+    pypi_url: https://pypi.org/project/ipython
     date_added: 2018-11-26 01:59:00
     desc: Set of enhancements to Python, wrapping it for richer interactivity.
     tags:
@@ -3971,6 +3980,7 @@ projects:
   - name: Robot Framework
     repo_url: https://github.com/robotframework/robotframework
     home_url: http://robotframework.org/
+    pypi_url: https://pypi.org/project/robotframework
     date_added: 2018-11-26 01:59:00
     desc: Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
     tags:
@@ -4055,6 +4065,7 @@ projects:
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/
+    pypi_url: https://pypi.org/project/guake
     date_added: 2018-11-26 01:59:00
     desc: Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
     tags:

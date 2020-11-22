@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-10-11T07:06:16Z</updated>
+  <updated>2020-11-22T00:42:14Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -517,6 +517,7 @@
         <li><a href='https://github.com/VIDA-NYU/reprozip'>Repo</a></li>
         <li><a href='https://www.reprozip.org/'>Home</a></li>
         <li><a href='https://examples.reprozip.org/'>Demo</a></li>
+        <li><a href='https://pypi.org/project/reprozip'>PyPI</a></li>
         <li><a href='https://docs.reprozip.org/'>Docs</a></li>
         
       </ul>
@@ -4318,6 +4319,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/apenwarr/redo'>Repo</a></li>
+        <li><a href='https://pypi.org/project/redo-tools'>PyPI</a></li>
         <li><a href='https://redo.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
@@ -4526,6 +4528,7 @@
       <ul>
         <li><a href='https://github.com/mkdocs/mkdocs'>Repo</a></li>
         <li><a href='https://www.mkdocs.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/mkdocs'>PyPI</a></li>
         
       </ul>
       </div>
@@ -4677,6 +4680,7 @@
       <ul>
         <li><a href='https://github.com/sqlmapproject/sqlmap'>Repo</a></li>
         <li><a href='http://sqlmap.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/sqlmap'>PyPI</a></li>
         <li><a href='https://github.com/sqlmapproject/sqlmap/wiki'>Docs</a></li>
         
       </ul>
@@ -4702,6 +4706,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/sivel/speedtest-cli'>Repo</a></li>
+        <li><a href='https://pypi.org/project/speedtest-cli'>PyPI</a></li>
         
       </ul>
       </div>
@@ -7527,6 +7532,7 @@
       <ul>
         <li><a href='https://github.com/sphinx-doc/sphinx'>Repo</a></li>
         <li><a href='http://sphinx-doc.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/Sphinx'>PyPI</a></li>
         
       </ul>
       </div>
@@ -8217,6 +8223,7 @@
       <ul>
         <li><a href='https://github.com/coala/coala'>Repo</a></li>
         <li><a href='https://coala.io/'>Home</a></li>
+        <li><a href='https://pypi.org/project/coala'>PyPI</a></li>
         
       </ul>
       </div>
@@ -8241,6 +8248,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ipython/ipython'>Repo</a></li>
+        <li><a href='https://pypi.org/project/ipython'>PyPI</a></li>
         <li><a href='https://ipython.readthedocs.org/'>Docs</a></li>
         
       </ul>
@@ -8293,6 +8301,7 @@
       <ul>
         <li><a href='https://github.com/robotframework/robotframework'>Repo</a></li>
         <li><a href='http://robotframework.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/robotframework'>PyPI</a></li>
         
       </ul>
       </div>
@@ -8343,6 +8352,7 @@
       <ul>
         <li><a href='https://github.com/Guake/guake'>Repo</a></li>
         <li><a href='http://guake-project.org/'>Home</a></li>
+        <li><a href='https://pypi.org/project/guake'>PyPI</a></li>
         
       </ul>
       </div>
@@ -10064,6 +10074,7 @@
       <ul>
         <li><a href='https://github.com/lektor/lektor'>Repo</a></li>
         <li><a href='https://www.getlektor.com/'>Home</a></li>
+        <li><a href='https://pypi.org/project/Lektor'>PyPI</a></li>
         
       </ul>
       </div>

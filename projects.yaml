@@ -3842,6 +3842,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: Docker Compose
+    repo_url: https://github.com/docker/compose
+    docs_url: https://docs.docker.com/compose
+    date_added: 2020-11-21 16:41:00
+    desc: Docker Compose is a tool for defining and running multi-container Docker applications.
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: doitlive
     repo_url: https://github.com/sloria/doitlive
     docs_url: https://doitlive.readthedocs.io/

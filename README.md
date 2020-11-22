@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **400**
+This document is an always-growing list of **401**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -46,11 +46,11 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(176)*
+1. <a href="#tag-dev">Dev</a> *(177)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
     1. <a href="#tag-dev.storage">Storage</a> *(17)*
-    1. <a href="#tag-dev.ops">Ops</a> *(27)*
+    1. <a href="#tag-dev.ops">Ops</a> *(28)*
     1. <a href="#tag-dev.security">Security</a> *(29)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
     1. <a href="#tag-dev.editor">Editor</a> *(13)*
@@ -399,6 +399,7 @@ Projects related to software development and adjacent technical areas.
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
   1. **Airflow** - ([Repo](https://github.com/apache/airflow), [Docs](https://airflow.apache.org/)) A platform to programmatically author, schedule and monitor workflows. `(linux, server, corp, flask)`
+  1. **Ajenti** - ([Repo](https://github.com/ajenti/ajenti), [Home](https://ajenti.org/), [PyPI](https://pypi.org/project/ajenti-panel), [Docs](http://docs.ajenti.org/en/latest)) Web-base server admin panel for fast, extensible remote access, featuring a web terminal, text editor, file manager, and more. `(server)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(linux, mac, corp)`
   1. **aws-cli** - ([Repo](https://github.com/aws/aws-cli), [PyPI](https://pypi.org/project/awscli), [Docs](https://docs.aws.amazon.com/cli/latest)) Official command-line interface for Amazon Web Services. `(console, py26)`
   1. **Beaker** - ([Repo](https://git.beaker-project.org/cgit/beaker), [Home](https://beaker-project.org/), [Docs](https://beaker-project.org/docs)) Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora. `(server, flask)`

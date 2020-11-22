@@ -2813,6 +2813,16 @@ projects:
       - server
       - corp
       - flask
+  - name: Ajenti
+    repo_url: https://github.com/ajenti/ajenti
+    home_url: https://ajenti.org/
+    docs_url: http://docs.ajenti.org/en/latest
+    pypi_url: https://pypi.org/project/ajenti-panel
+    date_added: 2020-11-22 00:26:00
+    desc: Web-base server admin panel for fast, extensible remote access, featuring a web terminal, text editor, file manager, and more.
+    tags:
+      - ops
+      - server
   - name: Ansible
     repo_url: https://github.com/ansible/ansible
     home_url: https://www.ansible.com/

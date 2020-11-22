@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2020-11-22T00:42:38Z</updated>
+  <updated>2020-11-22T00:44:57Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -19,7 +19,7 @@
     <link rel="alternate" type="text/html" href="https://github.com/docker/compose" />
     <published>2020-11-21T16:41:00Z</published>
     <updated>2020-11-21T16:41:00Z</updated>
-    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">

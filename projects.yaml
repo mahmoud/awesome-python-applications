@@ -3852,6 +3852,7 @@ projects:
       - linux
       - windows
       - mac
+      - corp
   - name: doitlive
     repo_url: https://github.com/sloria/doitlive
     docs_url: https://doitlive.readthedocs.io/

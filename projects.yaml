@@ -1557,7 +1557,7 @@ projects:
       - mac
   - name: Scholia
     repo_url: https://github.com/fnielsen/scholia
-    home_url: https://tools.wmflabs.org/scholia
+    home_url: https://scholia.toolforge.org/
     docs_url: https://www.wikidata.org/wiki/Wikidata%3AScholia
     date_added: 2019-11-13 18:24:00
     desc: Python package and web application for interacting with scholarly information on [Wikidata](https://www.wikidata.org/).

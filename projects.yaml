@@ -4183,3 +4183,14 @@ projects:
       - misc
       - linux
       - windows
+  - name: Vulture
+    repo_url: https://github.com/jendrikseipp/vulture
+    pypi_url: https://pypi.org/project/vulture
+    date_added: 2020-10-28 13:30:00
+    desc: Vulture finds unused code in Python programs. This is useful for cleaning up and finding errors in large code bases.
+    tags:
+      - dev
+      - console
+      - mac
+      - linux
+      - windows

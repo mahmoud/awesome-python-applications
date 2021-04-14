@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **401**
+This document is an always-growing list of **402**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,17 +39,17 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(24)*
-1. <a href="#tag-organization">Organization</a> *(40)*
+1. <a href="#tag-organization">Organization</a> *(41)*
 1. <a href="#tag-communication">Communication</a> *(33)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(24)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(177)*
+1. <a href="#tag-dev">Dev</a> *(178)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(4)*
-    1. <a href="#tag-dev.storage">Storage</a> *(17)*
+    1. <a href="#tag-dev.storage">Storage</a> *(18)*
     1. <a href="#tag-dev.ops">Ops</a> *(28)*
     1. <a href="#tag-dev.security">Security</a> *(29)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
@@ -199,6 +199,7 @@ thereof), see Architectures. -->
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(internet, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(internet, server)`
   1. **Baby Buddy** - ([Repo](https://github.com/cdubz/babybuddy), [Demo](http://demo.baby-buddy.net/)) Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork. `(server)`
+  1. **Baserow** - ([Repo](https://gitlab.com/bramw/baserow), [Home](https://baserow.io/), [gh](https://github.com/bram2w/baserow), [Docs](https://baserow.io/docs)) Web-based no-code persistence platform, like a database meets a spreadsheet, with a REST API. `(storage, server, django)`
   1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(linux, windows, mac)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(internet, linux, windows, mac, server)`
   1. **Byro** - ([Repo](https://github.com/byro/byro), [Docs](https://byro.readthedocs.io/)) Web-based membership administration tool for small and medium sized clubs/NGOs/associations of all kinds, with a focus on the DACH region. `(server)`
@@ -380,6 +381,7 @@ Projects related to software development and adjacent technical areas.
 
   1. **B2** - ([Repo](https://github.com/Backblaze/B2_Command_Line_Tool), [PyPI](https://pypi.python.org/pypi/b2)) Command-line tool that gives easy access to all of the capabilities of Backblaze's [B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html). `(linux, windows, mac, corp)`
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
+  1. **Baserow** - ([Repo](https://gitlab.com/bramw/baserow), [Home](https://baserow.io/), [gh](https://github.com/bram2w/baserow), [Docs](https://baserow.io/docs)) Web-based no-code persistence platform, like a database meets a spreadsheet, with a REST API. `(organization, server, django)`
   1. **Datasette** - ([Repo](https://github.com/simonw/datasette), [PyPI](https://pypi.org/project/datasette), [Docs](https://datasette.readthedocs.io/en/latest)) A tool for exploring and publishing data, backed by SQLite. `(server)`
   1. **EdgeDB** - ([Repo](https://github.com/edgedb/edgedb), [Home](https://edgedb.com/), [Docs](https://edgedb.com/docs)) High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support. `(server)`
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(server)`

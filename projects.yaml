@@ -1281,6 +1281,18 @@ projects:
     tags:
       - organization
       - server
+  - name: Baserow
+    repo_url: https://gitlab.com/bramw/baserow
+    home_url: https://baserow.io/
+    docs_url: https://baserow.io/docs
+    gh_url: https://github.com/bram2w/baserow
+    date_added: 2021-04-13 22:17:00
+    desc: Web-based no-code persistence platform, like a database meets a spreadsheet, with a REST API.
+    tags:
+      - organization
+      - storage
+      - server
+      - django
   - name: beancount
     repo_url: https://bitbucket.org/blais/beancount
     home_url: http://furius.ca/beancount

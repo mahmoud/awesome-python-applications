@@ -141,6 +141,17 @@ projects:
       - internet
       - organization
       - server
+  - name: Bookwyrm
+    repo_url: https://github.com/bookwyrm-social/bookwyrm
+    home_url: https://bookwyrm.social/
+    date_added: 2021-09-10 19:51:00
+    desc: Social reading and reviewing, decentralized with ActivityPub.
+    tags:
+      - internet
+      - organization
+      - communication
+      - server
+      - django
   - name: buku
     repo_url: https://github.com/jarun/buku
     docs_url: https://github.com/jarun/buku/wiki

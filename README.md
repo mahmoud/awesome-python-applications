@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **402**
+This document is an always-growing list of **403**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,14 +33,14 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(34)*
+1. <a href="#tag-internet">Internet</a> *(35)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(24)*
-1. <a href="#tag-organization">Organization</a> *(41)*
-1. <a href="#tag-communication">Communication</a> *(33)*
+1. <a href="#tag-organization">Organization</a> *(42)*
+1. <a href="#tag-communication">Communication</a> *(34)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(24)*
 1. <a href="#tag-cms">CMS</a> *(11)*
@@ -67,6 +67,7 @@ thereof), see Architectures. -->
 
   1. **ArchiveBox** - ([Repo](https://github.com/pirate/ArchiveBox), [Home](https://archivebox.io/), [Docs](https://github.com/pirate/ArchiveBox/wiki)) Self-hosted web archive, for creating local, browsable backups of content from the web. Imports HTML, JS, PDFs, video, subtitles, git repositories, and more, from Pocket, Pinboard, browser history, etc. `(organization, linux, windows, docker)`
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians. `(organization, server)`
+  1. **Bookwyrm** - ([Repo](https://github.com/bookwyrm-social/bookwyrm), [Home](https://bookwyrm.social/)) Social reading and reviewing, decentralized with ActivityPub. `(organization, communication, server, django)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(organization, linux, windows, mac, server)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, tui)`
   1. **CTFd** - ([Repo](https://github.com/CTFd/CTFd), [Home](https://ctfd.io/), [Docs](https://github.com/CTFd/CTFd/wiki)) CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes. `(server)`
@@ -201,6 +202,7 @@ thereof), see Architectures. -->
   1. **Baby Buddy** - ([Repo](https://github.com/cdubz/babybuddy), [Demo](http://demo.baby-buddy.net/)) Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork. `(server)`
   1. **Baserow** - ([Repo](https://gitlab.com/bramw/baserow), [Home](https://baserow.io/), [gh](https://github.com/bram2w/baserow), [Docs](https://baserow.io/docs)) Web-based no-code persistence platform, like a database meets a spreadsheet, with a REST API. `(storage, server, django)`
   1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)). `(linux, windows, mac)`
+  1. **Bookwyrm** - ([Repo](https://github.com/bookwyrm-social/bookwyrm), [Home](https://bookwyrm.social/)) Social reading and reviewing, decentralized with ActivityPub. `(internet, communication, server, django)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(internet, linux, windows, mac, server)`
   1. **Byro** - ([Repo](https://github.com/byro/byro), [Docs](https://byro.readthedocs.io/)) Web-based membership administration tool for small and medium sized clubs/NGOs/associations of all kinds, with a focus on the DACH region. `(server)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [WP](https://en.wikipedia.org/wiki/Calibre_%28software%29), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(linux, windows, mac, qt5)`
@@ -242,6 +244,7 @@ thereof), see Architectures. -->
   1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com/)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(cms, server)`
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more. `(server, corp)`
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol. `(linux, windows, mac, kivy, qt4, tui)`
+  1. **Bookwyrm** - ([Repo](https://github.com/bookwyrm-social/bookwyrm), [Home](https://bookwyrm.social/)) Social reading and reviewing, decentralized with ActivityPub. `(internet, organization, server, django)`
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts. `(organization, server)`
   1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives. `(linux)`
   1. **Django Wiki** - ([Repo](https://github.com/django-wiki/django-wiki), [Demo](https://demo.django-wiki.org/), [Docs](https://django-wiki.readthedocs.io/en/latest)) A simple and mature web-based wiki. `(server)`

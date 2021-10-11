@@ -23,11 +23,11 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(253)*
+1. <a href="#tag-desktop">Desktop</a> *(254)*
     1. <a href="#tag-desktop.linux">Linux</a> *(235)*
     1. <a href="#tag-desktop.windows">Windows</a> *(149)*
     1. <a href="#tag-desktop.mac">Mac</a> *(150)*
-    1. <a href="#tag-desktop.console">Console</a> *(20)*
+    1. <a href="#tag-desktop.console">Console</a> *(21)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -605,6 +605,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/), [PyPI](https://pypi.org/project/robotframework)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java. `(dev)`
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli), [PyPI](https://pypi.org/project/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(internet)`
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/), [PyPI](https://pypi.org/project/Sphinx)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)). `(docs)`
+  1. **SQLFluff** - ([Repo](https://github.com/sqlfluff/sqlfluff), [Home](https://www.sqlfluff.com/), [Fund](https://flattr.com/github/alanmcruickshank), [PyPI](https://pypi.org/project/sqlfluff)) Dialect-flexible and configurable SQL linter, designed with ELT applications in mind, with support for templating and autofixing errors. `(code_review)`
   1. **sqlmap** - ([Repo](https://github.com/sqlmapproject/sqlmap), [Home](http://sqlmap.org/), [PyPI](https://pypi.org/project/sqlmap), [Docs](https://github.com/sqlmapproject/sqlmap/wiki)) Automatic SQL injection and database takeover. `(storage, security)`
   1. **XSStrike** - ([Repo](https://github.com/s0md3v/XSStrike)) [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler. `(security)`
 

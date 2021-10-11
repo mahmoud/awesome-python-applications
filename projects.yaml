@@ -1,11 +1,11 @@
-
+#
 # Format of this file:
-
+#
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
 #  - After that is "projects", a list of awesome projects
-
+#
 # Each project has the following format:
-
+#
 #  - name: Project Name
 #    repo_url: github or bitbucket or other web link to code
 #    wp_url: Wikipedia URL if there is one
@@ -13,13 +13,13 @@
 #    home_url: Home page if not one of the above
 #    tags: ["", ""]  # see full taxonomy elsewhere in this file
 #    desc: Handy project designed for handiness
-
+#
 # Only the name, repo_url, tags, and description are required.
-
+#
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
 # on the list.
-
+#
 tagsonomy:
   # NOTE: order here controls order of the rendered text
   topic:
@@ -116,9 +116,9 @@ tagsonomy:
     - proprietary
 
 projects:
-
+#
 # Internet
-
+#
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
     home_url: https://archivebox.io/
@@ -471,9 +471,9 @@ projects:
       - linux
       - windows
       - mac
-
+#
 # Audio
-
+#
   - name: Beets
     repo_url: https://github.com/beetbox/beets
     home_url: http://beets.io/
@@ -645,9 +645,9 @@ projects:
     tags:
       - audio
       - linux
-
+#
 # Video
-
+#
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
     wp_url: https://en.wikipedia.org/wiki/Flowblade
@@ -716,9 +716,9 @@ projects:
       - linux
       - windows
       - mac
-
+#
 # Graphics
-
+#
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
     home_url: https://www.kapwing.com/cartoonify
@@ -919,9 +919,9 @@ projects:
       - graphics
       - dev
       - server
-
+#
 # Games
-
+#
   - name: 'Cataclysm: Dark Days Ahead (Launcher)'
     repo_url: https://github.com/remyroy/CDDA-Game-Launcher
     home_url: https://cataclysmdda.org/
@@ -1017,9 +1017,9 @@ projects:
       - linux
       - windows
       - mac
-
+#
 # Productivity
-
+#
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
     pypi_url: https://pypi.org/project/autokey
@@ -1271,9 +1271,9 @@ projects:
       - productivity
       - server
       - flask
-
+#
 # Organization
-
+#
   - name: Ambar
     repo_url: https://github.com/RD17/ambar
     home_url: https://ambar.cloud/
@@ -1647,9 +1647,9 @@ projects:
       - linux
       - windows
       - gtk
-
+#
 # Communication
-
+#
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
     home_url: https://www.abilian.com/
@@ -1936,9 +1936,9 @@ projects:
     tags:
       - communication
       - server
-
+#
 # Education
-
+#
   - name: Anki
     repo_url: https://github.com/dae/anki
     home_url: https://apps.ankiweb.net/
@@ -2006,9 +2006,9 @@ projects:
     tags:
       - education
       - server
-
+#
 # Science
-
+#
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
     # home_url: https://anuga.anu.edu.au/  # SSL broken as of 2020-04-02 (site notes trac deprecation)
@@ -2241,9 +2241,9 @@ projects:
       - windows
       - mac
       - qt
-
+#
 # Cms
-
+#
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
     home_url: https://www.django-cms.org/en
@@ -2329,9 +2329,9 @@ projects:
       - cms
       - server
       - django
-
+#
 # Erp
-
+#
   - name: ERP5
     repo_url: https://lab.nexedi.com/nexedi/erp5
     home_url: https://erp5.nexedi.com/
@@ -2383,9 +2383,9 @@ projects:
       - erp
       - server
       - fdn
-
+#
 # Static_Site
-
+#
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
     pypi_url: https://pypi.org/project/cactus
@@ -2473,9 +2473,9 @@ projects:
       - linux
       - windows
       - mac
-
+#
 # Scm
-
+#
   - name: Allura
     repo_url: https://github.com/apache/allura
     home_url: https://allura.apache.org/
@@ -2641,9 +2641,9 @@ projects:
     tags:
       - scm
       - server
-
+#
 # Code_Review
-
+#
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
     home_url: https://diffoscope.org/
@@ -2683,9 +2683,19 @@ projects:
     tags:
       - code_review
       - server
-
+  - name: SQLFluff
+    repo_url: https://github.com/sqlfluff/sqlfluff
+    home_url: https://www.sqlfluff.com/
+    fund_url: https://flattr.com/github/alanmcruickshank
+    pypi_url: https://pypi.org/project/sqlfluff
+    date_added: 2021-10-10 22:07:00
+    desc: Dialect-flexible and configurable SQL linter, designed with ELT applications in mind, with support for templating and autofixing errors.
+    tags:
+      - code_review
+      - console
+#
 # Storage
-
+#
   - name: B2
     repo_url: https://github.com/Backblaze/B2_Command_Line_Tool
     pypi_url: https://pypi.python.org/pypi/b2
@@ -2822,9 +2832,9 @@ projects:
     tags:
       - storage
       - linux
-
+#
 # Ops
-
+#
   - name: Airflow
     repo_url: https://github.com/apache/airflow
     docs_url: https://airflow.apache.org/
@@ -3080,9 +3090,9 @@ projects:
       - linux
       - mac
       - server
-
+#
 # Security
-
+#
   - name: BYOB (Build Your Own Botnet)
     repo_url: https://github.com/malwaredllc/byob
     date_added: 2019-10-01 17:51:00
@@ -3297,9 +3307,9 @@ projects:
     tags:
       - security
       - console
-
+#
 # Docs
-
+#
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
     date_added: 2018-11-26 01:59:00
@@ -3355,9 +3365,9 @@ projects:
     tags:
       - docs
       - console
-
+#
 # Editor
-
+#
   - name: Algojammer
     repo_url: https://github.com/ChrisKnott/Algojammer
     demo_url: https://www.youtube.com/watch?v=9XPE4uT0AdE
@@ -3501,9 +3511,9 @@ projects:
       - windows
       - mac
       - tk
-
+#
 # Pkg_Mgr
-
+#
   - name: Conan
     repo_url: https://github.com/conan-io/conan
     home_url: https://conan.io/
@@ -3606,9 +3616,9 @@ projects:
       - pkg_mgr
       - linux
       - corp
-
+#
 # Pkg_Repo
-
+#
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
     date_added: 2018-11-26 01:59:00
@@ -3654,9 +3664,9 @@ projects:
       - pkg_repo
       - server
       - fnd
-
+#
 # Build
-
+#
   - name: bitbake
     repo_url: https://github.com/openembedded/bitbake
     docs_url: https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html
@@ -3795,9 +3805,9 @@ projects:
     tags:
       - build
       - linux
-
+#
 # Shell
-
+#
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
     docs_url: http://ergonomica.readthedocs.io/
@@ -3826,9 +3836,9 @@ projects:
       - linux
       - windows
       - mac
-
+#
 # Dev
-
+#
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
     home_url: https://asciinema.org/
@@ -4094,9 +4104,9 @@ projects:
       - dev
       - linux
       - server
-
+#
 # Misc
-
+#
   - name: CourtListener
     repo_url: https://github.com/freelawproject/courtlistener
     home_url: https://www.courtlistener.com/

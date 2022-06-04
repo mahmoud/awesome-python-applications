@@ -30,7 +30,21 @@ tagsonomy:
     - games
     - productivity
     - organization
-    - communication    # messaging & collab
+    - communication    # messaging & 
+    
+    
+    
+     - name: PyChess
+    repo_url: https://github.com/pychess/pychess
+    home_url: http://pychess.org/
+    wp_url: https://en.wikipedia.org/wiki/PyChess
+    date_added: 2018-11-24 02:37:00
+    desc: Advanced chess client, suitable for new, casual, and competitive play.
+    tags:
+      - games
+      - linux
+      - windows
+      - gtk
     - education
     - science
     - cms:

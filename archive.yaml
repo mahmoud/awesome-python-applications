@@ -26,4 +26,6 @@ projects:
     tags:
       - ops
       - linux
-      - mac
+      - mac   
+      
+      Runs on all type of machine

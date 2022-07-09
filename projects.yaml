@@ -358,6 +358,15 @@ projects:
     tags:
       - internet
       - server
+  - name: PostHog
+    repo_url: https://github.com/PostHog/posthog
+    home_url: https://posthog.com/
+    docs_url: https://posthog.com/docs
+    date_added: 2022-07-09 14:09:00
+    desc: Self-hostable product analytics for tracking events, visualizing funnels, and much more.
+    tags:
+      - internet
+      - docker
   - name: PyLoad
     repo_url: https://github.com/pyload/pyload
     home_url: https://pyload.net/

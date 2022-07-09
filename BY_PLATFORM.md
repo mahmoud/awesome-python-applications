@@ -31,8 +31,8 @@ segmentation by distribution (i.e., Docker, etc.)
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(181)*
-    1. <a href="#tag-server.docker">Docker</a> *(7)*
+1. <a href="#tag-server">Server</a> *(182)*
+    1. <a href="#tag-server.docker">Docker</a> *(8)*
     1. <a href="#tag-server.flatpak">Flatpak</a> *(1)*
     1. <a href="#tag-server.appimage">Appimage</a> *(1)*
     1. <a href="#tag-server-other">Other Server projects</a> *(172)*
@@ -630,6 +630,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, mac, snap)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, mac)`
   1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/), [Docs](https://docs.getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest. `(organization, server)`
+  1. **PostHog** - ([Repo](https://github.com/PostHog/posthog), [Home](https://posthog.com/), [Docs](https://posthog.com/docs)) Self-hostable product analytics for tracking events, visualizing funnels, and much more. `(internet)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, linux, server)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, mac, server)`
 

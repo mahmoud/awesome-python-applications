@@ -227,6 +227,16 @@ projects:
       - windows
       - mac
       - gtk
+  - name: Grafana OnCall
+    repo_url: https://github.com/grafana/oncall
+    docs_url: https://grafana.com/docs/grafana-cloud/oncall/open-source
+    date_added: 2022-07-09 14:03:00
+    desc: Developer-friendly incident response with brilliant Slack integration, with a PagerDuty migration path.
+    tags:
+      - internet
+      - server
+      - corp
+      - django
   - name: hosts
     repo_url: https://github.com/StevenBlack/hosts
     date_added: 2019-10-18 14:45:00

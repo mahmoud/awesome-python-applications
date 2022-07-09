@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **404**
+This document is an always-growing list of **405**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(35)*
+1. <a href="#tag-internet">Internet</a> *(36)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(7)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
@@ -75,6 +75,7 @@ thereof), see Architectures. -->
   1. **Elixire** - ([Repo](https://gitlab.com/elixire/elixire), [Home](https://elixi.re/), [Docs](https://gitlab.com/elixire/api-docs)) Featureful file host and link shortener with API and support for multiple vanity urls. `(server)`
   1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Demo](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look. `(server)`
   1. **gPodder** - ([Repo](https://github.com/gpodder/gpodder), [Home](https://gpodder.org/)) Simple, mature media aggregator and podcast client. `(linux, windows, mac, gtk)`
+  1. **Grafana OnCall** - ([Repo](https://github.com/grafana/oncall), [Docs](https://grafana.com/docs/grafana-cloud/oncall/open-source)) Developer-friendly incident response with brilliant Slack integration, with a PagerDuty migration path. `(server, corp, django)`
   1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole. `(security, linux, windows, mac)`
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(dev, linux, windows, mac)`
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`

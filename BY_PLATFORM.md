@@ -31,8 +31,8 @@ segmentation by distribution (i.e., Docker, etc.)
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
 1. <a href="#tag-browser">Browser</a> *(0)*
-1. <a href="#tag-server">Server</a> *(179)*
-    1. <a href="#tag-server.docker">Docker</a> *(6)*
+1. <a href="#tag-server">Server</a> *(180)*
+    1. <a href="#tag-server.docker">Docker</a> *(7)*
     1. <a href="#tag-server.flatpak">Flatpak</a> *(1)*
     1. <a href="#tag-server.appimage">Appimage</a> *(1)*
     1. <a href="#tag-server-other">Other Server projects</a> *(171)*
@@ -629,6 +629,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **cartoonify / Draw This.** - ([Repo](https://github.com/danmacnish/cartoonify), [Home](https://www.kapwing.com/cartoonify)) Turn a photograph into a toddler's drawing. Automatically! `(graphics, console, hardware)`
   1. **Hangups** - ([Repo](https://github.com/tdryer/hangups), [Snap](https://snapcraft.io/hangups), [Docs](https://hangups.readthedocs.io/en/latest)) Third-party instant messenger for [Google Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts), with support for group messaging and other proprietary features. `(communication, linux, mac, snap)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(organization, linux, windows, mac)`
+  1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/), [Docs](https://docs.getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest. `(organization, server)`
   1. **Pupy** - ([Repo](https://github.com/n1nj4sec/pupy), [Docs](https://github.com/n1nj4sec/pupy/wiki/Installation)) Remote administration tool and post-exploitation framework, supporting Windows, Linux, Mac OS X, and Android targets. `(security, linux, server)`
   1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more. `(security, linux, windows, mac, server)`
 
@@ -742,7 +743,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development. `(scm)`
   1. **Photonix** - ([Repo](https://github.com/damianmoore/photonix), [Home](https://photonix.org/), [Demo](https://demo.photonix.org/)) Web-based photo management, featuring smart filtering with object recognition, location awareness, color analysis, and more. `(graphics)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(internet, linux)`
-  1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest. `(organization)`
+  1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/), [Docs](https://docs.getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest. `(organization, docker)`
   1. **Planet** - ([Repo](https://github.com/python/planet), [Home](https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org), [WP](https://en.wikipedia.org/wiki/Planet_%28software%29)) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more. `(internet)`
   1. **Plinth** - ([Repo](https://salsa.debian.org/freedombox-team/plinth), [Home](https://freedombox.org/), [Docs](https://wiki.debian.org/FreedomBox/Plinth)) The core functionality and web front-end of [FreedomBox](https://freedombox.org/), an easy-to-manage, privacy-oriented home server. `(dev, linux)`
   1. **Plone** - ([Repo](https://github.com/plone/Plone), [Home](https://plone.com/), [WP](https://en.wikipedia.org/wiki/Plone_%28software%29)) Extensible enterprise content management system built on Zope. `(cms)`

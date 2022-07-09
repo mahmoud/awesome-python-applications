@@ -1536,10 +1536,12 @@ projects:
   - name: Pinry
     repo_url: https://github.com/pinry/pinry
     home_url: https://getpinry.com/
+    docs_url: https://docs.getpinry.com/
     date_added: 2019-09-04 23:41:00
     desc: Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest.
     tags:
       - organization
+      - docker
       - server
   - name: Pretalx
     repo_url: https://github.com/pretalx/pretalx

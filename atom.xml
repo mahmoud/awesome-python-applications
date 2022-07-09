@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2021-10-11T05:07:55Z</updated>
+  <updated>2022-07-09T21:00:38Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -3577,7 +3577,7 @@
     <link rel="alternate" type="text/html" href="https://github.com/pinry/pinry" />
     <published>2019-09-04T23:41:00Z</published>
     <updated>2019-09-04T23:41:00Z</updated>
-    <category term="audio"/><category term="audio"/>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3586,6 +3586,7 @@
       <ul>
         <li><a href='https://github.com/pinry/pinry'>Repo</a></li>
         <li><a href='https://getpinry.com/'>Home</a></li>
+        <li><a href='https://docs.getpinry.com/'>Docs</a></li>
         
       </ul>
       </div>

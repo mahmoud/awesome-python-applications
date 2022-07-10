@@ -1188,6 +1188,16 @@ projects:
       - productivity
       - windows
       - wx
+  - name: OCRmyPDF
+    repo_url: https://github.com/ocrmypdf/ocrmypdf
+    docs_url: http://ocrmypdf.readthedocs.io/
+    fund_url: https://opencollective.com/james-barlow
+    snap_url: https://snapcraft.io/ocrmypdf
+    date_added: 2022-07-09 22:44:00
+    desc: Adds an OCR text layer to scanned PDF files, enabling text search and selection.
+    tags:
+      - productivity
+      - console
   - name: Plover
     repo_url: https://github.com/openstenoproject/plover
     home_url: https://www.openstenoproject.org/plover

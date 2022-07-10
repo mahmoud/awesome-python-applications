@@ -23,11 +23,11 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(254)*
+1. <a href="#tag-desktop">Desktop</a> *(255)*
     1. <a href="#tag-desktop.linux">Linux</a> *(235)*
     1. <a href="#tag-desktop.windows">Windows</a> *(149)*
     1. <a href="#tag-desktop.mac">Mac</a> *(150)*
-    1. <a href="#tag-desktop.console">Console</a> *(21)*
+    1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
 1. <a href="#tag-browser">Browser</a> *(0)*
@@ -599,6 +599,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Magic Wormhole** - ([Repo](https://github.com/warner/magic-wormhole), [PyPI](https://pypi.org/project/magic-wormhole), [Docs](https://magic-wormhole.readthedocs.io/en/latest)) Security- and speed-focused file transfer tool with support for files, text, and directories. `(communication, linux, mac)`
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/), [PyPI](https://pypi.org/project/mkdocs)) Simple, customizable project documentation, with built-in dev server. `(docs)`
   1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(productivity, storage, linux, windows, mac, appimage, lgpl, qt5)`
+  1. **OCRmyPDF** - ([Repo](https://github.com/ocrmypdf/ocrmypdf), [Fund](https://opencollective.com/james-barlow), [Snap](https://snapcraft.io/ocrmypdf), [Docs](http://ocrmypdf.readthedocs.io/)) Adds an OCR text layer to scanned PDF files, enabling text search and selection. `(productivity)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(graphics, linux, mac)`
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more. `(security)`
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [PyPI](https://pypi.org/project/redo-tools), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein). `(build, linux, windows, mac)`

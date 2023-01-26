@@ -25,7 +25,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 1. <a href="#tag-desktop">Desktop</a> *(255)*
     1. <a href="#tag-desktop.linux">Linux</a> *(235)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(149)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(148)*
     1. <a href="#tag-desktop.mac">Mac</a> *(150)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -98,7 +98,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **fava** - ([Repo](https://github.com/beancount/fava), [Demo](https://fava.pythonanywhere.com/huge-example-file/income_statement), [Docs](https://beancount.github.io/fava)) Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability. `(organization, windows, mac)`
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(video, gtk)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(graphics, windows, mac, cpp, qt)`
-  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(erp, windows, server)`
+  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(erp, server)`
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_%28software%29)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(audio, windows, mac, qt)`
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(games, windows, pygame)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(audio, windows, mac, qt5)`
@@ -319,7 +319,6 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur)) Web interface to extract tabular data from PDFs. `(productivity, linux)`
   1. **fava** - ([Repo](https://github.com/beancount/fava), [Demo](https://fava.pythonanywhere.com/huge-example-file/income_statement), [Docs](https://beancount.github.io/fava)) Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability. `(organization, linux, mac)`
   1. **FreeCAD** - ([Repo](https://github.com/FreeCAD/FreeCAD), [WP](https://en.wikipedia.org/wiki/FreeCAD)) General-purpose parametric 3D CAD modeler and a building information modeling (BIM) software with finite-element-method (FEM) support. `(graphics, linux, mac, cpp, qt)`
-  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(erp, linux, server)`
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_%28software%29)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(audio, linux, mac, qt)`
   1. **Frets on Fire X** - ([Repo](https://github.com/fofix/fofix)) Highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. `(games, linux, pygame)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(audio, linux, mac, qt5)`
@@ -687,7 +686,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Demo](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look. `(internet)`
   1. **Formspree** - ([Repo](https://github.com/formspree/formspree), [Home](https://formspree.io/)) Web server which turns an HTML form submission into an email, without registration, JavaScript, or custom Python. `(communication, corp)`
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(storage)`
-  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(erp, linux, windows)`
+  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(erp, linux)`
   1. **Funkwhale** - ([Repo](https://dev.funkwhale.audio/funkwhale/funkwhale), [Home](https://funkwhale.audio/en_US), [Docs](https://docs.funkwhale.audio/)) Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network. `(audio)`
   1. **Galaxy** - ([Repo](https://github.com/galaxyproject/galaxy), [Home](https://galaxyproject.org/), [Docs](https://galaxyproject.org/docs)) Web-based platform for reproducible and transparent computational research, with a focus on bioinformatics. `(science)`
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine). `(ops, linux, haskell)`

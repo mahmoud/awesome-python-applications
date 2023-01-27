@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **407**
+This document is an always-growing list of **408**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(25)*
 1. <a href="#tag-organization">Organization</a> *(42)*
-1. <a href="#tag-communication">Communication</a> *(34)*
+1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(24)*
 1. <a href="#tag-cms">CMS</a> *(11)*
@@ -264,6 +264,7 @@ thereof), see Architectures. -->
   1. **Mailman** - ([Repo](https://gitlab.com/mailman/mailman), [Home](http://www.list.org/), [WP](https://en.wikipedia.org/wiki/GNU_Mailman)) The original listserv, a web application and email server for managing subscriptions and discussion archives. `(server)`
   1. **Mailpile** - ([Repo](https://github.com/mailpile/Mailpile), [Home](https://mailpile.is/)) Fast email client with user-friendly encryption and privacy features. `(linux, windows, mac)`
   1. **Mailu** - ([Repo](https://github.com/Mailu/Mailu), [Home](https://mailu.io/)) Full-featured mail server designed for easy setup and maintenance, supporting IMAP, IMAP+, SMTP, and Submission, as well as a slew of advanced features. `(server)`
+  1. **Moa Bridge** - ([Repo](https://gitlab.com/fedstoa/moa), [Home](https://moa.party/)) A service to cross post [Mastodon](https://github.com/mastodon/mastodon) toots to Twitter and Instagram. `(server, flask)`
   1. **Modoboa** - ([Repo](https://github.com/modoboa/modoboa), [Home](https://modoboa.org/en)) Mail hosting and management platform including web UI based on Django. Provides useful components such as an admin panel and webmail. Integrates with Postfix or Dovecot. `(server)`
   1. **MoinMoin** - ([Repo](https://github.com/moinwiki/moin), [Home](http://moinmo.in/), [WP](https://en.wikipedia.org/wiki/MoinMoin), [Docs](https://moin-20.readthedocs.io/en/latest)) Python's own web-based wiki software, used for [the official Python wiki](https://wiki.python.org/moin/) and many others. `(server)`
   1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer. `(linux)`

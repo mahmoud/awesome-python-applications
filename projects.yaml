@@ -1842,6 +1842,15 @@ projects:
     tags:
       - communication
       - server
+  - name: Moa Bridge
+    repo_url: https://gitlab.com/fedstoa/moa
+    home_url: https://moa.party/
+    date_added: 2023-01-26 17:04:00
+    desc: A service to cross post [Mastodon](https://github.com/mastodon/mastodon) toots to Twitter and Instagram.
+    tags:
+      - communication
+      - server
+      - flask
   - name: Modoboa
     repo_url: https://github.com/modoboa/modoboa
     home_url: https://modoboa.org/en

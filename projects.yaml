@@ -64,6 +64,8 @@ tagsonomy:
               - qt4
               - qt5
               - qt45    # hybrid
+              - qt6
+              - qt56    # hybrid
         - wx
         - pygame
         - other
@@ -601,15 +603,16 @@ projects:
       - windows
       - mac
       - qt
-  - name: Musikernel
-    repo_url: https://github.com/j3ffhubb/musikernel
-    date_added: 2019-09-29 18:01:00
+  - name: Stargate DAW
+    repo_url: https://github.com/stargatedaw/stargate
+    date_added: 2023-03-27 23:03:00
     desc: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.
     tags:
       - audio
       - linux
       - windows
       - mac
+      - qt56
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag
     wp_url: https://en.wikipedia.org/wiki/Puddletag

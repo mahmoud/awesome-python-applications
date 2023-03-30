@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2023-03-30T22:44:50Z</updated>
+  <updated>2023-03-30T22:47:27Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -7323,7 +7323,7 @@
   
   <entry>
     <id>http://hg.code.sf.net/p/roundup/code</id>
-    <title>Roundup</title>
+    <title>Roundup Issue Tracker</title>
     <link rel="alternate" type="text/html" href="http://hg.code.sf.net/p/roundup/code" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
@@ -7331,11 +7331,13 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="http://hg.code.sf.net/p/roundup/code">Roundup</a></strong>: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).</p>
+      <p><strong><a href="http://hg.code.sf.net/p/roundup/code">Roundup Issue Tracker</a></strong>: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, historically used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).</p>
       <p>Links:</p>
       <ul>
         <li><a href='http://hg.code.sf.net/p/roundup/code'>Repo</a></li>
+        <li><a href='https://www.roundup-tracker.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29'>WP</a></li>
+        <li><a href='https://github.com/roundup-tracker/roundup'>gh</a></li>
         
       </ul>
       </div>

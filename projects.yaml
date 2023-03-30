@@ -2643,12 +2643,14 @@ projects:
       - scm
       - server
       - corp
-  - name: Roundup
+  - name: Roundup Issue Tracker
     repo_url: http://hg.code.sf.net/p/roundup/code
+    home_url: https://www.roundup-tracker.org/
     clone_url: hg+http://hg.code.sf.net/p/roundup/code
+    gh_url: https://github.com/roundup-tracker/roundup
     wp_url: https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29
     date_added: 2018-11-26 01:59:00
-    desc: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
+    desc: Highly-customizable issue tracking system featuring command-line, web, and email interfaces, historically used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
     tags:
       - scm
       - server

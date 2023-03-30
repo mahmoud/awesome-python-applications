@@ -5,13 +5,37 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2023-01-27T01:04:27Z</updated>
+  <updated>2023-03-30T22:44:50Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/stargatedaw/stargate</id>
+    <title>Stargate DAW</title>
+    <link rel="alternate" type="text/html" href="https://github.com/stargatedaw/stargate" />
+    <published>2023-03-27T23:03:00Z</published>
+    <updated>2023-03-27T23:03:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/stargatedaw/stargate">Stargate DAW</a></strong>: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/stargatedaw/stargate'>Repo</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://gitlab.com/fedstoa/moa</id>
@@ -2414,30 +2438,6 @@
         <li><a href='https://github.com/frePPLe/frepple'>Repo</a></li>
         <li><a href='https://frepple.com/'>Home</a></li>
         <li><a href='https://frepple.org/docs/current'>Docs</a></li>
-        
-      </ul>
-      </div>
-    </content>
-    <author>
-      <name>Awesome Python Applications contributors</name>
-      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
-    </author>
-  </entry>
-  
-  <entry>
-    <id>https://github.com/j3ffhubb/musikernel</id>
-    <title>Musikernel</title>
-    <link rel="alternate" type="text/html" href="https://github.com/j3ffhubb/musikernel" />
-    <published>2019-09-29T18:01:00Z</published>
-    <updated>2019-09-29T18:01:00Z</updated>
-    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
-
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/j3ffhubb/musikernel">Musikernel</a></strong>: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.</p>
-      <p>Links:</p>
-      <ul>
-        <li><a href='https://github.com/j3ffhubb/musikernel'>Repo</a></li>
         
       </ul>
       </div>

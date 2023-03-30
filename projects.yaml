@@ -603,16 +603,6 @@ projects:
       - windows
       - mac
       - qt
-  - name: Stargate DAW
-    repo_url: https://github.com/stargatedaw/stargate
-    date_added: 2023-03-27 23:03:00
-    desc: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.
-    tags:
-      - audio
-      - linux
-      - windows
-      - mac
-      - qt56
   - name: PuddleTag
     repo_url: https://github.com/keithgg/puddletag
     wp_url: https://en.wikipedia.org/wiki/Puddletag
@@ -653,6 +643,16 @@ projects:
       - linux
       - windows
       - mac
+  - name: Stargate DAW
+    repo_url: https://github.com/stargatedaw/stargate
+    date_added: 2023-03-27 23:03:00
+    desc: All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins.
+    tags:
+      - audio
+      - linux
+      - windows
+      - mac
+      - qt56
   - name: Supysonic
     repo_url: https://github.com/spl0k/supysonic
     date_added: 2019-09-30 18:41:00

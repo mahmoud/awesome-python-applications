@@ -4066,6 +4066,17 @@ projects:
       - linux
       - windows
       - mac
+  - name: pre-commit
+    repo_url: https://github.com/pre-commit/pre-commit
+    home_url: https://pre-commit.com/
+    pypi_url: https://pypi.org/project/pre-commit
+    date_added: 2023-03-30 15:52:00
+    desc: A framework for managing and maintaining multi-language git hooks.
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: RedHat Anaconda
     repo_url: https://github.com/rhinstaller/anaconda
     docs_url: https://anaconda-installer.readthedocs.io/en/latest

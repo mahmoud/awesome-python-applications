@@ -3171,6 +3171,16 @@ projects:
       - security
       - server
       - corp
+  - name: detect-secrets
+    repo_url: https://github.com/Yelp/detect-secrets
+    date_added: 2023-03-30 18:10:00
+    desc: An enterprise-friendly CLI for auditing, detecting, and preventing secrets in code.
+    tags:
+      - security
+      - dev
+      - linux
+      - windows
+      - mac
   - name: GRR Rapid Response
     repo_url: https://github.com/google/grr
     docs_url: https://grr-doc.readthedocs.io/en/latest

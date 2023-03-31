@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(256)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(236)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(149)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(151)*
+1. <a href="#tag-desktop">Desktop</a> *(257)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(237)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(150)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(152)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -83,6 +83,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, windows, mac)`
   1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives. `(communication)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, windows, mac, server, gtk)`
+  1. **detect-secrets** - ([Repo](https://github.com/Yelp/detect-secrets)) An enterprise-friendly CLI for auditing, detecting, and preventing secrets in code. `(security, dev, windows, mac)`
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked. `(pkg_mgr, corp)`
   1. **doc2dash** - ([Repo](https://github.com/hynek/doc2dash), [Home](https://doc2dash.readthedocs.io/), [PyPI](https://pypi.org/project/doc2dash)) Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/). `(docs, mac)`
   1. **Docker Compose** - ([Repo](https://github.com/docker/compose), [Docs](https://docs.docker.com/compose)) Docker Compose is a tool for defining and running multi-container Docker applications. `(dev, windows, mac, corp)`
@@ -310,6 +311,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Cura** - ([Repo](https://github.com/Ultimaker/Cura), [Home](https://ultimaker.com/software/ultimaker-cura), [WP](https://en.wikipedia.org/wiki/Cura_%28software%29), [Docs](https://ultimaker.com/en/resources/manuals/software)) Popular desktop software for preparation and control of 3D printing, integrated with CAD workflows. `(graphics, linux, mac, corp, hardware)`
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, linux, mac)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, mac, server, gtk)`
+  1. **detect-secrets** - ([Repo](https://github.com/Yelp/detect-secrets)) An enterprise-friendly CLI for auditing, detecting, and preventing secrets in code. `(security, dev, linux, mac)`
   1. **Docker Compose** - ([Repo](https://github.com/docker/compose), [Docs](https://docs.docker.com/compose)) Docker Compose is a tool for defining and running multi-container Docker applications. `(dev, linux, mac, corp)`
   1. **doit** - ([Repo](https://github.com/pydoit/doit), [Home](https://pydoit.org/), [Fund](https://opencollective.com/doit), [Docs](https://pydoit.org/contents.html)) Command-line task management and automation tool, with directives written in Python. `(build, linux, mac)`
   1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, linux, mac)`
@@ -461,6 +463,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Cura** - ([Repo](https://github.com/Ultimaker/Cura), [Home](https://ultimaker.com/software/ultimaker-cura), [WP](https://en.wikipedia.org/wiki/Cura_%28software%29), [Docs](https://ultimaker.com/en/resources/manuals/software)) Popular desktop software for preparation and control of 3D printing, integrated with CAD workflows. `(graphics, linux, windows, corp, hardware)`
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability. `(dev, linux, windows)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(internet, linux, windows, server, gtk)`
+  1. **detect-secrets** - ([Repo](https://github.com/Yelp/detect-secrets)) An enterprise-friendly CLI for auditing, detecting, and preventing secrets in code. `(security, dev, linux, windows)`
   1. **doc2dash** - ([Repo](https://github.com/hynek/doc2dash), [Home](https://doc2dash.readthedocs.io/), [PyPI](https://pypi.org/project/doc2dash)) Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/). `(docs, linux)`
   1. **Docker Compose** - ([Repo](https://github.com/docker/compose), [Docs](https://docs.docker.com/compose)) Docker Compose is a tool for defining and running multi-container Docker applications. `(dev, linux, windows, corp)`
   1. **doit** - ([Repo](https://github.com/pydoit/doit), [Home](https://pydoit.org/), [Fund](https://opencollective.com/doit), [Docs](https://pydoit.org/contents.html)) Command-line task management and automation tool, with directives written in Python. `(build, linux, windows)`

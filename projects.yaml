@@ -1949,6 +1949,15 @@ projects:
     tags:
       - communication
       - server
+  - name: Telegram-upload
+    repo_url: https://github.com/Nekmo/telegram-upload
+    docs_url: https://docs.nekmo.org/telegram-upload
+    pypi_url: https://pypi.org/project/telegram-upload
+    date_added: 2023-06-29 20:50:00
+    desc: Upload & download files to Telegram up to 4 GiB using your account.
+    tags:
+      - communication
+      - server
   - name: Virtaal
     repo_url: https://github.com/translate/virtaal
     home_url: http://virtaal.translatehouse.org/

@@ -5,13 +5,39 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2023-03-31T01:10:31Z</updated>
+  <updated>2023-06-29T20:53:41Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/Nekmo/telegram-upload</id>
+    <title>Telegram-upload</title>
+    <link rel="alternate" type="text/html" href="https://github.com/Nekmo/telegram-upload" />
+    <published>2023-06-29T20:50:00Z</published>
+    <updated>2023-06-29T20:50:00Z</updated>
+    <category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/Nekmo/telegram-upload">Telegram-upload</a></strong>: Upload &amp; download files to Telegram up to 4 GiB using your account.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/Nekmo/telegram-upload'>Repo</a></li>
+        <li><a href='https://pypi.org/project/telegram-upload'>PyPI</a></li>
+        <li><a href='https://docs.nekmo.org/telegram-upload'>Docs</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/Yelp/detect-secrets</id>

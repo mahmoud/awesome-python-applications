@@ -4281,3 +4281,16 @@ projects:
       - misc
       - linux
       - windows
+  - name: radio-active
+    repo_url: https://github.com/deep5050/radio-active
+    home_url: https://github.com/deep5050/radio-active
+    date_added: 2023-09-24 01:29:00
+    desc: Cross-platform internet radio player with 40K+ stations
+    tags:
+      - misc
+      - linux
+      - windows
+      - radio
+    topic:
+      - internet
+      - audio

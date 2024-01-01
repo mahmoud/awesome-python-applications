@@ -19,6 +19,7 @@
 # In the description, avoid references to Python, free/open-source, and
 # the app name itself, since those are already present/implied by being
 # on the list.
+# This is for testing purpose
 
 tagsonomy:
   # NOTE: order here controls order of the rendered text

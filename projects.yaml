@@ -331,6 +331,15 @@ projects:
     tags:
       - internet
       - server
+  - name: Open Event Server
+    repo_url: https://github.com/fossasia/open-event-server
+    demo_url: https://api.eventyay.com/
+    date_added: 2024-01-27 12:25:00
+    desc: Enable event organizers to manage events from meetups to concerts to conferences, with support for multiple tracks and venues. Used by [FOSSASIA](https://fossasia.org/) and [eventyay](https://eventyay.com/).
+    tags:
+      - internet
+      - organization
+      - server
   - name: Pi-Hole
     repo_url: https://github.com/pi-hole/pi-hole
     home_url: https://pi-hole.net/

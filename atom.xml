@@ -5,13 +5,38 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2024-01-27T20:20:11Z</updated>
+  <updated>2024-01-27T20:28:15Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/fossasia/open-event-server</id>
+    <title>Open Event Server</title>
+    <link rel="alternate" type="text/html" href="https://github.com/fossasia/open-event-server" />
+    <published>2024-01-27T12:25:00Z</published>
+    <updated>2024-01-27T12:25:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/fossasia/open-event-server">Open Event Server</a></strong>: Enable event organizers to manage events from meetups to concerts to conferences, with support for multiple tracks and venues. Used by [FOSSASIA](https://fossasia.org/) and [eventyay](https://eventyay.com/).</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/fossasia/open-event-server'>Repo</a></li>
+        <li><a href='https://api.eventyay.com/'>Demo</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/pdfarranger/pdfarranger</id>

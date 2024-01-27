@@ -277,6 +277,19 @@ projects:
     tags:
       - internet
       - server
+  - name: Mealie
+    repo_url: https://github.com/mealie-recipes/mealie
+    home_url: https://mealie.io/
+    demo_url: https://demo.mealie.io/login
+    docs_url: https://nightly.mealie.io/
+    fund_url: https://github.com/sponsors/hay-kot
+    date_added: 2024-01-27 12:31:00
+    desc: Self-hostable recipe management server with rich user interface and automatic backups.
+    tags:
+      - internet
+      - organization
+      - server
+      - fastapi
   - name: Mylar
     repo_url: https://github.com/evilhero/mylar
     date_added: 2019-10-01 14:39:00

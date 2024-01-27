@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **413**
+This document is an always-growing list of **414**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,13 +33,13 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(39)*
+1. <a href="#tag-internet">Internet</a> *(40)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(26)*
-1. <a href="#tag-organization">Organization</a> *(43)*
+1. <a href="#tag-organization">Organization</a> *(44)*
 1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(24)*
@@ -80,6 +80,7 @@ thereof), see Architectures. -->
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(dev, linux, windows, mac)`
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
+  1. **Mealie** - ([Repo](https://github.com/mealie-recipes/mealie), [Home](https://mealie.io/), [Demo](https://demo.mealie.io/login), [Fund](https://github.com/sponsors/hay-kot), [Docs](https://nightly.mealie.io/)) Self-hostable recipe management server with rich user interface and automatic backups. `(organization, server, fastapi)`
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(graphics, linux)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`
@@ -229,6 +230,7 @@ thereof), see Architectures. -->
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(linux, windows, mac, homebrew)`
   1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(linux, mac)`
   1. **Mayan** - ([Repo](https://gitlab.com/mayan-edms/mayan-edms), [Home](https://www.mayan-edms.com/), [Fund](https://www.paypal.me/MayanEDMS), [PyPI](https://pypi.org/project/mayan-edms/3.2.7), [Docs](https://docs.mayan-edms.com/)) Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API. `(server)`
+  1. **Mealie** - ([Repo](https://github.com/mealie-recipes/mealie), [Home](https://mealie.io/), [Demo](https://demo.mealie.io/login), [Fund](https://github.com/sponsors/hay-kot), [Docs](https://nightly.mealie.io/)) Self-hostable recipe management server with rich user interface and automatic backups. `(internet, server, fastapi)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(dev, linux, mac, corp)`
   1. **Open Event Server** - ([Repo](https://github.com/fossasia/open-event-server), [Demo](https://api.eventyay.com/)) Enable event organizers to manage events from meetups to concerts to conferences, with support for multiple tracks and venues. Used by [FOSSASIA](https://fossasia.org/) and [eventyay](https://eventyay.com/). `(internet, server)`
   1. **OpenLibrary** - ([Repo](https://github.com/internetarchive/openlibrary), [Home](https://openlibrary.org/), [WP](https://en.wikipedia.org/wiki/Open_Library)) Web application for an open, editable library catalog, used by [The Internet Archive](https://archive.org/) towards building a web page for every book ever published. `(linux, windows, mac, docker)`

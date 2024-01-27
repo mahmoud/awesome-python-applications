@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **415**
+This document is an always-growing list of **416**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -39,17 +39,17 @@ thereof), see Architectures. -->
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(26)*
-1. <a href="#tag-organization">Organization</a> *(44)*
+1. <a href="#tag-organization">Organization</a> *(45)*
 1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(8)*
 1. <a href="#tag-science">Science</a> *(24)*
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(183)*
+1. <a href="#tag-dev">Dev</a> *(184)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(5)*
-    1. <a href="#tag-dev.storage">Storage</a> *(18)*
+    1. <a href="#tag-dev.storage">Storage</a> *(19)*
     1. <a href="#tag-dev.ops">Ops</a> *(28)*
     1. <a href="#tag-dev.security">Security</a> *(30)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
@@ -230,6 +230,7 @@ thereof), see Architectures. -->
   1. **Invenio** - ([Repo](https://github.com/inveniosoftware/invenio), [Docs](https://invenio.readthedocs.io/)) Customizable platform for running a trusted digital repository. `(linux)`
   1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line. `(linux, windows, mac, homebrew)`
   1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval. `(linux, mac)`
+  1. **Mathesar** - ([Repo](https://github.com/mathesar-foundation/mathesar), [Home](https://mathesar.org/?ref=awesome-python-applications), [Demo](https://demo.mathesar.org/), [Fund](https://mathesar.org/sponsor.html), [Docs](https://docs.mathesar.org/)) Self-hostable web application which provides a spreadsheet-like interface to a PostgreSQL database, enabling users of all technical skill levels to design data models, enter data, and build reports. `(storage, server, django)`
   1. **Mayan** - ([Repo](https://gitlab.com/mayan-edms/mayan-edms), [Home](https://www.mayan-edms.com/), [Fund](https://www.paypal.me/MayanEDMS), [PyPI](https://pypi.org/project/mayan-edms/3.2.7), [Docs](https://docs.mayan-edms.com/)) Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API. `(server)`
   1. **Mealie** - ([Repo](https://github.com/mealie-recipes/mealie), [Home](https://mealie.io/), [Demo](https://demo.mealie.io/login), [Fund](https://github.com/sponsors/hay-kot), [Docs](https://nightly.mealie.io/)) Self-hostable recipe management server with rich user interface and automatic backups. `(internet, server, fastapi)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(dev, linux, mac, corp)`
@@ -403,6 +404,7 @@ Projects related to software development and adjacent technical areas.
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(server)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, linux, windows, mac)`
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends. `(server)`
+  1. **Mathesar** - ([Repo](https://github.com/mathesar-foundation/mathesar), [Home](https://mathesar.org/?ref=awesome-python-applications), [Demo](https://demo.mathesar.org/), [Fund](https://mathesar.org/sponsor.html), [Docs](https://docs.mathesar.org/)) Self-hostable web application which provides a spreadsheet-like interface to a PostgreSQL database, enabling users of all technical skill levels to design data models, enter data, and build reports. `(organization, server, django)`
   1. **mycli** - ([Repo](https://github.com/dbcli/mycli), [Home](https://www.mycli.net/), [PyPI](https://pypi.python.org/pypi/mycli)) Interactive MySQL client that does auto-completion and syntax highlighting. `(linux, mac)`
   1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(productivity, linux, windows, mac, console, appimage, lgpl, qt5)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(linux, mac)`

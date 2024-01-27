@@ -1564,6 +1564,19 @@ projects:
       - organization
       - linux
       - mac
+  - name: Mathesar
+    repo_url: https://github.com/mathesar-foundation/mathesar
+    home_url: https://mathesar.org/?ref=awesome-python-applications
+    demo_url: https://demo.mathesar.org/
+    docs_url: https://docs.mathesar.org/
+    fund_url: https://mathesar.org/sponsor.html
+    date_added: 2024-01-27 12:43:00
+    desc: Self-hostable web application which provides a spreadsheet-like interface to a PostgreSQL database, enabling users of all technical skill levels to design data models, enter data, and build reports.
+    tags:
+      - organization
+      - storage
+      - server
+      - django
   - name: Mayan
     repo_url: https://gitlab.com/mayan-edms/mayan-edms
     home_url: https://www.mayan-edms.com/

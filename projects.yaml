@@ -1,3 +1,4 @@
+
 # Format of this file:
 
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
@@ -25,6 +26,8 @@ tagsonomy:
     - internet
     - audio
     - video
+    - ai:
+        title: AI/ML
     - graphics
     - games
     - productivity
@@ -117,7 +120,8 @@ tagsonomy:
     - proprietary
 
 projects:
-  # Internet
+
+# Internet
 
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
@@ -544,7 +548,7 @@ projects:
       - windows
       - mac
 
-  # Audio
+# Audio
 
   - name: Beets
     repo_url: https://github.com/beetbox/beets
@@ -642,15 +646,6 @@ projects:
       - audio
       - linux
       - mac
-  - name: explainshell.com
-    repo_url: https://github.com/idank/explainshell
-    home_url: https://www.explainshell.com/
-    desc: A web-based tool to match command-line arguments to their man pages and help text.
-    tags:
-      - dev
-      - education
-      - server
-      - flask
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     home_url: https://picard.musicbrainz.org/
@@ -728,7 +723,7 @@ projects:
       - audio
       - linux
 
-  # Video
+# Video
 
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
@@ -799,7 +794,57 @@ projects:
       - windows
       - mac
 
-  # Graphics
+# Ai
+
+  - name: Aim
+    repo_url: https://github.com/aimhubio/aim
+    home_url: https://aimstack.io/
+    blog_url: https://aimstack.io/blog
+    date_added: 2024-01-27 12:55:00
+    desc: Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs.
+    tags:
+      - ai
+      - linux
+      - server
+      - fastapi
+  - name: dvc (Data Version Control)
+    repo_url: https://github.com/iterative/dvc
+    home_url: https://dvc.org/
+    docs_url: https://dvc.org/doc
+    date_added: 2019-07-15 12:03:00
+    desc: Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions.
+    tags:
+      - ai
+      - organization
+      - scm
+      - linux
+      - windows
+      - mac
+  - name: MLflow
+    repo_url: https://github.com/mlflow/mlflow
+    home_url: https://mlflow.org/
+    docs_url: https://mlflow.org/docs/latest/index.html
+    date_added: 2019-10-29 17:46:00
+    desc: Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html).
+    tags:
+      - ai
+      - organization
+      - dev
+      - linux
+      - mac
+      - corp
+  - name: Polyaxon
+    repo_url: https://github.com/polyaxon/polyaxon
+    home_url: https://polyaxon.com/
+    docs_url: https://docs.polyaxon.com/
+    date_added: 2019-08-04 02:18:00
+    desc: A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more.
+    tags:
+      - ai
+      - dev
+      - server
+
+# Graphics
 
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
@@ -1002,9 +1047,9 @@ projects:
       - dev
       - server
 
-  # Games
+# Games
 
-  - name: "Cataclysm: Dark Days Ahead (Launcher)"
+  - name: 'Cataclysm: Dark Days Ahead (Launcher)'
     repo_url: https://github.com/remyroy/CDDA-Game-Launcher
     home_url: https://cataclysmdda.org/
     date_added: 2019-09-30 18:57:00
@@ -1100,7 +1145,7 @@ projects:
       - windows
       - mac
 
-  # Productivity
+# Productivity
 
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
@@ -1374,7 +1419,7 @@ projects:
       - server
       - flask
 
-  # Organization
+# Organization
 
   - name: Ambar
     repo_url: https://github.com/RD17/ambar
@@ -1487,18 +1532,6 @@ projects:
       - linux
       - windows
       - mac
-  - name: dvc (Data Version Control)
-    repo_url: https://github.com/iterative/dvc
-    home_url: https://dvc.org/
-    docs_url: https://dvc.org/doc
-    date_added: 2019-07-15 12:03:00
-    desc: Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions.
-    tags:
-      - organization
-      - scm
-      - linux
-      - windows
-      - mac
   - name: fava
     repo_url: https://github.com/beancount/fava
     demo_url: https://fava.pythonanywhere.com/huge-example-file/income_statement
@@ -1604,18 +1637,6 @@ projects:
     tags:
       - organization
       - server
-  - name: MLflow
-    repo_url: https://github.com/mlflow/mlflow
-    home_url: https://mlflow.org/
-    docs_url: https://mlflow.org/docs/latest/index.html
-    date_added: 2019-10-29 17:46:00
-    desc: Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html).
-    tags:
-      - organization
-      - dev
-      - linux
-      - mac
-      - corp
   - name: OpenLibrary
     repo_url: https://github.com/internetarchive/openlibrary
     home_url: https://openlibrary.org/
@@ -1765,7 +1786,7 @@ projects:
       - windows
       - gtk
 
-  # Communication
+# Communication
 
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
@@ -2063,7 +2084,7 @@ projects:
       - communication
       - server
 
-  # Education
+# Education
 
   - name: Anki
     repo_url: https://github.com/dae/anki
@@ -2077,6 +2098,16 @@ projects:
       - windows
       - mac
       - qt5
+  - name: explainshell.com
+    repo_url: https://github.com/idank/explainshell
+    home_url: https://www.explainshell.com/
+    date_added: 2024-01-27 12:55:00
+    desc: A web-based tool to match command-line arguments to their man pages and help text.
+    tags:
+      - education
+      - dev
+      - server
+      - flask
   - name: Kolibri
     repo_url: https://github.com/learningequality/kolibri
     home_url: https://learningequality.org/kolibri
@@ -2133,7 +2164,7 @@ projects:
       - education
       - server
 
-  # Science
+# Science
 
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
@@ -2368,7 +2399,7 @@ projects:
       - mac
       - qt
 
-  # Cms
+# Cms
 
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
@@ -2456,7 +2487,7 @@ projects:
       - server
       - django
 
-  # Erp
+# Erp
 
   - name: ERP5
     repo_url: https://lab.nexedi.com/nexedi/erp5
@@ -2509,7 +2540,7 @@ projects:
       - server
       - fdn
 
-  # Static_Site
+# Static_Site
 
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
@@ -2599,7 +2630,7 @@ projects:
       - windows
       - mac
 
-  # Scm
+# Scm
 
   - name: Allura
     repo_url: https://github.com/apache/allura
@@ -2769,7 +2800,7 @@ projects:
       - scm
       - server
 
-  # Code_Review
+# Code_Review
 
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
@@ -2821,7 +2852,7 @@ projects:
       - code_review
       - console
 
-  # Storage
+# Storage
 
   - name: B2
     repo_url: https://github.com/Backblaze/B2_Command_Line_Tool
@@ -2960,7 +2991,7 @@ projects:
       - storage
       - linux
 
-  # Ops
+# Ops
 
   - name: Airflow
     repo_url: https://github.com/apache/airflow
@@ -3218,7 +3249,7 @@ projects:
       - mac
       - server
 
-  # Security
+# Security
 
   - name: BYOB (Build Your Own Botnet)
     repo_url: https://github.com/malwaredllc/byob
@@ -3440,12 +3471,12 @@ projects:
     repo_url: https://github.com/s0md3v/XSStrike
     # home_url: https://somdev.me/XSStrike  # down as of 2020-04-02
     date_added: 2018-11-24 02:37:00
-    desc: "[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler."
+    desc: '[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.'
     tags:
       - security
       - console
 
-  # Docs
+# Docs
 
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
@@ -3503,7 +3534,7 @@ projects:
       - docs
       - console
 
-  # Editor
+# Editor
 
   - name: Algojammer
     repo_url: https://github.com/ChrisKnott/Algojammer
@@ -3649,7 +3680,7 @@ projects:
       - mac
       - tk
 
-  # Pkg_Mgr
+# Pkg_Mgr
 
   - name: Conan
     repo_url: https://github.com/conan-io/conan
@@ -3754,7 +3785,7 @@ projects:
       - linux
       - corp
 
-  # Pkg_Repo
+# Pkg_Repo
 
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
@@ -3802,7 +3833,7 @@ projects:
       - server
       - fnd
 
-  # Build
+# Build
 
   - name: bitbake
     repo_url: https://github.com/openembedded/bitbake
@@ -3943,7 +3974,7 @@ projects:
       - build
       - linux
 
-  # Shell
+# Shell
 
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
@@ -3974,7 +4005,7 @@ projects:
       - windows
       - mac
 
-  # Dev
+# Dev
 
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
@@ -4137,15 +4168,6 @@ projects:
       - dev
       - linux
       - server
-  - name: Polyaxon
-    repo_url: https://github.com/polyaxon/polyaxon
-    home_url: https://polyaxon.com/
-    docs_url: https://docs.polyaxon.com/
-    date_added: 2019-08-04 02:18:00
-    desc: A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more.
-    tags:
-      - dev
-      - server
   - name: PPCI
     repo_url: https://bitbucket.org/windel/ppci
     demo_url: https://godbolt.org/g/eooaPP
@@ -4253,7 +4275,7 @@ projects:
       - linux
       - server
 
-  # Misc
+# Misc
 
   - name: CourtListener
     repo_url: https://github.com/freelawproject/courtlistener

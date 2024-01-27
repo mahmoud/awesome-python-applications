@@ -5,13 +5,64 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2024-01-27T20:49:06Z</updated>
+  <updated>2024-01-27T20:56:43Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
   <rights type="html">CC-BY-SA unless otherwise noted</rights>
   <generator uri="https://github.com/mahmoud/apatite">Apatite 19.0</generator>
 
+  
+  <entry>
+    <id>https://github.com/aimhubio/aim</id>
+    <title>Aim</title>
+    <link rel="alternate" type="text/html" href="https://github.com/aimhubio/aim" />
+    <published>2024-01-27T12:55:00Z</published>
+    <updated>2024-01-27T12:55:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/aimhubio/aim">Aim</a></strong>: Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/aimhubio/aim'>Repo</a></li>
+        <li><a href='https://aimstack.io/'>Home</a></li>
+        <li><a href='https://aimstack.io/blog'>Blog</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <id>https://github.com/idank/explainshell</id>
+    <title>explainshell.com</title>
+    <link rel="alternate" type="text/html" href="https://github.com/idank/explainshell" />
+    <published>2024-01-27T12:55:00Z</published>
+    <updated>2024-01-27T12:55:00Z</updated>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><strong><a href="https://github.com/idank/explainshell">explainshell.com</a></strong>: A web-based tool to match command-line arguments to their man pages and help text.</p>
+      <p>Links:</p>
+      <ul>
+        <li><a href='https://github.com/idank/explainshell'>Repo</a></li>
+        <li><a href='https://www.explainshell.com/'>Home</a></li>
+        
+      </ul>
+      </div>
+    </content>
+    <author>
+      <name>Awesome Python Applications contributors</name>
+      <uri>https://github.com/mahmoud/awesome-python-applications</uri>
+    </author>
+  </entry>
   
   <entry>
     <id>https://github.com/liberapay/liberapay.com</id>
@@ -1128,7 +1179,7 @@
     <link rel="alternate" type="text/html" href="https://github.com/mlflow/mlflow" />
     <published>2019-10-29T17:46:00Z</published>
     <updated>2019-10-29T17:46:00Z</updated>
-    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4371,7 +4422,7 @@
     <link rel="alternate" type="text/html" href="https://github.com/polyaxon/polyaxon" />
     <published>2019-08-04T02:18:00Z</published>
     <updated>2019-08-04T02:18:00Z</updated>
-    <category term="audio"/><category term="audio"/>
+    <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -4422,7 +4473,7 @@
     <link rel="alternate" type="text/html" href="https://github.com/iterative/dvc" />
     <published>2019-07-15T12:03:00Z</published>
     <updated>2019-07-15T12:03:00Z</updated>
-    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
+    <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">

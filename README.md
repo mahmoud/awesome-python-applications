@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **416**
+This document is an always-growing list of **417**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,7 +33,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(41)*
+1. <a href="#tag-internet">Internet</a> *(42)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
@@ -81,6 +81,7 @@ thereof), see Architectures. -->
   1. **httpie** - ([Repo](https://github.com/jakubroztocil/httpie), [Home](https://httpie.org/), [PyPI](https://pypi.org/project/httpie)) Command-line HTTP client with JSON support, syntax highlighting, wget-like downloads, extensions, and more. `(dev, linux, windows, mac)`
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus. `(server)`
   1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email. `(server)`
+  1. **liberapay.com** - ([Repo](https://github.com/liberapay/liberapay.com), [Home](https://liberapay.com/), [WP](https://en.wikipedia.org/wiki/Liberapay)) A recurrent donations platform, formerly known as gittip and gratipay. `(server)`
   1. **Mealie** - ([Repo](https://github.com/mealie-recipes/mealie), [Home](https://mealie.io/), [Demo](https://demo.mealie.io/login), [Fund](https://github.com/sponsors/hay-kot), [Docs](https://nightly.mealie.io/)) Self-hostable recipe management server with rich user interface and automatic backups. `(organization, server, fastapi)`
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(graphics, linux)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`

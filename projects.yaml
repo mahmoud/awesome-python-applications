@@ -290,6 +290,15 @@ projects:
     tags:
       - internet
       - server
+  - name: liberapay.com
+    repo_url: https://github.com/liberapay/liberapay.com
+    home_url: https://liberapay.com/
+    wp_url: https://en.wikipedia.org/wiki/Liberapay
+    date_added: 2024-01-27 12:49:00
+    desc: A recurrent donations platform, formerly known as gittip and gratipay.
+    tags:
+      - internet
+      - server
   - name: Mealie
     repo_url: https://github.com/mealie-recipes/mealie
     home_url: https://mealie.io/

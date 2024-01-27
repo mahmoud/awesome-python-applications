@@ -199,6 +199,19 @@ projects:
       - mac
       - server
       - gtk
+  - name: Dispatch
+    repo_url: https://github.com/Netflix/dispatch
+    blog_url: https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072
+    docs_url: https://netflix.github.io/dispatch
+    date_added: 2024-01-27 12:37:00
+    desc: Incident management service featuring integrations for notifications and task management. Used at Netflix.
+    tags:
+      - internet
+      - dev
+      - server
+      - calver
+      - corp
+      - fastapi
   - name: Elixire
     repo_url: https://gitlab.com/elixire/elixire
     home_url: https://elixi.re/

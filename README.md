@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **410**
+This document is an always-growing list of **411**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -33,9 +33,9 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(37)*
+1. <a href="#tag-internet">Internet</a> *(38)*
 1. <a href="#tag-audio">Audio</a> *(17)*
-1. <a href="#tag-video">Video</a> *(7)*
+1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(25)*
@@ -83,7 +83,7 @@ thereof), see Architectures. -->
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(graphics, linux)`
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research. `(linux, windows, mac)`
   1. **NewsBlur** - ([Repo](https://github.com/samuelclay/NewsBlur), [Home](https://www.newsblur.com/)) Web-based personal news reader. `(server, django)`
-  1. **Newspipe** - ([Repo](https://gitlab.com/newspipe/newspipe), [Demo](https://www.newspipe.org/), [gh](https://github.com/newspipe/newspipe), [Docs](https://newspipe.readthedocs.io/en/latest)) Web-based news aggregator and reader. `(server)`
+  1. **Newspipe** - ([Repo](https://git.sr.ht/~cedric/newspipe), [Home](https://www.newspipe.org/), [gh](https://github.com/cedricbonhomme/newspipe), [Docs](https://newspipe.readthedocs.io/en/latest)) Web-based news aggregator and reader. `(server)`
   1. **nsupdate.info** - ([Repo](https://github.com/nsupdate-info/nsupdate.info), [PyPI](https://pypi.org/project/nsupdate), [Docs](https://nsupdateinfo.readthedocs.io/en/latest)) Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers. `(ops, server)`
   1. **Nyaa** - ([Repo](https://github.com/nyaadevs/nyaa)) Bittorrent tracker software built for anime site [nyaa.si](https://nyaa.si/). `(server)`
   1. **Pi-Hole** - ([Repo](https://github.com/pi-hole/pi-hole), [Home](https://pi-hole.net/), [WP](https://en.wikipedia.org/wiki/Pi-hole)) Linux network-level advertisement and internet tracker blocking application which acts as a DNS sinkhole, and (optionally) a DHCP server, intended for use on a private network. `(linux, server)`
@@ -98,6 +98,7 @@ thereof), see Architectures. -->
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli), [PyPI](https://pypi.org/project/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(console)`
   1. **streamlink** - ([Repo](https://github.com/streamlink/streamlink), [Home](https://streamlink.github.io/), [PyPI](https://pypi.org/project/streamlink)) Command-line utility that extracts streams from various services and pipes them into a video player of choice. `(linux, windows, mac)`
   1. **syncserver** - ([Repo](https://github.com/mozilla-services/syncserver), [Docs](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)) All-in-one package for running a self-hosted Mozilla Firefox Sync server. `(server)`
+  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/)) Web monitor for Plex Media Server. `(video, server)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
@@ -131,6 +132,7 @@ thereof), see Architectures. -->
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
+  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/)) Web monitor for Plex Media Server. `(internet, server)`
   1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(linux, windows, mac)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>

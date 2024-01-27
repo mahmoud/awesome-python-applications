@@ -30,7 +30,7 @@ tagsonomy:
     - games
     - productivity
     - organization
-    - communication    # messaging & collab
+    - communication # messaging & collab
     - education
     - science
     - cms:
@@ -63,9 +63,9 @@ tagsonomy:
             subtags:
               - qt4
               - qt5
-              - qt45    # hybrid
+              - qt45 # hybrid
               - qt6
-              - qt56    # hybrid
+              - qt56 # hybrid
         - wx
         - pygame
         - other
@@ -77,8 +77,8 @@ tagsonomy:
         - gevent
         - plone
         - other
-    - nui:    # ?
-        - beeware     # not actually used here atm
+    - nui: # ?
+        - beeware # not actually used here atm
         - kivy
     - hybrid:
         - c
@@ -97,7 +97,7 @@ tagsonomy:
           - android
     - browser
     - server:
-        subtags:    # sep tag for container, maybe separate top-level group for packaging in general?
+        subtags: # sep tag for container, maybe separate top-level group for packaging in general?
           - docker
           - flatpak
           - appimage
@@ -305,11 +305,10 @@ projects:
       - server
       - django
   - name: Newspipe
-    repo_url: https://gitlab.com/newspipe/newspipe
-    # home_url: http://newspipe.io/  # down as of 2020-04-02
-    demo_url: https://www.newspipe.org/
+    repo_url: https://git.sr.ht/~cedric/newspipe
+    home_url: https://www.newspipe.org/
     docs_url: https://newspipe.readthedocs.io/en/latest
-    gh_url: https://github.com/newspipe/newspipe
+    gh_url: https://github.com/cedricbonhomme/newspipe
     date_added: 2019-09-11 09:39:00
     desc: Web-based news aggregator and reader.
     tags:
@@ -447,6 +446,15 @@ projects:
     tags:
       - internet
       - server
+  - name: Tautulli
+    repo_url: https://github.com/Tautulli/Tautulli
+    home_url: https://tautulli.com/
+    date_added: 2024-01-27 12:14:00
+    desc: Web monitor for Plex Media Server.
+    tags:
+      - internet
+      - video
+      - server
   - name: Tribler
     repo_url: https://github.com/Tribler/tribler
     home_url: http://www.tribler.org/
@@ -550,7 +558,7 @@ projects:
       - audio
       - server
   - name: GNU Radio
-    repo_url: https://github.com/gnuradio/gnuradio  # hybrid-cpp
+    repo_url: https://github.com/gnuradio/gnuradio # hybrid-cpp
     home_url: https://www.gnuradio.org/
     wp_url: https://en.wikipedia.org/wiki/GNU_Radio
     date_added: 2018-11-24 02:37:00
@@ -565,7 +573,7 @@ projects:
   - name: GNU Solfege
     repo_url: http://git.savannah.gnu.org/cgit/solfege.git
     clone_url: git+https://git.savannah.gnu.org/git/solfege.git
-    wp_url: https://en.wikipedia.org/wiki/GNU_Solfege  # ear training, non-github
+    wp_url: https://en.wikipedia.org/wiki/GNU_Solfege # ear training, non-github
     date_added: 2018-11-24 02:37:00
     desc: An ear-training program intended to help musicians improve their skills.
     tags:
@@ -920,7 +928,7 @@ projects:
       - server
   - name: SK1
     repo_url: https://github.com/sk1project/sk1-wx
-    home_url: https://sk1project.net/  #  (forked from skencil)
+    home_url: https://sk1project.net/ #  (forked from skencil)
     wp_url: https://en.wikipedia.org/wiki/SK1_%28program%29
     date_added: 2018-11-24 02:37:00
     desc: Feature-rich, cross-platform illustration program.
@@ -1006,7 +1014,7 @@ projects:
       - linux
       - windows
       - mac
-  - name: PySolFC  # solitaire games
+  - name: PySolFC # solitaire games
     repo_url: https://github.com/shlomif/PySolFC
     home_url: https://pysolfc.sourceforge.io/
     android_url: https://f-droid.org/en/packages/org.lufebe16.pysolfc
@@ -1240,7 +1248,7 @@ projects:
     home_url: https://redash.io/
     date_added: 2019-01-27 15:50:00
     desc: Data visualization and dashboard construction geared toward business intelligence, used by Mozilla, SoundCloud, Sentry, and others.
-    tags:                                      # need that business topic
+    tags: # need that business topic
       - productivity
       - server
       - flask
@@ -1485,7 +1493,7 @@ projects:
     repo_url: https://github.com/inveniosoftware/invenio
     docs_url: https://invenio.readthedocs.io/
     date_added: 2018-11-24 02:37:00
-    desc: Customizable platform for running a trusted digital repository.  # might be more of a framework..
+    desc: Customizable platform for running a trusted digital repository. # might be more of a framework..
     tags:
       - organization
       - linux
@@ -1590,7 +1598,7 @@ projects:
     home_url: https://pymedusa.com/
     date_added: 2018-11-24 02:37:00
     desc: Video library manager for TV shows, with automatic download support.
-    tags:                                       # maybe mac?
+    tags: # maybe mac?
       - organization
       - linux
       - windows
@@ -1599,7 +1607,7 @@ projects:
     home_url: https://radicale.org/
     date_added: 2018-12-17 10:51:00
     desc: Simple CalDAV (calendar) and CardDAV (contact) server.
-    tags:                             # communication?
+    tags: # communication?
       - organization
       - server
   - name: RedNotebook
@@ -1689,7 +1697,7 @@ projects:
     home_url: https://www.abilian.com/
     date_added: 2018-12-24 12:41:00
     desc: A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more.
-    tags:                                     # enterprise?
+    tags: # enterprise?
       - communication
       - cms
       - server
@@ -1813,7 +1821,7 @@ projects:
     pypi_url: https://pypi.org/project/magic-wormhole
     date_added: 2019-01-02 10:02:00
     desc: Security- and speed-focused file transfer tool with support for files, text, and directories.
-    tags:                                               # windows support iffy
+    tags: # windows support iffy
       - communication
       - linux
       - mac
@@ -1910,7 +1918,7 @@ projects:
     tags:
       - communication
       - server
-  - name: RapidSMS  # too much of a library?
+  - name: RapidSMS # too much of a library?
     repo_url: https://github.com/rapidsms/rapidsms
     home_url: http://rapidsms.org/
     docs_url: https://rapidsms.readthedocs.io/en/develop
@@ -1971,7 +1979,7 @@ projects:
       - server
   - name: Zulip
     repo_url: https://github.com/zulip/zulip
-    home_url: https://zulip.org/  #     chat_url: https://chat.zulip.org/
+    home_url: https://zulip.org/ #     chat_url: https://chat.zulip.org/
     docs_url: https://zulip.readthedocs.io/en/latest
     wp_url: https://en.wikipedia.org/wiki/Zulip
     date_added: 2018-11-26 01:59:00
@@ -2073,7 +2081,7 @@ projects:
       - windows
       - mac
   - name: ASCEND
-    repo_url: http://code.ascend4.org/ascend/trunk   # svn
+    repo_url: http://code.ascend4.org/ascend/trunk # svn
     home_url: http://ascend4.org/Main_Page
     wp_url: https://en.wikipedia.org/wiki/ASCEND
     date_added: 2018-11-24 02:37:00
@@ -2296,7 +2304,7 @@ projects:
       - cms
       - server
       - django
-  - name: Ella  # pretty framework-y
+  - name: Ella # pretty framework-y
     repo_url: https://github.com/ella/ella
     docs_url: https://ella.readthedocs.io/en/latest/index.html
     date_added: 2018-11-24 02:37:00
@@ -2438,7 +2446,7 @@ projects:
       - linux
       - windows
       - mac
-  - name: Chert  # blatant self-plug
+  - name: Chert # blatant self-plug
     repo_url: https://github.com/mahmoud/chert
     pypi_url: https://pypi.org/project/chert
     date_added: 2018-11-26 01:59:00
@@ -2657,7 +2665,7 @@ projects:
   - name: TortoiseHg
     repo_url: https://bitbucket.org/tortoisehg/thg/src
     home_url: https://tortoisehg.bitbucket.io/
-    clone_url: hg+https://bitbucket.org/tortoisehg/thg  # bc repo_url has extra "src" in it to avoid project default redirect to wiki
+    clone_url: hg+https://bitbucket.org/tortoisehg/thg # bc repo_url has extra "src" in it to avoid project default redirect to wiki
     docs_url: https://bitbucket.org/tortoisehg/thg/wiki/developers/Home
     date_added: 2018-12-21 22:11:00
     desc: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
@@ -3040,7 +3048,7 @@ projects:
       - server
       - corp
   - name: OpenStack
-    repo_url: https://github.com/openstack/openstack  # https://opendev.org/openstack/openstack is official, but slow
+    repo_url: https://github.com/openstack/openstack # https://opendev.org/openstack/openstack is official, but slow
     home_url: https://www.openstack.org/
     docs_url: https://docs.openstack.org/
     date_added: 2019-08-05 23:47:00
@@ -3083,7 +3091,7 @@ projects:
     home_url: https://repo.saltstack.com/
     date_added: 2018-11-26 01:59:00
     desc: Automation for the management and configuration of any infrastructure or application at scale.
-    tags:                            # or linux? what to do when installation is vagrant-centric?
+    tags: # or linux? what to do when installation is vagrant-centric?
       - ops
       - server
       - corp
@@ -4140,7 +4148,7 @@ projects:
     tags:
       - dev
       - server
-  - name: Ubiquity  # ubuntu installer
+  - name: Ubiquity # ubuntu installer
     repo_url: https://code.launchpad.net/ubiquity
     wp_url: https://en.wikipedia.org/wiki/Ubiquity_%28software%29
     date_added: 2018-11-26 01:59:00
@@ -4273,7 +4281,7 @@ projects:
       - linux
       - gtk
   - name: Xpra
-    repo_url: https://xpra.org/svn/Xpra/trunk   # svn
+    repo_url: https://xpra.org/svn/Xpra/trunk # svn
     home_url: http://xpra.org/
     date_added: 2018-11-26 01:59:00
     desc: Cross-platform remote display server and client for forwarding applications and desktop screens.

@@ -449,6 +449,7 @@ projects:
   - name: Tautulli
     repo_url: https://github.com/Tautulli/Tautulli
     home_url: https://tautulli.com/
+    fund_url: https://www.patreon.com/Tautulli
     date_added: 2024-01-27 12:14:00
     desc: Web monitor for Plex Media Server.
     tags:

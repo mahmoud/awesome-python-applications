@@ -98,7 +98,7 @@ thereof), see Architectures. -->
   1. **speedtest-cli** - ([Repo](https://github.com/sivel/speedtest-cli), [PyPI](https://pypi.org/project/speedtest-cli)) Command-line interface for testing Internet bandwidth using [speedtest.net](https://speedtest.net). `(console)`
   1. **streamlink** - ([Repo](https://github.com/streamlink/streamlink), [Home](https://streamlink.github.io/), [PyPI](https://pypi.org/project/streamlink)) Command-line utility that extracts streams from various services and pipes them into a video player of choice. `(linux, windows, mac)`
   1. **syncserver** - ([Repo](https://github.com/mozilla-services/syncserver), [Docs](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)) All-in-one package for running a self-hosted Mozilla Firefox Sync server. `(server)`
-  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/)) Web monitor for Plex Media Server. `(video, server)`
+  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/), [Fund](https://www.patreon.com/Tautulli)) Web monitor for Plex Media Server. `(video, server)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
@@ -132,7 +132,7 @@ thereof), see Architectures. -->
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer. `(linux, gtk)`
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)). `(cms, server, plone)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(static_site, linux, server)`
-  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/)) Web monitor for Plex Media Server. `(internet, server)`
+  1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/), [Fund](https://www.patreon.com/Tautulli)) Web monitor for Plex Media Server. `(internet, server)`
   1. **Vidcutter** - ([Repo](https://github.com/ozmartian/vidcutter)) GUI and CLI aiming to be the fastest and simplest way to cut and join video. `(linux, windows, mac)`
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>

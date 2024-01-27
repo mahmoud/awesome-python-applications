@@ -1,4 +1,3 @@
-
 # Format of this file:
 
 #  - First we have the "tagsonomy", a tree of tags used to categorize the projects.
@@ -118,8 +117,7 @@ tagsonomy:
     - proprietary
 
 projects:
-
-# Internet
+  # Internet
 
   - name: ArchiveBox
     repo_url: https://github.com/pirate/ArchiveBox
@@ -546,7 +544,7 @@ projects:
       - windows
       - mac
 
-# Audio
+  # Audio
 
   - name: Beets
     repo_url: https://github.com/beetbox/beets
@@ -644,6 +642,15 @@ projects:
       - audio
       - linux
       - mac
+  - name: explainshell.com
+    repo_url: https://github.com/idank/explainshell
+    home_url: https://www.explainshell.com/
+    desc: A web-based tool to match command-line arguments to their man pages and help text.
+    tags:
+      - dev
+      - education
+      - server
+      - flask
   - name: MusicBrainz Picard
     repo_url: https://github.com/metabrainz/picard
     home_url: https://picard.musicbrainz.org/
@@ -721,7 +728,7 @@ projects:
       - audio
       - linux
 
-# Video
+  # Video
 
   - name: Flowblade
     repo_url: https://github.com/jliljebl/flowblade
@@ -792,7 +799,7 @@ projects:
       - windows
       - mac
 
-# Graphics
+  # Graphics
 
   - name: cartoonify / Draw This.
     repo_url: https://github.com/danmacnish/cartoonify
@@ -995,9 +1002,9 @@ projects:
       - dev
       - server
 
-# Games
+  # Games
 
-  - name: 'Cataclysm: Dark Days Ahead (Launcher)'
+  - name: "Cataclysm: Dark Days Ahead (Launcher)"
     repo_url: https://github.com/remyroy/CDDA-Game-Launcher
     home_url: https://cataclysmdda.org/
     date_added: 2019-09-30 18:57:00
@@ -1093,7 +1100,7 @@ projects:
       - windows
       - mac
 
-# Productivity
+  # Productivity
 
   - name: Autokey
     repo_url: https://github.com/autokey/autokey
@@ -1367,7 +1374,7 @@ projects:
       - server
       - flask
 
-# Organization
+  # Organization
 
   - name: Ambar
     repo_url: https://github.com/RD17/ambar
@@ -1758,7 +1765,7 @@ projects:
       - windows
       - gtk
 
-# Communication
+  # Communication
 
   - name: Abilian SBE
     repo_url: https://github.com/abilian/abilian-sbe
@@ -2056,7 +2063,7 @@ projects:
       - communication
       - server
 
-# Education
+  # Education
 
   - name: Anki
     repo_url: https://github.com/dae/anki
@@ -2126,7 +2133,7 @@ projects:
       - education
       - server
 
-# Science
+  # Science
 
   - name: AnuGA
     repo_url: https://github.com/GeoscienceAustralia/anuga_core
@@ -2361,7 +2368,7 @@ projects:
       - mac
       - qt
 
-# Cms
+  # Cms
 
   - name: Django-CMS
     repo_url: https://github.com/divio/django-cms
@@ -2449,7 +2456,7 @@ projects:
       - server
       - django
 
-# Erp
+  # Erp
 
   - name: ERP5
     repo_url: https://lab.nexedi.com/nexedi/erp5
@@ -2502,7 +2509,7 @@ projects:
       - server
       - fdn
 
-# Static_Site
+  # Static_Site
 
   - name: Cactus
     repo_url: https://github.com/eudicots/Cactus
@@ -2592,7 +2599,7 @@ projects:
       - windows
       - mac
 
-# Scm
+  # Scm
 
   - name: Allura
     repo_url: https://github.com/apache/allura
@@ -2762,7 +2769,7 @@ projects:
       - scm
       - server
 
-# Code_Review
+  # Code_Review
 
   - name: Diffoscope
     repo_url: https://salsa.debian.org/reproducible-builds/diffoscope
@@ -2814,7 +2821,7 @@ projects:
       - code_review
       - console
 
-# Storage
+  # Storage
 
   - name: B2
     repo_url: https://github.com/Backblaze/B2_Command_Line_Tool
@@ -2953,7 +2960,7 @@ projects:
       - storage
       - linux
 
-# Ops
+  # Ops
 
   - name: Airflow
     repo_url: https://github.com/apache/airflow
@@ -3211,7 +3218,7 @@ projects:
       - mac
       - server
 
-# Security
+  # Security
 
   - name: BYOB (Build Your Own Botnet)
     repo_url: https://github.com/malwaredllc/byob
@@ -3433,12 +3440,12 @@ projects:
     repo_url: https://github.com/s0md3v/XSStrike
     # home_url: https://somdev.me/XSStrike  # down as of 2020-04-02
     date_added: 2018-11-24 02:37:00
-    desc: '[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler.'
+    desc: "[Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler."
     tags:
       - security
       - console
 
-# Docs
+  # Docs
 
   - name: asciidoc
     repo_url: https://github.com/asciidoc/asciidoc
@@ -3496,7 +3503,7 @@ projects:
       - docs
       - console
 
-# Editor
+  # Editor
 
   - name: Algojammer
     repo_url: https://github.com/ChrisKnott/Algojammer
@@ -3642,7 +3649,7 @@ projects:
       - mac
       - tk
 
-# Pkg_Mgr
+  # Pkg_Mgr
 
   - name: Conan
     repo_url: https://github.com/conan-io/conan
@@ -3747,7 +3754,7 @@ projects:
       - linux
       - corp
 
-# Pkg_Repo
+  # Pkg_Repo
 
   - name: Bandersnatch
     repo_url: https://github.com/pypa/bandersnatch
@@ -3795,7 +3802,7 @@ projects:
       - server
       - fnd
 
-# Build
+  # Build
 
   - name: bitbake
     repo_url: https://github.com/openembedded/bitbake
@@ -3936,7 +3943,7 @@ projects:
       - build
       - linux
 
-# Shell
+  # Shell
 
   - name: Ergonomica
     repo_url: https://github.com/ergonomica/ergonomica
@@ -3967,7 +3974,7 @@ projects:
       - windows
       - mac
 
-# Dev
+  # Dev
 
   - name: asciinema
     repo_url: https://github.com/asciinema/asciinema
@@ -4246,7 +4253,7 @@ projects:
       - linux
       - server
 
-# Misc
+  # Misc
 
   - name: CourtListener
     repo_url: https://github.com/freelawproject/courtlistener

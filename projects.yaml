@@ -1210,6 +1210,16 @@ projects:
     tags:
       - productivity
       - console
+  - name: PDF Arranger
+    repo_url: https://github.com/pdfarranger/pdfarranger
+    snap_url: https://snapcraft.io/pdfarranger
+    date_added: 2024-01-27 12:18:00
+    desc: Merge and split PDF documents, as well as crop and rearrange pages.
+    tags:
+      - productivity
+      - linux
+      - windows
+      - gtk
   - name: Plover
     repo_url: https://github.com/openstenoproject/plover
     home_url: https://www.openstenoproject.org/plover

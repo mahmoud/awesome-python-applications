@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **411**
+This document is an always-growing list of **412**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(25)*
+1. <a href="#tag-productivity">Productivity</a> *(26)*
 1. <a href="#tag-organization">Organization</a> *(42)*
 1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(8)*
@@ -188,6 +188,7 @@ thereof), see Architectures. -->
   1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(storage, linux, windows, mac, console, appimage, lgpl, qt5)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`
   1. **OCRmyPDF** - ([Repo](https://github.com/ocrmypdf/ocrmypdf), [Fund](https://opencollective.com/james-barlow), [Snap](https://snapcraft.io/ocrmypdf), [Docs](http://ocrmypdf.readthedocs.io/)) Adds an OCR text layer to scanned PDF files, enabling text search and selection. `(console)`
+  1. **PDF Arranger** - ([Repo](https://github.com/pdfarranger/pdfarranger), [Snap](https://snapcraft.io/pdfarranger)) Merge and split PDF documents, as well as crop and rearrange pages. `(linux, windows, gtk)`
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(linux, windows, mac, hardware, qt5)`
   1. **Psono** - ([Repo](https://gitlab.com/psono/psono-server), [Home](https://psono.com/), [Demo](https://www.psono.pw/), [Docs](https://doc.psono.com/)) Server-based password manager, built for teams. `(security, server)`
   1. **Ranger** - ([Repo](https://github.com/ranger/ranger), [Home](https://ranger.github.io/)) TUI ([Text User Interface](https://en.wikipedia.org/wiki/Text-based_user_interface)) file manager, inspired by vim. `(linux, tui)`

@@ -23,9 +23,9 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(257)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(237)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(150)*
+1. <a href="#tag-desktop">Desktop</a> *(258)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(238)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(151)*
     1. <a href="#tag-desktop.mac">Mac</a> *(152)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -189,6 +189,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Pants** - ([Repo](https://github.com/pantsbuild/pants), [Home](https://www.pantsbuild.org/)) Build system designed for monolithic repositories. `(build, mac, corp)`
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(organization, windows, gtk)`
   1. **PathPicker** - ([Repo](https://github.com/facebook/PathPicker), [Home](http://facebook.github.io/PathPicker)) Shell utility to interactively select paths from the output of other commands. `(dev, mac)`
+  1. **PDF Arranger** - ([Repo](https://github.com/pdfarranger/pdfarranger), [Snap](https://snapcraft.io/pdfarranger)) Merge and split PDF documents, as well as crop and rearrange pages. `(productivity, windows, gtk)`
   1. **PeachPy** - ([Repo](https://github.com/Maratyszcza/PeachPy)) Highly portable assembler with unified syntax, sporting an extensive user list, including many cryptography libraries for Go. `(dev, windows)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com/), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(static_site, windows, mac)`
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting. `(storage, mac)`
@@ -384,6 +385,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **OpenShot** - ([Repo](https://github.com/OpenShot/openshot-qt), [Home](https://www.openshot.org/), [WP](https://en.wikipedia.org/wiki/OpenShot), [Fund](https://www.patreon.com/openshot)) A cross-platform video editor for FreeBSD, Linux, macOS, and Windows. `(video, linux, mac, qt5)`
   1. **Orange** - ([Repo](https://github.com/biolab/orange3), [Home](https://orange.biolab.si/), [WP](https://en.wikipedia.org/wiki/Orange_%28software%29)) Component-based data mining software for graphical interactive data analysis and visualization. `(science, linux, mac, qt4, qt5)`
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search. `(organization, linux, gtk)`
+  1. **PDF Arranger** - ([Repo](https://github.com/pdfarranger/pdfarranger), [Snap](https://snapcraft.io/pdfarranger)) Merge and split PDF documents, as well as crop and rearrange pages. `(productivity, linux, gtk)`
   1. **PeachPy** - ([Repo](https://github.com/Maratyszcza/PeachPy)) Highly portable assembler with unified syntax, sporting an extensive user list, including many cryptography libraries for Go. `(dev, linux)`
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com/), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(static_site, linux, mac)`
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29), [PyPI](https://pypi.org/project/pip)) Python's go-to package manager, with a wide range of features and platform support. `(pkg_mgr, linux, mac)`

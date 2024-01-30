@@ -23,8 +23,8 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(259)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(239)*
+1. <a href="#tag-desktop">Desktop</a> *(260)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(240)*
     1. <a href="#tag-desktop.windows">Windows</a> *(151)*
     1. <a href="#tag-desktop.mac">Mac</a> *(152)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
@@ -91,6 +91,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **doit** - ([Repo](https://github.com/pydoit/doit), [Home](https://pydoit.org/), [Fund](https://opencollective.com/doit), [Docs](https://pydoit.org/contents.html)) Command-line task management and automation tool, with directives written in Python. `(build, windows, mac)`
   1. **doitlive** - ([Repo](https://github.com/sloria/doitlive), [PyPI](https://pypi.org/project/doitlive), [Docs](https://doitlive.readthedocs.io/)) Tool for live presentations in the terminal. `(dev, mac)`
   1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files. `(organization, windows, mac)`
+  1. **Duplicity** - ([Repo](https://gitlab.com/duplicity/duplicity), [Home](https://duplicity.us/), [Docs](https://duplicity.us/docs.html)) Encrypted bandwidth-efficient backup tool, using the rsync algorithm. `(productivity, storage)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(ai, organization, scm, windows, mac)`
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(shell, windows, mac)`
   1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control. `(editor, windows, mac, qt5)`

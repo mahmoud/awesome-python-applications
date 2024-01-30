@@ -1,7 +1,13 @@
 # Awesome Python Applications - Changelog
 
-The same 419 projects from the Awesome Python Applications list,
+The same 420 projects from the Awesome Python Applications list,
 but arranged in reverse-chronological order of when they were listed.
+
+## 2024-01-30
+
+  1. **Duplicity** - ([Repo](https://gitlab.com/duplicity/duplicity), [Home](https://duplicity.us/), [Docs](https://duplicity.us/docs.html)) Encrypted bandwidth-efficient backup tool, using the rsync algorithm.
+
+
 
 ## 2024-01-27
 

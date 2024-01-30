@@ -1185,6 +1185,16 @@ projects:
       - productivity
       - linux
       - mac
+  - name: Duplicity
+    repo_url: https://gitlab.com/duplicity/duplicity
+    home_url: https://duplicity.us/
+    docs_url: https://duplicity.us/docs.html
+    date_added: 2024-01-30 10:42:00
+    desc: Encrypted bandwidth-efficient backup tool, using the rsync algorithm.
+    tags:
+      - productivity
+      - storage
+      - linux
   - name: Excalibur
     repo_url: https://github.com/camelot-dev/excalibur
     # home_url: https://www.tryexcalibur.com/  # down as of 2020-04-02

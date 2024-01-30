@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **419**
+This document is an always-growing list of **420**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-ai">AI/ML</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(20)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(26)*
+1. <a href="#tag-productivity">Productivity</a> *(27)*
 1. <a href="#tag-organization">Organization</a> *(45)*
 1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(9)*
@@ -48,10 +48,10 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(185)*
+1. <a href="#tag-dev">Dev</a> *(186)*
     1. <a href="#tag-dev.scm">SCM</a> *(17)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(5)*
-    1. <a href="#tag-dev.storage">Storage</a> *(19)*
+    1. <a href="#tag-dev.storage">Storage</a> *(20)*
     1. <a href="#tag-dev.ops">Ops</a> *(28)*
     1. <a href="#tag-dev.security">Security</a> *(30)*
     1. <a href="#tag-dev.docs">Docs</a> *(7)*
@@ -190,6 +190,7 @@ thereof), see Architectures. -->
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy. `(linux, windows, gtk)`
   1. **BorgBackup** - ([Repo](https://github.com/borgbackup/borg), [Home](https://www.borgbackup.org/)) Deduplicating backup system with optional encryption and other features. `(linux)`
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(linux, mac)`
+  1. **Duplicity** - ([Repo](https://gitlab.com/duplicity/duplicity), [Home](https://duplicity.us/), [Docs](https://duplicity.us/docs.html)) Encrypted bandwidth-efficient backup tool, using the rsync algorithm. `(storage, linux)`
   1. **Excalibur** - ([Repo](https://github.com/camelot-dev/excalibur)) Web interface to extract tabular data from PDFs. `(linux, windows)`
   1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources. `(ops, linux, windows, mac, server)`
   1. **gmvault** - ([Repo](https://github.com/gaubert/gmvault), [Home](http://gmvault.org/)) Tool for backing up gmail accounts. `(linux, windows, mac, qt5)`
@@ -411,6 +412,7 @@ Projects related to software development and adjacent technical areas.
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL. `(linux)`
   1. **Baserow** - ([Repo](https://gitlab.com/bramw/baserow), [Home](https://baserow.io/), [gh](https://github.com/bram2w/baserow), [Docs](https://baserow.io/docs)) Web-based no-code persistence platform, like a database meets a spreadsheet, with a REST API. `(organization, server, django)`
   1. **Datasette** - ([Repo](https://github.com/simonw/datasette), [PyPI](https://pypi.org/project/datasette), [Docs](https://datasette.readthedocs.io/en/latest)) A tool for exploring and publishing data, backed by SQLite. `(server)`
+  1. **Duplicity** - ([Repo](https://gitlab.com/duplicity/duplicity), [Home](https://duplicity.us/), [Docs](https://duplicity.us/docs.html)) Encrypted bandwidth-efficient backup tool, using the rsync algorithm. `(productivity, linux)`
   1. **EdgeDB** - ([Repo](https://github.com/edgedb/edgedb), [Home](https://edgedb.com/), [Docs](https://edgedb.com/docs)) High-performance object-relational database built on top of PostgreSQL, featuring strict, strong typing, built-in migrations, and GraphQL support. `(server)`
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more. `(server)`
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids. `(productivity, linux, windows, mac)`

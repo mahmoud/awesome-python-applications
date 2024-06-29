@@ -1,7 +1,13 @@
 # Awesome Python Applications - Changelog
 
-The same 420 projects from the Awesome Python Applications list,
+The same 421 projects from the Awesome Python Applications list,
 but arranged in reverse-chronological order of when they were listed.
+
+## 2024-06-29
+
+  1. **Codex** - ([Repo](https://github.com/ajslater/codex), [Demo](https://codex.sl8r.net/r/0/1)) Self-hostable comic archive browser and reader.
+
+
 
 ## 2024-01-30
 

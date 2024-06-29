@@ -178,6 +178,15 @@ projects:
       - internet
       - linux
       - tui
+  - name: Codex
+    repo_url: https://github.com/ajslater/codex
+    demo_url: https://codex.sl8r.net/r/0/1
+    date_added: 2024-06-29 08:59:00
+    desc: Self-hostable comic archive browser and reader.
+    tags:
+      - internet
+      - server
+      - django
   - name: CTFd
     repo_url: https://github.com/CTFd/CTFd
     home_url: https://ctfd.io/

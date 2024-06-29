@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **420**
+This document is an always-growing list of **421**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -34,7 +34,7 @@ thereof), see Architectures. -->
 
 **Contents**
 
-1. <a href="#tag-internet">Internet</a> *(42)*
+1. <a href="#tag-internet">Internet</a> *(43)*
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-ai">AI/ML</a> *(4)*
@@ -72,6 +72,7 @@ thereof), see Architectures. -->
   1. **Bookwyrm** - ([Repo](https://github.com/bookwyrm-social/bookwyrm), [Home](https://bookwyrm.social/)) Social reading and reviewing, decentralized with ActivityPub. `(organization, communication, server, django)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(organization, linux, windows, mac, server)`
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses). `(linux, tui)`
+  1. **Codex** - ([Repo](https://github.com/ajslater/codex), [Demo](https://codex.sl8r.net/r/0/1)) Self-hostable comic archive browser and reader. `(server, django)`
   1. **CTFd** - ([Repo](https://github.com/CTFd/CTFd), [Home](https://ctfd.io/), [Docs](https://github.com/CTFd/CTFd/wiki)) CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes. `(server)`
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client. `(linux, windows, mac, server, gtk)`
   1. **Dispatch** - ([Repo](https://github.com/Netflix/dispatch), [Blog](https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072), [Docs](https://netflix.github.io/dispatch)) Incident management service featuring integrations for notifications and task management. Used at Netflix. `(dev, server, calver, corp, fastapi)`

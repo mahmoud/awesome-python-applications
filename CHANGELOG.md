@@ -1,10 +1,11 @@
 # Awesome Python Applications - Changelog
 
-The same 423 projects from the Awesome Python Applications list,
+The same 424 projects from the Awesome Python Applications list,
 but arranged in reverse-chronological order of when they were listed.
 
 ## 2024-06-29
 
+  1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Console-based LLM pair programming tool, to edit code in your local git repository.
   1. **Codex** - ([Repo](https://github.com/ajslater/codex), [Demo](https://codex.sl8r.net/r/0/1)) Self-hostable comic archive browser and reader.
   1. **napar** - ([Repo](https://github.com/napari/napari), [Home](https://napari.org/), [Fund](https://numfocus.org/donate-to-napari)) A fast, interactive, multi-dimensional image viewer for annotation and analysis of large images.
   1. **Plane** - ([Repo](https://github.com/makeplane/plane), [Home](https://plane.so/)) Modern, self-hostable issue and product roadmap tracker. An alternative to JIRA, Linear, and Asana.
@@ -122,7 +123,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2020-04-04
 
-  1. **CourtListener** - ([Repo](https://github.com/freelawproject/courtlistener), [Home](https://www.courtlistener.com/), [WP](https://en.wikipedia.org/wiki/Free_Law_Project)) Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).
+  1. **CourtListener** - ([Repo](https://github.com/freelawproject/courtlistener), [Home](https://www.courtlistener.com/), [WP](https://en.wikipedia.org/wiki/Free_Law_Project), [Fund](https://free.law/donate)) Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).
 
 
 

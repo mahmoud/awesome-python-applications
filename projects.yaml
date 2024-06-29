@@ -805,6 +805,17 @@ projects:
 
 # Ai
 
+  - name: aider
+    repo_url: https://github.com/paul-gauthier/aider
+    home_url: https://aider.chat/
+    date_added: 2024-06-29 09:36:00
+    desc: Console-based LLM pair programming tool, to edit code in your local git repository.
+    tags:
+      - ai
+      - dev
+      - linux
+      - windows
+      - mac
   - name: Aim
     repo_url: https://github.com/aimhubio/aim
     home_url: https://aimstack.io/
@@ -4317,12 +4328,14 @@ projects:
   - name: CourtListener
     repo_url: https://github.com/freelawproject/courtlistener
     home_url: https://www.courtlistener.com/
+    fund_url: https://free.law/donate
     wp_url: https://en.wikipedia.org/wiki/Free_Law_Project
     date_added: 2020-04-04 23:59:00
     desc: Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/).
     tags:
       - misc
       - server
+      - django
   - name: Guake
     repo_url: https://github.com/Guake/guake
     home_url: http://guake-project.org/

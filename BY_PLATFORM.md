@@ -23,10 +23,10 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(260)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(240)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(151)*
-    1. <a href="#tag-desktop.mac">Mac</a> *(152)*
+1. <a href="#tag-desktop">Desktop</a> *(261)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(241)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(152)*
+    1. <a href="#tag-desktop.mac">Mac</a> *(153)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
     1. <a href="#tag-mobile.android">Android</a> *(1)*
@@ -44,6 +44,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-desktop.linux" href="#tag-desktop.linux">Linux</a>
 
+  1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Console-based LLM pair programming tool, to edit code in your local git repository. `(ai, dev, windows, mac)`
   1. **Aim** - ([Repo](https://github.com/aimhubio/aim), [Home](https://aimstack.io/), [Blog](https://aimstack.io/blog)) Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs. `(ai, server, fastapi)`
   1. **Airflow** - ([Repo](https://github.com/apache/airflow), [Docs](https://airflow.apache.org/)) A platform to programmatically author, schedule and monitor workflows. `(ops, server, corp, flask)`
   1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, windows, mac, tk)`
@@ -287,6 +288,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-desktop.windows" href="#tag-desktop.windows">Windows</a>
 
+  1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Console-based LLM pair programming tool, to edit code in your local git repository. `(ai, dev, linux, mac)`
   1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, linux, mac, tk)`
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, mac, qt5)`
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods. `(science, linux)`
@@ -441,6 +443,7 @@ segmentation by distribution (i.e., Docker, etc.)
 
 ### <a id="tag-desktop.mac" href="#tag-desktop.mac">Mac</a>
 
+  1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Console-based LLM pair programming tool, to edit code in your local git repository. `(ai, dev, linux, windows)`
   1. **Algojammer** - ([Repo](https://github.com/ChrisKnott/Algojammer), [Demo](https://www.youtube.com/watch?v=9XPE4uT0AdE)) An experimental, proof-of-concept IDE to assist with algorithm-writing in a competition setting. `(editor, linux, windows, tk)`
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(education, linux, windows, qt5)`
   1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation. `(ops, linux, corp)`
@@ -676,7 +679,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **CoCalc** - ([Repo](https://github.com/sagemathinc/cocalc), [Home](https://cocalc.com/), [WP](https://en.wikipedia.org/wiki/CoCalc)) Collaborative calculation in the cloud, with support for the scientific Python stack, SageMath, R, LaTeX, Markdown, and more. Also features chat, course management, and other supporting functionality. `(science)`
   1. **Codex** - ([Repo](https://github.com/ajslater/codex), [Demo](https://codex.sl8r.net/r/0/1)) Self-hostable comic archive browser and reader. `(internet, django)`
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts. `(organization, communication)`
-  1. **CourtListener** - ([Repo](https://github.com/freelawproject/courtlistener), [Home](https://www.courtlistener.com/), [WP](https://en.wikipedia.org/wiki/Free_Law_Project)) Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/). `(misc)`
+  1. **CourtListener** - ([Repo](https://github.com/freelawproject/courtlistener), [Home](https://www.courtlistener.com/), [WP](https://en.wikipedia.org/wiki/Free_Law_Project), [Fund](https://free.law/donate)) Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/). `(misc, django)`
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. `(security, corp)`
   1. **CTFd** - ([Repo](https://github.com/CTFd/CTFd), [Home](https://ctfd.io/), [Docs](https://github.com/CTFd/CTFd/wiki)) CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes. `(internet)`
   1. **Datasette** - ([Repo](https://github.com/simonw/datasette), [PyPI](https://pypi.org/project/datasette), [Docs](https://datasette.readthedocs.io/en/latest)) A tool for exploring and publishing data, backed by SQLite. `(storage)`

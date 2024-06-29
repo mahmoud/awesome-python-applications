@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **422**
+This document is an always-growing list of **423**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -38,7 +38,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-audio">Audio</a> *(17)*
 1. <a href="#tag-video">Video</a> *(8)*
 1. <a href="#tag-ai">AI/ML</a> *(4)*
-1. <a href="#tag-graphics">Graphics</a> *(20)*
+1. <a href="#tag-graphics">Graphics</a> *(21)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(27)*
 1. <a href="#tag-organization">Organization</a> *(45)*
@@ -161,6 +161,7 @@ thereof), see Architectures. -->
   1. **Meshroom** - ([Repo](https://github.com/alicevision/meshroom), [Home](http://alicevision.github.io/)) Photogrammetry pipeline, for turning photographs into 3D models. `(linux, windows, mac, qt)`
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents. `(internet, linux)`
   1. **MyPaint** - ([Repo](https://github.com/mypaint/mypaint), [Home](http://mypaint.org/), [WP](https://en.wikipedia.org/wiki/MyPaint)) Raster graphics editor for digital painters with a focus on painting rather than image manipulation. `(linux, windows, mac, gtk)`
+  1. **napar** - ([Repo](https://github.com/napari/napari), [Home](https://napari.org/), [Fund](https://numfocus.org/donate-to-napari)) A fast, interactive, multi-dimensional image viewer for annotation and analysis of large images. `(qt)`
   1. **NFO Viewer** - ([Repo](https://github.com/otsaloma/nfoview), [Home](https://otsaloma.io/nfoview)) A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks. `(misc, linux, windows)`
   1. **OCRFeeder** - ([Repo](https://gitlab.gnome.org/GNOME/ocrfeeder), [WP](https://en.wikipedia.org/wiki/OCRFeeder)) An optical character recognition suite for GNOME, with support for command-line OCR engines like CuneiForm, GOCR, Ocrad and Tesseract. `(linux, gtk)`
   1. **OCRopus** - ([Repo](https://github.com/tmbdev/ocropy), [WP](https://en.wikipedia.org/wiki/OCRopus)) Document analysis and optical character recognition (OCR) system. `(linux, mac, console)`

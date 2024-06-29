@@ -1,11 +1,12 @@
 # Awesome Python Applications - Changelog
 
-The same 422 projects from the Awesome Python Applications list,
+The same 423 projects from the Awesome Python Applications list,
 but arranged in reverse-chronological order of when they were listed.
 
 ## 2024-06-29
 
   1. **Codex** - ([Repo](https://github.com/ajslater/codex), [Demo](https://codex.sl8r.net/r/0/1)) Self-hostable comic archive browser and reader.
+  1. **napar** - ([Repo](https://github.com/napari/napari), [Home](https://napari.org/), [Fund](https://numfocus.org/donate-to-napari)) A fast, interactive, multi-dimensional image viewer for annotation and analysis of large images.
   1. **Plane** - ([Repo](https://github.com/makeplane/plane), [Home](https://plane.so/)) Modern, self-hostable issue and product roadmap tracker. An alternative to JIRA, Linear, and Asana.
 
 

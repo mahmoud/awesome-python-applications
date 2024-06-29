@@ -957,6 +957,15 @@ projects:
       - windows
       - mac
       - gtk
+  - name: napar
+    repo_url: https://github.com/napari/napari
+    home_url: https://napari.org/
+    fund_url: https://numfocus.org/donate-to-napari
+    date_added: 2024-06-29 09:15:00
+    desc: A fast, interactive, multi-dimensional image viewer for annotation and analysis of large images.
+    tags:
+      - graphics
+      - qt
   - name: NFO Viewer
     repo_url: https://github.com/otsaloma/nfoview
     home_url: https://otsaloma.io/nfoview

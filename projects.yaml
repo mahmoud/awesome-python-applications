@@ -2756,6 +2756,15 @@ projects:
     tags:
       - scm
       - server
+  - name: Plane
+    repo_url: https://github.com/makeplane/plane
+    home_url: https://plane.so/
+    date_added: 2024-06-29 09:11:00
+    desc: Modern, self-hostable issue and product roadmap tracker. An alternative to JIRA, Linear, and Asana.
+    tags:
+      - scm
+      - server
+      - django
   - name: RabbitVCS
     repo_url: https://github.com/rabbitvcs/rabbitvcs
     home_url: http://rabbitvcs.org/

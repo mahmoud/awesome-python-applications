@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **421**
+This document is an always-growing list of **422**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -48,8 +48,8 @@ thereof), see Architectures. -->
 1. <a href="#tag-cms">CMS</a> *(11)*
 1. <a href="#tag-erp">ERP</a> *(5)*
 1. <a href="#tag-static_site">Static Site</a> *(9)*
-1. <a href="#tag-dev">Dev</a> *(186)*
-    1. <a href="#tag-dev.scm">SCM</a> *(17)*
+1. <a href="#tag-dev">Dev</a> *(187)*
+    1. <a href="#tag-dev.scm">SCM</a> *(18)*
     1. <a href="#tag-dev.code_review">Code Review</a> *(5)*
     1. <a href="#tag-dev.storage">Storage</a> *(20)*
     1. <a href="#tag-dev.ops">Ops</a> *(28)*
@@ -392,6 +392,7 @@ Projects related to software development and adjacent technical areas.
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities. `(linux, windows, mac)`
   1. **Pagure** - ([Repo](https://pagure.io/pagure), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team. `(server)`
   1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development. `(server)`
+  1. **Plane** - ([Repo](https://github.com/makeplane/plane), [Home](https://plane.so/)) Modern, self-hostable issue and product roadmap tracker. An alternative to JIRA, Linear, and Asana. `(server, django)`
   1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line. `(linux)`
   1. **RhodeCode** - ([Repo](https://code.rhodecode.com/rhodecode-enterprise-ce), [Home](https://rhodecode.com/), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion. `(server, corp)`
   1. **Roundup Issue Tracker** - ([Repo](http://hg.code.sf.net/p/roundup/code), [Home](https://www.roundup-tracker.org/), [WP](https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29), [gh](https://github.com/roundup-tracker/roundup)) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, historically used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org). `(server)`

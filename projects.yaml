@@ -968,7 +968,7 @@ projects:
       - windows
       - mac
       - gtk
-  - name: napar
+  - name: napari
     repo_url: https://github.com/napari/napari
     home_url: https://napari.org/
     fund_url: https://numfocus.org/donate-to-napari

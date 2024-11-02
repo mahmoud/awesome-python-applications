@@ -1,7 +1,6 @@
-
 on:
   schedule:
-  - cron: '00 9 * * *'
+    - cron: "00 9 * * *"
   push:
 name: Link Checker
 jobs:
@@ -9,14 +8,14 @@ jobs:
     name: linkchecker
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: linkchecker
-      uses: cam-barts/linkchecker-action@master
-      env:
-        include_files: "README.md"
-    - name: Upload exclusion list as an artifact
-      uses: actions/upload-artifact@v1
-      if: always()
-      with:
-        name: exclude_links.json
-        path: exclude_links.json
+      - uses: actions/checkout@master
+      - name: linkchecker
+        uses: cam-barts/linkchecker-action@master
+        env:
+          include_files: "README.md"
+      - name: Upload exclusion list as an artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exclude_links.json
+          path: exclude_links.json

@@ -111,6 +111,8 @@ thereof), see Architectures. -->
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
   1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest)) Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(linux, windows, mac)`
 
+  [back to top](#readme)
+
 ## <a id="tag-audio" href="#tag-audio">Audio</a>
 
   1. **Beets** - ([Repo](https://github.com/beetbox/beets), [Home](http://beets.io/), [PyPI](https://pypi.org/project/beets)) Feature-rich command-line music library manager with web UI, duplicate detection, transcoding, and tagging support, integrating with MusicBrainz, Discogs, and more. `(linux, windows, mac)`
@@ -131,6 +133,8 @@ thereof), see Architectures. -->
   1. **Supysonic** - ([Repo](https://github.com/spl0k/supysonic)) Implementation of the [Subsonic server API](http://www.subsonic.org/), with support for browsing, streaming, transcoding, scrobbling, and more. `(server)`
   1. **Whipper** - ([Repo](https://github.com/whipper-team/whipper)) A CLI-based CD Audio ripper designed for accuracy over speed, with support for overriding hardware caches, accuracy verification, MusicBrainz metadata lookup, hidden tracks, FLAC, and much more. `(linux)`
 
+  [back to top](#readme)
+
 ## <a id="tag-video" href="#tag-video">Video</a>
 
   1. **Flowblade** - ([Repo](https://github.com/jliljebl/flowblade), [WP](https://en.wikipedia.org/wiki/Flowblade)) Multitrack, non-linear video editing software for Linux. `(linux, gtk)`
@@ -149,6 +153,8 @@ thereof), see Architectures. -->
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, windows, mac)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(organization, dev, linux, mac, corp)`
   1. **Polyaxon** - ([Repo](https://github.com/polyaxon/polyaxon), [Home](https://polyaxon.com/), [Docs](https://docs.polyaxon.com/)) A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more. `(dev, server)`
+
+  [back to top](#readme)
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 
@@ -174,6 +180,8 @@ thereof), see Architectures. -->
   1. **SK1** - ([Repo](https://github.com/sk1project/sk1-wx), [Home](https://sk1project.net/), [WP](https://en.wikipedia.org/wiki/SK1_%28program%29)) Feature-rich, cross-platform illustration program. `(linux, windows, mac, gtk, wx)`
   1. **Thumbor** - ([Repo](https://github.com/thumbor/thumbor), [Home](http://thumbor.org/), [Docs](https://thumbor.readthedocs.io/)) Photo thumbnail service with resizing, flipping, and smart cropping of images. `(dev, server)`
 
+  [back to top](#readme)
+
 ## <a id="tag-games" href="#tag-games">Games</a>
 
   1. **Cataclysm: Dark Days Ahead (Launcher)** - ([Repo](https://github.com/remyroy/CDDA-Game-Launcher), [Home](https://cataclysmdda.org/)) Launcher for popular FOSS game [CDDA](https://cataclysmdda.org/), which supports automatic updates and mod management. `(linux, windows, mac)`
@@ -186,6 +194,8 @@ thereof), see Architectures. -->
   1. **PySolFC** - ([Repo](https://github.com/shlomif/PySolFC), [Home](https://pysolfc.sourceforge.io/), [Android](https://f-droid.org/en/packages/org.lufebe16.pysolfc)) Highly-portable collection of solitaire card games. `(linux, windows, android, kivy, tk)`
   1. **term2048** - ([Repo](https://github.com/bfontaine/term2048), [PyPI](https://pypi.python.org/pypi/term2048)) TUI version of [2048](http://gabrielecirulli.github.io/2048/). `(linux, mac, tui)`
   1. **Unknown Horizons** - ([Repo](https://github.com/unknown-horizons/unknown-horizons), [Home](http://unknown-horizons.org/)) 2D real-time strategy simulation with an emphasis on economy and city building. (Not unlike Age of Empires) `(linux, windows, mac)`
+
+  [back to top](#readme)
 
 ## <a id="tag-productivity" href="#tag-productivity">Productivity</a>
 
@@ -216,6 +226,8 @@ thereof), see Architectures. -->
   1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing, and converting datasets in the terminal. `(linux, mac, tui)`
   1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(linux, mac)`
   1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
+
+  [back to top](#readme)
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
@@ -265,6 +277,8 @@ thereof), see Architectures. -->
   1. **Xandikos** - ([Repo](https://github.com/jelmer/xandikos), [Home](https://www.xandikos.org/)) Lightweight but relatively complete CardDAV/CalDAV server which backs up changes in a Git repository. `(server)`
   1. **Zim Wiki** - ([Repo](https://github.com/jaap-karssenberg/zim-desktop-wiki), [Home](http://zim-wiki.org/)) Desktop wiki designed for note-taking, list-making, and drafting. `(linux, windows, gtk)`
 
+  [back to top](#readme)
+
 ## <a id="tag-communication" href="#tag-communication">Communication</a>
 
   1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com/)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(cms, server)`
@@ -303,6 +317,8 @@ thereof), see Architectures. -->
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate)) Web based localization tool with tight version control integration. `(server)`
   1. **Zulip** - ([Repo](https://github.com/zulip/zulip), [Home](https://zulip.org/), [WP](https://en.wikipedia.org/wiki/Zulip), [Docs](https://zulip.readthedocs.io/en/latest)) Powerful chat server and web client with support for threaded conversations. `(server)`
 
+  [back to top](#readme)
+
 ## <a id="tag-education" href="#tag-education">Education</a>
 
   1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization. `(linux, windows, mac, qt5)`
@@ -314,6 +330,8 @@ thereof), see Architectures. -->
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/), [WP](https://en.wikipedia.org/wiki/EdX#Open_edX)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(server)`
   1. **RELATE** - ([Repo](https://github.com/inducer/relate), [Docs](https://documen.tician.de/relate)) Web-based courseware with support for course planning and versioning, scheduling, testing, and grading. `(server)`
   1. **Tutor** - ([Repo](https://github.com/overhangio/tutor), [Docs](https://docs.tutor.overhang.io/)) Docker-based Open edX distribution, both for production and local development, with a goal of easing deployment, customization, upgrading, and scaling. `(server)`
+
+  [back to top](#readme)
 
 ## <a id="tag-science" href="#tag-science">Science</a>
 
@@ -342,6 +360,8 @@ thereof), see Architectures. -->
   1. **Taguette** - ([Repo](https://gitlab.com/remram44/taguette), [Home](https://www.taguette.org/), [gh](https://github.com/remram44/taguette), [PyPI](https://pypi.org/project/taguette), [Docs](https://www.taguette.org/getting-started.html)) Web-based qualitative research tool supporting importing, tagging, highlighting, and exporting many document formats. `(server)`
   1. **Veusz** - ([Repo](https://github.com/veusz/veusz), [Home](https://veusz.github.io/)) 2D and 3D scientific plotting, designed to produce publication-ready PDF or SVG graphs. `(linux, windows, mac, qt)`
 
+  [back to top](#readme)
+
 ## <a id="tag-cms" href="#tag-cms">CMS</a>
 
   1. **Abilian SBE** - ([Repo](https://github.com/abilian/abilian-sbe), [Home](https://www.abilian.com/)) A "Social Business Engine" with features including lightweight document management, discussions, wikis, timelines, and more. `(communication, server)`
@@ -356,6 +376,8 @@ thereof), see Architectures. -->
   1. **Shuup** - ([Repo](https://github.com/shuup/shuup), [Home](https://www.shuup.com/), [Docs](https://shuup.readthedocs.io/en/latest)) Storefront web application, with support for single- and multi-marketplace models. `(server)`
   1. **Wagtail** - ([Repo](https://github.com/wagtail/wagtail), [Home](https://wagtail.io/)) A Django content management system focused on flexibility and user experience. `(server, django)`
 
+  [back to top](#readme)
+
 ## <a id="tag-erp" href="#tag-erp">ERP</a>
 
   1. **ERP5** - ([Repo](https://lab.nexedi.com/nexedi/erp5), [Home](https://erp5.nexedi.com/), [WP](https://en.wikipedia.org/wiki/ERP5)) Web-based ERP, CRM, DMS, and Big Data system with hundreds of built-in modules, designed for corporate scalability. `(server)`
@@ -363,6 +385,8 @@ thereof), see Architectures. -->
   1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling. `(linux, server)`
   1. **Odoo** - ([Repo](https://github.com/odoo/odoo), [Home](https://www.odoo.com/), [WP](https://en.wikipedia.org/wiki/Odoo)) Web-based ERP and CRM with many built-in modules, plus thousands of apps to suit any business. `(server)`
   1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest)) Modular web-based ERP, designed for companies of all sizes. `(server, fdn)`
+
+  [back to top](#readme)
 
 ## <a id="tag-static_site" href="#tag-static_site">Static Site</a>
 
@@ -375,6 +399,8 @@ thereof), see Architectures. -->
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com/), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax. `(linux, windows, mac)`
   1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures. `(linux, windows, mac)`
   1. **PyVideo** - ([Repo](https://github.com/pyvideo/pyvideo), [Home](https://pyvideo.org/)) Static media index custom-built for the Python community, and all the content our meetings and conferences produce. `(video, linux, server)`
+
+  [back to top](#readme)
 
 ## <a id="tag-dev" href="#tag-dev">Dev</a>
 
@@ -401,6 +427,8 @@ Projects related to software development and adjacent technical areas.
   1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support. `(linux, windows, qt4, qt5)`
   1. **Trac** - ([Repo](https://github.com/edgewall/trac), [Home](https://trac.edgewall.org/), [WP](https://en.wikipedia.org/wiki/Trac), [Docs](https://trac.edgewall.org/wiki/TracGuide)) Enhanced web-based wiki and issue tracking system for software development projects. `(server)`
   1. **ViewVC** - ([Repo](https://github.com/viewvc/viewvc), [Home](http://viewvc.org/)) Browser interface for CVS and Subversion version control repositories. `(server)`
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.code_review" href="#tag-dev.code_review">Code Review</a>
 
@@ -433,6 +461,8 @@ Projects related to software development and adjacent technical areas.
   1. **ZEO** - ([Repo](https://github.com/zopefoundation/ZEO), [PyPI](https://pypi.org/project/ZEO), [Docs](https://zope.readthedocs.io/en/latest/zopebook/ZEO.html)) Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network. `(linux, server)`
   1. **ZFSp** - ([Repo](https://github.com/alcarithemad/zfsp)) A reverse-engineered [ZFS](https://en.wikipedia.org/wiki/ZFS) implementation, written in Python, without reading the original C. `(linux)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.ops" href="#tag-dev.ops">Ops</a>
 
   1. **Airflow** - ([Repo](https://github.com/apache/airflow), [Docs](https://airflow.apache.org/)) A platform to programmatically author, schedule and monitor workflows. `(linux, server, corp, flask)`
@@ -463,6 +493,8 @@ Projects related to software development and adjacent technical areas.
   1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_%28software%29), [Docs](https://www.spinnaker.io/concepts)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments. `(server, corp)`
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac, server)`
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 
@@ -497,6 +529,8 @@ Projects related to software development and adjacent technical areas.
   1. **Universal Radio Hacker (URH)** - ([Repo](https://github.com/jopohl/urh)) Wireless protocol investigator, with a focus on analyzing proprietary IoT communication. `(linux, windows, mac)`
   1. **XSStrike** - ([Repo](https://github.com/s0md3v/XSStrike)) [Cross Site Scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS) detection suite equipped with multiple hand-written parsers, a payload generator, a fuzzing engine, and a performance-focused crawler. `(console)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.docs" href="#tag-dev.docs">Docs</a>
 
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs. `(console)`
@@ -506,6 +540,8 @@ Projects related to software development and adjacent technical areas.
   1. **mkdocs** - ([Repo](https://github.com/mkdocs/mkdocs), [Home](https://www.mkdocs.org/), [PyPI](https://pypi.org/project/mkdocs)) Simple, customizable project documentation, with built-in dev server. `(console)`
   1. **readthedocs.org** - ([Repo](https://github.com/readthedocs/readthedocs.org), [Home](https://readthedocs.org/), [Docs](https://docs.readthedocs.io/en/stable)) Continuous integration platform for building and hosting documentation. `(server, django)`
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/), [PyPI](https://pypi.org/project/Sphinx)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)). `(console)`
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.editor" href="#tag-dev.editor">Editor</a>
 
@@ -523,6 +559,8 @@ Projects related to software development and adjacent technical areas.
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/), [WP](https://en.wikipedia.org/wiki/Spyder_%28software%29)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python. `(linux, windows, mac, qt5)`
   1. **Thonny** - ([Repo](https://github.com/thonny/thonny), [Home](https://thonny.org/), [WP](https://en.wikipedia.org/wiki/Thonny)) Cross-platform Python IDE for beginners, designed for learning to code. `(linux, windows, mac, tk)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.pkg_mgr" href="#tag-dev.pkg_mgr">Package Managers</a>
 
   1. **Conan** - ([Repo](https://github.com/conan-io/conan), [Home](https://conan.io/), [Docs](https://docs.conan.io/en/latest)) Decentralized package manager for binary package management, targeted at C/C++ developers. `(linux, windows, mac)`
@@ -537,6 +575,8 @@ Projects related to software development and adjacent technical areas.
   1. **Spack** - ([Repo](https://github.com/spack/spack), [Home](https://spack.io/), [Docs](https://spack.readthedocs.io/en/latest)) Language-independent package manager for supercomputers, Mac, and Linux, designed for scientific computing. `(science, linux, mac)`
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_%28software%29)) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.). `(linux, corp)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.pkg_repo" href="#tag-dev.pkg_repo">Package Repositories</a>
 
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/). `(server, corp)`
@@ -544,6 +584,8 @@ Projects related to software development and adjacent technical areas.
   1. **distro-tracker** - ([Repo](https://salsa.debian.org/qa/distro-tracker), [Demo](https://tracker.debian.org/), [Docs](https://qa.pages.debian.net/distro-tracker)) Web application designed to follow the evolution of a Debian-based distribution with email updates and a comprehensive web interface. Powers the [Debian Package Tracker](https://tracker.debian.org/). `(server)`
   1. **SweetTooth Web** - ([Repo](https://gitlab.gnome.org/Infrastructure/extensions-web), [Home](https://extensions.gnome.org/)) The web store for extensions to the [GNOME](https://en.wikipedia.org/wiki/GNOME) desktop environment, supporting adding and updating extensions directly from the browser. `(server)`
   1. **Warehouse** - ([Repo](https://github.com/pypa/warehouse), [Fund](https://psfmember.org/civicrm/contribute/transact?reset=1&id=13), [Docs](https://warehouse.pypa.io/)) Server software that powers [PyPI](https://pypi.org/), where most Python libraries are downloaded from. `(server, fnd)`
+
+  [back to top](#readme)
 
 ### <a id="tag-dev.build" href="#tag-dev.build">Build</a>
 
@@ -561,11 +603,15 @@ Projects related to software development and adjacent technical areas.
   1. **Snapcraft** - ([Repo](https://github.com/snapcore/snapcraft), [Home](https://snapcraft.io/), [Docs](https://snapcraft.io/docs)) A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical. `(linux)`
   1. **Waf** - ([Repo](https://gitlab.com/ita1024/waf), [Home](https://waf.io/), [WP](https://en.wikipedia.org/wiki/Waf), [Docs](https://waf.io/book)) Cross-platform build system designed to improve on SCons. `(linux)`
 
+  [back to top](#readme)
+
 ### <a id="tag-dev.shell" href="#tag-dev.shell">Shell</a>
 
   1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features. `(linux, windows, mac)`
   1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own. `(linux)`
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives. `(linux, windows, mac)`
+
+  [back to top](#readme)
 
 ### <a id="tag-dev-other" href="#tag-dev-other">Other Dev projects</a>
   1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Console-based LLM pair programming tool, to edit code in your local git repository. `(ai, linux, windows, mac)`
@@ -607,6 +653,8 @@ Projects related to software development and adjacent technical areas.
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(linux, windows, mac)`
   1. **YunoHost** - ([Repo](https://github.com/YunoHost/yunohost), [Home](https://yunohost.org/), [Docs](https://yunohost.org/#/docs)) Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware. `(linux, server)`
 
+  [back to top](#readme)
+
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 
   1. **CourtListener** - ([Repo](https://github.com/freelawproject/courtlistener), [Home](https://www.courtlistener.com/), [WP](https://en.wikipedia.org/wiki/Free_Law_Project), [Fund](https://free.law/donate)) Web application which provides a graph-based search interface and API with 900,000 minutes of oral argument recordings, more than eight thousand judges, and more than three million opinions. Also powers [RECAP search](https://www.courtlistener.com/recap/). `(server, django)`
@@ -623,6 +671,7 @@ Projects related to software development and adjacent technical areas.
   1. **Wicd** - ([Repo](https://code.launchpad.net/wicd), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux. `(linux, gtk)`
   1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens. `(linux, windows)`
 
+  [back to top](#readme)
 
 <!-- YET ANOTHER NOTE: This file is automatically generated, see projects.yaml -->
 

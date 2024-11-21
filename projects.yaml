@@ -232,6 +232,18 @@ projects:
     tags:
       - internet
       - server
+  - name: Extra Life Donation Tracker
+    repo_url: https://github.com/djotaku/ELDonationTracker
+    home_url: https://github.com/djotaku/ELDonationTracker
+    date_added: 2019-10-18 09:48:00
+    desc: Extra Life Donation tracker is used by participants in the Extra Life charity event. It pulls data from the JSON API of the Extra Life campaign and generates text files that can be used when live streaming to indicate information about the most recent donors so that they can be thanked on the air.
+    tags:
+       - internet
+       - linux
+       - windows
+       - qt5
+       - console
+       - gplv3
   - name: FlaskBB
     repo_url: https://github.com/flaskbb/flaskbb
     home_url: https://flaskbb.org/

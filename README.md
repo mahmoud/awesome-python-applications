@@ -606,6 +606,7 @@ Projects related to software development and adjacent technical areas.
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_%28software%29)) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB. `(linux, gtk, qt)`
   1. **Voltron** - ([Repo](https://github.com/snare/voltron)) Extensible debugger wrapper aiming to improve the user experience of various debuggers, such as [LLDB](https://lldb.llvm.org/), [GDB](https://en.wikipedia.org/wiki/GNU_Debugger), and [WinDbg](https://en.wikipedia.org/wiki/WinDbg). `(linux, windows, mac)`
   1. **YunoHost** - ([Repo](https://github.com/YunoHost/yunohost), [Home](https://yunohost.org/), [Docs](https://yunohost.org/#/docs)) Server operating system based on Debian Linux aiming to make self-hosting accessible to as many people as possible, with support for several types of hardware. `(linux, server)`
+  1. **JSONPerf** - ([Repo](https://github.com/ronlut/jsonperf), [Home](https://jsonperf.com)) A Visual, Unbiased and Up-to-Date JSON Performance Benchmark. `(server)`
 
 ## <a id="tag-misc" href="#tag-misc">Misc</a>
 

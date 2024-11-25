@@ -1632,8 +1632,8 @@ projects:
       - organization
       - linux
   - name: jrnl
-    repo_url: https://github.com/maebert/jrnl
-    home_url: http://jrnl.sh/
+    repo_url: https://github.com/jrnl-org/jrnl
+    home_url: https://jrnl.sh/
     date_added: 2019-06-12 10:00:00
     desc: Simple, ecncrypted journal application for your command line.
     tags:

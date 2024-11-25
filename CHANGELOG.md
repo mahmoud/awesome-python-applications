@@ -445,7 +445,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-06-12
 
-  1. **jrnl** - ([Repo](https://github.com/maebert/jrnl), [Home](http://jrnl.sh/)) Simple, ecncrypted journal application for your command line.
+  1. **jrnl** - ([Repo](https://github.com/jrnl-org/jrnl), [Home](https://jrnl.sh/)) Simple, ecncrypted journal application for your command line.
 
 
 

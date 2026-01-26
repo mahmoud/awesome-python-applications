@@ -110,6 +110,7 @@ thereof), see Architectures. -->
   1. **Tautulli** - ([Repo](https://github.com/Tautulli/Tautulli), [Home](https://tautulli.com/), [Fund](https://www.patreon.com/Tautulli)) Web monitor for Plex Media Server. `(video, server)`
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
+  1. **What Broke Today** - ([Repo](https://github.com/reshadat/whatbroketoday), [Home](https://whatbroke.today/)) AI-powered outage aggregator tracking 100+ cloud services with real-time Telegram alerts, RSS feed, and JSON API. `(server, fastapi)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
   1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest)) Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(linux, windows, mac)`
 

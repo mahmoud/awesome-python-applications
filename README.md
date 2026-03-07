@@ -629,3 +629,4 @@ Projects related to software development and adjacent technical areas.
 ## Conclusion
 
 If you have a project to add, [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
+- **traceflux** - ([Repo](https://github.com/tracer-mohist/traceflux)) Text search engine with associative discovery using co-occurrence graphs and PageRank.

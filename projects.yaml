@@ -1706,6 +1706,13 @@ projects:
     tags:
       - organization
       - server
+  - name: paperless-telegram-bot
+    repo_url: https://github.com/GeiserX/paperless-telegram-bot
+    date_added: 2026-03-08 00:00:00
+    desc: Manage Paperless-NGX documents entirely through Telegram - upload, search, tag, and organize.
+    tags:
+      - organization
+      - server
   - name: Paperwork
     repo_url: https://gitlab.gnome.org/World/OpenPaperwork/paperwork
     home_url: https://openpaper.work/

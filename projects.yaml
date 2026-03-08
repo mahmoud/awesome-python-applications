@@ -4452,3 +4452,11 @@ projects:
       - misc
       - linux
       - windows
+  - name: paperless-telegram-bot
+    repo_url: https://github.com/GeiserX/paperless-telegram-bot
+    desc: Telegram bot for managing Paperless-NGX documents — upload files, search by content, organize metadata, review inbox, and download documents, all from a chat interface.
+    tags:
+      - organization
+      - communication
+      - server
+      - docker

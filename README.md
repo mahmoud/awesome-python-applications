@@ -40,7 +40,7 @@ thereof), see Architectures. -->
 1. <a href="#tag-ai">AI/ML</a> *(4)*
 1. <a href="#tag-graphics">Graphics</a> *(21)*
 1. <a href="#tag-games">Games</a> *(10)*
-1. <a href="#tag-productivity">Productivity</a> *(27)*
+1. <a href="#tag-productivity">Productivity</a> *(28)*
 1. <a href="#tag-organization">Organization</a> *(45)*
 1. <a href="#tag-communication">Communication</a> *(35)*
 1. <a href="#tag-education">Education</a> *(9)*
@@ -205,6 +205,7 @@ thereof), see Architectures. -->
   1. **Metamorphose** - ([Repo](https://github.com/metamorphose/metamorphose2), [Home](http://file-folder-ren.sourceforge.net/)) Graphical mass renaming program for files and folders. `(linux, windows, mac, wx)`
   1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform. `(storage, linux, windows, mac, console, appimage, lgpl, qt5)`
   1. **nvda** - ([Repo](https://github.com/nvaccess/nvda), [Home](https://www.nvaccess.org/)) Non-Visual Desktop Access, a powerful screen reader for Windows. `(windows, wx)`
+  1. **nless** - ([Repo](https://github.com/mpryor/nothing-less), [PyPI](https://pypi.org/project/nothing-less)) TUI pager for exploring and analyzing tabular data with vi keybindings. `(linux, mac, tui)`
   1. **OCRmyPDF** - ([Repo](https://github.com/ocrmypdf/ocrmypdf), [Fund](https://opencollective.com/james-barlow), [Snap](https://snapcraft.io/ocrmypdf), [Docs](http://ocrmypdf.readthedocs.io/)) Adds an OCR text layer to scanned PDF files, enabling text search and selection. `(console)`
   1. **PDF Arranger** - ([Repo](https://github.com/pdfarranger/pdfarranger), [Snap](https://snapcraft.io/pdfarranger)) Merge and split PDF documents, as well as crop and rearrange pages. `(linux, windows, gtk)`
   1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application. `(linux, windows, mac, hardware, qt5)`

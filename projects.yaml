@@ -1449,6 +1449,16 @@ projects:
       - linux
       - mac
       - tui
+  - name: nless
+    repo_url: https://github.com/mpryor/nothing-less
+    pypi_url: https://pypi.org/project/nothing-less
+    date_added: 2026-03-19 00:00:00
+    desc: TUI pager for exploring and analyzing tabular data with vi keybindings, supporting CSV, TSV, JSON, logs, and streaming output with automatic structure inference.
+    tags:
+      - productivity
+      - linux
+      - mac
+      - tui
   - name: Vorta
     repo_url: https://github.com/borgbase/vorta
     home_url: https://vorta.borgbase.com/

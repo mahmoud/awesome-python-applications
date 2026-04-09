@@ -218,6 +218,7 @@ thereof), see Architectures. -->
   1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(linux, mac)`
   1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=mahmoud_awesome-python-applications) - Social feed for GitHub. Follow designers and frontend devs, discover trending UI/design repos.
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 
   1. **Ambar** - ([Repo](https://github.com/RD17/ambar), [Home](https://ambar.cloud/), [Demo](https://app.ambar.cloud/), [Docs](https://ambar.cloud/docs/system-requirements)) Document search engine with automated crawling, OCR, tagging, and instant full-text search. `(server)`

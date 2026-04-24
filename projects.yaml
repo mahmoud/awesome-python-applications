@@ -826,6 +826,16 @@ projects:
 
 # Ai
 
+  - name: DeepAlpha
+    repo_url: https://github.com/stefanoviana/deepalpha
+    home_url: https://pypi.org/project/deepalpha/
+    date_added: 2026-04-24 12:00:00
+    desc: AI-powered crypto trading bot with 70.9% walk-forward validated accuracy using XGBoost + LightGBM ensemble with 72 engineered features. Supports Bybit and Binance exchanges.
+    tags:
+      - ai
+      - linux
+      - windows
+      - mac
   - name: Aim
     repo_url: https://github.com/aimhubio/aim
     home_url: https://aimstack.io/

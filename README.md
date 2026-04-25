@@ -314,7 +314,7 @@ thereof), see Architectures. -->
   1. **NBGrader** - ([Repo](https://github.com/jupyter/nbgrader), [Docs](https://nbgrader.readthedocs.io/en/stable)) Jupyter-based application which enables educators to create, assign, and grade assignments in notebook form. `(server)`
   1. **Open edX Platform** - ([Repo](https://github.com/edx/edx-platform), [Home](http://open.edx.org/), [WP](https://en.wikipedia.org/wiki/EdX#Open_edX)) Platform for online education providers, powering [edX](https://en.wikipedia.org/wiki/EdX). `(server)`
   1. **RELATE** - ([Repo](https://github.com/inducer/relate), [Docs](https://documen.tician.de/relate)) Web-based courseware with support for course planning and versioning, scheduling, testing, and grading. `(server)`
-  1. **Tutor** - ([Repo](https://github.com/overhangio/tutor), [Docs](https://docs.tutor.overhang.io/)) Docker-based Open edX distribution, both for production and local development, with a goal of easing deployment, customization, upgrading, and scaling. `(server)`
+  1. **Tutor**  1. **Bible School LMS** - ([Repo](https://github.com/ArVaViT/biblie-school), [Home](https://biblie-school-frontend.vercel.app)) Free, open-source learning management system for Bible schools and nonprofits, built with FastAPI, SQLAlchemy, and Pydantic. Features course authoring, quizzes, grading, and progress tracking. \(server, fastapi)\n - ([Repo](https://github.com/overhangio/tutor), [Docs](https://docs.tutor.overhang.io/)) Docker-based Open edX distribution, both for production and local development, with a goal of easing deployment, customization, upgrading, and scaling. `(server)`
 
 ## <a id="tag-science" href="#tag-science">Science</a>
 

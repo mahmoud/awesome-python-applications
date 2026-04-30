@@ -874,6 +874,16 @@ projects:
       - dev
       - server
 
+  - name: DeepAlpha
+    repo_url: https://github.com/stefanoviana/deepalpha
+    home_url: https://deepalphabot.com
+    date_added: 2026-04-30 12:00:00
+    desc: AI-powered crypto trading bot with ML ensemble models (XGBoost, LightGBM, CatBoost). Features 3 bot types (AI, Grid, DCA), 12 exchange support via CCXT, and Telegram bot control. Available on PyPI.
+    tags:
+      - ai
+      - server
+      - linux
+
 # Graphics
 
   - name: cartoonify / Draw This.

@@ -4452,3 +4452,11 @@ projects:
       - misc
       - linux
       - windows
+  - name: ViralMint
+    repo_url: https://github.com/openclaw-easy/ViralMint
+    home_url: https://viralmint.net
+    date_added: 2026-05-07 18:55:00
+    desc: Desktop pipeline that scouts trending videos on YouTube, TikTok and Douyin, transcribes them locally with Whisper, then assembles originals with AI script, voice, captions and music.
+    tags:
+      - video
+      - ai

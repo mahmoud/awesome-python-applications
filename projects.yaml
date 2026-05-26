@@ -4452,3 +4452,11 @@ projects:
       - misc
       - linux
       - windows
+  - name: Prompter
+    repo_url: https://github.com/whonixnetworks/prompter
+    date_added: 2026-05-26 00:00:00
+    desc: Terminal-based multi-model prompt comparison and evaluation tool for Ollama. Single file, zero dependencies, curses TUI.
+    tags:
+      - dev
+      - tui
+      - linux

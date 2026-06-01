@@ -629,3 +629,4 @@ Projects related to software development and adjacent technical areas.
 ## Conclusion
 
 If you have a project to add, [please let us know](https://github.com/mahmoud/awesome-python-applications/issues)!
+- [AI Tools Hub](https://cloud1-d4g787x2022795b0b-1435432994.tcloudbaseapp.com/hub.html) - 21 free AI tools, one-time crypto payment, no subscriptions.

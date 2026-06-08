@@ -1085,6 +1085,18 @@ projects:
       - graphics
       - dev
       - server
+  - name: pyimgtag
+    repo_url: https://github.com/kurok/pyimgtag
+    pypi_url: https://pypi.org/project/pyimgtag/
+    date_added: 2026-06-08 00:00:00
+    desc: Command-line photo tagger that runs a local vision model (Gemma via Ollama by default) to add searchable tags, scene categories, and EXIF-GPS-derived location to images. Supports querying, scoring, and cleaning up a photo library from the terminal; Apple Photos write-back on macOS. Local by default, with optional remote or cloud backends.
+    tags:
+      - graphics
+      - ai
+      - console
+      - linux
+      - windows
+      - mac
 
 # Games
 

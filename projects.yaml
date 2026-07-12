@@ -2126,6 +2126,19 @@ projects:
       - server
 
 # Education
+  - name: AI Language Partner
+    repo_url: https://github.com/duct-tape2/ai-language-partner
+    home_url: https://duct-tape2.github.io/ai-language-partner
+    demo_url: https://duct-tape2.github.io/ai-language-partner/demo
+    date_added: 2026-07-12 03:57:31
+    desc: Local-first mobile and browser-based Japanese speaking practice for Korean learners, using pre-authored dialogue banks and local speech recognition and synthesis.
+    tags:
+      - education
+      - android
+      - browser
+      - server
+      - fastapi
+      - js
 
   - name: Anki
     repo_url: https://github.com/dae/anki

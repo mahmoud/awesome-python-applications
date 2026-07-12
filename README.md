@@ -111,6 +111,7 @@ thereof), see Architectures. -->
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery. `(linux, windows, mac, qt5)`
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites. `(linux, windows, mac)`
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites. `(linux, windows, mac)`
+  1. **YouTubeGO** - ([Repo](https://github.com/Efeckc17/YoutubeGO), [Home](https://github.com/Efeckc17/YoutubeGO)) High-performance video/audio downloader with MP3/MP4 support, smart queueing, and cross-platform UI, powered by yt-dlp. `(linux, windows)`
   1. **ZeroNet** - ([Repo](https://github.com/HelloZeroNet/ZeroNet), [Home](https://zeronet.io/), [WP](https://en.wikipedia.org/wiki/ZeroNet), [Docs](https://zeronet.readthedocs.io/en/latest)) Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network. `(linux, windows, mac)`
 
 ## <a id="tag-audio" href="#tag-audio">Audio</a>

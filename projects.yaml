@@ -4224,6 +4224,17 @@ projects:
       - linux
       - windows
       - mac
+  - name: Lateralus
+    repo_url: https://github.com/bad-antics/lateralus-lang
+    home_url: https://lateralus.dev
+    pypi_url: https://pypi.org/project/lateralus-lang
+    date_added: 2026-04-12 05:00:00
+    desc: Programming language with spiral-based syntax that compiles to C99, LLVM IR, and WebAssembly. Features pattern matching, type inference, and a built-in REPL.
+    tags:
+      - dev
+      - linux
+      - windows
+      - mac
   - name: pre-commit
     repo_url: https://github.com/pre-commit/pre-commit
     home_url: https://pre-commit.com/

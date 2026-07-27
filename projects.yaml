@@ -4436,3 +4436,17 @@ projects:
       - misc
       - linux
       - windows
+  - name: IHUI-AI
+    repo_url: https://github.com/IHUI-INF-AI/IHUI-AI
+    home_url: https://ihui.ai
+    docs_url: https://github.com/IHUI-INF-AI/IHUI-AI/blob/main/README.md
+    date_added: 2026-07-27
+    desc: Eight-platform full-stack AI operating system (web, API, AI service, CLI, desktop, browser extension, mobile, mini-program) unifying 176 large language models via LangGraph, MCP, and A2A, with multi-tenant row-level security over 340 tables, retrieval-augmented generation knowledge base, and agent marketplace.
+    tags:
+      - ai
+      - internet
+      - dev
+      - linux
+      - mac
+      - windows
+      - corp

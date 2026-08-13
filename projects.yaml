@@ -1431,6 +1431,16 @@ projects:
     tags:
       - productivity
       - server
+  - name: nless
+    repo_url: https://github.com/mpryor/nothing-less
+    pypi_url: https://pypi.org/project/nothing-less
+    date_added: 2026-03-19 10:00:00
+    desc: TUI pager for exploring and analyzing tabular data with vi keybindings.
+    tags:
+      - productivity
+      - linux
+      - mac
+      - tui
   - name: VisiData
     repo_url: https://github.com/saulpw/visidata
     home_url: https://visidata.org/

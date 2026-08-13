@@ -217,6 +217,7 @@ thereof), see Architectures. -->
   1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing, and converting datasets in the terminal. `(linux, mac, tui)`
   1. **Vorta** - ([Repo](https://github.com/borgbase/vorta), [Home](https://vorta.borgbase.com/)) GUI backup client built on top of [BorgBackup](https://borgbackup.readthedocs.io/). `(linux, mac)`
   1. **wttr.in** - ([Repo](https://github.com/chubin/wttr.in), [Home](http://wttr.in/)) Weather forecast service that supports various representations, suitable for the terminal or web browser. `(server, flask)`
+  1. **Bulk Image Resizer** - ([Repo](https://github.com/anshiket/bulk-image-resizer-python), [Home](https://anshika636.gumroad.com/l/image-tool)) Bulk resize images with 1-click using Python. `(windows, python)`
 
 ## <a id="tag-organization" href="#tag-organization">Organization</a>
 

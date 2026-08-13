@@ -165,7 +165,7 @@ following represent the goals of this list versus many others:
 4. Links, specifically repo link required, for automated quality control (dead links, dead projects)
 5. Human-readable docs, machine-readable structured data
 6. Open-source: contribute via PR
-7. Tagged, with mutliple tag dimensions (tagsonomy)
+7. Tagged, with multiple tag dimensions (tagsonomy)
 8. [Long-term vision](https://github.com/mahmoud/awesome-python-applications/blob/master/TODO.md#long-term-vision)
 
 If you have ideas on how to achieve the above, we would love to hear

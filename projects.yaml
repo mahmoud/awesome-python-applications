@@ -2239,6 +2239,16 @@ projects:
       - windows
       - mac
       - gtk
+  - name: BulkSeq Studio
+    repo_url: https://github.com/tunabirgun/bulkseq-studio
+    home_url: https://tunabirgun.github.io/bulkseq-studio
+    date_added: 2026-08-14 22:29:41
+    desc: Cross-platform graphical workbench for reproducible bulk RNA-seq and microarray analysis, from raw or processed inputs through differential expression, enrichment, networks, reports, and provenance.
+    tags:
+      - science
+      - linux
+      - windows
+      - qt6
   - name: CellProfiler
     repo_url: https://github.com/CellProfiler/CellProfiler
     home_url: http://cellprofiler.org/

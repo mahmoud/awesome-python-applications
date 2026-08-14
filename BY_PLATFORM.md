@@ -23,9 +23,9 @@ segmentation by distribution (i.e., Docker, etc.)
 
 **Contents**
 
-1. <a href="#tag-desktop">Desktop</a> *(260)*
-    1. <a href="#tag-desktop.linux">Linux</a> *(240)*
-    1. <a href="#tag-desktop.windows">Windows</a> *(151)*
+1. <a href="#tag-desktop">Desktop</a> *(261)*
+    1. <a href="#tag-desktop.linux">Linux</a> *(241)*
+    1. <a href="#tag-desktop.windows">Windows</a> *(152)*
     1. <a href="#tag-desktop.mac">Mac</a> *(152)*
     1. <a href="#tag-desktop.console">Console</a> *(22)*
 1. <a href="#tag-mobile">Mobile</a> *(1)*
@@ -65,6 +65,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **BorgBackup** - ([Repo](https://github.com/borgbackup/borg), [Home](https://www.borgbackup.org/)) Deduplicating backup system with optional encryption and other features. `(productivity)`
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(build, windows, mac)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(internet, organization, windows, mac, server)`
+  1. **BulkSeq Studio** - ([Repo](https://github.com/tunabirgun/bulkseq-studio), [Home](https://tunabirgun.github.io/bulkseq-studio)) Cross-platform graphical workbench for reproducible bulk RNA-seq and microarray analysis, from raw or processed inputs through differential expression, enrichment, networks, reports, and provenance. `(science, windows, qt6)`
   1. **Bup** - ([Repo](https://github.com/Bup/Bup), [Home](https://bup.github.io/)) Efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication. `(productivity, mac)`
   1. **BYOB (Build Your Own Botnet)** - ([Repo](https://github.com/malwaredllc/byob)) Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets. `(security, windows, mac)`
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(static_site, windows, mac)`
@@ -300,6 +301,7 @@ segmentation by distribution (i.e., Docker, etc.)
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy. `(productivity, linux, gtk)`
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds. `(build, linux, mac)`
   1. **buku** - ([Repo](https://github.com/jarun/buku), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMLTQ76JSXJ4Q), [Docs](https://github.com/jarun/buku/wiki)) Browser-independent bookmark manager with CLI and web server frontends, with integrations for browsers, cloud-based bookmark managers, and emacs. `(internet, organization, linux, mac, server)`
+  1. **BulkSeq Studio** - ([Repo](https://github.com/tunabirgun/bulkseq-studio), [Home](https://tunabirgun.github.io/bulkseq-studio)) Cross-platform graphical workbench for reproducible bulk RNA-seq and microarray analysis, from raw or processed inputs through differential expression, enrichment, networks, reports, and provenance. `(science, linux, qt6)`
   1. **BYOB (Build Your Own Botnet)** - ([Repo](https://github.com/malwaredllc/byob)) Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets. `(security, linux, mac)`
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates. `(static_site, linux, mac)`
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [WP](https://en.wikipedia.org/wiki/Calibre_%28software%29), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats. `(organization, linux, mac, qt5)`

@@ -858,6 +858,15 @@ projects:
       - linux
       - mac
       - corp
+  - name: OrcaRouter Lite
+    repo_url: https://github.com/Continuum-AI-Corp/OrcaRouter-Lite
+    home_url: https://www.orcarouter.ai
+    date_added: 2026-08-24 00:00:00
+    desc: Self-hosted LLM gateway that puts one OpenAI-compatible endpoint in front of OpenAI, Anthropic, Google, Groq, Together and Fireworks. Routes requests using your own provider keys, fails over between providers automatically, streams responses, and can pick a model per request by cost, latency or quality.
+    tags:
+      - ai
+      - docker
+      - linux
   - name: Polyaxon
     repo_url: https://github.com/polyaxon/polyaxon
     home_url: https://polyaxon.com/

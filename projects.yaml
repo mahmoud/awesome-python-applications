@@ -1295,7 +1295,8 @@ projects:
       - organization
       - windows
       - mac
-      - apache  - name: Kibitzr
+      - apache
+  - name: Kibitzr
     repo_url: https://github.com/kibitzr/kibitzr
     home_url: https://kibitzr.github.io/
     docs_url: https://kibitzr.readthedocs.io/

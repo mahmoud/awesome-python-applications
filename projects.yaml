@@ -1285,7 +1285,17 @@ projects:
       - linux
       - windows
       - mac
-  - name: Kibitzr
+  - name: InvoiceFlowAI
+    repo_url: https://github.com/EthanYoQ/Invoice-Downloader
+    home_url: https://www.orz.md/invoice-downloader/
+    date_added: 2026-09-10 00:00:00
+    desc: Desktop tool that collects PDF/OFD/XML invoices from supported email accounts, extracts fields with OCR, deduplicates and organizes files, and exports an Excel reimbursement summary with human review.
+    tags:
+      - productivity
+      - organization
+      - windows
+      - mac
+      - apache  - name: Kibitzr
     repo_url: https://github.com/kibitzr/kibitzr
     home_url: https://kibitzr.github.io/
     docs_url: https://kibitzr.readthedocs.io/

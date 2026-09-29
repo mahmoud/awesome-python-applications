@@ -15,7 +15,7 @@ are a gold mine of practical patterns that we know work together. A
 production application is worth a thousand blog posts and Stack
 Overflow answers.
 
-This document is an always-growing list of **426**
+This document is an always-growing list of **427**
 open-source Python applications arranged by topic, with links to
 repositories, docs, and more, generated from [structured
 data](https://github.com/mahmoud/awesome-python-applications/blob/master/projects.yaml)
@@ -35,9 +35,9 @@ thereof), see Architectures. -->
 **Contents**
 
 1. <a href="#tag-internet">Internet</a> *(45)*
-1. <a href="#tag-audio">Audio</a> *(17)*
+1. <a href="#tag-audio">Audio</a> *(18)*
 1. <a href="#tag-video">Video</a> *(8)*
-1. <a href="#tag-ai">AI/ML</a> *(4)*
+1. <a href="#tag-ai">AI/ML</a> *(5)*
 1. <a href="#tag-graphics">Graphics</a> *(21)*
 1. <a href="#tag-games">Games</a> *(10)*
 1. <a href="#tag-productivity">Productivity</a> *(27)*
@@ -119,6 +119,7 @@ thereof), see Architectures. -->
   1. **Exaile** - ([Repo](https://github.com/exaile/exaile), [WP](https://en.wikipedia.org/wiki/Exaile)) Cross-platform audio player, tag editor, and library organizer. `(linux, windows, mac, gtk)`
   1. **Frescobaldi** - ([Repo](https://github.com/wbsoft/frescobaldi), [WP](https://en.wikipedia.org/wiki/Frescobaldi_%28software%29)) An editor for [LilyPond](https://en.wikipedia.org/wiki/LilyPond) music files. `(linux, windows, mac, qt)`
   1. **Friture** - ([Repo](https://github.com/tlecomte/friture), [Home](http://friture.org/)) Visualizes and analyzes live audio data in real-time, including scope, spectrum analyzer, rolling 2D spectrogram, and more. `(linux, windows, mac, qt5)`
+  1. **FunASR** - ([Repo](https://github.com/modelscope/FunASR), [Home](https://www.funasr.com/), [PyPI](https://pypi.org/project/funasr)) Command-line transcription and OpenAI-compatible API server with configurable voice activity detection, punctuation, and speaker pipelines. `(ai, linux, windows, mac, server)`
   1. **Funkwhale** - ([Repo](https://dev.funkwhale.audio/funkwhale/funkwhale), [Home](https://www.funkwhale.audio/), [Docs](https://docs.funkwhale.audio/)) Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network. `(server)`
   1. **GNU Radio** - ([Repo](https://github.com/gnuradio/gnuradio), [Home](https://www.gnuradio.org/), [WP](https://en.wikipedia.org/wiki/GNU_Radio)) Software development toolkit that provides signal processing blocks to implement software-defined radios and signal-processing systems. `(linux, windows, mac, cpp, qt)`
   1. **GNU Solfege** - ([Repo](http://git.savannah.gnu.org/cgit/solfege.git), [WP](https://en.wikipedia.org/wiki/GNU_Solfege)) An ear-training program intended to help musicians improve their skills. `(linux, windows, mac, gtk)`
@@ -148,6 +149,7 @@ thereof), see Architectures. -->
 
   1. **Aim** - ([Repo](https://github.com/aimhubio/aim)) Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs. `(linux, server, fastapi)`
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, windows, mac)`
+  1. **FunASR** - ([Repo](https://github.com/modelscope/FunASR), [Home](https://www.funasr.com/), [PyPI](https://pypi.org/project/funasr)) Command-line transcription and OpenAI-compatible API server with configurable voice activity detection, punctuation, and speaker pipelines. `(audio, linux, windows, mac, server)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(organization, dev, linux, mac, corp)`
   1. **Polyaxon** - ([Repo](https://github.com/polyaxon/polyaxon), [Home](https://polyaxon.com/), [Docs](https://docs.polyaxon.com/)) A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more. `(dev, server)`
 

@@ -1,7 +1,13 @@
 # Awesome Python Applications - Changelog
 
-The same 426 projects from the Awesome Python Applications list,
+The same 427 projects from the Awesome Python Applications list,
 but arranged in reverse-chronological order of when they were listed.
+
+## 2026-05-31
+
+  1. **FunASR** - ([Repo](https://github.com/modelscope/FunASR), [Home](https://www.funasr.com/), [PyPI](https://pypi.org/project/funasr)) Command-line transcription and OpenAI-compatible API server with configurable voice activity detection, punctuation, and speaker pipelines.
+
+
 
 ## 2025-04-25
 

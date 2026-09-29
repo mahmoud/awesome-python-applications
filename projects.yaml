@@ -621,6 +621,19 @@ projects:
       - windows
       - mac
       - qt5
+  - name: FunASR
+    repo_url: https://github.com/modelscope/FunASR
+    home_url: https://www.funasr.com/
+    pypi_url: https://pypi.org/project/funasr
+    date_added: 2026-05-31 06:07:46
+    desc: Command-line transcription and OpenAI-compatible API server with configurable voice activity detection, punctuation, and speaker pipelines.
+    tags:
+      - audio
+      - ai
+      - linux
+      - windows
+      - mac
+      - server
   - name: Funkwhale
     repo_url: https://dev.funkwhale.audio/funkwhale/funkwhale
     home_url: https://www.funkwhale.audio/

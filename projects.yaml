@@ -2139,6 +2139,13 @@ projects:
       - windows
       - mac
       - qt5
+  - name: AskePub
+    repo_url: https://github.com/GeiserX/AskePub
+    date_added: 2026-03-09 00:00:00
+    desc: Self-hosted Telegram bot that uses GPT-4o to generate AI study notes from ePub books.
+    tags:
+      - education
+      - ai
   - name: explainshell.com
     repo_url: https://github.com/idank/explainshell
     home_url: https://www.explainshell.com/

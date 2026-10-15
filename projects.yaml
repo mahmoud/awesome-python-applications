@@ -746,7 +746,7 @@ projects:
     repo_url: https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation
     home_url: https://voxscribe-ai-voice-dictation.vercel.app
     date_added: 2026-08-31 00:00:00
-    desc: Hold a global hotkey anywhere on Windows to dictate, using a local Whisper model for transcription with no cloud API, typing the result directly into whatever app has focus. Includes an Android companion app with a custom keyboard and floating dictation bubble.
+    desc: Hold a global hotkey anywhere on Windows to dictate, using a local Whisper model for transcription with no cloud API, typing the result directly into whatever app has focus. Includes an Android companion app: a floating dictation button that types into any app, with the speech model running on the phone.
     tags:
       - audio
       - productivity

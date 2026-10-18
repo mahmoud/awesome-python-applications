@@ -7,7 +7,7 @@ but arranged in reverse-chronological order of when they were listed.
 
   1. **aider** - ([Repo](https://github.com/paul-gauthier/aider), [Home](https://aider.chat/)) Terminal-based AI pair programming assistant.
   1. **Beaver Habits** - ([Repo](https://github.com/daya0576/beaverhabits), [Home](https://beaverhabits.com/), [Demo](https://beaverhabits.com/demo), [Fund](https://buymeacoffee.com/henryzhu)) Self-hosted habit tracking app without "Goals".
-  1. **DollarDollar Bill Y'all** - ([Repo](https://github.com/harung1993/dollardollar), [Demo](https://ddby.finforward.xyz/), [Fund](https://buymeacoffee.com/cCFW6gZz28)) Self-hosted money management and expense splitting web service.
+  1. **DollarDollar Bill Y'all** - ([Repo](https://github.com/harung1993/dollardollar), [Fund](https://buymeacoffee.com/cCFW6gZz28)) Self-hosted money management and expense splitting web service.
 
 
 
@@ -27,7 +27,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2024-01-27
 
-  1. **Aim** - ([Repo](https://github.com/aimhubio/aim), [Home](https://aimstack.io/), [Blog](https://aimstack.io/blog)) Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs.
+  1. **Aim** - ([Repo](https://github.com/aimhubio/aim)) Aim is a self-hostable machine learning experiment tracker designed to handle 10,000s of training runs.
   1. **Dispatch** - ([Repo](https://github.com/Netflix/dispatch), [Blog](https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072), [Docs](https://netflix.github.io/dispatch)) Incident management service featuring integrations for notifications and task management. Used at Netflix.
   1. **explainshell.com** - ([Repo](https://github.com/idank/explainshell), [Home](https://www.explainshell.com/)) A web-based tool to match command-line arguments to their man pages and help text.
   1. **liberapay.com** - ([Repo](https://github.com/liberapay/liberapay.com), [Home](https://liberapay.com/), [WP](https://en.wikipedia.org/wiki/Liberapay)) A recurrent donations platform, formerly known as gittip and gratipay.
@@ -54,13 +54,13 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2023-01-26
 
-  1. **Moa Bridge** - ([Repo](https://gitlab.com/fedstoa/moa), [Home](https://moa.party/)) A service to cross post [Mastodon](https://github.com/mastodon/mastodon) toots to Twitter and Instagram.
+  1. **Moa Bridge** - ([Repo](https://gitlab.com/fedstoa/moa)) A service to cross post [Mastodon](https://github.com/mastodon/mastodon) toots to Twitter and Instagram.
 
 
 
 ## 2022-07-09
 
-  1. **Grafana OnCall** - ([Repo](https://github.com/grafana/oncall), [Docs](https://grafana.com/docs/grafana-cloud/oncall/open-source)) Developer-friendly incident response with brilliant Slack integration, with a PagerDuty migration path.
+  1. **Grafana OnCall** - ([Repo](https://github.com/grafana/oncall), [Docs](https://grafana.com/docs/oncall/latest)) Developer-friendly incident response with brilliant Slack integration, with a PagerDuty migration path.
   1. **OCRmyPDF** - ([Repo](https://github.com/ocrmypdf/ocrmypdf), [Fund](https://opencollective.com/james-barlow), [Snap](https://snapcraft.io/ocrmypdf), [Docs](http://ocrmypdf.readthedocs.io/)) Adds an OCR text layer to scanned PDF files, enabling text search and selection.
   1. **PostHog** - ([Repo](https://github.com/PostHog/posthog), [Home](https://posthog.com/), [Docs](https://posthog.com/docs)) Self-hostable product analytics for tracking events, visualizing funnels, and much more.
 
@@ -68,7 +68,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2021-10-10
 
-  1. **SQLFluff** - ([Repo](https://github.com/sqlfluff/sqlfluff), [Home](https://www.sqlfluff.com/), [Fund](https://flattr.com/github/alanmcruickshank), [PyPI](https://pypi.org/project/sqlfluff)) Dialect-flexible and configurable SQL linter, designed with ELT applications in mind, with support for templating and autofixing errors.
+  1. **SQLFluff** - ([Repo](https://github.com/sqlfluff/sqlfluff), [Home](https://www.sqlfluff.com/), [PyPI](https://pypi.org/project/sqlfluff)) Dialect-flexible and configurable SQL linter, designed with ELT applications in mind, with support for templating and autofixing errors.
 
 
 
@@ -161,27 +161,27 @@ but arranged in reverse-chronological order of when they were listed.
 ## 2020-01-07
 
   1. **Paperless** - ([Repo](https://github.com/the-paperless-project/paperless), [Docs](https://paperless.readthedocs.io/en/latest)) Scan, index, and archive all of your paper documents. Supports OCR, tags, search, encryption and more.
-  1. **Script Server** - ([Repo](https://github.com/bugy/script-server), [Demo](https://script-server.net/), [Docs](https://github.com/bugy/script-server/wiki)) Turn scripts into interactive, validated, authenticated, auditable web UIs, without modifying the scripts.
+  1. **Script Server** - ([Repo](https://github.com/bugy/script-server), [Docs](https://github.com/bugy/script-server/wiki)) Turn scripts into interactive, validated, authenticated, auditable web UIs, without modifying the scripts.
 
 
 
 ## 2019-11-13
 
-  1. **doc2dash** - ([Repo](https://github.com/hynek/doc2dash), [Home](https://doc2dash.readthedocs.io/), [PyPI](https://pypi.org/project/doc2dash)) Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).
+  1. **doc2dash** - ([Repo](https://github.com/hynek/doc2dash), [Home](https://doc2dash.readthedocs.io/), [PyPI](https://pypi.org/project/doc2dash)) Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and other [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).
   1. **GNS3 GUI** - ([Repo](https://github.com/GNS3/gns3-gui), [Home](https://www.gns3.com/), [PyPI](https://pypi.org/project/gns3-gui), [Docs](https://docs.gns3.com/)) Graphical Network Simulator used to emulate, configure, test and troubleshoot virtual and real networks. (Backed by server component [here](https://github.com/GNS3/gns3-server).)
-  1. **JHBuild** - ([Repo](https://gitlab.gnome.org/GNOME/jhbuild), [Home](https://wiki.gnome.org/Projects/Jhbuild), [gh](https://github.com/GNOME/jhbuild), [Docs](https://developer.gnome.org/jhbuild/stable/getting-started.html.en)) Tool designed to ease building collections of packages, originally written to build the GNOME desktop from sources.
+  1. **JHBuild** - ([Repo](https://gitlab.gnome.org/GNOME/jhbuild), [Home](https://wiki.gnome.org/Projects/Jhbuild), [gh](https://github.com/GNOME/jhbuild), [Docs](https://gnome.pages.gitlab.gnome.org/jhbuild/getting-started.html)) Tool designed to ease building collections of packages, originally written to build the GNOME desktop from sources.
   1. **pip-tools** - ([Repo](https://github.com/jazzband/pip-tools)) A set of command line tools to help you keep your pip-based packages fresh, even when you've pinned them.
   1. **ReproZip** - ([Repo](https://github.com/VIDA-NYU/reprozip), [Home](https://www.reprozip.org/), [Demo](https://examples.reprozip.org/), [PyPI](https://pypi.org/project/reprozip), [Docs](https://docs.reprozip.org/)) Command-line tool which automatically builds reproducible experiments archives from console commands, designed for use in computational science.
   1. **Scholia** - ([Repo](https://github.com/fnielsen/scholia), [Home](https://scholia.toolforge.org/), [Docs](https://www.wikidata.org/wiki/Wikidata%3AScholia)) Python package and web application for interacting with scholarly information on [Wikidata](https://www.wikidata.org/).
   1. **Whipper** - ([Repo](https://github.com/whipper-team/whipper)) A CLI-based CD Audio ripper designed for accuracy over speed, with support for overriding hardware caches, accuracy verification, MusicBrainz metadata lookup, hidden tracks, FLAC, and much more.
-  1. **ZEO** - ([Repo](https://github.com/zopefoundation/ZEO), [PyPI](https://pypi.org/project/ZEO), [Docs](https://zope.readthedocs.io/en/latest/zopebook/ZEO.html)) Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network.
+  1. **ZEO** - ([Repo](https://github.com/zopefoundation/ZEO), [PyPI](https://pypi.org/project/ZEO), [Docs](https://zope.readthedocs.io/en/latest/zopebook/ZEO.html)) Server and client providing [ZODB](https://zodb.org/)-based storage over the network.
   1. **ZFSp** - ([Repo](https://github.com/alcarithemad/zfsp)) A reverse-engineered [ZFS](https://en.wikipedia.org/wiki/ZFS) implementation, written in Python, without reading the original C.
 
 
 
 ## 2019-10-31
 
-  1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://www.nuxeo.com/products/drive-desktop-sync), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform.
+  1. **Nuxeo Drive** - ([Repo](https://github.com/nuxeo/nuxeo-drive), [Home](https://doc.nuxeo.com/client-apps/nuxeo-drive), [Docs](https://doc.nuxeo.com/client-apps/nuxeo-drive)) Cross-platform desktop synchronization client for the Nuxeo platform.
 
 
 
@@ -189,7 +189,7 @@ but arranged in reverse-chronological order of when they were listed.
 
   1. **Cura** - ([Repo](https://github.com/Ultimaker/Cura), [Home](https://ultimaker.com/software/ultimaker-cura), [WP](https://en.wikipedia.org/wiki/Cura_%28software%29), [Docs](https://ultimaker.com/en/resources/manuals/software)) Popular desktop software for preparation and control of 3D printing, integrated with CAD workflows.
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html).
-  1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing, and converting datasets in the terminal.
+  1. **VisiData** - ([Repo](https://github.com/saulpw/visidata), [Home](https://visidata.org/), [Fund](https://www.patreon.com/saulpw), [PyPI](https://pypi.org/project/visidata), [Docs](https://visidata.org/docs)) Interactive multitool for exploring, analyzing, and converting datasets in the terminal.
 
 
 
@@ -201,7 +201,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-10-18
 
-  1. **DrawBot** - ([Repo](https://github.com/typemytype/drawbot), [Home](http://www.drawbot.com/), [WP](https://en.wikipedia.org/wiki/DrawBot)) A powerful programmatic 2D drawing application for MacOS X which generates graphics from Python scripts.
+  1. **DrawBot** - ([Repo](https://github.com/typemytype/drawbot), [Home](http://www.drawbot.com/), [WP](https://en.wikipedia.org/wiki/Just_van_Rossum#DrawBot)) A powerful programmatic 2D drawing application for MacOS X which generates graphics from Python scripts.
   1. **hosts** - ([Repo](https://github.com/StevenBlack/hosts)) Command-line application which merges reputable [hosts files](https://en.wikipedia.org/wiki/Hosts_(file)) with deduplication for the purpose of blocking undesirable websites via DNS blackhole.
 
 
@@ -230,24 +230,24 @@ but arranged in reverse-chronological order of when they were listed.
 
   1. **B2** - ([Repo](https://github.com/Backblaze/B2_Command_Line_Tool), [PyPI](https://pypi.python.org/pypi/b2)) Command-line tool that gives easy access to all of the capabilities of Backblaze's [B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html).
   1. **BYOB (Build Your Own Botnet)** - ([Repo](https://github.com/malwaredllc/byob)) Client-server framework (RAT and C2 server) for security researchers to build and operate basic botnets.
-  1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE), [Demo](https://cape.contextis.com/submit)) Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2).
+  1. **CAPE** - ([Repo](https://github.com/ctxis/CAPE)) Web application designed to automate malware analysis, succeeded by [CAPEv2](https://github.com/kevoreilly/CAPEv2).
   1. **cellxgene** - ([Repo](https://github.com/chanzuckerberg/cellxgene), [Home](https://chanzuckerberg.github.io/cellxgene)) Web-based interactive explorer for single-cell transcriptomics data.
   1. **Cython** - ([Repo](https://github.com/cython/cython), [Home](https://cython.org/), [PyPI](https://pypi.org/project/cython), [Docs](http://docs.cython.org/)) Language and compiler designed for high-performance Python and C interoperability.
   1. **dupeGuru** - ([Repo](https://github.com/arsenetar/dupeguru), [Home](https://dupeguru.voltaicideas.net/), [Docs](https://dupeguru.voltaicideas.net/help/en)) Cross-platform GUI tool to find duplicate files.
   1. **Gitless** - ([Repo](https://github.com/sdg-mit/gitless), [Home](https://gitless.com/), [PyPI](https://pypi.org/project/gitless), [Docs](https://gitless.com/#documentation)) Simple version control system built on top of Git.
   1. **Gridsync** - ([Repo](https://github.com/gridsync/gridsync)) Cross-platform GUI built to synchronize local directories with Tahoe-LAFS storage grids.
   1. **GRR Rapid Response** - ([Repo](https://github.com/google/grr), [Docs](https://grr-doc.readthedocs.io/en/latest)) Server-agent system focused on remote live forensics for quick, browser-based triage and analysis of attacks on fleets of machines, with agent support for Linux, Windows, and OS X.
-  1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble), [Docs](https://hubblestack.readthedocs.io/en/latest)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe.
+  1. **Hubble** - ([Repo](https://github.com/hubblestack/hubble)) Modular security compliance client, providing on-demand profile-based auditing, alerting, and reporting. Originally designed for Adobe.
   1. **Launchpad** - ([Repo](https://launchpad.net/launchpad), [Home](https://launchpad.net/), [WP](https://en.wikipedia.org/wiki/Launchpad_%28website%29), [Docs](https://dev.launchpad.net/)) Software forge designed and run by Canonical, with support for Git and [Bazaar](https://en.wikipedia.org/wiki/GNU_Bazaar).
   1. **Lector** - ([Repo](https://github.com/BasioMeusPuga/Lector)) Desktop ebook reader and browser, with support for many formats, including comic book archives.
   1. **Mosaic** - ([Repo](https://github.com/usnistgov/mosaic), [Home](https://pages.nist.gov/mosaic), [Docs](https://pages.nist.gov/mosaic/html/index.html)) Desktop-based single molecule analysis toolbox that automatically decodes multi-state nanopore data.
   1. **Mylar** - ([Repo](https://github.com/evilhero/mylar)) A web-based automated comic book downloader (cbr/cbz) for use with SABnzbd, NZBGet, and torrents.
-  1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.ifw-dresden.de/), [Docs](https://nagstamon.ifw-dresden.de/docs)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more.
+  1. **Nagstamon** - ([Repo](https://github.com/HenriWahl/Nagstamon), [Home](https://nagstamon.de/), [Docs](https://nagstamon.de/documentation)) Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more.
   1. **NFO Viewer** - ([Repo](https://github.com/otsaloma/nfoview), [Home](https://otsaloma.io/nfoview)) A simple viewer for NFO files and the ASCII art therein, with preset fonts, encodings, automatic window sizing, and clickable hyperlinks.
-  1. **odemis** - ([Repo](https://github.com/delmic/odemis), [Home](https://www.delmic.com/microscopy-software-odemis)) Desktop imaging workflow software for Delmic microscopes, supporting autofocus, coordinate history, and OME-TIFF and HDF5 export.
+  1. **odemis** - ([Repo](https://github.com/delmic/odemis), [Blog](https://blog.delmic.com/odemis-delmics-open-source-microscopy-software)) Desktop imaging workflow software for Delmic microscopes, supporting autofocus, coordinate history, and OME-TIFF and HDF5 export.
   1. **PlatformIO Core** - ([Repo](https://github.com/platformio/platformio-core), [Home](https://platformio.org/), [Fund](https://platformio.org/donate?utm_source=github&utm_medium=core), [PyPI](https://pypi.org/project/platformio), [Docs](https://docs.platformio.org/en/latest?utm_source=github&utm_medium=core)) Multiplatform CLI build system and library manager for IoT development.
   1. **Pynocchio** - ([Repo](https://github.com/mstuttgart/pynocchio), [Home](https://mstuttgart.github.io/pynocchio)) Minimalist comic reader, supporting many common image and archive formats.
-  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.sourceforge.io/downloads.html)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF.
+  1. **RedNotebook** - ([Repo](https://github.com/jendrikseipp/rednotebook), [Home](https://rednotebook.app/)) Desktop journal designed for rich text, media, and template-based entries, which can be tagged and searched, as well as exported to plain text, HTML, Latex, or PDF.
   1. **ReText** - ([Repo](https://github.com/retext-project/retext), [PyPI](https://pypi.org/project/ReText), [Docs](https://github.com/retext-project/retext/wiki)) Simple but powerful editor for Markdown and reStructuredText markup languages.
   1. **s3ql** - ([Repo](https://github.com/s3ql/s3ql), [Docs](http://www.rath.org/s3ql-docs/index.html)) A standards-conforming, full-featured UNIX filesystem for cloud-based storage services (S3, Google Storage, OpenStack), supporting compression, encryption, deduplication, snapshotting, and more.
   1. **Snapcraft** - ([Repo](https://github.com/snapcore/snapcraft), [Home](https://snapcraft.io/), [Docs](https://snapcraft.io/docs)) A command-line tool to package, distribute, and update apps for Linux and IoT using containerization, developed by Canonical.
@@ -265,7 +265,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **dak** - ([Repo](https://salsa.debian.org/ftp-team/dak)) Collection of programs used to maintain the Debian project's email archives.
   1. **distro-tracker** - ([Repo](https://salsa.debian.org/qa/distro-tracker), [Demo](https://tracker.debian.org/), [Docs](https://qa.pages.debian.net/distro-tracker)) Web application designed to follow the evolution of a Debian-based distribution with email updates and a comprehensive web interface. Powers the [Debian Package Tracker](https://tracker.debian.org/).
   1. **gdbgui** - ([Repo](https://github.com/cs01/gdbgui), [Home](https://gdbgui.com/), [PyPI](https://pypi.org/project/gdbgui)) Browser-based frontend for [gdb](https://en.wikipedia.org/wiki/GNU_Debugger).
-  1. **Infection Monkey** - ([Repo](https://github.com/guardicore/monkey), [Home](https://www.guardicore.com/infectionmonkey), [Docs](https://github.com/guardicore/monkey/wiki)) Web-based tool for testing a datacenter's resiliency to perimeter breaches and internal server infection.
+  1. **Infection Monkey** - ([Repo](https://github.com/guardicore/monkey), [Home](https://www.akamai.com/infectionmonkey), [Docs](https://github.com/guardicore/monkey/wiki)) Web-based tool for testing a datacenter's resiliency to perimeter breaches and internal server infection.
   1. **Kibitzr** - ([Repo](https://github.com/kibitzr/kibitzr), [Home](https://kibitzr.github.io/), [PyPI](https://pypi.org/project/kibitzr), [Docs](https://kibitzr.readthedocs.io/)) Self-hosted personal assistant server for automating routine tasks.
   1. **LinOTP** - ([Repo](https://github.com/LinOTP/LinOTP), [Home](https://www.linotp.org/), [WP](https://en.wikipedia.org/wiki/LinOTP), [Docs](https://www.linotp.org/documentation.html)) Server supporting two-factor authentication with one-time passwords from several sources, from Yubikeys to SMS.
   1. **PeachPy** - ([Repo](https://github.com/Maratyszcza/PeachPy)) Highly portable assembler with unified syntax, sporting an extensive user list, including many cryptography libraries for Go.
@@ -280,7 +280,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-09-29
 
-  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.org/docs/current)) Web-based supply chain planning for production planning and scheduling.
+  1. **Frepple** - ([Repo](https://github.com/frePPLe/frepple), [Home](https://frepple.com/), [Docs](https://frepple.com/docs/current)) Web-based supply chain planning for production planning and scheduling.
   1. **Music Player** - ([Repo](https://github.com/albertz/music-player), [Home](http://albertz.github.io/music-player)) A simple music player designed around an infinite intelligent playlist, with support for headless playback.
   1. **RabbitVCS** - ([Repo](https://github.com/rabbitvcs/rabbitvcs), [Home](http://rabbitvcs.org/), [Docs](http://wiki.rabbitvcs.org/wiki)) Tools providing straightforward graphical access to Subversion or Git within a variety of clients, including as Nautilus, Thunar, Nemo, Caja, and the command line.
   1. **Sunflower** - ([Repo](https://github.com/MeanEYE/Sunflower), [Home](http://sunflower-fm.org/)) Small and highly-customizable twin-panel file manager for Linux with plugin support.
@@ -289,7 +289,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-09-28
 
-  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](http://ajaxsoundstudio.com/software/soundgrain), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis).
+  1. **SoundGrain** - ([Repo](https://github.com/belangeo/soundgrain), [Home](https://github.com/belangeo/soundgrain), [Fund](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CA99DH6ES3HA)) Graphical interface designed for drawing and editing trajectories to control [granular sound synthesis](https://en.wikipedia.org/wiki/Granular_synthesis).
 
 
 
@@ -303,7 +303,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-09-17
 
-  1. **Ambar** - ([Repo](https://github.com/RD17/ambar), [Home](https://ambar.cloud/), [Demo](https://app.ambar.cloud/), [Docs](https://ambar.cloud/docs/system-requirements)) Document search engine with automated crawling, OCR, tagging, and instant full-text search.
+  1. **Ambar** - ([Repo](https://github.com/RD17/ambar), [Home](https://ambar.cloud/), [Docs](https://ambar.cloud/docs/system-requirements)) Document search engine with automated crawling, OCR, tagging, and instant full-text search.
   1. **Klaus** - ([Repo](https://github.com/jonashaag/klaus), [Demo](http://klausdemo.lophus.org/), [PyPI](https://pypi.org/project/klaus), [Docs](https://github.com/jonashaag/klaus/wiki)) pip-installable web-based viewer for git repositories that "just works".
   1. **LocalStack** - ([Repo](https://github.com/localstack/localstack), [Home](https://localstack.cloud/), [PyPI](https://pypi.org/project/localstack)) Self-hostable version of many AWS services, including S3, Route53, Lambda, Redshift, and much more, designed for testing cloud-centric code.
   1. **Photonix** - ([Repo](https://github.com/damianmoore/photonix), [Home](https://photonix.org/), [Demo](https://demo.photonix.org/)) Web-based photo management, featuring smart filtering with object recognition, location awareness, color analysis, and more.
@@ -315,7 +315,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-09-13
 
-  1. **PPCI** - ([Repo](https://bitbucket.org/windel/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
+  1. **PPCI** - ([Repo](https://github.com/windelbouwman/ppci), [Demo](https://godbolt.org/g/eooaPP), [gh](https://github.com/windelbouwman/ppci-mirror), [PyPI](https://pypi.org/project/ppci), [Docs](https://ppci.readthedocs.io/)) The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).
   1. **ScratchABit** - ([Repo](https://github.com/pfalcon/ScratchABit)) Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.
 
 
@@ -323,7 +323,7 @@ but arranged in reverse-chronological order of when they were listed.
 ## 2019-09-12
 
   1. **Baby Buddy** - ([Repo](https://github.com/cdubz/babybuddy), [Demo](http://demo.baby-buddy.net/)) Mobile-friendly web application which helps caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guesswork.
-  1. **beancount** - ([Repo](https://bitbucket.org/blais/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).
+  1. **beancount** - ([Repo](https://github.com/beancount/beancount), [Home](http://furius.ca/beancount), [gh](https://github.com/beancount/beancount), [PyPI](https://pypi.org/project/beancount), [Docs](https://docs.google.com/document/d/1RaondTJCS_IUPBHFNdT8oqFKJjVJDsfsn6JEjBG04eA/edit)) A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).
   1. **fava** - ([Repo](https://github.com/beancount/fava), [Demo](https://fava.pythonanywhere.com/huge-example-file/income_statement), [Docs](https://beancount.github.io/fava)) Web interface for the double-entry bookkeeping software [Beancount](http://furius.ca/beancount/) with a focus on features and usability.
   1. **FreeNAS** - ([Repo](https://github.com/freenas/freenas), [Home](https://www.freenas.org/), [Docs](https://www.ixsystems.com/documentation/freenas)) Operating system designed to be installed virtually any hardware platform, for sharing [ZFS](https://en.wikipedia.org/wiki/ZFS)-based storage over a network, using SMB, NFS, AFP, FTP, and more.
   1. **King Phisher** - ([Repo](https://github.com/securestate/king-phisher), [Docs](https://king-phisher.readthedocs.io/)) Server-based [phishing](https://en.wikipedia.org/wiki/Phishing) campaign toolkit, used to simulate real-world phishing attacks, with GTK-powered client application.
@@ -339,9 +339,9 @@ but arranged in reverse-chronological order of when they were listed.
   1. **Collaborate** - ([Repo](https://github.com/propublica/django-collaborative), [Docs](https://propublica.gitbook.io/collaborate-user-manual)) Web-based collaboration tool designed by [Propublica](https://www.propublica.org/nerds/making-collaborative-data-projects-easier-our-new-tool-collaborate-is-here) for newsrooms to share datasets, with a workflow built around assigning tips and maintaining contacts.
   1. **Elixire** - ([Repo](https://gitlab.com/elixire/elixire), [Home](https://elixi.re/), [Docs](https://gitlab.com/elixire/api-docs)) Featureful file host and link shortener with API and support for multiple vanity urls.
   1. **Formspree** - ([Repo](https://github.com/formspree/formspree), [Home](https://formspree.io/)) Web server which turns an HTML form submission into an email, without registration, JavaScript, or custom Python.
-  1. **Funkwhale** - ([Repo](https://dev.funkwhale.audio/funkwhale/funkwhale), [Home](https://funkwhale.audio/en_US), [Docs](https://docs.funkwhale.audio/)) Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network.
+  1. **Funkwhale** - ([Repo](https://dev.funkwhale.audio/funkwhale/funkwhale), [Home](https://www.funkwhale.audio/), [Docs](https://docs.funkwhale.audio/)) Web-based, community-driven project that lets you listen and share music and audio within a decentralized, open network.
   1. **ihatemoney** - ([Repo](https://github.com/spiral-project/ihatemoney), [Home](https://ihatemoney.org/), [Docs](https://ihatemoney.readthedocs.io/)) Web application made to ease shared budget management by keeping track of who bought what, when, and for whom.
-  1. **Newspipe** - ([Repo](https://git.sr.ht/~cedric/newspipe), [Home](https://www.newspipe.org/), [gh](https://github.com/cedricbonhomme/newspipe), [Docs](https://newspipe.readthedocs.io/en/latest)) Web-based news aggregator and reader.
+  1. **Newspipe** - ([Repo](https://git.sr.ht/~cedric/newspipe), [Home](https://www.newspipe.org/), [gh](https://github.com/cedricbonhomme/newspipe)) Web-based news aggregator and reader.
   1. **Open Streaming Platform** - ([Repo](https://gitlab.com/Deamos/flask-nginx-rtmp-manager)) Self-hosted video streaming and recording server, designed as an alternative to Twitch and YouTube.
   1. **RELATE** - ([Repo](https://github.com/inducer/relate), [Docs](https://documen.tician.de/relate)) Web-based courseware with support for course planning and versioning, scheduling, testing, and grading.
   1. **uMap** - ([Repo](https://github.com/umap-project/umap), [Docs](https://wiki.openstreetmap.org/wiki/UMap)) Web application allowing users to create maps with OpenStreetMap layers and embed it on other sites.
@@ -350,22 +350,22 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-09-10
 
-  1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Demo](https://forums.flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look.
+  1. **FlaskBB** - ([Repo](https://github.com/flaskbb/flaskbb), [Home](https://flaskbb.org/), [Docs](https://flaskbb.readthedocs.io/en/latest)) A classic web forum application (bulletin board) with a modern look.
   1. **Indico** - ([Repo](https://github.com/indico/indico), [Home](https://getindico.io/), [Demo](https://sandbox.getindico.io/), [Docs](https://docs.getindico.io/en/stable/installation)) Feature-rich web application designed at [CERN](https://en.wikipedia.org/wiki/CERN) for managing events, with support for conference organization workflow, from content management to receiving and reviewing abstracts/papers, event registration, payment integration, room booking, and more.
   1. **Isso** - ([Repo](https://github.com/posativ/isso), [Home](https://posativ.org/isso)) Lightweight commenting server, designed as a drop-in replacement for Disqus.
   1. **Mayan** - ([Repo](https://gitlab.com/mayan-edms/mayan-edms), [Home](https://www.mayan-edms.com/), [Fund](https://www.paypal.me/MayanEDMS), [PyPI](https://pypi.org/project/mayan-edms/3.2.7), [Docs](https://docs.mayan-edms.com/)) Web-based document management system, designed to store, introspect, and categorize files, with OCR, preview, label, signing, and sending capabilities. Also featuring workflow system, role-based access control, and REST API.
   1. **nsupdate.info** - ([Repo](https://github.com/nsupdate-info/nsupdate.info), [PyPI](https://pypi.org/project/nsupdate), [Docs](https://nsupdateinfo.readthedocs.io/en/latest)) Featureful dynamic DNS service, using the Dynamic DNS UPDATE protocol ([RFC 2136](https://tools.ietf.org/html/rfc2136)) to update BIND and other major nameservers.
   1. **Pretalx** - ([Repo](https://github.com/pretalx/pretalx), [Home](https://pretalx.com/p/about), [Fund](https://www.patreon.com/rixx)) Web-based conference planning tool, with support for Calls for Papers (CFP), scheduling, and speaker management.
   1. **Pretix** - ([Repo](https://github.com/pretix/pretix), [Home](https://pretix.eu/), [Blog](https://pretix.eu/about/en/blog), [PyPI](https://pypi.org/project/pretix), [Docs](https://docs.pretix.eu/en/latest/development/index.html)) Web-based ticketing software, with support for customizable storefronts, direct payments, box office, and reporting.
-  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [Demo](https://surleschemins.fr/), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures.
-  1. **Shuup** - ([Repo](https://github.com/shuup/shuup), [Home](https://www.shuup.com/), [Docs](https://shuup.readthedocs.io/en/latest)) Storefront web application, with support for single- and multi-marketplace models.
-  1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_%28software%29), [Docs](https://www.spinnaker.io/concepts)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments.
+  1. **Prosopopee** - ([Repo](https://github.com/Psycojoker/prosopopee), [PyPI](https://pypi.org/project/prosopopee), [Docs](https://prosopopee.readthedocs.io/)) A static site generator designed for photographers and others who tell stories with pictures.
+  1. **Shuup** - ([Repo](https://github.com/shuup/shuup), [Home](https://github.com/shuup/shuup), [Docs](https://shuup.readthedocs.io/en/latest)) Storefront web application, with support for single- and multi-marketplace models.
+  1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_%28software%29), [Docs](https://spinnaker.io/docs/concepts)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments.
 
 
 
 ## 2019-09-09
 
-  1. **Socialhome** - ([Repo](https://git.feneas.org/socialhome/socialhome), [Home](https://socialhome.network/), [gh](https://github.com/jaywink/socialhome), [Docs](https://socialhome.readthedocs.io/en/latest)) Web application enabling users to build a federated personal profile with social networking functionality.
+  1. **Socialhome** - ([Repo](https://github.com/jaywink/socialhome), [Home](https://socialhome.network/), [gh](https://github.com/jaywink/socialhome), [Docs](https://socialhome.readthedocs.io/en/latest)) Web application enabling users to build a federated personal profile with social networking functionality.
 
 
 
@@ -380,14 +380,14 @@ but arranged in reverse-chronological order of when they were listed.
 ## 2019-09-04
 
   1. **archivematica** - ([Repo](https://github.com/artefactual/archivematica), [Home](https://www.archivematica.org/en), [Docs](https://www.archivematica.org/en/docs)) Digital preservation system designed to maintain standards-based, long-term access to collections of digital objects, targeted at archivists and librarians.
-  1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer), [Home](http://couchpota.to/)) Personal video recorder focused on movies, with support for usenet and torrents.
+  1. **CouchPotato** - ([Repo](https://github.com/CouchPotato/CouchPotatoServer)) Personal video recorder focused on movies, with support for usenet and torrents.
   1. **Headphones** - ([Repo](https://github.com/rembo10/headphones), [Docs](https://github.com/rembo10/headphones/wiki)) Web-based digital music library for automating music downloads through Usenet and torrents.
   1. **Healthchecks** - ([Repo](https://github.com/healthchecks/healthchecks), [Home](https://healthchecks.io/), [Docs](https://healthchecks.io/docs)) Web-based monitor for scheduled jobs (e.g., cron).
   1. **LazyLibrarian** - ([Repo](https://gitlab.com/LazyLibrarian/LazyLibrarian), [Forum](https://www.reddit.com/r/LazyLibrarian), [Docs](https://lazylibrarian.gitlab.io/)) Web-based digital library organizer with support for following authors and automatic metadata retrieval.
   1. **Mailu** - ([Repo](https://github.com/Mailu/Mailu), [Home](https://mailu.io/)) Full-featured mail server designed for easy setup and maintenance, supporting IMAP, IMAP+, SMTP, and Submission, as well as a slew of advanced features.
-  1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://getpinry.com/), [Docs](https://docs.getpinry.com/)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest.
+  1. **Pinry** - ([Repo](https://github.com/pinry/pinry), [Home](https://pinry.github.io/pinry), [Docs](https://pinry.github.io/pinry)) Tiling image board system for saving, tagging, and sharing images, videos, and websites, like a self-hosted Pinterest.
   1. **PyLoad** - ([Repo](https://github.com/pyload/pyload), [Home](https://pyload.net/)) Download manager with a web interface and API.
-  1. **SiCKRAGE** - ([Repo](https://git.sickrage.ca/SiCKRAGE/sickrage), [gh](https://github.com/SiCKRAGE/SiCKRAGE), [Docs](https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes)) Video library manager with support for automatic TV show archival.
+  1. **SiCKRAGE** - ([Repo](https://github.com/SiCKRAGE/SiCKRAGE), [gh](https://github.com/SiCKRAGE/SiCKRAGE)) Video library manager with support for automatic TV show archival.
   1. **Superset** - ([Repo](https://github.com/apache/incubator-superset), [Docs](http://superset.apache.org/)) Data exploration, visualization, and business intelligence web application.
   1. **syncserver** - ([Repo](https://github.com/mozilla-services/syncserver), [Docs](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)) All-in-one package for running a self-hosted Mozilla Firefox Sync server.
 
@@ -434,7 +434,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-07-31
 
-  1. **OPEM** - ([Repo](https://github.com/ECSIM/opem), [Docs](https://www.ecsim.ir/opem/doc)) A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell).
+  1. **OPEM** - ([Repo](https://github.com/ECSIM/opem), [Docs](https://www.ecsim.site/opem)) A modeling tool for evaluating the performance of [proton exchange membrane (PEM) fuel cells](https://en.wikipedia.org/wiki/Proton-exchange_membrane_fuel_cell).
 
 
 
@@ -446,7 +446,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-07-14
 
-  1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](http://taigaio.github.io/taiga-doc/dist)) Web application built for managing projects with agile development processes.
+  1. **Taiga** - ([Repo](https://github.com/taigaio/taiga-back), [Home](https://taiga.io/), [Docs](https://docs.taiga.io/)) Web application built for managing projects with agile development processes.
 
 
 
@@ -464,7 +464,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-05-07
 
-  1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://www.openstenoproject.org/plover), [Fund](https://www.openstenoproject.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application.
+  1. **Plover** - ([Repo](https://github.com/openstenoproject/plover), [Home](https://opensteno.org/plover), [Fund](https://opensteno.org/donate), [Docs](https://github.com/openstenoproject/plover/wiki)) Background service for automatic translation of stenography movements to keystrokes, enabling typing speeds in excess of 200WPM in any application.
 
 
 
@@ -497,22 +497,22 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-03-06
 
-  1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email.
+  1. **KindleEar** - ([Repo](https://github.com/cdhigh/KindleEar), [Docs](https://github.com/cdhigh/KindleEar/blob/master/readme.md)) Web application to automatically aggregate RSS into periodical mobi/epub files with images and send it to your kindle or your email.
   1. **redo** - ([Repo](https://github.com/apenwarr/redo), [PyPI](https://pypi.org/project/redo-tools), [Docs](https://redo.readthedocs.io/en/latest)) A recursive, general-purpose build sytem, replacing `make` with original design by [DJB](https://en.wikipedia.org/wiki/Daniel_J._Bernstein).
-  1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/), [Docs](https://www.spiderfoot.net/documentation)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more.
+  1. **Spiderfoot** - ([Repo](https://github.com/smicallef/spiderfoot), [Home](https://www.spiderfoot.net/)) Reconnaissance tool that automatically queries over 100 public data sources to gather intelligence on IP addresses, domain names, e-mail addresses, names, and more.
 
 
 
 ## 2019-02-22
 
-  1. **DCOS** - ([Repo](https://github.com/dcos/dcos), [Home](https://dcos.io/), [WP](https://en.wikipedia.org/wiki/Mesosphere%2C_Inc.#Mesosphere_DC/OS), [Docs](https://dcos.io/docs)) Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
+  1. **DCOS** - ([Repo](https://github.com/dcos/dcos), [Home](https://dcos.io/), [WP](https://en.wikipedia.org/wiki/Mesosphere_%28software%29), [Docs](https://dcos.io/docs)) Management platform for hardware and software resources in datacenters, built on [Apache Mesos](https://en.wikipedia.org/wiki/Apache_Mesos).
   1. **Paperwork** - ([Repo](https://gitlab.gnome.org/World/OpenPaperwork/paperwork), [Home](https://openpaper.work/), [Fund](https://www.patreon.com/openpaper), [Docs](https://gitlab.gnome.org/World/OpenPaperwork/paperwork/wikis/home)) Personal document manager for organizing scanned documents and PDFs, with support for OCR, automatic tagging, and search.
 
 
 
 ## 2019-02-21
 
-  1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US), [Docs](https://kuma.readthedocs.io/en/latest/installation.html)) The platform powering the Mozilla Developer Network (MDN)
+  1. **Kuma** - ([Repo](https://github.com/mozilla/kuma), [Home](https://developer.mozilla.org/en-US)) The platform powering the Mozilla Developer Network (MDN)
   1. **OnionShare** - ([Repo](https://github.com/micahflee/onionshare), [Home](https://onionshare.org/), [Docs](https://github.com/micahflee/onionshare/wiki)) Secure and anonymous file sharing over [Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) services.
   1. **SecureDrop** - ([Repo](https://github.com/freedomofpress/securedrop), [Home](https://securedrop.org/), [Docs](https://docs.securedrop.org/)) Whistleblower submission system for media organizations to securely accept documents from anonymous sources. Originally created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) and currently managed by the [Freedom of the Press Foundation](https://en.wikipedia.org/wiki/Freedom_of_the_Press_Foundation).
 
@@ -538,7 +538,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **aws-cli** - ([Repo](https://github.com/aws/aws-cli), [PyPI](https://pypi.org/project/awscli), [Docs](https://docs.aws.amazon.com/cli/latest)) Official command-line interface for Amazon Web Services.
   1. **Black** - ([Repo](https://github.com/ambv/black), [PyPI](https://pypi.org/project/black), [Docs](https://black.readthedocs.io/)) Uncompromising automatic formatter for Python code.
   1. **Cookiecutter** - ([Repo](https://github.com/audreyr/cookiecutter), [PyPI](https://pypi.org/project/cookiecutter), [Docs](https://cookiecutter.readthedocs.io/en/latest)) Utility for creating new projects from shareable templates.
-  1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/stable)) A cross-platform top/htop alternative, providing an overview of system resources.
+  1. **Glances** - ([Repo](https://github.com/nicolargo/glances), [Home](https://nicolargo.github.io/glances), [Docs](https://glances.readthedocs.io/en/latest)) A cross-platform top/htop alternative, providing an overview of system resources.
   1. **howdoi** - ([Repo](https://github.com/gleitz/howdoi), [PyPI](https://pypi.org/project/howdoi)) Instant coding answers from StackOverflow on your command line.
   1. **kinto** - ([Repo](https://github.com/Kinto/kinto), [Home](https://www.kinto-storage.org/), [Docs](http://docs.kinto-storage.org/)) A generic JSON document store with sharing and synchronisation capabilities, supporting in-memory and PostgreSQL backends.
   1. **Mackup** - ([Repo](https://github.com/lra/mackup), [PyPI](https://pypi.org/project/mackup)) Utility to back up and synchronize application settings, with support for several storage backends (e.g., Dropbox, Git), and dozens of applications.
@@ -562,8 +562,8 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2019-01-23
 
-  1. **Beaker** - ([Repo](https://git.beaker-project.org/cgit/beaker), [Home](https://beaker-project.org/), [Docs](https://beaker-project.org/docs)) Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
-  1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://ralph.allegro.tech/), [Docs](https://ralph-ng.readthedocs.io/en/stable)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
+  1. **Beaker** - ([Repo](https://github.com/beaker-project/beaker), [Home](https://beaker-project.org/), [Docs](https://beaker-project.org/docs)) Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.
+  1. **Ralph** - ([Repo](https://github.com/allegro/ralph), [Home](https://github.com/allegro/ralph), [Docs](https://ralph-ng.readthedocs.io/en/stable)) Simple and powerful Asset Management, DCIM, and CMDB system for the data center and back office.
 
 
 
@@ -632,7 +632,7 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2018-12-25
 
-  1. **Tryton** - ([Repo](https://hg.tryton.org/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest)) Modular web-based ERP, designed for companies of all sizes.
+  1. **Tryton** - ([Repo](https://github.com/tryton/trytond), [Home](https://www.tryton.org/), [WP](https://en.wikipedia.org/wiki/Tryton), [Docs](https://docs.tryton.org/en/latest)) Modular web-based ERP, designed for companies of all sizes.
 
 
 
@@ -657,7 +657,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **CherryTree** - ([Repo](https://github.com/giuspen/cherrytree), [Home](https://www.giuspen.com/cherrytree)) Hierarchical wiki-like personal notepad, featuring rich text and syntax highlighting.
   1. **InVesalius** - ([Repo](https://github.com/invesalius/invesalius3), [Home](https://invesalius.github.io/), [WP](https://en.wikipedia.org/wiki/InVesalius)) Generates virtual reconstructions of structures in the human body for medical purposes, including CT and MRI scans.
   1. **RedHat Anaconda** - ([Repo](https://github.com/rhinstaller/anaconda), [Docs](https://anaconda-installer.readthedocs.io/en/latest)) Installation program used by Fedora, Red Hat Enterprise Linux, and other Linux distributions.
-  1. **TortoiseHg** - ([Repo](https://bitbucket.org/tortoisehg/thg/src), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
+  1. **TortoiseHg** - ([Repo](https://foss.heptapod.net/mercurial/tortoisehg/thg), [Home](https://tortoisehg.bitbucket.io/), [Docs](https://foss.heptapod.net/mercurial/tortoisehg/thg/-/wikis/developers)) Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.
 
 
 
@@ -731,7 +731,7 @@ but arranged in reverse-chronological order of when they were listed.
 ## 2018-11-30
 
   1. **Barman** - ([Repo](https://github.com/2ndquadrant-it/barman)) Remote backup and disaster recovery for PostgreSQL.
-  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dev.dissem.in/)) Web platform to help researchers upload their papers to open-access repositories.
+  1. **Dissem.in** - ([Repo](https://github.com/dissemin/dissemin), [Home](https://dissem.in/), [Docs](https://dissemin.readthedocs.io/en/latest)) Web platform to help researchers upload their papers to open-access repositories.
   1. **pgcli** - ([Repo](https://github.com/dbcli/pgcli), [Home](https://www.pgcli.com/), [PyPI](https://pypi.python.org/pypi/pgcli)) Interactive PostgreSQL client that does auto-completion and syntax highlighting.
   1. **WAL-E** - ([Repo](https://github.com/wal-e/wal-e)) Continuous archiving of PostgreSQL WAL files and base backups.
 
@@ -740,11 +740,11 @@ but arranged in reverse-chronological order of when they were listed.
 ## 2018-11-26
 
   1. **Allura** - ([Repo](https://github.com/apache/allura), [Home](https://allura.apache.org/), [WP](https://en.wikipedia.org/wiki/Apache_Allura)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)), with support for git, hg, and svn.
-  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible)) Agentless, playbook-based automation.
+  1. **Ansible** - ([Repo](https://github.com/ansible/ansible), [Home](https://www.ansible.com/), [Docs](https://docs.ansible.com/ansible/latest/index.html)) Agentless, playbook-based automation.
   1. **asciidoc** - ([Repo](https://github.com/asciidoc/asciidoc)) Text document format for writing notes, documentation, articles, books, slideshows, man pages & blogs.
   1. **Askbot** - ([Repo](https://github.com/ASKBOT/askbot-devel), [Home](https://askbot.com/)) Q&A web platform similar to StackOverflow, complete with tagging, reputation, badges, and more.
   1. **Bandersnatch** - ([Repo](https://github.com/pypa/bandersnatch)) PyPI mirror client complying with [PEP 381](http://www.python.org/dev/peps/pep-0381/).
-  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
+  1. **bitbake** - ([Repo](https://github.com/openembedded/bitbake), [WP](https://en.wikipedia.org/wiki/BitBake), [Docs](https://docs.yoctoproject.org/bitbake)) Generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints.
   1. **buildbot** - ([Repo](https://github.com/buildbot/buildbot), [WP](https://en.wikipedia.org/wiki/Buildbot), [Docs](https://www.buildbot.net/)) Job scheduling system tailored to the needs of continuous integration and software packaging.
   1. **Buildout** - ([Repo](https://github.com/buildout/buildout), [WP](https://en.wikipedia.org/wiki/Buildout), [Docs](http://docs.buildout.org/)) Extensible deployment automation tool designed for application-centric assembly and deployment, as well as repeatable Python software builds.
   1. **Chert** - ([Repo](https://github.com/mahmoud/chert), [PyPI](https://pypi.org/project/chert)) Static site generator with built-in support for listicles, created by this humble author, used to power [calver.org](https://calver.org), [0ver.org](https://0ver.org), and [sedimental.org](https://sedimental.org/), the author's blog. Mostly here as an easter egg :)
@@ -755,36 +755,36 @@ but arranged in reverse-chronological order of when they were listed.
   1. **Deluge** - ([Repo](https://github.com/deluge-torrent/deluge), [Home](https://deluge-torrent.org/), [WP](https://en.wikipedia.org/wiki/Deluge_%28software%29), [Fund](https://www.patreon.com/deluge_cas)) Popular, lightweight, cross-platform BitTorrent client.
   1. **devpi** - ([Repo](https://github.com/devpi/devpi), [Docs](http://doc.devpi.net/)) PyPI staging server, as well as a packaging, testing, release tool, complete with web and search interface. Like a local PyPI.
   1. **dnf** - ([Repo](https://github.com/rpm-software-management/dnf), [WP](https://en.wikipedia.org/wiki/DNF_%28software%29), [Docs](https://dnf.readthedocs.io/en/latest)) Dandified YUM (DNF) is the successor to `yum` and works everywhere yum worked.
-  1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica), [Docs](http://ergonomica.readthedocs.io/)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
-  1. **Eric IDE** - ([Repo](http://die-offenbachs.homelinux.org:48888/hg/eric), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control.
-  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://www.fail2ban.org/wiki/index.php/Main_Page), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
+  1. **Ergonomica** - ([Repo](https://github.com/ergonomica/ergonomica)) Cross-platform shell language based on [S-expressions](https://en.wikipedia.org/wiki/S-expression) combined with traditional shell features.
+  1. **Eric IDE** - ([Repo](https://eric-ide.python-projects.org/), [Home](https://eric-ide.python-projects.org/)) Python editor and IDE, based on Qt, integrating Scintilla editor control.
+  1. **fail2ban** - ([Repo](https://github.com/fail2ban/fail2ban), [Home](https://github.com/fail2ban/fail2ban), [WP](https://en.wikipedia.org/wiki/Fail2ban)) Daemon to ban hosts that cause multiple authentication errors on Linux servers.
   1. **Ganeti** - ([Repo](https://github.com/ganeti/ganeti)) Virtual machine cluster management tool built on existing virtualization technologies such as [Xen](https://en.wikipedia.org/wiki/Xen) and [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
   1. **Gedit** - ([Repo](https://gitlab.gnome.org/GNOME/gedit), [WP](https://en.wikipedia.org/wiki/Gedit)) The default GNOME text editor makes extensive use of Python, in addition to C.
-  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](http://bazaar.canonical.com/en), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](http://doc.bazaar.canonical.com/en)) Distributed and client-server revision control system.
-  1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](http://guake-project.org/), [PyPI](https://pypi.org/project/guake)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
+  1. **GNU Bazaar** - ([Repo](https://code.launchpad.net/bzr), [Home](https://www.gnu.org/software/bazaar), [WP](https://en.wikipedia.org/wiki/GNU_Bazaar), [Docs](https://www.gnu.org/software/bazaar)) Distributed and client-server revision control system.
+  1. **Guake** - ([Repo](https://github.com/Guake/guake), [Home](https://guake.github.io/), [PyPI](https://pypi.org/project/guake)) Drop-down terminal for GNOME, reminiscent of first-person game command consoles.
   1. **Gunicorn** - ([Repo](https://github.com/benoitc/gunicorn), [Home](https://gunicorn.org/), [PyPI](https://pypi.python.org/pypi/gunicorn)) Pluggable, pre-fork WSGI server, started as the counterpart to [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)).
-  1. **GYP** - ([Repo](https://chromium.googlesource.com/external/gyp), [Home](https://gyp.gsrc.io/), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems.
-  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](http://heliosvoting.org/)) End-to-end verifiable voting system.
+  1. **GYP** - ([Repo](https://github.com/chromium/gyp), [Home](https://github.com/chromium/gyp), [WP](https://en.wikipedia.org/wiki/GYP_%28software%29)) AKA 'Generate Your Projects', a build system that generates other build systems.
+  1. **Helios Voting** - ([Repo](https://github.com/benadida/helios-server), [Home](https://vote.heliosvoting.org/)) End-to-end verifiable voting system.
   1. **Hyde** - ([Repo](https://github.com/hyde/hyde), [Home](http://hyde.github.io/), [PyPI](https://pypi.org/project/hyde)) Static site generator which began as the Python counterpart to [Jekyll](https://github.com/jekyll/jekyll).
   1. **IPython** - ([Repo](https://github.com/ipython/ipython), [PyPI](https://pypi.org/project/ipython), [Docs](https://ipython.readthedocs.org/)) Set of enhancements to Python, wrapping it for richer interactivity.
   1. **JARVIS on Messenger** - ([Repo](https://github.com/swapagarwal/JARVIS-on-Messenger), [Home](https://m.me/J.A.R.V.I.S.on.Messenger)) Facebook Messenger bot with a wide assortment of features.
   1. **Jupyter Notebook** - ([Repo](https://github.com/jupyter/notebook), [Home](https://jupyter.org/), [WP](https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook)) Web-based, extensible notebook environment for interactive computing.
   1. **Kallithea** - ([Repo](https://kallithea-scm.org/repos/kallithea), [WP](https://en.wikipedia.org/wiki/Kallithea_%28software%29)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) for Mercurial and Git with a built-in push/pull server, full text search, and code-review. Forked from RhodeCode in 2014.
-  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://www.activestate.com/products/komodo-edit), [WP](https://en.wikipedia.org/wiki/Komodo_Edit)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
-  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](http://leoeditor.com/), [WP](https://en.wikipedia.org/wiki/Leo_%28text_editor%29)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
+  1. **Komodo Edit** - ([Repo](https://github.com/Komodo/KomodoEdit), [Home](https://github.com/ActiveState/OpenKomodoIDE), [WP](https://en.wikipedia.org/wiki/Komodo_Edit)) Multi-language code editor, written in JS, Python, and C++, based on the Mozilla platform.
+  1. **Leo Editor** - ([Repo](https://github.com/leo-editor/leo-editor), [Home](https://leo-editor.github.io/leo-editor), [WP](https://en.wikipedia.org/wiki/Leo_%28text_editor%29)) Personal Information Manager (PIM), IDE, and outliner with a holistic approach to programming and writing.
   1. **Locust** - ([Repo](https://github.com/locustio/locust), [Home](https://locust.io/), [Docs](https://docs.locust.io/)) Scalable user load testing tool for web sites, featuring an interactive web interface.
-  1. **MakeHuman** - ([Repo](https://bitbucket.org/MakeHuman/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
+  1. **MakeHuman** - ([Repo](https://github.com/makehumancommunity/makehuman), [WP](https://en.wikipedia.org/wiki/MakeHuman)) 3D computer graphics software designed for the prototyping of photo realistic humanoids.
   1. **Meld** - ([Repo](https://github.com/GNOME/meld), [Home](http://meldmerge.org/)) Visual diff and merge tool targeted at developers, providing two- and three-way comparison of both files and directories, and supports many version control systems including Git, Mercurial, Bazaar, and Subversion.
   1. **Mercurial** - ([Repo](https://www.mercurial-scm.org/repo/hg-stable), [Home](https://www.mercurial-scm.org/), [WP](https://en.wikipedia.org/wiki/Mercurial)) Cross-platform distributed revision-control system designed for high performance and advanced branching/merging capabilities.
   1. **Meson** - ([Repo](https://github.com/mesonbuild/meson), [Home](http://mesonbuild.com/)) Build system designed for speed and user-friendliness.
   1. **Neubot** - ([Repo](https://github.com/neubot/neubot), [Home](http://www.neubot.org/)) Lightweight agent which collects data for net-neutrality research.
   1. **Nicotine+** - ([Repo](https://github.com/Nicotine-Plus/nicotine-plus)) Graphical desktop client for the [Soulseek](https://en.wikipedia.org/wiki/Soulseek) peer-to-peer system.
-  1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus), [Home](http://www.nimbusproject.org/)) Infrastructure-as-a-Service platform geared toward scientific cloud computing.
-  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/), [WP](https://en.wikipedia.org/wiki/Ninja-IDE)) Cross-platform Python IDE with project management, linting, extensions, and more.
+  1. **Nimbus** - ([Repo](https://github.com/nimbusproject/nimbus)) Infrastructure-as-a-Service platform geared toward scientific cloud computing.
+  1. **Ninja IDE** - ([Repo](https://github.com/ninja-ide/ninja-ide), [Home](http://ninja-ide.org/)) Cross-platform Python IDE with project management, linting, extensions, and more.
   1. **OfflineIMAP** - ([Repo](https://github.com/OfflineIMAP/offlineimap), [Home](http://www.offlineimap.org/), [WP](https://en.wikipedia.org/wiki/OfflineIMAP)) IMAP reader and synchronizer.
   1. **Oil** - ([Repo](https://github.com/oilshell/oil), [Home](http://www.oilshell.org/)) A new [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))- and [dash](https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions) backwards-compatible shell, with an improved language of its own.
   1. **Pagure** - ([Repo](https://pagure.io/pagure), [Home](https://pagure.io/)) Software [forge](https://en.wikipedia.org/wiki/Forge_(software)) focused on git and developed by the Fedora engineering team.
-  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](http://jk.ozlabs.org/projects/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
+  1. **Patchwork** - ([Repo](https://github.com/getpatchwork/patchwork), [Home](https://github.com/getpatchwork/patchwork), [Docs](https://patchwork.readthedocs.io/en/latest)) Web-based patch tracking system designed to facilitate code contribution to an open-source project. Designed and used for Linux kernel subsystem development.
   1. **Pelican** - ([Repo](https://github.com/getpelican/pelican), [Home](https://blog.getpelican.com/), [PyPI](https://pypi.org/project/pelican)) Command-line static site generator that supports Markdown and reST syntax.
   1. **pip** - ([Repo](https://github.com/pypa/pip), [Home](https://pip.pypa.io/en/stable), [WP](https://en.wikipedia.org/wiki/Pip_%28package_manager%29), [PyPI](https://pypi.org/project/pip)) Python's go-to package manager, with a wide range of features and platform support.
   1. **Planet** - ([Repo](https://github.com/python/planet), [Home](https://web.archive.org/web/20051029095046/http%3A/www.planetplanet.org), [WP](https://en.wikipedia.org/wiki/Planet_%28software%29)) RSS and Atom feed aggregator, designed to collect posts from the weblogs of members of an Internet community and display them on a single page. Used to power [Planet Python](https://planetpython.org/) and many more.
@@ -793,22 +793,22 @@ but arranged in reverse-chronological order of when they were listed.
   1. **pycsw** - ([Repo](https://github.com/geopython/pycsw), [WP](https://en.wikipedia.org/wiki/Pycsw)) Full implementation of the OpenGIS Catalogue Service Implementation Specification.
   1. **qtile** - ([Repo](https://github.com/qtile/qtile), [Home](http://qtile.org/)) A small, flexible, scriptable tiling window manager.
   1. **Qute Browser** - ([Repo](https://github.com/qutebrowser/qutebrowser), [Home](https://www.qutebrowser.org/)) Keyboard-driven, minimal, `vim`-like browser based on PyQt5.
-  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](http://reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
+  1. **Reddit** - ([Repo](https://github.com/reddit-archive/reddit), [Home](https://www.reddit.com/)) Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
   1. **Review Board** - ([Repo](https://github.com/reviewboard/reviewboard), [Home](https://www.reviewboard.org/)) Extensible code review tool for projects and companies of all sizes.
   1. **RhodeCode** - ([Repo](https://code.rhodecode.com/rhodecode-enterprise-ce), [Home](https://rhodecode.com/), [WP](https://en.wikipedia.org/wiki/RhodeCode)) Self-hosted platform for behind-the-firewall source code management, providing centralized control over Git, Mercurial, and Subversion.
   1. **Rietveld** - ([Repo](https://github.com/rietveld-codereview/rietveld), [Home](https://codereview.appspot.com/), [WP](https://en.wikipedia.org/wiki/Rietveld_%28software%29)) Django-based collaborative code review tool for Subversion written by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) to run on [Google AppEngine](https://en.wikipedia.org/wiki/Google_App_Engine). The basis for [Gerrit](https://en.wikipedia.org/wiki/Gerrit_(software)).
   1. **Robot Framework** - ([Repo](https://github.com/robotframework/robotframework), [Home](http://robotframework.org/), [PyPI](https://pypi.org/project/robotframework)) Generic, cross-platform, and language-independent automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). Extensible in Python and Java.
   1. **Roundup Issue Tracker** - ([Repo](http://hg.code.sf.net/p/roundup/code), [Home](https://www.roundup-tracker.org/), [WP](https://en.wikipedia.org/wiki/Roundup_%28issue_tracker%29), [gh](https://github.com/roundup-tracker/roundup)) Highly-customizable issue tracking system featuring command-line, web, and email interfaces, historically used by the official Python bug tracker at [bugs.python.org](https://bugs.python.org).
-  1. **Sage Math** - ([Repo](https://git.sagemath.org/sage.git), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
-  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://repo.saltstack.com/)) Automation for the management and configuration of any infrastructure or application at scale.
+  1. **Sage Math** - ([Repo](https://github.com/sagemath/sage), [Home](http://www.sagemath.org/), [WP](https://en.wikipedia.org/wiki/SageMath)) Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.
+  1. **Salt Stack** - ([Repo](https://github.com/saltstack/salt), [Home](https://saltproject.io/)) Automation for the management and configuration of any infrastructure or application at scale.
   1. **SCons** - ([Repo](https://github.com/SCons/scons), [Home](http://scons.org/), [WP](https://en.wikipedia.org/wiki/SCons)) Domain-specific language and build tool, designed to replace Make, autoconf, and ccache.
   1. **Seafile** - ([Repo](https://github.com/haiwen/seahub), [WP](https://en.wikipedia.org/wiki/Seafile)) Cross-platform file hosting and synchronization system.
-  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](http://www.shinken-monitoring.org/)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
+  1. **Shinken** - ([Repo](https://github.com/naparuba/shinken), [Home](https://github.com/shinken-solutions/shinken)) Shinken is a modern, Nagios-compatible monitoring framework, designed to scale for large environments.
   1. **Solaris IPS** - ([Repo](https://github.com/oracle/solaris-ips)) Software delivery system backed by network repository, featuring safe execution for zones, use of ZFS for efficiency and rollback, preventing the introduction of invalid packages, and efficient use of bandwidth.
   1. **Sphinx** - ([Repo](https://github.com/sphinx-doc/sphinx), [Home](http://sphinx-doc.org/), [PyPI](https://pypi.org/project/Sphinx)) Documentation tool for interconnected bodies of authorship, from code documentation to books. Used by [the official Python docs](https://docs.python.org), and many other projects ([not all of them Python](https://varnish-cache.org/docs/)).
   1. **Spyder IDE** - ([Repo](https://github.com/spyder-ide/spyder), [Home](https://www.spyder-ide.org/), [WP](https://en.wikipedia.org/wiki/Spyder_%28software%29)) Scientific editing and execution environment designed by and for scientists, engineers, and data analysts using Python.
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more.
-  1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.org/trac/tahoe-lafs), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage.
+  1. **TahoeLAFS** - ([Repo](https://github.com/tahoe-lafs/tahoe-lafs), [Home](https://tahoe-lafs.readthedocs.io/), [WP](https://en.wikipedia.org/wiki/Tahoe-LAFS)) Decentralized cloud storage system for robust distributed data storage.
   1. **Trac** - ([Repo](https://github.com/edgewall/trac), [Home](https://trac.edgewall.org/), [WP](https://en.wikipedia.org/wiki/Trac), [Docs](https://trac.edgewall.org/wiki/TracGuide)) Enhanced web-based wiki and issue tracking system for software development projects.
   1. **Tribler** - ([Repo](https://github.com/Tribler/tribler), [Home](http://www.tribler.org/), [WP](https://en.wikipedia.org/wiki/Tribler)) Privacy enhanced BitTorrent client with P2P content discovery.
   1. **Ubiquity** - ([Repo](https://code.launchpad.net/ubiquity), [WP](https://en.wikipedia.org/wiki/Ubiquity_%28software%29)) The default installer for Ubuntu and its derivatives, designed to be run from Live CD or USB.
@@ -819,7 +819,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **Weblate** - ([Repo](https://github.com/WeblateOrg/weblate), [Home](https://weblate.org/), [PyPI](https://pypi.org/project/Weblate)) Web based localization tool with tight version control integration.
   1. **Wicd** - ([Repo](https://code.launchpad.net/wicd), [Home](http://wicd.sourceforge.net/download.php), [WP](https://en.wikipedia.org/wiki/Wicd)) Graphical utility for managing wired and wireless connections on Linux.
   1. **Xonsh** - ([Repo](https://github.com/xonsh/xonsh), [Home](https://xon.sh/)) Cross-platform shell language and command prompt. The language is a superset of Python 3.4+ with additional shell primitives.
-  1. **Xpra** - ([Repo](https://xpra.org/svn/Xpra/trunk), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens.
+  1. **Xpra** - ([Repo](https://github.com/Xpra-org/xpra), [Home](http://xpra.org/)) Cross-platform remote display server and client for forwarding applications and desktop screens.
   1. **You-Get** - ([Repo](https://github.com/soimort/you-get), [Home](https://you-get.org/)) Command-line program to browserlessly scrape and stream video, audio, and images from web sites.
   1. **youtube-dl** - ([Repo](https://github.com/rg3/youtube-dl), [Home](http://rg3.github.io/youtube-dl), [PyPI](https://pypi.org/project/youtube_dl)) Command-line program to browserlessly archive video and audio from YouTube and hundreds of other sites.
   1. **yum** - ([Repo](https://github.com/rpm-software-management/yum), [Home](http://yum.baseurl.org/), [WP](https://en.wikipedia.org/wiki/Yum_%28software%29)) Automatic updater and package installer/remover for RPM-based systems (Fedora, RHEL, etc.).
@@ -829,9 +829,9 @@ but arranged in reverse-chronological order of when they were listed.
 
 ## 2018-11-24
 
-  1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://apps.ankiweb.net/docs/manual.html)) Powerful desktop application for flash cards and memorization.
+  1. **Anki** - ([Repo](https://github.com/dae/anki), [Home](https://apps.ankiweb.net/), [Docs](https://docs.ankiweb.net/)) Powerful desktop application for flash cards and memorization.
   1. **AnuGA** - ([Repo](https://github.com/GeoscienceAustralia/anuga_core)) Advanced simulation of the shallow water equation, for modeling tsunamis, dam breaks, and floods.
-  1. **ASCEND** - ([Repo](http://code.ascend4.org/ascend/trunk), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
+  1. **ASCEND** - ([Repo](https://github.com/ascend4/ascend4), [Home](http://ascend4.org/Main_Page), [WP](https://en.wikipedia.org/wiki/ASCEND)) Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.
   1. **Autokey** - ([Repo](https://github.com/autokey/autokey), [WP](https://en.wikipedia.org/wiki/AutoKey), [PyPI](https://pypi.org/project/autokey)) Desktop automation utility for Linux and X11.
   1. **Bitmessage** - ([Repo](https://github.com/Bitmessage/PyBitmessage), [Docs](https://bitmessage.org/wiki/Main_Page)) Reference client for Bitmessage, a peer-to-peer encrypted decentralised communication protocol.
   1. **Bleachbit** - ([Repo](https://github.com/bleachbit/bleachbit), [Home](https://www.bleachbit.org/)) System cleaner designed to free disk space and maintain privacy.
@@ -839,7 +839,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **Cactus** - ([Repo](https://github.com/eudicots/Cactus), [PyPI](https://pypi.org/project/cactus)) Static website generator using Django templates.
   1. **Calibre** - ([Repo](https://github.com/kovidgoyal/calibre), [Home](https://calibre-ebook.com/), [WP](https://en.wikipedia.org/wiki/Calibre_%28software%29), [Fund](https://www.patreon.com/kovidgoyal)) E-book manager designed for viewing, converting, editing, and cataloging e-books in all major formats.
   1. **Canto** - ([Repo](https://github.com/themoken/canto-next), [WP](https://en.wikipedia.org/wiki/Canto_%28news_aggregator%29)) RSS daemon and [curses-based client](https://github.com/themoken/canto-curses).
-  1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofiler.org/cpa), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets.
+  1. **CellProfiler** - ([Repo](https://github.com/CellProfiler/CellProfiler), [Home](http://cellprofiler.org/), [Manual](https://cellprofileranalyst.org/), [Docs](https://github.com/CellProfiler/CellProfiler/wiki)) Interactive data exploration, analysis, and classification of biological image sets.
   1. **Cowrie** - ([Repo](https://github.com/cowrie/cowrie), [Home](http://www.cowrie.org/)) Medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker.
   1. **Django-CMS** - ([Repo](https://github.com/divio/django-cms), [Home](https://www.django-cms.org/en)) Enterprise content management system based on the Django framework with version control, multi-site support, and more.
   1. **Ella** - ([Repo](https://github.com/ella/ella), [Docs](https://ella.readthedocs.io/en/latest/index.html)) Django-based content management system with a focus on high-traffic news sites and Internet magazines.
@@ -877,7 +877,7 @@ but arranged in reverse-chronological order of when they were listed.
   1. **Pitivi** - ([Repo](https://gitlab.gnome.org/GNOME/pitivi), [WP](https://en.wikipedia.org/wiki/Pitivi)) Non-linear video editor for Linux, based on GStreamer.
   1. **Plumi** - ([Repo](https://github.com/plumi/plumi.app), [WP](https://en.wikipedia.org/wiki/Plumi)) Video sharing content management system based on [Plone](https://en.wikipedia.org/wiki/Plone_(software)).
   1. **PuddleTag** - ([Repo](https://github.com/keithgg/puddletag), [WP](https://en.wikipedia.org/wiki/Puddletag)) An audio tag (metadata) editor for audio file formats.
-  1. **Pybliographer** - ([Repo](https://github.com/GNOME/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI.
+  1. **Pybliographer** - ([Repo](https://gitlab.gnome.org/Archive/pybliographer), [Home](https://pybliographer.org/)) Bibliographic database manager with a user-friendly desktop UI.
   1. **PyChess** - ([Repo](https://github.com/pychess/pychess), [Home](http://pychess.org/), [WP](https://en.wikipedia.org/wiki/PyChess)) Advanced chess client, suitable for new, casual, and competitive play.
   1. **PyEW** - ([Repo](https://github.com/joxeankoret/pyew), [Docs](https://github.com/joxeankoret/pyew/wiki)) Malware analysis tool, with support for hexadecimal viewing, disassembly, PE and ELF formats, plugins, and more.
   1. **PyMedusa** - ([Repo](https://github.com/pymedusa/Medusa), [Home](https://pymedusa.com/)) Video library manager for TV shows, with automatic download support.

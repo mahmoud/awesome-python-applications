@@ -5,7 +5,7 @@
   <subtitle type="text">The newest additions to the Awesome Python Applications list.</subtitle>
   <link rel="alternate" type="text/html" href="https://github.com/mahmoud/awesome-python-applications" />
   <link rel="self" type="application/atom+xml" href="https://raw.githubusercontent.com/mahmoud/awesome-python-applications/master/atom.xml" />
-  <updated>2025-04-25T17:35:54Z</updated>
+  <updated>2026-10-18T07:14:49Z</updated>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
 
@@ -27,7 +27,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/harung1993/dollardollar'>Repo</a></li>
-        <li><a href='https://ddby.finforward.xyz/'>Demo</a></li>
         <li><a href='https://buymeacoffee.com/cCFW6gZz28'>Fund</a></li>
         
       </ul>
@@ -207,8 +206,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/aimhubio/aim'>Repo</a></li>
-        <li><a href='https://aimstack.io/'>Home</a></li>
-        <li><a href='https://aimstack.io/blog'>Blog</a></li>
         
       </ul>
       </div>
@@ -516,7 +513,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://gitlab.com/fedstoa/moa'>Repo</a></li>
-        <li><a href='https://moa.party/'>Home</a></li>
         
       </ul>
       </div>
@@ -594,7 +590,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/grafana/oncall'>Repo</a></li>
-        <li><a href='https://grafana.com/docs/grafana-cloud/oncall/open-source'>Docs</a></li>
+        <li><a href='https://grafana.com/docs/oncall/latest'>Docs</a></li>
         
       </ul>
       </div>
@@ -620,7 +616,6 @@
       <ul>
         <li><a href='https://github.com/sqlfluff/sqlfluff'>Repo</a></li>
         <li><a href='https://www.sqlfluff.com/'>Home</a></li>
-        <li><a href='https://flattr.com/github/alanmcruickshank'>Fund</a></li>
         <li><a href='https://pypi.org/project/sqlfluff'>PyPI</a></li>
         
       </ul>
@@ -1059,7 +1054,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/bugy/script-server'>Repo</a></li>
-        <li><a href='https://script-server.net/'>Demo</a></li>
         <li><a href='https://github.com/bugy/script-server/wiki'>Docs</a></li>
         
       </ul>
@@ -1133,7 +1127,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/zopefoundation/ZEO">ZEO</a></strong>: Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network.</p>
+      <p><strong><a href="https://github.com/zopefoundation/ZEO">ZEO</a></strong>: Server and client providing [ZODB](https://zodb.org/)-based storage over the network.</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/zopefoundation/ZEO'>Repo</a></li>
@@ -1159,7 +1153,7 @@
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/hynek/doc2dash">doc2dash</a></strong>: Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).</p>
+      <p><strong><a href="https://github.com/hynek/doc2dash">doc2dash</a></strong>: Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and other [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).</p>
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/hynek/doc2dash'>Repo</a></li>
@@ -1293,7 +1287,7 @@
         <li><a href='https://gitlab.gnome.org/GNOME/jhbuild'>Repo</a></li>
         <li><a href='https://wiki.gnome.org/Projects/Jhbuild'>Home</a></li>
         <li><a href='https://github.com/GNOME/jhbuild'>gh</a></li>
-        <li><a href='https://developer.gnome.org/jhbuild/stable/getting-started.html.en'>Docs</a></li>
+        <li><a href='https://gnome.pages.gitlab.gnome.org/jhbuild/getting-started.html'>Docs</a></li>
         
       </ul>
       </div>
@@ -1342,7 +1336,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/nuxeo/nuxeo-drive'>Repo</a></li>
-        <li><a href='https://www.nuxeo.com/products/drive-desktop-sync'>Home</a></li>
+        <li><a href='https://doc.nuxeo.com/client-apps/nuxeo-drive'>Home</a></li>
         <li><a href='https://doc.nuxeo.com/client-apps/nuxeo-drive'>Docs</a></li>
         
       </ul>
@@ -1422,7 +1416,7 @@
       <ul>
         <li><a href='https://github.com/saulpw/visidata'>Repo</a></li>
         <li><a href='https://visidata.org/'>Home</a></li>
-        <li><a href='https://patreon.com/saulpw'>Fund</a></li>
+        <li><a href='https://www.patreon.com/saulpw'>Fund</a></li>
         <li><a href='https://pypi.org/project/visidata'>PyPI</a></li>
         <li><a href='https://visidata.org/docs'>Docs</a></li>
         
@@ -1475,7 +1469,7 @@
       <ul>
         <li><a href='https://github.com/typemytype/drawbot'>Repo</a></li>
         <li><a href='http://www.drawbot.com/'>Home</a></li>
-        <li><a href='https://en.wikipedia.org/wiki/DrawBot'>WP</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Just_van_Rossum#DrawBot'>WP</a></li>
         
       </ul>
       </div>
@@ -1838,8 +1832,8 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/HenriWahl/Nagstamon'>Repo</a></li>
-        <li><a href='https://nagstamon.ifw-dresden.de/'>Home</a></li>
-        <li><a href='https://nagstamon.ifw-dresden.de/docs'>Docs</a></li>
+        <li><a href='https://nagstamon.de/'>Home</a></li>
+        <li><a href='https://nagstamon.de/documentation'>Docs</a></li>
         
       </ul>
       </div>
@@ -2175,7 +2169,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/delmic/odemis'>Repo</a></li>
-        <li><a href='https://www.delmic.com/microscopy-software-odemis'>Home</a></li>
+        <li><a href='https://blog.delmic.com/odemis-delmics-open-source-microscopy-software'>Blog</a></li>
         
       </ul>
       </div>
@@ -2251,7 +2245,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ctxis/CAPE'>Repo</a></li>
-        <li><a href='https://cape.contextis.com/submit'>Demo</a></li>
         
       </ul>
       </div>
@@ -2398,7 +2391,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/jendrikseipp/rednotebook'>Repo</a></li>
-        <li><a href='https://rednotebook.sourceforge.io/downloads.html'>Home</a></li>
+        <li><a href='https://rednotebook.app/'>Home</a></li>
         
       </ul>
       </div>
@@ -2423,7 +2416,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/hubblestack/hubble'>Repo</a></li>
-        <li><a href='https://hubblestack.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
       </div>
@@ -2523,7 +2515,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/guardicore/monkey'>Repo</a></li>
-        <li><a href='https://www.guardicore.com/infectionmonkey'>Home</a></li>
+        <li><a href='https://www.akamai.com/infectionmonkey'>Home</a></li>
         <li><a href='https://github.com/guardicore/monkey/wiki'>Docs</a></li>
         
       </ul>
@@ -2903,7 +2895,7 @@
       <ul>
         <li><a href='https://github.com/frePPLe/frepple'>Repo</a></li>
         <li><a href='https://frepple.com/'>Home</a></li>
-        <li><a href='https://frepple.org/docs/current'>Docs</a></li>
+        <li><a href='https://frepple.com/docs/current'>Docs</a></li>
         
       </ul>
       </div>
@@ -2953,7 +2945,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/belangeo/soundgrain'>Repo</a></li>
-        <li><a href='http://ajaxsoundstudio.com/software/soundgrain'>Home</a></li>
+        <li><a href='https://github.com/belangeo/soundgrain'>Home</a></li>
         <li><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=9CA99DH6ES3HA'>Fund</a></li>
         
       </ul>
@@ -3166,7 +3158,6 @@
       <ul>
         <li><a href='https://github.com/RD17/ambar'>Repo</a></li>
         <li><a href='https://ambar.cloud/'>Home</a></li>
-        <li><a href='https://app.ambar.cloud/'>Demo</a></li>
         <li><a href='https://ambar.cloud/docs/system-requirements'>Docs</a></li>
         
       </ul>
@@ -3232,19 +3223,19 @@
   </entry>
   
   <entry>
-    <id>https://bitbucket.org/windel/ppci</id>
+    <id>https://github.com/windelbouwman/ppci</id>
     <title>PPCI</title>
-    <link rel="alternate" type="text/html" href="https://bitbucket.org/windel/ppci" />
+    <link rel="alternate" type="text/html" href="https://github.com/windelbouwman/ppci" />
     <published>2019-09-13T11:02:00Z</published>
     <updated>2019-09-13T11:02:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://bitbucket.org/windel/ppci">PPCI</a></strong>: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).</p>
+      <p><strong><a href="https://github.com/windelbouwman/ppci">PPCI</a></strong>: The Pure Python Compiler Infrastructure is a compiler written entirely in Python, containing front-ends for various programming languages (C, c3, WebAssembly, and others) as well as machine code generation backends for various CPUs (6500, arm, avr, x86_64, openrisc, among others).</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://bitbucket.org/windel/ppci'>Repo</a></li>
+        <li><a href='https://github.com/windelbouwman/ppci'>Repo</a></li>
         <li><a href='https://godbolt.org/g/eooaPP'>Demo</a></li>
         <li><a href='https://github.com/windelbouwman/ppci-mirror'>gh</a></li>
         <li><a href='https://pypi.org/project/ppci'>PyPI</a></li>
@@ -3465,19 +3456,19 @@
   </entry>
   
   <entry>
-    <id>https://bitbucket.org/blais/beancount</id>
+    <id>https://github.com/beancount/beancount</id>
     <title>beancount</title>
-    <link rel="alternate" type="text/html" href="https://bitbucket.org/blais/beancount" />
+    <link rel="alternate" type="text/html" href="https://github.com/beancount/beancount" />
     <published>2019-09-12T00:05:00Z</published>
     <updated>2019-09-12T00:05:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://bitbucket.org/blais/beancount">beancount</a></strong>: A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).</p>
+      <p><strong><a href="https://github.com/beancount/beancount">beancount</a></strong>: A double-entry bookkeeping language to define financial transaction records in plain text, then generate a variety of reports, via CLI and web interface. (See also, [Plain Text Accounting](https://plaintextaccounting.org/)).</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://bitbucket.org/blais/beancount'>Repo</a></li>
+        <li><a href='https://github.com/beancount/beancount'>Repo</a></li>
         <li><a href='http://furius.ca/beancount'>Home</a></li>
         <li><a href='https://github.com/beancount/beancount'>gh</a></li>
         <li><a href='https://pypi.org/project/beancount'>PyPI</a></li>
@@ -3606,7 +3597,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://dev.funkwhale.audio/funkwhale/funkwhale'>Repo</a></li>
-        <li><a href='https://funkwhale.audio/en_US'>Home</a></li>
+        <li><a href='https://www.funkwhale.audio/'>Home</a></li>
         <li><a href='https://docs.funkwhale.audio/'>Docs</a></li>
         
       </ul>
@@ -3734,7 +3725,6 @@
         <li><a href='https://git.sr.ht/~cedric/newspipe'>Repo</a></li>
         <li><a href='https://www.newspipe.org/'>Home</a></li>
         <li><a href='https://github.com/cedricbonhomme/newspipe'>gh</a></li>
-        <li><a href='https://newspipe.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
       </div>
@@ -3841,7 +3831,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/shuup/shuup'>Repo</a></li>
-        <li><a href='https://www.shuup.com/'>Home</a></li>
+        <li><a href='https://github.com/shuup/shuup'>Home</a></li>
         <li><a href='https://shuup.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
@@ -3921,7 +3911,6 @@
       <ul>
         <li><a href='https://github.com/flaskbb/flaskbb'>Repo</a></li>
         <li><a href='https://flaskbb.org/'>Home</a></li>
-        <li><a href='https://forums.flaskbb.org/'>Demo</a></li>
         <li><a href='https://flaskbb.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
@@ -3974,7 +3963,7 @@
         <li><a href='https://github.com/spinnaker/spinnaker'>Repo</a></li>
         <li><a href='https://www.spinnaker.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Spinnaker_%28software%29'>WP</a></li>
-        <li><a href='https://www.spinnaker.io/concepts'>Docs</a></li>
+        <li><a href='https://spinnaker.io/docs/concepts'>Docs</a></li>
         
       </ul>
       </div>
@@ -3999,7 +3988,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/Psycojoker/prosopopee'>Repo</a></li>
-        <li><a href='https://surleschemins.fr/'>Demo</a></li>
         <li><a href='https://pypi.org/project/prosopopee'>PyPI</a></li>
         <li><a href='https://prosopopee.readthedocs.io/'>Docs</a></li>
         
@@ -4013,19 +4001,19 @@
   </entry>
   
   <entry>
-    <id>https://git.feneas.org/socialhome/socialhome</id>
+    <id>https://github.com/jaywink/socialhome</id>
     <title>Socialhome</title>
-    <link rel="alternate" type="text/html" href="https://git.feneas.org/socialhome/socialhome" />
+    <link rel="alternate" type="text/html" href="https://github.com/jaywink/socialhome" />
     <published>2019-09-09T11:52:00Z</published>
     <updated>2019-09-09T11:52:00Z</updated>
     <category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://git.feneas.org/socialhome/socialhome">Socialhome</a></strong>: Web application enabling users to build a federated personal profile with social networking functionality.</p>
+      <p><strong><a href="https://github.com/jaywink/socialhome">Socialhome</a></strong>: Web application enabling users to build a federated personal profile with social networking functionality.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://git.feneas.org/socialhome/socialhome'>Repo</a></li>
+        <li><a href='https://github.com/jaywink/socialhome'>Repo</a></li>
         <li><a href='https://socialhome.network/'>Home</a></li>
         <li><a href='https://github.com/jaywink/socialhome'>gh</a></li>
         <li><a href='https://socialhome.readthedocs.io/en/latest'>Docs</a></li>
@@ -4154,8 +4142,8 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/pinry/pinry'>Repo</a></li>
-        <li><a href='https://getpinry.com/'>Home</a></li>
-        <li><a href='https://docs.getpinry.com/'>Docs</a></li>
+        <li><a href='https://pinry.github.io/pinry'>Home</a></li>
+        <li><a href='https://pinry.github.io/pinry'>Docs</a></li>
         
       </ul>
       </div>
@@ -4282,7 +4270,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/CouchPotato/CouchPotatoServer'>Repo</a></li>
-        <li><a href='http://couchpota.to/'>Home</a></li>
         
       </ul>
       </div>
@@ -4294,21 +4281,20 @@
   </entry>
   
   <entry>
-    <id>https://git.sickrage.ca/SiCKRAGE/sickrage</id>
+    <id>https://github.com/SiCKRAGE/SiCKRAGE</id>
     <title>SiCKRAGE</title>
-    <link rel="alternate" type="text/html" href="https://git.sickrage.ca/SiCKRAGE/sickrage" />
+    <link rel="alternate" type="text/html" href="https://github.com/SiCKRAGE/SiCKRAGE" />
     <published>2019-09-04T20:17:00Z</published>
     <updated>2019-09-04T20:17:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://git.sickrage.ca/SiCKRAGE/sickrage">SiCKRAGE</a></strong>: Video library manager with support for automatic TV show archival.</p>
+      <p><strong><a href="https://github.com/SiCKRAGE/SiCKRAGE">SiCKRAGE</a></strong>: Video library manager with support for automatic TV show archival.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://git.sickrage.ca/SiCKRAGE/sickrage'>Repo</a></li>
+        <li><a href='https://github.com/SiCKRAGE/SiCKRAGE'>Repo</a></li>
         <li><a href='https://github.com/SiCKRAGE/SiCKRAGE'>gh</a></li>
-        <li><a href='https://git.sickrage.ca/SiCKRAGE/sickrage/wikis/FAQ%27s-and-Fixes'>Docs</a></li>
         
       </ul>
       </div>
@@ -4637,7 +4623,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ECSIM/opem'>Repo</a></li>
-        <li><a href='https://www.ecsim.ir/opem/doc'>Docs</a></li>
+        <li><a href='https://www.ecsim.site/opem'>Docs</a></li>
         
       </ul>
       </div>
@@ -4689,7 +4675,7 @@
       <ul>
         <li><a href='https://github.com/taigaio/taiga-back'>Repo</a></li>
         <li><a href='https://taiga.io/'>Home</a></li>
-        <li><a href='http://taigaio.github.io/taiga-doc/dist'>Docs</a></li>
+        <li><a href='https://docs.taiga.io/'>Docs</a></li>
         
       </ul>
       </div>
@@ -4764,8 +4750,8 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/openstenoproject/plover'>Repo</a></li>
-        <li><a href='https://www.openstenoproject.org/plover'>Home</a></li>
-        <li><a href='https://www.openstenoproject.org/donate'>Fund</a></li>
+        <li><a href='https://opensteno.org/plover'>Home</a></li>
+        <li><a href='https://opensteno.org/donate'>Fund</a></li>
         <li><a href='https://github.com/openstenoproject/plover/wiki'>Docs</a></li>
         
       </ul>
@@ -4970,7 +4956,6 @@
       <ul>
         <li><a href='https://github.com/smicallef/spiderfoot'>Repo</a></li>
         <li><a href='https://www.spiderfoot.net/'>Home</a></li>
-        <li><a href='https://www.spiderfoot.net/documentation'>Docs</a></li>
         
       </ul>
       </div>
@@ -4995,7 +4980,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/cdhigh/KindleEar'>Repo</a></li>
-        <li><a href='https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md'>Docs</a></li>
+        <li><a href='https://github.com/cdhigh/KindleEar/blob/master/readme.md'>Docs</a></li>
         
       </ul>
       </div>
@@ -5047,7 +5032,7 @@
       <ul>
         <li><a href='https://github.com/dcos/dcos'>Repo</a></li>
         <li><a href='https://dcos.io/'>Home</a></li>
-        <li><a href='https://en.wikipedia.org/wiki/Mesosphere%2C_Inc.#Mesosphere_DC/OS'>WP</a></li>
+        <li><a href='https://en.wikipedia.org/wiki/Mesosphere_%28software%29'>WP</a></li>
         <li><a href='https://dcos.io/docs'>Docs</a></li>
         
       </ul>
@@ -5101,7 +5086,6 @@
       <ul>
         <li><a href='https://github.com/mozilla/kuma'>Repo</a></li>
         <li><a href='https://developer.mozilla.org/en-US'>Home</a></li>
-        <li><a href='https://kuma.readthedocs.io/en/latest/installation.html'>Docs</a></li>
         
       </ul>
       </div>
@@ -5330,7 +5314,7 @@
       <ul>
         <li><a href='https://github.com/nicolargo/glances'>Repo</a></li>
         <li><a href='https://nicolargo.github.io/glances'>Home</a></li>
-        <li><a href='https://glances.readthedocs.io/en/stable'>Docs</a></li>
+        <li><a href='https://glances.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
       </div>
@@ -5735,7 +5719,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/allegro/ralph'>Repo</a></li>
-        <li><a href='https://ralph.allegro.tech/'>Home</a></li>
+        <li><a href='https://github.com/allegro/ralph'>Home</a></li>
         <li><a href='https://ralph-ng.readthedocs.io/en/stable'>Docs</a></li>
         
       </ul>
@@ -5748,19 +5732,19 @@
   </entry>
   
   <entry>
-    <id>https://git.beaker-project.org/cgit/beaker</id>
+    <id>https://github.com/beaker-project/beaker</id>
     <title>Beaker</title>
-    <link rel="alternate" type="text/html" href="https://git.beaker-project.org/cgit/beaker" />
+    <link rel="alternate" type="text/html" href="https://github.com/beaker-project/beaker" />
     <published>2019-01-23T10:03:00Z</published>
     <updated>2019-01-23T10:03:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://git.beaker-project.org/cgit/beaker">Beaker</a></strong>: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.</p>
+      <p><strong><a href="https://github.com/beaker-project/beaker">Beaker</a></strong>: Hardware integration testing system, used by RedHat to test compatiblity for RHEL and Fedora.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://git.beaker-project.org/cgit/beaker'>Repo</a></li>
+        <li><a href='https://github.com/beaker-project/beaker'>Repo</a></li>
         <li><a href='https://beaker-project.org/'>Home</a></li>
         <li><a href='https://beaker-project.org/docs'>Docs</a></li>
         
@@ -6104,19 +6088,19 @@
   </entry>
   
   <entry>
-    <id>https://hg.tryton.org/trytond</id>
+    <id>https://github.com/tryton/trytond</id>
     <title>Tryton</title>
-    <link rel="alternate" type="text/html" href="https://hg.tryton.org/trytond" />
+    <link rel="alternate" type="text/html" href="https://github.com/tryton/trytond" />
     <published>2018-12-25T13:34:00Z</published>
     <updated>2018-12-25T13:34:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://hg.tryton.org/trytond">Tryton</a></strong>: Modular web-based ERP, designed for companies of all sizes.</p>
+      <p><strong><a href="https://github.com/tryton/trytond">Tryton</a></strong>: Modular web-based ERP, designed for companies of all sizes.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://hg.tryton.org/trytond'>Repo</a></li>
+        <li><a href='https://github.com/tryton/trytond'>Repo</a></li>
         <li><a href='https://www.tryton.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Tryton'>WP</a></li>
         <li><a href='https://docs.tryton.org/en/latest'>Docs</a></li>
@@ -6308,21 +6292,21 @@
   </entry>
   
   <entry>
-    <id>https://bitbucket.org/tortoisehg/thg/src</id>
+    <id>https://foss.heptapod.net/mercurial/tortoisehg/thg</id>
     <title>TortoiseHg</title>
-    <link rel="alternate" type="text/html" href="https://bitbucket.org/tortoisehg/thg/src" />
+    <link rel="alternate" type="text/html" href="https://foss.heptapod.net/mercurial/tortoisehg/thg" />
     <published>2018-12-21T22:11:00Z</published>
     <updated>2018-12-21T22:11:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://bitbucket.org/tortoisehg/thg/src">TortoiseHg</a></strong>: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.</p>
+      <p><strong><a href="https://foss.heptapod.net/mercurial/tortoisehg/thg">TortoiseHg</a></strong>: Windows shell extension and a series of applications for the Mercurial distributed revision control system. Also includes GNOME and CLI support.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://bitbucket.org/tortoisehg/thg/src'>Repo</a></li>
+        <li><a href='https://foss.heptapod.net/mercurial/tortoisehg/thg'>Repo</a></li>
         <li><a href='https://tortoisehg.bitbucket.io/'>Home</a></li>
-        <li><a href='https://bitbucket.org/tortoisehg/thg/wiki/developers/Home'>Docs</a></li>
+        <li><a href='https://foss.heptapod.net/mercurial/tortoisehg/thg/-/wikis/developers'>Docs</a></li>
         
       </ul>
       </div>
@@ -7031,7 +7015,7 @@
       <ul>
         <li><a href='https://github.com/dissemin/dissemin'>Repo</a></li>
         <li><a href='https://dissem.in/'>Home</a></li>
-        <li><a href='https://dev.dissem.in/'>Docs</a></li>
+        <li><a href='https://dissemin.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
       </div>
@@ -7159,7 +7143,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/reddit-archive/reddit'>Repo</a></li>
-        <li><a href='http://reddit.com/'>Home</a></li>
+        <li><a href='https://www.reddit.com/'>Home</a></li>
         
       </ul>
       </div>
@@ -7248,19 +7232,19 @@
   </entry>
   
   <entry>
-    <id>https://bitbucket.org/MakeHuman/makehuman</id>
+    <id>https://github.com/makehumancommunity/makehuman</id>
     <title>MakeHuman</title>
-    <link rel="alternate" type="text/html" href="https://bitbucket.org/MakeHuman/makehuman" />
+    <link rel="alternate" type="text/html" href="https://github.com/makehumancommunity/makehuman" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://bitbucket.org/MakeHuman/makehuman">MakeHuman</a></strong>: 3D computer graphics software designed for the prototyping of photo realistic humanoids.</p>
+      <p><strong><a href="https://github.com/makehumancommunity/makehuman">MakeHuman</a></strong>: 3D computer graphics software designed for the prototyping of photo realistic humanoids.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://bitbucket.org/MakeHuman/makehuman'>Repo</a></li>
+        <li><a href='https://github.com/makehumancommunity/makehuman'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/MakeHuman'>WP</a></li>
         
       </ul>
@@ -7311,7 +7295,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/benadida/helios-server'>Repo</a></li>
-        <li><a href='http://heliosvoting.org/'>Home</a></li>
+        <li><a href='https://vote.heliosvoting.org/'>Home</a></li>
         
       </ul>
       </div>
@@ -7504,19 +7488,19 @@
   </entry>
   
   <entry>
-    <id>https://git.sagemath.org/sage.git</id>
+    <id>https://github.com/sagemath/sage</id>
     <title>Sage Math</title>
-    <link rel="alternate" type="text/html" href="https://git.sagemath.org/sage.git" />
+    <link rel="alternate" type="text/html" href="https://github.com/sagemath/sage" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://git.sagemath.org/sage.git">Sage Math</a></strong>: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.</p>
+      <p><strong><a href="https://github.com/sagemath/sage">Sage Math</a></strong>: Cross-platform computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus, and statistics.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://git.sagemath.org/sage.git'>Repo</a></li>
+        <li><a href='https://github.com/sagemath/sage'>Repo</a></li>
         <li><a href='http://www.sagemath.org/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/SageMath'>WP</a></li>
         
@@ -7646,9 +7630,9 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://code.launchpad.net/bzr'>Repo</a></li>
-        <li><a href='http://bazaar.canonical.com/en'>Home</a></li>
+        <li><a href='https://www.gnu.org/software/bazaar'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GNU_Bazaar'>WP</a></li>
-        <li><a href='http://doc.bazaar.canonical.com/en'>Docs</a></li>
+        <li><a href='https://www.gnu.org/software/bazaar'>Docs</a></li>
         
       </ul>
       </div>
@@ -7749,7 +7733,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/getpatchwork/patchwork'>Repo</a></li>
-        <li><a href='http://jk.ozlabs.org/projects/patchwork'>Home</a></li>
+        <li><a href='https://github.com/getpatchwork/patchwork'>Home</a></li>
         <li><a href='https://patchwork.readthedocs.io/en/latest'>Docs</a></li>
         
       </ul>
@@ -7981,7 +7965,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/tahoe-lafs/tahoe-lafs'>Repo</a></li>
-        <li><a href='https://tahoe-lafs.org/trac/tahoe-lafs'>Home</a></li>
+        <li><a href='https://tahoe-lafs.readthedocs.io/'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Tahoe-LAFS'>WP</a></li>
         
       </ul>
@@ -8008,7 +7992,7 @@
       <ul>
         <li><a href='https://github.com/ansible/ansible'>Repo</a></li>
         <li><a href='https://www.ansible.com/'>Home</a></li>
-        <li><a href='https://docs.ansible.com/ansible'>Docs</a></li>
+        <li><a href='https://docs.ansible.com/ansible/latest/index.html'>Docs</a></li>
         
       </ul>
       </div>
@@ -8059,7 +8043,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/fail2ban/fail2ban'>Repo</a></li>
-        <li><a href='https://www.fail2ban.org/wiki/index.php/Main_Page'>Home</a></li>
+        <li><a href='https://github.com/fail2ban/fail2ban'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Fail2ban'>WP</a></li>
         
       </ul>
@@ -8135,7 +8119,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/saltstack/salt'>Repo</a></li>
-        <li><a href='https://repo.saltstack.com/'>Home</a></li>
+        <li><a href='https://saltproject.io/'>Home</a></li>
         
       </ul>
       </div>
@@ -8160,7 +8144,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/naparuba/shinken'>Repo</a></li>
-        <li><a href='http://www.shinken-monitoring.org/'>Home</a></li>
+        <li><a href='https://github.com/shinken-solutions/shinken'>Home</a></li>
         
       </ul>
       </div>
@@ -8247,19 +8231,19 @@
   </entry>
   
   <entry>
-    <id>http://die-offenbachs.homelinux.org:48888/hg/eric</id>
+    <id>https://eric-ide.python-projects.org/</id>
     <title>Eric IDE</title>
-    <link rel="alternate" type="text/html" href="http://die-offenbachs.homelinux.org:48888/hg/eric" />
+    <link rel="alternate" type="text/html" href="https://eric-ide.python-projects.org/" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="http://die-offenbachs.homelinux.org:48888/hg/eric">Eric IDE</a></strong>: Python editor and IDE, based on Qt, integrating Scintilla editor control.</p>
+      <p><strong><a href="https://eric-ide.python-projects.org/">Eric IDE</a></strong>: Python editor and IDE, based on Qt, integrating Scintilla editor control.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='http://die-offenbachs.homelinux.org:48888/hg/eric'>Repo</a></li>
+        <li><a href='https://eric-ide.python-projects.org/'>Repo</a></li>
         <li><a href='https://eric-ide.python-projects.org/'>Home</a></li>
         
       </ul>
@@ -8336,7 +8320,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/Komodo/KomodoEdit'>Repo</a></li>
-        <li><a href='https://www.activestate.com/products/komodo-edit'>Home</a></li>
+        <li><a href='https://github.com/ActiveState/OpenKomodoIDE'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Komodo_Edit'>WP</a></li>
         
       </ul>
@@ -8362,7 +8346,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/leo-editor/leo-editor'>Repo</a></li>
-        <li><a href='http://leoeditor.com/'>Home</a></li>
+        <li><a href='https://leo-editor.github.io/leo-editor'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/Leo_%28text_editor%29'>WP</a></li>
         
       </ul>
@@ -8389,7 +8373,6 @@
       <ul>
         <li><a href='https://github.com/ninja-ide/ninja-ide'>Repo</a></li>
         <li><a href='http://ninja-ide.org/'>Home</a></li>
-        <li><a href='https://en.wikipedia.org/wiki/Ninja-IDE'>WP</a></li>
         
       </ul>
       </div>
@@ -8669,7 +8652,7 @@
       <ul>
         <li><a href='https://github.com/openembedded/bitbake'>Repo</a></li>
         <li><a href='https://en.wikipedia.org/wiki/BitBake'>WP</a></li>
-        <li><a href='https://www.yoctoproject.org/docs/current/bitbake-user-manual/bitbake-user-manual.html'>Docs</a></li>
+        <li><a href='https://docs.yoctoproject.org/bitbake'>Docs</a></li>
         
       </ul>
       </div>
@@ -8733,20 +8716,20 @@
   </entry>
   
   <entry>
-    <id>https://chromium.googlesource.com/external/gyp</id>
+    <id>https://github.com/chromium/gyp</id>
     <title>GYP</title>
-    <link rel="alternate" type="text/html" href="https://chromium.googlesource.com/external/gyp" />
+    <link rel="alternate" type="text/html" href="https://github.com/chromium/gyp" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://chromium.googlesource.com/external/gyp">GYP</a></strong>: AKA &#x27;Generate Your Projects&#x27;, a build system that generates other build systems.</p>
+      <p><strong><a href="https://github.com/chromium/gyp">GYP</a></strong>: AKA &#x27;Generate Your Projects&#x27;, a build system that generates other build systems.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://chromium.googlesource.com/external/gyp'>Repo</a></li>
-        <li><a href='https://gyp.gsrc.io/'>Home</a></li>
+        <li><a href='https://github.com/chromium/gyp'>Repo</a></li>
+        <li><a href='https://github.com/chromium/gyp'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/GYP_%28software%29'>WP</a></li>
         
       </ul>
@@ -8850,7 +8833,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/ergonomica/ergonomica'>Repo</a></li>
-        <li><a href='http://ergonomica.readthedocs.io/'>Docs</a></li>
         
       </ul>
       </div>
@@ -9054,7 +9036,7 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/Guake/guake'>Repo</a></li>
-        <li><a href='http://guake-project.org/'>Home</a></li>
+        <li><a href='https://guake.github.io/'>Home</a></li>
         <li><a href='https://pypi.org/project/guake'>PyPI</a></li>
         
       </ul>
@@ -9129,7 +9111,6 @@
       <p>Links:</p>
       <ul>
         <li><a href='https://github.com/nimbusproject/nimbus'>Repo</a></li>
-        <li><a href='http://www.nimbusproject.org/'>Home</a></li>
         
       </ul>
       </div>
@@ -9192,19 +9173,19 @@
   </entry>
   
   <entry>
-    <id>https://xpra.org/svn/Xpra/trunk</id>
+    <id>https://github.com/Xpra-org/xpra</id>
     <title>Xpra</title>
-    <link rel="alternate" type="text/html" href="https://xpra.org/svn/Xpra/trunk" />
+    <link rel="alternate" type="text/html" href="https://github.com/Xpra-org/xpra" />
     <published>2018-11-26T01:59:00Z</published>
     <updated>2018-11-26T01:59:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://xpra.org/svn/Xpra/trunk">Xpra</a></strong>: Cross-platform remote display server and client for forwarding applications and desktop screens.</p>
+      <p><strong><a href="https://github.com/Xpra-org/xpra">Xpra</a></strong>: Cross-platform remote display server and client for forwarding applications and desktop screens.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://xpra.org/svn/Xpra/trunk'>Repo</a></li>
+        <li><a href='https://github.com/Xpra-org/xpra'>Repo</a></li>
         <li><a href='http://xpra.org/'>Home</a></li>
         
       </ul>
@@ -10320,7 +10301,7 @@
       <ul>
         <li><a href='https://github.com/dae/anki'>Repo</a></li>
         <li><a href='https://apps.ankiweb.net/'>Home</a></li>
-        <li><a href='https://apps.ankiweb.net/docs/manual.html'>Docs</a></li>
+        <li><a href='https://docs.ankiweb.net/'>Docs</a></li>
         
       </ul>
       </div>
@@ -10407,19 +10388,19 @@
   </entry>
   
   <entry>
-    <id>http://code.ascend4.org/ascend/trunk</id>
+    <id>https://github.com/ascend4/ascend4</id>
     <title>ASCEND</title>
-    <link rel="alternate" type="text/html" href="http://code.ascend4.org/ascend/trunk" />
+    <link rel="alternate" type="text/html" href="https://github.com/ascend4/ascend4" />
     <published>2018-11-24T02:37:00Z</published>
     <updated>2018-11-24T02:37:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="http://code.ascend4.org/ascend/trunk">ASCEND</a></strong>: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.</p>
+      <p><strong><a href="https://github.com/ascend4/ascend4">ASCEND</a></strong>: Mathematical chemical process modelling system developed at Carnegie Mellon University since late 1978.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='http://code.ascend4.org/ascend/trunk'>Repo</a></li>
+        <li><a href='https://github.com/ascend4/ascend4'>Repo</a></li>
         <li><a href='http://ascend4.org/Main_Page'>Home</a></li>
         <li><a href='https://en.wikipedia.org/wiki/ASCEND'>WP</a></li>
         
@@ -10447,7 +10428,7 @@
       <ul>
         <li><a href='https://github.com/CellProfiler/CellProfiler'>Repo</a></li>
         <li><a href='http://cellprofiler.org/'>Home</a></li>
-        <li><a href='https://cellprofiler.org/cpa'>Manual</a></li>
+        <li><a href='https://cellprofileranalyst.org/'>Manual</a></li>
         <li><a href='https://github.com/CellProfiler/CellProfiler/wiki'>Docs</a></li>
         
       </ul>
@@ -10511,19 +10492,19 @@
   </entry>
   
   <entry>
-    <id>https://github.com/GNOME/pybliographer</id>
+    <id>https://gitlab.gnome.org/Archive/pybliographer</id>
     <title>Pybliographer</title>
-    <link rel="alternate" type="text/html" href="https://github.com/GNOME/pybliographer" />
+    <link rel="alternate" type="text/html" href="https://gitlab.gnome.org/Archive/pybliographer" />
     <published>2018-11-24T02:37:00Z</published>
     <updated>2018-11-24T02:37:00Z</updated>
     <category term="audio"/><category term="audio"/><category term="audio"/>
 
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
-      <p><strong><a href="https://github.com/GNOME/pybliographer">Pybliographer</a></strong>: Bibliographic database manager with a user-friendly desktop UI.</p>
+      <p><strong><a href="https://gitlab.gnome.org/Archive/pybliographer">Pybliographer</a></strong>: Bibliographic database manager with a user-friendly desktop UI.</p>
       <p>Links:</p>
       <ul>
-        <li><a href='https://github.com/GNOME/pybliographer'>Repo</a></li>
+        <li><a href='https://gitlab.gnome.org/Archive/pybliographer'>Repo</a></li>
         <li><a href='https://pybliographer.org/'>Home</a></li>
         
       </ul>

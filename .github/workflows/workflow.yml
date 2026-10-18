@@ -7,22 +7,38 @@ jobs:
   linkchecker:
     name: linkchecker
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    env:
+      ISSUE_LABEL: link-check
     steps:
       - uses: actions/checkout@v4
 
+      # Split restore/save so the cache persists even when links fail.
+      # Keyed per run so each run saves fresh results; restore takes the newest.
       - name: Restore lychee cache
-        uses: actions/cache@v4
+        id: restore-cache
+        uses: actions/cache/restore@v6
         with:
           path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
+          key: cache-lychee-${{ github.run_id }}
           restore-keys: cache-lychee-
 
+      # Only successes are cached, so failures are re-checked every run.
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --cache --max-cache-age 3d --no-progress --max-retries 3 --max-concurrency 5 'README.md'
-          fail: true
+          args: --cache --max-cache-age 3d --cache-exclude-status '400..' --no-progress --max-retries 3 --max-concurrency 5 'README.md'
+          fail: false
+
+      - name: Save lychee cache
+        uses: actions/cache/save@v6
+        if: always()
+        with:
+          path: .lycheecache
+          key: ${{ steps.restore-cache.outputs.cache-primary-key }}
 
       - name: Upload link report as an artifact
         uses: actions/upload-artifact@v4
@@ -30,3 +46,26 @@ jobs:
         with:
           name: lychee-report
           path: lychee/out.md
+
+      - name: Find open link report issue
+        id: issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --label "$ISSUE_LABEL" --json number --jq '.[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update link report issue
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: ${{ env.ISSUE_LABEL }}
+          issue-number: ${{ steps.issue.outputs.number }}
+
+      - name: Close link report issue when clean
+        if: steps.lychee.outputs.exit_code == 0 && steps.issue.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close "${{ steps.issue.outputs.number }}" --repo "$GITHUB_REPOSITORY" --comment "All links passed in run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID."

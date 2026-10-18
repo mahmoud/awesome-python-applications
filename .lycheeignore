@@ -51,3 +51,14 @@ https://demo\.mathesar\.org
 
 # Scholia/Toolforge intermittent 503
 https://scholia\.toolforge\.org
+
+# Akamai bot manager returns 403 to automated requests
+https://www\.akamai\.com/infectionmonkey
+
+# Medium-hosted Netflix tech blog returns 403 to bots
+https://netflixtechblog\.com
+
+# Bot-challenged or IP-blocked from CI runners (200 from a browser)
+https://asciinema\.org
+https://gramps-project\.org
+https://foss\.heptapod\.net

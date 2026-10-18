@@ -464,7 +464,7 @@ projects:
       - qt5
   - name: Reddit
     repo_url: https://github.com/reddit-archive/reddit
-    home_url: http://reddit.com/
+    home_url: https://www.reddit.com/
     date_added: 2018-11-26 01:59:00
     desc: Social news forum with voting, commenting, karma, and more. (Archival repo from 2017.)
     tags:
@@ -1435,7 +1435,7 @@ projects:
     repo_url: https://github.com/saulpw/visidata
     home_url: https://visidata.org/
     docs_url: https://visidata.org/docs
-    fund_url: https://patreon.com/saulpw
+    fund_url: https://www.patreon.com/saulpw
     pypi_url: https://pypi.org/project/visidata
     date_added: 2019-10-29 10:00:00
     desc: Interactive multitool for exploring, analyzing, and converting datasets in the terminal.
@@ -1556,7 +1556,6 @@ projects:
       - server
   - name: CouchPotato
     repo_url: https://github.com/CouchPotato/CouchPotatoServer
-    home_url: http://couchpota.to/
     date_added: 2019-09-04 20:17:00
     desc: Personal video recorder focused on movies, with support for usenet and torrents.
     tags:
@@ -2344,7 +2343,7 @@ projects:
       - gov
   - name: odemis
     repo_url: https://github.com/delmic/odemis
-    home_url: https://www.delmic.com/microscopy-software-odemis
+    blog_url: https://blog.delmic.com/odemis-delmics-open-source-microscopy-software
     date_added: 2019-10-01 18:55:00
     desc: Desktop imaging workflow software for Delmic microscopes, supporting autofocus, coordinate history, and OME-TIFF and HDF5 export.
     tags:
@@ -3026,7 +3025,7 @@ projects:
     docs_url: https://zope.readthedocs.io/en/latest/zopebook/ZEO.html
     pypi_url: https://pypi.org/project/ZEO
     date_added: 2019-11-13 18:42:00
-    desc: Server and client providing [ZODB](http://www.zodb.org/)-based storage over the network.
+    desc: Server and client providing [ZODB](https://zodb.org/)-based storage over the network.
     tags:
       - storage
       - linux
@@ -3165,7 +3164,7 @@ projects:
   - name: Nagstamon
     repo_url: https://github.com/HenriWahl/Nagstamon
     home_url: https://nagstamon.de/
-    docs_url: https://nagstamon.de/docs
+    docs_url: https://nagstamon.de/documentation
     date_added: 2019-10-01 21:51:00
     desc: Status monitor for the desktop, with support for Nagios, Icinga, Opsview, and more.
     tags:
@@ -3242,7 +3241,7 @@ projects:
       - server
   - name: Salt Stack
     repo_url: https://github.com/saltstack/salt
-    home_url: https://repo.saltproject.io/
+    home_url: https://saltproject.io/
     date_added: 2018-11-26 01:59:00
     desc: Automation for the management and configuration of any infrastructure or application at scale.
     tags: # or linux? what to do when installation is vagrant-centric?
@@ -3535,7 +3534,7 @@ projects:
     home_url: https://doc2dash.readthedocs.io/
     pypi_url: https://pypi.org/project/doc2dash
     date_added: 2019-11-13 18:33:00
-    desc: Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and [other](https://velocity.silverlakesoftware.com/) [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).
+    desc: Extensible CLI-based [Documentation Set](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/Documentation_Sets/010-Overview_of_Documentation_Sets/docset_overview.html#//apple_ref/doc/uid/TP40005266-CH13-SW6) generator intended for use with [Dash.app](https://kapeli.com/dash/) and other [compatible](https://github.com/dash-docs-el/helm-dash) [API browsers](https://zealdocs.org/).
     tags:
       - docs
       - linux
@@ -3672,7 +3671,6 @@ projects:
   - name: Ninja IDE
     repo_url: https://github.com/ninja-ide/ninja-ide
     home_url: http://ninja-ide.org/
-    wp_url: https://en.wikipedia.org/wiki/Ninja_IDE
     date_added: 2018-11-26 01:59:00
     desc: Cross-platform Python IDE with project management, linting, extensions, and more.
     tags:
@@ -3921,9 +3919,9 @@ projects:
       - windows
       - mac
   - name: GYP
-    repo_url: https://github.com/niccokunzmann/gyp
-    home_url: https://github.com/niccokunzmann/gyp
-    clone_url: git+https://github.com/niccokunzmann/gyp
+    repo_url: https://github.com/chromium/gyp
+    home_url: https://github.com/chromium/gyp
+    clone_url: git+https://github.com/chromium/gyp
     wp_url: https://en.wikipedia.org/wiki/GYP_%28software%29
     date_added: 2018-11-26 01:59:00
     desc: AKA 'Generate Your Projects', a build system that generates other build systems.
@@ -4375,7 +4373,6 @@ projects:
       - gtk
   - name: Nimbus
     repo_url: https://github.com/nimbusproject/nimbus # hybrid w java?
-    home_url: http://www.nimbusproject.org/
     date_added: 2018-11-26 01:59:00
     desc: Infrastructure-as-a-Service platform geared toward scientific cloud computing.
     tags:

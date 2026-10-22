@@ -845,6 +845,18 @@ projects:
       - linux
       - windows
       - mac
+  - name: Horizon
+    repo_url: https://github.com/Thysrael/Horizon
+    home_url: https://www.horizon1123.top/
+    docs_url: https://thysrael.github.io/Horizon/configuration
+    demo_url: https://thysrael.github.io/Horizon/
+    date_added: 2026-08-26 00:00:00
+    desc: AI-powered news radar that aggregates multiple sources, deduplicates and scores stories, enriches them with context, and delivers personalized multilingual daily briefings.
+    tags:
+      - ai
+      - internet
+      - console
+      - docker
   - name: MLflow
     repo_url: https://github.com/mlflow/mlflow
     home_url: https://mlflow.org/

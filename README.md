@@ -132,6 +132,7 @@ thereof), see Architectures. -->
   1. **Stargate DAW** - ([Repo](https://github.com/stargatedaw/stargate)) All-in-one Digital Audio Workstation (DAW) with a suite of instrument and effect plugins. `(linux, windows, mac, qt56)`
   1. **Supysonic** - ([Repo](https://github.com/spl0k/supysonic)) Implementation of the [Subsonic server API](http://www.subsonic.org/), with support for browsing, streaming, transcoding, scrobbling, and more. `(server)`
   1. **Whipper** - ([Repo](https://github.com/whipper-team/whipper)) A CLI-based CD Audio ripper designed for accuracy over speed, with support for overriding hardware caches, accuracy verification, MusicBrainz metadata lookup, hidden tracks, FLAC, and much more. `(linux)`
+  1. **Voice Wake** - ([Repo](https://github.com/Czy050412/voice-wake)) Offline voice assistant for Windows with wake word detection, transparent HUD overlay, and faster-whisper engine. `(windows, desktop)`
 
 ## <a id="tag-video" href="#tag-video">Video</a>
 

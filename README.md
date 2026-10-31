@@ -464,6 +464,8 @@ Projects related to software development and adjacent technical areas.
   1. **Spinnaker** - ([Repo](https://github.com/spinnaker/spinnaker), [Home](https://www.spinnaker.io/), [WP](https://en.wikipedia.org/wiki/Spinnaker_%28software%29), [Docs](https://spinnaker.io/docs/concepts)) Continuous delivery platform developed for Netflix's deployment and management of applications in cloud environments. `(server, corp)`
   1. **StackStorm** - ([Repo](https://github.com/StackStorm/st2), [Home](http://www.stackstorm.com/)) Rules- and event-driven operational automation for auto-remediation, security responses, troubleshooting, deployments, and more. `(server, corp)`
   1. **Supervisor** - ([Repo](https://github.com/Supervisor/supervisor), [Home](http://supervisord.org/)) Process manager and monitor. `(linux, mac, server)`
+  2. **CodeFlash** - ([Repo](https://github.com/codeflash-ai/codeflash), [Home](https://codeflash.ai)) AI-powered Python code optimizer with automated performance improvements and correctness verification. `(python, performance, optimization)`
+
 
 ### <a id="tag-dev.security" href="#tag-dev.security">Security</a>
 

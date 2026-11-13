@@ -4433,3 +4433,16 @@ projects:
       - misc
       - linux
       - windows
+
+  - name: EXR Converter
+    repo_url: https://github.com/derek-rein/exr-converter
+    home_url: https://vfx.systems/exr-converter
+    docs_url: https://vfx.systems/docs/exr-converter
+    date_added: 2026-11-13 12:00:00
+    desc: Desktop and CLI tool for EXR to video and video to EXR conversion, built for VFX dailies, review exports, and plate round-trips, with OpenColorIO color management, camera RAW support, slates and burn-ins.
+    tags:
+      - video
+      - linux
+      - windows
+      - mac
+      - qt6

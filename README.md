@@ -150,6 +150,7 @@ thereof), see Architectures. -->
   1. **dvc (Data Version Control)** - ([Repo](https://github.com/iterative/dvc), [Home](https://dvc.org/), [Docs](https://dvc.org/doc)) Command-line tool for version control over data used in machine learning projects. Aims to replace Excel and other tools used to track and deploy model versions. `(organization, scm, linux, windows, mac)`
   1. **MLflow** - ([Repo](https://github.com/mlflow/mlflow), [Home](https://mlflow.org/), [Docs](https://mlflow.org/docs/latest/index.html)) Integrated command-line application and web service, supporting an end-to-end machine-learning workflow around tracking, packaging, and deploying. Developed by [Databricks](https://docs.databricks.com/applications/mlflow/index.html). `(organization, dev, linux, mac, corp)`
   1. **Polyaxon** - ([Repo](https://github.com/polyaxon/polyaxon), [Home](https://polyaxon.com/), [Docs](https://docs.polyaxon.com/)) A web-based platform for reproducible and scalable machine learning experiment management and metrics-tracking, based on kubernetes, with support for TensorFlow, PyTorch, Keras, and many more. `(dev, server)`
+  1. **ARB Universal IDE** - ([Repo](https://github.com/aaravroybhattacharya-sketch/arb-universal-ide), [Home](https://arb-universal-ide.vercel.app)) Offline multi-language desktop IDE that compiles plain English into executable code using embedded Qwen 2.5 Coder 7B.
 
 ## <a id="tag-graphics" href="#tag-graphics">Graphics</a>
 

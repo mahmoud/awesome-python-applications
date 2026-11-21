@@ -4433,3 +4433,13 @@ projects:
       - misc
       - linux
       - windows
+  - name: TaskService
+    repo_url: https://github.com/wittiden/TaskService
+    docs_url: https://github.com/wittiden/TaskService#readme
+    date_added: 2026-11-22 00:00:00
+    desc: Self-hosted task-management REST API for teams, with token-based authentication and role-based access control, async PostgreSQL persistence, Redis-backed sessions and rate limiting, background email delivery and scheduled cleanup, audit history, and built-in metrics, error tracking, and structured logs. Ships with Docker Compose and database migrations.
+    tags:
+      - organization
+      - server
+      - docker
+      - fastapi

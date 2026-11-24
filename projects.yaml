@@ -156,6 +156,18 @@ projects:
       - internet
       - server
       - fastapi
+  - name: Boiler
+    repo_url: https://github.com/princezoho/zohoboil
+    home_url: https://boiler.jejestudios.com
+    date_added: 2026-08-17 00:00:00
+    desc: Adds the line boil of hand-drawn animation to video, displacing the edges of every frame a few pixels off their true position and holding each drawing for a set number of frames. Also does chromatic aberration and film grain.
+    tags:
+      - video
+      - graphics
+      - mac
+      - windows
+      - linux
+      - flask
   - name: Bookwyrm
     repo_url: https://github.com/bookwyrm-social/bookwyrm
     home_url: https://bookwyrm.social/
